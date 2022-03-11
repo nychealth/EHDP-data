@@ -1,4 +1,4 @@
-# Heat Syndrome Data
+# Data features: Heat Syndrome Data
 
 This contains data on heat syndrome emergency department visits, and max daily temperature. Data in this repository feed the interface at http://a816-dohbesp.nyc.gov/IndicatorPublic/HeatHub/syndromic.html
 
