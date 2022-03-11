@@ -1,12 +1,13 @@
 # The Environment and Health Data Portal: Data
 
-This repository serves data used by the Environment and health Data Portal. 
+This repository serves data used by the Environment and Health Data Portal. 
 
 Details on data files and definitions are available in Readme files in each folder:
 - indicators
 - neighborhoodreports
 - datastories
 - datafeatures
+- geography
 
 ## Contact us
 
