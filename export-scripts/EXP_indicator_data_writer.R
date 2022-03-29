@@ -86,6 +86,8 @@ for (i in 1:length(IndicatorIDs)) {
     
     this_indicator <- IndicatorIDs[i]
     
+    cat(i, "/", length(IndicatorIDs), " [", this_indicator, "]", "\n", sep = "")
+    
     exp_json <- 
         EXP_data_export %>% 
         filter(IndicatorID == this_indicator) %>% 

@@ -2109,7 +2109,7 @@
   },
   {
     "IndicatorID":10,
-    "IndicatorName":"Sex Ratio ",
+    "IndicatorName":"Sex Ratio",
     "IndicatorShortname":null,
     "IndicatorDescription":null,
     "Measures":[
@@ -2263,6 +2263,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -2286,6 +2296,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -2351,6 +2371,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -2374,6 +2404,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -2430,6 +2470,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2012-16",
             "start_period":1325376000000,
             "end_period":1483142400000
@@ -2438,6 +2488,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -2495,6 +2555,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2012-16",
             "start_period":1325376000000,
             "end_period":1483142400000
@@ -2503,6 +2573,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -2535,7 +2615,7 @@
         "MeasureID":26,
         "MeasurementType":"Number",
         "how_calculated":"Number of housing units built before 1950.",
-        "Sources":"United States Census",
+        "Sources":"American Community Survey; United States Census",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -2567,9 +2647,49 @@
             "end_period":978220800000
           },
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2011-15",
             "start_period":1293840000000,
             "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -2582,7 +2702,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -2594,7 +2714,7 @@
         "MeasureID":27,
         "MeasurementType":"Percent",
         "how_calculated":"Number of housing units built before 1950, divided by all housing units; expressed as percent.    ",
-        "Sources":"United States Census",
+        "Sources":"American Community Survey; United States Census",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -2626,9 +2746,49 @@
             "end_period":978220800000
           },
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2011-15",
             "start_period":1293840000000,
             "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -2641,7 +2801,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -2694,6 +2854,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -2717,6 +2887,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -2774,6 +2954,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -2797,6 +2987,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -2910,6 +3110,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -3015,6 +3230,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -3153,6 +3383,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -3330,6 +3575,22 @@
               },
               {
                 "MeasureID":942,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":953,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":954,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":959,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":966,
                 "Axis":"y"
               },
               {
@@ -4015,7 +4276,7 @@
   },
   {
     "IndicatorID":28,
-    "IndicatorName":"Hypoplastic Left Heart Syndrome ",
+    "IndicatorName":"Hypoplastic Left Heart Syndrome",
     "IndicatorShortname":null,
     "IndicatorDescription":null,
     "Measures":[
@@ -4201,7 +4462,7 @@
   },
   {
     "IndicatorID":29,
-    "IndicatorName":"Transposition of the Great Arteries (Vessels) ",
+    "IndicatorName":"Transposition of the Great Arteries (Vessels)",
     "IndicatorShortname":null,
     "IndicatorDescription":null,
     "Measures":[
@@ -4387,7 +4648,7 @@
   },
   {
     "IndicatorID":30,
-    "IndicatorName":"Cleft Lip with or without Cleft Palate ",
+    "IndicatorName":"Cleft Lip with or without Cleft Palate",
     "IndicatorShortname":null,
     "IndicatorDescription":null,
     "Measures":[
@@ -4573,7 +4834,7 @@
   },
   {
     "IndicatorID":31,
-    "IndicatorName":"Cleft Palate without Cleft Lip ",
+    "IndicatorName":"Cleft Palate without Cleft Lip",
     "IndicatorShortname":null,
     "IndicatorDescription":null,
     "Measures":[
@@ -4759,7 +5020,7 @@
   },
   {
     "IndicatorID":32,
-    "IndicatorName":"Hypospadias ",
+    "IndicatorName":"Hypospadias",
     "IndicatorShortname":null,
     "IndicatorDescription":null,
     "Measures":[
@@ -4945,7 +5206,7 @@
   },
   {
     "IndicatorID":33,
-    "IndicatorName":"Gastroschisis ",
+    "IndicatorName":"Gastroschisis",
     "IndicatorShortname":null,
     "IndicatorDescription":null,
     "Measures":[
@@ -5875,7 +6136,7 @@
   },
   {
     "IndicatorID":38,
-    "IndicatorName":"Carbon Monoxide Incidents ",
+    "IndicatorName":"Carbon Monoxide Incidents",
     "IndicatorShortname":null,
     "IndicatorDescription":null,
     "Measures":[
@@ -11488,6 +11749,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -11620,6 +11886,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -13022,6 +13293,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -13142,6 +13433,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -13270,6 +13581,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -13385,6 +13716,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -13508,6 +13859,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -13623,6 +13994,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -13746,6 +14137,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -13861,6 +14272,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -13984,6 +14415,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -14104,6 +14555,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -14227,6 +14698,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -14342,6 +14833,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -14465,6 +14976,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -14779,6 +15310,26 @@
             "TimeDescription":"2013",
             "start_period":1356998400000,
             "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -14843,6 +15394,16 @@
             "end_period":978220800000
           },
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -14866,6 +15427,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -14943,6 +15514,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -14966,6 +15547,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -16257,1785 +16848,6 @@
     ]
   },
   {
-    "IndicatorID":774,
-    "IndicatorName":"State of Good Repair",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":256,
-        "MeasurementType":"Bridges",
-        "how_calculated":"The NYC Department of Transportation (DOT) has under its purview 842 bridges. Federal and State law require that bridges be inspected a minimum of every two years. New York State performs the actual bridge inspections and assigns a numerical rating. The NYC DOT then translates those ratings to the verbal designations of \"very good,\" \"good,\" \"fair\" or \"poor.\" This indicator is the percent of bridges rated as either \"very good\", \"good\", or \"fair\".",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":257,
-        "MeasurementType":"Roads",
-        "how_calculated":"The NYC DOT Street Assessment Unit conducts an annual pavement condition survey that assesses conditions for one half of New York City streets. The entire city is evaluated once every two years. Street Assessment inspectors rate individual city streets on a scale of 1 through 10 (1 being the worst and 10 being the best). Any street that receives a rating of 7 or below is eligible for resurfacing, whereas any street with a rating of 8 through 10 is not eligible and is in a state of good repair. Reported are the percentages of streets rating between 8 and 10.",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":258,
-        "MeasurementType":"Subway Station Components",
-        "how_calculated":"The number of subway stations for which infrastructure components are replaced on a schedule consistent with its life expectancy. The indicator tracks how many stations have been renovated by the end of their expected useful life, expressed as a percentage.",
-        "Sources":"Metropolitan Transportation Authority ",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":775,
-    "IndicatorName":"Park Distance",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":260,
-        "MeasurementType":"New Yorkers within 1\/4 Mile",
-        "how_calculated":"The percentage of the census block area that falls within 1\/4 mile of a park edge in a given year, multiplied by the total population of the Census block, summed for all census blocks, then expressed as a percent of 2000 Census population. ",
-        "Sources":"New York City Department of Parks and Recreation",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":776,
-    "IndicatorName":"Greenhouse Gas Emissions",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":261,
-        "MeasurementType":"Per Capita",
-        "how_calculated":"The number of metric tons of carbon dioxide equivalent (CO2e) emitted by NYC buildings (direct emissions from combustion of fuel oil and natural gas, indirect emissions from generation of electricity and steam); transportation (direct emissions from buses, commuter rail, trucks, and passenger cars, and indirect emissions from electricity for mass transit); and indirect emissions from generation of electricity used in streetlights and traffic signals; together with fugitive and process emissions (from solid waste management, electricity distribution, wastewater treatment, and vehicle cooling). CO2 equivalent includes emissions of CO2 as well as an equivalent amount of CO2 (in terms of global warming impact) of other greenhouse gases, including methane, nitrous oxide, hydroflourocarbons, perfluorocarbons, and sulfur hexafluoride. Each gas is converted to CO2e, based on its potential to trap heat in the Earth's atmosphere, and emissions from all six gases are added together for reporting in one common unit.\r\nThe total is divided by the NYC intercensal population estimates, which are calculated by the US Census Bureau and then verified by the NYC Department of City Planning.",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"MTCO2e \/ person",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":269,
-        "MeasurementType":"Per Gross City Product (GCP)",
-        "how_calculated":"The number of metric tons of carbon dioxide equivalent (CO2e) emitted by NYC buildings (direct emissions from combustion of fuel oil and natural gas, indirect emissions from generation of electricity and steam); transportation (direct emissions from buses, commuter rail, trucks, and passenger cars, and indirect emissions from electricity for mass transit); and indirect emissions from generation of electricity used in streetlights and traffic signals; together with fugitive and process emissions (from solid waste management, electricity distribution, wastewater treatment, and vehicle cooling). CO2 equivalent includes emissions of CO2 as well as an equivalent amount of CO2 (in terms of global warming impact) of other greenhouse gases, including methane, nitrous oxide, hydroflourocarbons, perfluorocarbons, and sulfur hexafluoride. Each gas is converted to CO2e, based on its potential to trap heat in the Earth's atmosphere, and emissions from all six gases are added together for reporting in one common unit.\r\nThe total is divided by the gross city product (GCP); expressed in millions of 2005 dollars. ",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"MTCO2e \/ GCP ($M)",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":272,
-        "MeasurementType":"Metric Tons of CO2 Equivalents (MTCO2e)",
-        "how_calculated":"The number of metric tons of carbon dioxide equivalent (CO2e) emitted by NYC buildings (direct emissions from combustion of fuel oil and natural gas, indirect emissions from generation of electricity and steam); transportation (direct emissions from buses, commuter rail, trucks, and passenger cars, and indirect emissions from electricity for mass transit); and indirect emissions from generation of electricity used in streetlights and traffic signals; together with fugitive and process emissions (from solid waste management, electricity distribution, wastewater treatment, and vehicle cooling). CO2 equivalent includes emissions of CO2 as well as an equivalent amount of CO2 (in terms of global warming impact) of other greenhouse gases, including methane, nitrous oxide, hydroflourocarbons, perfluorocarbons, and sulfur hexafluoride. Each gas is converted to CO2e, based on its potential to trap heat in the Earth's atmosphere, and emissions from all six gases are added together for reporting in one common unit.",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":273,
-        "MeasurementType":"Reduction from 2005",
-        "how_calculated":"The number of metric tons of carbon dioxide equivalent (CO2e) emitted by NYC buildings (direct emissions from combustion of fuel oil and natural gas, indirect emissions from generation of electricity and steam); transportation (direct emissions from buses, commuter rail, trucks, and passenger cars, and indirect emissions from electricity for mass transit); and indirect emissions from generation of electricity used in streetlights and traffic signals; together with fugitive and process emissions (from solid waste management, electricity distribution, wastewater treatment, and vehicle cooling). CO2 equivalent includes emissions of CO2 as well as an equivalent amount of CO2 (in terms of global warming impact) of other greenhouse gases, including methane, nitrous oxide, hydroflourocarbons, perfluorocarbons, and sulfur hexafluoride. Each gas is converted to CO2e, based on its potential to trap heat in the Earth's atmosphere, and emissions from all six gases are added together for reporting in one common unit.\r\nThe number for each year is expressed as a percentage of 2005 base output. When the city has met its goal of a 30% reduction, this indicator will read \"70\".",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"percent of 2005 emissions",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2001,
-    "IndicatorName":"Drinking Water Demand",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":263,
-        "MeasurementType":"Average Daily Water Use per Capita",
-        "how_calculated":"The average daily number of gallons of drinking water diverted to in-city supply over the course of the year. This amount is divided by the NYC intercensal population estimates, which are calculated by the US Census Bureau and then verified by the NYC Department of City Planning.",
-        "Sources":"New York City Department of Environmental Protection (DEP) Drinking Water Supply and Quality Report",
-        "DisplayType":"gallons \/ person",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2002,
-    "IndicatorName":"Housing Supply ",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":264,
-        "MeasurementType":"Cumulative Number of New Units since 2007",
-        "how_calculated":"The cumulative sum of the number of Certificates of Occupancy, including Temporary Certificates of Occupancy, issued annually by the Department of Buildings since the inception of PlaNYC in 2007. A Certificate of Occupancy is required by the City and indicates that a building is ready for occupation. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-        "Sources":"New York City Department of City Planning (DCP) Permit and Occupancy Data ",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":265,
-        "MeasurementType":"Total Number of Existing Units",
-        "how_calculated":"The number of housing units in NYC is derived from the Housing and Vacancy Survey (HVS), which is a triennial, population-based, cross-sectional survey of housing units in NYC.",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2003,
-    "IndicatorName":"Housing Affordability",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":266,
-        "MeasurementType":"Housing Affordable for Median Income NYC Household",
-        "how_calculated":"For each year of Housing and Vacancy Survey (HVS) data, a housing budget is calculated by taking the estimated citywide median household income for all households (from the HVS), divided by 12 months, and multiplied by 0.3. The estimated percentage of rental units (occupied and vacant\/available for rent) with an asking rent (contract) less than or equal to the derived maximum housing budget are counted as affordable to the typical NYC household. This measure incorporates changes in median household income as well as changes in asking rent. ",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":267,
-        "MeasurementType":"Low-Rent Housing Unit Vacancy Rate",
-        "how_calculated":"Estimated citywide number of vacant or available for rent units in the lowest rent category (<$700 real 2008 dollars), divided by the citywide estimate of total rental units (occupied and available for rent) in that category.",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2004,
-    "IndicatorName":"Housing Sustainability",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":270,
-        "MeasurementType":"New Permits for Units within 1\/2 Mile of Transit",
-        "how_calculated":"The percentage of new building permits for residential units issued annually by the Department of Buildings that are located within a 1\/2 mile radius of a transit node (e.g., subway stop, commuter rail station).",
-        "Sources":"New York City Department of City Planning (DCP) Permit and Occupancy Data ",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":334,
-        "MeasurementType":"Residential Building Energy Usage(MMBTU)per capita",
-        "how_calculated":"The amount of fuel oil, electricity, natural gas, and steam power used in the City's residential building stock is converted to MMBTU and then divided by the City population. Because a hotter or colder summer or winter can have a significant impact on energy usage, this metric lessens the effects of weather by calculating a 3 year rolling average of energy usage for each year.",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"3 year rolling average",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2005,
-    "IndicatorName":"Cleaner Energy",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":271,
-        "MeasurementType":"Carbon Intensity of Electricity",
-        "how_calculated":"The number of pounds of CO2e produced by all NYC sources of electricity, divided by the citywide electric energy usage in megawatt-hours. The amount of CO2e that an electricity source will produce depends on the fuel that is burned and loss that occurs within the distribution network. CO2 equivalents include both emissions of CO2 as well as an equivalent amount of CO2 (in terms of global warming impact) of greenhouse gases of other greenhouse gases. These gases include methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs) and sulfur hexafluoride (SF6), each of which has a specific global warming potential (potential to trap heat in Earth's atmosphere). All six greenhouse gases are converted to CO2e and added together to report in one common unit.",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"CO2e lbs \/ MWh",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2006,
-    "IndicatorName":"Energy Reliability",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":318,
-        "MeasurementType":"System Average Interruption Frequency Index",
-        "how_calculated":"ConEdison calculates a System Average Interruption Frequency Index (SAIFI) on an annual basis, which gauges the relative reliability of the NYC electricity network. It does so by measuring the average number of service interruptions per 1000 customers in a given year.",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"per 1,000 customers",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2007,
-    "IndicatorName":"Energy Efficiency",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":275,
-        "MeasurementType":"Energy Usage (MMBTU) per capita",
-        "how_calculated":"The amount of fuel oil, electricity, natural gas, and steam power used in the City's building stock is converted to MMBTU and then divided by the City population. Because a hotter or colder summer or winter can have a significant impact on energy usage, this metric lessens the effects of weather by calculating a 3 year rolling average of energy usage for each year.",
-        "Sources":"New York City Mayor's Office of Long Term Planning and Sustainability (OLTPS) PlaNYC Indicator Data",
-        "DisplayType":"3 year rolling average",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2008,
-    "IndicatorName":"New York Harbor Water Quality",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":276,
-        "MeasurementType":"Dissolved Oxygen Rate",
-        "how_calculated":"The annual average dissolved oxygen concentration (mg\/L) across Harbor Survey stations. There is a NYS standard of 5.0mg\/L necessary to allow bathing, in addition to a less stringent standard to allow fishing and boating. A higher number indicates a cleaner harbor.",
-        "Sources":"New York Harbor Water Quality Survey",
-        "DisplayType":"mg\/L",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":278,
-        "MeasurementType":"Fecal Coliform Rate",
-        "how_calculated":"The annual geometric mean of fecal coliform counts across Harbor Survey stations. The state standard to allow bathing is a monthly geometric mean less than or equal to 200 cells \/ 100mL (from 5 or more samples). There is a less stringent standard to allow fishing and boating.",
-        "Sources":"New York Harbor Water Quality Survey",
-        "DisplayType":"cells\/100 mL",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2009,
-    "IndicatorName":"Drinking Water Quality",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":277,
-        "MeasurementType":"Analyses Below Maximum Contaminant Levels (MCLs)",
-        "how_calculated":"The number of NYC drinking water analyses that are below the NYS maximum contaminant level (MCL) for 227 different contaminants tested throughout the year, divided by the total number of analyses performed throughout the year; expressed as a percent, with a maximum value of 100%. The NYC Department of Environmental Protection performs over 10,000 drinking water analyses monthly. ",
-        "Sources":"New York City Department of Environmental Protection (DEP) Drinking Water Supply and Quality Report",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2011,
-    "IndicatorName":"Modal Shift - All Travel",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":283,
-        "MeasurementType":"Automobile and Transit Volume",
-        "how_calculated":"Automobile traffic is calculated by summing data reported in the New York Metropolitan Transportation Council's (NYMTC) annual hub-bound (Manhattan below 60th St) report, the NYC Department of Transportation\u2019s (DOT) screenline reports, and annual bridge traffic data. The NYMTC and NYC DOT traffic and screenline reports are manual counts that are modeled in order to extrapolate throughout the year. Transit ridership is calculated from NYC transit subway and bus boarding data, and includes bicycle ridership as estimated from NYC DOT bicycle screenline (boundary) counts and NYMTC annual hub-bound reports. Both numbers are indexed so that their volume percentage in the year 2000 equals 100.",
-        "Sources":"New York City Department of Transportation Sustainable Streets Index",
-        "DisplayType":"percent of year 2000 volume",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"AllBoroughs"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2012,
-    "IndicatorName":"Modal Shift - Travel to the Central Business District",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":284,
-        "MeasurementType":"Non-Automobile Share",
-        "how_calculated":"Number of trips to the central business district (Manhattan below 60th street) on a typical fall morning by transit (bus, subway, railroad, passenger ferry, tram) or bicycle, divided by the total number of automobile, taxi, van and truck trips; expressed as a percent.",
-        "Sources":"New York Metropolitan Transportation Council (NYMTC) Hub Bound Travel Report",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2014,
-    "IndicatorName":"Transit Capacity ",
-    "IndicatorShortname":null,
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":286,
-        "MeasurementType":"Vehicle Revenue Miles (in millions)",
-        "how_calculated":"<p>The total number of miles (in millions) that transit (public transportation) vehicles (subway cars, rail cars, buses, ferry boats, van pools, trams, para-transit vehicles) are scheduled to travel or actually travel while in revenue service. This number combines all transit agencies in the New York metropolitan area, including non-city agencies that provide significant transit service to and from the city (e.g., Long Island Rail Road). Vehicle revenue miles do not include situations when a bus or subway car travels without passengers back to a storage depot.<\/p>",
-        "Sources":"National Transit Database",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"1999",
-            "start_period":915148800000,
-            "end_period":946598400000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":2017,
     "IndicatorName":"Adults without a Smoke-Free Home Policy",
     "IndicatorShortname":"Smoke-free homes",
@@ -18365,6 +17177,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -18488,6 +17315,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -25629,6 +24471,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -25726,6 +24573,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -26059,6 +24911,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -26169,6 +25036,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -26261,6 +25143,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -26336,6 +25233,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -27081,6 +25993,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -27166,6 +26093,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -27288,6 +26230,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -27393,6 +26350,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -27541,6 +26513,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -27656,6 +26643,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -27964,6 +26966,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -28079,6 +27096,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -34898,6 +33930,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -34988,6 +34035,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -35424,9 +34486,9 @@
   },
   {
     "IndicatorID":2108,
-    "IndicatorName":"PM2.5-Attributable Deaths ",
+    "IndicatorName":"PM2.5-Attributable Deaths",
     "IndicatorShortname":"Deaths from PM2.5",
-    "IndicatorDescription":"Estimating deaths that can be linked to PM2.5 is a way to understand how air pollution increases mortality.  ",
+    "IndicatorDescription":"<p>Estimating deaths that can be linked to PM2.5 is a way to understand how air pollution increases mortality.<\/p>",
     "Measures":[
       {
         "MeasureID":639,
@@ -35609,9 +34671,9 @@
   },
   {
     "IndicatorID":2117,
-    "IndicatorName":"PM2.5-Attributable Asthma Emergency Department Visits ",
+    "IndicatorName":"PM2.5-Attributable Asthma Emergency Department Visits",
     "IndicatorShortname":"PM2.5 asthma ED visits (children)",
-    "IndicatorDescription":"PM2.5-attributable asthma ED visits represent part of the health burden imposed by fine particle air pollution.",
+    "IndicatorDescription":"<p>PM2.5-attributable asthma ED visits represent part of the health burden imposed by fine particle air pollution.<\/p>",
     "Measures":[
       {
         "MeasureID":648,
@@ -35967,9 +35029,9 @@
   },
   {
     "IndicatorID":2120,
-    "IndicatorName":"PM2.5-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older) ",
+    "IndicatorName":"PM2.5-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older)",
     "IndicatorShortname":"PM2.5 health burden (heart)",
-    "IndicatorDescription":"PM2.5-attributable cardiovascular hospitalizations represent part of the health burden imposed by fine particle air pollution.",
+    "IndicatorDescription":"<p>PM2.5-attributable cardiovascular hospitalizations represent part of the health burden imposed by fine particle air pollution.<\/p>",
     "Measures":[
       {
         "MeasureID":651,
@@ -36091,7 +35153,7 @@
     "IndicatorID":2121,
     "IndicatorName":"O3-Attributable Cardiac and Respiratory Deaths",
     "IndicatorShortname":"Deaths from ozone",
-    "IndicatorDescription":"Estimating heart and respiratory deaths that can be linked to ozone is a way to understand how air pollution increases mortality.  ",
+    "IndicatorDescription":"<p>Estimating heart and respiratory deaths that can be linked to ozone is a way to understand how air pollution increases mortality.<\/p>",
     "Measures":[
       {
         "MeasureID":652,
@@ -36449,7 +35511,7 @@
     "IndicatorID":2124,
     "IndicatorName":"O3-Attributable Asthma Hospitalizations",
     "IndicatorShortname":"Ozone asthma hospitalizations (children)",
-    "IndicatorDescription":"Ozone-attributable asthma hospitalizations represent part of the health burden of ozone air pollution.",
+    "IndicatorDescription":"<p>Ozone-attributable asthma hospitalizations represent part of the health burden of ozone air pollution.<\/p>",
     "Measures":[
       {
         "MeasureID":655,
@@ -36683,9 +35745,9 @@
   },
   {
     "IndicatorID":2132,
-    "IndicatorName":"Adults with Health Insurance ",
+    "IndicatorName":"Adults with Health Insurance",
     "IndicatorShortname":"Health insurance (adults)",
-    "IndicatorDescription":"Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
+    "IndicatorDescription":"<p>Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.<\/p>",
     "Measures":[
       {
         "MeasureID":671,
@@ -36737,6 +35799,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -36807,6 +35884,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -37418,7 +36510,13 @@
             "GeoType":"Borough"
           },
           {
+            "GeoType":"CD"
+          },
+          {
             "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
           },
           {
             "GeoType":"UHF42"
@@ -37435,7 +36533,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":1
               }
             ],
@@ -37443,6 +36541,374 @@
               {
                 "On":1,
                 "Disparities":1
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2145,
+    "IndicatorName":"Adults with Independent Living Difficulty",
+    "IndicatorShortname":"Independence difficulty",
+    "IndicatorDescription":"<p>People with disabilities or access or functional needs may need additional support during extreme weather to avoid injury, illness or even death. For example, planning needs to be made for safe travel out of evacuation zones during a hurricane, or to ensure back-up electricity is available to to support medical equipment during power outages caused by heat waves.<\/p>\n<p>&nbsp;<\/p>\n<p>Information provided here about adults with independent living difficulties can help emergency management professionals better prepare our residents for emergencies. For more information, please visit:<\/p>\n<p><a href=\"https:\/\/www1.nyc.gov\/site\/em\/ready\/disabilities-access-functional-needs.page\">NYC Emergency Management: Disabilities, Access &amp; Functional Needs<\/a><\/p>",
+    "Measures":[
+      {
+        "MeasureID":692,
+        "MeasurementType":"Percent",
+        "how_calculated":"<p>Estimated number of adults in the civilian noninstitutionalized population (18 years and older) who report independent living difficulty because of a physical, mental, or emotional problem, or having difficulty doing errands alone such as visiting a doctor&rsquo;s office or shopping, divided by the total civilian noninstitutionalized population (18 years and older); expressed as percent.<\/p>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2008-2012",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":748,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":790,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":1257,
+                "Axis":"y"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID":1252,
+        "MeasurementType":"Number",
+        "how_calculated":"<p><span>Estimated number of adults in the civilian noninstitutionalized population (18 years and older) who report independent living difficulty because of a physical, mental, or emotional problem, or having difficulty doing errands alone such as visiting a doctor&rsquo;s office or shopping.<\/span><\/p>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2146,
+    "IndicatorName":"Older Adults Living Alone",
+    "IndicatorShortname":"Older adults living alone",
+    "IndicatorDescription":"Adults over the age of 65 are more vulnerable to extreme hot and cold weather. Those that live alone may have more difficulty getting the resources they need in extreme weather events and are at higher risk of weather-related illnesses like heat stroke and hypothermia.",
+    "Measures":[
+      {
+        "MeasureID":693,
+        "MeasurementType":"Percent",
+        "how_calculated":"Percent of people aged 65 and older living alone",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1060,
+        "MeasurementType":"Number",
+        "how_calculated":"<p><span>Estimated number of people aged 65 and older living alone.<\/span><\/p>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
               }
             ],
             "Links":null
@@ -37499,6 +36965,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -37564,6 +37045,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -38773,6 +38269,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -38796,6 +38302,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -38844,6 +38360,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -38867,6 +38393,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -39249,7 +38785,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":755,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -40009,7 +39550,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -40231,6 +39772,10 @@
               },
               {
                 "MeasureID":29,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":692,
                 "Axis":"x"
               },
               {
@@ -44979,6 +44524,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -45099,6 +44659,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -45447,6 +45022,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -45482,6 +45062,9 @@
           },
           {
             "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
           }
         ],
         "AvailableTimes":[
@@ -45494,6 +45077,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -45553,6 +45141,11 @@
             "TimeDescription":"2015",
             "start_period":1420070400000,
             "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -45565,7 +45158,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -45588,6 +45181,9 @@
           },
           {
             "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
           }
         ],
         "AvailableTimes":[
@@ -45595,6 +45191,11 @@
             "TimeDescription":"2015",
             "start_period":1420070400000,
             "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -45607,7 +45208,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -45650,6 +45251,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -45685,6 +45291,9 @@
           },
           {
             "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
           }
         ],
         "AvailableTimes":[
@@ -45697,6 +45306,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -45771,6 +45385,1249 @@
               }
             ],
             "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2312,
+    "IndicatorName":"Commercial Insecticide Use",
+    "IndicatorShortname":null,
+    "IndicatorDescription":null,
+    "Measures":[
+      {
+        "MeasureID":953,
+        "MeasurementType":"All Liquids",
+        "how_calculated":"<p><span>Sum of gallons (gal) of liquid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, mechanical, or termiticide.<\/span><\/p>",
+        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
+        "DisplayType":"gal",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":41,
+                "Axis":"x"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID":954,
+        "MeasurementType":"All Solids",
+        "how_calculated":"<p><span>Sum of pounds (lb) of solid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, \"mechanical\", or termiticide.<\/span><\/p>",
+        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
+        "DisplayType":"lb",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":41,
+                "Axis":"x"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID":955,
+        "MeasurementType":"Carbamate Liquids",
+        "how_calculated":"<p><span>Sum of gallons (gal) of liquid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, or termiticide; and containing active ingredient of the chemical class N-methyl carbamate<\/span><\/p>",
+        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
+        "DisplayType":"gal",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":956,
+        "MeasurementType":"Carbamate Solids",
+        "how_calculated":"<p><span>Sum of pounds (lb) of solid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, or termiticide; and containing active ingredients of the chemical class N-methyl carbamate<\/span><\/p>",
+        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
+        "DisplayType":"lb",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":957,
+        "MeasurementType":"Organophosphate Liquids",
+        "how_calculated":"<p><span>Sum of gallons (gal) of liquid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, or termiticide; and containing active ingredient of the chemical class organophosphorous compound.<\/span><\/p>",
+        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
+        "DisplayType":"gal",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":958,
+        "MeasurementType":"Organophosphate Solids",
+        "how_calculated":"<p><span>Sum of pounds (lb) of solid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, or termiticide; and containing active ingredient of the chemical class organophosphorous compound.<\/span><\/p>",
+        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
+        "DisplayType":"lb",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":959,
+        "MeasurementType":"Pyrethroid\/ Pyrethrin Liquids",
+        "how_calculated":"<p><span>Sum of gallons (gal) of liquid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, or termiticide; and containing active ingredient of the chemical class pyrethrin or pyrethroid.<\/span><\/p>",
+        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
+        "DisplayType":"gal",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":41,
+                "Axis":"x"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID":960,
+        "MeasurementType":"Pyrethroid\/ Pyrethrin Solids",
+        "how_calculated":"<p><span>Sum of pounds (lb) of solid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, or termiticide; and containing active ingredient of the chemical class pyrethrin or pyrethroid.<\/span><\/p>",
+        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
+        "DisplayType":"lb",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":966,
+        "MeasurementType":"Best Practice Products",
+        "how_calculated":"<p><span>Sum of pounds (lb) of solid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, or termiticide; having the term bait or gel in the product name, or containing active ingredients boric acid, disodium octaborate tetrahydrate, sodium tetraborate (pentahydrate), indoxacarb, silica gel, diatomaceous earth, (Z)-9-tricosene, S-methoprene, spinosad, hydramethylnon, pyriproxyfen, or fipronil; and not containing active ingredients of the chemical classes pyrethrins, pyrethroids, N-methyl carbamates or organophosphorous compounds.<\/span><\/p>",
+        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
+        "DisplayType":"lb",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":41,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -45969,6 +46826,470 @@
     ]
   },
   {
+    "IndicatorID":2325,
+    "IndicatorName":"Race and Ethnicity",
+    "IndicatorShortname":null,
+    "IndicatorDescription":null,
+    "Measures":[
+      {
+        "MeasureID":987,
+        "MeasurementType":"Percent Asian Alone",
+        "how_calculated":"<p>Estimated Percent Asian<\/p>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":1
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":988,
+        "MeasurementType":"Percent Black Alone",
+        "how_calculated":"<p>Estimated Percent Black<\/p>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":989,
+        "MeasurementType":"Percent Hispanic Alone",
+        "how_calculated":"<p>Estimated Percent Hispanic<\/p>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":990,
+        "MeasurementType":"Percent White Alone",
+        "how_calculated":"<p>Estimated Percent White<\/p>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":992,
+        "MeasurementType":"Total Population",
+        "how_calculated":"<p>Estimated Total Population<\/p>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1192,
+        "MeasurementType":"Percent Non-White",
+        "how_calculated":"<p><span>Estimated Percent Non-White<\/span><\/p>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          },
+          {
+            "GeoType":"Subboro"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID":2334,
     "IndicatorName":"High School Graduation",
     "IndicatorShortname":null,
@@ -46002,6 +47323,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -46025,6 +47356,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -46073,6 +47414,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -46096,6 +47447,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -46152,6 +47513,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -46175,6 +47546,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -46223,6 +47604,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -46246,6 +47637,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -46302,9 +47703,29 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -46317,7 +47738,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -46342,16 +47763,26 @@
             "GeoType":"Citywide"
           },
           {
+            "GeoType":"NTA"
+          },
+          {
             "GeoType":"Subboro"
           },
           {
             "GeoType":"UHF42"
-          },
-          {
-            "GeoType":"NTA"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
           {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
@@ -46376,6 +47807,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -46388,7 +47829,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -46441,6 +47882,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -46464,6 +47915,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -46512,6 +47973,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
             "TimeDescription":"2009-13",
             "start_period":1230768000000,
             "end_period":1388448000000
@@ -46535,6 +48006,16 @@
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -52633,6 +54114,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -52730,6 +54216,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -52860,6 +54351,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -52957,6 +54453,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -53054,6 +54555,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -53196,6 +54702,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -53293,6 +54804,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -53431,6 +54947,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -53528,6 +55049,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -53625,6 +55151,11 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -54286,15 +55817,6 @@
         "Sources":"New York City Department of Transportation ",
         "DisplayType":"",
         "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough"
-          },
-          {
-            "GeoType":"CD"
-          },
-          {
-            "GeoType":"Citywide"
-          },
           {
             "GeoType":"UHF42"
           }
@@ -55578,6 +57100,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":692,
+                "Axis":"x"
+              },
               {
                 "MeasureID":790,
                 "Axis":"x"
@@ -57391,6 +58917,140 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2414,
+    "IndicatorName":"Adults with Asthma",
+    "IndicatorShortname":"Adults with Asthma",
+    "IndicatorDescription":null,
+    "Measures":[
+      {
+        "MeasureID":1297,
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of adults aged 18 years and older who reported still having medically diagnosed asthma, rounded to the nearest 1,000.",
+        "Sources":"New York City Community Health Survey (CHS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1298,
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of adults aged 18 years and older who reported still having medically diagnosed asthma, divided by all adults; expressed as percent.",
+        "Sources":"New York City Community Health Survey (CHS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1299,
+        "MeasurementType":"Age-Adjusted Percent",
+        "how_calculated":"Estimated number of adults aged 18 years and older who reported still having medically diagnosed asthma, divided by all adults and adjusted for age; expressed as percent.",
+        "Sources":"New York City Community Health Survey (CHS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF34"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
