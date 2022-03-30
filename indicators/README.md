@@ -11,7 +11,7 @@ This file includes the following key fields:
 |----------|---|
 | IndicatorID  | The internal ID associated with this indicator |
 | Indicator Name | The full name of this indicator  |
-| IndicatorShortname | The short name used for display purposes  |
+| IndicatorLabel | The label used for display purposes  |
 | IndicatorDescription        | A text description of this indicator  |
 | Measures         | Measures associated with this indicator  |
 
