@@ -186,7 +186,7 @@ measure_geotypes = (
         [
             "IndicatorID",
             "IndicatorName",
-            "IndicatorShortname",
+            "IndicatorLabel",
             "IndicatorDescription",
             "MeasureID",
             "MeasurementType",
@@ -201,7 +201,7 @@ measure_geotypes = (
         [
             "IndicatorID",
             "IndicatorName",
-            "IndicatorShortname",
+            "IndicatorLabel",
             "IndicatorDescription",
             "MeasureID",
             "MeasurementType",
@@ -227,7 +227,7 @@ measure_times = (
         [
             "IndicatorID",
             "IndicatorName",
-            "IndicatorShortname",
+            "IndicatorLabel",
             "IndicatorDescription",
             "MeasureID",
             "MeasurementType",
@@ -244,7 +244,7 @@ measure_times = (
         [
             "IndicatorID",
             "IndicatorName",
-            "IndicatorShortname",
+            "IndicatorLabel",
             "IndicatorDescription",
             "MeasureID",
             "MeasurementType",
@@ -278,7 +278,7 @@ metadata = (
         [
             "IndicatorID",
             "IndicatorName",
-            "IndicatorShortname",
+            "IndicatorLabel",
             "IndicatorDescription"
         ],
         dropna = False

@@ -2,7 +2,7 @@
   {
     "IndicatorID":1,
     "IndicatorName":"Preterm Birth",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Preterm Birth",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -265,7 +265,7 @@
   {
     "IndicatorID":2,
     "IndicatorName":"Very Preterm Birth",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Very Preterm Birth",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -528,7 +528,7 @@
   {
     "IndicatorID":3,
     "IndicatorName":"Very Low Birthweight",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Very Low Birthweight",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -791,7 +791,7 @@
   {
     "IndicatorID":4,
     "IndicatorName":"Low Birthweight at Full Term",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Low Birthweight at Full Term",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -1062,7 +1062,7 @@
   {
     "IndicatorID":5,
     "IndicatorName":"Infant Death",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Infant Death",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -1304,7 +1304,7 @@
   {
     "IndicatorID":6,
     "IndicatorName":"Neonatal Death",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Neonatal Death",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -1546,7 +1546,7 @@
   {
     "IndicatorID":7,
     "IndicatorName":"Perinatal Death",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Perinatal Death",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -1768,7 +1768,7 @@
   {
     "IndicatorID":8,
     "IndicatorName":"Postneonatal Death",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Postneonatal Death",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -2010,7 +2010,7 @@
   {
     "IndicatorID":9,
     "IndicatorName":"Total (Lifetime) Fertility",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Total (Lifetime) Fertility",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -2110,7 +2110,7 @@
   {
     "IndicatorID":10,
     "IndicatorName":"Sex Ratio",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Sex Ratio",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -2232,7 +2232,7 @@
   {
     "IndicatorID":14,
     "IndicatorName":"Foreign-Born",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Foreign-Born",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -2439,7 +2439,7 @@
   {
     "IndicatorID":15,
     "IndicatorName":"Crowding (> 1 person\/room)",
-    "IndicatorShortname":"Crowding",
+    "IndicatorLabel":"Crowding (&gt; 1 person\/room)",
     "IndicatorDescription":" Occupied housing units with more than one person per room are considered crowded.",
     "Measures":[
       {
@@ -2608,7 +2608,7 @@
   {
     "IndicatorID":16,
     "IndicatorName":"Pre-1950 Homes",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Pre-1950 Homes",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -2823,7 +2823,7 @@
   {
     "IndicatorID":17,
     "IndicatorName":"Owner-Occupied Homes",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Owner-occupied homes",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -3022,7 +3022,7 @@
   {
     "IndicatorID":18,
     "IndicatorName":"Adults with Asthma in the Past 12 Months",
-    "IndicatorShortname":"Asthma (adults)",
+    "IndicatorLabel":"Adults with asthma in the past 12 months",
     "IndicatorDescription":"<p>Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms. <strong style=\"color: red;\"> Beginning in 2017, indicator includes data imputed for missing responses.<\/strong><\/p>",
     "Measures":[
       {
@@ -3428,7 +3428,7 @@
   {
     "IndicatorID":22,
     "IndicatorName":"Adults Reporting Cockroaches in the Home",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults reporting cockroaches in the home",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -3558,7 +3558,15 @@
                 "Axis":"y"
               },
               {
+                "MeasureID":696,
+                "Axis":"y"
+              },
+              {
                 "MeasureID":777,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":784,
                 "Axis":"y"
               },
               {
@@ -3614,7 +3622,7 @@
   {
     "IndicatorID":24,
     "IndicatorName":"Adults Reporting Rats or Mice outside Their Building",
-    "IndicatorShortname":"Mice or rats (outside)",
+    "IndicatorLabel":"Adults reporting rats or mice outside their building",
     "IndicatorDescription":"Mice and rats outside a building can indicate the presence of mice and rats in people's homes - which can trigger asthma and indicate other health-threatening maintenance deficiencies.",
     "Measures":[
       {
@@ -3718,6 +3726,14 @@
               {
                 "MeasureID":88,
                 "Axis":"x"
+              },
+              {
+                "MeasureID":696,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":784,
+                "Axis":"y"
               }
             ]
           }
@@ -3728,7 +3744,7 @@
   {
     "IndicatorID":25,
     "IndicatorName":"Adults Reporting Secondhand Smoke at Home",
-    "IndicatorShortname":"Secondhand smoke",
+    "IndicatorLabel":"Adults reporting secondhand smoke at home",
     "IndicatorDescription":"Secondhand smoke, especially indoors, is bad for health - especially for the health of children.",
     "Measures":[
       {
@@ -3881,6 +3897,14 @@
                 "Axis":"y"
               },
               {
+                "MeasureID":696,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":784,
+                "Axis":"y"
+              },
+              {
                 "MeasureID":1196,
                 "Axis":"y"
               },
@@ -3905,7 +3929,7 @@
   {
     "IndicatorID":26,
     "IndicatorName":"Anencephaly",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Anencephaly",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -4091,7 +4115,7 @@
   {
     "IndicatorID":27,
     "IndicatorName":"Spina Bifida (without Anencephaly)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Spina Bifida (without Anencephaly)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -4277,7 +4301,7 @@
   {
     "IndicatorID":28,
     "IndicatorName":"Hypoplastic Left Heart Syndrome",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Hypoplastic Left Heart Syndrome",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -4463,7 +4487,7 @@
   {
     "IndicatorID":29,
     "IndicatorName":"Transposition of the Great Arteries (Vessels)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Transposition of the Great Arteries (Vessels)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -4649,7 +4673,7 @@
   {
     "IndicatorID":30,
     "IndicatorName":"Cleft Lip with or without Cleft Palate",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Cleft Lip with or without Cleft Palate",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -4835,7 +4859,7 @@
   {
     "IndicatorID":31,
     "IndicatorName":"Cleft Palate without Cleft Lip",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Cleft Palate without Cleft Lip",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -5021,7 +5045,7 @@
   {
     "IndicatorID":32,
     "IndicatorName":"Hypospadias",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Hypospadias",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -5207,7 +5231,7 @@
   {
     "IndicatorID":33,
     "IndicatorName":"Gastroschisis",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Gastroschisis",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -5393,7 +5417,7 @@
   {
     "IndicatorID":34,
     "IndicatorName":"Upper Limb Deficiencies",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Upper Limb Deficiencies",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -5579,7 +5603,7 @@
   {
     "IndicatorID":35,
     "IndicatorName":"Lower Limb Deficiencies",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Lower Limb Deficiencies",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -5765,7 +5789,7 @@
   {
     "IndicatorID":36,
     "IndicatorName":"Down Syndrome \/ Trisomy 21 (Maternal Age < 35 Yrs)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Down Syndrome \/ Trisomy 21 (Maternal Age &lt; 35 Yrs)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -5951,7 +5975,7 @@
   {
     "IndicatorID":37,
     "IndicatorName":"Down Syndrome \/ Trisomy 21 (Maternal Age 35 Yrs and Over)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Down Syndrome \/ Trisomy 21 (Maternal Age 35 Yrs and Over)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -6137,7 +6161,7 @@
   {
     "IndicatorID":38,
     "IndicatorName":"Carbon Monoxide Incidents",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Carbon Monoxide Incidents",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -6350,7 +6374,7 @@
   {
     "IndicatorID":40,
     "IndicatorName":"Homes with Cracks or Holes",
-    "IndicatorShortname":"Cracks",
+    "IndicatorLabel":"Homes with cracks or holes",
     "IndicatorDescription":"Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
     "Measures":[
       {
@@ -6484,7 +6508,7 @@
   {
     "IndicatorID":41,
     "IndicatorName":"Pre-1960 Homes with Peeling Paint",
-    "IndicatorShortname":"Peeling paint",
+    "IndicatorLabel":"Pre-1960 Homes with Peeling Paint",
     "IndicatorDescription":"Older housing and peeling paint can put residents at risk of lead poisoning, due to lead paint - which was banned from household paints in the USA in 1978.",
     "Measures":[
       {
@@ -6584,7 +6608,7 @@
   {
     "IndicatorID":42,
     "IndicatorName":"Homes with Leaks",
-    "IndicatorShortname":"Leaks",
+    "IndicatorLabel":"Homes with leaks",
     "IndicatorDescription":"Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
     "Measures":[
       {
@@ -6709,7 +6733,7 @@
   {
     "IndicatorID":45,
     "IndicatorName":"Homes with 3 or More Maintenance Deficiencies",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Homes with 3 or more maintenance deficiencies",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -6843,7 +6867,7 @@
   {
     "IndicatorID":46,
     "IndicatorName":"Homes near Structures Rated Good or Excellent",
-    "IndicatorShortname":"Building quality",
+    "IndicatorLabel":"Homes near structures rated good or excellent",
     "IndicatorDescription":"Building quality is a strong predictor of the number of housing maintenance deficiencies in a residence that may contribute to increased risk of acute or chronic health problems.",
     "Measures":[
       {
@@ -6977,7 +7001,7 @@
   {
     "IndicatorID":47,
     "IndicatorName":"Homes Using Supplemental Heat",
-    "IndicatorShortname":"Supplemental heat",
+    "IndicatorLabel":"Homes using supplemental heat",
     "IndicatorDescription":"The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies",
     "Measures":[
       {
@@ -7107,7 +7131,7 @@
   {
     "IndicatorID":48,
     "IndicatorName":"Homes with Mice or Rats in the Building",
-    "IndicatorShortname":"Mice or rats (inside)",
+    "IndicatorLabel":"Homes with mice or rats in the building",
     "IndicatorDescription":"The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and contribute to the development and exacerbation of asthma and its symptoms.",
     "Measures":[
       {
@@ -7251,7 +7275,7 @@
   {
     "IndicatorID":55,
     "IndicatorName":"Ozone",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Ozone",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -7481,7 +7505,7 @@
   {
     "IndicatorID":57,
     "IndicatorName":"Fine Particulate Matter (PM 2.5)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Fine Particulate Matter (PM <sub>2.5<\/sub>)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -7953,7 +7977,7 @@
   {
     "IndicatorID":60,
     "IndicatorName":"Breast Cancer in Females",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Breast Cancer in Females",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -8301,7 +8325,7 @@
   {
     "IndicatorID":63,
     "IndicatorName":"Lung and Bronchus Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Lung and Bronchus Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -8864,7 +8888,7 @@
   {
     "IndicatorID":64,
     "IndicatorName":"Pancreatic Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Pancreatic Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -9412,7 +9436,7 @@
   {
     "IndicatorID":66,
     "IndicatorName":"Brain and Other Nervous System Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Brain and Other Nervous System Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -9975,7 +9999,7 @@
   {
     "IndicatorID":71,
     "IndicatorName":"Non-Hodgkin's Lymphomas",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Non-Hodgkin's Lymphomas",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -10523,7 +10547,7 @@
   {
     "IndicatorID":73,
     "IndicatorName":"Leukemia",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Leukemia",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -11071,7 +11095,7 @@
   {
     "IndicatorID":74,
     "IndicatorName":"Acute Myeloid Leukemia",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Acute Myeloid Leukemia",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -11634,7 +11658,7 @@
   {
     "IndicatorID":84,
     "IndicatorName":"Asthma Hospitalizations (Children 0 to 4 Yrs Old)",
-    "IndicatorShortname":"Asthma hospitalizations\u00a0(0 to 4)",
+    "IndicatorLabel":"Children ages 0 to 4",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
     "Measures":[
       {
@@ -11953,7 +11977,7 @@
   {
     "IndicatorID":90,
     "IndicatorName":"Heart Attack Hospitalizations",
-    "IndicatorShortname":"Heart attacks",
+    "IndicatorLabel":"Heart Attack Hospitalizations",
     "IndicatorDescription":"Heart attacks can stem from genetic, lifestyle, and environmental factors including ambient air pollution and second-hand smoke.",
     "Measures":[
       {
@@ -12815,7 +12839,7 @@
   {
     "IndicatorID":91,
     "IndicatorName":"Regular Exterminator Service",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Regular Exterminator Service",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -12945,7 +12969,7 @@
   {
     "IndicatorID":92,
     "IndicatorName":"Air Quality Advisory Days",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Air Quality Advisory Days",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -13195,7 +13219,7 @@
   {
     "IndicatorID":93,
     "IndicatorName":"Commercial Use of Insecticides",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Insecticides",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -13483,7 +13507,7 @@
   {
     "IndicatorID":94,
     "IndicatorName":"Commercial Use of Herbicides",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Herbicides",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -13761,7 +13785,7 @@
   {
     "IndicatorID":96,
     "IndicatorName":"Commercial Use of Fungicides",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Fungicides",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -14039,7 +14063,7 @@
   {
     "IndicatorID":97,
     "IndicatorName":"Commercial Use of Insecticides (Organophosphate)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Insecticides (Organophosphate)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -14317,7 +14341,7 @@
   {
     "IndicatorID":98,
     "IndicatorName":"Commercial Use of Insecticides (Pyrethroid\/Pyrethrin)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Insecticides (Pyrethroid\/Pyrethrin)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -14600,7 +14624,7 @@
   {
     "IndicatorID":99,
     "IndicatorName":"Insecticides (Carbamate)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Insecticides (Carbamate)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -14878,7 +14902,7 @@
   {
     "IndicatorID":100,
     "IndicatorName":"Commercial Use of \"Best Practice\" Products",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"\"Best Practice\" Products",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -15026,7 +15050,7 @@
   {
     "IndicatorID":101,
     "IndicatorName":"Tetralogy of Fallot",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Tetralogy of Fallot",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -15212,7 +15236,7 @@
   {
     "IndicatorID":102,
     "IndicatorName":"Commercial Use of Rodenticides",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Rodenticides",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -15355,7 +15379,7 @@
   {
     "IndicatorID":103,
     "IndicatorName":"Poverty",
-    "IndicatorShortname":"Poverty",
+    "IndicatorLabel":"Poverty",
     "IndicatorDescription":"Neighborhood poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
     "Measures":[
       {
@@ -15637,7 +15661,7 @@
   {
     "IndicatorID":107,
     "IndicatorName":"Homes with Cockroaches",
-    "IndicatorShortname":"Cockroaches",
+    "IndicatorLabel":"Homes with cockroaches",
     "IndicatorDescription":"The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
     "Measures":[
       {
@@ -15693,11 +15717,11 @@
               },
               {
                 "MeasureID":92,
-                "Axis":"y"
+                "Axis":"x"
               },
               {
                 "MeasureID":92,
-                "Axis":"x"
+                "Axis":"y"
               },
               {
                 "MeasureID":759,
@@ -15754,7 +15778,7 @@
   {
     "IndicatorID":690,
     "IndicatorName":"Thyroid Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Thyroid Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -16302,7 +16326,7 @@
   {
     "IndicatorID":770,
     "IndicatorName":"Chronic Lymphocytic Leukemia",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Chronic Lymphocytic Leukemia",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -16850,7 +16874,7 @@
   {
     "IndicatorID":2017,
     "IndicatorName":"Adults without a Smoke-Free Home Policy",
-    "IndicatorShortname":"Smoke-free homes",
+    "IndicatorLabel":"Adults without a Smoke-Free Home Policy",
     "IndicatorDescription":"A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children.",
     "Measures":[
       {
@@ -16956,6 +16980,10 @@
               },
               {
                 "MeasureID":460,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":696,
                 "Axis":"y"
               },
               {
@@ -17071,7 +17099,7 @@
   {
     "IndicatorID":2019,
     "IndicatorName":"Cigarette Smoking among Adults",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Cigarette Smoking among Adults",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -17376,6 +17404,14 @@
                 "Axis":"y"
               },
               {
+                "MeasureID":696,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":784,
+                "Axis":"y"
+              },
+              {
                 "MeasureID":1063,
                 "Axis":"y"
               },
@@ -17400,7 +17436,7 @@
   {
     "IndicatorID":2020,
     "IndicatorName":"Adults Reporting Secondhand Smoke at Work",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Reporting Secondhand Smoke at Work",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -17544,7 +17580,7 @@
   {
     "IndicatorID":2021,
     "IndicatorName":"Cigarette Smoking among Youths",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Cigarette Smoking among Youths",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -17730,7 +17766,7 @@
   {
     "IndicatorID":2023,
     "IndicatorName":"Fine Particulate Matter (PM2.5)",
-    "IndicatorShortname":"PM2.5 (Fine particles)",
+    "IndicatorLabel":"Fine Particulate Matter (PM<sub>2.5<\/sub>)",
     "IndicatorDescription":"Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
     "Measures":[
       {
@@ -17987,6 +18023,14 @@
               },
               {
                 "MeasureID":460,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":696,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":784,
                 "Axis":"y"
               },
               {
@@ -18468,7 +18512,7 @@
   {
     "IndicatorID":2024,
     "IndicatorName":"Black Carbon",
-    "IndicatorShortname":"Black carbon",
+    "IndicatorLabel":"Black Carbon",
     "IndicatorDescription":"Black carbon is a major component of fine particulate matter (PM) in the air. Particulate matter is easily inhaled into the lungs and can contribute to both short-term acute health effects, as well as long-term chronic illness.",
     "Measures":[
       {
@@ -18710,6 +18754,10 @@
               },
               {
                 "MeasureID":460,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":696,
                 "Axis":"y"
               },
               {
@@ -19161,7 +19209,7 @@
   {
     "IndicatorID":2025,
     "IndicatorName":"Nitrogen Dioxide (NO2)",
-    "IndicatorShortname":"Nitrogen dioxide",
+    "IndicatorLabel":"Nitrogen Dioxide (NO2)",
     "IndicatorDescription":"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
     "Measures":[
       {
@@ -19423,6 +19471,14 @@
               },
               {
                 "MeasureID":460,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":696,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":784,
                 "Axis":"y"
               },
               {
@@ -19904,7 +19960,7 @@
   {
     "IndicatorID":2026,
     "IndicatorName":"Sulfur Dioxide (SO2)",
-    "IndicatorShortname":"Sulfur dioxide",
+    "IndicatorLabel":"Sulfur Dioxide (SO2)",
     "IndicatorDescription":"Sulfur dioxide comes from burning certain types of fuel oil. As an air pollutant, it can can worsen lung diseases.",
     "Measures":[
       {
@@ -20021,6 +20077,14 @@
               },
               {
                 "MeasureID":460,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":696,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":784,
                 "Axis":"y"
               },
               {
@@ -20222,7 +20286,7 @@
   {
     "IndicatorID":2027,
     "IndicatorName":"Ozone (O3)",
-    "IndicatorShortname":"Ozone",
+    "IndicatorLabel":"Ozone (O3)",
     "IndicatorDescription":"Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
     "Measures":[
       {
@@ -20624,7 +20688,7 @@
   {
     "IndicatorID":2028,
     "IndicatorName":"Nitric Oxide (NO)",
-    "IndicatorShortname":"Nitric oxide",
+    "IndicatorLabel":"Nitric Oxide (NO)",
     "IndicatorDescription":"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
     "Measures":[
       {
@@ -20851,7 +20915,16 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":696,
+                "Axis":"y"
+              },
+              {
+                "MeasureID":784,
+                "Axis":"y"
+              }
+            ]
           }
         ]
       },
@@ -21316,7 +21389,7 @@
   {
     "IndicatorID":2030,
     "IndicatorName":"Adults Reporting Bed Bugs in their Home",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Reporting Bed Bugs in their Home",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -21436,7 +21509,7 @@
   {
     "IndicatorID":2031,
     "IndicatorName":"Leukemia in Children",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Leukemia in Children",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -21622,7 +21695,7 @@
   {
     "IndicatorID":2033,
     "IndicatorName":"Brain and CNS Cancer in Children",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Brain and CNS Cancer in Children",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -21802,7 +21875,7 @@
   {
     "IndicatorID":2035,
     "IndicatorName":"Acute Myeloid Leukemia in Children",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Acute Myeloid Leukemia in Children",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -21982,7 +22055,7 @@
   {
     "IndicatorID":2037,
     "IndicatorName":"Acute Lymphocytic Leukemia in Children",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Acute Lymphocytic Leukemia in Children",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -22162,7 +22235,7 @@
   {
     "IndicatorID":2039,
     "IndicatorName":"Total Cancer in Children",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Total Cancer in Children",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -22354,7 +22427,7 @@
   {
     "IndicatorID":2041,
     "IndicatorName":"Nitrate in Drinking Water",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Nitrate in Drinking Water",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -22967,7 +23040,7 @@
   {
     "IndicatorID":2043,
     "IndicatorName":"Disinfection By-Product in Drinking Water (HAA5)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Disinfection By-Product in Drinking Water - <span>Haloacetic Acids<\/span> (HAA5)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -23803,7 +23876,7 @@
   {
     "IndicatorID":2044,
     "IndicatorName":"Arsenic in Drinking Water",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Arsenic in Drinking Water",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -24391,7 +24464,7 @@
   {
     "IndicatorID":2048,
     "IndicatorName":"Asthma Emergency Department Visits (Children 0 to 4 Yrs Old)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children ages 0 to 4",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -24632,7 +24705,7 @@
   {
     "IndicatorID":2049,
     "IndicatorName":"Access to Alcohol",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Access to Alcohol",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -24818,7 +24891,7 @@
   {
     "IndicatorID":2050,
     "IndicatorName":"Adults Reporting Heavy Drinking",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Reporting Heavy Drinking",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -25085,7 +25158,7 @@
   {
     "IndicatorID":2051,
     "IndicatorName":"Adults Who Binge Drink",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Who Binge Drink",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -25273,7 +25346,7 @@
   {
     "IndicatorID":2055,
     "IndicatorName":"Youth Who Binge Drink",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Youth Who Binge Drink",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -25459,7 +25532,7 @@
   {
     "IndicatorID":2056,
     "IndicatorName":"Underage Drinking",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Underage Drinking",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -25645,7 +25718,7 @@
   {
     "IndicatorID":2057,
     "IndicatorName":"Youth Access to Alcohol",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Youth Access to Alcohol",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -25821,7 +25894,7 @@
   {
     "IndicatorID":2058,
     "IndicatorName":"Adults Who Walk or Bike for Transportation",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Who Walk or Bike for Transportation",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -25925,7 +25998,7 @@
   {
     "IndicatorID":2059,
     "IndicatorName":"Monthly Bicycle Use",
-    "IndicatorShortname":"Bicycling",
+    "IndicatorLabel":"Monthly Bicycle Use",
     "IndicatorDescription":"Monthly bicycle use is an indicator of physical activity and regular cycling.",
     "Measures":[
       {
@@ -26142,7 +26215,7 @@
   {
     "IndicatorID":2060,
     "IndicatorName":"Adults Reporting Exercise in the Past 30 Days",
-    "IndicatorShortname":"Exercise",
+    "IndicatorLabel":"Adults Reporting Exercise in the Past 30 Days",
     "IndicatorDescription":"Regular exercise is a key way to stay healthy.",
     "Measures":[
       {
@@ -26415,7 +26488,7 @@
   {
     "IndicatorID":2061,
     "IndicatorName":"Overweight or Obese Adults",
-    "IndicatorShortname":"Overweight",
+    "IndicatorLabel":"Overweight or Obese Adults",
     "IndicatorDescription":"People who are overweight or obese are at increased risk for heart disease and diabetes.",
     "Measures":[
       {
@@ -26712,7 +26785,7 @@
   {
     "IndicatorID":2062,
     "IndicatorName":"Overweight or Obese Youth",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Overweight or Obese Youth",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -26868,7 +26941,7 @@
   {
     "IndicatorID":2063,
     "IndicatorName":"Obese Adults",
-    "IndicatorShortname":"Obesity",
+    "IndicatorLabel":"Obese Adults",
     "IndicatorDescription":"People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
     "Measures":[
       {
@@ -27165,7 +27238,7 @@
   {
     "IndicatorID":2064,
     "IndicatorName":"Obese Youth",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Obese Youth",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -27321,7 +27394,7 @@
   {
     "IndicatorID":2065,
     "IndicatorName":"Restaurants with A Grades",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Restaurants with A Grades",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -27503,7 +27576,7 @@
   {
     "IndicatorID":2073,
     "IndicatorName":"Perception of Neighborhood Safety",
-    "IndicatorShortname":"Neighborhood safety",
+    "IndicatorLabel":"Perception of Neighborhood Safety",
     "IndicatorDescription":"Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being.",
     "Measures":[
       {
@@ -27613,7 +27686,7 @@
   {
     "IndicatorID":2074,
     "IndicatorName":"Heat Stress Deaths",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Heat Stress Deaths",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -27752,7 +27825,7 @@
   {
     "IndicatorID":2075,
     "IndicatorName":"Heat Stress Emergency Department Visits",
-    "IndicatorShortname":"Heat ED visits",
+    "IndicatorLabel":"Heat Stress Emergency Department Visits",
     "IndicatorDescription":"ED visits due to heat stress represent part of the public health burden of extreme heat.",
     "Measures":[
       {
@@ -28075,7 +28148,7 @@
   {
     "IndicatorID":2076,
     "IndicatorName":"Heat Stress Hospitalizations",
-    "IndicatorShortname":"Heat hospitalizations",
+    "IndicatorLabel":"Heat Stress Hospitalizations",
     "IndicatorDescription":"Hospitalizations due to heat stress represent part of the public health burden of extreme heat.",
     "Measures":[
       {
@@ -28488,7 +28561,7 @@
   {
     "IndicatorID":2077,
     "IndicatorName":"Esophageal Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Esophageal Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -29036,7 +29109,7 @@
   {
     "IndicatorID":2084,
     "IndicatorName":"Heat Events",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Heat Events",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -29674,7 +29747,7 @@
   {
     "IndicatorID":2086,
     "IndicatorName":"Bicycle Injury Hospitalizations",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Bicycle Injury Hospitalizations",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -29766,7 +29839,7 @@
   {
     "IndicatorID":2087,
     "IndicatorName":"Kidney and Renal Pelvis Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Kidney and Renal Pelvis Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -30329,7 +30402,7 @@
   {
     "IndicatorID":2088,
     "IndicatorName":"Larynx Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Larynx Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -30877,7 +30950,7 @@
   {
     "IndicatorID":2089,
     "IndicatorName":"Liver and Intrahepatic Bile Duct Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Liver and Intrahepatic Bile Duct Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -31425,7 +31498,7 @@
   {
     "IndicatorID":2090,
     "IndicatorName":"Melanoma of the Skin",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Melanoma of the Skin",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -31973,7 +32046,7 @@
   {
     "IndicatorID":2091,
     "IndicatorName":"Oral Cavity and Pharynx Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Oral Cavity and Pharynx Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -32521,7 +32594,7 @@
   {
     "IndicatorID":2092,
     "IndicatorName":"Bicycle Injury Emergency Department Visits",
-    "IndicatorShortname":"Bicycle injuries",
+    "IndicatorLabel":"Bicycle Injury Emergency Department Visits",
     "IndicatorDescription":"Bicycle injury ED visits can indicate the overall safety of cycling in the city - for transporation or other purposes.",
     "Measures":[
       {
@@ -32613,7 +32686,7 @@
   {
     "IndicatorID":2093,
     "IndicatorName":"Pedestrian Injury Hospitalizations",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Pedestrian Injury Hospitalizations",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -32705,7 +32778,7 @@
   {
     "IndicatorID":2094,
     "IndicatorName":"Pedestrian Injury Emergency Department Visits",
-    "IndicatorShortname":"Pedestrian injuries",
+    "IndicatorLabel":"Pedestrian Injury Emergency Department Visits",
     "IndicatorDescription":"Pedestrian injury ED visits can indicate the safety of walking for transporation. ",
     "Measures":[
       {
@@ -32797,7 +32870,7 @@
   {
     "IndicatorID":2095,
     "IndicatorName":"Mesothelioma",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Mesothelioma",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -33309,7 +33382,7 @@
   {
     "IndicatorID":2096,
     "IndicatorName":"Bladder Cancer",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Bladder Cancer",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -33857,7 +33930,7 @@
   {
     "IndicatorID":2097,
     "IndicatorName":"Adult Consumption of 1 or More Sugary Drinks Per Day",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adult Consumption of 1 or More Sugary Drinks Per Day",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -34084,7 +34157,7 @@
   {
     "IndicatorID":2098,
     "IndicatorName":"Youth Consumption of 1 or More Sugary Drinks Per Day",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Youth Consumption of 1 or More Sugary Drinks Per Day",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -34190,7 +34263,7 @@
   {
     "IndicatorID":2101,
     "IndicatorName":"Adults Reporting Mold in the Home",
-    "IndicatorShortname":"Mold",
+    "IndicatorLabel":"Adults reporting mold in the home",
     "IndicatorDescription":"Mold can worsen respiratory conditions like asthma, and indicate maintenance deficiencies in a building.",
     "Measures":[
       {
@@ -34288,7 +34361,7 @@
   {
     "IndicatorID":2104,
     "IndicatorName":"Adults Reporting Air Conditioning in the Home",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Reporting Air Conditioning in the Home",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -34392,7 +34465,7 @@
   {
     "IndicatorID":2105,
     "IndicatorName":"Adults Reporting Mice in the Home",
-    "IndicatorShortname":"Mice or rats (inside)",
+    "IndicatorLabel":"Adults reporting mice in the home",
     "IndicatorDescription":"Mice or rats in the home are a source of household allergens connected to the developement of asthma and exacerbation of asthma symptoms. They may also indicate other health-threatening maintenance deficiencies.",
     "Measures":[
       {
@@ -34485,9 +34558,58 @@
     ]
   },
   {
+    "IndicatorID":2106,
+    "IndicatorName":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
+    "IndicatorLabel":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
+    "IndicatorDescription":null,
+    "Measures":[
+      {
+        "MeasureID":637,
+        "MeasurementType":"Percent",
+        "how_calculated":"Neighborhoods are ranked according to the percent of people who consider themselves non-Hispanic blacks. Rankings are divided into 3 approximately equal groupings of low, medium and high population density. ",
+        "Sources":"American Community Survey; United States Census",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":777,
+                "Axis":"y"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID":2108,
     "IndicatorName":"PM2.5-Attributable Deaths",
-    "IndicatorShortname":"Deaths from PM2.5",
+    "IndicatorLabel":"PM<sub>2.5<\/sub>-Attributable Deaths",
     "IndicatorDescription":"<p>Estimating deaths that can be linked to PM2.5 is a way to understand how air pollution increases mortality.<\/p>",
     "Measures":[
       {
@@ -34607,9 +34729,72 @@
     ]
   },
   {
+    "IndicatorID":2112,
+    "IndicatorName":"Traffic Density- Annual Vehicle Miles Traveled",
+    "IndicatorLabel":"Traffic Density- Annual Vehicle Miles Traveled",
+    "IndicatorDescription":"Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ",
+    "Measures":[
+      {
+        "MeasureID":643,
+        "MeasurementType":"million miles",
+        "how_calculated":"The average number of vehicles traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of vehicles was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilometer.",
+        "Sources":"New York Metropolitan Transportation Council Best Practice Model",
+        "DisplayType":"per km2",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF42"
+          },
+          {
+            "GeoType":"Borough"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":365,
+                "Axis":"y"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID":2113,
     "IndicatorName":"Traffic Density- Annual Vehicle Miles Traveled for Cars",
-    "IndicatorShortname":"Car traffic",
+    "IndicatorLabel":"Traffic Density- Annual Vehicle Miles Traveled for Cars",
     "IndicatorDescription":"Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.\u00a0",
     "Measures":[
       {
@@ -34670,9 +34855,72 @@
     ]
   },
   {
+    "IndicatorID":2114,
+    "IndicatorName":"Traffic Density- Annual Vehicle Miles Traveled for Trucks",
+    "IndicatorLabel":"Traffic Density- Annual Vehicle Miles Traveled for Trucks",
+    "IndicatorDescription":"Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.\u00a0",
+    "Measures":[
+      {
+        "MeasureID":645,
+        "MeasurementType":"million miles",
+        "how_calculated":"The average number of trucks traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of trucks was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilomete",
+        "Sources":"New York Metropolitan Transportation Council Best Practice Model",
+        "DisplayType":"per km2",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF42"
+          },
+          {
+            "GeoType":"Borough"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":365,
+                "Axis":"y"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID":2117,
     "IndicatorName":"PM2.5-Attributable Asthma Emergency Department Visits",
-    "IndicatorShortname":"PM2.5 asthma ED visits (children)",
+    "IndicatorLabel":"PM<sub>2.5<\/sub>-Attributable Asthma Emergency Department Visits",
     "IndicatorDescription":"<p>PM2.5-attributable asthma ED visits represent part of the health burden imposed by fine particle air pollution.<\/p>",
     "Measures":[
       {
@@ -34908,7 +35156,7 @@
   {
     "IndicatorID":2119,
     "IndicatorName":"PM2.5-Attributable Respiratory Hospitalizations (Adults 20 Yrs and Older)",
-    "IndicatorShortname":"PM2.5 health burden (lungs)",
+    "IndicatorLabel":"PM<sub>2.5<\/sub>-Attributable Respiratory Hospitalizations (Adults 20 Yrs and Older)",
     "IndicatorDescription":"Estimating hospitalizations that can be linked to PM2.5 is a way to understand how air pollution impacts public health.  ",
     "Measures":[
       {
@@ -35030,7 +35278,7 @@
   {
     "IndicatorID":2120,
     "IndicatorName":"PM2.5-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older)",
-    "IndicatorShortname":"PM2.5 health burden (heart)",
+    "IndicatorLabel":"PM<sub>2.5<\/sub>-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older)",
     "IndicatorDescription":"<p>PM2.5-attributable cardiovascular hospitalizations represent part of the health burden imposed by fine particle air pollution.<\/p>",
     "Measures":[
       {
@@ -35152,7 +35400,7 @@
   {
     "IndicatorID":2121,
     "IndicatorName":"O3-Attributable Cardiac and Respiratory Deaths",
-    "IndicatorShortname":"Deaths from ozone",
+    "IndicatorLabel":"O<sub>3<\/sub>-Attributable Cardiac and Respiratory Deaths",
     "IndicatorDescription":"<p>Estimating heart and respiratory deaths that can be linked to ozone is a way to understand how air pollution increases mortality.<\/p>",
     "Measures":[
       {
@@ -35274,7 +35522,7 @@
   {
     "IndicatorID":2122,
     "IndicatorName":"O3-Attributable Asthma Emergency Department Visits",
-    "IndicatorShortname":"Ozone asthma ED visits (children)",
+    "IndicatorLabel":"O<sub>3<\/sub>-Attributable Asthma Emergency Department Visits",
     "IndicatorDescription":"Ozone-attributable asthma ED visits represent part of the health burden of ozone air pollution.",
     "Measures":[
       {
@@ -35510,7 +35758,7 @@
   {
     "IndicatorID":2124,
     "IndicatorName":"O3-Attributable Asthma Hospitalizations",
-    "IndicatorShortname":"Ozone asthma hospitalizations (children)",
+    "IndicatorLabel":"O<sub>3<\/sub>-Attributable Asthma Hospitalizations",
     "IndicatorDescription":"<p>Ozone-attributable asthma hospitalizations represent part of the health burden of ozone air pollution.<\/p>",
     "Measures":[
       {
@@ -35746,7 +35994,7 @@
   {
     "IndicatorID":2132,
     "IndicatorName":"Adults with Health Insurance",
-    "IndicatorShortname":"Health insurance (adults)",
+    "IndicatorLabel":"Adults with Health Insurance",
     "IndicatorDescription":"<p>Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.<\/p>",
     "Measures":[
       {
@@ -35917,6 +36165,10 @@
             ],
             "Links":[
               {
+                "MeasureID":696,
+                "Axis":"y"
+              },
+              {
                 "MeasureID":1059,
                 "Axis":"y"
               }
@@ -35929,7 +36181,7 @@
   {
     "IndicatorID":2133,
     "IndicatorName":"Walkability Index (Infrastructure)",
-    "IndicatorShortname":"Walkability",
+    "IndicatorLabel":"Walkability Index (Infrastructure)",
     "IndicatorDescription":"<p>Walkability indices summarize built environment features believed to promote walking, focusing on neighborhood infrastructure. Some potentially important characteristics are usually not included, such as neighborhood safety or attractiveness, like number of street trees.<\/p>\n<p>For this index, higher scores indicate greater walkability. NYC neighborhoods range in walkability index (infrastructure) score from -4.0 to 9.4, with zero representing an approximate average for the City as a whole.<\/p>",
     "Measures":[
       {
@@ -35978,7 +36230,7 @@
   {
     "IndicatorID":2134,
     "IndicatorName":"Disruptive Noise Exposure",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Disruptive Noise Exposure",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -36073,7 +36325,7 @@
   {
     "IndicatorID":2135,
     "IndicatorName":"Fall-related emergency department visits among older adults",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Fall-related emergency department visits among older adults",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -36165,7 +36417,7 @@
   {
     "IndicatorID":2136,
     "IndicatorName":"Fall-related hospitalizations among older adults",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Fall-related hospitalizations among older adults",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -36440,7 +36692,7 @@
   {
     "IndicatorID":2141,
     "IndicatorName":"Daytime Summer Surface Temperature",
-    "IndicatorShortname":"Surface temperature",
+    "IndicatorLabel":"Daytime Summer Surface Temperature",
     "IndicatorDescription":"Surface temperatures in NYC may vary as a function of vegetative land cover, which promotes cooling, or cover by paved roads, sidewalks, and buildings, which retain heat.",
     "Measures":[
       {
@@ -36496,7 +36748,7 @@
   {
     "IndicatorID":2143,
     "IndicatorName":"Vegetative Cover",
-    "IndicatorShortname":"Grass and tree cover",
+    "IndicatorLabel":"Vegetative Cover",
     "IndicatorDescription":"<p>Vegetative cover is the land covered by trees, grass, or other plants. This area is not covered by a hard surface such as paved roads, sidewalks, or buildings. <a href=\"https:\/\/www.epa.gov\/heat-islands\/using-trees-and-vegetation-reduce-heat-islands\">Vegetative cover tends to reduce temperatures in the immediate area<\/a>.<\/p>",
     "Measures":[
       {
@@ -36510,19 +36762,24 @@
             "GeoType":"Borough"
           },
           {
-            "GeoType":"CD"
-          },
-          {
             "GeoType":"Citywide"
           },
           {
-            "GeoType":"NTA"
+            "GeoType":"UHF42"
           },
           {
-            "GeoType":"UHF42"
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"NTA"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
           {
             "TimeDescription":"2017",
             "start_period":1483228800000,
@@ -36552,7 +36809,7 @@
   {
     "IndicatorID":2145,
     "IndicatorName":"Adults with Independent Living Difficulty",
-    "IndicatorShortname":"Independence difficulty",
+    "IndicatorLabel":"Adults with Independent Living Difficulty",
     "IndicatorDescription":"<p>People with disabilities or access or functional needs may need additional support during extreme weather to avoid injury, illness or even death. For example, planning needs to be made for safe travel out of evacuation zones during a hurricane, or to ensure back-up electricity is available to to support medical equipment during power outages caused by heat waves.<\/p>\n<p>&nbsp;<\/p>\n<p>Information provided here about adults with independent living difficulties can help emergency management professionals better prepare our residents for emergencies. For more information, please visit:<\/p>\n<p><a href=\"https:\/\/www1.nyc.gov\/site\/em\/ready\/disabilities-access-functional-needs.page\">NYC Emergency Management: Disabilities, Access &amp; Functional Needs<\/a><\/p>",
     "Measures":[
       {
@@ -36730,7 +36987,7 @@
   {
     "IndicatorID":2146,
     "IndicatorName":"Older Adults Living Alone",
-    "IndicatorShortname":"Older adults living alone",
+    "IndicatorLabel":"Older Adults Living Alone",
     "IndicatorDescription":"Adults over the age of 65 are more vulnerable to extreme hot and cold weather. Those that live alone may have more difficulty getting the resources they need in extreme weather events and are at higher risk of weather-related illnesses like heat stroke and hypothermia.",
     "Measures":[
       {
@@ -36918,9 +37175,327 @@
     ]
   },
   {
+    "IndicatorID":2147,
+    "IndicatorName":"Public School Children (5-14 Yrs Old) with Asthma",
+    "IndicatorLabel":"Public school children (age 5-14) with asthma",
+    "IndicatorDescription":"Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms.",
+    "Measures":[
+      {
+        "MeasureID":695,
+        "MeasurementType":"Number",
+        "how_calculated":"Number of public school children, aged 5-14 years, with a diagnosis of asthma that has been reported to NYC DOHMH during the current or previous school year.. Number is calculated by residence of the child.",
+        "Sources":"New York City Automated School Health Records",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2010-2011",
+            "start_period":1293753600000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011-2012",
+            "start_period":1325289600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012-2013",
+            "start_period":1356912000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013-2014",
+            "start_period":1356998400000,
+            "end_period":1419984000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":696,
+        "MeasurementType":"Estimated Annual Rate",
+        "how_calculated":"<p>Number of public school children, aged 5-14 years, with a diagnosis of asthma that has been reported to NYC DOHMH during the current or previous school year, divided by the 5-14 year old population, expressed per 1,000. Rates are calculated by residence of the child. Note: Use of a denominator consisting of all 5-14 year olds results in an underestimate of the true asthma prevalence, since the numerator represents only children enrolled in public schools that report to NYC DOHMH.<\/p>",
+        "Sources":"New York City Automated School Health Records",
+        "DisplayType":"per 1,000",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2010-2011",
+            "start_period":1293753600000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011-2012",
+            "start_period":1325289600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012-2013",
+            "start_period":1356912000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013-2014",
+            "start_period":1356998400000,
+            "end_period":1419984000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":41,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":47,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":292,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":307,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":365,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":370,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":375,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":383,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":391,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":672,
+                "Axis":"x"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2149,
+    "IndicatorName":"Public School Children (5-14 Yrs Old) with Persistent Asthma",
+    "IndicatorLabel":"Public school children (age 5-14) with persistent asthma",
+    "IndicatorDescription":null,
+    "Measures":[
+      {
+        "MeasureID":698,
+        "MeasurementType":"Number",
+        "how_calculated":"Number of public school children, aged 5-14 years, with a most recent asthma diagnosis reported to NYC DOHMH from the previous or current school year that describes symptoms occurring more than twice per week, Number is calculated by residence of the child. \n",
+        "Sources":"New York City Automated School Health Records",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2010-2011",
+            "start_period":1293753600000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011-2012",
+            "start_period":1325289600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012-2013",
+            "start_period":1356912000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013-2014",
+            "start_period":1356998400000,
+            "end_period":1419984000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":784,
+        "MeasurementType":"Estimated Annual Rate",
+        "how_calculated":"<p>Number of public school children, aged 5-14 years, with a most recent asthma diagnosis reported to NYC DOHMH from the previous or current school year that describes symptoms occurring more than twice per week, divided by the 5-14 year old population, expressed per 1,000. Rates are calculated by residence of the child. Note: Use of a denominator consisting of all 5-14 year olds results in an underestimate of the true asthma prevalence, since the numerator represents only children enrolled in public schools that report to NYC DOHMH.<\/p>",
+        "Sources":"New York City Automated School Health Records",
+        "DisplayType":"per 1,000",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"UHF42"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2010-2011",
+            "start_period":1293753600000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011-2012",
+            "start_period":1325289600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012-2013",
+            "start_period":1356912000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013-2014",
+            "start_period":1356998400000,
+            "end_period":1419984000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":41,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":45,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":47,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":307,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":365,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":375,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":383,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":391,
+                "Axis":"x"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID":2151,
     "IndicatorName":"Adults with a Personal Doctor",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults with a Personal Doctor",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -37090,7 +37665,7 @@
   {
     "IndicatorID":2155,
     "IndicatorName":"Adults 65+ Reporting Air Conditioning in the Home",
-    "IndicatorShortname":"Older adults with AC",
+    "IndicatorLabel":"Adults 65+ Reporting Air Conditioning in the Home",
     "IndicatorDescription":"Adults over the age of 65 are more vulnerable to hot weather and heat stress. Air conditioning (AC) can substantially reduce the risk of heat stroke and other heat-related illness.",
     "Measures":[
       {
@@ -37188,7 +37763,7 @@
   {
     "IndicatorID":2157,
     "IndicatorName":"Tree Canopy Cover",
-    "IndicatorShortname":"Tree shade",
+    "IndicatorLabel":"Tree Canopy Cover",
     "IndicatorDescription":"<p>The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. &ldquo;Tree canopy cover&rdquo; measures the percent of a neighborhood that is covered (or shaded) by trees.<\/p>",
     "Measures":[
       {
@@ -37238,7 +37813,7 @@
   {
     "IndicatorID":2158,
     "IndicatorName":"Subway Station Density",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Subway Station Density",
     "IndicatorDescription":"<p>Many New Yorkers rely on the subway as their primary mode of transportation. Neighborhoods with greater subway access tend to have more foot traffic, making surrounding real estate highly desirable for residents and business. Subway use encourages active transportation (walking, biking), which improves the health of residents.<\/p>",
     "Measures":[
       {
@@ -37282,7 +37857,7 @@
   {
     "IndicatorID":2168,
     "IndicatorName":"Carbon Monoxide Incidents without a Detector (3 Year Avg.)",
-    "IndicatorShortname":"Carbon monoxide",
+    "IndicatorLabel":"Carbon Monoxide Incidents without a Detector (3 Year Avg.)",
     "IndicatorDescription":"Carbon monoxide detectors are required in NYC homes by law. Failure to provide or maintain a detector can put residents at risk for carbon monoxide poisoning and death.",
     "Measures":[
       {
@@ -37390,7 +37965,7 @@
   {
     "IndicatorID":2172,
     "IndicatorName":"Walk for Transportation in the Past 7 Days",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Walk for Transportation in the Past 7 Days",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -37508,7 +38083,7 @@
   {
     "IndicatorID":2173,
     "IndicatorName":"Bike for Transportation in the Past 7 Days",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Bike for Transportation in the Past 7 Days",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -37622,7 +38197,7 @@
   {
     "IndicatorID":2174,
     "IndicatorName":"Cold Stress Hospitalizations",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Cold Stress Hospitalizations",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -37930,7 +38505,7 @@
   {
     "IndicatorID":2175,
     "IndicatorName":"Cold Stress Emergency Department Visits",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Cold Stress Emergency Department Visits",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -38238,7 +38813,7 @@
   {
     "IndicatorID":2176,
     "IndicatorName":"Children under 5 years old in Poverty",
-    "IndicatorShortname":"Child poverty",
+    "IndicatorLabel":"Children under 5 years old in Poverty",
     "IndicatorDescription":"Poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
     "Measures":[
       {
@@ -38490,7 +39065,7 @@
   {
     "IndicatorID":2179,
     "IndicatorName":"Renter-occupied homes with no maintenance deficiencies (TCNY2020)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Renter-occupied homes with no maintenance deficiencies (TCNY2020)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -38624,7 +39199,7 @@
   {
     "IndicatorID":2181,
     "IndicatorName":"Sidewalk Area",
-    "IndicatorShortname":"Sidewalk area",
+    "IndicatorLabel":"Sidewalk Area",
     "IndicatorDescription":"<p>Sidewalks are a critical component of New York City residents&rsquo; commute. Ample sidewalks in neighborhoods are important for commuting, businesses, and physical activity. Greater sidewalk area facilitates safer pedestrian traffic that, in turn, attracts businesses and fosters community. &ldquo;Sidewalk area&rdquo; measures the percent of a neighborhood that is covered by sidewalk area.<\/p>",
     "Measures":[
       {
@@ -38674,7 +39249,7 @@
   {
     "IndicatorID":2184,
     "IndicatorName":"Children under 6 years with elevated blood lead levels (BLL)",
-    "IndicatorShortname":"Child lead poisoning",
+    "IndicatorLabel":"Children under 6 years with elevated blood lead levels (BLL)",
     "IndicatorDescription":"There is no safe level of lead in the blood. Lead poisoning can cause learning and behavior problems, and delay growth and mental development.",
     "Measures":[
       {
@@ -39510,7 +40085,7 @@
   {
     "IndicatorID":2185,
     "IndicatorName":"Households reporting air conditioning",
-    "IndicatorShortname":"Households with AC",
+    "IndicatorLabel":"Households reporting air conditioning",
     "IndicatorDescription":"Air conditioning is an important way to avoid heat stress, especially for persons with limited mobility.",
     "Measures":[
       {
@@ -39679,7 +40254,7 @@
   {
     "IndicatorID":2188,
     "IndicatorName":"Homes with Grab Bars in Bathroom (among older adult households)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Homes with grab bars in bathroom (among older adult households)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -39791,7 +40366,7 @@
   {
     "IndicatorID":2189,
     "IndicatorName":"Children tested for lead by age 3 years",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children tested for lead by age 3 years",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -40006,7 +40581,7 @@
   {
     "IndicatorID":2191,
     "IndicatorName":"Heat Vulnerability Index",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Heat Vulnerability Index",
     "IndicatorDescription":"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.&nbsp;<\/span><\/p>",
     "Measures":[
       {
@@ -40050,7 +40625,7 @@
   {
     "IndicatorID":2207,
     "IndicatorName":"Disinfection By-Product in Drinking Water (TTHM)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"&nbsp;Disinfection By-Product in Drinking Water - Total Trihalomethanes (TTHM)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -42091,7 +42666,7 @@
   {
     "IndicatorID":2208,
     "IndicatorName":"Hospitalizations for Asbestosis",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Hospitalizations for Asbestosis",
     "IndicatorDescription":"<p><a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/asbestos.page\" target=\"_blank\">Asbestos <\/a>is a naturally-occurring mineral which was commonly used as an insulation material until the 1970s. Inhaling high concentrations of asbestos fibers over a long time can produce lung inflammation and scarring resulting in the chronic lung disease called asbestosis, a type of pneumoconiosis. New York City construction, insulation, and shipyard workers who installed, disturbed, or removed asbestos without respiratory protection are at risk. Additionally, smokers who are exposed to asbestos have a greater risk of developing asbestos-related diseases than non-smokers. &nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Typically it takes more than ten years from the time of exposure before symptoms develop. The use of proper protective masks is key to preventing the disease, since there is no treatment for this condition.<\/p>",
     "Measures":[
       {
@@ -42327,7 +42902,7 @@
   {
     "IndicatorID":2209,
     "IndicatorName":"Elevated Blood Lead Levels among Persons Aged 16 or Older",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Elevated&nbsp;Blood Lead Levels among&nbsp;&nbsp;Persons Aged 16 or Older",
     "IndicatorDescription":"<p>In New York City, the most common cause of <a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/lead-poisoning-prevention.page\" target=\"_blank\">lead poisoning<\/a> in non-pregnant adults is from occupational exposure in the construction industry. Workers are exposed by breathing in or ingesting lead dust or fumes during renovations, repairs and demolitions that disturb old, lead based paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through the use of <a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/lead-poisoning-hazardous-consumer-products.page\" target=\"_blank\">lead-contaminated products<\/a>, such as certain imported health remedies or medicines, spices, foods, pottery and cosmetics.<\/p>\n<p>&nbsp;<\/p>",
     "Measures":[
       {
@@ -42791,7 +43366,7 @@
   {
     "IndicatorID":2210,
     "IndicatorName":"Hospitalizations for Pneumoconiosis",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Hospitalizations for Pneumoconiosis",
     "IndicatorDescription":"<p><a href=\"http:\/\/www.lung.org\/lung-health-and-diseases\/lung-disease-lookup\/pneumoconiosis\/\" target=\"_blank\">Pneumoconiosis<\/a> is a general term given to any lung disease caused by breathing in certain particles or fibers over a prolonged period. Pneumoconiosis usually results from a workplace exposure&nbsp; The most common causes of pneumoconiosis include asbestos fibers (<a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/asbestos.page\" target=\"_blank\">asbestosis<\/a>), silica dust (<a href=\"http:\/\/www.lung.org\/lung-health-and-diseases\/lung-disease-lookup\/silicosis\/?referrer=https:\/\/www.google.com\/\" target=\"_blank\">silicosis<\/a>), and coal dust (<a href=\"https:\/\/www.cdc.gov\/niosh\/topics\/cwhsp\/coalminingrelatedrespiratorydiseases.html\" target=\"_blank\">coal workers&rsquo; pneumoconiosis<\/a> or &ldquo;Black Lung Disease&rdquo;). There is no cure, but it can be prevented with appropriate respiratory protection.<\/p>",
     "Measures":[
       {
@@ -43027,7 +43602,7 @@
   {
     "IndicatorID":2211,
     "IndicatorName":"Hospitalizations Billed to Workers\u2019 Compensation",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Hospitalizations Billed to Workers&rsquo; Compensation",
     "IndicatorDescription":"<p><a href=\"http:\/\/www.wcb.ny.gov\/content\/main\/Workers\/Workers.jsp\" target=\"_blank\">Workers&rsquo; compensation<\/a> is a type of insurance that provides medical care for workers who are injured or become ill as a direct result of their job. Hospitalizations billed to <a href=\"https:\/\/www.cdc.gov\/mmwr\/preview\/mmwrhtml\/mm5929a1.htm\" target=\"_blank\">workers' compensation<\/a> represent only a portion of work-related injuries that require hospital care. It is important to realize that workers&rsquo; compensation policies vary from state-to-state with respect to the types of workers covered and the types of injuries and illnesses eligible for compensation.<\/p>",
     "Measures":[
       {
@@ -43263,7 +43838,7 @@
   {
     "IndicatorID":2214,
     "IndicatorName":"Work-Related Deaths across All Industries",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Work-Related Deaths across All Industries",
     "IndicatorDescription":"<p>Fatal work-related injuries include deaths resulting from unintentional injuries such as falls, acute poisonings, and motor vehicle crashes that occur during travel for work, and intentional injuries (i.e., homicides and suicides) that occur at work.&nbsp;Fatal injuries that occur during a person&rsquo;s commute to or from work are not included.<\/p>\n<p>&nbsp;<\/p>\n<p>Data on work-related deaths are compiled by the&nbsp;Bureau of Labor Statistics (BLS) <a href=\"https:\/\/www.bls.gov\/iif\/oshfat1.htm\" target=\"_blank\">Census of Fatal Occupational Injuries<\/a> (CFOI). CFOI produces statistics on fatal work-related injuries&nbsp;by cross-referencing multiple sources, such as death certificates, workers' compensation reports, and Occupational Safety and Health Administration (OSHA) investigation reports.<\/p>",
     "Measures":[
       {
@@ -43569,7 +44144,7 @@
   {
     "IndicatorID":2215,
     "IndicatorName":"Work-Related Deaths in the Construction Industry Citywide",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Work-Related Deaths in the Construction Industry Citywide",
     "IndicatorDescription":"<p>The New York City workforce is a diverse one and workplace risks are not distributed equally.&nbsp;Construction is the most dangerous industry in NYC, accounting for nearly a third of work-related injury&nbsp;deaths each year.&nbsp;Falls from scaffolds,&nbsp;ladders&nbsp;and roofs&nbsp;are the most common cause of&nbsp;<a href=\"http:\/\/www1.nyc.gov\/assets\/doh\/downloads\/pdf\/survey\/construction-fatalities.pdf\" target=\"_blank\">fatal injuries among&nbsp;construction workers<\/a>.<\/p>",
     "Measures":[
       {
@@ -43875,7 +44450,7 @@
   {
     "IndicatorID":2216,
     "IndicatorName":"Children under 6 years with elevated blood lead levels by NTA",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children under 6 years with elevated blood lead levels by NTA (Preliminary Data)",
     "IndicatorDescription":"<p>Children under 6 years of age with blood lead levels (BLL) at or above 5 mcg\/dL, by neighborhood tabulation area (NTA).&nbsp;<a href=\"https:\/\/www1.nyc.gov\/site\/planning\/data-maps\/open-data\/dwn-nynta.page\">Read more<\/a> about neighborhood tabulation areas.<\/p>",
     "Measures":[
       {
@@ -44029,7 +44604,7 @@
   {
     "IndicatorID":2218,
     "IndicatorName":"Babesiosis",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Babesiosis",
     "IndicatorDescription":"<p><a title=\"Babesiosis\" href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/babesiosis.page\" target=\"_blank\">Babesiosis<\/a>&nbsp;is a rare, sometimes severe or fatal tick-borne disease caused by Babesia microti, a protozoan parasite that infects red blood cells. Babesiosis is transmitted by the bite of an infected blacklegged tick, Ixodes scapularis, the same tick that transmits Lyme disease and anaplasmosis.&nbsp; Most patients acquire this disease while traveling to endemic areas outside NYC. However, there has been an increase in the number of cases with no history of travel to endemic areas, primarily in Staten Island, as well as isolated cases in the Bronx and Queens. Babesiosis can also be transmitted through transfused blood products.<\/p>\n<p>&nbsp;<\/p>\n<p><span style=\"font-size: small;\">For more information&nbsp;&nbsp;&nbsp;<\/span><\/p>\n<p><span><a title=\"NYC DOHMH Babesiosis \" href=\"https:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/babesiosis.page\" target=\"_blank\">NYC DOHMH Babesiosis Page<\/a><\/span><\/p>\n<p><a title=\"NYC DOHMH Zoonotic and Vectorborne Diseases\" href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/zoonotic-and-vectorborne-diseases.page\" target=\"_blank\">NYC DOHMH Zoonotic and Vector-borne Diseases<\/a>&nbsp;<\/p>\n<p><a title=\"CDC Babesiosis\" href=\"https:\/\/www.cdc.gov\/parasites\/babesiosis\/index.html\" target=\"_blank\">CDC Babesiosis&nbsp;<\/a><\/p>\n<p><a href=\"https:\/\/wwwn.cdc.gov\/nndss\/conditions\/babesiosis\/case-definition\/2011\/\"><span>National Surveillance Babesiosis Case Definition<\/span>&nbsp;<\/a><\/p>",
     "Measures":[
       {
@@ -44424,7 +44999,7 @@
   {
     "IndicatorID":2232,
     "IndicatorName":"Self-Reported Health",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Self-Reported Health",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -44712,7 +45287,7 @@
   {
     "IndicatorID":2235,
     "IndicatorName":"Adults Reporting Personal Use of Pesticides",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Reporting Personal Pesticide Use",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -44992,7 +45567,7 @@
   {
     "IndicatorID":2236,
     "IndicatorName":"Adults Reporting Driving in the Last 30 Days",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Reporting Driving in the Last 30 Days",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -45116,7 +45691,7 @@
   {
     "IndicatorID":2237,
     "IndicatorName":"Adults Reporting Messaging While Driving in the Last 30 Days",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Reporting Messaging While Driving in the Last 30 Days",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -45221,7 +45796,7 @@
   {
     "IndicatorID":2238,
     "IndicatorName":"Adults Reporting Speeding in the Last 30 Days",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Reporting Speeding in the Past 30 Days",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -45336,7 +45911,7 @@
   {
     "IndicatorID":2239,
     "IndicatorName":"Work-Related Deaths in the Construction Industry by Borough",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Work-Related Deaths in the Construction Industry by Borough of Injury.",
     "IndicatorDescription":"<p>The New York City workforce is a diverse one and workplace risks are not distributed equally.&nbsp;Construction is the most dangerous industry in NYC, accounting for nearly a third of work-related injury&nbsp;deaths each year.<\/p>",
     "Measures":[
       {
@@ -45393,7 +45968,7 @@
   {
     "IndicatorID":2312,
     "IndicatorName":"Commercial Insecticide Use",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Combined Insecticides",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -46636,7 +47211,7 @@
   {
     "IndicatorID":2317,
     "IndicatorName":"Jail Incarceration",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Jail Incarceration",
     "IndicatorDescription":"<p>Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighbourhoods.&nbsp;<\/p>\n<p>(<a class=\"exitlink\" href=\"http:\/\/www.thelancet.com\/journals\/lancet\/article\/PIIS0140-6736(17)30569-X\/abstract\">\"Structural Racism and Health Inequities in the USA: Evidence and Interventions&rdquo;<\/a><span>, by Zinzi D Bailey, ScD; Professor Nancy Krieger, PhD; Madina Ag&eacute;nor, ScD; Jasmine Graves, MPH; Natalia Linos, ScD; and Dr. Mary T. Bassett, MD)<\/span>&nbsp;<\/p>",
     "Measures":[
       {
@@ -46686,7 +47261,7 @@
   {
     "IndicatorID":2322,
     "IndicatorName":"Premature Mortality",
-    "IndicatorShortname":"Death before 65",
+    "IndicatorLabel":"Premature Mortality",
     "IndicatorDescription":"The rate of people who die before age 65 can indicate the overall health of a population.",
     "Measures":[
       {
@@ -46778,7 +47353,7 @@
   {
     "IndicatorID":2323,
     "IndicatorName":"School Absenteeism",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"School Absenteeism",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -46828,7 +47403,7 @@
   {
     "IndicatorID":2325,
     "IndicatorName":"Race and Ethnicity",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Race and Ethnicity",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -47292,7 +47867,7 @@
   {
     "IndicatorID":2334,
     "IndicatorName":"High School Graduation",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"High School Graduation",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -47482,7 +48057,7 @@
   {
     "IndicatorID":2335,
     "IndicatorName":"Limited English",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Limited English",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -47672,7 +48247,7 @@
   {
     "IndicatorID":2336,
     "IndicatorName":"Rent Burdened Households",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Rent Burdened Households",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -47851,7 +48426,7 @@
   {
     "IndicatorID":2337,
     "IndicatorName":"Unemployment",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Unemployment",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -48041,7 +48616,7 @@
   {
     "IndicatorID":2338,
     "IndicatorName":"Adults Reporting Secondhand Smoke at Home from Outside Sources",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults Reporting Secondhand Smoke at Home from Outside Sources",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -48361,7 +48936,7 @@
   {
     "IndicatorID":2339,
     "IndicatorName":"Youth Asthma in the Past 12 Months",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Youth asthma in the past 12 months",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -48497,7 +49072,7 @@
   {
     "IndicatorID":2340,
     "IndicatorName":"West Nile virus",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"West Nile virus",
     "IndicatorDescription":"<p>West Nile virus (WNV) is an arbovirus which is transmitted through the bite of infected mosquitoes; in NYC, the mosquitoes that transmit WNV are primarily Culex pipiens as well as Culex restuans and Culex salinarius. While most people who are infected will not go on to develop symptoms, about 20% can experience mild or moderate illness and more rarely, neuroinvasive disease which can present as encephalitis or meningitis.&nbsp; Most of the West Nile disease cases detected by the New York City Department of Health and Mental Hygiene represent neuroinvasive disease as these patients are more likely to seek care.&nbsp; &nbsp;More specific West Nile viral disease data is available on the Health Department <a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/west-nile-virus-reports.page\">website<\/a>.<\/p>",
     "Measures":[
       {
@@ -48891,8 +49466,8 @@
   },
   {
     "IndicatorID":2341,
-    "IndicatorName":"Chronic Obstructive Pulmonary Disease  Hospitalization",
-    "IndicatorShortname":null,
+    "IndicatorName":"Chronic Obstructive Pulmonary Disease Hospitalization",
+    "IndicatorLabel":"Hospitalization",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -49180,7 +49755,7 @@
   {
     "IndicatorID":2343,
     "IndicatorName":"Chronic Obstructive Pulmonary Disease Emergency Department Visits",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Emergency Department Visits",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -49468,7 +50043,7 @@
   {
     "IndicatorID":2364,
     "IndicatorName":"NYC Agency Use of Fungicides",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Fungicides",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -50250,7 +50825,7 @@
   {
     "IndicatorID":2365,
     "IndicatorName":"Court Ordered Evictions",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Court-Ordered Evictions",
     "IndicatorDescription":"<p><span>People who are<\/span><span>&nbsp;<\/span><a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pubmed\/28107704\" rel=\"noopener\" target=\"_blank\"><span>threatened with eviction<\/span><\/a><span>, even before they lose their home, are more likely to report poor health, high blood pressure, depression, anxiety, and psychological distress. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with<\/span><span>&nbsp;<\/span><a href=\"http:\/\/www.mapc.org\/wp-content\/uploads\/2017\/11\/HIA_Just_Cause_final.pdf\" rel=\"noopener\" target=\"_blank\"><span>negative health<\/span><\/a><span>&nbsp;among<\/span><span>&nbsp;<\/span><a href=\"https:\/\/scholar.harvard.edu\/files\/mdesmond\/files\/desmondkimbro.evictions.fallout.sf2015_2.pdf\" rel=\"noopener\" target=\"_blank\"><span>adults<\/span><\/a><span>&nbsp;and<\/span><span>&nbsp;<\/span><a href=\"http:\/\/childrenshealthwatch.org\/wp-content\/uploads\/Unstable-Housing-and-Caregiver-and-Child-Health-in-Renter-Families.pdf\" rel=\"noopener\" target=\"_blank\"><span>children<\/span><\/a><span>.<\/span><\/p>\n<p>(From \"<a href=\"https:\/\/www.bu.edu\/sph\/2018\/10\/05\/the-hidden-health-crisis-of-eviction\/\" target=\"_blank\">The Hidden Health Crisis of Eviction<\/a>\" by <span>Allison Bovell-Ammo and Megan Sandel<\/span>)<\/p>\n<p>&nbsp;<\/p>",
     "Measures":[
       {
@@ -50261,7 +50836,19 @@
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
             "GeoType":"NTA"
+          },
+          {
+            "GeoType":"UHF42"
           }
         ],
         "AvailableTimes":[
@@ -50297,7 +50884,19 @@
         "DisplayType":"per 10,000 homes",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"CD"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
             "GeoType":"NTA"
+          },
+          {
+            "GeoType":"UHF42"
           }
         ],
         "AvailableTimes":[
@@ -50330,7 +50929,7 @@
   {
     "IndicatorID":2366,
     "IndicatorName":"NYC Agency Use of \"Best Practice\" Products",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"\"Best Practice\" Products",
     "IndicatorDescription":"<p><span>NYC enacted a local law in 2005 that requires city agencies to reduce use of toxic products to control pests, and to adopt &ldquo;Best Practices&rdquo; instead. Best practice products use active ingredients with very low toxicity or involve formulation or application methods that minimize potential exposure and environmental spread.<\/span><\/p>",
     "Measures":[
       {
@@ -50854,7 +51453,7 @@
   {
     "IndicatorID":2367,
     "IndicatorName":"NYC Agency Use of Glyphosate",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Glyphosate",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -51218,7 +51817,7 @@
   {
     "IndicatorID":2368,
     "IndicatorName":"NYC Agency Use of Herbicides",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Herbicides",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -52000,7 +52599,7 @@
   {
     "IndicatorID":2369,
     "IndicatorName":"NYC Agency Use of Insecticides",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Insecticides",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -52782,7 +53381,7 @@
   {
     "IndicatorID":2370,
     "IndicatorName":"NYC Agency Use of Rodenticides",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Rodenticides",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -53306,7 +53905,7 @@
   {
     "IndicatorID":2374,
     "IndicatorName":"NYC Agency Use of Mosquito Control",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Mosquito Control",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -53658,7 +54257,7 @@
   {
     "IndicatorID":2375,
     "IndicatorName":"Non-fatal Assault Hospitalizations",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Non-fatal Assault Hospitalizations",
     "IndicatorDescription":"<p>Violence is frequently described through homicide statistics.&nbsp;While it is a leading cause of death and captures the most severe form of violence, non-fatal violence-related injuries resulting in hospitalizations are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.<\/p>",
     "Measures":[
       {
@@ -53750,7 +54349,7 @@
   {
     "IndicatorID":2376,
     "IndicatorName":"Cold Stress Deaths",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Cold Stress Deaths",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -53859,7 +54458,7 @@
   {
     "IndicatorID":2377,
     "IndicatorName":"Households reporting someone who uses electric medical equipment",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Households reporting someone who uses electric medical equipment",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -53954,7 +54553,7 @@
   {
     "IndicatorID":2378,
     "IndicatorName":"Asthma Emergency Department Visits (Children 0 to 4 Yrs Old) by NTA",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children ages 0 to 4 - small area neighborhood (NTA)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -54034,7 +54633,7 @@
   {
     "IndicatorID":2379,
     "IndicatorName":"Asthma Emergency Department Visits (Children 5 to 17 Yrs Old)",
-    "IndicatorShortname":"Asthma ED visits (children)",
+    "IndicatorLabel":"Children ages 5 to 17",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others.",
     "Measures":[
       {
@@ -54271,7 +54870,7 @@
   {
     "IndicatorID":2380,
     "IndicatorName":"Asthma Emergency Department Visits (Adults)",
-    "IndicatorShortname":"Asthma ED visits (adults)",
+    "IndicatorLabel":"Adults",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others.",
     "Measures":[
       {
@@ -54622,7 +55221,7 @@
   {
     "IndicatorID":2381,
     "IndicatorName":"Asthma Hospitalizations (Children 5 to 17 Yrs Old)",
-    "IndicatorShortname":"Asthma hospitalizations (children)",
+    "IndicatorLabel":"Children ages 5 to 17",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
     "Measures":[
       {
@@ -54867,7 +55466,7 @@
   {
     "IndicatorID":2382,
     "IndicatorName":"Asthma Hospitalizations (Adults)",
-    "IndicatorShortname":"Asthma hospitalizations (adults)",
+    "IndicatorLabel":"Adults",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
     "Measures":[
       {
@@ -55218,7 +55817,7 @@
   {
     "IndicatorID":2383,
     "IndicatorName":"Asthma Emergency Department Visits (Children 5 to 17 Yrs Old) by NTA",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children ages 5 to 17 - small area neighborhood (NTA)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -55320,7 +55919,7 @@
   {
     "IndicatorID":2384,
     "IndicatorName":"Asthma Emergency Department Visits (Adults) by NTA",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults - small area neighborhood (NTA)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -55469,7 +56068,7 @@
   {
     "IndicatorID":2386,
     "IndicatorName":"Asthma Hospitalizations (Children 5 to 17 Yrs Old) by NTA",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children ages 5 to 17 - small area neighborhood (NTA)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -55561,7 +56160,7 @@
   {
     "IndicatorID":2387,
     "IndicatorName":"Asthma Hospitalizations (Adults) by NTA",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Adults - small area neighborhood (NTA)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -55695,7 +56294,7 @@
   {
     "IndicatorID":2388,
     "IndicatorName":"Walking Distance to a Park",
-    "IndicatorShortname":"Park access",
+    "IndicatorLabel":"Walking Distance to a Park",
     "IndicatorDescription":"<p>Walking distance to a park is defined as 1\/4-mile or less to entrances of smaller sites, such as sitting areas and playgrounds, and 1\/2-mile or less to entrances of larger parks. Parks and open space that are not under the NYC Parks Department jurisdiction are also included.<\/p>",
     "Measures":[
       {
@@ -55757,7 +56356,7 @@
   {
     "IndicatorID":2389,
     "IndicatorName":"Unhealthy Food Access",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Unhealthy Food Access",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -55807,7 +56406,7 @@
   {
     "IndicatorID":2390,
     "IndicatorName":"Bicycle Network Coverage",
-    "IndicatorShortname":"Bike lanes",
+    "IndicatorLabel":"Bicycle Network Coverage",
     "IndicatorDescription":"The\u00a0percent of streets with bike lanes can affect cyclist and pedestrian safety, physical activity, and sustainable transportation use.\u00a0",
     "Measures":[
       {
@@ -55851,7 +56450,7 @@
   {
     "IndicatorID":2391,
     "IndicatorName":"Walking Distance to a Subway Station",
-    "IndicatorShortname":"Subway access",
+    "IndicatorLabel":"Walking Distance to a Subway Station",
     "IndicatorDescription":"<p>Percentage of population within a quarter-mile of a subway station entrance.<\/p>",
     "Measures":[
       {
@@ -55901,7 +56500,7 @@
   {
     "IndicatorID":2392,
     "IndicatorName":"Children ever diagnosed with asthma (ages 0-13 years)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children ever diagnosed with asthma (ages 0-13 years)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -56010,7 +56609,7 @@
   {
     "IndicatorID":2393,
     "IndicatorName":"Children living in homes with cockroaches (ages 0-13 years)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children living in homes with cockroaches (ages 0-13 years)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -56107,7 +56706,7 @@
   {
     "IndicatorID":2394,
     "IndicatorName":"Children living in homes with mice (ages 0-13  years)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children living in homes with mice (ages 0-13&nbsp; years)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -56204,7 +56803,7 @@
   {
     "IndicatorID":2395,
     "IndicatorName":"Children living in homes with cracks or holes (ages 0-13 years)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children living in homes with cracks or holes (ages 0-13 years)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -56301,7 +56900,7 @@
   {
     "IndicatorID":2396,
     "IndicatorName":"Children living in homes using supplemental heat (ages 0-13 years)",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Children living in homes using supplemental heat (ages 0-13 years)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -56398,7 +56997,7 @@
   {
     "IndicatorID":2398,
     "IndicatorName":"Carbon Monoxide Deaths",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Death: All Causes",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -56769,7 +57368,7 @@
   {
     "IndicatorID":2399,
     "IndicatorName":"Renter-occupied homes with any health-related maintenance problems",
-    "IndicatorShortname":"Maintenance problems",
+    "IndicatorLabel":"Renter-occupied homes with any health-related maintenance problems",
     "IndicatorDescription":"Housing without health-threatening maintenance deficiencies is an important environmental component of health.",
     "Measures":[
       {
@@ -56877,7 +57476,7 @@
   {
     "IndicatorID":2400,
     "IndicatorName":"Non-fatal Assault Emergency Department Visits",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Non-fatal Assault Emergency Department Visits",
     "IndicatorDescription":"<p>Violence is frequently described through homicide statistics.&nbsp;While it is a leading cause of death and captures the most severe form of violence, non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.<\/p>",
     "Measures":[
       {
@@ -56969,7 +57568,7 @@
   {
     "IndicatorID":2401,
     "IndicatorName":"Households that postponed health care in the last 12 months",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Households that postponed health care in the last 12 months",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -57013,7 +57612,7 @@
   {
     "IndicatorID":2403,
     "IndicatorName":"Homes with reported falls among adults 65 and older",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Homes with reported falls among adults 65 and older",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -57117,7 +57716,7 @@
   {
     "IndicatorID":2405,
     "IndicatorName":"Carbon Monoxide Emergency Department Visits",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"<span>Emergency Department Visits<\/span>",
     "IndicatorDescription":"<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.<\/p>",
     "Measures":[
       {
@@ -57749,7 +58348,7 @@
   {
     "IndicatorID":2406,
     "IndicatorName":"Carbon Monoxide Hospitalizations",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"<span>Hospitalizations<\/span>",
     "IndicatorDescription":"<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.<\/p>",
     "Measures":[
       {
@@ -58531,7 +59130,7 @@
   {
     "IndicatorID":2408,
     "IndicatorName":"Home fall-related emergency department visits among older adults",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Home fall-related emergency department visits among older adults",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -58623,7 +59222,7 @@
   {
     "IndicatorID":2409,
     "IndicatorName":"Home fall-related hospitalizations among older adults",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Home fall-related hospitalizations among older adults",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -58715,7 +59314,7 @@
   {
     "IndicatorID":2410,
     "IndicatorName":"5-Year Heat Stress Hospitalizations",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"5-Year Heat Stress Hospitalizations",
     "IndicatorDescription":"<p>5-Year Heat Stress Hospitalizations<\/p>",
     "Measures":[
       {
@@ -58898,7 +59497,7 @@
   {
     "IndicatorID":2411,
     "IndicatorName":"Heat Vulnerability Index by NTA",
-    "IndicatorShortname":null,
+    "IndicatorLabel":"Heat Vulnerability Index by NTA",
     "IndicatorDescription":"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.<\/span><\/p>\n<p>&nbsp;<\/p>",
     "Measures":[
       {
@@ -58942,7 +59541,7 @@
   {
     "IndicatorID":2414,
     "IndicatorName":"Adults with Asthma",
-    "IndicatorShortname":"Adults with Asthma",
+    "IndicatorLabel":"Adults with Asthma",
     "IndicatorDescription":null,
     "Measures":[
       {

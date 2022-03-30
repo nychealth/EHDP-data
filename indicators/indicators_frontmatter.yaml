@@ -1,0 +1,449 @@
+active-design:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2390
+    - 2181
+    - 2158
+    - 2157
+    - 2389
+    - 2143
+    - 2133
+    - 2388
+    - 2391
+air-quality:
+  indicators:
+  - header: Citywide Regulatory Monitoring
+    IndicatorID:
+    - 92
+    - 57
+    - 55
+  - header: Neighborhood Air Quality
+    IndicatorID:
+    - 2024
+    - 2023
+    - 2028
+    - 2025
+    - 2027
+    - 2026
+alcohol-access:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2049
+    - 2057
+alcohol-use:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2050
+    - 2051
+    - 2056
+    - 2055
+asthma:
+  indicators:
+  - header: Asthma Emergency Department Visits
+    IndicatorID:
+    - 2380
+    - 2384
+    - 2048
+    - 2378
+    - 2379
+    - 2383
+  - header: Asthma Hospitalizations
+    IndicatorID:
+    - 2382
+    - 2387
+    - 84
+    - 2381
+    - 2386
+  - header: Prevalence
+    IndicatorID:
+    - 2414
+    - 18
+    - 2392
+    - 2339
+bed-bugs:
+  indicators:
+  - header: null
+    IndicatorID: 2030
+birth-defects:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 26
+    - 30
+    - 31
+    - 36
+    - 37
+    - 33
+    - 28
+    - 32
+    - 35
+    - 27
+    - 101
+    - 29
+    - 34
+birth-outcomes:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 5
+    - 4
+    - 6
+    - 7
+    - 8
+    - 1
+    - 10
+    - 9
+    - 3
+    - 2
+cancer:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 74
+    - 2096
+    - 66
+    - 60
+    - 770
+    - 2077
+    - 2087
+    - 2088
+    - 73
+    - 2089
+    - 63
+    - 2090
+    - 2095
+    - 71
+    - 2091
+    - 64
+    - 690
+cancers-in-children:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2037
+    - 2035
+    - 2033
+    - 2031
+    - 2039
+carbon-monoxide-incidents:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 38
+    - 2168
+carbon-monoxide-poisoning:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2398
+    - 2405
+    - 2406
+childhood-lead-exposure:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2189
+    - 2184
+    - 2216
+chronic-obstructive-pulmonary-disease:
+  indicators:
+  - header: (COPD)
+    IndicatorID:
+    - 2341
+    - 2343
+cigarette-smoke:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2338
+    - 2020
+    - 2017
+    - 2019
+    - 2021
+  - header: Asthma triggers
+    IndicatorID: 25
+climate:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2141
+    - 2143
+  - header: Heat Stress
+    IndicatorID:
+    - 2084
+    - 2191
+    - 2411
+  - header: Safety
+    IndicatorID:
+    - 2155
+    - 2104
+    - 2185
+    - 2377
+cockroaches:
+  indicators:
+  - header: Asthma triggers
+    IndicatorID:
+    - 22
+    - 2393
+    - 107
+drinking-water-quality:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2044
+    - 2043
+    - 2207
+    - 2041
+falls-among-older-adults:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2135
+    - 2136
+    - 2408
+    - 2409
+    - 2403
+  - header: Safety
+    IndicatorID: 2188
+health-care:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2151
+    - 2132
+    - 2401
+    - 2232
+health-impacts-of-air-pollution:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2122
+    - 2124
+    - 2121
+    - 2117
+    - 2120
+    - 2108
+    - 2119
+healthy-eating:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2097
+    - 2389
+    - 2098
+heart-attacks:
+  indicators:
+  - header: null
+    IndicatorID: 90
+housing:
+  indicators:
+  - header: Asthma triggers
+    IndicatorID:
+    - 2101
+    - 25
+    - 2393
+    - 2394
+    - 107
+    - 48
+  - header: Housing characteristics
+    IndicatorID:
+    - 2365
+    - 15
+    - 17
+  - header: Maintenance
+    IndicatorID:
+    - 2396
+    - 2395
+    - 46
+    - 47
+    - 45
+    - 40
+    - 42
+    - 41
+    - 2399
+    - 2179
+  - header: Safety
+    IndicatorID:
+    - 2188
+    - 2185
+    - 2377
+lead-hazards:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2176
+    - 16
+  - header: Maintenance
+    IndicatorID: 41
+mice-and-rats:
+  indicators:
+  - header: Asthma triggers
+    IndicatorID:
+    - 2105
+    - 24
+    - 2394
+    - 48
+mortality:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 5
+    - 6
+    - 8
+    - 2322
+noise:
+  indicators:
+  - header: null
+    IndicatorID: 2134
+other-nyc-data:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2043
+    - 2146
+    - 2325
+    - 2157
+overweight:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2063
+    - 2064
+    - 2061
+    - 2062
+pesticides:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2235
+    - 91
+  - header: Commercial Use
+    IndicatorID:
+    - 2312
+    - 100
+    - 96
+    - 94
+    - 93
+    - 97
+    - 98
+    - 102
+    - 99
+  - header: NYC Agency Use
+    IndicatorID:
+    - 2366
+    - 2364
+    - 2367
+    - 2368
+    - 2369
+    - 2374
+    - 2370
+physical-activity:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2060
+    - 2058
+    - 2173
+    - 2059
+    - 2172
+restaurant-food-safety:
+  indicators:
+  - header: null
+    IndicatorID: 2065
+social-and-economic-conditions:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2145
+    - 2176
+    - 14
+    - 2334
+    - 2317
+    - 2335
+    - 2146
+    - 2073
+    - 103
+    - 2325
+    - 2336
+    - 2323
+    - 2337
+    - 2389
+  - header: Housing characteristics
+    IndicatorID:
+    - 2365
+    - 15
+    - 17
+sugary-drink-consumption:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2097
+    - 2098
+traffic:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2236
+    - 2113
+transportation-related-injuries:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2092
+    - 2086
+    - 2094
+    - 2093
+vector-borne-disease:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2218
+    - 2340
+violence:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2400
+    - 2375
+walking-driving-and-cycling:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2236
+    - 2237
+    - 2238
+    - 2058
+    - 2173
+    - 2059
+    - 2172
+weather-related-illness:
+  indicators:
+  - header: Cold Stress
+    IndicatorID:
+    - 2376
+    - 2175
+    - 2174
+  - header: Heat Stress
+    IndicatorID:
+    - 2410
+    - 2084
+    - 2074
+    - 2075
+    - 2076
+    - 2191
+    - 2411
+worker-health:
+  indicators:
+  - header: null
+    IndicatorID:
+    - 2209
+    - 2211
+    - 2208
+    - 2210
+    - 2214
+    - 2239
+    - 2215
+
