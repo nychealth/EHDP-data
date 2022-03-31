@@ -10,7 +10,7 @@ This file includes the following key fields:
 | Field    | Description   |
 |----------|---|
 | IndicatorID  | The internal ID associated with this indicator |
-| Indicator Name | The full name of this indicator  |
+| IndicatorName | The full name of this indicator  |
 | IndicatorLabel | The label used for display purposes  |
 | IndicatorDescription        | A text description of this indicator  |
 | Measures         | Measures associated with this indicator  |
