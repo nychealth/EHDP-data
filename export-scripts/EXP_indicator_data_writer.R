@@ -70,7 +70,11 @@ EXP_data_export <-
         desc(Time)
     ) %>%
     select(-GeoTypeID) %>% 
-    collect() 
+    collect() %>% 
+    across(
+        where(is.character),
+        ~ as_utf8_character(enc2native(.x))
+    )
 
 # closing connection
 
@@ -86,7 +90,7 @@ for (i in 1:length(IndicatorIDs)) {
     
     this_indicator <- IndicatorIDs[i]
     
-    cat(i, "/", length(IndicatorIDs), " [", this_indicator, "]", "\n", sep = "")
+    # cat(i, "/", length(IndicatorIDs), " [", this_indicator, "]", "\n", sep = "")
     
     exp_json <- 
         EXP_data_export %>% 
