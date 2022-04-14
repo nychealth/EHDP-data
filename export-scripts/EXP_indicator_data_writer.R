@@ -21,6 +21,7 @@ library(odbc)
 library(lubridate)
 library(fs)
 library(jsonlite)
+library(rlang)
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator
@@ -62,6 +63,7 @@ EHDP_odbc <-
 EXP_data_export <- 
     EHDP_odbc %>% 
     tbl("EXP_data_export") %>% 
+    collect() %>% 
     arrange(
         IndicatorID,
         MeasureID,
@@ -70,10 +72,11 @@ EXP_data_export <-
         desc(Time)
     ) %>%
     select(-GeoTypeID) %>% 
-    collect() %>% 
-    across(
-        where(is.character),
-        ~ as_utf8_character(enc2native(.x))
+    mutate(
+        across(
+            where(is.character),
+            ~ as_utf8_character(enc2native(.x))
+        )
     )
 
 # closing connection
@@ -84,7 +87,7 @@ dbDisconnect(EHDP_odbc)
 # Writing JSON ----
 #=========================================================================================#
 
-IndicatorIDs <- unique(EXP_data_export$IndicatorID)
+IndicatorIDs <- sort(unique(EXP_data_export$IndicatorID))
 
 for (i in 1:length(IndicatorIDs)) {
     

@@ -15732,11 +15732,11 @@
               },
               {
                 "MeasureID":92,
-                "Axis":"y"
+                "Axis":"x"
               },
               {
                 "MeasureID":92,
-                "Axis":"x"
+                "Axis":"y"
               },
               {
                 "MeasureID":759,
@@ -39035,6 +39035,10 @@
               {
                 "MeasureID":1248,
                 "Axis":"y"
+              },
+              {
+                "MeasureID":1255,
+                "Axis":"y"
               }
             ]
           }
@@ -57597,12 +57601,63 @@
     "IndicatorDescription":null,
     "Measures":[
       {
+        "MeasureID":1253,
+        "MeasurementType":"Number",
+        "how_calculated":"<p>Estimated number of households that postponed health care for financial reasons, rounded to the nearest 1,000. Health care includes dental, preventive care or check-up, mental health, treatment or diagnosis of illness or health condition, and prescription drugs.<\/p>",
+        "Sources":"New York City Housing and Vacancy Survey (HVS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"Subboro"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
         "MeasureID":1255,
         "MeasurementType":"Percent",
         "how_calculated":"<p><span>Estimated number of households that postponed health care for financial reasons, rounded to the nearest 1,000. Health care includes dental, preventive care or check-up, mental health, treatment or diagnosis of illness or health condition, and prescription drugs; expressed as percent.<\/span><\/p>",
         "Sources":"New York City Housing and Vacancy Survey (HVS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"Subboro"
+          },
           {
             "GeoType":"UHF42"
           }
@@ -57618,7 +57673,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
