@@ -7384,6 +7384,21 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -7495,6 +7510,21 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -7624,6 +7654,21 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -7735,6 +7780,21 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -7846,6 +7906,21 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -7967,6 +8042,21 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -13088,6 +13178,11 @@
             "TimeDescription":"2020",
             "start_period":1577836800000,
             "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -13209,6 +13304,11 @@
             "TimeDescription":"2020",
             "start_period":1577836800000,
             "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -18718,6 +18818,21 @@
             "TimeDescription":"Annual Average 2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"Winter 2019-20",
+            "start_period":1575158400000,
+            "end_period":1582934400000
+          },
+          {
+            "TimeDescription":"Summer 2020",
+            "start_period":1590969600000,
+            "end_period":1598832000000
+          },
+          {
+            "TimeDescription":"Annual Average 2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -18991,13 +19106,28 @@
             "TimeDescription":"Annual Average 2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"Winter 2019-20",
+            "start_period":1575158400000,
+            "end_period":1582934400000
+          },
+          {
+            "TimeDescription":"Summer 2020",
+            "start_period":1590969600000,
+            "end_period":1598832000000
+          },
+          {
+            "TimeDescription":"Annual Average 2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":1,
+                "On":0,
                 "RankReverse":0
               }
             ],
@@ -19199,13 +19329,28 @@
             "TimeDescription":"Annual Average 2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"Winter 2019-20",
+            "start_period":1575158400000,
+            "end_period":1582934400000
+          },
+          {
+            "TimeDescription":"Summer 2020",
+            "start_period":1590969600000,
+            "end_period":1598832000000
+          },
+          {
+            "TimeDescription":"Annual Average 2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":1,
+                "On":0,
                 "RankReverse":0
               }
             ],
@@ -36724,7 +36869,7 @@
         "MeasureID":688,
         "MeasurementType":"Degrees Fahrenheit",
         "how_calculated":"<p>Daytime landsat thermal data on surface, July 17, 2018, averaged spatially.<\/p>",
-        "Sources":"U. S. Geological Survey",
+        "Sources":"U.S. Geological Survey",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -39035,6 +39180,10 @@
               {
                 "MeasureID":1248,
                 "Axis":"y"
+              },
+              {
+                "MeasureID":1255,
+                "Axis":"y"
               }
             ]
           }
@@ -40613,7 +40762,7 @@
         "MeasureID":822,
         "MeasurementType":"Score",
         "how_calculated":"<p>Each neighborhood receives a score from 1 (lowest risk) to 5 (highest risk) based on a statistical model that uses social and environmental factors to estimate risk of heat-related death across NYC neighborhoods.&nbsp;<strong>A low vulnerability score does not mean no risk<\/strong>.&nbsp;Every neighborhood has residents at risk for heat illness and death. Residents who are at highest heat risk are those who do not have or use air conditioning&nbsp;<strong>AND<\/strong>&nbsp;are older or have chronic health conditions or serious mental illnesses.<\/p>\n<p>&nbsp;<\/p>\n<p>To learn more about the HVI calculations, visit the&nbsp;<a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/HVI_FAQ.pdf\">HVI FAQ<\/a>.<\/p>\n<p>&nbsp;<\/p>\n<p>Visit&nbsp;<a href=\"http:\/\/www.nyc.gov\/health\/heat\">www.nyc.gov\/health\/heat<\/a>&nbsp;for more information about heat illness and how to prevent it.&nbsp;<a href=\"https:\/\/www.health.ny.gov\/environmental\/weather\/vulnerability_index\/index.htm\">NYS has its own HVI information<\/a>.<\/p>",
-        "Sources":"American Community Survey (2013-2017 5-yr estimates); New York City Department of Parks and Recreation (2017); U. S. Geological Survey LandSat (2018); United States Census Housing and Vacancy Survey (2017)",
+        "Sources":"American Community Survey (2013-2017 5-yr estimates); New York City Department of Parks and Recreation (2017); U.S. Geological Survey LandSat (2018); United States Census Housing and Vacancy Survey (2017)",
         "DisplayType":"Lowest 1  -  Highest 5",
         "AvailableGeographyTypes":[
           {
@@ -57597,12 +57746,63 @@
     "IndicatorDescription":null,
     "Measures":[
       {
+        "MeasureID":1253,
+        "MeasurementType":"Number",
+        "how_calculated":"<p>Estimated number of households that postponed health care for financial reasons, rounded to the nearest 1,000. Health care includes dental, preventive care or check-up, mental health, treatment or diagnosis of illness or health condition, and prescription drugs.<\/p>",
+        "Sources":"New York City Housing and Vacancy Survey (HVS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"Subboro"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
         "MeasureID":1255,
         "MeasurementType":"Percent",
         "how_calculated":"<p><span>Estimated number of households that postponed health care for financial reasons, rounded to the nearest 1,000. Health care includes dental, preventive care or check-up, mental health, treatment or diagnosis of illness or health condition, and prescription drugs; expressed as percent.<\/span><\/p>",
         "Sources":"New York City Housing and Vacancy Survey (HVS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"Subboro"
+          },
           {
             "GeoType":"UHF42"
           }
@@ -57618,7 +57818,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -59529,7 +59729,7 @@
         "MeasureID":1288,
         "MeasurementType":"Score",
         "how_calculated":"<p>Each neighborhood receives a score from 1 (lowest risk) to 5 (highest risk) based on a statistical model that uses social and environmental factors to estimate risk of heat-related death across NYC neighborhoods.&nbsp;<strong>A low vulnerability score does not mean no risk<\/strong>.&nbsp;Every neighborhood has residents at risk for heat illness and death. Residents who are at highest heat risk are those who do not have or use air conditioning&nbsp;<strong>AND<\/strong>&nbsp;are older or have chronic health conditions or serious mental illnesses.<\/p>\n<p>&nbsp;<\/p>\n<p>To learn more about the HVI calculations, visit the&nbsp;<a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/HVI_FAQ.pdf\">HVI FAQ<\/a>.<\/p>\n<p>&nbsp;<\/p>\n<p>Visit&nbsp;<a href=\"http:\/\/www.nyc.gov\/health\/heat\">www.nyc.gov\/health\/heat<\/a>&nbsp;for more information about heat illness and how to prevent it.&nbsp;<a href=\"https:\/\/www.health.ny.gov\/environmental\/weather\/vulnerability_index\/index.htm\">NYS has its own HVI information<\/a>.<\/p>",
-        "Sources":"American Community Survey (2013-2017 5-yr estimates); New York City Department of Parks and Recreation (2017); U. S. Geological Survey LandSat (2018); United States Census Housing and Vacancy Survey (2017)",
+        "Sources":"American Community Survey (2013-2017 5-yr estimates); New York City Department of Parks and Recreation (2017); U.S. Geological Survey LandSat (2018); United States Census Housing and Vacancy Survey (2017)",
         "DisplayType":"Lowest 1  -  Highest 5",
         "AvailableGeographyTypes":[
           {
