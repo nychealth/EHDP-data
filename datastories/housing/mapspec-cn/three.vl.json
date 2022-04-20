@@ -40,7 +40,7 @@
       "field": "3-or-more-problems",
       "type": "quantitative",
       "legend": {
-        "title": "Más de 3 problemas sanitarios de vivienda",
+        "title": "3个以上健康住房问题",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -55,12 +55,12 @@
       {
         "field": "properties.GEONAME",
         "type": "nominal",
-        "title": "Vecindario"
+        "title": "社区"
       },
       {
         "field": "3-or-more-problems",
         "type": "quantitative",
-        "title": "Porcentaje de hogares con más de 3 problemas sanitarios de vivienda"
+        "title": "百分"
       }
     ]
   }

@@ -40,7 +40,7 @@
       "field": "toilet-breakdowns",
       "type": "quantitative",
       "legend": {
-        "title": "Baño descompuesto",
+        "title": "马桶故障",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -55,12 +55,12 @@
       {
         "field": "properties.GEONAME",
         "type": "nominal",
-        "title": "Vecindario"
+        "title": "社区"
       },
       {
         "field": "toilet-breakdowns",
         "type": "quantitative",
-        "title": "Porcentaje de hogares con baño descompuesto"
+        "title": "百分"
       }
     ]
   }

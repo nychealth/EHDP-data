@@ -40,7 +40,7 @@
       "field": "brokenplaster-peeling-paint",
       "type": "quantitative",
       "legend": {
-        "title": "Revoque dañado, pintura descascarada",
+        "title": "残破的石膏，剥落的油漆",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -55,12 +55,12 @@
       {
         "field": "properties.GEONAME",
         "type": "nominal",
-        "title": "Vecindario"
+        "title": "社区"
       },
       {
         "field": "brokenplaster-peeling-paint",
         "type": "quantitative",
-        "title": "Porcentaje de hogares con revoque dañado, pintura descascarada"
+        "title": "百分"
       }
     ]
   }

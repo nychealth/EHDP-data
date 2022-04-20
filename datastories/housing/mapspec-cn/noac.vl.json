@@ -40,7 +40,7 @@
       "field": "no-ac",
       "type": "quantitative",
       "legend": {
-        "title": "Falta de aire acondicionado",
+        "title": "没有空调",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -55,12 +55,12 @@
       {
         "field": "properties.GEONAME",
         "type": "nominal",
-        "title": "Vecindario"
+        "title": "社区"
       },
       {
         "field": "no-ac",
         "type": "quantitative",
-        "title": "Porcentaje de hogares con falta de aire acondicionado"
+        "title": "百分"
       }
     ]
   }

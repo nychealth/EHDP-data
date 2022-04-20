@@ -40,7 +40,7 @@
       "field": "no-problems",
       "type": "quantitative",
       "legend": {
-        "title": "Sin problemas sanitarios de vivienda",
+        "title": "没有健康住房问题",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -55,12 +55,12 @@
       {
         "field": "properties.GEONAME",
         "type": "nominal",
-        "title": "Vecindario"
+        "title": "社区"
       },
       {
         "field": "no-problems",
         "type": "quantitative",
-        "title": "Porcentaje de hogares sin problemas sanitarios de vivienda"
+        "title": "百分"
       }
     ]
   }

@@ -40,7 +40,7 @@
       "field": "cracks-holes-interior",
       "type": "quantitative",
       "legend": {
-        "title": "Grietas y agujeros en las paredes",
+        "title": "墙上的裂缝和孔洞",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -55,12 +55,12 @@
       {
         "field": "properties.GEONAME",
         "type": "nominal",
-        "title": "Vecindario"
+        "title": "社区"
       },
       {
         "field": "cracks-holes-interior",
         "type": "quantitative",
-        "title": "Porcentaje de hogares con grietas y agujeros en las paredes"
+        "title": "百分"
       }
     ]
   }

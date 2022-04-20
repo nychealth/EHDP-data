@@ -40,7 +40,7 @@
       "field": "require-supplemental-heat",
       "type": "quantitative",
       "legend": {
-        "title": "Calefacción complementaria",
+        "title": "补充供暖",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -55,12 +55,12 @@
       {
         "field": "properties.GEONAME",
         "type": "nominal",
-        "title": "Vecindario"
+        "title": "社区"
       },
       {
         "field": "require-supplemental-heat",
         "type": "quantitative",
-        "title": "Porcentaje de hogares con calefacción complementaria"
+        "title": "百分"
       }
     ]
   }

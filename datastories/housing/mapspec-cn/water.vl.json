@@ -40,7 +40,7 @@
       "field": "waterleaks",
       "type": "quantitative",
       "legend": {
-        "title": "Pérdidas de agua",
+        "title": "漏水",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -55,12 +55,12 @@
       {
         "field": "properties.GEONAME",
         "type": "nominal",
-        "title": "Vecindario"
+        "title": "社区"
       },
       {
         "field": "waterleaks",
         "type": "quantitative",
-        "title": "Porcentaje de hogares con pérdidas de agua"
+        "title": "百分"
       }
     ]
   }

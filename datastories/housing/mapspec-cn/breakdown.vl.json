@@ -39,7 +39,7 @@
       "field": "heating-breakdowns",
       "type": "quantitative",
       "legend": {
-        "title": "Calefacción dañada",
+        "title": "暖气故障",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -54,12 +54,12 @@
       {
         "field": "properties.GEONAME",
         "type": "nominal",
-        "title": "Vecindario"
+        "title": "社区"
       },
       {
         "field": "heating-breakdowns",
         "type": "quantitative",
-        "title": "Porcentaje de hogares con calefacción dañada"
+        "title": "百分"
       }
     ]
   }
