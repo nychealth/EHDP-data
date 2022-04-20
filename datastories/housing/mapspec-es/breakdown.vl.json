@@ -39,7 +39,7 @@
       "field": "heating-breakdowns",
       "type": "quantitative",
       "legend": {
-        "title": "Heating breakdowns",
+        "title": "Calefacción dañada",
         "titleFontSize": 12,
         "orient":"top-left",
         "gradientLength": 100
@@ -59,7 +59,7 @@
       {
         "field": "heating-breakdowns",
         "type": "quantitative",
-        "title": "Percent of homes with heating breakdowns"
+        "title": "Porcentaje de hogares con calefacción dañada"
       }
     ]
   }
