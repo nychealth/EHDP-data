@@ -158,62 +158,6 @@ report_data_list <-
     )
 
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# saving measure-specific data
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-measure_data_list <-
-    report_data %>% 
-    select(
-        data_field_name,
-        end_date,
-        geo_join_id, 
-        neighborhood,
-        data_value, 
-        message
-    ) %>% 
-    distinct() %>% 
-    group_by(data_field_name, neighborhood) %>% 
-    arrange(desc(end_date)) %>% 
-    slice(1) %>% 
-    select(-end_date) %>% 
-    group_by(data_field_name) %>% 
-    group_split() %>% 
-    walk(
-        ~ write_csv(
-            select(.x, -data_field_name),
-            paste0("neighborhoodreports/data/", unique(.x$data_field_name), ".csv")
-        )
-    )
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# saving measure-specific data with trend variables
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-measure_data_trend_list <- 
-    report_data %>% 
-    select(
-        data_field_name,
-        start_date, 
-        time, 
-        geo_join_id, 
-        neighborhood,
-        data_value, 
-        message
-    ) %>% 
-    distinct() %>% 
-    group_by(data_field_name) %>% 
-    group_split() %>% 
-    walk(
-        ~ write_csv(
-            select(.x, -data_field_name), 
-            paste0("neighborhoodreports/data/", unique(.x$data_field_name), "_trend.csv")
-            
-        )
-    )
-
-
 #=========================================================================================#
 # Cleaning up ----
 #=========================================================================================#
