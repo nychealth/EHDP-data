@@ -15832,11 +15832,11 @@
               },
               {
                 "MeasureID":92,
-                "Axis":"y"
+                "Axis":"x"
               },
               {
                 "MeasureID":92,
-                "Axis":"x"
+                "Axis":"y"
               },
               {
                 "MeasureID":759,
@@ -34762,7 +34762,7 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":[
@@ -36376,7 +36376,7 @@
           {
             "Map":[
               {
-                "On":1,
+                "On":0,
                 "RankReverse":1
               }
             ],
@@ -48462,6 +48462,26 @@
             "end_period":1356912000000
           },
           {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
             "TimeDescription":"2013-17",
             "start_period":1356998400000,
             "end_period":1514678400000
@@ -54738,6 +54758,12 @@
         "DisplayType":"per 10,000 residents",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
             "GeoType":"NTA"
           }
         ],
@@ -54773,6 +54799,12 @@
         "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
         "DisplayType":"",
         "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
           {
             "GeoType":"NTA"
           }
