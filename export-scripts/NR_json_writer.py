@@ -16,6 +16,7 @@
 
 import pyodbc
 import pandas as pd
+import string
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator database
@@ -278,25 +279,21 @@ report_level_1_small = (
 
 for i in report_level_1_small.index:
 
-    # print(i)
+    
     #-----------------------------------------------------------------------------------------#
     # looping through unique spec and using it to filter data
     #-----------------------------------------------------------------------------------------#
 
-    # keeping only the merge's key columns allows the inner join below to be a functional semi join
 
     report_spec = (
         report_level_1_small
         .iloc[[i], :]
-        # .loc[:, ["geo_entity_name", "report_title"]]
     )
     
-    print(report_spec)
-    
-    
+        
     # This is safer than splitting by the spec outside the loop and then indexing with i. 
     #   It's probably slower, but that's inconsequential here.
-
+    
     report_content = (
         report_level_123_nested
         .merge(
@@ -317,45 +314,46 @@ for i in report_level_1_small.index:
         ]
     )
     
-    # #-----------------------------------------------------------------------------------------#
-    # # constructing a list with the exact right nesting structure
-    # #-----------------------------------------------------------------------------------------#
+    #-----------------------------------------------------------------------------------------#
+    # nesting content under top-level report vars
+    #-----------------------------------------------------------------------------------------#
     
-    # report_list <- 
-    #     list(
-    #         "report" = 
-    #             c(
-    #                 c(report_spec), 
-    #                 "report_content" = list(report_content)
-    #             )
-    #     )
+    # create deep copy 
     
-    # #-----------------------------------------------------------------------------------------#
-    # # converting to JSON
-    # #-----------------------------------------------------------------------------------------#
+    report_spec_content = report_spec.copy()
     
-    # report_json <- 
-    #     toJSON(
-    #         report_list, 
-    #         pretty = FALSE, 
-    #         na = "null", 
-    #         auto_unbox = TRUE
-    #     )
+    # modify deep copy
     
-    # #-----------------------------------------------------------------------------------------#
-    # # writing JSON
-    # #-----------------------------------------------------------------------------------------#
+    report_spec_content["report_content"] = [report_content]
     
-    # write_lines(
-    #     report_json, 
-    #     str_c(
-    #         "neighborhoodreports/reports/",
-    #         str_replace_all(report_spec$report_title, "[:punct:]", ""),
-    #         " in ",
-    #         report_spec$geo_entity_name,
-    #         ".json"
-    #     )
-    # )
+    
+    #-----------------------------------------------------------------------------------------#
+    # constructing a DataFrame with the exact right nesting structure
+    #-----------------------------------------------------------------------------------------#
+    
+    report_list = pd.DataFrame()
+    
+    report_list["report"] = report_spec_content.to_dict(orient = "records")
+    
+    
+    #-----------------------------------------------------------------------------------------#
+    # converting & writing to JSON
+    #-----------------------------------------------------------------------------------------#
+    
+    # construct file name
+    
+    filename = (
+        "neighborhoodreports/reports/" + 
+        report_spec["report_title"].iat[0].strip(string.punctuation) + 
+        " in " + 
+        report_spec["geo_entity_name"].iat[0] +
+        ".json"
+    )
+    
+    # convert and save
+    
+    report_list.to_json(filename, orient = "records", indent = 2)
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
