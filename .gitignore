@@ -38,3 +38,5 @@ vignettes/*.pdf
 *.knit.md
 
 EHDP-data.Rproj
+export-scripts/use_condaenv.R
+export-scripts/get_python_conda_info.R
