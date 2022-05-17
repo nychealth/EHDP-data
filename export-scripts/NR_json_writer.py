@@ -67,6 +67,8 @@ EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=BES
 # Top-level report details
 #-----------------------------------------------------------------------------------------#
 
+# using "pd.read_sql" here because first argument (a string) doesn't have a read_sql method
+
 report_level_1 = (
     pd.read_sql(
         """
@@ -93,7 +95,6 @@ report_level_1 = (
 #             str_replace_all(" ", "_"),
 #         ".csv"
 #     )
-
 
 #-----------------------------------------------------------------------------------------#
 # Report topic details
@@ -188,11 +189,20 @@ report_level_3 = (
 # Nesting by report_id, report_topic_id, geo_entity_id
 #-----------------------------------------------------------------------------------------#
 
+# DataFrames have pandas methods, so can chain them together
+
 report_level_3_nested = (
     report_level_3
-    .groupby(["report_id", "report_topic_id", "geo_entity_id"], dropna = False)
-    .apply(lambda x: x[~x.index.isin(["report_id", "report_topic_id", "geo_entity_id"])].to_dict("records"))
-    .reset_index()
+    .groupby(
+        [
+            "report_id", 
+            "report_topic_id", 
+            "geo_entity_id"
+        ], 
+        dropna = False
+    )
+    .apply(lambda x: x.loc[:, ~ x.columns.isin(["report_id", "report_topic_id", "geo_entity_id"])].to_dict("records"))
+    .reset_index(drop = False)
     .rename(columns = {0: "report_topic_data"})
 )
 
@@ -200,24 +210,157 @@ report_level_3_nested = (
 # combining with topic details by nesting vars
 #-----------------------------------------------------------------------------------------#
 
-# report_level_23_nested <- 
-#     left_join(
-#         report_level_2,
-#         report_level_3_nested,
-#         by = c("report_id", "report_topic_id", "geo_entity_id")
-#     ) 
+report_level_23_nested = (
+    report_level_2
+    .merge(
+        report_level_3_nested,
+        how = "left",
+        on = ["report_id", "report_topic_id", "geo_entity_id"]
+    )
+    .reset_index(drop = True)
+)
 
 #-----------------------------------------------------------------------------------------#
 # adding report_title to nested data for filtering in the loop
 #-----------------------------------------------------------------------------------------#
 
-# report_level_123_nested <- 
-#     left_join(
-#         report_level_1 %>% select(report_id, geo_entity_name, report_title),
-#         report_level_23_nested,
-#         by = c("report_id", "geo_entity_name")
-#     ) %>% 
-#     arrange(geo_entity_name, report_title, report_topic) %>% 
-#     select(-c(report_id, report_topic_id, geo_entity_id))
+report_level_123_nested = (
+    report_level_1
+    .loc[:, ["report_id", "geo_entity_name", "report_title"]]
+    .merge(
+        report_level_23_nested,
+        how = "left",
+        on = ["report_id", "geo_entity_name"]
+    )
+    .sort_values(by = ["geo_entity_name", "report_title", "report_topic"])
+    .loc[:, 
+        [
+            "report_title",
+            "report_topic",
+            "report_topic_description",
+            "geo_entity_id",
+            "geo_entity_name",
+            "borough_name",
+            "city",
+            "compared_with",
+            "report_topic_data"
+        ]
+    ]
+    .reset_index(drop = True)
+)
+
+#-----------------------------------------------------------------------------------------#
+# dropping unneeded report details columns
+#-----------------------------------------------------------------------------------------#
+
+report_level_1_small = (
+    report_level_1
+    .loc[:, 
+        [
+            "report_title",
+            "report_description",
+            "report_text",
+            "report_footer",
+            "zip_code",
+            "unreliable_text",
+            "data_download_loc",
+            "geo_entity_name"
+        ]
+    ]
+    .sort_values(by = ["geo_entity_name", "report_title"])
+    .reset_index(drop = True)
+)
 
 
+#=========================================================================================#
+# Writing JSON ----
+#=========================================================================================#
+
+for i in report_level_1_small.index:
+
+    # print(i)
+    #-----------------------------------------------------------------------------------------#
+    # looping through unique spec and using it to filter data
+    #-----------------------------------------------------------------------------------------#
+
+    # keeping only the merge's key columns allows the inner join below to be a functional semi join
+
+    report_spec = (
+        report_level_1_small
+        .iloc[[i], :]
+        # .loc[:, ["geo_entity_name", "report_title"]]
+    )
+    
+    print(report_spec)
+    
+    
+    # This is safer than splitting by the spec outside the loop and then indexing with i. 
+    #   It's probably slower, but that's inconsequential here.
+
+    report_content = (
+        report_level_123_nested
+        .merge(
+            report_spec,
+            how = "inner",
+            on = ["geo_entity_name", "report_title"]
+        )
+        .loc[:, 
+            [
+                "geo_entity_name",
+                "report_topic",
+                "report_topic_description",
+                "borough_name",
+                "city",
+                "compared_with",
+                "report_topic_data"
+            ]
+        ]
+    )
+    
+    # #-----------------------------------------------------------------------------------------#
+    # # constructing a list with the exact right nesting structure
+    # #-----------------------------------------------------------------------------------------#
+    
+    # report_list <- 
+    #     list(
+    #         "report" = 
+    #             c(
+    #                 c(report_spec), 
+    #                 "report_content" = list(report_content)
+    #             )
+    #     )
+    
+    # #-----------------------------------------------------------------------------------------#
+    # # converting to JSON
+    # #-----------------------------------------------------------------------------------------#
+    
+    # report_json <- 
+    #     toJSON(
+    #         report_list, 
+    #         pretty = FALSE, 
+    #         na = "null", 
+    #         auto_unbox = TRUE
+    #     )
+    
+    # #-----------------------------------------------------------------------------------------#
+    # # writing JSON
+    # #-----------------------------------------------------------------------------------------#
+    
+    # write_lines(
+    #     report_json, 
+    #     str_c(
+    #         "neighborhoodreports/reports/",
+    #         str_replace_all(report_spec$report_title, "[:punct:]", ""),
+    #         " in ",
+    #         report_spec$geo_entity_name,
+    #         ".json"
+    #     )
+    # )
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# #
+# #                             ---- THIS IS THE END! ----
+# #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
