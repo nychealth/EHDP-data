@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+    <script>
+
+        var report_list;
+        var report_list_copy;
+
+        d3.json("report_list.json").then(data => {
+    
+            report_list = data;
+
+            console.log("report_list:", report_list)
+            console.log(Array.isArray(report_list))
+            console.log(report_list instanceof Array)
+            console.log(report_list instanceof Object)
+            
+            report_list_2 = report_list[0];
+            
+            console.log("report_list_2:", report_list_2)
+            console.log(Array.isArray(report_list_2))
+            console.log(report_list_2 instanceof Array)
+            console.log(report_list_2 instanceof Object)
+            
+        })
+
+        d3.json("report_list_copy.json").then(data => {
+            
+            report_list_copy = data;
+
+            console.log("report_list_copy:", report_list_copy)
+            console.log(Array.isArray(report_list_copy))
+            console.log(report_list_copy instanceof Array)
+            console.log(report_list_copy instanceof Object)
+
+        })
+
+
+    </script>
+    
+</body>
+</html>
