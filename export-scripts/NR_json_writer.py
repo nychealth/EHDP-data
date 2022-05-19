@@ -164,7 +164,7 @@ report_level_3 = (
                 d.indicator_short_name
                     .where(
                         d["indicator_id"].isin(adult_indicators), 
-                        d.indicator_short_name.str.replace("(children)", "(adults)", regex = False)
+                        d["indicator_short_name"].str.replace("(children)", "(adults)", regex = False)
                     )
             
     )
