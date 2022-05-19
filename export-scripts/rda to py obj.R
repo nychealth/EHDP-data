@@ -16,7 +16,8 @@ py_run_string(
     "
 import pyodbc
 import pandas as pd
-import json
+import string
+import re
     "
 )
 

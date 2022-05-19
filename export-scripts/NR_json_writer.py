@@ -17,6 +17,7 @@
 import pyodbc
 import pandas as pd
 import string
+import re
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator database
@@ -278,19 +279,18 @@ report_level_1_small = (
 #=========================================================================================#
 
 for i in report_level_1_small.index:
-
+    
     
     #-----------------------------------------------------------------------------------------#
     # looping through unique spec and using it to filter data
     #-----------------------------------------------------------------------------------------#
-
-
+    
     report_spec = (
         report_level_1_small
         .iloc[[i], :]
     )
     
-        
+    
     # This is safer than splitting by the spec outside the loop and then indexing with i. 
     #   It's probably slower, but that's inconsequential here.
     
@@ -337,7 +337,20 @@ for i in report_level_1_small.index:
     
     
     #-----------------------------------------------------------------------------------------#
-    # converting & writing to JSON
+    # converting to JSON
+    #-----------------------------------------------------------------------------------------#
+    
+    report_json = report_list.to_json(orient = "records", indent = 2)
+    
+    # find outer brackets
+    
+    # remove outer brackets and associated padding, converting array to object
+    
+    inner_object = re.sub("^\\[\n\s*|\s*\n\\]$", "", report_json)
+    
+    
+    #-----------------------------------------------------------------------------------------#
+    # saving JSON
     #-----------------------------------------------------------------------------------------#
     
     # construct file name
@@ -350,9 +363,11 @@ for i in report_level_1_small.index:
         ".json"
     )
     
-    # convert and save
+    # write file
     
-    report_list.to_json(filename, orient = "records", indent = 2)
+    with open(filename, 'w') as f:
+
+        f.write(inner_object)
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
