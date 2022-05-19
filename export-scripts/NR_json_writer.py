@@ -87,16 +87,18 @@ report_level_1 = (
         """, 
         EHDP_odbc
     )
+    .assign(
+        data_download_loc = 
+            lambda d: "http://a816-dohbesp.nyc.gov/IndicatorPublic/EPHTCsv/" +
+            d.report_title.str
+            .replace("[" + string.punctuation + "]", "", regex = True) + ".csv"
+    )
+    .assign(
+        data_download_loc = 
+            lambda d: d.data_download_loc.str.replace(" ", "_")
+    )
 )
 
-# data_download_loc = 
-#     str_c(
-#         "http://a816-dohbesp.nyc.gov/IndicatorPublic/EPHTCsv/", 
-#         report_title %>% 
-#             str_replace_all("[:punct:]", "") %>% 
-#             str_replace_all(" ", "_"),
-#         ".csv"
-#     )
 
 #-----------------------------------------------------------------------------------------#
 # Report topic details
@@ -155,6 +157,16 @@ report_level_3 = (
         FROM reportLevel3
         """, 
         EHDP_odbc
+    )
+    .assign(
+        indicator_short_name = 
+            lambda d: 
+                d.indicator_short_name
+                    .where(
+                        d["indicator_id"].isin(adult_indicators), 
+                        d.indicator_short_name.str.replace("(children)", "(adults)", regex = False)
+                    )
+            
     )
 )
 
