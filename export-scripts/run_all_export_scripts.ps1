@@ -22,11 +22,15 @@ conda activate r-reticulate
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
+Write-Output "EXP_indicator_metadata_writer"
+
 python export-scripts\EXP_indicator_metadata_writer.py
 
 #-----------------------------------------------------------------------------------------#
 # NR spark bars
 #-----------------------------------------------------------------------------------------#
+
+Write-Output "NR_SparkBarExport"
 
 python export-scripts\NR_SparkBarExport.py
 
@@ -38,17 +42,23 @@ python export-scripts\NR_SparkBarExport.py
 # EXP data
 #-----------------------------------------------------------------------------------------#
 
+Write-Output "EXP_indicator_data_writer"
+
 Rscript export-scripts\EXP_indicator_data_writer.R
 
 #-----------------------------------------------------------------------------------------#
 # NR viz data (for VegaLite)
 #-----------------------------------------------------------------------------------------#
 
+Write-Output "NR_data_csv_writer"
+
 Rscript export-scripts\NR_data_csv_writer.R
 
 #-----------------------------------------------------------------------------------------#
 # NR JSON data (for report)
 #-----------------------------------------------------------------------------------------#
+
+Write-Output "NR_json_writer"
 
 Rscript export-scripts\NR_json_writer.R
 
