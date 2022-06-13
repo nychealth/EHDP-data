@@ -14,14 +14,14 @@
 # Loading libraries
 #-----------------------------------------------------------------------------------------#
 
-library(tidyverse)
-library(DBI)
-library(dbplyr)
-library(odbc)
-library(lubridate)
-library(fs)
-library(jsonlite)
-library(rlang)
+suppressWarnings(suppressMessages(library(tidyverse)))
+suppressWarnings(suppressMessages(library(DBI)))
+suppressWarnings(suppressMessages(library(dbplyr)))
+suppressWarnings(suppressMessages(library(odbc)))
+suppressWarnings(suppressMessages(library(lubridate)))
+suppressWarnings(suppressMessages(library(fs)))
+suppressWarnings(suppressMessages(library(jsonlite)))
+suppressWarnings(suppressMessages(library(rlang)))
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator
