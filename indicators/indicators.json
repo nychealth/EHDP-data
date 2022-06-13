@@ -6868,10 +6868,6 @@
               {
                 "MeasureID":45,
                 "Axis":"y"
-              },
-              {
-                "MeasureID":679,
-                "Axis":"y"
               }
             ]
           }
@@ -13465,7 +13461,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":[
@@ -13753,7 +13749,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -14031,7 +14027,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -14309,7 +14305,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -14587,7 +14583,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":[
@@ -14870,7 +14866,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -15148,7 +15144,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":[
@@ -15482,7 +15478,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -15832,11 +15828,11 @@
               },
               {
                 "MeasureID":92,
-                "Axis":"x"
+                "Axis":"y"
               },
               {
                 "MeasureID":92,
-                "Axis":"y"
+                "Axis":"x"
               },
               {
                 "MeasureID":759,
@@ -36398,101 +36394,6 @@
     ]
   },
   {
-    "IndicatorID":2134,
-    "IndicatorName":"Disruptive Noise Exposure",
-    "IndicatorLabel":"Disruptive Noise Exposure",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":678,
-        "MeasurementType":"Number",
-        "how_calculated":"Estimated number of adults who reported experiencing noise disruption three or more times per week, rounded to the nearest 1,000. Disruptive noise exposure is any ambient noise from outside the home that disrupts activities - such as watching television, listening to the radio, having a conversation, or sleeping - of the person who hears it.  ",
-        "Sources":"New York City Community Health Survey (CHS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough"
-          },
-          {
-            "GeoType":"Citywide"
-          },
-          {
-            "GeoType":"UHF34"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":679,
-        "MeasurementType":"Percent",
-        "how_calculated":"Estimated number of adults who reported experiencing noise disruption three or more times per week, divided by the number of adults in the area; expressed as percent. Disruptive noise exposure is any ambient noise from outside the home that disrupts activities - such as watching television, listening to the radio, having a conversation, or sleeping - of the person who hears it.  ",
-        "Sources":"New York City Community Health Survey (CHS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough"
-          },
-          {
-            "GeoType":"Citywide"
-          },
-          {
-            "GeoType":"UHF34"
-          },
-          {
-            "GeoType":"UHF42"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":2135,
     "IndicatorName":"Fall-related emergency department visits among older adults",
     "IndicatorLabel":"Fall-related emergency department visits among older adults",
@@ -36906,7 +36807,7 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -37244,7 +37145,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -40787,7 +40688,7 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -47649,7 +47550,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":1
+                "Disparities":0
               }
             ],
             "Links":null
@@ -48029,7 +47930,7 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -56821,7 +56722,7 @@
       {
         "MeasureID":1232,
         "MeasurementType":"Percentage",
-        "how_calculated":"<p>Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 30 days, divided by the number of children in the area; expressed as a percent.<\/p>",
+        "how_calculated":"<p>Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 90 days, divided by the number of children in the area; expressed as a percent.<\/p>",
         "Sources":"NYC KIDS Survey",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -56868,7 +56769,7 @@
       {
         "MeasureID":1242,
         "MeasurementType":"Count",
-        "how_calculated":"<p>Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 30 days<\/p>",
+        "how_calculated":"<p>Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 90 days<\/p>",
         "Sources":"NYC KIDS Survey",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -59786,7 +59687,7 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":null
@@ -59799,7 +59700,7 @@
     "IndicatorID":2414,
     "IndicatorName":"Adults with Asthma",
     "IndicatorLabel":"Adults with Asthma",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"<p>Adults with Asthma<\/p>",
     "Measures":[
       {
         "MeasureID":1297,

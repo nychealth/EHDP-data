@@ -460,8 +460,8 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,1248,Rent1248,2017-01-01,2017-12-31,year,2017,105,105,UHF42,Crotona -Tremont,82.7,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,76,Home76,2005-01-01,2005-12-31,year,2005,106,106,UHF42,High Bridge - Morrisania,28.6,
 73,Housing and Health ,76,Home76,2002-01-01,2002-12-31,year,2002,106,106,UHF42,High Bridge - Morrisania,29.4,
-73,Housing and Health ,80,Home80,2002-01-01,2002-12-31,year,2002,106,106,UHF42,High Bridge - Morrisania,37.4,
 73,Housing and Health ,80,Home80,2005-01-01,2005-12-31,year,2005,106,106,UHF42,High Bridge - Morrisania,34.4,
+73,Housing and Health ,80,Home80,2002-01-01,2002-12-31,year,2002,106,106,UHF42,High Bridge - Morrisania,37.4,
 73,Housing and Health ,245,Home245,2008-01-01,2008-12-31,year,2008,106,106,UHF42,High Bridge - Morrisania,49.5,
 73,Housing and Health ,80,Home80,2008-01-01,2008-12-31,year,2008,106,106,UHF42,High Bridge - Morrisania,38.2,
 73,Housing and Health ,292,Adul292,2006-01-01,2006-12-31,year,2006,106,106,UHF42,High Bridge - Morrisania,34.2,
@@ -555,8 +555,8 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,25,Crow25,2014-01-01,2018-12-31,year,2014-18,105,105,UHF42,Crotona -Tremont,15.39,
 73,Housing and Health ,755,Chil755,2008-01-01,2012-12-31,other,2008-12,105,105,UHF42,Crotona -Tremont,53.22,
 73,Housing and Health ,25,Crow25,2008-01-01,2012-12-31,other,2008-12,105,105,UHF42,Crotona -Tremont,15.26,
-73,Housing and Health ,90,Home90,2002-01-01,2002-12-31,year,2002,106,106,UHF42,High Bridge - Morrisania,21.7,
 73,Housing and Health ,94,Home94,2002-01-01,2002-12-31,year,2002,106,106,UHF42,High Bridge - Morrisania,49.8,
+73,Housing and Health ,90,Home90,2002-01-01,2002-12-31,year,2002,106,106,UHF42,High Bridge - Morrisania,21.7,
 73,Housing and Health ,94,Home94,2005-01-01,2005-12-31,year,2005,106,106,UHF42,High Bridge - Morrisania,49.7,
 73,Housing and Health ,90,Home90,2005-01-01,2005-12-31,year,2005,106,106,UHF42,High Bridge - Morrisania,28.5,
 73,Housing and Health ,94,Home94,2008-01-01,2008-12-31,year,2008,106,106,UHF42,High Bridge - Morrisania,49.2,
@@ -591,8 +591,8 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,755,Chil755,2011-01-01,2015-12-31,other,2011-15,106,106,UHF42,High Bridge - Morrisania,47.4,
 73,Housing and Health ,25,Crow25,2011-01-01,2015-12-31,other,2011-15,106,106,UHF42,High Bridge - Morrisania,15.93,
 73,Housing and Health ,777,Chil777,2008-01-01,2008-12-31,year,2008,106,106,UHF42,High Bridge - Morrisania,64.8,
-73,Housing and Health ,777,Chil777,2006-01-01,2006-12-31,year,2006,106,106,UHF42,High Bridge - Morrisania,119,
 73,Housing and Health ,755,Chil755,2010-01-01,2014-12-31,other,2010-14,106,106,UHF42,High Bridge - Morrisania,47.97,
+73,Housing and Health ,777,Chil777,2006-01-01,2006-12-31,year,2006,106,106,UHF42,High Bridge - Morrisania,119,
 73,Housing and Health ,25,Crow25,2010-01-01,2014-12-31,other,2010-14,106,106,UHF42,High Bridge - Morrisania,16.18,
 73,Housing and Health ,755,Chil755,2012-01-01,2016-12-31,other,2012-16,106,106,UHF42,High Bridge - Morrisania,47.53,
 73,Housing and Health ,25,Crow25,2012-01-01,2016-12-31,other,2012-16,106,106,UHF42,High Bridge - Morrisania,15.5,
@@ -1196,8 +1196,8 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,1201,Asth1201,2018-01-01,2018-12-31,year,2018,204,204,UHF42,East New York,45.9,
 73,Housing and Health ,755,Chil755,2008-01-01,2012-12-31,other,2008-12,204,204,UHF42,East New York,48.24,
 73,Housing and Health ,781,Hous781,2017-01-01,2017-12-31,year,2017,204,204,UHF42,East New York,87.5,
-73,Housing and Health ,755,Chil755,2014-01-01,2018-12-31,year,2014-18,204,204,UHF42,East New York,35.95,
 73,Housing and Health ,755,Chil755,2015-01-01,2019-12-31,year,2015-19,204,204,UHF42,East New York,35.81,
+73,Housing and Health ,755,Chil755,2014-01-01,2018-12-31,year,2014-18,204,204,UHF42,East New York,35.95,
 73,Housing and Health ,25,Crow25,2014-01-01,2018-12-31,year,2014-18,204,204,UHF42,East New York,14.08,
 73,Housing and Health ,25,Crow25,2007-01-01,2011-12-31,year,2007-11,204,204,UHF42,East New York,13.62,
 73,Housing and Health ,25,Crow25,2008-01-01,2012-12-31,other,2008-12,204,204,UHF42,East New York,15.32,
@@ -1842,9 +1842,9 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,25,Crow25,2014-01-01,2018-12-31,year,2014-18,210,210,UHF42,Coney Island - Sheepshead Bay,10.04,
 73,Housing and Health ,78,Pre-78,2017-01-01,2017-12-31,year,2017,210,210,UHF42,Coney Island - Sheepshead Bay,2.3,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,25,Crow25,2015-01-01,2019-12-31,year,2015-19,210,210,UHF42,Coney Island - Sheepshead Bay,9.87,
-73,Housing and Health ,781,Hous781,2014-01-01,2014-12-31,year,2014,210,210,UHF42,Coney Island - Sheepshead Bay,92,
 73,Housing and Health ,755,Chil755,2014-01-01,2018-12-31,year,2014-18,210,210,UHF42,Coney Island - Sheepshead Bay,23.59,
 73,Housing and Health ,94,Home94,2017-01-01,2017-12-31,year,2017,210,210,UHF42,Coney Island - Sheepshead Bay,8,
+73,Housing and Health ,781,Hous781,2014-01-01,2014-12-31,year,2014,210,210,UHF42,Coney Island - Sheepshead Bay,92,
 73,Housing and Health ,25,Crow25,2007-01-01,2011-12-31,year,2007-11,210,210,UHF42,Coney Island - Sheepshead Bay,7.16,
 73,Housing and Health ,1204,Asth1204,2018-01-01,2018-12-31,year,2018,210,210,UHF42,Coney Island - Sheepshead Bay,6.1,
 73,Housing and Health ,1201,Asth1201,2018-01-01,2018-12-31,year,2018,210,210,UHF42,Coney Island - Sheepshead Bay,14.2,
@@ -1899,10 +1899,10 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,1204,Asth1204,2012-01-01,2012-12-31,year,2012,211,211,UHF42,Williamsburg - Bushwick,61.7,
 73,Housing and Health ,1204,Asth1204,2013-01-01,2013-12-31,year,2013,211,211,UHF42,Williamsburg - Bushwick,51.1,
 73,Housing and Health ,1201,Asth1201,2007-01-01,2007-12-31,year,2007,211,211,UHF42,Williamsburg - Bushwick,57.7,
-73,Housing and Health ,90,Home90,2017-01-01,2017-12-31,year,2017,211,211,UHF42,Williamsburg - Bushwick,18.6,
 73,Housing and Health ,1201,Asth1201,2016-01-01,2016-12-31,year,2016,211,211,UHF42,Williamsburg - Bushwick,33,
-73,Housing and Health ,716,Carb716,2014-01-01,2016-12-31,year,2014-2016,211,211,UHF42,Williamsburg - Bushwick,2.3,Estimate is based on small numbers so should be interpreted with caution.
+73,Housing and Health ,90,Home90,2017-01-01,2017-12-31,year,2017,211,211,UHF42,Williamsburg - Bushwick,18.6,
 73,Housing and Health ,1204,Asth1204,2014-01-01,2014-12-31,year,2014,211,211,UHF42,Williamsburg - Bushwick,45,
+73,Housing and Health ,716,Carb716,2014-01-01,2016-12-31,year,2014-2016,211,211,UHF42,Williamsburg - Bushwick,2.3,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,1201,Asth1201,2005-01-01,2005-12-31,year,2005,211,211,UHF42,Williamsburg - Bushwick,77.2,
 73,Housing and Health ,1201,Asth1201,2015-01-01,2015-12-31,year,2015,211,211,UHF42,Williamsburg - Bushwick,32.1,
 73,Housing and Health ,1204,Asth1204,2005-01-01,2005-12-31,year,2005,211,211,UHF42,Williamsburg - Bushwick,76.7,
@@ -2572,8 +2572,8 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,25,Crow25,2015-01-01,2019-12-31,year,2015-19,306,306,UHF42,Chelsea - Clinton,4.83,
 73,Housing and Health ,25,Crow25,2007-01-01,2011-12-31,year,2007-11,306,306,UHF42,Chelsea - Clinton,4.16,
 73,Housing and Health ,94,Home94,2002-01-01,2002-12-31,year,2002,307,307,UHF42,Gramercy Park - Murray Hill,9,
-73,Housing and Health ,90,Home90,2005-01-01,2005-12-31,year,2005,307,307,UHF42,Gramercy Park - Murray Hill,17.1,
 73,Housing and Health ,90,Home90,2002-01-01,2002-12-31,year,2002,307,307,UHF42,Gramercy Park - Murray Hill,8.9,
+73,Housing and Health ,90,Home90,2005-01-01,2005-12-31,year,2005,307,307,UHF42,Gramercy Park - Murray Hill,17.1,
 73,Housing and Health ,94,Home94,2005-01-01,2005-12-31,year,2005,307,307,UHF42,Gramercy Park - Murray Hill,9.2,
 73,Housing and Health ,90,Home90,1999-01-01,1999-12-31,year,1999,307,307,UHF42,Gramercy Park - Murray Hill,8.8,
 73,Housing and Health ,90,Home90,2008-01-01,2008-12-31,year,2008,307,307,UHF42,Gramercy Park - Murray Hill,9.9,
@@ -2586,8 +2586,8 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,540,Heat540,2002-01-01,2002-12-31,year,2002,307,307,UHF42,Gramercy Park - Murray Hill,3.5,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2009-01-01,2009-12-31,year,2009,307,307,UHF42,Gramercy Park - Murray Hill,1.5,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2003-01-01,2003-12-31,year,2003,307,307,UHF42,Gramercy Park - Murray Hill,5,Estimate is based on small numbers so should be interpreted with caution.
-73,Housing and Health ,540,Heat540,2005-01-01,2005-12-31,year,2005,307,307,UHF42,Gramercy Park - Murray Hill,3,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2007-01-01,2007-12-31,year,2007,307,307,UHF42,Gramercy Park - Murray Hill,0,Estimate is based on small numbers so should be interpreted with caution.
+73,Housing and Health ,540,Heat540,2005-01-01,2005-12-31,year,2005,307,307,UHF42,Gramercy Park - Murray Hill,3,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2006-01-01,2006-12-31,year,2006,307,307,UHF42,Gramercy Park - Murray Hill,6.1,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2011-01-01,2011-12-31,year,2011,307,307,UHF42,Gramercy Park - Murray Hill,1.5,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,716,Carb716,2011-01-01,2013-12-31,quarter,2011-2013,307,307,UHF42,Gramercy Park - Murray Hill,7.8,Estimate is based on small numbers so should be interpreted with caution.
@@ -2625,10 +2625,10 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,1204,Asth1204,2016-01-01,2016-12-31,year,2016,307,307,UHF42,Gramercy Park - Murray Hill,1.9,
 73,Housing and Health ,777,Chil777,2017-01-01,2017-12-31,year,2017,307,307,UHF42,Gramercy Park - Murray Hill,6.5,
 73,Housing and Health ,755,Chil755,2013-01-01,2017-12-31,year,2013-17,307,307,UHF42,Gramercy Park - Murray Hill,4.02,
-73,Housing and Health ,1201,Asth1201,2014-01-01,2014-12-31,year,2014,307,307,UHF42,Gramercy Park - Murray Hill,14.2,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,1201,Asth1201,2013-01-01,2013-12-31,year,2013,307,307,UHF42,Gramercy Park - Murray Hill,12.6,Estimate is based on small numbers so should be interpreted with caution.
-73,Housing and Health ,1201,Asth1201,2015-01-01,2015-12-31,year,2015,307,307,UHF42,Gramercy Park - Murray Hill,7,Estimate is based on small numbers so should be interpreted with caution.
+73,Housing and Health ,1201,Asth1201,2014-01-01,2014-12-31,year,2014,307,307,UHF42,Gramercy Park - Murray Hill,14.2,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2014-01-01,2014-12-31,year,2014,307,307,UHF42,Gramercy Park - Murray Hill,1,Estimate is based on small numbers so should be interpreted with caution.
+73,Housing and Health ,1201,Asth1201,2015-01-01,2015-12-31,year,2015,307,307,UHF42,Gramercy Park - Murray Hill,7,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,1204,Asth1204,2006-01-01,2006-12-31,year,2006,307,307,UHF42,Gramercy Park - Murray Hill,10.9,
 73,Housing and Health ,1204,Asth1204,2012-01-01,2012-12-31,year,2012,307,307,UHF42,Gramercy Park - Murray Hill,6.3,
 73,Housing and Health ,25,Crow25,2013-01-01,2017-12-31,year,2013-17,307,307,UHF42,Gramercy Park - Murray Hill,3.97,
@@ -2642,10 +2642,10 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,1201,Asth1201,2008-01-01,2008-12-31,year,2008,307,307,UHF42,Gramercy Park - Murray Hill,20.1,
 73,Housing and Health ,1201,Asth1201,2012-01-01,2012-12-31,year,2012,307,307,UHF42,Gramercy Park - Murray Hill,12.8,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,1204,Asth1204,2008-01-01,2008-12-31,year,2008,307,307,UHF42,Gramercy Park - Murray Hill,9.7,
-73,Housing and Health ,1204,Asth1204,2009-01-01,2009-12-31,year,2009,307,307,UHF42,Gramercy Park - Murray Hill,8.5,
 73,Housing and Health ,25,Crow25,2007-01-01,2011-12-31,year,2007-11,307,307,UHF42,Gramercy Park - Murray Hill,2.99,
-73,Housing and Health ,777,Chil777,2019-01-01,2019-12-31,year,2019,307,307,UHF42,Gramercy Park - Murray Hill,3.2,Estimate is based on small numbers so should be interpreted with caution.
+73,Housing and Health ,1204,Asth1204,2009-01-01,2009-12-31,year,2009,307,307,UHF42,Gramercy Park - Murray Hill,8.5,
 73,Housing and Health ,1204,Asth1204,2014-01-01,2014-12-31,year,2014,307,307,UHF42,Gramercy Park - Murray Hill,7.6,
+73,Housing and Health ,777,Chil777,2019-01-01,2019-12-31,year,2019,307,307,UHF42,Gramercy Park - Murray Hill,3.2,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,781,Hous781,2014-01-01,2014-12-31,year,2014,307,307,UHF42,Gramercy Park - Murray Hill,95.2,
 73,Housing and Health ,781,Hous781,2017-01-01,2017-12-31,year,2017,307,307,UHF42,Gramercy Park - Murray Hill,94.3,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,78,Pre-78,2017-01-01,2017-12-31,year,2017,307,307,UHF42,Gramercy Park - Murray Hill,2.1,Estimate is based on small numbers so should be interpreted with caution.
@@ -2757,8 +2757,8 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,540,Heat540,2000-01-01,2000-12-31,year,2000,309,309,UHF42,Union Square - Lower East Side,9.6,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2002-01-01,2002-12-31,year,2002,309,309,UHF42,Union Square - Lower East Side,1.7,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2001-01-01,2001-12-31,year,2001,309,309,UHF42,Union Square - Lower East Side,2.5,Estimate is based on small numbers so should be interpreted with caution.
-73,Housing and Health ,540,Heat540,2004-01-01,2004-12-31,year,2004,309,309,UHF42,Union Square - Lower East Side,0.8,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2008-01-01,2008-12-31,year,2008,309,309,UHF42,Union Square - Lower East Side,2.7,Estimate is based on small numbers so should be interpreted with caution.
+73,Housing and Health ,540,Heat540,2004-01-01,2004-12-31,year,2004,309,309,UHF42,Union Square - Lower East Side,0.8,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2009-01-01,2009-12-31,year,2009,309,309,UHF42,Union Square - Lower East Side,0,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2003-01-01,2003-12-31,year,2003,309,309,UHF42,Union Square - Lower East Side,0.8,Estimate is based on small numbers so should be interpreted with caution.
 73,Housing and Health ,540,Heat540,2005-01-01,2005-12-31,year,2005,309,309,UHF42,Union Square - Lower East Side,7.4,Estimate is based on small numbers so should be interpreted with caution.
@@ -2919,9 +2919,9 @@ report_id,title,indicator_id,data_field_name,start_date,end_date,time_type,time,
 73,Housing and Health ,755,Chil755,2013-01-01,2017-12-31,year,2013-17,309,309,UHF42,Union Square - Lower East Side,19.06,
 73,Housing and Health ,25,Crow25,2013-01-01,2017-12-31,year,2013-17,309,309,UHF42,Union Square - Lower East Side,5.67,
 73,Housing and Health ,1204,Asth1204,2006-01-01,2006-12-31,year,2006,309,309,UHF42,Union Square - Lower East Side,25.1,
-73,Housing and Health ,1204,Asth1204,2008-01-01,2008-12-31,year,2008,309,309,UHF42,Union Square - Lower East Side,27.4,
-73,Housing and Health ,1201,Asth1201,2013-01-01,2013-12-31,year,2013,309,309,UHF42,Union Square - Lower East Side,21.8,
 73,Housing and Health ,1201,Asth1201,2007-01-01,2007-12-31,year,2007,309,309,UHF42,Union Square - Lower East Side,32.3,
+73,Housing and Health ,1201,Asth1201,2013-01-01,2013-12-31,year,2013,309,309,UHF42,Union Square - Lower East Side,21.8,
+73,Housing and Health ,1204,Asth1204,2008-01-01,2008-12-31,year,2008,309,309,UHF42,Union Square - Lower East Side,27.4,
 73,Housing and Health ,1204,Asth1204,2009-01-01,2009-12-31,year,2009,309,309,UHF42,Union Square - Lower East Side,28.9,
 73,Housing and Health ,1201,Asth1201,2015-01-01,2015-12-31,year,2015,309,309,UHF42,Union Square - Lower East Side,21.5,
 73,Housing and Health ,1204,Asth1204,2012-01-01,2012-12-31,year,2012,309,309,UHF42,Union Square - Lower East Side,22.2,
