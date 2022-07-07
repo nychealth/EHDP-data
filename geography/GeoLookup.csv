@@ -335,58 +335,68 @@ NTA,8150,Elmhurst-Maspeth,40.73832468,-73.89217459
 NTA,8524,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,40.58656777,-74.13297595
 NTA,8536,Old Town-Dongan Hills-South Beach,40.58680022,-74.08551457
 NTA,8599,park-cemetery-etc-Staten Island,40.54659504,-74.1263617
-PUMA,39,Astoria,,
-PUMA,20,Bay Ridge,,
-PUMA,49,Bayside/Little Neck,,
-PUMA,13,Bedford Stuyvesant,,
-PUMA,51,Bellerose/Rosedale,,
-PUMA,21,Bensonhurst,,
-PUMA,22,Borough Park,,
-PUMA,12,Brooklyn Heights/Fort Greene,,
-PUMA,26,Brownsville/Ocean Hill,,
-PUMA,14,Bushwick,,
-PUMA,36,Central Harlem,,
-PUMA,31,Chelsea/Clinton/Midtown,,
-PUMA,23,Coney Island,,
-PUMA,27,East Flatbush,,
-PUMA,37,East Harlem,,
-PUMA,15,East New York/Starret City,,
-PUMA,42,Elmhurst/Corona,,
-PUMA,24,Flatbush,,
-PUMA,28,Flatlands/Canarsie,,
-PUMA,45,Flushing/Whitestone,,
-PUMA,44,Forest Hills/Rego Park,,
-PUMA,29,Greenwich Village/Financial District,,
-PUMA,3,Highbridge/South Concourse,,
-PUMA,46,Hillcrest/Fresh Meadows,,
-PUMA,48,Howard Beach/South Ozone Park,,
-PUMA,41,Jackson Heights,,
-PUMA,50,Jamaica,,
-PUMA,47,Kew Gardens/Woodhaven,,
-PUMA,5,Kingsbridge Heights/Mosholu,,
-PUMA,30,Lower East Side/Chinatown,,
-PUMA,54,Mid Island,,
-PUMA,43,Middle Village/Ridgewood,,
-PUMA,35,Morningside Heights/Hamilton Heights,,
-PUMA,2,Morrisania/East Tremont,,
-PUMA,1,Mott Haven/Hunts Point,,
-PUMA,18,N. Crown Heights/Prospect Heights,,
-PUMA,53,North Shore,,
-PUMA,16,Park Slope/Carroll Gardens,,
-PUMA,9,Pelham Parkway,,
-PUMA,6,Riverdale/Kingsbridge,,
-PUMA,52,Rockaways,,
-PUMA,25,Sheepshead Bay/Gravesend,,
-PUMA,7,Soundview/Parkchester,,
-PUMA,19,South Crown Heights,,
-PUMA,55,South Shore,,
-PUMA,32,Stuyvesant Town/Turtle Bay,,
-PUMA,40,Sunnyside/Woodside,,
-PUMA,17,Sunset Park,,
-PUMA,8,Throgs Neck/Co-op City,,
-PUMA,4,University Heights/Fordham,,
-PUMA,34,Upper East Side,,
-PUMA,33,Upper West Side,,
-PUMA,38,Washington Heights/Inwood,,
-PUMA,10,Williamsbridge/Baychester,,
-PUMA,11,Williamsburg/Greenpoint,,
+PUMA,1,Mott Haven/Hunts Point,40.80925487,-73.89914131
+PUMA,2,Morrisania/East Tremont,40.84540843,-73.88764642
+PUMA,3,Highbridge/South Concourse,40.8324718,-73.92155717
+PUMA,4,University Heights/Fordham,40.8521648,-73.90974564
+PUMA,5,Kingsbridge Heights/Mosholu,40.87035471,-73.89090325
+PUMA,6,Riverdale/Kingsbridge,40.88945083,-73.90488157
+PUMA,7,Soundview/Parkchester,40.82538093,-73.8595273
+PUMA,8,Throgs Neck/Co-op City,40.85099611,-73.81591399
+PUMA,9,Pelham Parkway,40.85618567,-73.85254525
+PUMA,10,Williamsbridge/Baychester,40.89001097,-73.86164526
+PUMA,11,Williamsburg/Greenpoint,40.71845632,-73.94839216
+PUMA,12,Brooklyn Heights/Fort Greene,40.6926681,-73.97739137
+PUMA,13,Bedford Stuyvesant,40.68987805,-73.94107029
+PUMA,14,Bushwick,40.69695938,-73.92063914
+PUMA,15,East New York/Starret City,40.66497905,-73.87752546
+PUMA,16,Park Slope/Carroll Gardens,40.67187895,-73.98810732
+PUMA,17,Sunset Park,40.6499528,-74.00155973
+PUMA,18,N. Crown Heights/Prospect Heights,40.6750029,-73.94396997
+PUMA,19,South Crown Heights,40.66136964,-73.947895
+PUMA,20,Bay Ridge,40.62289951,-74.0238969
+PUMA,21,Bensonhurst,40.60689428,-73.99362678
+PUMA,22,Borough Park,40.62994097,-73.98268553
+PUMA,23,Coney Island,40.58141378,-73.98103514
+PUMA,24,Flatbush,40.63041168,-73.95913991
+PUMA,25,Sheepshead Bay/Gravesend,40.59497259,-73.94868617
+PUMA,26,Brownsville/Ocean Hill,40.66821294,-73.90720004
+PUMA,27,East Flatbush,40.64768046,-73.93429282
+PUMA,28,Flatlands/Canarsie,40.61565063,-73.90332948
+PUMA,29,Greenwich Village/Financial District,40.71718861,-74.0074057
+PUMA,30,Lower East Side/Chinatown,40.71937287,-73.98612295
+PUMA,31,Chelsea/Clinton/Midtown,40.75402911,-73.99212167
+PUMA,32,Stuyvesant Town/Turtle Bay,40.74535282,-73.97520252
+PUMA,33,Upper West Side,40.78419165,-73.97222181
+PUMA,34,Upper East Side,40.7715701,-73.95573161
+PUMA,35,Morningside Heights/Hamilton Heights,40.81674915,-73.95574335
+PUMA,36,Central Harlem,40.81322148,-73.94458419
+PUMA,37,East Harlem,40.79460929,-73.93488298
+PUMA,38,Washington Heights/Inwood,40.8559678,-73.93066471
+PUMA,39,Astoria,40.76878579,-73.9174007
+PUMA,40,Sunnyside/Woodside,40.74072523,-73.91970806
+PUMA,41,Jackson Heights,40.76220475,-73.87589824
+PUMA,42,Elmhurst/Corona,40.74063157,-73.85515675
+PUMA,43,Middle Village/Ridgewood,40.71041298,-73.88945964
+PUMA,44,Forest Hills/Rego Park,40.7226512,-73.85169127
+PUMA,45,Flushing/Whitestone,40.77147604,-73.81589883
+PUMA,46,Hillcrest/Fresh Meadows,40.72584354,-73.79621329
+PUMA,47,Kew Gardens/Woodhaven,40.69637758,-73.84161294
+PUMA,48,Howard Beach/South Ozone Park,40.66939826,-73.8329958
+PUMA,49,Bayside/Little Neck,40.75651017,-73.75928394
+PUMA,50,Jamaica,40.69165013,-73.77865173
+PUMA,51,Bellerose/Rosedale,40.68051694,-73.75499218
+PUMA,52,Rockaways,40.59171391,-73.82399263
+PUMA,53,North Shore,40.62668238,-74.12036173
+PUMA,54,Mid Island,40.590753,-74.14332398
+PUMA,55,South Shore,40.53896671,-74.18701649
+NYCKIDS,10,Rest of Manhattan,40.77133301,-73.97323772
+NYCKIDS,11,East and Central Harlem Neighborhood Health Action Center,40.80468959,-73.94064243
+NYCKIDS,20,Rest of Bronx,40.86233351,-73.85338921
+NYCKIDS,21,South Bronx Neighborhood Health Action Center,40.82834807,-73.90321583
+NYCKIDS,30,Rest of Brooklyn,40.63432451,-73.9599941
+NYCKIDS,31,North and Central Brooklyn Neighborhood Health Action Center,40.67825197,-73.91300667
+NYCKIDS,40,Rest of Queens,40.72426141,-73.82791773
+NYCKIDS,41,Queens - South Jamaica and Rockaway,40.66059699,-73.78578936
+NYCKIDS,50,Staten Island,40.58153513,-74.1533124
+NYCKIDS,42,Queens,40.734452,-73.8250198
