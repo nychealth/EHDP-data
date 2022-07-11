@@ -15828,11 +15828,11 @@
               },
               {
                 "MeasureID":92,
-                "Axis":"y"
+                "Axis":"x"
               },
               {
                 "MeasureID":92,
-                "Axis":"x"
+                "Axis":"y"
               },
               {
                 "MeasureID":759,
@@ -23196,7 +23196,7 @@
   {
     "IndicatorID":2043,
     "IndicatorName":"Disinfection By-Product in Drinking Water (HAA5)",
-    "IndicatorLabel":"Disinfection By-Product in Drinking Water - <span>Haloacetic Acids<\/span> (HAA5)",
+    "IndicatorLabel":"Disinfection By-Product in Drinking Water - Haloacetic Acids HAA5)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -24618,6 +24618,106 @@
     ]
   },
   {
+    "IndicatorID":2046,
+    "IndicatorName":"Asthma Emergency Department Visits (Children 5 to 14 Yrs Old)",
+    "IndicatorLabel":"Children ages 5 to 14",
+    "IndicatorDescription":null,
+    "Measures":[
+      {
+        "MeasureID":452,
+        "MeasurementType":"Number",
+        "how_calculated":"<p>Number of asthma-related emergency department (ED) visits among NYC resident children aged 5 to 14 years.<\/p>\n<p>&nbsp;<\/p>\n<p>An ED visit is included if it has an ICD-9 principal diagnosis code of 493 or an ICD-10 principal diagnosis code of J45. New York hospitals began using the ICD-10 system on October 1, 2015. Because the ICD systems are similar in how they classify childhood asthma, data can be compared across years.<\/p>\n<p>&nbsp;<\/p>",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":455,
+        "MeasurementType":"Estimated Annual Rate",
+        "how_calculated":"<p>Number of asthma-related emergency department (ED) visits among NYC resident children aged 5 to 14 years, divided by the population of children 5 to 14 years old, using NYC DOHMH intercensal estimates; expressed as cases per 10,000 residents.<\/p>\n<p>&nbsp;<\/p>\n<p>An ED visit is included if it has an ICD-9 principal diagnosis code of 493 or an ICD-10 principal diagnosis code of J45. New York hospitals began using the ICD-10 system on October 1, 2015. Because the ICD systems are similar in how they classify childhood asthma, data can be compared across years.<\/p>\n<p>&nbsp;<\/p>",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType":"per 10,000 residents",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID":2048,
     "IndicatorName":"Asthma Emergency Department Visits (Children 0 to 4 Yrs Old)",
     "IndicatorLabel":"Children ages 0 to 4",
@@ -24702,9 +24802,19 @@
             "end_period":1483142400000
           },
           {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -24804,9 +24914,19 @@
             "end_period":1483142400000
           },
           {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -40700,7 +40820,7 @@
   {
     "IndicatorID":2207,
     "IndicatorName":"Disinfection By-Product in Drinking Water (TTHM)",
-    "IndicatorLabel":"&nbsp;Disinfection By-Product in Drinking Water - Total Trihalomethanes (TTHM)",
+    "IndicatorLabel":"Disinfection By-Product in Drinking Water - Total Trihalomethanes (TTHM)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -42977,7 +43097,7 @@
   {
     "IndicatorID":2209,
     "IndicatorName":"Elevated Blood Lead Levels among Persons Aged 16 or Older",
-    "IndicatorLabel":"Elevated&nbsp;Blood Lead Levels among&nbsp;&nbsp;Persons Aged 16 or Older",
+    "IndicatorLabel":"Elevated Blood Lead Levels among Persons Aged 16 or Older",
     "IndicatorDescription":"<p>In New York City, the most common cause of <a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/lead-poisoning-prevention.page\" target=\"_blank\">lead poisoning<\/a> in non-pregnant adults is from occupational exposure in the construction industry. Workers are exposed by breathing in or ingesting lead dust or fumes during renovations, repairs and demolitions that disturb old, lead based paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through the use of <a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/lead-poisoning-hazardous-consumer-products.page\" target=\"_blank\">lead-contaminated products<\/a>, such as certain imported health remedies or medicines, spices, foods, pottery and cosmetics.<\/p>\n<p>&nbsp;<\/p>",
     "Measures":[
       {
@@ -50974,9 +51094,9 @@
       {
         "MeasureID":1128,
         "MeasurementType":"Estimated Annual Rate",
-        "how_calculated":"<p>Rate&nbsp;of&nbsp;<span style=\"font-size: 10.5pt; font-family: Helvetica, sans-serif; color: #333333; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">executed evictions ordered by the New York City Housing Court, including those pending and scheduled as of December 31,<\/span>&nbsp;per 10,000 housing units.<\/p>\n<p>Eviction data are reported by New York City Marshals and gathered from NYC Open Data. For more information, see:&nbsp;<a href=\"https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4\">https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4<\/a><\/p>",
+        "how_calculated":"<p>Rate of executed evictions ordered by the New York City Housing Court, including those pending and scheduled as of December 31, per 10,000 residents.<\/p>\n<p>Eviction data are reported by New York City Marshals and gathered from NYC Open Data. For more information, see:&nbsp;<a href=\"https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4\">https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4<\/a><\/p>",
         "Sources":"New York City Department of Investigation",
-        "DisplayType":"per 10,000 homes",
+        "DisplayType":"per 10,000 residents",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough"
@@ -54649,7 +54769,7 @@
     "IndicatorID":2378,
     "IndicatorName":"Asthma Emergency Department Visits (Children 0 to 4 Yrs Old) by NTA",
     "IndicatorLabel":"Children ages 0 to 4 - small area neighborhood (NTA)",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"<p>Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others.<\/p>\n<p>&nbsp;<\/p>\n<p><span style=\"color: red;\"><strong>Note:<\/strong> The 2019 ED and inpatient data in New York City are incomplete and subject to change. Thus, rates from 2017-2019 may be underestimated.<\/span><\/p>",
     "Measures":[
       {
         "MeasureID":1193,
@@ -54685,7 +54805,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -54727,7 +54847,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -54822,9 +54942,19 @@
             "end_period":1483142400000
           },
           {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -54924,9 +55054,19 @@
             "end_period":1483142400000
           },
           {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -55059,9 +55199,19 @@
             "end_period":1483142400000
           },
           {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -55161,9 +55311,19 @@
             "end_period":1483142400000
           },
           {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -55925,8 +56085,50 @@
     "IndicatorID":2383,
     "IndicatorName":"Asthma Emergency Department Visits (Children 5 to 17 Yrs Old) by NTA",
     "IndicatorLabel":"Children ages 5 to 17 - small area neighborhood (NTA)",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"<p>Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others.<\/p>\n<p>&nbsp;<\/p>\n<p><span style=\"color: red;\"><strong>Note:<\/strong> The 2019 ED and inpatient data in New York City are incomplete and subject to change. Thus, rates from 2017-2019 may be underestimated.<\/span><\/p>",
     "Measures":[
+      {
+        "MeasureID":1205,
+        "MeasurementType":"Number",
+        "how_calculated":"<p>Aggregated&nbsp;number of asthma-related emergency department (ED) visits among NYC resident children aged 5 to 17 years.&nbsp;<span>Measures are provided down to the neighborhood tabulation area (NTA) level.<\/span><\/p>\n<p>&nbsp;<\/p>\n<p>ED visits include both patients who are treated and released in the ED&nbsp;(outpatients) and who are admitted as inpatients through the emergency&nbsp;department.<\/p>\n<p>&nbsp;<\/p>\n<p>An ED visit is included if it has an ICD-9 principal diagnosis code of 493 or an ICD-10 principal diagnosis code of J45. New York hospitals began using the ICD-10 system on October 1, 2015. Because the ICD systems are similar in how they classify childhood asthma, data can be compared across years.<\/p>\n<p>&nbsp;<\/p>",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017-2019",
+            "start_period":1483228800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
       {
         "MeasureID":1206,
         "MeasurementType":"Average Annual Rate",
@@ -55966,7 +56168,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -56013,7 +56215,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -56027,8 +56229,50 @@
     "IndicatorID":2384,
     "IndicatorName":"Asthma Emergency Department Visits (Adults) by NTA",
     "IndicatorLabel":"Adults - small area neighborhood (NTA)",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"<p>Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others.<\/p>\n<p>&nbsp;<\/p>\n<p><span style=\"color: red;\"><strong>Note:<\/strong> The 2019 ED and inpatient data in New York City are incomplete and subject to change. Thus, rates from 2017-2019 may be underestimated.<\/span><\/p>",
     "Measures":[
+      {
+        "MeasureID":1207,
+        "MeasurementType":"Number",
+        "how_calculated":"<p>Aggregated&nbsp;number of asthma-related emergency department (ED) visits among NYC adults (18 years and older).<\/p>\n<p>&nbsp;<\/p>\n<p>ED visits include both patients who are treated and released in the ED&nbsp;(outpatients) and who are admitted as inpatients through the emergency&nbsp;department.<\/p>\n<p>&nbsp;<\/p>\n<p>An ED visit is included if it has an ICD-9 principal diagnosis code of 493.<\/p>",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017-2019",
+            "start_period":1483228800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
       {
         "MeasureID":1208,
         "MeasurementType":"Average Annual Rate",
@@ -56068,7 +56312,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -56115,7 +56359,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -56150,6 +56394,98 @@
             "TimeDescription":"2017-2019",
             "start_period":1483228800000,
             "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2385,
+    "IndicatorName":"Asthma Hospitalizations (Children 0 to 4 Yrs Old) by NTA",
+    "IndicatorLabel":"Children ages 0 to 4 - small area neighborhood (NTA)",
+    "IndicatorDescription":null,
+    "Measures":[
+      {
+        "MeasureID":1210,
+        "MeasurementType":"Average Annual Rate",
+        "how_calculated":"<p>Average annual number of asthma-related hospitalizations among NYC resident children up to 4 years old, divided by the population of children up to 4 years old, using NYC DOHMH intercensal estimates; expressed as cases per 10,000 residents.<\/p>\n<p>&nbsp;<\/p>\n<p>A hospitalization is included if it has an ICD-9 principal diagnosis code of 493 or an ICD-10 principal diagnosis code of J45. New York hospitals began using the ICD-10 system on October 1, 2015. Because the ICD systems are similar in how they classify childhood asthma, data can be compared across years.<\/p>\n<p>&nbsp;<\/p>",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType":"per 10,000 residents",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2014-2016",
+            "start_period":1388534400000,
+            "end_period":1483142400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1211,
+        "MeasurementType":"Number",
+        "how_calculated":"<p>Aggregated&nbsp;number of asthma-related hospitalizations among NYC resident children up to 4 years old.<\/p>\n<p>&nbsp;<\/p>\n<p>A hospitalization is included if it has an ICD-9 principal diagnosis code of 493 or an ICD-10 principal diagnosis code of J45. New York hospitals began using the ICD-10 system on October 1, 2015. Because the ICD systems are similar in how they classify childhood asthma, data can be compared across years.<\/p>\n<p>&nbsp;<\/p>",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough"
+          },
+          {
+            "GeoType":"Citywide"
+          },
+          {
+            "GeoType":"NTA"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2014-2016",
+            "start_period":1388534400000,
+            "end_period":1483142400000
           }
         ],
         "VisOptions":[
@@ -56613,7 +56949,7 @@
       {
         "MeasureID":1228,
         "MeasurementType":"Percentage",
-        "how_calculated":"<p><span>Estimated number of children ages 0-13 years who were ever diagnosed with asthma, divided by all children of the same ages, expressed as a percent.&nbsp;<\/span><\/p>",
+        "how_calculated":"<p><span>Estimated number of children ages 1-13 years who were ever diagnosed with asthma, divided by all children of the same ages, expressed as a percent.&nbsp;<\/span><\/p>",
         "Sources":"NYC KIDS Survey",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -56632,6 +56968,11 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -56644,7 +56985,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -56672,7 +57013,7 @@
       {
         "MeasureID":1229,
         "MeasurementType":"Count",
-        "how_calculated":"<p>Estimated number of children ages 0-13 years who were ever diagnosed with asthma.&nbsp;<\/p>",
+        "how_calculated":"<p>Estimated number of children ages 1-13 years who were ever diagnosed with asthma.&nbsp;<\/p>",
         "Sources":"NYC KIDS Survey",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -56691,19 +57032,24 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -56812,8 +57158,8 @@
   },
   {
     "IndicatorID":2394,
-    "IndicatorName":"Children living in homes with mice (ages 0-13  years)",
-    "IndicatorLabel":"Children living in homes with mice (ages 0-13&nbsp; years)",
+    "IndicatorName":"Children living in homes with mice (ages 0-13 years)",
+    "IndicatorLabel":"Children living in homes with mice (ages 0-13 years)",
     "IndicatorDescription":null,
     "Measures":[
       {
@@ -57874,7 +58220,7 @@
   {
     "IndicatorID":2405,
     "IndicatorName":"Carbon Monoxide Emergency Department Visits",
-    "IndicatorLabel":"<span>Emergency Department Visits<\/span>",
+    "IndicatorLabel":"Emergency Department Visits",
     "IndicatorDescription":"<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.<\/p>",
     "Measures":[
       {
@@ -58506,7 +58852,7 @@
   {
     "IndicatorID":2406,
     "IndicatorName":"Carbon Monoxide Hospitalizations",
-    "IndicatorLabel":"<span>Hospitalizations<\/span>",
+    "IndicatorLabel":"Hospitalizations",
     "IndicatorDescription":"<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.<\/p>",
     "Measures":[
       {
