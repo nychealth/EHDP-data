@@ -15828,11 +15828,11 @@
               },
               {
                 "MeasureID":92,
-                "Axis":"x"
+                "Axis":"y"
               },
               {
                 "MeasureID":92,
-                "Axis":"y"
+                "Axis":"x"
               },
               {
                 "MeasureID":759,
@@ -51094,9 +51094,9 @@
       {
         "MeasureID":1128,
         "MeasurementType":"Estimated Annual Rate",
-        "how_calculated":"<p>Rate of executed evictions ordered by the New York City Housing Court, including those pending and scheduled as of December 31, per 10,000 residents.<\/p>\n<p>Eviction data are reported by New York City Marshals and gathered from NYC Open Data. For more information, see:&nbsp;<a href=\"https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4\">https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4<\/a><\/p>",
+        "how_calculated":"<p>Rate of executed evictions ordered by the New York City Housing Court, including those pending and scheduled as of December 31, per 10,000 housing units.<\/p>\n<p>Eviction data are reported by New York City Marshals and gathered from NYC Open Data. For more information, see:&nbsp;<a href=\"https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4\">https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4<\/a><\/p>",
         "Sources":"New York City Department of Investigation",
-        "DisplayType":"per 10,000 residents",
+        "DisplayType":"per 10,000 homes",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough"
