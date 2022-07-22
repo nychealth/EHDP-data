@@ -237,23 +237,7 @@
             ],
             "Links":[
               {
-                "MeasureID":365,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":370,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":375,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":383,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":386,
+                "MeasureID":221,
                 "Axis":"x"
               }
             ]
@@ -500,23 +484,7 @@
             ],
             "Links":[
               {
-                "MeasureID":365,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":370,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":375,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":383,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":386,
+                "MeasureID":221,
                 "Axis":"x"
               }
             ]
@@ -763,23 +731,7 @@
             ],
             "Links":[
               {
-                "MeasureID":365,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":370,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":375,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":383,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":386,
+                "MeasureID":221,
                 "Axis":"x"
               }
             ]
@@ -1026,23 +978,7 @@
             ],
             "Links":[
               {
-                "MeasureID":365,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":370,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":375,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":383,
-                "Axis":"x"
-              },
-              {
-                "MeasureID":386,
+                "MeasureID":221,
                 "Axis":"x"
               },
               {
@@ -1295,7 +1231,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -1537,7 +1478,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -1759,7 +1705,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -2001,7 +1952,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -2101,7 +2057,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -2324,6 +2285,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":777,
                 "Axis":"y"
               },
@@ -2515,6 +2480,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":777,
                 "Axis":"y"
@@ -2807,6 +2776,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":750,
                 "Axis":"y"
               },
@@ -2914,6 +2887,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":777,
                 "Axis":"y"
@@ -3567,6 +3544,10 @@
               {
                 "MeasureID":218,
                 "Axis":"y"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               },
               {
                 "MeasureID":363,
@@ -6379,6 +6360,10 @@
               {
                 "MeasureID":90,
                 "Axis":"x"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               }
             ]
           }
@@ -6511,6 +6496,10 @@
                 "Axis":"y"
               },
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":245,
                 "Axis":"y"
               }
@@ -6610,6 +6599,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":1248,
                 "Axis":"x"
@@ -6739,7 +6732,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -6868,6 +6866,10 @@
               {
                 "MeasureID":45,
                 "Axis":"y"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               }
             ]
           }
@@ -6998,6 +7000,10 @@
               {
                 "MeasureID":45,
                 "Axis":"y"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               },
               {
                 "MeasureID":759,
@@ -7132,6 +7138,10 @@
               {
                 "MeasureID":73,
                 "Axis":"y"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               }
             ]
           }
@@ -7276,6 +7286,10 @@
               {
                 "MeasureID":155,
                 "Axis":"y"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               }
             ]
           }
@@ -8417,7 +8431,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -8977,6 +8996,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":777,
                 "Axis":"y"
               }
@@ -9528,7 +9551,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -10088,6 +10116,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":777,
                 "Axis":"y"
               }
@@ -10639,7 +10671,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -11187,7 +11224,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -11747,6 +11789,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":777,
                 "Axis":"y"
               }
@@ -12046,6 +12092,10 @@
                 "Axis":"x"
               },
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":292,
                 "Axis":"x"
               },
@@ -12079,7 +12129,7 @@
     "IndicatorID":90,
     "IndicatorName":"Heart Attack Hospitalizations",
     "IndicatorLabel":"Heart Attack Hospitalizations",
-    "IndicatorDescription":"Heart attacks can stem from genetic, lifestyle, and environmental factors including ambient air pollution and second-hand smoke.",
+    "IndicatorDescription":"<p>Heart attacks can stem from genetic, lifestyle, and environmental factors including ambient air pollution and second-hand smoke.<\/p>",
     "Measures":[
       {
         "MeasureID":170,
@@ -12904,6 +12954,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":307,
                 "Axis":"x"
               },
@@ -13057,6 +13111,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":245,
                 "Axis":"x"
@@ -13468,6 +13526,10 @@
               {
                 "MeasureID":41,
                 "Axis":"x"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               }
             ]
           }
@@ -13752,7 +13814,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -14030,7 +14097,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -14308,7 +14380,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -14590,6 +14667,10 @@
               {
                 "MeasureID":41,
                 "Axis":"x"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               }
             ]
           }
@@ -14869,7 +14950,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -15150,6 +15236,10 @@
             "Links":[
               {
                 "MeasureID":41,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":221,
                 "Axis":"x"
               }
             ]
@@ -15481,7 +15571,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -15589,6 +15684,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":674,
                 "Axis":"y"
@@ -15832,6 +15931,10 @@
               },
               {
                 "MeasureID":92,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":221,
                 "Axis":"x"
               },
               {
@@ -16428,7 +16531,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -16976,7 +17084,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -18129,6 +18242,10 @@
                 "Axis":"y"
               },
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":444,
                 "Axis":"y"
               },
@@ -18873,6 +18990,10 @@
               {
                 "MeasureID":172,
                 "Axis":"y"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               },
               {
                 "MeasureID":444,
@@ -19620,6 +19741,10 @@
               {
                 "MeasureID":172,
                 "Axis":"y"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               },
               {
                 "MeasureID":444,
@@ -21072,6 +21197,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":696,
                 "Axis":"y"
@@ -22574,7 +22703,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -24946,6 +25080,10 @@
             "Links":[
               {
                 "MeasureID":47,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":221,
                 "Axis":"x"
               },
               {
@@ -27853,7 +27991,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -28320,7 +28463,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -28568,7 +28716,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -29206,7 +29359,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -30676,6 +30834,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":777,
                 "Axis":"y"
               }
@@ -31227,7 +31389,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -31775,7 +31942,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -32323,7 +32495,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -32871,7 +33048,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -33937,7 +34119,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -34883,6 +35070,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":777,
                 "Axis":"y"
               }
@@ -34951,7 +35142,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -35068,6 +35264,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":365,
                 "Axis":"y"
               }
@@ -35131,6 +35331,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":365,
                 "Axis":"y"
               }
@@ -35193,6 +35397,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":365,
                 "Axis":"y"
@@ -35262,7 +35470,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -35498,7 +35711,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -35620,7 +35838,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -35742,7 +35965,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -35864,7 +36092,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -36100,7 +36333,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -36504,6 +36742,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":1196,
                 "Axis":"x"
               }
@@ -36599,7 +36841,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -36874,7 +37121,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -36930,7 +37182,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -36991,7 +37248,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -37081,6 +37343,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":748,
                 "Axis":"y"
@@ -37268,7 +37534,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -37491,6 +37762,10 @@
                 "Axis":"x"
               },
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":292,
                 "Axis":"x"
               },
@@ -37655,6 +37930,10 @@
               },
               {
                 "MeasureID":47,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":221,
                 "Axis":"x"
               },
               {
@@ -37995,7 +38274,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -38147,7 +38431,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -38687,7 +38976,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -38995,7 +39289,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -39186,6 +39485,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":774,
                 "Axis":"y"
@@ -39382,6 +39685,10 @@
                 "Axis":"y"
               },
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":245,
                 "Axis":"x"
               }
@@ -39435,7 +39742,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -39918,6 +40230,10 @@
                 "Axis":"x"
               },
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":755,
                 "Axis":"x"
               },
@@ -40331,6 +40647,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":537,
                 "Axis":"y"
               },
@@ -40542,6 +40862,10 @@
               },
               {
                 "MeasureID":29,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":221,
                 "Axis":"x"
               },
               {
@@ -40811,7 +41135,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -46441,6 +46770,10 @@
               {
                 "MeasureID":41,
                 "Axis":"x"
+              },
+              {
+                "MeasureID":221,
+                "Axis":"x"
               }
             ]
           }
@@ -47447,7 +47780,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -47497,7 +47835,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -47589,7 +47932,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -48053,7 +48401,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -48243,7 +48596,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -48433,7 +48791,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -48624,6 +48987,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":781,
                 "Axis":"y"
@@ -48822,7 +49189,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -49768,6 +50140,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":307,
                 "Axis":"x"
               },
@@ -50055,6 +50431,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":307,
                 "Axis":"x"
@@ -51135,7 +51515,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -54555,7 +54940,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -54570,7 +54960,7 @@
       {
         "MeasureID":1189,
         "MeasurementType":"Number",
-        "how_calculated":"<p>Number of deaths during cold season months of October-April with an underlying or contributing cause that includes excessive natural cold (ICD10 code X31) and hypothermia (ICD10 code T68), among NYC residents. Number excludes&nbsp;deaths due to excessive cold of man-made origin (ICD10 code W93) and intentional deaths (ICD10 codes X6-X9, Y0, Y35, Y36).<\/p>",
+        "how_calculated":"<p><span lang=\"en-US\"><span>The number of deaths during cold season months of October-April with an underlying or contributing&nbsp;<\/span><span>cause<\/span><span>&nbsp;that includes excessive natural cold (ICD10 code X31),&nbsp;hypothermia (T68) other effects of reduced temperature&nbsp;(T69<\/span><span>),&nbsp;<\/span><span>or<\/span><span>&nbsp;fro<\/span><span>stbite (T33, T34) among NYC residents. The number excludes&nbsp;deaths due to excessive cold of man-made origin (W93) and intentional deaths (X6-X9, Y0, Y35, Y36). This number includes only deaths directly attributed to cold on death certificates, which represent a small proportion of all cold-related deaths. Cold can exacerbate chronic conditions, resulting in death from natural causes that may not be labeled as cold-related on a death certificate (also called \"excess mortality.\")<\/span><\/span><span>&nbsp;<\/span><\/p>",
         "Sources":"New York City Bureau of Vital Statistics",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -54648,6 +55038,11 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -54759,7 +55154,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -54809,7 +55209,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -55086,6 +55491,10 @@
             "Links":[
               {
                 "MeasureID":47,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":221,
                 "Axis":"x"
               },
               {
@@ -55452,6 +55861,10 @@
                 "Axis":"x"
               },
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":292,
                 "Axis":"x"
               },
@@ -55698,6 +56111,10 @@
               },
               {
                 "MeasureID":47,
+                "Axis":"x"
+              },
+              {
+                "MeasureID":221,
                 "Axis":"x"
               },
               {
@@ -56048,6 +56465,10 @@
                 "Axis":"x"
               },
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":292,
                 "Axis":"x"
               },
@@ -56172,7 +56593,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -56363,7 +56789,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -56460,7 +56891,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -56552,7 +56988,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -56686,7 +57127,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -56783,6 +57229,10 @@
             ],
             "Links":[
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":500,
                 "Axis":"y"
               },
@@ -56840,7 +57290,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -56884,7 +57339,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -56934,7 +57394,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
@@ -57913,6 +58378,10 @@
                 "Axis":"y"
               },
               {
+                "MeasureID":221,
+                "Axis":"x"
+              },
+              {
                 "MeasureID":755,
                 "Axis":"x"
               },
@@ -57970,7 +58439,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -58062,7 +58536,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -58203,6 +58682,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":692,
                 "Axis":"x"
@@ -59675,7 +60158,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -59767,7 +60255,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       },
@@ -59873,6 +60366,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              },
               {
                 "MeasureID":781,
                 "Axis":"x"
@@ -60036,7 +60533,12 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "Axis":"x"
+              }
+            ]
           }
         ]
       }
