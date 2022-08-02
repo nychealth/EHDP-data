@@ -72,6 +72,10 @@ EXP_data_export <-
         desc(Time)
     ) %>%
     select(-GeoTypeID) %>% 
+
+    # removing "Rank" measure values
+    
+    filter(MeasureID != 222) %>% 
     mutate(
         across(
             where(is.character),
