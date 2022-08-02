@@ -75,7 +75,7 @@ EXP_data_export <-
 
     # removing "Rank" measure values
     
-    filter(MeasureID != 222) %>% 
+    filter(MeasurementType != "Rank") %>%
     mutate(
         across(
             where(is.character),
@@ -86,6 +86,7 @@ EXP_data_export <-
 # closing connection
 
 dbDisconnect(EHDP_odbc)
+
 
 #=========================================================================================#
 # Writing JSON ----
