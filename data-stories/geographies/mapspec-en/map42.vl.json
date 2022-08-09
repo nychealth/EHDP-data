@@ -24,7 +24,7 @@
             "from": {
               "data": {
                 "name": "csv",
-                "format": {"type": "csv", "parse": {"GEOCODE": "number", "VALUE": "number"}}
+                "format": {"type": "csv", "parse": {"GEOCODE": "number", "VALUE": "number", "NEIGHBORHOOD": "string"}}
               },
               "key": "GEOCODE",
               "fields": [
