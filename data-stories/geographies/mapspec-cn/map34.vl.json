@@ -9,13 +9,13 @@
   "layer":[
     {
       "data":{
-        "name": "topo",
+        "url": "",
         "format": {"type": "topojson", "feature": "collection"}
       },
       "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
       },{
         "data": {
-          "name": "topo",
+          "url": "",
           "format": {"type": "topojson", "feature": "collection"}
         },
         "transform": [
@@ -48,7 +48,7 @@
           },
           "tooltip": [
             {
-              "field": "properties.GEONAME",
+              "field": "GEONAME",
               "type": "nominal",
               "title": "Neighborhood"
             },

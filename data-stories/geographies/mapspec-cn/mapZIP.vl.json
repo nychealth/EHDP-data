@@ -9,13 +9,13 @@
   "layer":[
     {
       "data":{
-        "name": "topo",
+        "url": "",
         "format": {"type": "topojson", "feature": "collection"}
       },
       "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
       },{
         "data": {
-          "name": "topo",
+          "url": "",
           "format": {"type": "topojson", "feature": "collection"}
         },
         "transform": [
@@ -50,7 +50,7 @@
           },
           "tooltip": [
             {
-              "field": "properties.label",
+              "field": "label",
               "type": "nominal",
               "title": "ZIP Code"
             },

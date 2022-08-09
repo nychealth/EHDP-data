@@ -8,58 +8,58 @@
   },
   "layer":[
     {
-    "data":{
-    "name": "topo",
-    "format": {"type": "topojson", "feature": "collection"}
-    },
-    "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
-  },{
-  "data": {
-    "name": "topo",
-    "format": {"type": "topojson", "feature": "collection"}
-  },
-  "transform": [
-    {
-      "lookup": "properties.GEOCODE",
-      "from": {
-        "data": {"name": "csv"},
-        "key": "GEOCODE",
-        "fields": [
-          "GEOCODE",
-          "BOROUGH",
-          "GEONAME",
-          "VALUE"
-        ]
+      "data":{
+        "url": "",
+        "format": {"type": "topojson", "feature": "collection"}
       },
-      "default": "no data"
-    }
-  ],
-
-  "mark": {"type": "geoshape", "stroke": "#838383"},
-  "encoding": {
-    "color": {
-      "bin": false,
-      "field": "VALUE",
-      "type": "quantitative",
-      "legend":null,
-      "scale": {"scheme": {"name": "purplegreen", "extent": [0.25, 0.75]}}
-    },
-    "strokeWidth": {
-      "condition": [],
-      "value": 0.5
-    },
-    "tooltip": [
-      {
-        "field": "GEONAME",
-        "type": "nominal",
-        "title": "Neighborhood"
-      },
-      {
-        "field": "GEOCODE",
-        "type": "quantitative",
-        "title": "Geo code"
+      "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
+      },{
+        "data": {
+          "url": "",
+          "format": {"type": "topojson", "feature": "collection"}
+        },
+        "transform": [
+          {
+            "lookup": "properties.GEOCODE",
+            "from": {
+              "data": {"name": "csv"},
+              "key": "GEOCODE",
+              "fields": [
+                "GEOCODE",
+                "BOROUGH",
+                "GEONAME",
+                "VALUE"
+              ]
+            },
+            "default": "no data"
+          }
+        ],
+        
+        "mark": {"type": "geoshape", "stroke": "#838383"},
+        "encoding": {
+          "color": {
+            "bin": false,
+            "field": "VALUE",
+            "type": "quantitative",
+            "legend":null,
+            "scale": {"scheme": {"name": "purplegreen", "extent": [0.25, 0.75]}}
+          },
+          "strokeWidth": {
+            "condition": [],
+            "value": 0.5
+          },
+          "tooltip": [
+            {
+              "field": "GEONAME",
+              "type": "nominal",
+              "title": "Neighborhood"
+            },
+            {
+              "field": "GEOCODE",
+              "type": "quantitative",
+              "title": "Geo code"
+            }
+          ]
+        }
+        }]
       }
-    ]
-  }
-}]
-}
