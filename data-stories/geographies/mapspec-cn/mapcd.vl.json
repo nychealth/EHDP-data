@@ -9,13 +9,13 @@
   "layer":[
     {
     "data":{
-    "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/{{ site.Params.data_branch }}/geography/CD.topo.json",
+    "url": "geography/CD.topo.json",
     "format": {"type": "topojson", "feature": "collection"}
     },
     "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
   },{
   "data": {
-    "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/{{ site.Params.data_branch }}/geography/CD.topo.json",
+    "url": "geography/CD.topo.json",
     "format": {"type": "topojson", "feature": "collection"}
   },
   "transform": [
