@@ -20,7 +20,7 @@
         },
         "transform": [
           {
-            "lookup": "properties.GEOCODE",
+            "lookup": "GEOCODE",
             "from": {
               "data": {"name": "csv"},
               "key": "GEOCODE",
