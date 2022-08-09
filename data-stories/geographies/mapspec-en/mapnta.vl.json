@@ -20,13 +20,13 @@
         },
         "transform": [
           {
-            "lookup": "properties.NTACode",
+            "lookup": "NTACode",
             "from": {
               "data": {"name": "csv"},
-              "key": "NTACODE",
+              "key": "NTACode",
               "fields": [
-                "NTACODE",
-                "NTANAME",
+                "NTACode",
+                "NTAName",
                 "VALUE"
               ]
             },
@@ -54,7 +54,7 @@
               "title": "NTA Code"
             },
             {
-              "field": "NTANAME",
+              "field": "NTAName",
               "type": "nominal",
               "title": "Neighborhood"
             }
