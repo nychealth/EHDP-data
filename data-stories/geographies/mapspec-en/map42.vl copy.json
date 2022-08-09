@@ -9,20 +9,20 @@
   "layer":[
     {
       "data":{
-        "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/geography/UHF42.topo.json",
+        "url": "",
         "format": {"type": "topojson", "feature": "collection"}
       },
       "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
       },{
         "data": {
-          "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/geography/UHF42.topo.json",
+          "url": "",
           "format": {"type": "topojson", "feature": "collection"}
         },
         "transform": [
           {
             "lookup": "properties.GEOCODE",
             "from": {
-              "data": {"url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/data-stories/geographies/42_DATA.csv"},
+              "data": {"name": "csv"},
               "key": "GEOCODE",
               "fields": [
                 "GEOCODE",
