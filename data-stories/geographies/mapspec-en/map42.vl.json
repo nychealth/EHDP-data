@@ -9,20 +9,20 @@
   "layer":[
     {
     "data":{
-    "url": "geography/UHF42.topo.json",
+    "name": "topo",
     "format": {"type": "topojson", "feature": "collection"}
     },
     "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
   },{
   "data": {
-    "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/{{ site.Params.data_branch }}/geography/UHF42.topo.json",
+    "name": "topo",
     "format": {"type": "topojson", "feature": "collection"}
   },
   "transform": [
     {
       "lookup": "properties.GEOCODE",
       "from": {
-        "data": {"url": "42_DATA.csv"},
+        "data": {"name": "csv"},
         "key": "GEOCODE",
         "fields": [
           "GEOCODE",

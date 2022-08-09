@@ -8,58 +8,58 @@
   },
   "layer":[
     {
-    "data":{
-    "url": "geography/MODZCTA_2010_WGS1984.topo.json",
-    "format": {"type": "topojson", "feature": "collection"}
-    },
-    "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
-  },{
-  "data": {
-    "url": "geography/MODZCTA_2010_WGS1984.topo.json",
-    "format": {"type": "topojson", "feature": "collection"}
-  },
-  "transform": [
-    {
-      "lookup": "properties.MODZCTA",
-      "from": {
-        "data": {"url": "FAKE_ZCTA_DATA.csv"},
-        "key": "MODIFIED_ZCTA",
-        "fields": [
-          "MODIFIED_ZCTA",
-          "NEIGHBORHOOD_NAME",
-          "BOROUGH_GROUP",
-          "value"
-        ]
+      "data":{
+        "name": "topo",
+        "format": {"type": "topojson", "feature": "collection"}
       },
-      "default": "no data"
-    }
-  ],
-
-  "mark": {"type": "geoshape", "stroke": "#ffffff"},
-  "encoding": {
-    "color": {
-      "bin": false,
-      "field": "value",
-      "type": "quantitative",
-      "legend":null,
-      "scale": {"scheme": {"name": "blues", "extent": [0.25, 0.75]}}
-    },
-    "strokeWidth": {
-      "condition": [],
-      "value": 0.5
-    },
-    "tooltip": [
-      {
-        "field": "properties.label",
-        "type": "nominal",
-        "title": "ZIP Code"
-      },
-      {
-        "field": "NEIGHBORHOOD_NAME",
-        "type": "nominal",
-        "title": "Neighborhood"
+      "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
+      },{
+        "data": {
+          "name": "topo",
+          "format": {"type": "topojson", "feature": "collection"}
+        },
+        "transform": [
+          {
+            "lookup": "properties.MODZCTA",
+            "from": {
+              "data": {"name": "csv"},
+              "key": "MODIFIED_ZCTA",
+              "fields": [
+                "MODIFIED_ZCTA",
+                "NEIGHBORHOOD_NAME",
+                "BOROUGH_GROUP",
+                "value"
+              ]
+            },
+            "default": "no data"
+          }
+        ],
+        
+        "mark": {"type": "geoshape", "stroke": "#ffffff"},
+        "encoding": {
+          "color": {
+            "bin": false,
+            "field": "value",
+            "type": "quantitative",
+            "legend":null,
+            "scale": {"scheme": {"name": "blues", "extent": [0.25, 0.75]}}
+          },
+          "strokeWidth": {
+            "condition": [],
+            "value": 0.5
+          },
+          "tooltip": [
+            {
+              "field": "properties.label",
+              "type": "nominal",
+              "title": "ZIP Code"
+            },
+            {
+              "field": "NEIGHBORHOOD_NAME",
+              "type": "nominal",
+              "title": "Neighborhood"
+            }
+          ]
+        }
+        }]
       }
-    ]
-  }
-}]
-}
