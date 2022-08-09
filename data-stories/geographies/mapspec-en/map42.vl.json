@@ -22,10 +22,7 @@
           {
             "lookup": "properties.GEOCODE",
             "from": {
-              "data": {
-                "name": "csv",
-                "format": {"type": "csv", "parse": {"GEOCODE": "number", "VALUE": "number", "NEIGHBORHOOD": "string"}}
-              },
+              "data": {"name": "csv"},
               "key": "GEOCODE",
               "fields": [
                 "GEOCODE",
