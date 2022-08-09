@@ -9,20 +9,20 @@
   "layer":[
     {
     "data":{
-    "url": "geography/NTA2.topo.json",
-    "format": {"type": "topojson", "feature": "collection"}
+      "name": "topo",
+      "format": {"type": "topojson", "feature": "collection"}
     },
     "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
   },{
   "data": {
-    "url": "geography/NTA2.topo.json",
+    "name": "topo",
     "format": {"type": "topojson", "feature": "collection"}
   },
   "transform": [
     {
       "lookup": "properties.NTACode",
       "from": {
-        "data": {"url": "NTA_DATA.csv"},
+        "data": {"name": "csv"},
         "key": "NTACODE",
         "fields": [
           "NTACODE",

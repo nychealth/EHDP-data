@@ -9,20 +9,20 @@
   "layer":[
     {
     "data":{
-    "url": "geography/CD.topo.json",
+    "name": "topo",
     "format": {"type": "topojson", "feature": "collection"}
     },
     "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
   },{
   "data": {
-    "url": "geography/CD.topo.json",
+    "name": "topo",
     "format": {"type": "topojson", "feature": "collection"}
   },
   "transform": [
     {
       "lookup": "properties.GEOCODE",
       "from": {
-        "data": {"url": "CD_DATA.csv"},
+        "data": {"name": "csv"},
         "key": "GEOCODE",
         "fields": [
           "GEOCODE",
