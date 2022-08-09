@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": "container",
+  "autosize": {"type": "fit", "contains": "padding"},
+  "config": {
+    "view": {"stroke": "transparent"}
+  },
+  "layer":[
+    {
+      "data":{
+        "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/geography/UHF42.topo.json",
+        "format": {"type": "topojson", "feature": "collection"}
+      },
+      "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
+      },{
+        "data": {
+          "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/geography/UHF42.topo.json",
+          "format": {"type": "topojson", "feature": "collection"}
+        },
+        "transform": [
+          {
+            "lookup": "properties.GEOCODE",
+            "from": {
+              "data": {"url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/data-stories/geographies/42_DATA.csv"},
+              "key": "GEOCODE",
+              "fields": [
+                "GEOCODE",
+                "NEIGHBORHOOD",
+                "VALUE"
+              ]
+            },
+            "default": "no data"
+          }
+        ],
+        
+        "mark": {"type": "geoshape", "stroke": "#ffffff"},
+        "encoding": {
+          "color": {
+            "bin": false,
+            "field": "VALUE",
+            "type": "quantitative",
+            "legend":null,
+            "scale": {"scheme": {"name": "blues", "extent": [0.25, 0.75]}}
+          },
+          "strokeWidth": {
+            "condition": [],
+            "value": 0.5
+          },
+          "tooltip": [
+            {
+              "field": "NEIGHBORHOOD",
+              "type": "nominal",
+              "title": "Neighborhood"
+            },
+            {
+              "field": "GEOCODE",
+              "type": "quantitative",
+              "title": "Geo code"
+            }
+          ]
+        }
+        }]
+      }
