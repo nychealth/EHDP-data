@@ -9,20 +9,20 @@
   "layer":[
     {
     "data":{
-    "url": "https://raw.githubusercontent.com/nycehs/NYC_geography/master/PUMA_or_Subborough.topo.json",
+    "url": "",
     "format": {"type": "topojson", "feature": "collection"}
     },
     "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
   },{
   "data": {
-    "url": "https://raw.githubusercontent.com/nycehs/NYC_geography/master/PUMA_or_Subborough.topo.json",
+    "url": "",
     "format": {"type": "topojson", "feature": "collection"}
   },
   "transform": [
     {
       "lookup": "properties.PUMA",
       "from": {
-        "data": {"url": "https://raw.githubusercontent.com/nychealth/EHDP-data/main/datastories/housing/housing-data-story-data.csv"},
+        "data": {"name": "csv"},
         "key": "GEOCODE",
         "fields": [
           "GEOCODE",
@@ -53,7 +53,7 @@
     },
     "tooltip": [
       {
-        "field": "properties.GEONAME",
+        "field": "GEONAME",
         "type": "nominal",
         "title": "Neighborhood"
       },
