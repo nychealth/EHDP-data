@@ -20,7 +20,7 @@
         },
         "transform": [
           {
-            "lookup": "porperties.NTACode",
+            "lookup": "properties.NTACode",
             "from": {
               "data": {"name": "csv"},
               "key": "NTACode",
