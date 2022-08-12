@@ -1,0 +1,127 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "description": "A simple bar chart with named data.",
+    "autosize": {"type": "fit-x", "contains": "padding"},
+    "background": "white",
+    "padding": 5,
+    "height": 150,
+    "style": "cell",
+    "data": [
+      {
+        "name": "data_0",
+        "url": "../../../visualizations/csv/aqe/aqe-nta.csv",
+        "format": {"type": "csv", "delimiter": ","},
+        "transform": [
+          {
+            "type": "filter",
+            "expr": "isValid(datum[\"Avg_annavg_PM25\"]) && isFinite(+datum[\"Avg_annavg_PM25\"])"
+          }
+        ]
+      }
+    ],
+    "signals": [
+      {
+        "name": "width",
+        "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+        "on": [
+          {
+            "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+            "events": "window:resize"
+          }
+        ]
+      },
+      {
+        "name": "unit",
+        "value": {},
+        "on": [
+          {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+        ]
+      },
+      {
+        "name": "selectNTA",
+        "value": ""
+      }
+    ],
+    "marks": [
+      {
+        "name": "marks",
+        "type": "rect",
+        "style": ["bar"],
+        "interactive": true,
+        "from": {"data": "data_0"},
+        "encode": {
+          "update": {
+            "fill": [{
+                "test": "datum.NTACode==selectNTA",
+                "value": "orange"
+            },
+                {"value": "grey"}
+            ],
+            "tooltip": {
+              "signal": "{\"PM 2.5\": format(datum[\"Avg_annavg_PM25\"], \".1f\"), \"Neighborhood\": ''+datum[\"NTAName\"]}"
+            },
+            "x": {"scale": "x", "field": "NTACode"},
+            "width": {"scale": "x", "band": true},
+            "y": {"scale": "y", "field": "Avg_annavg_PM25"},
+            "y2": {"scale": "y", "value": 0}
+          }
+        }
+      }
+    ],
+    "scales": [
+      {
+        "name": "x",
+        "type": "band",
+        "domain": {
+          "data": "data_0",
+          "field": "NTACode",
+          "sort": {"op": "mean", "field": "Avg_annavg_PM25"}
+        },
+        "range": [0, {"signal": "width"}],
+        "paddingInner": 0,
+        "paddingOuter": 0
+      },
+      {
+        "name": "y",
+        "type": "linear",
+        "domain": {"data": "data_0", "field": "Avg_annavg_PM25"},
+        "range": [{"signal": "height"}, 0],
+        "nice": true,
+        "zero": true
+      }
+    ],
+    "axes": [
+      {
+        "scale": "y",
+        "orient": "left",
+        "gridScale": "x",
+        "grid": true,
+        "tickCount": {"signal": "ceil(height/40)"},
+        "domain": false,
+        "labels": false,
+        "maxExtent": 0,
+        "minExtent": 0,
+        "ticks": false,
+        "zindex": 0
+      },
+      {
+        "scale": "y",
+        "orient": "left",
+        "grid": false,
+        "title": "PM 2.5",
+        "labelOverlap": true,
+        "tickCount": {"signal": "ceil(height/40)"},
+        "zindex": 0
+      },
+      {
+        "scale": "x",
+        "orient": "bottom",
+        "grid": false,
+        "title": "Neighborhoods",
+        "labels": false,
+        "ticks": false,
+        "labelOverlap": false,
+        "zindex": 0
+      }
+    ]
+  }

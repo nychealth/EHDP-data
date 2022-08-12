@@ -1,0 +1,107 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "autosize": {"type": "fit", "contains": "padding"},
+    "background": "white",
+    "padding": 5,
+    "style": "cell",
+    "data": [
+      {
+        "name": "source_1",
+        "url": "../../../visualizations/csv/aqe/aqe-nta.csv",
+        "format": {"type": "csv", "delimiter": ","}
+      },
+      {
+        "name": "source_0",
+        "url": "../../../visualizations/json/NTA2.topo.json",
+        "format": {"type": "topojson", "feature": "collection"},
+        "transform": [
+          {
+            "type": "lookup",
+            "from": "source_1",
+            "key": "NTACode",
+            "fields": ["properties.NTACode"],
+            "values": ["tertile_trafficdensity", "NTAName"]
+          }
+        ]
+      },
+      {
+      "name": "NTAexclude","values": [{"excludeList":"MN99"},{"excludeList":"BK99"},{"excludeList":"QN99"},{"excludeList":"BX99"},{"excludeList":"SI99"}]
+      }
+    ],
+    "projections": [
+      {
+        "name": "projection",
+        "size": {"signal": "[width, height]"},
+        "fit": {"signal": "data('source_0')"}
+      }
+    ],
+    "signals": [
+      {
+        "name": "width",
+        "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+        "on": [
+          {
+            "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+            "events": "window:resize"
+          }
+        ]
+      },
+      {
+        "name": "height",
+        "init": "isFinite(containerSize()[1]) ? containerSize()[1] : 200",
+        "on": [
+          {
+            "update": "isFinite(containerSize()[1]) ? containerSize()[1] : 200",
+            "events": "window:resize"
+          }
+        ]
+      },
+      {"name": "selectNTA", "value": "BK17"}
+    ],
+    "marks": [
+      {
+        "name": "marks",
+        "type": "shape",
+        "style": ["geoshape"],
+        "from": {"data": "source_0"},
+        "encode": {
+          "update": {
+            "fill": [{
+              "test":"indata('NTAexclude','excludeList',datum.properties.NTACode)",
+              "value":"gray"
+            },
+            {"scale": "color", "field": "tertile_trafficdensity"}],
+            "strokeWidth":{"value": 2},
+            "zindex": {"value": 1},
+            "stroke": [
+              {
+                "test": "datum.properties.NTACode==selectNTA",
+                "value": "orange"
+              },
+              {"value": null}
+            ],
+            "tooltip": {"signal": "''+datum[\"NTAName\"]"}
+          }
+        },
+        "transform": [{"type": "geoshape", "projection": "projection"}]
+      }
+    ],
+    "scales": [
+      {
+        "name": "color",
+        "type": "ordinal",
+        "domain": {
+          "data": "source_0",
+          "field": "tertile_trafficdensity",
+          "sort": true
+        },
+        "range": "ordinal",
+        "interpolate": "hcl"
+      }
+    ],
+    "config": {
+      "legend": {"orient": "none"},
+      "style": {"cell": {"stroke": "transparent"}},
+      "range": {"ordinal": ["#ffc2ff", "#cc59ca", "#6e1e93"]}
+    }
+  }
