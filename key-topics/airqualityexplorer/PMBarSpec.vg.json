@@ -7,10 +7,10 @@
     "height": 150,
     "style": "cell",
     "data": [
+      {"name": "nyccasData"},
       {
         "name": "data_0",
-        "url": "../../../visualizations/csv/aqe/aqe-nta.csv",
-        "format": {"type": "csv", "delimiter": ","},
+        "source": "nyccasData",
         "transform": [
           {
             "type": "filter",

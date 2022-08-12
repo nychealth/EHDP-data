@@ -5,19 +5,19 @@
     "padding": 5,
     "style": "cell",
     "data": [
+      {"name": "nyccasData"},
       {
-        "name": "source_1",
-        "url": "../../../visualizations/csv/aqe/aqe-nta.csv",
-        "format": {"type": "csv", "delimiter": ","}
+        "name": "data_1",
+        "source": "nyccasData"
       },
       {
         "name": "source_0",
-        "url": "../../../visualizations/json/NTA2.topo.json",
+        "url": "topo",
         "format": {"type": "topojson", "feature": "collection"},
         "transform": [
           {
             "type": "lookup",
-            "from": "source_1",
+            "from": "data_1",
             "key": "NTACode",
             "fields": ["properties.NTACode"],
             "values": ["tertile_trafficdensity", "NTAName"]
