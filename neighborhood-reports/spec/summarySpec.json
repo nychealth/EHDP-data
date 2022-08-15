@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "width": "container",
+    "height": "container",
+    "autosize": {"type": "fit", "contains": "content", "resize": true},
+    "data": {"name": "summaryData"},
+    "mark": {"type": "bar", "tooltip": true},
+    "encoding": {
+      "x": {
+        "field": "neighborhood",
+        "title": "Neighborhood",
+        "type": "nominal",
+        "sort": {"op": "mean", "field": "data_value"},
+        "axis":null
+      },
+      "y": {
+        "field": "data_value",
+        "title": "Value",
+        "type": "quantitative",
+        "axis": {"title": ""}
+      },
+      "color": {
+        "condition": {
+          "test": "datum.neighborhood=='Canarsie - Flatlands'",
+          "value": "#1CA970"
+        },
+        "value": "#D8D8D8"
+      }
+    }
+  }
