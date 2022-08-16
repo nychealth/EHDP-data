@@ -17,7 +17,7 @@
         }
       }
     ],
-    "layer":[
+    "layer": [
       {
         "mark": {"type": "geoshape", "tooltip": true},
         "encoding": {
