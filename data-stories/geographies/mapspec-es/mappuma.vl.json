@@ -33,7 +33,7 @@
             },
             "default": "no data"
           },
-          {"calculate": "datum.PUMA + ': ' + datum.GEONAME", "as": "puma_name"}
+          {"calculate": "toString(datum.PUMA) + ': ' + datum.GEONAME", "as": "puma_name"}
         ],
         "mark": {"type": "geoshape", "stroke": "#838383"},
         "encoding": {
