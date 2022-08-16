@@ -33,7 +33,7 @@
             },
             "default": "no data"
           },
-          {"calculate": "datum.PUMA + ': ' + datum.GEONAME"}
+          {"calculate": "datum.PUMA + ': ' + datum.GEONAME", "as": "puma_name"}
         ],
         "mark": {"type": "geoshape", "stroke": "#838383"},
         "encoding": {
@@ -50,9 +50,9 @@
           },
           "tooltip": [
             {
-              "field": "GEONAME",
+              "field": "puma_name",
               "type": "nominal",
-              "title": "Neighborhood"
+              "title": "PUMA Neighborhood"
             },
             {
               "field": "GEOCODE",

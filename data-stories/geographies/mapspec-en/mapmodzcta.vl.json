@@ -50,7 +50,7 @@
           },
           "tooltip": [
             {
-              "field": "GEONAME",
+              "field": "properties.GEONAME",
               "type": "nominal",
               "title": "ZIP Code"
             },
