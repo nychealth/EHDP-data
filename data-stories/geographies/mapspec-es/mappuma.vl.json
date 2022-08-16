@@ -26,11 +26,14 @@
               "key": "GEOCODE",
               "fields": [
                 "GEOCODE",
+                "GEONAME",
+                "PUMA",
                 "VALUE"
               ]
             },
             "default": "no data"
-          }
+          },
+          {"calculate": "datum.PUMA + ': ' + datum.GEONAME"}
         ],
         "mark": {"type": "geoshape", "stroke": "#838383"},
         "encoding": {

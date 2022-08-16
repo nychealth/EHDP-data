@@ -20,15 +20,15 @@
         },
         "transform": [
           {
-            "lookup": "properties.MODZCTA",
+            "lookup": "properties.GEOCODE",
             "from": {
               "data": {"name": "csv"},
-              "key": "MODIFIED_ZCTA",
+              "key": "GEOCODE",
               "fields": [
-                "MODIFIED_ZCTA",
-                "NEIGHBORHOOD_NAME",
-                "BOROUGH_GROUP",
-                "value"
+                "GEOCODE",
+                "GEONAME",
+                "BOROUGH",
+                "VALUE"
               ]
             },
             "default": "no data"
@@ -39,7 +39,7 @@
         "encoding": {
           "color": {
             "bin": false,
-            "field": "value",
+            "field": "VALUE",
             "type": "quantitative",
             "legend":null,
             "scale": {"scheme": {"name": "blues", "extent": [0.25, 0.75]}}
@@ -50,12 +50,12 @@
           },
           "tooltip": [
             {
-              "field": "label",
+              "field": "GEONAME",
               "type": "nominal",
               "title": "ZIP Code"
             },
             {
-              "field": "NEIGHBORHOOD_NAME",
+              "field": "GEONAME",
               "type": "nominal",
               "title": "Neighborhood"
             }

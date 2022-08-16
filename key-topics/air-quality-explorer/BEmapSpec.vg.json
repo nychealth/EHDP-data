@@ -18,9 +18,9 @@
           {
             "type": "lookup",
             "from": "data_1",
-            "key": "NTACode",
-            "fields": ["properties.NTACode"],
-            "values": ["tertile_buildingemissions", "NTAName"]
+            "key": "GEOCODE",
+            "fields": ["properties.GEOCODE"],
+            "values": ["tertile_buildingemissions", "GEONAME"]
           }
         ]
       },
@@ -67,7 +67,7 @@
         "encode": {
           "update": {
             "fill": [{
-              "test":"indata('NTAexclude','excludeList',datum.properties.NTACode)",
+              "test":"indata('NTAexclude','excludeList',datum.properties.GEOCODE)",
               "value":"gray"
             },
             {"scale": "color", "field": "tertile_buildingemissions"}],
@@ -75,12 +75,12 @@
             "zindex": {"value": 1},
             "stroke": [
               {
-                "test": "datum.properties.NTACode==selectNTA",
+                "test": "datum.properties.GEOCODE==selectNTA",
                 "value": "orange"
               },
               {"value": null}
             ],
-            "tooltip": {"signal": "''+datum[\"NTAName\"]"}
+            "tooltip": {"signal": "''+datum[\"GEONAME\"]"}
           }
         },
         "transform": [{"type": "geoshape", "projection": "projection"}]
