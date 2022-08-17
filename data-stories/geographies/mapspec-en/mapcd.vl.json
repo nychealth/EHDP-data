@@ -6,7 +6,7 @@
   "config": {
     "view": {"stroke": "transparent"}
   },
-  "layer":[
+  "layer": [
     {
       "data":{
         "url": "",
@@ -26,7 +26,6 @@
               "key": "GEOCODE",
               "fields": [
                 "GEOCODE",
-                "BOROUGH",
                 "GEONAME",
                 "VALUE"
               ]

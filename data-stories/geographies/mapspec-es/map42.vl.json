@@ -6,7 +6,7 @@
   "config": {
     "view": {"stroke": "transparent"}
   },
-  "layer":[
+  "layer": [
     {
       "data":{
         "url": "",
@@ -26,7 +26,7 @@
               "key": "GEOCODE",
               "fields": [
                 "GEOCODE",
-                "NEIGHBORHOOD",
+                "GEONAME",
                 "VALUE"
               ]
             },
@@ -49,7 +49,7 @@
           },
           "tooltip": [
             {
-              "field": "NEIGHBORHOOD",
+              "field": "GEONAME",
               "type": "nominal",
               "title": "Neighborhood"
             },

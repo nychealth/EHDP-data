@@ -6,7 +6,7 @@
   "config": {
     "view": {"stroke": "transparent"}
   },
-  "layer":[
+  "layer": [
     {
       "data":{
         "url": "",
@@ -26,6 +26,8 @@
               "key": "GEOCODE",
               "fields": [
                 "GEOCODE",
+                "GEONAME",
+                "PUMA",
                 "VALUE"
               ]
             },
@@ -47,14 +49,14 @@
           },
           "tooltip": [
             {
+              "field": "properties.PUMA",
+              "type": "quantitative",
+              "title": "PUMA"
+            },
+            {
               "field": "GEONAME",
               "type": "nominal",
               "title": "Neighborhood"
-            },
-            {
-              "field": "GEOCODE",
-              "type": "quantitative",
-              "title": "Geo code"
             }
           ]
         }

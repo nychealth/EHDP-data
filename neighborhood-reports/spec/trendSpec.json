@@ -4,7 +4,7 @@
     "height": "container",
     "autosize": {"type": "fit", "contains": "content", "resize": true},
     "data": {"name": "trendData"},
-    "layer":[{
+    "layer": [{
       "mark": {"type": "line", "point": false, "tooltip": true},
       "encoding": {
         "x": {

@@ -6,7 +6,7 @@
   "config": {
     "view": {"stroke": "transparent"}
   },
-  "layer":[
+  "layer": [
     {
       "data":{
         "url": "",
@@ -20,13 +20,14 @@
         },
         "transform": [
           {
-            "lookup": "properties.NTACode",
+            "lookup": "properties.GEOCODE",
             "from": {
               "data": {"name": "csv"},
-              "key": "NTACode",
+              "key": "GEOCODE",
               "fields": [
+                "GEOCODE",
                 "NTACode",
-                "NTAName",
+                "GEONAME",
                 "VALUE"
               ]
             },
@@ -54,7 +55,7 @@
               "title": "NTA Code"
             },
             {
-              "field": "NTAName",
+              "field": "GEONAME",
               "type": "nominal",
               "title": "Neighborhood"
             }

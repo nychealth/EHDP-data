@@ -52,15 +52,15 @@
         "encode": {
           "update": {
             "fill": [{
-                "test": "datum.NTACode==selectNTA",
+                "test": "datum.GEOCODE==selectNTA",
                 "value": "orange"
             },
                 {"value": "grey"}
             ],
             "tooltip": {
-              "signal": "{\"PM 2.5\": format(datum[\"Avg_annavg_PM25\"], \".1f\"), \"Neighborhood\": ''+datum[\"NTAName\"]}"
+              "signal": "{\"PM 2.5\": format(datum[\"Avg_annavg_PM25\"], \".1f\"), \"Neighborhood\": ''+datum[\"GEONAME\"]}"
             },
-            "x": {"scale": "x", "field": "NTACode"},
+            "x": {"scale": "x", "field": "GEOCODE"},
             "width": {"scale": "x", "band": true},
             "y": {"scale": "y", "field": "Avg_annavg_PM25"},
             "y2": {"scale": "y", "value": 0}
@@ -74,7 +74,7 @@
         "type": "band",
         "domain": {
           "data": "data_0",
-          "field": "NTACode",
+          "field": "GEOCODE",
           "sort": {"op": "mean", "field": "Avg_annavg_PM25"}
         },
         "range": [0, {"signal": "width"}],
