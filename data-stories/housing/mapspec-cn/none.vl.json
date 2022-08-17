@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": "container",
+  "autosize": {"type": "fit", "contains": "padding"},
+  "config": {
+    "view": {"stroke": "transparent"}
+  },
+  "layer": [
+    {
+    "data":{
+    "url": "",
+    "format": {"type": "topojson", "feature": "collection"}
+    },
+    "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
+  },{
+  "data": {
+    "url": "",
+    "format": {"type": "topojson", "feature": "collection"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.PUMA",
+      "from": {
+        "data": {"name": "csv"},
+        "key": "GEOCODE",
+        "fields": [
+          "GEOCODE",
+          "no-problems"
+        ]
+      },
+      "default": "no data"
+    }
+  ],
+
+  "mark": {"type": "geoshape", "stroke": "#ffffff"},
+  "encoding": {
+    "color": {
+      "bin": false,
+      "field": "no-problems",
+      "type": "quantitative",
+      "legend": {
+        "title": "没有健康住房问题",
+        "titleFontSize": 12,
+        "orient":"top-left",
+        "gradientLength": 100
+    },
+      "scale": {"scheme": {"name": "blues", "extent": [0.2, 1.0]}}
+    },
+    "strokeWidth": {
+      "condition": [],
+      "value": 0.5
+    },
+    "tooltip": [
+      {
+        "field": "properties.GEONAME",
+        "type": "nominal",
+        "title": "社区"
+      },
+      {
+        "field": "no-problems",
+        "type": "quantitative",
+        "title": "百分比"
+      }
+    ]
+  }
+}]
+}

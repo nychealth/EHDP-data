@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": "container",
+  "autosize": {"type": "fit", "contains": "padding"},
+  "config": {
+    "view": {"stroke": "transparent"}
+  },
+  "layer": [
+    {
+    "data":{
+    "url": "",
+    "format": {"type": "topojson", "feature": "collection"}
+    },
+    "mark": {"type": "geoshape", "stroke": "#ffffff","fill":"lightgray"}
+  },{
+  "data": {
+    "url": "",
+    "format": {"type": "topojson", "feature": "collection"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.PUMA",
+      "from": {
+        "data": {"name": "csv"},
+        "key": "GEOCODE",
+        "fields": [
+          "GEOCODE",
+          "cockroaches"
+        ]
+      },
+      "default": "no data"
+    }
+  ],
+
+  "mark": {"type": "geoshape", "stroke": "#ffffff"},
+  "encoding": {
+    "color": {
+      "bin": false,
+      "field": "cockroaches",
+      "type": "quantitative",
+      "legend": {
+        "title": "Cockroaches",
+        "titleFontSize": 12,
+        "orient":"top-left",
+        "gradientLength": 100
+    },
+    "scale": {"scheme": {"name": "purplered", "extent": [0.01, 1.5]}}
+    },
+    "strokeWidth": {
+      "condition": [],
+      "value": 0.5
+    },
+    "tooltip": [
+      {
+        "field": "properties.GEONAME",
+        "type": "nominal",
+        "title": "Neighborhood"
+      },
+      {
+        "field": "cockroaches",
+        "type": "quantitative",
+        "title": "Percent of homes with cockroaches"
+      }
+    ]
+  }
+}]
+}
