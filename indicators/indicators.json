@@ -51426,7 +51426,7 @@
       {
         "MeasureID":1127,
         "MeasurementType":"Number",
-        "how_calculated":"<p>Count of executed evictions ordered by the New York City Housing Court, including those pending and scheduled as of December 31.<\/p>\n<p>Eviction data are reported by New York City Marshals and gathered from NYC Open Data. For more information, see:&nbsp;<a href=\"https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4\">https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4<\/a><\/p>",
+        "how_calculated":"<p>Count of evictions ordered by the New York City Housing Court and executed by New York City Marshals, including those pending and scheduled as of December 31. <strong>Note<\/strong>: <em>Reported count is an underestimate, because&nbsp;<em>it&nbsp;<em>might not include every eviction executed by every Marshal, and&nbsp;<\/em>does not include evictions executed by county sherriffs.<\/em><\/em><\/p>\n<p>Eviction data are reported by New York City Marshals and gathered from NYC Open Data. For more information, see:&nbsp;<a href=\"https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4\">https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4<\/a><\/p>",
         "Sources":"New York City Department of Investigation",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -51443,6 +51443,9 @@
             "GeoType":"NTA"
           },
           {
+            "GeoType":"Subboro"
+          },
+          {
             "GeoType":"UHF42"
           }
         ],
@@ -51451,6 +51454,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -51463,7 +51481,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -51474,7 +51492,7 @@
       {
         "MeasureID":1128,
         "MeasurementType":"Estimated Annual Rate",
-        "how_calculated":"<p>Rate of executed evictions ordered by the New York City Housing Court, including those pending and scheduled as of December 31, per 10,000 housing units.<\/p>\n<p>Eviction data are reported by New York City Marshals and gathered from NYC Open Data. For more information, see:&nbsp;<a href=\"https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4\">https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4<\/a><\/p>",
+        "how_calculated":"<p>Rate of evictions ordered by the New York City Housing Court and executed by New York City Marshals, including those pending and scheduled as of December 31, per 10,000 housing units.&nbsp;<strong>Note<\/strong>:&nbsp;<em>Reported rate&nbsp;<em>is an underestimate, because&nbsp;<em>it&nbsp;<em>might not include every eviction executed by every Marshal, and&nbsp;<\/em>does not include evictions executed by county sherriffs.<\/em><\/em><\/em><\/p>\n<p>Eviction data are reported by New York City Marshals and gathered from NYC Open Data. For more information, see:&nbsp;<a href=\"https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4\">https:\/\/data.cityofnewyork.us\/City-Government\/Evictions\/6z8x-wfk4<\/a><\/p>",
         "Sources":"New York City Department of Investigation",
         "DisplayType":"per 10,000 homes",
         "AvailableGeographyTypes":[
@@ -51491,6 +51509,9 @@
             "GeoType":"NTA"
           },
           {
+            "GeoType":"Subboro"
+          },
+          {
             "GeoType":"UHF42"
           }
         ],
@@ -51499,6 +51520,21 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -51511,7 +51547,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
