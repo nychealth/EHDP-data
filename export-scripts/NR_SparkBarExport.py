@@ -23,7 +23,7 @@ for file in data_files:
 
     print(file)
 
-    df = pd.read_csv("neighborhoodreports/data/" + file)
+    df = pd.read_csv("neighborhood-reports/data/" + file)
 
     # convert End Date to date data type
 
@@ -92,7 +92,7 @@ for file in data_files:
 
         # - name each SVG with the data_field_name and the Neighborhood
         
-        image_name = 'neighborhoodreports/images/' + df['data_field_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg'
+        image_name = 'neighborhood-reports/images/' + df['data_field_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg'
 
         save(chart, fp = image_name)
         
