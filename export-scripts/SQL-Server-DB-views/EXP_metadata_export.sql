@@ -14,6 +14,7 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
 		iy.end_period,
 		iy.time_type         AS TimeType,
 		gt.geo_type_name     AS GeoType,
+		gt.description       AS GeoTypeDescription,
 		ii.name              AS IndicatorName,
 		ii.description       AS IndicatorDescription,
 		ii.label             AS IndicatorLabel,
