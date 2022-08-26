@@ -193,7 +193,8 @@ measure_geotypes = (
             "how_calculated",
             "Sources",
             "DisplayType",
-            "GeoType"
+            "GeoType",
+            "GeoTypeDescription"
         ]
     ]
     .drop_duplicates()
@@ -211,7 +212,7 @@ measure_geotypes = (
         ],
         dropna = False
     )
-    .apply(lambda x: x[["GeoType"]].to_dict("records"))
+    .apply(lambda x: x[["GeoType", "GeoTypeDescription"]].to_dict("records"))
     .reset_index()
     .rename(columns = {0: "AvailableGeographyTypes"})
 )
