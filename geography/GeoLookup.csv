@@ -1,4 +1,4 @@
-GeoType,GeoID,Name,Lat,Long,borough_id,Borough
+GeoType,GeoID,Name,Lat,Long,BoroID,Borough
 Citywide,1,New York City,,,,
 Borough,1,Bronx,40.8466508,-73.8785937,1,Bronx
 Borough,2,Brooklyn,40.6432482,-73.9522054,2,Brooklyn
