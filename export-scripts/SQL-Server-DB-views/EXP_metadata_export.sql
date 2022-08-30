@@ -24,6 +24,13 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
 		si2.mapping          AS Map,
 		si2.trend_time_graph AS Trend,
 
+		-- format measure name
+
+		CASE WHEN ii.short_name IS NOT null 
+			THEN ii.short_name + ', ' + mt.description 
+			ELSE ii.name       + ', ' + mt.description 
+		END AS MeasureName,		
+
 		-- replacing missing flag values with 0
 		
 		CASE WHEN dsp.Disparities IS null THEN 0
