@@ -37,17 +37,19 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 			WHEN un.show_data_flag = 1 AND un.character_display IS NOT null
 				THEN format(ind.data_value, 'G') + un.character_display
 			WHEN un.show_data_flag = 0
-				THEN ''
+				THEN '-'
 			ELSE format(ind.data_value, 'G')
 		END AS DisplayValue,
 
 		-- replace nulls with empty strings
 
-		CASE WHEN ind.ci IS null THEN ''
+		CASE 
+			WHEN ind.ci IS null OR un.show_data_flag = 0 THEN '-'
 			ELSE ind.ci
 		END AS CI,
 
-		CASE WHEN un.message IS null THEN ''
+		CASE 
+			WHEN un.message IS null THEN ''
 			ELSE un.message
 		END AS Note
 
