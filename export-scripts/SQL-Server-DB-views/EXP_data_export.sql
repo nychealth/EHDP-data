@@ -31,14 +31,14 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 			ELSE null 
 		END AS Value,
 
-		-- format character display
+		-- format character display (making sure to avoid scientific notation)
 
 		CASE 
 			WHEN un.show_data_flag = 1 AND un.character_display IS NOT null
-				THEN convert(varchar, ind.data_value) + un.character_display
+				THEN format(ind.data_value, 'G') + un.character_display
 			WHEN un.show_data_flag = 0
 				THEN ''
-			ELSE convert(varchar, ind.data_value)
+			ELSE format(ind.data_value, 'G')
 		END AS DisplayValue,
 
 		-- replace nulls with empty strings
