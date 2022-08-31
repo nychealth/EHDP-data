@@ -140,7 +140,7 @@ measure_links = (
     MeasureID_links
     .drop_duplicates()
     .groupby(["BaseMeasureID"], dropna = False)
-    .apply(lambda x: x[["MeasureID", "Axis"]].to_dict("records"))
+    .apply(lambda x: x[["MeasureID", "PrimaryAxis"]].to_dict("records"))
     .reset_index()
     .rename(columns = {0: "Links", "BaseMeasureID": "MeasureID"})
 )

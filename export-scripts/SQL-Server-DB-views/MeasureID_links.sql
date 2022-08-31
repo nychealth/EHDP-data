@@ -21,7 +21,7 @@ ALTER VIEW [dbo].[MeasureID_links] AS
         CASE x_axis 
             WHEN 1 THEN 'x'
             WHEN 0 THEN 'y'
-        END AS Axis
+        END AS PrimaryAxis
 
     FROM i_to_i 
 
