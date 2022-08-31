@@ -130,7 +130,7 @@ measure_trend = (
 # because left-joining these 400 rows added 12k rows to the view
 
 MeasureID_links = (
-    pd.read_sql("SELECT * FROM MeasureID_links", EHDP_odbc)
+    pd.read_sql("SELECT * FROM EXP_measure_links", EHDP_odbc)
     .sort_values(by = ["BaseMeasureID", "MeasureID"])
 )
 
