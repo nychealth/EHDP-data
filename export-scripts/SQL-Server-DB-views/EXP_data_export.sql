@@ -14,12 +14,12 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 
 		-- format measure name
 
-		CASE WHEN ii.short_name IS NOT null 
-			THEN ii.short_name + ', ' + mt.description 
-			ELSE ii.name       + ', ' + mt.description 
-		END AS MeasureName,
+		-- CASE WHEN ii.short_name IS NOT null 
+		-- 	THEN ii.short_name + ', ' + mt.description 
+		-- 	ELSE ii.name       + ', ' + mt.description 
+		-- END AS MeasureName,
 
-		mt.description       AS MeasurementType,
+		-- mt.description       AS MeasurementType,
 		gt.geo_type_name     AS GeoType,
 		ind.geo_type_id      AS GeoTypeID,
 		ind.geo_entity_id    AS GeoID,
