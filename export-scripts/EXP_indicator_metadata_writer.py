@@ -130,7 +130,7 @@ measure_trend = (
 # because left-joining these 400 rows added 12k rows to the view
 
 MeasureID_links = (
-    pd.read_sql("SELECT * FROM MeasureID_links", EHDP_odbc)
+    pd.read_sql("SELECT * FROM EXP_measure_links", EHDP_odbc)
     .sort_values(by = ["BaseMeasureID", "MeasureID"])
 )
 
@@ -140,7 +140,7 @@ measure_links = (
     MeasureID_links
     .drop_duplicates()
     .groupby(["BaseMeasureID"], dropna = False)
-    .apply(lambda x: x[["MeasureID", "Axis"]].to_dict("records"))
+    .apply(lambda x: x[["MeasureID", "SecondaryAxis"]].to_dict("records"))
     .reset_index()
     .rename(columns = {0: "Links", "BaseMeasureID": "MeasureID"})
 )
@@ -189,6 +189,7 @@ measure_geotypes = (
             "IndicatorLabel",
             "IndicatorDescription",
             "MeasureID",
+            "MeasureName",
             "MeasurementType",
             "how_calculated",
             "Sources",
@@ -205,6 +206,7 @@ measure_geotypes = (
             "IndicatorLabel",
             "IndicatorDescription",
             "MeasureID",
+            "MeasureName",
             "MeasurementType",
             "how_calculated",
             "Sources",
@@ -231,6 +233,7 @@ measure_times = (
             "IndicatorLabel",
             "IndicatorDescription",
             "MeasureID",
+            "MeasureName",
             "MeasurementType",
             "how_calculated",
             "Sources",
@@ -248,6 +251,7 @@ measure_times = (
             "IndicatorLabel",
             "IndicatorDescription",
             "MeasureID",
+            "MeasureName",
             "MeasurementType",
             "how_calculated",
             "Sources",
@@ -286,6 +290,7 @@ metadata = (
     )
     .apply(lambda x: x[[
         "MeasureID", 
+        "MeasureName", 
         "MeasurementType", 
         "how_calculated",
         "Sources",

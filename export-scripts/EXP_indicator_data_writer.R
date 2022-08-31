@@ -75,7 +75,7 @@ EXP_data_export <-
 
     # removing "Rank" measure values
     
-    filter(MeasurementType != "Rank") %>%
+    # filter(MeasurementType != "Rank") %>%
     mutate(
         across(
             where(is.character),

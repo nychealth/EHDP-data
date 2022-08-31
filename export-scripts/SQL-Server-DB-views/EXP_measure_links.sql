@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW [dbo].[MeasureID_links] AS 
+ALTER VIEW [dbo].[EXP_measure_links] AS 
 
     SELECT DISTINCT
 
@@ -19,9 +19,9 @@ ALTER VIEW [dbo].[MeasureID_links] AS
         base_indicator_id   AS BaseMeasureID,
         linked_indicator_id AS MeasureID,
         CASE x_axis 
-            WHEN 1 THEN 'x'
-            WHEN 0 THEN 'y'
-        END AS Axis
+            WHEN 1 THEN 'y'
+            WHEN 0 THEN 'x'
+        END AS SecondaryAxis
 
     FROM i_to_i 
 
