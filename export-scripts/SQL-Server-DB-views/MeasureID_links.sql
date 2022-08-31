@@ -19,9 +19,9 @@ ALTER VIEW [dbo].[MeasureID_links] AS
         base_indicator_id   AS BaseMeasureID,
         linked_indicator_id AS MeasureID,
         CASE x_axis 
-            WHEN 1 THEN 'x'
-            WHEN 0 THEN 'y'
-        END AS PrimaryAxis
+            WHEN 1 THEN 'y'
+            WHEN 0 THEN 'x'
+        END AS SecondaryAxis
 
     FROM i_to_i 
 
