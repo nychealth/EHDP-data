@@ -43,3 +43,7 @@ export-scripts/get_python_conda_info.R
 geography/NHAC_latlong.xlsx
 geography/NYCKids_latlong.xlsx
 geography/PUMADCP2017_latlong.xlsx
+
+output/plots/
+geography/Simplify TopoJSON.R
+geography/NTA_simple.topo.json
