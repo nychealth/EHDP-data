@@ -11,6 +11,7 @@ ALTER VIEW [dbo].[ReportData] AS
 		b.data_field_name,
 		c.name 			   AS 'indicator_name',
 		m.description	   AS 'measure_name',
+		d.description	   AS 'display_type',
 		y.start_period     AS 'start_date',
 		y.end_period       AS 'end_date',
 		y.time_type        AS 'time_type',
@@ -30,10 +31,11 @@ ALTER VIEW [dbo].[ReportData] AS
 
 	FROM indicator_data AS a
 
-		LEFT JOIN indicator_definition AS b  ON a.indicator_id = b.indicator_id
-		LEFT JOIN internal_indicator   AS c  ON b.internal_id  = c.internal_id
-		LEFT JOIN indicator_year       AS y  ON a.year_id      = y.year_id
-		LEFT JOIN geo_type             AS g  ON a.geo_type_id  = g.geo_type_id
+		LEFT JOIN indicator_definition AS b  ON a.indicator_id    = b.indicator_id
+		LEFT JOIN internal_indicator   AS c  ON b.internal_id     = c.internal_id
+		LEFT JOIN display_data_type    AS d  ON d.display_type_id = b.display_type_id
+		LEFT JOIN indicator_year       AS y  ON a.year_id         = y.year_id
+		LEFT JOIN geo_type             AS g  ON a.geo_type_id     = g.geo_type_id
 		LEFT JOIN geo_entity           AS ge ON (
 			a.geo_type_id   = ge.geo_type_id AND
 			a.geo_entity_id = ge.geo_entity_id
