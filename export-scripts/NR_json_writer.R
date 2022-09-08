@@ -84,7 +84,7 @@ report_level_1 <-
                 report_title %>% 
                     str_replace_all("[:punct:]", "") %>% 
                     str_replace_all(" ", "_"),
-                ".csv"
+                "_data.csv"
             )
     )
 
