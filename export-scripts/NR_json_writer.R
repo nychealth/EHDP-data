@@ -81,7 +81,6 @@ report_level_1 <-
     mutate(
         data_download_loc = 
             str_c(
-                "http://a816-dohbesp.nyc.gov/IndicatorPublic/EPHTCsv/", 
                 report_title %>% 
                     str_replace_all("[:punct:]", "") %>% 
                     str_replace_all(" ", "_"),
