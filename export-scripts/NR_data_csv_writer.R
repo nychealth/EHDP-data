@@ -152,7 +152,7 @@ report_data_list <-
     walk(
         ~ write_csv(
             .x,
-            paste0("neighborhood-reports/data/", unique(.x$title), "_data.csv")
+            paste0("neighborhood-reports/data/", str_replace_all(unique(.x$title), " ", "_"), "_data.csv")
             
         )
     )
