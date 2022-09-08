@@ -9,6 +9,8 @@ ALTER VIEW [dbo].[ReportData] AS
 		rc.report_id,
 		a.indicator_id,
 		b.data_field_name,
+		c.name 			   AS 'indicator_name',
+		m.description	   AS 'measure_name',
 		y.start_period     AS 'start_date',
 		y.end_period       AS 'end_date',
 		y.time_type        AS 'time_type',
