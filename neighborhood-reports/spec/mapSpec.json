@@ -53,7 +53,7 @@
                 },
                 "stroke": {
                     "condition": [{"param": "highlight", "empty": false, "value": "orange"}],
-                    "value": "#dadada"
+                    "value": "#eaeaea"
                 },
                 "strokeWidth": {
                     "condition": [{"param": "highlight", "empty": false, "value": 1.25}],
