@@ -22,7 +22,6 @@
     {
       "mark": {"type": "geoshape", "tooltip": true},
       "encoding": {
-        "shape": {"field": "geo", "type": "geojson"},
         "color": {
           "condition": {
             "test": "isValid(datum.data_value)",
