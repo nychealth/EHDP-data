@@ -1,10 +1,13 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
     "height": "container",
     "autosize": {"type": "fit", "contains": "content", "resize": true},
     "data": {"name": "summaryData"},
     "mark": {"type": "bar", "tooltip": true},
+    "params": [
+        {"name": "highlight", "select": {"type": "point", "on": "mouseover", "clear": "mouseout"}}
+    ],
     "encoding": {
       "x": {
         "field": "neighborhood",
@@ -25,6 +28,18 @@
           "value": "#1CA970"
         },
         "value": "#D8D8D8"
+      },
+      "stroke": {
+          "condition": [{"param": "highlight", "empty": false, "value": "orange"}],
+          "value": "#dadada"
+      },
+      "strokeWidth": {
+          "condition": [{"param": "highlight", "empty": false, "value": 3}],
+          "value": 0
+      },
+      "order": {
+          "condition": [{"param": "highlight", "empty": false, "value": 1}],
+          "value": 0
       }
     }
   }
