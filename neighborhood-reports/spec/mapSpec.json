@@ -14,8 +14,7 @@
         "data": {"name": "mapData"},
         "key": "geo_join_id",
         "fields": ["data_value", "neighborhood", "message"]
-      },
-      "as": "geo"
+      }
     }
   ],
   "layer": [
