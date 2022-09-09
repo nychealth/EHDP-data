@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
   "height": "container",
   "autosize": {"type": "fit", "contains": "content", "resize": true},
@@ -14,13 +14,14 @@
         "data": {"name": "mapData"},
         "key": "geo_join_id",
         "fields": ["data_value", "neighborhood", "message"]
-      }
+      },
+      "as": "geo"
     }
   ],
   "layer": [
     {
-      "mark": {"type": "geoshape", "tooltip": true},
       "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
         "color": {
           "condition": {
             "test": "isValid(datum.data_value)",
