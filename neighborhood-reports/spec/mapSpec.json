@@ -23,7 +23,7 @@
       "encoding": {
         "color": {
           "condition": {
-            "test": "isValid(toNumber(datum.data_value))",
+            "test": "isValid(datum.data_value) || datum.data_value != 'NA'",
             "bin": false,
             "field": "data_value",
             "type": "quantitative",
