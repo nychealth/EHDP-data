@@ -27,7 +27,7 @@
             "bin": false,
             "field": "data_value",
             "type": "quantitative",
-            "scale": {"scheme": "greens"},
+            "scale": {"scheme": "purples"},
             "legend": {"orient": "top-left", "title": null}
           },
           "value": "#808080"
