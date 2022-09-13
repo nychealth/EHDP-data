@@ -24,6 +24,7 @@ suppressWarnings(suppressMessages(library(dbplyr)))
 suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
+suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 
 #-----------------------------------------------------------------------------------------#
@@ -160,12 +161,16 @@ report_data <-
     ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
     filter(
-        has_annual == FALSE | 
-            (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
-        indicator_id != 386 | 
-            (indicator_id == 386 & str_detect(time_type, "(?i)Seasonal"))
+        has_annual == FALSE | (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
+        indicator_id != 386 | (indicator_id == 386 & str_detect(time_type, "(?i)Seasonal"))
     ) %>% 
-    select(-has_annual)
+    select(-has_annual) %>% 
+    mutate(
+    across(
+        where(is.character),
+        ~ as_utf8_character(enc2native(.x))
+    )
+)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -185,7 +190,7 @@ report_data_list <-
     walk(
         ~ write_csv(
             .x,
-            paste0("neighborhood-reports/data/", str_replace_all(unique(.x$title), " ", "_"), "_data.csv")
+            paste0(getwd(), "/../neighborhood-reports/data/", str_replace_all(unique(.x$title), " ", "_"), "_data.csv")
             
         )
     )

@@ -18,6 +18,9 @@ import pyodbc
 import pandas as pd
 import easygui
 import os
+import warnings
+
+warnings.simplefilter("ignore")
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator database
@@ -341,7 +344,7 @@ metadata = (
 # saving file
 #-----------------------------------------------------------------------------------------#
 
-metadata.to_json("indicators/indicators.json", orient = "records", indent = 2)
+metadata.to_json(os.getcwd() + "/../indicators/indicators.json", orient = "records", indent = 2)
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

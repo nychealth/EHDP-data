@@ -40,7 +40,6 @@ for file in data_files:
 
     print(file)
 
-    # df = pd.read_csv(cwd + "/neighborhood-reports/data/" + file)
     df = pd.read_csv(cwd + "/../neighborhood-reports/data/" + file)
 
     # convert End Date to date data type

@@ -139,9 +139,7 @@ for (i in 1:length(IndicatorIDs)) {
     
     write_lines(
         exp_json, 
-        str_c(
-            "indicators/data/", this_indicator, ".json"
-        )
+        str_c(getwd(), "/../indicators/data/", this_indicator, ".json")
     )
     
 }

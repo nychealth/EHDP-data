@@ -324,7 +324,7 @@ for (i in 1:nrow(report_level_1_small)) {
     write_lines(
         report_json, 
         str_c(
-            "neighborhood-reports/reports/",
+            getwd(), "/../neighborhood-reports/reports/",
             str_replace_all(report_spec$report_title, "[:punct:]", ""),
             " in ",
             report_spec$geo_entity_name,
