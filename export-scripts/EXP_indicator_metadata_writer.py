@@ -16,10 +16,43 @@
 
 import pyodbc
 import pandas as pd
+import easygui
+import os
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator database
 #-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# get or set database to use
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# get envionment var
+
+data_env = os.environ.get("data_env", "")
+
+if (data_env == ""):
+    
+    # ask and set
+    
+    data_env = easygui.enterbox("staging [s] or prod [p]?")
+
+    os.environ["data_env"] = data_env
+
+# set DB name
+
+if (data_env.lower() == "s"):
+    
+    # staging
+    
+    db_name = "BESP_IndicatorAnalysis"
+
+elif (data_env.lower() == "p"):
+    
+    # production
+    
+    db_name = "BESP_Indicator"
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # determining which driver to use
@@ -52,10 +85,10 @@ else:
     driver = "SQL Server"
 
 #-----------------------------------------------------------------------------------------#
-# Connecting to BESP_Indicator
+# Connecting to database
 #-----------------------------------------------------------------------------------------#
 
-EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=BESP_Indicator;Trusted_Connection=yes;")
+EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=" + db_name + ";Trusted_Connection=yes;")
 
 
 #=========================================================================================#

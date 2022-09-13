@@ -6,33 +6,47 @@
 ###########################################################################################-
 ###########################################################################################-
 
+#-----------------------------------------------------------------------------------------#
+# setup
+#-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# get parent dir for absolute path
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+$script_dir = $MyInvocation.MyCommand.Path | Split-Path
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# Choose database to use, set env var
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+$Env:data_env = Read-Host "staging [s] or prod [p]?"
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# Tell conda which environment to load
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+conda activate r-reticulate
+
 #=========================================================================================#
 # Python
 #=========================================================================================#
-
-# C:\Users\cgettings\AppData\Local\r-miniconda\python.exe
-
-#-----------------------------------------------------------------------------------------#
-# Tell conda which libraries to load
-#-----------------------------------------------------------------------------------------#
-
-conda activate r-reticulate
 
 #-----------------------------------------------------------------------------------------#
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-Write-Output "EXP_indicator_metadata_writer"
+Write-Output ">>> EXP_indicator_metadata_writer"
 
-python export-scripts\EXP_indicator_metadata_writer.py
+python $script_dir\EXP_indicator_metadata_writer.py
 
 #-----------------------------------------------------------------------------------------#
 # NR spark bars
 #-----------------------------------------------------------------------------------------#
 
-Write-Output "NR_SparkBarExport"
+Write-Output ">>> NR_SparkBarExport"
 
-python export-scripts\NR_SparkBarExport.py
+python $script_dir\NR_SparkBarExport.py
 
 #=========================================================================================#
 # R
@@ -42,25 +56,25 @@ python export-scripts\NR_SparkBarExport.py
 # EXP data
 #-----------------------------------------------------------------------------------------#
 
-Write-Output "EXP_indicator_data_writer"
+Write-Output ">>> EXP_indicator_data_writer"
 
-Rscript export-scripts\EXP_indicator_data_writer.R
+Rscript $script_dir\EXP_indicator_data_writer.R
 
 #-----------------------------------------------------------------------------------------#
 # NR viz data (for VegaLite)
 #-----------------------------------------------------------------------------------------#
 
-Write-Output "NR_data_csv_writer"
+Write-Output ">>> NR_data_csv_writer"
 
-Rscript export-scripts\NR_data_csv_writer.R
+Rscript $script_dir\NR_data_csv_writer.R
 
 #-----------------------------------------------------------------------------------------#
 # NR JSON data (for report)
 #-----------------------------------------------------------------------------------------#
 
-Write-Output "NR_json_writer"
+Write-Output ">>> NR_json_writer"
 
-Rscript export-scripts\NR_json_writer.R
+Rscript $script_dir\NR_json_writer.R
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

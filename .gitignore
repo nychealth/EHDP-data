@@ -47,3 +47,7 @@ geography/PUMADCP2017_latlong.xlsx
 output/plots/
 geography/Simplify TopoJSON.R
 geography/NTA_simple.topo.json
+
+export-scripts/input example.py
+export-scripts/env_var_test.ps1
+export-scripts/env_var_test.r

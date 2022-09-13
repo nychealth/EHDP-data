@@ -22,6 +22,34 @@ suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(jsonlite)))
 suppressWarnings(suppressMessages(library(rlang)))
+suppressWarnings(suppressMessages(library(svDialogs)))
+
+#-----------------------------------------------------------------------------------------#
+# get or set database to use
+#-----------------------------------------------------------------------------------------#
+
+data_env <- Sys.getenv("data_env")
+
+if (str_to_lower(data_env) == "s") {
+    
+    db_name <- "BESP_IndicatorAnalysis"
+    
+} else if (str_to_lower(data_env) == "p") {
+    
+    db_name <- "BESP_Indicator"
+    
+} else if (data_env == "") {
+    
+    data_env <-
+        dlgInput(
+            message = "staging [s] or prod [p]?",
+            rstudio = TRUE
+        )$res
+    
+    Sys.setenv(data_env = data_env)
+    
+}
+
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator
@@ -41,7 +69,6 @@ odbc_driver <-
 
 if (length(odbc_driver) == 0) odbc_driver <- "SQL Server"
 
-
 # using Windows auth with no DSN
 
 EHDP_odbc <-
@@ -49,7 +76,7 @@ EHDP_odbc <-
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
         server = "SQLIT04A",
-        database = "BESP_Indicator",
+        database = db_name,
         trusted_connection = "yes"
     )
 
