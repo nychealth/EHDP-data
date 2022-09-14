@@ -2280,36 +2280,27 @@
             "GeoTypeDescription":"Borough"
           },
           {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
           },
           {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          },
-          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
           {
             "TimeDescription":"2007-11",
             "start_period":1167609600000,
@@ -2408,36 +2399,27 @@
             "GeoTypeDescription":"Borough"
           },
           {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
           },
           {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          },
-          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
           {
             "TimeDescription":"2007-11",
             "start_period":1167609600000,
@@ -3036,10 +3018,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":761,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":777,
                 "SecondaryAxis":"y"
               },
@@ -3608,280 +3586,6 @@
     ]
   },
   {
-    "IndicatorID":20,
-    "IndicatorName":"Personal Use of Pesticide Sprays, Bombs, or Foggers",
-    "IndicatorLabel":"Sprays, Bombs, or Foggers",
-    "IndicatorDescription":"Using pesticides can be helpful, but can also result in exposures that can harm health.",
-    "Measures":[
-      {
-        "MeasureID":36,
-        "MeasureName":"Pesticides, Number of Households",
-        "MeasurementType":"Number of Households",
-        "how_calculated":"Estimated number of households that reported personal use of pesticide sprays, bombs, or foggers, rounded to the nearest 1,000.",
-        "Sources":"New York City Community Health Survey (CHS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":37,
-        "MeasureName":"Pesticides, Percent of Households",
-        "MeasurementType":"Percent of Households",
-        "how_calculated":"Estimated number of households in an area that reported personal use of pesticide sprays, bombs, or foggers, divided by the number of households in the area; expressed as percent.",
-        "Sources":"New York City Community Health Survey (CHS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":41,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":76,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":80,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":86,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":88,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":92,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":245,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":21,
-    "IndicatorName":"Personal Use of Pesticide \"Tempo\"",
-    "IndicatorLabel":"Tempo",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":38,
-        "MeasureName":"Personal Use of Pesticide \"Tempo\", Number of Households",
-        "MeasurementType":"Number of Households",
-        "how_calculated":"Estimated number of households that reported personal use of the pesticide Tempo, rounded to the nearest 1,000.",
-        "Sources":"New York City Community Health Survey (CHS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":39,
-        "MeasureName":"Personal Use of Pesticide \"Tempo\", Percent of Households",
-        "MeasurementType":"Percent of Households",
-        "how_calculated":"Estimated number of households in an area that reported personal use of the pesticide Tempo, divided by the number of households in the area; expressed as percent.",
-        "Sources":"New York City Community Health Survey (CHS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":41,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":76,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":80,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":86,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":88,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":92,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":245,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":22,
     "IndicatorName":"Adults Reporting Cockroaches in the Home",
     "IndicatorLabel":"Adults reporting cockroaches in the home",
@@ -3992,14 +3696,6 @@
             "Links":[
               {
                 "MeasureID":31,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":37,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":39,
                 "SecondaryAxis":"y"
               },
               {
@@ -6974,10 +6670,6 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":761,
-                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7022,16 +6714,6 @@
             "TimeDescription":"2005",
             "start_period":1104537600000,
             "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
           },
           {
             "TimeDescription":"2017",
@@ -7104,16 +6786,6 @@
             "end_period":1230681600000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -7136,14 +6808,6 @@
             "Links":[
               {
                 "MeasureID":31,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":37,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":39,
                 "SecondaryAxis":"y"
               },
               {
@@ -7231,10 +6895,6 @@
                 "SecondaryAxis":"y"
               },
               {
-                "MeasureID":1070,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":1201,
                 "SecondaryAxis":"y"
               },
@@ -7276,16 +6936,6 @@
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2017",
             "start_period":1483228800000,
@@ -7336,16 +6986,6 @@
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2017",
             "start_period":1483228800000,
@@ -7420,16 +7060,6 @@
             "end_period":1135987200000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -7500,16 +7130,6 @@
             "end_period":1230681600000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -7530,14 +7150,6 @@
               }
             ],
             "Links":[
-              {
-                "MeasureID":37,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":39,
-                "SecondaryAxis":"y"
-              },
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
@@ -7625,407 +7237,6 @@
     ]
   },
   {
-    "IndicatorID":43,
-    "IndicatorName":"Homes near Buildings with Broken or Boarded Up Windows",
-    "IndicatorLabel":"Homes near Buildings with Broken or Boarded Up Windows",
-    "IndicatorDescription":"Neighborhood building disrepair can affect residents' sense of safety, and the extent to which they're comfortable with neighborhood physical activity and active transportation.",
-    "Measures":[
-      {
-        "MeasureID":81,
-        "MeasureName":"Building disrepair, Number",
-        "MeasurementType":"Number",
-        "how_calculated":"Estimated number of households that are near buildings with broken or boarded up windows (based on observation).",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":82,
-        "MeasureName":"Building disrepair, Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"Estimated number of households in an area that are near buildings with broken or boarded up windows (based on observation), divided by the number of households in the area; expressed as percent.",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"1999",
-            "start_period":915148800000,
-            "end_period":946598400000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":44,
-    "IndicatorName":"Homes in Deteriorating or Dilapidated Buildings",
-    "IndicatorLabel":"Homes in Deteriorating or Dilapidated Buildings",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":83,
-        "MeasureName":"Homes in Deteriorating or Dilapidated Buildings, Number",
-        "MeasurementType":"Number",
-        "how_calculated":"Estimated number of households in deteriorating or dilapidated buildings.",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":84,
-        "MeasureName":"Homes in Deteriorating or Dilapidated Buildings, Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"Estimated number of households in an area in deteriorated or dilapidatied buildings, divided by the number of households in the area; expressed as percent.",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"1999",
-            "start_period":915148800000,
-            "end_period":946598400000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":37,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":39,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":45,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":94,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":206,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":207,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":208,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":214,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":218,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":245,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":625,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":634,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":748,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":750,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":751,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":753,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":934,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":936,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":940,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":942,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":953,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":954,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":966,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":987,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":988,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":989,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":990,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":45,
     "IndicatorName":"Homes with 3 or More Maintenance Deficiencies",
     "IndicatorLabel":"Homes with 3 or more maintenance deficiencies",
@@ -8062,16 +7273,6 @@
             "TimeDescription":"2005",
             "start_period":1104537600000,
             "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
           },
           {
             "TimeDescription":"2017",
@@ -8144,16 +7345,6 @@
             "end_period":1230681600000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -8176,14 +7367,6 @@
             "Links":[
               {
                 "MeasureID":31,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":37,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":39,
                 "SecondaryAxis":"y"
               },
               {
@@ -8363,16 +7546,6 @@
             "end_period":1135987200000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -8443,16 +7616,6 @@
             "end_period":1230681600000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -8473,14 +7636,6 @@
               }
             ],
             "Links":[
-              {
-                "MeasureID":37,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":39,
-                "SecondaryAxis":"y"
-              },
               {
                 "MeasureID":41,
                 "SecondaryAxis":"y"
@@ -8642,16 +7797,6 @@
             "end_period":1135987200000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -8722,16 +7867,6 @@
             "end_period":1230681600000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -8797,10 +7932,6 @@
                 "SecondaryAxis":"y"
               },
               {
-                "MeasureID":761,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":1196,
                 "SecondaryAxis":"y"
               },
@@ -8861,19 +7992,9 @@
             "end_period":1135987200000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
             "TimeDescription":"2012",
             "start_period":1325376000000,
             "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
           },
           {
             "TimeDescription":"2017",
@@ -8946,19 +8067,9 @@
             "end_period":1230681600000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
             "TimeDescription":"2012",
             "start_period":1325376000000,
             "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
           },
           {
             "TimeDescription":"2017",
@@ -8991,14 +8102,6 @@
               },
               {
                 "MeasureID":80,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":82,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":84,
                 "SecondaryAxis":"y"
               },
               {
@@ -13761,249 +12864,6 @@
     ]
   },
   {
-    "IndicatorID":78,
-    "IndicatorName":"Carbon Monoxide Poison Control Center (PCC) Calls",
-    "IndicatorLabel":"Poison Control Center (PCC) Calls",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":148,
-        "MeasureName":"Carbon Monoxide Poison Control Center (PCC) Calls, Number",
-        "MeasurementType":"Number",
-        "how_calculated":"Number of calls to the NYC Poison Control Center for reported unintentional human exposure to carbon monoxide.",
-        "Sources":"New York City Poison Control Center (PCC) Call Database",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":149,
-        "MeasureName":"Carbon Monoxide Poison Control Center (PCC) Calls, Estimated Annual Rate",
-        "MeasurementType":"Estimated Annual Rate",
-        "how_calculated":"Number of calls to the NYC Poison Control Center for reported unintentional human exposure to carbon monoxide, divided by the population in the area using NYC DOHMH intercensal estimates; expressed as cases per 100,000 residents.",
-        "Sources":"New York City Poison Control Center (PCC) Call Database",
-        "DisplayType":"per 100,000 residents",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":84,
     "IndicatorName":"Asthma Hospitalizations (Children 0 to 4 Yrs Old)",
     "IndicatorLabel":"Children ages 0 to 4",
@@ -15279,16 +14139,6 @@
             "end_period":1135987200000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -15359,16 +14209,6 @@
             "end_period":1230681600000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -15389,14 +14229,6 @@
               }
             ],
             "Links":[
-              {
-                "MeasureID":37,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":39,
-                "SecondaryAxis":"y"
-              },
               {
                 "MeasureID":41,
                 "SecondaryAxis":"y"
@@ -15867,10 +14699,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
                 "SecondaryAxis":"x"
               },
@@ -16037,10 +14865,6 @@
               },
               {
                 "MeasureID":80,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
                 "SecondaryAxis":"x"
               },
               {
@@ -17096,10 +15920,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
                 "SecondaryAxis":"x"
               },
@@ -17714,10 +16534,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
                 "SecondaryAxis":"x"
               },
@@ -18087,14 +16903,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":82,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
                 "SecondaryAxis":"x"
               },
@@ -18168,11 +16976,6 @@
           {
             "TimeDescription":"2007-11",
             "start_period":1167609600000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
             "end_period":1325289600000
           },
           {
@@ -18252,10 +17055,6 @@
                 "SecondaryAxis":"y"
               },
               {
-                "MeasureID":681,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":683,
                 "SecondaryAxis":"y"
               },
@@ -18265,10 +17064,6 @@
               },
               {
                 "MeasureID":888,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1292,
                 "SecondaryAxis":"y"
               }
             ]
@@ -18473,16 +17268,6 @@
             "end_period":1230681600000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -18508,24 +17293,12 @@
                 "SecondaryAxis":"y"
               },
               {
-                "MeasureID":37,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":39,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":76,
                 "SecondaryAxis":"x"
               },
               {
                 "MeasureID":80,
                 "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
-                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":86,
@@ -18653,16 +17426,6 @@
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2017",
             "start_period":1483228800000,
@@ -24972,78 +23735,6 @@
         ]
       },
       {
-        "MeasureID":400,
-        "MeasureName":"Leukemia in Children, Average Annual Number Less Than 20 Yrs Old",
-        "MeasurementType":"Average Annual Number Less Than 20 Yrs Old",
-        "how_calculated":"Number of resident children aged less than 20 years diagnosed with leukemia cancer over the 5 year period, divided by 5.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
         "MeasureID":401,
         "MeasureName":"Leukemia in Children, Age Adjusted Rate Less Than 15 Yrs Old",
         "MeasurementType":"Age Adjusted Rate Less Than 15 Yrs Old",
@@ -25128,78 +23819,6 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":402,
-        "MeasureName":"Leukemia in Children, Age Adjusted Rate Less Than 20 Yrs Old",
-        "MeasurementType":"Age Adjusted Rate Less Than 20 Yrs Old",
-        "how_calculated":"Age-specific number of resident children aged less than 20 years diagnosed with leukemia cancer over 5 year period, divided by the corresponding age-specific intercensal population estimates (from NYS DOH). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 standard population in each age group. Age-adjusted rate is the sum of these weighted rates; expressed as cases per 1,000,000 residents.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"per 100,000 children",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
                 "Disparities":0
               }
             ],
@@ -25304,74 +23923,6 @@
         ]
       },
       {
-        "MeasureID":404,
-        "MeasureName":"Brain and CNS Cancer in Children, Average Annual Number Less Than 20 Yrs Old",
-        "MeasurementType":"Average Annual Number Less Than 20 Yrs Old",
-        "how_calculated":"Number of resident children aged less than 20 years diagnosed with brain and central nervous system cancer over the 5 year period, divided by 5.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
         "MeasureID":405,
         "MeasureName":"Brain and CNS Cancer in Children, Age Adjusted Rate Less Than 15 Yrs Old",
         "MeasurementType":"Age Adjusted Rate Less Than 15 Yrs Old",
@@ -25452,74 +24003,6 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":406,
-        "MeasureName":"Brain and CNS Cancer in Children, Age Adjusted Rate Less Than 20 Yrs Old",
-        "MeasurementType":"Age Adjusted Rate Less Than 20 Yrs Old",
-        "how_calculated":"Age-specific number of resident children aged less than 20 years diagnosed with brain and central nervous system cancer over 5 year period, divided by the corresponding age-specific intercensal population estimates (from NYS DOH). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 standard population in each age group. Age-adjusted rate is the sum of these weighted rates; expressed as cases per 1,000,000 residents.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"per 1,000,000 children",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
                 "Disparities":0
               }
             ],
@@ -25624,74 +24107,6 @@
         ]
       },
       {
-        "MeasureID":408,
-        "MeasureName":"Acute Myeloid Leukemia in Children, Average Annual Number Less Than 20 Yrs Old",
-        "MeasurementType":"Average Annual Number Less Than 20 Yrs Old",
-        "how_calculated":"Number of resident children aged less than 20 years diagnosed with acute myeloid leukemia cancer over the 5 year period, divided by 5.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
         "MeasureID":409,
         "MeasureName":"Acute Myeloid Leukemia in Children, Age Adjusted Rate Less Than 15 Yrs Old",
         "MeasurementType":"Age Adjusted Rate Less Than 15 Yrs Old",
@@ -25772,74 +24187,6 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":410,
-        "MeasureName":"Acute Myeloid Leukemia in Children, Age Adjusted Rate Less Than 20 Yrs Old",
-        "MeasurementType":"Age Adjusted Rate Less Than 20 Yrs Old",
-        "how_calculated":"Age-specific number of resident children aged less than 20 years diagnosed with acute myeloid leukemia over 5 year period, divided by the corresponding age-specific intercensal population estimates (from NYS DOH). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 standard population in each age group. Age-adjusted rate is the sum of these weighted rates; expressed as cases per 1,000,000 residents.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"per 1,000,000 children",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
                 "Disparities":0
               }
             ],
@@ -25944,74 +24291,6 @@
         ]
       },
       {
-        "MeasureID":412,
-        "MeasureName":"Acute Lymphocytic Leukemia in Children, Average Annual Number Less Than 20 Yrs Old",
-        "MeasurementType":"Average Annual Number Less Than 20 Yrs Old",
-        "how_calculated":"Number of resident children aged less than 20 years diagnosed with lymphoid leukemias over the 5 year period, divided by 5.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
         "MeasureID":413,
         "MeasureName":"Acute Lymphocytic Leukemia in Children, Age Adjusted Rate Less Than 15 Yrs Old",
         "MeasurementType":"Age Adjusted Rate Less Than 15 Yrs Old",
@@ -26098,74 +24377,6 @@
             "Links":null
           }
         ]
-      },
-      {
-        "MeasureID":414,
-        "MeasureName":"Acute Lymphocytic Leukemia in Children, Age Adjusted Rate Less Than 20 Yrs Old",
-        "MeasurementType":"Age Adjusted Rate Less Than 20 Yrs Old",
-        "how_calculated":"Age-specific number of resident children aged less than 20 years diagnosed with lymphoid leukemias over 5 year period, divided by the corresponding age-specific intercensal population estimates (from NYS DOH). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 standard population in each age group. Age-adjusted rate is the sum of these weighted rates; expressed as cases per 1,000,000 residents.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"per 1,000,000 children",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
       }
     ]
   },
@@ -26194,10 +24405,6 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -26294,10 +24501,6 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -26377,158 +24580,6 @@
                 "SecondaryAxis":"x"
               }
             ]
-          }
-        ]
-      },
-      {
-        "MeasureID":669,
-        "MeasureName":"Total Cancer in Children, Age Adjusted Rate Less Than 15 Yrs Old",
-        "MeasurementType":"Age Adjusted Rate Less Than 15 Yrs Old",
-        "how_calculated":"Age-specific number of resident children aged less than 15 years diagnosed with cancer over 5 year period, divided by the corresponding age-specific intercensal population estimates (from NYS DOH). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 standard population in each age group. Age-adjusted rate is the sum of these weighted rates; expressed as cases per 1,000,000 residents.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"per 1,000,000 children",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":670,
-        "MeasureName":"Total Cancer in Children, Average Annual Number Less Than 15 Yrs Old",
-        "MeasurementType":"Average Annual Number Less Than 15 Yrs Old",
-        "how_calculated":"Number of resident children aged less than 15 years diagnosed with cancer over the 5 year period, divided by 5.",
-        "Sources":"New York State Cancer Registry",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2001-2005",
-            "start_period":978307200000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2002-2006",
-            "start_period":1009843200000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2003-2007",
-            "start_period":1041379200000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2004-2008",
-            "start_period":1072915200000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2005-2009",
-            "start_period":1104537600000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2006-2010",
-            "start_period":1136073600000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2007-2011",
-            "start_period":1167609600000,
-            "end_period":1325289600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
           }
         ]
       }
@@ -34295,94 +32346,15 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34425,94 +32397,15 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -37487,69 +35380,15 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -37592,69 +35431,15 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -37700,94 +35485,15 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -37830,94 +35536,15 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2000",
-            "start_period":946684800000,
-            "end_period":978220800000
-          },
-          {
-            "TimeDescription":"2001",
-            "start_period":978307200000,
-            "end_period":1009756800000
-          },
-          {
-            "TimeDescription":"2002",
-            "start_period":1009843200000,
-            "end_period":1041292800000
-          },
-          {
-            "TimeDescription":"2003",
-            "start_period":1041379200000,
-            "end_period":1072828800000
-          },
-          {
-            "TimeDescription":"2004",
-            "start_period":1072915200000,
-            "end_period":1104451200000
-          },
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -37963,69 +35590,15 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -38068,69 +35641,15 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -38183,10 +35702,6 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38274,10 +35789,6 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38365,10 +35876,6 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38456,10 +35963,6 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38547,10 +36050,6 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38638,10 +36137,6 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -39649,98 +37144,6 @@
     ]
   },
   {
-    "IndicatorID":2099,
-    "IndicatorName":"Children with asthma in the past 12 months (ages 0-12 years)",
-    "IndicatorLabel":"Children with asthma in the past 12 months (ages 0-12 years)",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":616,
-        "MeasureName":"Children with asthma in the past 12 months (ages 0-12 years), Number",
-        "MeasurementType":"Number",
-        "how_calculated":"Estimated number of children up to 12 years old whose parent or guardian reported Asthma symptoms or attack in the last 12 months, rounded to the nearest 1,000.",
-        "Sources":"New York City Child Community Health Survey",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":617,
-        "MeasureName":"Children with asthma in the past 12 months (ages 0-12 years), Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"Estimated number of children up to 12 years old whose parent or guardian reported  asthma symptoms or attack in the last 12 months, divided by all children; expressed as percent.",
-        "Sources":"New York City Child Community Health Survey",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":2101,
     "IndicatorName":"Adults Reporting Mold in the Home",
     "IndicatorLabel":"Adults reporting mold in the home",
@@ -39849,10 +37252,6 @@
               },
               {
                 "MeasureID":80,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
                 "SecondaryAxis":"x"
               },
               {
@@ -40090,14 +37489,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":82,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
                 "SecondaryAxis":"x"
               },
@@ -40128,26 +37519,6 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
           }
         ],
         "AvailableTimes":[
@@ -40155,11 +37526,6 @@
             "TimeDescription":"2010",
             "start_period":1262304000000,
             "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2013-17",
-            "start_period":1356998400000,
-            "end_period":1514678400000
           }
         ],
         "VisOptions":[
@@ -40186,64 +37552,6 @@
                 "SecondaryAxis":"y"
               }
             ]
-          }
-        ]
-      },
-      {
-        "MeasureID":1286,
-        "MeasureName":"Neighborhood Race\/Ethnicity - Non Hispanic Black, Number",
-        "MeasurementType":"Number",
-        "how_calculated":"<p>Average population from ACS 5-year Estimate.<\/p>",
-        "Sources":"American Community Survey",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2013-17",
-            "start_period":1356998400000,
-            "end_period":1514678400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
           }
         ]
       }
@@ -40399,10 +37707,6 @@
         "DisplayType":"per km2",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
@@ -40413,6 +37717,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
           }
         ],
         "AvailableTimes":[
@@ -40547,10 +37855,6 @@
         "DisplayType":"per km2",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
@@ -40561,6 +37865,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
           }
         ],
         "AvailableTimes":[
@@ -42051,149 +39359,15 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2016",
-            "start_period":1451606400000,
-            "end_period":1483142400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":681,
-        "MeasureName":"Fall-related emergency department visits among older adults, Age-Specific Rate",
-        "MeasurementType":"Age-Specific Rate",
-        "how_calculated":"<p>Age-specific rates were calculated per 100,000 population 65 years and older. Numerator consists of NYC emergency department visits related to falls among adults aged 65 years and older, identified using ICD10-CM&nbsp;codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Only live discharges and initial encounters are included. All figures include NYC residents only.&nbsp;<\/p>",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) emergency department data, 2016, updated January 2018. ; NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2016. Updated September 2017.",
-        "DisplayType":"per 100,000 population 65 yrs and older",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
           },
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2005",
-            "start_period":1104537600000,
-            "end_period":1135987200000
-          },
-          {
-            "TimeDescription":"2006",
-            "start_period":1136073600000,
-            "end_period":1167523200000
-          },
-          {
-            "TimeDescription":"2007",
-            "start_period":1167609600000,
-            "end_period":1199059200000
-          },
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -42369,11 +39543,6 @@
             "end_period":1356912000000
           },
           {
-            "TimeDescription":"2012-2014",
-            "start_period":1325462400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
@@ -42497,52 +39666,6 @@
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":1221,
-        "MeasureName":"Fall-related hospitalizations among older adults, Annual Average Age-Specific Rate",
-        "MeasurementType":"Annual Average Age-Specific Rate",
-        "how_calculated":"<p>Counts were calculated as described above. Age-specific rates were calculated per 100,000 population 65 years and older.<\/p>",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS), 2000-2011, updated March 2013; 2012-2014, updated January 2018",
-        "DisplayType":"per 100,000 population 65 yrs and older",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2012-2014",
-            "start_period":1325462400000,
-            "end_period":1419984000000
           }
         ],
         "VisOptions":[
@@ -42849,10 +39972,6 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":681,
-                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":748,
@@ -45187,10 +42306,6 @@
                 "SecondaryAxis":"y"
               },
               {
-                "MeasureID":1070,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":1248,
                 "SecondaryAxis":"y"
               },
@@ -45255,52 +42370,6 @@
     ]
   },
   {
-    "IndicatorID":2178,
-    "IndicatorName":"Residential unit density",
-    "IndicatorLabel":"Residential unit density",
-    "IndicatorDescription":"<p><span>New York City, with nearly 27,000 residents per square mile (based on 2010 Census) is a very densely populated city. Some areas are more densely populated than others. Residential density can affect residents&rsquo; access to public services, traffic, noise, and housing availability and affordability.<\/span><\/p>",
-    "Measures":[
-      {
-        "MeasureID":757,
-        "MeasureName":"Residential unit density, Number per km2",
-        "MeasurementType":"Number per km2",
-        "how_calculated":"<p>&ldquo;Density of residential units&rdquo; is calculated by dividing the number of residential units by total residential building floor area in km2.<\/p>\n<p>For more information, visit <a href=\"http:\/\/beh.columbia.edu\/\" target=\"_blank\">http:\/\/beh.columbia.edu\/<\/a>.<\/p>",
-        "Sources":"The Built Environment & Health Project (BEH), Columbia University",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":2179,
     "IndicatorName":"Renter-occupied homes with no maintenance deficiencies (TCNY2020)",
     "IndicatorLabel":"Renter-occupied homes with no maintenance deficiencies (TCNY2020)",
@@ -45342,16 +42411,6 @@
             "TimeDescription":"2008",
             "start_period":1199145600000,
             "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
           },
           {
             "TimeDescription":"2017",
@@ -45419,16 +42478,6 @@
             "end_period":1230681600000
           },
           {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -45454,10 +42503,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":82,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":88,
                 "SecondaryAxis":"y"
               },
@@ -45476,119 +42521,6 @@
               {
                 "MeasureID":1201,
                 "SecondaryAxis":"y"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2180,
-    "IndicatorName":"Homes with Working Carbon Monoxide Detector",
-    "IndicatorLabel":"Homes with working carbon monoxide detector",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":760,
-        "MeasureName":"Homes with Working Carbon Monoxide Detector, Number",
-        "MeasurementType":"Number",
-        "how_calculated":"Estimated number of households reporting a working carbon monoxide detector inside the home.",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":761,
-        "MeasureName":"Homes with Working Carbon Monoxide Detector, Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"Estimated number of households in an area reporting a working carbon monoxide detector inside the home, divided by the number of households in the area; expressed as percent.",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":29,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
               }
             ]
           }
@@ -45648,57 +42580,6 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2182,
-    "IndicatorName":"Neighborhood Physical Disorder Score",
-    "IndicatorLabel":"Neighborhood Physical Disorder Score",
-    "IndicatorDescription":"<p>Neighborhood physical disorder, or the deterioration of an urban landscape, is reflected in indicators such as litter, graffiti, and abandoned buildings. A neighborhood&rsquo;s appearance can affect the decisions of potential residents (residential and commercial) about moving into an area. Poorly maintained areas may imply poverty or high crime rates.<\/p>",
-    "Measures":[
-      {
-        "MeasureID":763,
-        "MeasureName":"Neighborhood Physical Disorder Score, Score",
-        "MeasurementType":"Score",
-        "how_calculated":"<p>The physical disorder score was calculated from observations of Google Street View imagery from August 2007 to October 2011 of nine indicators of disorder in 532 blocks: bottles, litter, graffiti, poorly maintained buildings, burned out buildings, abandoned buildings, abandoned cars, vacant lots, and bars on windows. Scores have been multiplied by 10 for greater display of precision. Higher scores indicate more physical disorder.<\/p>\n<p>For more information, visit http:\/\/beh.columbia.edu\/.<\/p>",
-        "Sources":"The Built Environment & Health Project (BEH), Columbia University",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
               }
             ]
           }
@@ -45808,11 +42689,6 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
-          },
-          {
-            "TimeDescription":"2020",
-            "start_period":1577836800000,
-            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -45934,11 +42810,6 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
-          },
-          {
-            "TimeDescription":"2020",
-            "start_period":1577836800000,
-            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -46055,11 +42926,6 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
-          },
-          {
-            "TimeDescription":"2020",
-            "start_period":1577836800000,
-            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -46176,11 +43042,6 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
-          },
-          {
-            "TimeDescription":"2020",
-            "start_period":1577836800000,
-            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -46342,11 +43203,6 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
-          },
-          {
-            "TimeDescription":"2020",
-            "start_period":1577836800000,
-            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -46468,11 +43324,6 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
-          },
-          {
-            "TimeDescription":"2020",
-            "start_period":1577836800000,
-            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -46594,11 +43445,6 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
-          },
-          {
-            "TimeDescription":"2020",
-            "start_period":1577836800000,
-            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -46697,10 +43543,6 @@
               },
               {
                 "MeasureID":1284,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1292,
                 "SecondaryAxis":"y"
               }
             ]
@@ -51127,11 +47969,6 @@
             "end_period":1451520000000
           },
           {
-            "TimeDescription":"2014-18",
-            "start_period":1388534400000,
-            "end_period":1546214400000
-          },
-          {
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
@@ -51183,11 +48020,6 @@
             "end_period":1451520000000
           },
           {
-            "TimeDescription":"2014-18",
-            "start_period":1388534400000,
-            "end_period":1546214400000
-          },
-          {
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
@@ -51237,11 +48069,6 @@
             "TimeDescription":"2011-15",
             "start_period":1293840000000,
             "end_period":1451520000000
-          },
-          {
-            "TimeDescription":"2014-18",
-            "start_period":1388534400000,
-            "end_period":1546214400000
           },
           {
             "TimeDescription":"2019",
@@ -51982,52 +48809,6 @@
     "IndicatorDescription":null,
     "Measures":[
       {
-        "MeasureID":933,
-        "MeasureName":"Adults Reporting Personal Use of Pesticides, Any use of Tempo or Chinese Chalk - Number",
-        "MeasurementType":"Any use of Tempo or Chinese Chalk - Number",
-        "how_calculated":"<p>Estimated number of adults who reported using any illegal methods of pesticide (Tempo or Chinese Chalk) inside of the home to control insects, among pesticide users in the past 12 months, rounded to the nearest 1,000.<\/p>",
-        "Sources":"New York City Community Health Survey (CHS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2015",
-            "start_period":1420070400000,
-            "end_period":1451520000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
         "MeasureID":934,
         "MeasureName":"Adults Reporting Personal Use of Pesticides, Any use of Tempo or Chinese Chalk - %",
         "MeasurementType":"Any use of Tempo or Chinese Chalk - %",
@@ -52035,18 +48816,6 @@
         "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          },
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
@@ -52084,10 +48853,6 @@
               },
               {
                 "MeasureID":80,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
                 "SecondaryAxis":"x"
               },
               {
@@ -52111,52 +48876,6 @@
         ]
       },
       {
-        "MeasureID":935,
-        "MeasureName":"Adults Reporting Personal Use of Pesticides, Spray\/Bomb Only - Number",
-        "MeasurementType":"Spray\/Bomb Only - Number",
-        "how_calculated":"<p>Estimated number of adults who reported using any ineffective methods of pesticide (Spray or Fogger) inside of the home to control insects in the past 12 months, among pesticde users, rounded to the nearest 1,000.<\/p>",
-        "Sources":"New York City Community Health Survey (CHS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF34",
-            "GeoTypeDescription":"Neighborhood (UHF 34)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2015",
-            "start_period":1420070400000,
-            "end_period":1451520000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
         "MeasureID":936,
         "MeasureName":"Adults Reporting Personal Use of Pesticides, Spray\/Bomb Only - %",
         "MeasurementType":"Spray\/Bomb Only - %",
@@ -52164,10 +48883,6 @@
         "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
@@ -52213,10 +48928,6 @@
               },
               {
                 "MeasureID":80,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
                 "SecondaryAxis":"x"
               },
               {
@@ -52345,10 +49056,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
                 "SecondaryAxis":"x"
               },
@@ -52471,10 +49178,6 @@
               },
               {
                 "MeasureID":80,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
                 "SecondaryAxis":"x"
               },
               {
@@ -53086,10 +49789,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
                 "SecondaryAxis":"x"
               },
@@ -53252,10 +49951,6 @@
               },
               {
                 "MeasureID":80,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":84,
                 "SecondaryAxis":"x"
               },
               {
@@ -54277,10 +50972,6 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":84,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
                 "SecondaryAxis":"x"
               },
@@ -54297,208 +50988,6 @@
                 "SecondaryAxis":"x"
               }
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2315,
-    "IndicatorName":"Avertable Deaths",
-    "IndicatorLabel":"Avertable Deaths",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":969,
-        "MeasureName":"Avertable Deaths, Percentage",
-        "MeasurementType":"Percentage",
-        "how_calculated":"<p>The expected percent of deaths that could have been averted had each neighborhood had the same mortality rates as the top 5 wealthiest neighborhoods.<\/p>",
-        "Sources":"American Community Survey; New York City Bureau of Vital Statistics; United States Census",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2008-12",
-            "start_period":1199145600000,
-            "end_period":1356912000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2316,
-    "IndicatorName":"Educational Attainment",
-    "IndicatorLabel":"Educational Attainment",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":970,
-        "MeasureName":"Educational Attainment, College Degree or More",
-        "MeasurementType":"College Degree or More",
-        "how_calculated":"<p>Percent of adults (ages 25 and older) whose highest level of education is a college degree or more.<\/p>",
-        "Sources":"American Community Survey",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2011-13",
-            "start_period":1294012800000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":971,
-        "MeasureName":"Educational Attainment, Did Not Complete HS",
-        "MeasurementType":"Did Not Complete HS",
-        "how_calculated":"<p>Percent of adults (ages 25 and older) whose highest level of education is less than a high school diploma or GED.<\/p>",
-        "Sources":"American Community Survey",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2011-13",
-            "start_period":1294012800000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID":972,
-        "MeasureName":"Educational Attainment, HS\/Some College",
-        "MeasurementType":"HS\/Some College",
-        "how_calculated":"<p>Percent of adults (ages 25 and older) whose highest level of education is a high school diploma or some college.<\/p>",
-        "Sources":"American Community Survey",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2011-13",
-            "start_period":1294012800000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
           }
         ]
       }
@@ -54558,341 +51047,6 @@
                 "SecondaryAxis":"x"
               }
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2319,
-    "IndicatorName":"Life Expectancy",
-    "IndicatorLabel":"Life Expectancy",
-    "IndicatorDescription":"<p>Life expectancy is a universal measure of health. It promotes conversations about health equity and can be used to allocate resources where they may be most needed to support healthier, more equitable communities.<\/p>",
-    "Measures":[
-      {
-        "MeasureID":975,
-        "MeasureName":"Life Expectancy, Years",
-        "MeasurementType":"Years",
-        "how_calculated":"<p>Life expectancy at birth in years.<\/p>",
-        "Sources":"New York City Bureau of Vital Statistics",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2003-2012",
-            "start_period":1041379200000,
-            "end_period":1356912000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2321,
-    "IndicatorName":"Total Population by Age",
-    "IndicatorLabel":"Total Population by Age",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":977,
-        "MeasureName":"Total Population by Age, 0-17",
-        "MeasurementType":"0-17",
-        "how_calculated":"<p>Estimated percentage of population between in ages of 0-17; shown as percentage of population whose age is know.<\/p>",
-        "Sources":"United States Census",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":978,
-        "MeasureName":"Total Population by Age, 18-24",
-        "MeasurementType":"18-24",
-        "how_calculated":"<p>Estimated percentage of&nbsp;population between in ages of 18-24; shown as percentage of population whose age is know.<\/p>",
-        "Sources":"United States Census",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":979,
-        "MeasureName":"Total Population by Age, 25-44",
-        "MeasurementType":"25-44",
-        "how_calculated":"<p>Estimated percentage of&nbsp;population between in ages of 25-44; shown as percentage of population whose age is know.<\/p>",
-        "Sources":"United States Census",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":980,
-        "MeasureName":"Total Population by Age, 45-65",
-        "MeasurementType":"45-65",
-        "how_calculated":"<p>Estimated percentage of&nbsp;population between in ages of 45-65; shown as percentage of population whose age is know.<\/p>",
-        "Sources":"United States Census",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":981,
-        "MeasureName":"Total Population by Age, 65+",
-        "MeasurementType":"65+",
-        "how_calculated":"<p>Estimated percentage of&nbsp;population aged 65 or older; shown as percentage of population whose age is know.<\/p>",
-        "Sources":"United States Census",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":982,
-        "MeasureName":"Total Population by Age, Total",
-        "MeasurementType":"Total",
-        "how_calculated":"<p>Estimated total population.<\/p>",
-        "Sources":"United States Census",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
           }
         ]
       }
@@ -55035,65 +51189,6 @@
             "TimeDescription":"2013-2014",
             "start_period":1356998400000,
             "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2324,
-    "IndicatorName":"Went Without Needed Medical Care",
-    "IndicatorLabel":"Went Without Needed Medical Care",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":985,
-        "MeasureName":"Went Without Needed Medical Care, Age-Adjusted Percent",
-        "MeasurementType":"Age-Adjusted Percent",
-        "how_calculated":"<p>Age-adjusted percent of adults who report they needed medical care in the past 12 months but did not receive it.<\/p>",
-        "Sources":"New York City Community Health Survey (CHS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2011-2013",
-            "start_period":1293840000000,
-            "end_period":1388448000000
           }
         ],
         "VisOptions":[
@@ -55622,125 +51717,6 @@
               }
             ],
             "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2333,
-    "IndicatorName":"Test Syndrome X",
-    "IndicatorLabel":"Test Syndrome X",
-    "IndicatorDescription":"<p>Syndrome x is a made up condition.<\/p>",
-    "Measures":[
-      {
-        "MeasureID":1022,
-        "MeasureName":"Test Syndrome X, Number",
-        "MeasurementType":"Number",
-        "how_calculated":"<p>Based diagnosis at the hospital.<\/p>",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2009-13",
-            "start_period":1230768000000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2010-14",
-            "start_period":1262304000000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":1023,
-        "MeasureName":"Test Syndrome X, Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"<p>Diagnoses divided by the population denominator.<\/p>",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) ED data 2005-2010, updated March 2013; ED data 2011-2012, updated April 2014. NYC DOHMH population estimates updated July 2013.",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2009-13",
-            "start_period":1230768000000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2010-14",
-            "start_period":1262304000000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":41,
-                "SecondaryAxis":"x"
-              },
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
@@ -58084,295 +54060,6 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2344,
-    "IndicatorName":"Homes with Musty or Moldy Smells",
-    "IndicatorLabel":"Homes with musty or moldy smells",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":1069,
-        "MeasureName":"Homes with Musty or Moldy Smells, Number",
-        "MeasurementType":"Number",
-        "how_calculated":"<p>Estimated number of households that reported musty or moldy smells in the home.<\/p>",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":1070,
-        "MeasureName":"Homes with Musty or Moldy Smells, Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"<p>Estimated number of households that reported musty or moldy smells in the home, divided by the number of households in the area; expressed as percent.<\/p>",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":76,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":755,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1196,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1198,
-                "SecondaryAxis":"y"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2346,
-    "IndicatorName":"DOE Use of \"Best Practice\" Products",
-    "IndicatorLabel":"DOE",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":1073,
-        "MeasureName":"DOE Use of \"Best Practice\" Products, Applications",
-        "MeasurementType":"Applications",
-        "how_calculated":"<p>Placeholder.<\/p>",
-        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
-            "TimeDescription":"2015",
-            "start_period":1420070400000,
-            "end_period":1451520000000
-          },
-          {
-            "TimeDescription":"2016",
-            "start_period":1451606400000,
-            "end_period":1483142400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":1074,
-        "MeasureName":"DOE Use of \"Best Practice\" Products, Solid Products",
-        "MeasurementType":"Solid Products",
-        "how_calculated":"<p>Placeholder.<\/p>",
-        "Sources":"New York State Pesticide Sales and Use Registry (PSUR)",
-        "DisplayType":"pounds",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2008",
-            "start_period":1199145600000,
-            "end_period":1230681600000
-          },
-          {
-            "TimeDescription":"2009",
-            "start_period":1230768000000,
-            "end_period":1262217600000
-          },
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2011",
-            "start_period":1293840000000,
-            "end_period":1325289600000
-          },
-          {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2013",
-            "start_period":1356998400000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
-            "TimeDescription":"2015",
-            "start_period":1420070400000,
-            "end_period":1451520000000
-          },
-          {
-            "TimeDescription":"2016",
-            "start_period":1451606400000,
-            "end_period":1483142400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
                 "RankReverse":0
               }
             ],
@@ -63468,10 +59155,6 @@
               {
                 "MeasureID":386,
                 "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1070,
-                "SecondaryAxis":"x"
               }
             ]
           }
@@ -63713,12 +59396,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":1070,
-                "SecondaryAxis":"x"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -65586,10 +61264,6 @@
               {
                 "MeasureID":1239,
                 "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1259,
-                "SecondaryAxis":"x"
               }
             ]
           }
@@ -66069,111 +61743,6 @@
     ]
   },
   {
-    "IndicatorID":2397,
-    "IndicatorName":"Homes with No Maintenance Deficiencies (Healthy Homes)",
-    "IndicatorLabel":"Homes with No Maintenance Deficiencies (Healthy Homes)",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":1240,
-        "MeasureName":"Homes with No Maintenance Deficiencies (Healthy Homes), Number",
-        "MeasurementType":"Number",
-        "how_calculated":"<p>dffasdf<\/p>",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2017",
-            "start_period":1483228800000,
-            "end_period":1514678400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":1241,
-        "MeasureName":"Homes with No Maintenance Deficiencies (Healthy Homes), Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"<p>ssad<\/p>",
-        "Sources":"New York City Housing and Vacancy Survey (HVS)",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"Subboro",
-            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2017",
-            "start_period":1483228800000,
-            "end_period":1514678400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":2398,
     "IndicatorName":"Carbon Monoxide Deaths",
     "IndicatorLabel":"Death: All Causes",
@@ -66579,11 +62148,6 @@
         ],
         "AvailableTimes":[
           {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
-          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -66633,11 +62197,6 @@
           }
         ],
         "AvailableTimes":[
-          {
-            "TimeDescription":"2014",
-            "start_period":1388534400000,
-            "end_period":1419984000000
-          },
           {
             "TimeDescription":"2017",
             "start_period":1483228800000,
@@ -66896,106 +62455,6 @@
     ]
   },
   {
-    "IndicatorID":2402,
-    "IndicatorName":"Public School Children (K-8) with Active Asthma",
-    "IndicatorLabel":"Public school children (K-8) with active asthma",
-    "IndicatorDescription":"<p>Public school children (K-8) with active asthma&nbsp;<\/p>",
-    "Measures":[
-      {
-        "MeasureID":1275,
-        "MeasureName":"Public School Children (K-8) with Active Asthma, Count",
-        "MeasurementType":"Count",
-        "how_calculated":"<p><span>Number of public school children in grades K-8 with a diagnosis of asthma that has been reported to NYC DOHMH during the current or previous school year. Number is calculated by residence of the child.<\/span><\/p>",
-        "Sources":"New York City Automated School Health Records",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2018-2019",
-            "start_period":1535760000000,
-            "end_period":1561852800000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":1276,
-        "MeasureName":"Public School Children (K-8) with Active Asthma, Percentage",
-        "MeasurementType":"Percentage",
-        "how_calculated":"<p>Number of public school children in grades K-8 with a diagnosis of asthma that has been reported to NYC DOHMH during the current or previous school year, divided by the number of children in grades K-8, expressed as a percent, based on residence of the child.&nbsp;<\/p>",
-        "Sources":"New York City Automated School Health Records",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2018-2019",
-            "start_period":1535760000000,
-            "end_period":1561852800000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":2403,
     "IndicatorName":"Homes with reported falls among adults 65 and older",
     "IndicatorLabel":"Homes with reported falls among adults 65 and older",
@@ -67099,121 +62558,12 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":681,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":692,
                 "SecondaryAxis":"x"
               },
               {
                 "MeasureID":790,
                 "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2404,
-    "IndicatorName":"Children exposed to tobacco smoke in home",
-    "IndicatorLabel":"Children exposed to tobacco smoke in home (ages 0-13 years)",
-    "IndicatorDescription":"<p>Children exposed to tobacco smoke in home (ages 0-13 years)&nbsp;<\/p>",
-    "Measures":[
-      {
-        "MeasureID":1258,
-        "MeasureName":"Children exposed to tobacco smoke in home, Count",
-        "MeasurementType":"Count",
-        "how_calculated":"<p>Estimated number of children ages 0-13 years living in homes where they are exposed to tobacco smoke.&nbsp;<\/p>",
-        "Sources":"NYC KIDS Survey",
-        "DisplayType":"number",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NYCKIDS",
-            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2017",
-            "start_period":1483228800000,
-            "end_period":1514678400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":1259,
-        "MeasureName":"Children exposed to tobacco smoke in home, Percentage",
-        "MeasurementType":"Percentage",
-        "how_calculated":"<p>Estimated number of children 0-13 years living in a home where they are exposed to tobacco smoke, divided by the number of children in the area; expressed as a percent.<\/p>",
-        "Sources":"NYC KIDS Survey",
-        "DisplayType":"percent",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NYCKIDS",
-            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2017",
-            "start_period":1483228800000,
-            "end_period":1514678400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":1228,
-                "SecondaryAxis":"y"
               }
             ]
           }
@@ -68672,106 +64022,6 @@
     ]
   },
   {
-    "IndicatorID":2407,
-    "IndicatorName":"Asthma Medication Administration Form Use Among Public School Children (Grades K-8)",
-    "IndicatorLabel":"Asthma medication administration form use among public school children",
-    "IndicatorDescription":"<p>Asthma medication administration form (MAF) use among public school children (grades K-8)<\/p>",
-    "Measures":[
-      {
-        "MeasureID":1272,
-        "MeasureName":"Asthma Medication Administration Form Use Among Public School Children (Grades K-8), Number",
-        "MeasurementType":"Number",
-        "how_calculated":"<p>Number of public school children in grades K-8 with a diagnosis of asthma that has been reported to NYC DOHMH during the current or previous school year that have an asthma medication administration form on file with the school. Number is calculated by residence of the child.<\/p>",
-        "Sources":"New York City Automated School Health Records",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2018-2019",
-            "start_period":1535760000000,
-            "end_period":1561852800000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":1274,
-        "MeasureName":"Asthma Medication Administration Form Use Among Public School Children (Grades K-8), Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"<p>Number of public school students in grades K-8 with a diagnosis of asthma that has been reported to NYC DOHMH during the current or previous school year that have an&nbsp;asthma medication administration form on file at school, divided by the population of students in grades K-8 with asthma, expressed as a percent.&nbsp;<\/p>",
-        "Sources":"New York City Automated School Health Records",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2018-2019",
-            "start_period":1535760000000,
-            "end_period":1561852800000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":2408,
     "IndicatorName":"Home fall-related emergency department visits among older adults",
     "IndicatorLabel":"Home fall-related emergency department visits among older adults",
@@ -69229,218 +64479,6 @@
                 "SecondaryAxis":"x"
               }
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID":2412,
-    "IndicatorName":"3-Year Heat Stress Emergency Department Visits",
-    "IndicatorLabel":"3-Year Heat Stress Emergency Department Visits",
-    "IndicatorDescription":null,
-    "Measures":[
-      {
-        "MeasureID":1292,
-        "MeasureName":"3-Year Heat Stress Emergency Department Visits, 3-Year Avg. Annual Age-Adjusted  Rate",
-        "MeasurementType":"3-Year Avg. Annual Age-Adjusted  Rate",
-        "how_calculated":"<p>The number of NYC residents&nbsp;treated in an emergency department (ED), including those admitted as inpatients after being seen in an ED,&nbsp;during the months of May-September summed over a 3-year period for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted&nbsp;with a diagnosis of heat-related illness, even if that was not the principal diagnosis.&nbsp;Because ED visits can take place over multiple days, counts are dependent on the date&nbsp;chosen to reference the visit and could differ slightly from those based on date of discharge.<\/p>\n<p>&nbsp;<\/p>\n<p>Numbers are summed by 3-year age groups and divided by the 3-year summed population in each age group, using NYC DOHMH intercensal estimates, to produce average annualized rates. Quotients are multiplied by the proportion of the 2000 US population in each age group. The average annual age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.<\/p>\n<p>&nbsp;<\/p>\n<p>Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes&nbsp;992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes&nbsp;T67, X30, X32.&nbsp; Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.&nbsp;<\/p>",
-        "Sources":"New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates; Statewide Planning and Research Cooperative System",
-        "DisplayType":"per 100,000 residents",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2010-2012",
-            "start_period":1262304000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2011-2013",
-            "start_period":1293840000000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2012-2014",
-            "start_period":1325462400000,
-            "end_period":1419984000000
-          },
-          {
-            "TimeDescription":"2016-2018",
-            "start_period":1451606400000,
-            "end_period":1546214400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":1,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":1,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":781,
-                "SecondaryAxis":"x"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID":1293,
-        "MeasureName":"3-Year Heat Stress Emergency Department Visits, 3-Year Average Annual Rate",
-        "MeasurementType":"3-Year Average Annual Rate",
-        "how_calculated":"<p>The number of NYC residents<span>&nbsp;treated in an emergency department (ED), including those admitted as inpatients after being seen in an ED,<\/span> during the months of May-September summed over a 3-year period for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted&nbsp;with a diagnosis of heat-related illness, even if that was not the principal diagnosis. Because ED visits can take place over multiple days, counts are dependent on the date&nbsp;chosen to reference the visit and could differ slightly from those based on date of discharge.<\/p>\n<p>&nbsp;<\/p>\n<p>Numbers are divided by the 3-year summed population using NYC DOHMH intercensal estimates to produce average annualized rates and are expressed as cases per 100,000 residents.<\/p>\n<p>&nbsp;<\/p>\n<p>Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes&nbsp;992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes&nbsp;T67, X30, X32.&nbsp; Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.&nbsp;<\/p>",
-        "Sources":"New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates; Statewide Planning and Research Cooperative System",
-        "DisplayType":"per 100,000 residents",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2010-2012",
-            "start_period":1262304000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2011-2013",
-            "start_period":1293840000000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2012-2014",
-            "start_period":1325462400000,
-            "end_period":1419984000000
-          },
-          {
-            "TimeDescription":"2016-2018",
-            "start_period":1451606400000,
-            "end_period":1546214400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
-          }
-        ]
-      },
-      {
-        "MeasureID":1294,
-        "MeasureName":"3-Year Heat Stress Emergency Department Visits, 3-Year Total Number",
-        "MeasurementType":"3-Year Total Number",
-        "how_calculated":"<p>The number of NYC residents&nbsp;treated in an emergency department (ED), including those admitted as inpatients after being seen in an ED,&nbsp;during the months of May-September summed over a 3-year period for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted&nbsp;with a diagnosis of heat-related illness, even if that was not the principal diagnosis.&nbsp;Because ED visits can take place over multiple days, counts are dependent on the date&nbsp;chosen to reference the visit and could differ slightly from those based on date of discharge.<\/p>\n<p>&nbsp;<\/p>\n<p>Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes&nbsp;992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes&nbsp;T67, X30, X32.&nbsp; Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.&nbsp;<\/p>",
-        "Sources":"Statewide Planning and Research Cooperative System",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
-            "GeoType":"Citywide",
-            "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2010-2012",
-            "start_period":1262304000000,
-            "end_period":1356912000000
-          },
-          {
-            "TimeDescription":"2011-2013",
-            "start_period":1293840000000,
-            "end_period":1388448000000
-          },
-          {
-            "TimeDescription":"2012-2014",
-            "start_period":1325462400000,
-            "end_period":1419984000000
-          },
-          {
-            "TimeDescription":"2016-2018",
-            "start_period":1451606400000,
-            "end_period":1546214400000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":0
-              }
-            ],
-            "Links":null
           }
         ]
       }
