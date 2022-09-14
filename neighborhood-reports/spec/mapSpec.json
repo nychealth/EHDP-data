@@ -1,47 +1,91 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
     "height": "container",
-    "autosize": {"type": "fit", "contains": "content", "resize": true},
-    "data": {
-      "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/main/geography/UHF42.topo.json",
-      "format": {"type": "topojson", "feature": "collection"}
-    },
+    "data": {"name": "mapData"},
+    "projection": {"type": "mercator"},
     "transform": [
-      {
-        "lookup": "id",
-        "from": {
-        "data": {"name": "mapData"},
-          "key": "geo_join_id",
-          "fields": ["data_value", "neighborhood", "message"]
+        {
+            "lookup": "geo_join_id",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/geography/UHF42.topo.json",
+                    "format": {"type": "topojson", "feature": "collection"}
+                },
+                "key": "properties.GEOCODE"
+            },
+            "as": "geo"
         }
-      }
     ],
     "layer": [
-      {
-        "mark": {"type": "geoshape", "tooltip": true},
-        "encoding": {
-          "color": {"field": "data_value", "title": "Value", "type": "quantitative",
-          "scale": {"scheme": "greens"},
-          "legend": {"orient": "top-left", "title": null}
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/geography/borough.topo.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "collection"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "stroke": "#fafafa",
+                "fill": "#C5C5C5",
+                "strokeWidth": 0.5
+            }
         },
-        "stroke": {"value": "white" },
-        "strokeWidth":{"value":1},
-        "tooltip":[
-          {"field":"neighborhood", "title": "Neighborhood", "type":"nominal"},
-          {"field":"data_value", "title": "Value", "type":"quantitative"}
-        ]
-      }},
-      {  
-      "mark": {"type": "geoshape"},
-      "encoding": {
-        "color":{"value":null},
-        "stroke": {
-          "condition": {
-            "test": "datum.neighborhood=='Bedford Stuyvesant - Crown Heights'",
-            "value": "#000000"
-          }
+        {
+            "mark": {"type": "geoshape", "invalid": null},
+            "params": [
+                {"name": "highlight", "select": {"type": "point", "on": "mouseover", "clear": "mouseout"}}
+            ],
+            "encoding": {
+                "shape": {"field": "geo", "type": "geojson"},
+                "color": {
+                    "condition": {
+                        "test": "isValid(datum.data_value)",
+                        "bin": false,
+                        "field": "data_value",
+                        "type": "quantitative",
+                        "scale": {"scheme": {"name": "greens", "extent": [0, 1]}},
+                        "legend": {"orient": "top-left", "title": null}
+                    },
+                    "value": "#808080"
+                },
+                "stroke": {
+                    "condition": [{"param": "highlight", "empty": false, "value": "orange"}],
+                    "value": "#eaeaea"
+                },
+                "strokeWidth": {
+                    "condition": [{"param": "highlight", "empty": false, "value": 1.25}],
+                    "value": 0.5
+                },
+                "order": {
+                    "condition": [{"param": "highlight", "empty": false, "value": 1}],
+                    "value": 0
+                },
+                "tooltip":[
+                    {"field":"neighborhood", "title": "Neighborhood", "type":"nominal"},
+                    {"field":"data_value", "title": "Value", "type":"quantitative"}
+                ]
+            }
         },
-        "strokeWidth": {"value": 3}
-      }}]
-    }
+        {
+            "mark": {"type": "geoshape", "invalid": null},
+            "encoding": {
+                "shape": {"field": "geo", "type": "geojson"},
+                "fill": {
+                    "value": null
+                },
+                "stroke": {
+                    "condition": {
+                        "test": "datum.neighborhood=='Bedford Stuyvesant - Crown Heights'",
+                        "value": "#161616"
+                    }
+                },
+                "strokeWidth": {
+                    "value": 1.5
+                }
+            }
+        }
+    ]
+}

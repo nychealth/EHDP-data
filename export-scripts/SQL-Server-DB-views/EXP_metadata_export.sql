@@ -14,6 +14,7 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
 		iy.end_period,
 		iy.time_type         AS TimeType,
 		gt.geo_type_name     AS GeoType,
+		gt.description       AS GeoTypeDescription,
 		ii.name              AS IndicatorName,
 		ii.description       AS IndicatorDescription,
 		ii.label             AS IndicatorLabel,
@@ -22,6 +23,13 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
 		cs.source_list       AS Sources,
 		si2.mapping          AS Map,
 		si2.trend_time_graph AS Trend,
+
+		-- format measure name
+
+		CASE WHEN ii.short_name IS NOT null 
+			THEN ii.short_name + ', ' + mt.description 
+			ELSE ii.name       + ', ' + mt.description 
+		END AS MeasureName,		
 
 		-- replacing missing flag values with 0
 		
@@ -82,6 +90,7 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
 		) AS rc ON rc.indicator_id = si.indicator_id
 	
 	WHERE 
-		st.public_display_flag = 'Y'
+		st.public_display_flag = 'Y' AND
+		si.push_ready = 1
 
 GO

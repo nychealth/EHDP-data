@@ -22,6 +22,61 @@ suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(jsonlite)))
+suppressWarnings(suppressMessages(library(svDialogs)))
+
+#-----------------------------------------------------------------------------------------#
+# get base_dir for absolute path
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+base_dir <- Sys.getenv("base_dir")
+
+if (base_dir == "") {
+    
+    base_dir <- path_dir(getwd())
+    Sys.setenv(data_env = base_dir)
+
+} 
+
+
+#-----------------------------------------------------------------------------------------#
+# get or set database to use
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+data_env <- Sys.getenv("data_env")
+
+if (data_env == "") {
+    
+    # ask and set
+    
+    data_env <-
+        dlgInput(
+            message = "staging [s] or prod [p]?",
+            rstudio = TRUE
+        )$res
+    
+    Sys.setenv(data_env = data_env)
+
+} 
+
+# set DB name
+
+if (str_to_lower(data_env) == "s") {
+    
+    # staging
+    
+    db_name <- "BESP_IndicatorAnalysis"
+    
+} else if (str_to_lower(data_env) == "p") {
+    
+    # production
+    
+    db_name <- "BESP_Indicator"
+    
+}
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator
@@ -49,7 +104,7 @@ EHDP_odbc <-
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
         server = "SQLIT04A",
-        database = "BESP_Indicator",
+        database = db_name,
         trusted_connection = "yes"
     )
 
@@ -81,11 +136,10 @@ report_level_1 <-
     mutate(
         data_download_loc = 
             str_c(
-                "http://a816-dohbesp.nyc.gov/IndicatorPublic/EPHTCsv/", 
                 report_title %>% 
                     str_replace_all("[:punct:]", "") %>% 
                     str_replace_all(" ", "_"),
-                ".csv"
+                "_data.csv"
             )
     )
 
@@ -286,7 +340,7 @@ for (i in 1:nrow(report_level_1_small)) {
     write_lines(
         report_json, 
         str_c(
-            "neighborhoodreports/reports/",
+            base_dir, "/neighborhood-reports/reports/",
             str_replace_all(report_spec$report_title, "[:punct:]", ""),
             " in ",
             report_spec$geo_entity_name,

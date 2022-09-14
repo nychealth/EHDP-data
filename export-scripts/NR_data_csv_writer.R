@@ -24,6 +24,62 @@ suppressWarnings(suppressMessages(library(dbplyr)))
 suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
+suppressWarnings(suppressMessages(library(rlang)))
+suppressWarnings(suppressMessages(library(svDialogs)))
+
+#-----------------------------------------------------------------------------------------#
+# get base_dir for absolute path
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+base_dir <- Sys.getenv("base_dir")
+
+if (base_dir == "") {
+    
+    base_dir <- path_dir(getwd())
+    Sys.setenv(data_env = base_dir)
+
+} 
+
+
+#-----------------------------------------------------------------------------------------#
+# get or set database to use
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+data_env <- Sys.getenv("data_env")
+
+if (data_env == "") {
+    
+    # ask and set
+    
+    data_env <-
+        dlgInput(
+            message = "staging [s] or prod [p]?",
+            rstudio = TRUE
+        )$res
+    
+    Sys.setenv(data_env = data_env)
+
+} 
+
+# set DB name
+
+if (str_to_lower(data_env) == "s") {
+    
+    # staging
+    
+    db_name <- "BESP_IndicatorAnalysis"
+    
+} else if (str_to_lower(data_env) == "p") {
+    
+    # production
+    
+    db_name <- "BESP_Indicator"
+    
+}
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator database
@@ -53,7 +109,7 @@ EHDP_odbc <-
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
         server = "SQLIT04A",
-        database = "BESP_Indicator",
+        database = db_name,
         trusted_connection = "yes"
     )
 
@@ -127,12 +183,16 @@ report_data <-
     ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
     filter(
-        has_annual == FALSE | 
-            (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
-        indicator_id != 386 | 
-            (indicator_id == 386 & str_detect(time_type, "(?i)Seasonal"))
+        has_annual == FALSE | (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
+        indicator_id != 386 | (indicator_id == 386 & str_detect(time_type, "(?i)Seasonal"))
     ) %>% 
-    select(-has_annual)
+    select(-has_annual) %>% 
+    mutate(
+    across(
+        where(is.character),
+        ~ as_utf8_character(enc2native(.x))
+    )
+)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -152,7 +212,7 @@ report_data_list <-
     walk(
         ~ write_csv(
             .x,
-            paste0("neighborhoodreports/data/", unique(.x$title), "_data.csv")
+            paste0(base_dir, "/neighborhood-reports/data/", str_replace_all(unique(.x$title), " ", "_"), "_data.csv")
             
         )
     )

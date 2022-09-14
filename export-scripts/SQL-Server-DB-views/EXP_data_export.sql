@@ -14,12 +14,12 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 
 		-- format measure name
 
-		CASE WHEN ii.short_name IS NOT null 
-			THEN ii.short_name + ', ' + mt.description 
-			ELSE ii.name       + ', ' + mt.description 
-		END AS MeasureName,
+		-- CASE WHEN ii.short_name IS NOT null 
+		-- 	THEN ii.short_name + ', ' + mt.description 
+		-- 	ELSE ii.name       + ', ' + mt.description 
+		-- END AS MeasureName,
 
-		mt.description       AS MeasurementType,
+		-- mt.description       AS MeasurementType,
 		gt.geo_type_name     AS GeoType,
 		ind.geo_type_id      AS GeoTypeID,
 		ind.geo_entity_id    AS GeoID,
@@ -31,23 +31,25 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 			ELSE null 
 		END AS Value,
 
-		-- format character display
+		-- format character display (making sure to avoid scientific notation)
 
 		CASE 
 			WHEN un.show_data_flag = 1 AND un.character_display IS NOT null
-				THEN convert(varchar, ind.data_value) + un.character_display
+				THEN format(ind.data_value, 'G') + un.character_display
 			WHEN un.show_data_flag = 0
 				THEN ''
-			ELSE convert(varchar, ind.data_value)
+			ELSE format(ind.data_value, 'G')
 		END AS DisplayValue,
 
 		-- replace nulls with empty strings
 
-		CASE WHEN ind.ci IS null THEN ''
+		CASE 
+			WHEN ind.ci IS null OR un.show_data_flag = 0 THEN ''
 			ELSE ind.ci
 		END AS CI,
 
-		CASE WHEN un.message IS null THEN ''
+		CASE 
+			WHEN un.message IS null THEN ''
 			ELSE un.message
 		END AS Note
 
@@ -69,6 +71,7 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 	-- only export data flagged for public view
 
 	WHERE 
-		st.public_display_flag = 'Y'
+		st.public_display_flag = 'Y' AND
+		si.push_ready = 1
 
 GO
