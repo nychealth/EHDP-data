@@ -24,7 +24,16 @@ driver = webdriver.Chrome(options = options)
 
 warnings.simplefilter("ignore")
 
-cwd = os.getcwd()
+# get base_dir for absolute path
+
+base_dir = os.environ.get("base_dir", "")
+
+if (base_dir == ""):
+    
+    base_dir = os.getcwd()
+
+    os.environ["base_dir"] = base_dir
+
 
 data_files = [
     "Housing_and_Health_data.csv",
@@ -38,9 +47,9 @@ data_files = [
 
 for file in data_files:
 
-    print(file)
+    print("> ", file)
 
-    df = pd.read_csv(cwd + "/../neighborhood-reports/data/" + file)
+    df = pd.read_csv(base_dir + "/neighborhood-reports/data/" + file)
 
     # convert End Date to date data type
 
@@ -109,9 +118,9 @@ for file in data_files:
 
         # - name each SVG with the data_field_name and the Neighborhood
         
-        image_name = cwd + '/../neighborhood-reports/images/' + df['data_field_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg'
+        image_name = base_dir + '/neighborhood-reports/images/' + df['data_field_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg'
 
-        save(chart, fp = image_name)
+        save(chart, fp = image_name, webdriver = driver)
         
         # - viewBox="0 0 310 110" must be removed for ModLab team
         # - also adding in preserveAspectRatio="none" to allow Modlab designers more flexibility

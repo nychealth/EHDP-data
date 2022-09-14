@@ -27,6 +27,19 @@ warnings.simplefilter("ignore")
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# get base_dir for absolute path
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+base_dir = os.environ.get("base_dir", "")
+
+if (base_dir == ""):
+    
+    base_dir = os.getcwd()
+
+    os.environ["base_dir"] = base_dir
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # get or set database to use
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -344,7 +357,7 @@ metadata = (
 # saving file
 #-----------------------------------------------------------------------------------------#
 
-metadata.to_json(os.getcwd() + "/../indicators/indicators.json", orient = "records", indent = 2)
+metadata.to_json(base_dir + "/indicators/indicators.json", orient = "records", indent = 2)
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

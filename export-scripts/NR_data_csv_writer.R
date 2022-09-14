@@ -28,10 +28,44 @@ suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 
 #-----------------------------------------------------------------------------------------#
+# get base_dir for absolute path
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+base_dir <- Sys.getenv("base_dir")
+
+if (base_dir == "") {
+    
+    base_dir <- path_dir(getwd())
+    Sys.setenv(data_env = base_dir)
+
+} 
+
+
+#-----------------------------------------------------------------------------------------#
 # get or set database to use
 #-----------------------------------------------------------------------------------------#
 
+# get envionment var
+
 data_env <- Sys.getenv("data_env")
+
+if (data_env == "") {
+    
+    # ask and set
+    
+    data_env <-
+        dlgInput(
+            message = "staging [s] or prod [p]?",
+            rstudio = TRUE
+        )$res
+    
+    Sys.setenv(data_env = data_env)
+
+} 
+
+# set DB name
 
 if (str_to_lower(data_env) == "s") {
     
@@ -44,18 +78,6 @@ if (str_to_lower(data_env) == "s") {
     # production
     
     db_name <- "BESP_Indicator"
-    
-} else if (data_env == "") {
-    
-    # ask
-    
-    data_env <-
-        dlgInput(
-            message = "staging [s] or prod [p]?",
-            rstudio = TRUE
-        )$res
-    
-    Sys.setenv(data_env = data_env)
     
 }
 
@@ -190,7 +212,7 @@ report_data_list <-
     walk(
         ~ write_csv(
             .x,
-            paste0(getwd(), "/../neighborhood-reports/data/", str_replace_all(unique(.x$title), " ", "_"), "_data.csv")
+            paste0(base_dir, "/neighborhood-reports/data/", str_replace_all(unique(.x$title), " ", "_"), "_data.csv")
             
         )
     )

@@ -14,7 +14,9 @@
 # get parent dir for absolute path
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-$script_dir = Get-Location
+$base_dir = Get-Location | Split-Path
+
+$Env:base_dir = $base_dir
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # Choose database to use, set env var
@@ -38,7 +40,7 @@ conda activate r-reticulate
 
 Write-Output ">>> EXP_indicator_data_writer"
 
-Rscript $script_dir\EXP_indicator_data_writer.R
+Rscript $base_dir\export-scripts\EXP_indicator_data_writer.R
 
 #-----------------------------------------------------------------------------------------#
 # NR viz data (for VegaLite)
@@ -46,7 +48,7 @@ Rscript $script_dir\EXP_indicator_data_writer.R
 
 Write-Output ">>> NR_data_csv_writer"
 
-Rscript $script_dir\NR_data_csv_writer.R
+Rscript $base_dir\export-scripts\NR_data_csv_writer.R
 
 #-----------------------------------------------------------------------------------------#
 # NR JSON data (for report)
@@ -54,7 +56,7 @@ Rscript $script_dir\NR_data_csv_writer.R
 
 Write-Output ">>> NR_json_writer"
 
-Rscript $script_dir\NR_json_writer.R
+Rscript $base_dir\export-scripts\NR_json_writer.R
 
 
 #=========================================================================================#
@@ -67,7 +69,7 @@ Rscript $script_dir\NR_json_writer.R
 
 Write-Output ">>> EXP_indicator_metadata_writer"
 
-python $script_dir\EXP_indicator_metadata_writer.py
+python $base_dir\export-scripts\EXP_indicator_metadata_writer.py
 
 #-----------------------------------------------------------------------------------------#
 # NR spark bars
@@ -75,7 +77,7 @@ python $script_dir\EXP_indicator_metadata_writer.py
 
 Write-Output ">>> NR_SparkBarExport"
 
-python $script_dir\NR_SparkBarExport.py
+python $base_dir\export-scripts\NR_SparkBarExport.py
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

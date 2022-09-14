@@ -25,6 +25,22 @@ suppressWarnings(suppressMessages(library(jsonlite)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 
 #-----------------------------------------------------------------------------------------#
+# get base_dir for absolute path
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+base_dir <- Sys.getenv("base_dir")
+
+if (base_dir == "") {
+    
+    base_dir <- path_dir(getwd())
+    Sys.setenv(data_env = base_dir)
+
+} 
+
+
+#-----------------------------------------------------------------------------------------#
 # get or set database to use
 #-----------------------------------------------------------------------------------------#
 
@@ -324,7 +340,7 @@ for (i in 1:nrow(report_level_1_small)) {
     write_lines(
         report_json, 
         str_c(
-            getwd(), "/../neighborhood-reports/reports/",
+            base_dir, "/neighborhood-reports/reports/",
             str_replace_all(report_spec$report_title, "[:punct:]", ""),
             " in ",
             report_spec$geo_entity_name,

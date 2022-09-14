@@ -25,20 +25,32 @@ suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 
 #-----------------------------------------------------------------------------------------#
+# get base_dir for absolute path
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+base_dir <- Sys.getenv("base_dir")
+
+if (base_dir == "") {
+    
+    base_dir <- path_dir(getwd())
+    Sys.setenv(data_env = base_dir)
+
+} 
+
+
+#-----------------------------------------------------------------------------------------#
 # get or set database to use
 #-----------------------------------------------------------------------------------------#
 
+# get envionment var
+
 data_env <- Sys.getenv("data_env")
 
-if (str_to_lower(data_env) == "s") {
+if (data_env == "") {
     
-    db_name <- "BESP_IndicatorAnalysis"
-    
-} else if (str_to_lower(data_env) == "p") {
-    
-    db_name <- "BESP_Indicator"
-    
-} else if (data_env == "") {
+    # ask and set
     
     data_env <-
         dlgInput(
@@ -47,6 +59,22 @@ if (str_to_lower(data_env) == "s") {
         )$res
     
     Sys.setenv(data_env = data_env)
+
+} 
+
+# set DB name
+
+if (str_to_lower(data_env) == "s") {
+    
+    # staging
+    
+    db_name <- "BESP_IndicatorAnalysis"
+    
+} else if (str_to_lower(data_env) == "p") {
+    
+    # production
+    
+    db_name <- "BESP_Indicator"
     
 }
 
@@ -139,7 +167,7 @@ for (i in 1:length(IndicatorIDs)) {
     
     write_lines(
         exp_json, 
-        str_c(getwd(), "/../indicators/data/", this_indicator, ".json")
+        str_c(base_dir, "/indicators/data/", this_indicator, ".json")
     )
     
 }
