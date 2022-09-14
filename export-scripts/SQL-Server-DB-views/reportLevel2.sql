@@ -5,7 +5,7 @@ GO
 
 ALTER VIEW [dbo].[reportLevel2] AS
 
-    SELECT TOP 100000 
+	SELECT TOP (100) PERCENT 
 
         rcnt.report_id,
         report_topic_id,
