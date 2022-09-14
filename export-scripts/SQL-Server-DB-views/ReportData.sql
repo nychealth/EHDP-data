@@ -5,7 +5,7 @@ GO
 
 ALTER VIEW [dbo].[ReportData] AS
 
-	SELECT TOP (100) PERCENT 
+	SELECT DISTINCT TOP (100) PERCENT 
 		rc.report_id,
 		a.indicator_id,
 		b.data_field_name,
@@ -20,16 +20,24 @@ ALTER VIEW [dbo].[ReportData] AS
 		ge.geo_id          AS 'geo_join_id',
 		g.geo_type_name    AS 'geo_type',
 		ge.name            AS 'neighborhood',
+
 		CASE
 			WHEN u.show_data_flag = 1 THEN data_value
 			ELSE NULL
 		END AS 'data_value',
+
 		CASE
 			WHEN u.message IS NULL THEN ''
 			ELSE u.message
 		END AS 'message'
 
 	FROM indicator_data AS a
+
+		LEFT JOIN subtopic_indicators AS si ON (
+			si.indicator_id        = a.indicator_id AND 
+			si.geo_type_id         = a.geo_type_id AND 
+			si.year_id             = a.year_id
+		)
 
 		LEFT JOIN indicator_definition AS b  ON a.indicator_id    = b.indicator_id
 		LEFT JOIN internal_indicator   AS c  ON b.internal_id     = c.internal_id
@@ -47,7 +55,8 @@ ALTER VIEW [dbo].[ReportData] AS
 
 	WHERE
 		a.geo_type_id = 3 AND
-		r.public_flag = 1 -- only public reports
+		r.public_flag = 1 AND -- only public reports
+		si.push_ready = 1
 
 	ORDER BY
 		b.data_field_name,

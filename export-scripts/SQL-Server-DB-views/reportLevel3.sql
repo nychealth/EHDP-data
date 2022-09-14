@@ -5,11 +5,11 @@ GO
 
 ALTER VIEW [dbo].[reportLevel3] AS
 
-    SELECT TOP (100000)
+	SELECT TOP (100) PERCENT 
 
-        report_content_id,
+        rtd.report_content_id,
         rtd.report_id,
-        report_topic_id,
+        rtd.report_topic_id,
         rtd.indicator_id,
         rtd.sort_key,
         rtd.rankReverse,
@@ -89,6 +89,7 @@ ALTER VIEW [dbo].[reportLevel3] AS
         JOIN report_geo_type        AS   rgt ON r.report_id            = rgt.report_id
         JOIN geo_type               AS    gt ON rgt.geo_type_id        = gt.geo_type_id
         JOIN geo_entity             AS    ge ON gt.geo_type_id         = ge.geo_type_id
+
         JOIN indicator_data         AS cityD ON rtd.indicator_id       = cityD.indicator_id
             AND (
                 cityD.geo_type_id = 6 AND 
@@ -113,7 +114,7 @@ ALTER VIEW [dbo].[reportLevel3] AS
 
             ) -- most recent year logic
 
-        JOIN indicator_data boroD ON rtd.indicator_id = boroD.indicator_id
+        JOIN indicator_data AS boroD ON rtd.indicator_id = boroD.indicator_id
             AND (
                 boroD.geo_type_id = 1 AND 
                 boroD.geo_entity_id = ge.borough_id
@@ -180,7 +181,8 @@ ALTER VIEW [dbo].[reportLevel3] AS
                 AND ge.geo_entity_id = rd.geo_entity_id
                 AND r.report_id      = rd.report_id
 
-    WHERE r.public_flag = 1
+    WHERE 
+        r.public_flag = 1 
 
     ORDER BY
         rtd.report_id,

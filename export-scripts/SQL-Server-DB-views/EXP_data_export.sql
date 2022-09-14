@@ -71,6 +71,7 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 	-- only export data flagged for public view
 
 	WHERE 
-		st.public_display_flag = 'Y'
+		st.public_display_flag = 'Y' AND
+		si.push_ready = 1
 
 GO

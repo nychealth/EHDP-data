@@ -22,6 +22,62 @@ suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(jsonlite)))
 suppressWarnings(suppressMessages(library(rlang)))
+suppressWarnings(suppressMessages(library(svDialogs)))
+
+#-----------------------------------------------------------------------------------------#
+# get base_dir for absolute path
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+base_dir <- Sys.getenv("base_dir")
+
+if (base_dir == "") {
+    
+    base_dir <- path_dir(getwd())
+    Sys.setenv(data_env = base_dir)
+
+} 
+
+
+#-----------------------------------------------------------------------------------------#
+# get or set database to use
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+data_env <- Sys.getenv("data_env")
+
+if (data_env == "") {
+    
+    # ask and set
+    
+    data_env <-
+        dlgInput(
+            message = "staging [s] or prod [p]?",
+            rstudio = TRUE
+        )$res
+    
+    Sys.setenv(data_env = data_env)
+
+} 
+
+# set DB name
+
+if (str_to_lower(data_env) == "s") {
+    
+    # staging
+    
+    db_name <- "BESP_IndicatorAnalysis"
+    
+} else if (str_to_lower(data_env) == "p") {
+    
+    # production
+    
+    db_name <- "BESP_Indicator"
+    
+}
+
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator
@@ -41,7 +97,6 @@ odbc_driver <-
 
 if (length(odbc_driver) == 0) odbc_driver <- "SQL Server"
 
-
 # using Windows auth with no DSN
 
 EHDP_odbc <-
@@ -49,7 +104,7 @@ EHDP_odbc <-
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
         server = "SQLIT04A",
-        database = "BESP_Indicator",
+        database = db_name,
         trusted_connection = "yes"
     )
 
@@ -112,9 +167,7 @@ for (i in 1:length(IndicatorIDs)) {
     
     write_lines(
         exp_json, 
-        str_c(
-            "indicators/data/", this_indicator, ".json"
-        )
+        str_c(base_dir, "/indicators/data/", this_indicator, ".json")
     )
     
 }

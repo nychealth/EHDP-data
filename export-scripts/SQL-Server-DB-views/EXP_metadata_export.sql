@@ -90,6 +90,7 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
 		) AS rc ON rc.indicator_id = si.indicator_id
 	
 	WHERE 
-		st.public_display_flag = 'Y'
+		st.public_display_flag = 'Y' AND
+		si.push_ready = 1
 
 GO

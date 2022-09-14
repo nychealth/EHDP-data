@@ -8,22 +8,48 @@
 import pandas as pd
 import altair as alt
 from altair_saver import save
+import os
+import warnings
+from selenium import webdriver
+
+# prevent 4000+ lines of console output
+
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+options.add_argument('--log-level=3')
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+driver = webdriver.Chrome(options = options)
+
+# prevent other warnings
+
+warnings.simplefilter("ignore")
+
+# get base_dir for absolute path
+
+base_dir = os.environ.get("base_dir", "")
+
+if (base_dir == ""):
+    
+    base_dir = os.getcwd()
+
+    os.environ["base_dir"] = base_dir
+
 
 data_files = [
-    "Housing and Health _data.csv", 
-    "Outdoor Air and Health_data.csv",
-    "Active Design Physical Activity and Health_data.csv", 
-    "Asthma and the Environment_data.csv", 
-    "Climate and Health_data.csv"
+    "Housing_and_Health_data.csv",
+    "Outdoor_Air_and_Health_data.csv",
+    "Active_Design_Physical_Activity_and_Health_data.csv",
+    "Asthma_and_the_Environment_data.csv",
+    "Climate_and_Health_data.csv"
 ]
 
 # looping through files
 
 for file in data_files:
 
-    print(file)
+    print("> ", file)
 
-    df = pd.read_csv("neighborhood-reports/data/" + file)
+    df = pd.read_csv(base_dir + "/neighborhood-reports/data/" + file)
 
     # convert End Date to date data type
 
@@ -92,9 +118,9 @@ for file in data_files:
 
         # - name each SVG with the data_field_name and the Neighborhood
         
-        image_name = 'neighborhood-reports/images/' + df['data_field_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg'
+        image_name = base_dir + '/neighborhood-reports/images/' + df['data_field_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg'
 
-        save(chart, fp = image_name)
+        save(chart, fp = image_name, webdriver = driver)
         
         # - viewBox="0 0 310 110" must be removed for ModLab team
         # - also adding in preserveAspectRatio="none" to allow Modlab designers more flexibility

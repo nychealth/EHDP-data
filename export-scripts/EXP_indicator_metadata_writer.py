@@ -16,10 +16,59 @@
 
 import pyodbc
 import pandas as pd
+import easygui
+import os
+import warnings
+
+warnings.simplefilter("ignore")
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator database
 #-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# get base_dir for absolute path
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+base_dir = os.environ.get("base_dir", "")
+
+if (base_dir == ""):
+    
+    base_dir = os.getcwd()
+
+    os.environ["base_dir"] = base_dir
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# get or set database to use
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# get envionment var
+
+data_env = os.environ.get("data_env", "")
+
+if (data_env == ""):
+    
+    # ask and set
+    
+    data_env = easygui.enterbox("staging [s] or prod [p]?")
+
+    os.environ["data_env"] = data_env
+
+# set DB name
+
+if (data_env.lower() == "s"):
+    
+    # staging
+    
+    db_name = "BESP_IndicatorAnalysis"
+
+elif (data_env.lower() == "p"):
+    
+    # production
+    
+    db_name = "BESP_Indicator"
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # determining which driver to use
@@ -52,10 +101,10 @@ else:
     driver = "SQL Server"
 
 #-----------------------------------------------------------------------------------------#
-# Connecting to BESP_Indicator
+# Connecting to database
 #-----------------------------------------------------------------------------------------#
 
-EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=BESP_Indicator;Trusted_Connection=yes;")
+EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=" + db_name + ";Trusted_Connection=yes;")
 
 
 #=========================================================================================#
@@ -308,7 +357,7 @@ metadata = (
 # saving file
 #-----------------------------------------------------------------------------------------#
 
-metadata.to_json("indicators/indicators.json", orient = "records", indent = 2)
+metadata.to_json(base_dir + "/indicators/indicators.json", orient = "records", indent = 2)
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
