@@ -1,0 +1,19 @@
+{
+  "name": "ehdp-data",
+  "version": "1.0.0",
+  "description": "Data export scripts for NYC DOHMH Environment & Health Data Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nychealth/EHDP-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nychealth/EHDP-data/issues"
+  },
+  "homepage": "https://github.com/nychealth/EHDP-data#readme"
+}
