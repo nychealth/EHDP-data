@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/nychealth/EHDP-data/issues"
   },
-  "homepage": "https://github.com/nychealth/EHDP-data#readme"
+  "homepage": "https://github.com/nychealth/EHDP-data#readme",
+  "dependencies": {
+    "canvas": "^2.10.1",
+    "node-gyp": "^9.1.0",
+    "vega-lite": "^5.5.0"
+  }
 }
