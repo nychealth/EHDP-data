@@ -54,7 +54,7 @@ if (data_env == "") {
     
     data_env <-
         dlgInput(
-            message = "staging [s] or prod [p]?",
+            message = "staging [s] or production [p]?",
             rstudio = TRUE
         )$res
     

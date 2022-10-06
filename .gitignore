@@ -51,3 +51,5 @@ geography/NTA_simple.topo.json
 export-scripts/input example.py
 export-scripts/env_var_test.ps1
 export-scripts/env_var_test.r
+
+node_modules/

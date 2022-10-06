@@ -51,7 +51,7 @@ if (data_env == ""):
     
     # ask and set
     
-    data_env = easygui.enterbox("staging [s] or prod [p]?")
+    data_env = easygui.enterbox("staging [s] or production [p]?")
 
     os.environ["data_env"] = data_env
 

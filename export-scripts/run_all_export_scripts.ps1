@@ -22,7 +22,7 @@ $Env:base_dir = $base_dir
 # Choose database to use, set env var
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-$Env:data_env = Read-Host "staging [s] or prod [p]?"
+$Env:data_env = Read-Host "staging [s] or production [p]?"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # Tell conda which environment to load
