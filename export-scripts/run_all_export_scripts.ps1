@@ -14,7 +14,7 @@
 # get parent dir for absolute path
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-$base_dir = Get-Location | Split-Path
+$base_dir = Get-Location
 
 $Env:base_dir = $base_dir
 
