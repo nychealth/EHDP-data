@@ -5,21 +5,21 @@ GO
 
 ALTER VIEW [dbo].[ReportData] AS
 
-	SELECT DISTINCT TOP (100) PERCENT 
-		rc.report_id,
-		a.indicator_id,
-		b.data_field_name,
-		c.name 			   AS 'indicator_name',
-		m.description	   AS 'measure_name',
-		d.description	   AS 'display_type',
-		y.start_period     AS 'start_date',
-		y.end_period       AS 'end_date',
-		y.time_type        AS 'time_type',
-		y.year_description AS 'time',
-		a.geo_entity_id,
-		ge.geo_id          AS 'geo_join_id',
-		g.geo_type_name    AS 'geo_type',
-		ge.name            AS 'neighborhood',
+    SELECT DISTINCT TOP (100) PERCENT 
+        rc.report_id,
+        a.indicator_id,
+        b.data_field_name,
+        c.name             AS 'indicator_name',
+        m.description      AS 'measure_name',
+        d.description      AS 'display_type',
+        y.start_period     AS 'start_date',
+        y.end_period       AS 'end_date',
+        y.time_type        AS 'time_type',
+        y.year_description AS 'time',
+        a.geo_entity_id,
+        ge.geo_id          AS 'geo_join_id',
+        g.geo_type_name    AS 'geo_type',
+        ge.name            AS 'neighborhood',
 
 		CASE
 			WHEN u.show_data_flag = 1 THEN data_value

@@ -37,8 +37,27 @@ base_dir <- Sys.getenv("base_dir")
 
 if (base_dir == "") {
     
-    base_dir <- path_dir(getwd())
-    Sys.setenv(data_env = base_dir)
+    # get the current folder
+    
+    this_dir <- last(unlist(path_split(path_abs("."))))
+    
+    # if the current folder is "EHDP-data", use the absolute path to it
+    
+    if (this_dir == "EHDP-data") {
+        
+        base_dir <- path_abs(".")
+        
+    } else {
+        
+        # if the current folder is below "EHDP-data", switch it
+        
+        base_dir <- path(str_replace(path_abs("."), "(.*/EHDP-data)(.*)", "\\1"))
+        
+    }
+    
+    # set environment var
+    
+    Sys.setenv(base_dir = base_dir)
 
 } 
 
