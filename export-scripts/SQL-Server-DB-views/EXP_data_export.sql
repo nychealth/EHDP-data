@@ -15,8 +15,8 @@ ALTER VIEW [dbo].[EXP_data_export] AS
         -- format measure name
 
         -- CASE WHEN ii.short_name IS NOT null 
-        -- 	THEN ii.short_name + ', ' + mt.description 
-        -- 	ELSE ii.name       + ', ' + mt.description 
+        --     THEN ii.short_name + ', ' + mt.description 
+        --     ELSE ii.name       + ', ' + mt.description 
         -- END AS MeasureName,
 
         -- mt.description       AS MeasurementType,

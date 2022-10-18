@@ -19,6 +19,7 @@ import pandas as pd
 import easygui
 import os
 import warnings
+import re
 
 warnings.simplefilter("ignore")
 
@@ -30,12 +31,28 @@ warnings.simplefilter("ignore")
 # get base_dir for absolute path
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# get environemnt var
+
 base_dir = os.environ.get("base_dir", "")
 
 if (base_dir == ""):
     
-    base_dir = os.getcwd()
-
+    # get current folder
+    
+    this_dir = os.path.basename(os.path.abspath("."))
+    
+    # if the current folder is "EHDP-data", use the absolute path to it
+    
+    if (this_dir == "EHDP-data"):
+        
+        base_dir = os.path.abspath(".")
+        
+    else:
+        
+        # if the current folder is below "EHDP-data", switch it
+        
+        base_dir = re.sub(r"(.*EHDP-data)(.*)", r"\1", os.path.abspath("."))
+        
     os.environ["base_dir"] = base_dir
 
 
@@ -52,7 +69,7 @@ if (data_env == ""):
     # ask and set
     
     data_env = easygui.enterbox("staging [s] or production [p]?")
-
+    
     os.environ["data_env"] = data_env
 
 # set DB name
@@ -89,7 +106,7 @@ native_driver_list.sort()
 # deciding & setting
 
 if len(odbc_driver_list) > 0:
-
+    
     driver = odbc_driver_list[0]
     
 elif len(native_driver_list) > 0:

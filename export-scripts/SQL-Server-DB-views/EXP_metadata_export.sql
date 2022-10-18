@@ -29,7 +29,7 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
         CASE WHEN ii.short_name IS NOT null 
             THEN ii.short_name + ', ' + mt.description 
             ELSE ii.name       + ', ' + mt.description 
-        END AS MeasureName,		
+        END AS MeasureName,
 
         -- replacing missing flag values with 0
         
