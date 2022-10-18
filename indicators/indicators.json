@@ -9515,12 +9515,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -9710,12 +9705,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -10695,12 +10685,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -10890,12 +10875,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -12458,12 +12438,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -12653,12 +12628,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"x"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -17310,11 +17280,11 @@
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"y"
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"x"
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":155,
@@ -22403,6 +22373,11 @@
             "TimeDescription":"Summer 2020",
             "start_period":1590969600000,
             "end_period":1598918400000
+          },
+          {
+            "TimeDescription":"Summer 2021",
+            "start_period":1622505600000,
+            "end_period":1630454400000
           }
         ],
         "VisOptions":[
@@ -22582,6 +22557,11 @@
             "TimeDescription":"Summer 2020",
             "start_period":1590969600000,
             "end_period":1598918400000
+          },
+          {
+            "TimeDescription":"Summer 2021",
+            "start_period":1622505600000,
+            "end_period":1630454400000
           }
         ],
         "VisOptions":[
@@ -22696,6 +22676,11 @@
             "TimeDescription":"Summer 2020",
             "start_period":1590969600000,
             "end_period":1598918400000
+          },
+          {
+            "TimeDescription":"Summer 2021",
+            "start_period":1622505600000,
+            "end_period":1630454400000
           }
         ],
         "VisOptions":[
@@ -32814,12 +32799,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -32914,12 +32894,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -43093,6 +43068,18 @@
               },
               {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":319,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":323,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":564,
                 "SecondaryAxis":"x"
               },
               {
