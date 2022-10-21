@@ -2265,7 +2265,7 @@
     "IndicatorID":14,
     "IndicatorName":"Foreign-born",
     "IndicatorLabel":"Foreign born",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"People born outside the USA or its territories (including Puerto Rico).",
     "Measures":[
       {
         "MeasureID":24,
@@ -2916,7 +2916,7 @@
     "IndicatorID":17,
     "IndicatorName":"Owner-occupied homes",
     "IndicatorLabel":"Owner-occupied homes",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"Housing units occupied by their owner.",
     "Measures":[
       {
         "MeasureID":29,
