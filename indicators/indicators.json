@@ -17280,11 +17280,11 @@
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"x"
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"y"
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":155,
@@ -48804,6 +48804,18 @@
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -48870,6 +48882,10 @@
         "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
