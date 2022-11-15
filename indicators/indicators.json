@@ -47845,6 +47845,18 @@
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -47887,6 +47899,10 @@
         "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
