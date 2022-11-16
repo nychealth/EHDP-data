@@ -45,7 +45,8 @@ ALTER VIEW [dbo].[reportLevel3] AS
         -- add in URL for indicator
         --sample: http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2049,1,1,Summarize
 
-        'http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=' + CONVERT(varchar, ii.internal_id) + ',1,1,Summarize' AS indicator_URL,
+        -- 'http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=' + CONVERT(varchar, ii.internal_id) + ',1,1,Summarize' AS indicator_URL,
+        ii.internal_id     AS IndicatorID,
         id.data_field_name AS indicator_data_name,
         ii.description     AS indicator_description,
         ddt.description    AS units,
