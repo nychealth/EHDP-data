@@ -201,6 +201,7 @@ report_level_3 <-
         indicator_data_name,
         indicator_short_name,
         indicator_URL,
+        IndicatorID,
         indicator_name,
         indicator_description,
         sort_key,
