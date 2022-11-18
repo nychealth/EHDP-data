@@ -24,6 +24,7 @@ ALTER VIEW [dbo].[EXP_data_export] AS
         ind.geo_type_id      AS GeoTypeID,
         ind.geo_entity_id    AS GeoID,
         iy.year_description  AS Time,
+        si.ban_summary_flag,
 
         -- null out value when show data = 0
 
@@ -72,7 +73,6 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 
     WHERE 
         st.public_display_flag = 'Y' AND
-        si.push_ready = 1 AND
-        si.ban_summary_flag = 0
+        si.push_ready = 1
 
 GO

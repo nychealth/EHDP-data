@@ -91,7 +91,6 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
     
     WHERE 
         st.public_display_flag = 'Y' AND
-        si.push_ready = 1 AND
-        si.ban_summary_flag = 0
+        si.push_ready = 1
 
 GO
