@@ -2692,27 +2692,36 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"NTA",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
           {
             "TimeDescription":"2007-11",
             "start_period":1167609600000,
@@ -2790,27 +2799,36 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NTA",
-            "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"NTA",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
           {
             "TimeDescription":"2007-11",
             "start_period":1167609600000,
@@ -3132,6 +3150,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -3258,6 +3280,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -3417,6 +3443,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -3607,6 +3637,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -3810,6 +3844,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -3886,6 +3924,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -3957,6 +3999,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -6377,6 +6423,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -6473,6 +6523,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -6652,9 +6706,18 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
           {
             "TimeDescription":"2002",
             "start_period":1009843200000,
@@ -6664,6 +6727,11 @@
             "TimeDescription":"2005",
             "start_period":1104537600000,
             "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
           },
           {
             "TimeDescription":"2017",
@@ -6775,6 +6843,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -6894,9 +6966,18 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
           {
             "TimeDescription":"2002",
             "start_period":1009843200000,
@@ -6906,6 +6987,11 @@
             "TimeDescription":"2005",
             "start_period":1104537600000,
             "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
           },
           {
             "TimeDescription":"2017",
@@ -7019,9 +7105,18 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
           {
             "TimeDescription":"2002",
             "start_period":1009843200000,
@@ -7031,6 +7126,11 @@
             "TimeDescription":"2005",
             "start_period":1104537600000,
             "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
           },
           {
             "TimeDescription":"2017",
@@ -7148,9 +7248,18 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
           {
             "TimeDescription":"2002",
             "start_period":1009843200000,
@@ -7160,6 +7269,11 @@
             "TimeDescription":"2005",
             "start_period":1104537600000,
             "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
           },
           {
             "TimeDescription":"2017",
@@ -7281,9 +7395,18 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
           {
             "TimeDescription":"2002",
             "start_period":1009843200000,
@@ -7293,6 +7416,11 @@
             "TimeDescription":"2005",
             "start_period":1104537600000,
             "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
           },
           {
             "TimeDescription":"2017",
@@ -7415,9 +7543,18 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
           {
             "TimeDescription":"2002",
             "start_period":1009843200000,
@@ -7427,6 +7564,11 @@
             "TimeDescription":"2005",
             "start_period":1104537600000,
             "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
           },
           {
             "TimeDescription":"2012",
@@ -7756,6 +7898,16 @@
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
           {
             "TimeDescription":"2003",
             "start_period":1041379200000,
@@ -8141,6 +8293,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
             "TimeDescription":"2003",
             "start_period":1041379200000,
             "end_period":1072828800000
@@ -8281,6 +8443,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -8367,6 +8533,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -8453,6 +8623,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -8539,6 +8713,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -8638,6 +8816,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -8729,6 +8911,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -8820,6 +9006,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -8911,6 +9101,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9002,6 +9196,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9093,6 +9291,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9201,6 +9403,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9292,6 +9498,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9383,6 +9593,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9474,6 +9688,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9565,6 +9783,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9656,6 +9878,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9760,6 +9986,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9851,6 +10081,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -9942,6 +10176,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10033,6 +10271,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10124,6 +10366,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10215,6 +10461,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10323,6 +10573,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10414,6 +10668,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10505,6 +10763,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10596,6 +10858,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10687,6 +10953,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10778,6 +11048,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10882,6 +11156,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -10973,6 +11251,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11064,6 +11346,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11155,6 +11441,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11246,6 +11536,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11337,6 +11631,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11441,6 +11739,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11532,6 +11834,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11623,6 +11929,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11714,6 +12024,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11805,6 +12119,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -11896,6 +12214,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -12008,9 +12330,24 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"1998",
+            "start_period":883612800000,
+            "end_period":915062400000
+          },
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
             "TimeDescription":"2000",
             "start_period":946684800000,
             "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
           },
           {
             "TimeDescription":"2002",
@@ -12133,6 +12470,26 @@
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1998",
+            "start_period":883612800000,
+            "end_period":915062400000
+          },
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
           {
             "TimeDescription":"2002",
             "start_period":1009843200000,
@@ -12304,6 +12661,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"1998",
+            "start_period":883612800000,
+            "end_period":915062400000
+          },
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
             "TimeDescription":"2000",
             "start_period":946684800000,
             "end_period":978220800000
@@ -12430,6 +12797,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"1998",
+            "start_period":883612800000,
+            "end_period":915062400000
+          },
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
             "TimeDescription":"2000",
             "start_period":946684800000,
             "end_period":978220800000
@@ -12555,6 +12932,16 @@
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1998",
+            "start_period":883612800000,
+            "end_period":915062400000
+          },
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
           {
             "TimeDescription":"2000",
             "start_period":946684800000,
@@ -12715,6 +13102,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"1998",
+            "start_period":883612800000,
+            "end_period":915062400000
+          },
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
             "TimeDescription":"2000",
             "start_period":946684800000,
             "end_period":978220800000
@@ -12841,6 +13238,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"1998",
+            "start_period":883612800000,
+            "end_period":915062400000
+          },
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
             "TimeDescription":"2000",
             "start_period":946684800000,
             "end_period":978220800000
@@ -12966,6 +13373,16 @@
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1998",
+            "start_period":883612800000,
+            "end_period":915062400000
+          },
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
           {
             "TimeDescription":"2000",
             "start_period":946684800000,
@@ -13186,9 +13603,18 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
           {
             "TimeDescription":"2002",
             "start_period":1009843200000,
@@ -13198,6 +13624,11 @@
             "TimeDescription":"2005",
             "start_period":1104537600000,
             "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
           },
           {
             "TimeDescription":"2017",
@@ -13521,6 +13952,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -13664,6 +14099,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -13815,6 +14254,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -13954,6 +14397,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -14100,6 +14547,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -14239,6 +14690,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -14385,6 +14840,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -14524,6 +14983,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -14668,6 +15131,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -14815,6 +15282,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -14959,6 +15430,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -15098,6 +15573,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -15242,6 +15721,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -15589,6 +16072,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -15742,16 +16229,20 @@
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
             "GeoType":"NTA",
             "GeoTypeDescription":"Neighborhood (NTA)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -15954,6 +16445,66 @@
             "Links":null
           }
         ]
+      },
+      {
+        "MeasureID":870,
+        "MeasureName":"Poverty, Rank",
+        "MeasurementType":"Rank",
+        "how_calculated":"test",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"NTA",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
       }
     ]
   },
@@ -15982,9 +16533,18 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
           {
             "TimeDescription":"2017",
             "start_period":1483228800000,
@@ -16103,6 +16663,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -16194,6 +16758,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -16285,6 +16853,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -16376,6 +16948,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -16467,6 +17043,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -16558,6 +17138,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -16662,6 +17246,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -16753,6 +17341,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -16844,6 +17436,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -16935,6 +17531,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -17026,6 +17626,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -17117,6 +17721,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -17225,6 +17833,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -17356,6 +17968,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -17454,6 +18070,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -17594,6 +18214,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -17795,6 +18419,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -17860,6 +18488,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -17882,6 +18514,16 @@
             "TimeDescription":"2007",
             "start_period":1167609600000,
             "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
           }
         ],
         "VisOptions":[
@@ -20877,6 +21519,11 @@
             "end_period":1251763200000
           },
           {
+            "TimeDescription":"2-Year Summer Average 2009-2010",
+            "start_period":1243814400000,
+            "end_period":1283212800000
+          },
+          {
             "TimeDescription":"Summer 2010",
             "start_period":1275350400000,
             "end_period":1283299200000
@@ -21056,6 +21703,11 @@
             "end_period":1251763200000
           },
           {
+            "TimeDescription":"2-Year Summer Average 2009-2010",
+            "start_period":1243814400000,
+            "end_period":1283212800000
+          },
+          {
             "TimeDescription":"Summer 2010",
             "start_period":1275350400000,
             "end_period":1283299200000
@@ -21168,6 +21820,11 @@
             "TimeDescription":"Summer 2009",
             "start_period":1243814400000,
             "end_period":1251763200000
+          },
+          {
+            "TimeDescription":"2-Year Summer Average 2009-2010",
+            "start_period":1243814400000,
+            "end_period":1283212800000
           },
           {
             "TimeDescription":"Summer 2010",
@@ -21315,6 +21972,11 @@
             "TimeDescription":"Summer 2010",
             "start_period":1275350400000,
             "end_period":1283299200000
+          },
+          {
+            "TimeDescription":"2-Year Annual Average 2009-2010",
+            "start_period":1259625600000,
+            "end_period":1291075200000
           },
           {
             "TimeDescription":"Annual Average 2010",
@@ -21574,6 +22236,11 @@
             "end_period":1283299200000
           },
           {
+            "TimeDescription":"2-Year Annual Average 2009-2010",
+            "start_period":1259625600000,
+            "end_period":1291075200000
+          },
+          {
             "TimeDescription":"Annual Average 2010",
             "start_period":1259625600000,
             "end_period":1291161600000
@@ -21816,6 +22483,11 @@
             "TimeDescription":"Summer 2010",
             "start_period":1275350400000,
             "end_period":1283299200000
+          },
+          {
+            "TimeDescription":"2-Year Annual Average 2009-2010",
+            "start_period":1259625600000,
+            "end_period":1291075200000
           },
           {
             "TimeDescription":"Annual Average 2010",
@@ -22089,6 +22761,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -24096,6 +24772,134 @@
         ]
       },
       {
+        "MeasureID":434,
+        "MeasureName":"Disinfection by-products (HAA5), Number (sample locations)",
+        "MeasurementType":"Number (sample locations)",
+        "how_calculated":"Number of sampling total haloacetic acids (five) (HAA5) locations.",
+        "Sources":"New York State Safe Drinking Water Information System",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
         "MeasureID":529,
         "MeasureName":"Disinfection by-products (HAA5), Maximum allowable contaminant level (MCL)",
         "MeasurementType":"Maximum allowable contaminant level (MCL)",
@@ -24128,6 +24932,285 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":858,
+        "MeasureName":"Disinfection by-products (HAA5), Quarterly maximum concentration",
+        "MeasurementType":"Quarterly maximum concentration",
+        "how_calculated":"Samples are collected from the drinking water distribution system, and concentrations of trichloroacetic acid, dichloroacetic acid, monochloroacetic acid, dibromoacetic acid and monobromoacetic acid are summed within samples to derive a measure of total total haloacetic acids (five) (HAA5). If a concentration is below the limit of detection (LOD), a value equal to one half the LOD is assigned. The maximum total concentration is identified for each quarter.",
+        "Sources":"New York State Safe Drinking Water Information System",
+        "DisplayType":"mcg\/L",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017-Q1",
+            "start_period":1483228800000,
+            "end_period":1490918400000
+          },
+          {
+            "TimeDescription":"2017-Q2",
+            "start_period":1491004800000,
+            "end_period":1498780800000
+          },
+          {
+            "TimeDescription":"2017-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2018-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2017-Q4",
+            "start_period":1506816000000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018-Q1",
+            "start_period":1514764800000,
+            "end_period":1522454400000
+          },
+          {
+            "TimeDescription":"2018-Q4",
+            "start_period":1538352000000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019-Q1",
+            "start_period":1546300800000,
+            "end_period":1553990400000
+          },
+          {
+            "TimeDescription":"2019-Q2",
+            "start_period":1554076800000,
+            "end_period":1561852800000
+          },
+          {
+            "TimeDescription":"2019-Q3",
+            "start_period":1561939200000,
+            "end_period":1569801600000
+          },
+          {
+            "TimeDescription":"2019-Q4",
+            "start_period":1569888000000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2018-Q2",
+            "start_period":1522540800000,
+            "end_period":1593475200000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":859,
+        "MeasureName":"Disinfection by-products (HAA5), Qtr maximum allowable contaminant level (MCL)",
+        "MeasurementType":"Qtr maximum allowable contaminant level (MCL)",
+        "how_calculated":"The highest level of total haloacetic acids (five) (HAA5) that is allowed in drinking water, according to regulatory standards.",
+        "Sources":"United States Environmental Protection Agency (EPA)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017-Q1",
+            "start_period":1483228800000,
+            "end_period":1490918400000
+          },
+          {
+            "TimeDescription":"2017-Q2",
+            "start_period":1491004800000,
+            "end_period":1498780800000
+          },
+          {
+            "TimeDescription":"2017-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2018-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2017-Q4",
+            "start_period":1506816000000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018-Q1",
+            "start_period":1514764800000,
+            "end_period":1522454400000
+          },
+          {
+            "TimeDescription":"2018-Q4",
+            "start_period":1538352000000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019-Q1",
+            "start_period":1546300800000,
+            "end_period":1553990400000
+          },
+          {
+            "TimeDescription":"2019-Q2",
+            "start_period":1554076800000,
+            "end_period":1561852800000
+          },
+          {
+            "TimeDescription":"2019-Q3",
+            "start_period":1561939200000,
+            "end_period":1569801600000
+          },
+          {
+            "TimeDescription":"2019-Q4",
+            "start_period":1569888000000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2018-Q2",
+            "start_period":1522540800000,
+            "end_period":1593475200000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":860,
+        "MeasureName":"Disinfection by-products (HAA5), Quarterly average concentration",
+        "MeasurementType":"Quarterly average concentration",
+        "how_calculated":"Samples are collected from the drinking water distribution system, and concentrations of trichloroacetic acid, dichloroacetic acid, monochloroacetic acid, dibromoacetic acid and monobromoacetic acid are summed within samples to derive a measure of total haloacetic acids (five) (HAA5). If a concentration is below the limit of detection (LOD), a value equal to one half the LOD is assigned. Total concentrations are averaged for each quarter.",
+        "Sources":"New York State Safe Drinking Water Information System",
+        "DisplayType":"mcg\/L",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017-Q1",
+            "start_period":1483228800000,
+            "end_period":1490918400000
+          },
+          {
+            "TimeDescription":"2017-Q2",
+            "start_period":1491004800000,
+            "end_period":1498780800000
+          },
+          {
+            "TimeDescription":"2017-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2018-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2017-Q4",
+            "start_period":1506816000000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018-Q1",
+            "start_period":1514764800000,
+            "end_period":1522454400000
+          },
+          {
+            "TimeDescription":"2018-Q4",
+            "start_period":1538352000000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019-Q1",
+            "start_period":1546300800000,
+            "end_period":1553990400000
+          },
+          {
+            "TimeDescription":"2019-Q2",
+            "start_period":1554076800000,
+            "end_period":1561852800000
+          },
+          {
+            "TimeDescription":"2019-Q3",
+            "start_period":1561939200000,
+            "end_period":1569801600000
+          },
+          {
+            "TimeDescription":"2019-Q4",
+            "start_period":1569888000000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2018-Q2",
+            "start_period":1522540800000,
+            "end_period":1593475200000
           }
         ],
         "VisOptions":[
@@ -25352,6 +26435,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -25478,6 +26565,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -25621,6 +26712,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -25712,6 +26807,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -26433,6 +27532,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -26496,6 +27599,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -26602,6 +27709,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -26725,6 +27836,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -26846,6 +27961,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -27000,6 +28119,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -27131,6 +28254,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -27461,6 +28588,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -27592,6 +28723,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -28168,6 +29303,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -28369,6 +29508,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -28471,6 +29618,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -28573,6 +29728,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -28683,6 +29846,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -28815,6 +29986,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -28947,6 +30126,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -29091,6 +30278,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -29182,6 +30373,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -29273,6 +30468,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -29364,6 +30563,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -29460,6 +30663,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -29551,6 +30758,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -30398,6 +31609,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -30489,6 +31704,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -30580,6 +31799,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -30671,6 +31894,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -30762,6 +31989,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -30853,6 +32084,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -30961,6 +32196,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31052,6 +32291,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31143,6 +32386,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31234,6 +32481,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31325,6 +32576,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31416,6 +32671,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31520,6 +32779,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31611,6 +32874,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31702,6 +32969,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31793,6 +33064,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31884,6 +33159,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -31975,6 +33254,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32079,6 +33362,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32170,6 +33457,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32261,6 +33552,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32352,6 +33647,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32443,6 +33742,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32534,6 +33837,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32638,6 +33945,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32729,6 +34040,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32820,6 +34135,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -32911,6 +34230,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -33002,6 +34325,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -33093,6 +34420,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34027,6 +35358,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34118,6 +35453,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34209,6 +35548,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34305,6 +35648,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34396,6 +35743,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34487,6 +35838,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34586,6 +35941,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34692,6 +36051,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34927,6 +36290,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -34973,6 +36340,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -35073,6 +36444,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -35182,6 +36557,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -35206,6 +36585,61 @@
               }
             ],
             "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2106,
+    "IndicatorName":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
+    "IndicatorLabel":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
+    "IndicatorDescription":null,
+    "Measures":[
+      {
+        "MeasureID":637,
+        "MeasureName":"Neighborhood Race\/Ethnicity - Non Hispanic Black, Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Neighborhoods are ranked according to the percent of people who consider themselves non-Hispanic blacks. Rankings are divided into 3 approximately equal groupings of low, medium and high population density. ",
+        "Sources":"American Community Survey; United States Census",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       }
@@ -35369,12 +36803,12 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
           }
         ],
         "AvailableTimes":[
@@ -35513,12 +36947,12 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
-          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
           }
         ],
         "AvailableTimes":[
@@ -36763,6 +38197,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -36849,6 +38287,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -36920,6 +38362,61 @@
               {
                 "MeasureID":1059,
                 "SecondaryAxis":"y"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2133,
+    "IndicatorName":"Walkability index",
+    "IndicatorLabel":"Walkability index",
+    "IndicatorDescription":"This score summarizes features that promote walking, including density of residences, intersections, subway stops, and retail area. Higher scores indicate greater walkability. Neighborhoods range from -4.0 to 9.4, with zero as an approximate NYC average. This indicator excludes some factors that may impact access and walkability, like maintenance, ADA access, neighborhood safety, and street trees.",
+    "Measures":[
+      {
+        "MeasureID":673,
+        "MeasureName":"Walkability, Score",
+        "MeasurementType":"Score",
+        "how_calculated":"Z-scores were calculated and summed across indicators of residential population density (density of population per total residential land area); intersection density; an entropy measure of land use based on the distribution of building floor area among 5 land-use types (education, entertainment, residential (single- and multi-family), retail, and office); the ratio of retail building floor area to retail land area; and subway stop density. This scale is a variation of Frank's Walkability Index.",
+        "Sources":"The Built Environment & Health Project (BEH), Columbia University",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -37051,15 +38548,204 @@
             "GeoTypeDescription":"Borough"
           },
           {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":683,
+        "MeasureName":"Fall-related hospitalizations, Age-Specific Rate",
+        "MeasurementType":"Age-Specific Rate",
+        "how_calculated":"Age-specific rates were calculated per 100,000 population 65 years and older. Numerator consists of NYC hospital admissions related to falls among adults aged 65 years and older, identified using ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data, 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2016, updated September 2017.",
+        "DisplayType":"per 100,000 (age 65+)",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
           },
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2012-2014",
+            "start_period":1325462400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -37318,6 +39004,11 @@
         "AvailableTimes":[
           {
             "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2008-2012",
             "start_period":1199145600000,
             "end_period":1356912000000
           },
@@ -38124,6 +39815,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38218,6 +39913,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38264,6 +39963,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38423,6 +40126,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38474,6 +40181,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38589,6 +40300,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38712,6 +40427,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -38776,6 +40495,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -38873,6 +40600,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -38970,6 +40705,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -39080,6 +40823,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -39177,6 +40928,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -39274,6 +41033,14 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -39589,6 +41356,56 @@
             ]
           }
         ]
+      },
+      {
+        "MeasureID":869,
+        "MeasureName":"Child poverty, Rank",
+        "MeasurementType":"Rank",
+        "how_calculated":"Neighborhoods are ranked citywide in 3 groups (tertiles), so that neighborhoods can be grouped and compared.",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"NTA",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
       }
     ]
   },
@@ -39678,6 +41495,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -40699,6 +42520,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -40757,6 +42582,57 @@
         "MeasureName":"Households with AC, Number (with AC)",
         "MeasurementType":"Number (with AC)",
         "how_calculated":"Estimated number of households reporting having functioning air conditioning",
+        "Sources":"New York City Housing and Vacancy Survey (HVS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1045,
+        "MeasureName":"Households with AC, Percent (without AC)",
+        "MeasurementType":"Percent (without AC)",
+        "how_calculated":"Estimated number of households in an area reporting not having functioning air conditioning, divided by the number of households in the area; expressed as percent.",
         "Sources":"New York City Housing and Vacancy Survey (HVS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -40876,6 +42752,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -41206,6 +43086,1365 @@
     "IndicatorLabel":"Disinfection by-products (TTHM)",
     "IndicatorDescription":"Disinfection by-products are chemicals that can form when a disinfectant such as chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
     "Measures":[
+      {
+        "MeasureID":861,
+        "MeasureName":"Disinfection by-products (TTHM), Qtr maximum allowable contaminant level (MCL)",
+        "MeasurementType":"Qtr maximum allowable contaminant level (MCL)",
+        "how_calculated":"The highest level of TTHM that is allowed in drinking water according to regulatory standards",
+        "Sources":"United States Environmental Protection Agency (EPA)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999-Q1",
+            "start_period":915148800000,
+            "end_period":922838400000
+          },
+          {
+            "TimeDescription":"1999-Q2",
+            "start_period":922924800000,
+            "end_period":930700800000
+          },
+          {
+            "TimeDescription":"1999-Q3",
+            "start_period":930787200000,
+            "end_period":938649600000
+          },
+          {
+            "TimeDescription":"1999-Q4",
+            "start_period":938736000000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000-Q1",
+            "start_period":946684800000,
+            "end_period":954460800000
+          },
+          {
+            "TimeDescription":"2000-Q2",
+            "start_period":954547200000,
+            "end_period":962323200000
+          },
+          {
+            "TimeDescription":"2000-Q3",
+            "start_period":962409600000,
+            "end_period":970272000000
+          },
+          {
+            "TimeDescription":"2000-Q4",
+            "start_period":970358400000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001-Q1",
+            "start_period":978307200000,
+            "end_period":985996800000
+          },
+          {
+            "TimeDescription":"2001-Q2",
+            "start_period":986083200000,
+            "end_period":993859200000
+          },
+          {
+            "TimeDescription":"2001-Q3",
+            "start_period":993945600000,
+            "end_period":1001808000000
+          },
+          {
+            "TimeDescription":"2001-Q4",
+            "start_period":1001894400000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002-Q1",
+            "start_period":1009843200000,
+            "end_period":1017532800000
+          },
+          {
+            "TimeDescription":"2002-Q2",
+            "start_period":1017619200000,
+            "end_period":1025395200000
+          },
+          {
+            "TimeDescription":"2002-Q3",
+            "start_period":1025481600000,
+            "end_period":1033344000000
+          },
+          {
+            "TimeDescription":"2002-Q4",
+            "start_period":1033430400000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003-Q1",
+            "start_period":1041379200000,
+            "end_period":1049068800000
+          },
+          {
+            "TimeDescription":"2003-Q2",
+            "start_period":1049155200000,
+            "end_period":1056931200000
+          },
+          {
+            "TimeDescription":"2003-Q3",
+            "start_period":1057017600000,
+            "end_period":1064880000000
+          },
+          {
+            "TimeDescription":"2003-Q4",
+            "start_period":1064966400000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004-Q1",
+            "start_period":1072915200000,
+            "end_period":1080691200000
+          },
+          {
+            "TimeDescription":"2004-Q2",
+            "start_period":1080777600000,
+            "end_period":1088553600000
+          },
+          {
+            "TimeDescription":"2004-Q3",
+            "start_period":1088640000000,
+            "end_period":1096502400000
+          },
+          {
+            "TimeDescription":"2004-Q4",
+            "start_period":1096588800000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005-Q1",
+            "start_period":1104537600000,
+            "end_period":1112227200000
+          },
+          {
+            "TimeDescription":"2005-Q2",
+            "start_period":1112313600000,
+            "end_period":1120089600000
+          },
+          {
+            "TimeDescription":"2005-Q3",
+            "start_period":1120176000000,
+            "end_period":1128038400000
+          },
+          {
+            "TimeDescription":"2005-Q4",
+            "start_period":1128124800000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006-Q1",
+            "start_period":1136073600000,
+            "end_period":1143763200000
+          },
+          {
+            "TimeDescription":"2006-Q2",
+            "start_period":1143849600000,
+            "end_period":1151625600000
+          },
+          {
+            "TimeDescription":"2006-Q3",
+            "start_period":1151712000000,
+            "end_period":1159574400000
+          },
+          {
+            "TimeDescription":"2006-Q4",
+            "start_period":1159660800000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007-Q1",
+            "start_period":1167609600000,
+            "end_period":1175299200000
+          },
+          {
+            "TimeDescription":"2007-Q2",
+            "start_period":1175385600000,
+            "end_period":1183161600000
+          },
+          {
+            "TimeDescription":"2007-Q3",
+            "start_period":1183248000000,
+            "end_period":1191110400000
+          },
+          {
+            "TimeDescription":"2007-Q4",
+            "start_period":1191196800000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008-Q1",
+            "start_period":1199145600000,
+            "end_period":1206921600000
+          },
+          {
+            "TimeDescription":"2008-Q2",
+            "start_period":1207008000000,
+            "end_period":1214784000000
+          },
+          {
+            "TimeDescription":"2008-Q3",
+            "start_period":1214870400000,
+            "end_period":1222732800000
+          },
+          {
+            "TimeDescription":"2008-Q4",
+            "start_period":1222819200000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009-Q1",
+            "start_period":1230768000000,
+            "end_period":1238457600000
+          },
+          {
+            "TimeDescription":"2009-Q2",
+            "start_period":1238544000000,
+            "end_period":1246320000000
+          },
+          {
+            "TimeDescription":"2009-Q3",
+            "start_period":1246406400000,
+            "end_period":1254268800000
+          },
+          {
+            "TimeDescription":"2009-Q4",
+            "start_period":1254355200000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010-Q1",
+            "start_period":1262304000000,
+            "end_period":1269993600000
+          },
+          {
+            "TimeDescription":"2010-Q2",
+            "start_period":1270080000000,
+            "end_period":1277856000000
+          },
+          {
+            "TimeDescription":"2010-Q3",
+            "start_period":1277942400000,
+            "end_period":1285804800000
+          },
+          {
+            "TimeDescription":"2010-Q4",
+            "start_period":1285891200000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011-Q1",
+            "start_period":1293840000000,
+            "end_period":1301529600000
+          },
+          {
+            "TimeDescription":"2011-Q2",
+            "start_period":1301616000000,
+            "end_period":1309392000000
+          },
+          {
+            "TimeDescription":"2011-Q3",
+            "start_period":1309478400000,
+            "end_period":1317340800000
+          },
+          {
+            "TimeDescription":"2011-Q4",
+            "start_period":1317427200000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012-Q1",
+            "start_period":1325376000000,
+            "end_period":1333152000000
+          },
+          {
+            "TimeDescription":"2012-Q2",
+            "start_period":1333238400000,
+            "end_period":1341014400000
+          },
+          {
+            "TimeDescription":"2012-Q3",
+            "start_period":1341100800000,
+            "end_period":1348963200000
+          },
+          {
+            "TimeDescription":"2012-Q4",
+            "start_period":1349049600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013-Q1",
+            "start_period":1356998400000,
+            "end_period":1364688000000
+          },
+          {
+            "TimeDescription":"2013-Q2",
+            "start_period":1364774400000,
+            "end_period":1372550400000
+          },
+          {
+            "TimeDescription":"2013-Q3",
+            "start_period":1372636800000,
+            "end_period":1380499200000
+          },
+          {
+            "TimeDescription":"2013-Q4",
+            "start_period":1380585600000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014-Q1",
+            "start_period":1388534400000,
+            "end_period":1396224000000
+          },
+          {
+            "TimeDescription":"2014-Q2",
+            "start_period":1396310400000,
+            "end_period":1404086400000
+          },
+          {
+            "TimeDescription":"2014-Q3",
+            "start_period":1404172800000,
+            "end_period":1412035200000
+          },
+          {
+            "TimeDescription":"2014-Q4",
+            "start_period":1412121600000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015-Q1",
+            "start_period":1420070400000,
+            "end_period":1427760000000
+          },
+          {
+            "TimeDescription":"2015-Q2",
+            "start_period":1427846400000,
+            "end_period":1435622400000
+          },
+          {
+            "TimeDescription":"2015-Q3",
+            "start_period":1435708800000,
+            "end_period":1443571200000
+          },
+          {
+            "TimeDescription":"2015-Q4",
+            "start_period":1443657600000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016-Q1",
+            "start_period":1451606400000,
+            "end_period":1459382400000
+          },
+          {
+            "TimeDescription":"2016-Q2",
+            "start_period":1459468800000,
+            "end_period":1467244800000
+          },
+          {
+            "TimeDescription":"2016-Q3",
+            "start_period":1467331200000,
+            "end_period":1475193600000
+          },
+          {
+            "TimeDescription":"2016-Q4",
+            "start_period":1475280000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017-Q1",
+            "start_period":1483228800000,
+            "end_period":1490918400000
+          },
+          {
+            "TimeDescription":"2017-Q2",
+            "start_period":1491004800000,
+            "end_period":1498780800000
+          },
+          {
+            "TimeDescription":"2017-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2018-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2017-Q4",
+            "start_period":1506816000000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018-Q1",
+            "start_period":1514764800000,
+            "end_period":1522454400000
+          },
+          {
+            "TimeDescription":"2018-Q4",
+            "start_period":1538352000000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019-Q1",
+            "start_period":1546300800000,
+            "end_period":1553990400000
+          },
+          {
+            "TimeDescription":"2019-Q2",
+            "start_period":1554076800000,
+            "end_period":1561852800000
+          },
+          {
+            "TimeDescription":"2019-Q3",
+            "start_period":1561939200000,
+            "end_period":1569801600000
+          },
+          {
+            "TimeDescription":"2019-Q4",
+            "start_period":1569888000000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2018-Q2",
+            "start_period":1522540800000,
+            "end_period":1593475200000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":862,
+        "MeasureName":"Disinfection by-products (TTHM), Quarterly average concentration",
+        "MeasurementType":"Quarterly average concentration",
+        "how_calculated":"Samples are collected from the drinking water distribution system, and concentrations of chloroform, bromodichloromethane, dibromochloromethane, and bromoform are summed within samples to derive a measure of total trihalomethane (TTHM). If a concentration is below the limit of detection (LOD), a value equal to one half the LOD is assigned. Total concentrations are averaged over each quarter.",
+        "Sources":"New York State Safe Drinking Water Information System",
+        "DisplayType":"mcg\/L",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999-Q1",
+            "start_period":915148800000,
+            "end_period":922838400000
+          },
+          {
+            "TimeDescription":"1999-Q2",
+            "start_period":922924800000,
+            "end_period":930700800000
+          },
+          {
+            "TimeDescription":"1999-Q3",
+            "start_period":930787200000,
+            "end_period":938649600000
+          },
+          {
+            "TimeDescription":"1999-Q4",
+            "start_period":938736000000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000-Q1",
+            "start_period":946684800000,
+            "end_period":954460800000
+          },
+          {
+            "TimeDescription":"2000-Q2",
+            "start_period":954547200000,
+            "end_period":962323200000
+          },
+          {
+            "TimeDescription":"2000-Q3",
+            "start_period":962409600000,
+            "end_period":970272000000
+          },
+          {
+            "TimeDescription":"2000-Q4",
+            "start_period":970358400000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001-Q1",
+            "start_period":978307200000,
+            "end_period":985996800000
+          },
+          {
+            "TimeDescription":"2001-Q2",
+            "start_period":986083200000,
+            "end_period":993859200000
+          },
+          {
+            "TimeDescription":"2001-Q3",
+            "start_period":993945600000,
+            "end_period":1001808000000
+          },
+          {
+            "TimeDescription":"2001-Q4",
+            "start_period":1001894400000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002-Q1",
+            "start_period":1009843200000,
+            "end_period":1017532800000
+          },
+          {
+            "TimeDescription":"2002-Q2",
+            "start_period":1017619200000,
+            "end_period":1025395200000
+          },
+          {
+            "TimeDescription":"2002-Q3",
+            "start_period":1025481600000,
+            "end_period":1033344000000
+          },
+          {
+            "TimeDescription":"2002-Q4",
+            "start_period":1033430400000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003-Q1",
+            "start_period":1041379200000,
+            "end_period":1049068800000
+          },
+          {
+            "TimeDescription":"2003-Q2",
+            "start_period":1049155200000,
+            "end_period":1056931200000
+          },
+          {
+            "TimeDescription":"2003-Q3",
+            "start_period":1057017600000,
+            "end_period":1064880000000
+          },
+          {
+            "TimeDescription":"2003-Q4",
+            "start_period":1064966400000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004-Q1",
+            "start_period":1072915200000,
+            "end_period":1080691200000
+          },
+          {
+            "TimeDescription":"2004-Q2",
+            "start_period":1080777600000,
+            "end_period":1088553600000
+          },
+          {
+            "TimeDescription":"2004-Q3",
+            "start_period":1088640000000,
+            "end_period":1096502400000
+          },
+          {
+            "TimeDescription":"2004-Q4",
+            "start_period":1096588800000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005-Q1",
+            "start_period":1104537600000,
+            "end_period":1112227200000
+          },
+          {
+            "TimeDescription":"2005-Q2",
+            "start_period":1112313600000,
+            "end_period":1120089600000
+          },
+          {
+            "TimeDescription":"2005-Q3",
+            "start_period":1120176000000,
+            "end_period":1128038400000
+          },
+          {
+            "TimeDescription":"2005-Q4",
+            "start_period":1128124800000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006-Q1",
+            "start_period":1136073600000,
+            "end_period":1143763200000
+          },
+          {
+            "TimeDescription":"2006-Q2",
+            "start_period":1143849600000,
+            "end_period":1151625600000
+          },
+          {
+            "TimeDescription":"2006-Q3",
+            "start_period":1151712000000,
+            "end_period":1159574400000
+          },
+          {
+            "TimeDescription":"2006-Q4",
+            "start_period":1159660800000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007-Q1",
+            "start_period":1167609600000,
+            "end_period":1175299200000
+          },
+          {
+            "TimeDescription":"2007-Q2",
+            "start_period":1175385600000,
+            "end_period":1183161600000
+          },
+          {
+            "TimeDescription":"2007-Q3",
+            "start_period":1183248000000,
+            "end_period":1191110400000
+          },
+          {
+            "TimeDescription":"2007-Q4",
+            "start_period":1191196800000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008-Q1",
+            "start_period":1199145600000,
+            "end_period":1206921600000
+          },
+          {
+            "TimeDescription":"2008-Q2",
+            "start_period":1207008000000,
+            "end_period":1214784000000
+          },
+          {
+            "TimeDescription":"2008-Q3",
+            "start_period":1214870400000,
+            "end_period":1222732800000
+          },
+          {
+            "TimeDescription":"2008-Q4",
+            "start_period":1222819200000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009-Q1",
+            "start_period":1230768000000,
+            "end_period":1238457600000
+          },
+          {
+            "TimeDescription":"2009-Q2",
+            "start_period":1238544000000,
+            "end_period":1246320000000
+          },
+          {
+            "TimeDescription":"2009-Q3",
+            "start_period":1246406400000,
+            "end_period":1254268800000
+          },
+          {
+            "TimeDescription":"2009-Q4",
+            "start_period":1254355200000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010-Q1",
+            "start_period":1262304000000,
+            "end_period":1269993600000
+          },
+          {
+            "TimeDescription":"2010-Q2",
+            "start_period":1270080000000,
+            "end_period":1277856000000
+          },
+          {
+            "TimeDescription":"2010-Q3",
+            "start_period":1277942400000,
+            "end_period":1285804800000
+          },
+          {
+            "TimeDescription":"2010-Q4",
+            "start_period":1285891200000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011-Q1",
+            "start_period":1293840000000,
+            "end_period":1301529600000
+          },
+          {
+            "TimeDescription":"2011-Q2",
+            "start_period":1301616000000,
+            "end_period":1309392000000
+          },
+          {
+            "TimeDescription":"2011-Q3",
+            "start_period":1309478400000,
+            "end_period":1317340800000
+          },
+          {
+            "TimeDescription":"2011-Q4",
+            "start_period":1317427200000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012-Q1",
+            "start_period":1325376000000,
+            "end_period":1333152000000
+          },
+          {
+            "TimeDescription":"2012-Q2",
+            "start_period":1333238400000,
+            "end_period":1341014400000
+          },
+          {
+            "TimeDescription":"2012-Q3",
+            "start_period":1341100800000,
+            "end_period":1348963200000
+          },
+          {
+            "TimeDescription":"2012-Q4",
+            "start_period":1349049600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013-Q1",
+            "start_period":1356998400000,
+            "end_period":1364688000000
+          },
+          {
+            "TimeDescription":"2013-Q2",
+            "start_period":1364774400000,
+            "end_period":1372550400000
+          },
+          {
+            "TimeDescription":"2013-Q3",
+            "start_period":1372636800000,
+            "end_period":1380499200000
+          },
+          {
+            "TimeDescription":"2013-Q4",
+            "start_period":1380585600000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014-Q1",
+            "start_period":1388534400000,
+            "end_period":1396224000000
+          },
+          {
+            "TimeDescription":"2014-Q2",
+            "start_period":1396310400000,
+            "end_period":1404086400000
+          },
+          {
+            "TimeDescription":"2014-Q3",
+            "start_period":1404172800000,
+            "end_period":1412035200000
+          },
+          {
+            "TimeDescription":"2014-Q4",
+            "start_period":1412121600000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015-Q1",
+            "start_period":1420070400000,
+            "end_period":1427760000000
+          },
+          {
+            "TimeDescription":"2015-Q2",
+            "start_period":1427846400000,
+            "end_period":1435622400000
+          },
+          {
+            "TimeDescription":"2015-Q3",
+            "start_period":1435708800000,
+            "end_period":1443571200000
+          },
+          {
+            "TimeDescription":"2015-Q4",
+            "start_period":1443657600000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016-Q1",
+            "start_period":1451606400000,
+            "end_period":1459382400000
+          },
+          {
+            "TimeDescription":"2016-Q2",
+            "start_period":1459468800000,
+            "end_period":1467244800000
+          },
+          {
+            "TimeDescription":"2016-Q3",
+            "start_period":1467331200000,
+            "end_period":1475193600000
+          },
+          {
+            "TimeDescription":"2016-Q4",
+            "start_period":1475280000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017-Q1",
+            "start_period":1483228800000,
+            "end_period":1490918400000
+          },
+          {
+            "TimeDescription":"2017-Q2",
+            "start_period":1491004800000,
+            "end_period":1498780800000
+          },
+          {
+            "TimeDescription":"2017-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2018-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2017-Q4",
+            "start_period":1506816000000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018-Q1",
+            "start_period":1514764800000,
+            "end_period":1522454400000
+          },
+          {
+            "TimeDescription":"2018-Q4",
+            "start_period":1538352000000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019-Q1",
+            "start_period":1546300800000,
+            "end_period":1553990400000
+          },
+          {
+            "TimeDescription":"2019-Q2",
+            "start_period":1554076800000,
+            "end_period":1561852800000
+          },
+          {
+            "TimeDescription":"2019-Q3",
+            "start_period":1561939200000,
+            "end_period":1569801600000
+          },
+          {
+            "TimeDescription":"2019-Q4",
+            "start_period":1569888000000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2018-Q2",
+            "start_period":1522540800000,
+            "end_period":1593475200000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":863,
+        "MeasureName":"Disinfection by-products (TTHM), Quarterly maximum concentration",
+        "MeasurementType":"Quarterly maximum concentration",
+        "how_calculated":"Samples are collected from the drinking water distribution system, and concentrations of chloroform, bromodichloromethane, dibromochloromethane, and bromoform are summed within samples to derive a measure of total trihalomethane (TTHM). If a concentration is below the limit of detection (LOD), a value equal to one half the LOD is assigned. The maximum total concentration is identified for each quarter.",
+        "Sources":"New York State Safe Drinking Water Information System",
+        "DisplayType":"mcg\/L",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999-Q1",
+            "start_period":915148800000,
+            "end_period":922838400000
+          },
+          {
+            "TimeDescription":"1999-Q2",
+            "start_period":922924800000,
+            "end_period":930700800000
+          },
+          {
+            "TimeDescription":"1999-Q3",
+            "start_period":930787200000,
+            "end_period":938649600000
+          },
+          {
+            "TimeDescription":"1999-Q4",
+            "start_period":938736000000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000-Q1",
+            "start_period":946684800000,
+            "end_period":954460800000
+          },
+          {
+            "TimeDescription":"2000-Q2",
+            "start_period":954547200000,
+            "end_period":962323200000
+          },
+          {
+            "TimeDescription":"2000-Q3",
+            "start_period":962409600000,
+            "end_period":970272000000
+          },
+          {
+            "TimeDescription":"2000-Q4",
+            "start_period":970358400000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001-Q1",
+            "start_period":978307200000,
+            "end_period":985996800000
+          },
+          {
+            "TimeDescription":"2001-Q2",
+            "start_period":986083200000,
+            "end_period":993859200000
+          },
+          {
+            "TimeDescription":"2001-Q3",
+            "start_period":993945600000,
+            "end_period":1001808000000
+          },
+          {
+            "TimeDescription":"2001-Q4",
+            "start_period":1001894400000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002-Q1",
+            "start_period":1009843200000,
+            "end_period":1017532800000
+          },
+          {
+            "TimeDescription":"2002-Q2",
+            "start_period":1017619200000,
+            "end_period":1025395200000
+          },
+          {
+            "TimeDescription":"2002-Q3",
+            "start_period":1025481600000,
+            "end_period":1033344000000
+          },
+          {
+            "TimeDescription":"2002-Q4",
+            "start_period":1033430400000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003-Q1",
+            "start_period":1041379200000,
+            "end_period":1049068800000
+          },
+          {
+            "TimeDescription":"2003-Q2",
+            "start_period":1049155200000,
+            "end_period":1056931200000
+          },
+          {
+            "TimeDescription":"2003-Q3",
+            "start_period":1057017600000,
+            "end_period":1064880000000
+          },
+          {
+            "TimeDescription":"2003-Q4",
+            "start_period":1064966400000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004-Q1",
+            "start_period":1072915200000,
+            "end_period":1080691200000
+          },
+          {
+            "TimeDescription":"2004-Q2",
+            "start_period":1080777600000,
+            "end_period":1088553600000
+          },
+          {
+            "TimeDescription":"2004-Q3",
+            "start_period":1088640000000,
+            "end_period":1096502400000
+          },
+          {
+            "TimeDescription":"2004-Q4",
+            "start_period":1096588800000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005-Q1",
+            "start_period":1104537600000,
+            "end_period":1112227200000
+          },
+          {
+            "TimeDescription":"2005-Q2",
+            "start_period":1112313600000,
+            "end_period":1120089600000
+          },
+          {
+            "TimeDescription":"2005-Q3",
+            "start_period":1120176000000,
+            "end_period":1128038400000
+          },
+          {
+            "TimeDescription":"2005-Q4",
+            "start_period":1128124800000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006-Q1",
+            "start_period":1136073600000,
+            "end_period":1143763200000
+          },
+          {
+            "TimeDescription":"2006-Q2",
+            "start_period":1143849600000,
+            "end_period":1151625600000
+          },
+          {
+            "TimeDescription":"2006-Q3",
+            "start_period":1151712000000,
+            "end_period":1159574400000
+          },
+          {
+            "TimeDescription":"2006-Q4",
+            "start_period":1159660800000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007-Q1",
+            "start_period":1167609600000,
+            "end_period":1175299200000
+          },
+          {
+            "TimeDescription":"2007-Q2",
+            "start_period":1175385600000,
+            "end_period":1183161600000
+          },
+          {
+            "TimeDescription":"2007-Q3",
+            "start_period":1183248000000,
+            "end_period":1191110400000
+          },
+          {
+            "TimeDescription":"2007-Q4",
+            "start_period":1191196800000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008-Q1",
+            "start_period":1199145600000,
+            "end_period":1206921600000
+          },
+          {
+            "TimeDescription":"2008-Q2",
+            "start_period":1207008000000,
+            "end_period":1214784000000
+          },
+          {
+            "TimeDescription":"2008-Q3",
+            "start_period":1214870400000,
+            "end_period":1222732800000
+          },
+          {
+            "TimeDescription":"2008-Q4",
+            "start_period":1222819200000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009-Q1",
+            "start_period":1230768000000,
+            "end_period":1238457600000
+          },
+          {
+            "TimeDescription":"2009-Q2",
+            "start_period":1238544000000,
+            "end_period":1246320000000
+          },
+          {
+            "TimeDescription":"2009-Q3",
+            "start_period":1246406400000,
+            "end_period":1254268800000
+          },
+          {
+            "TimeDescription":"2009-Q4",
+            "start_period":1254355200000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010-Q1",
+            "start_period":1262304000000,
+            "end_period":1269993600000
+          },
+          {
+            "TimeDescription":"2010-Q2",
+            "start_period":1270080000000,
+            "end_period":1277856000000
+          },
+          {
+            "TimeDescription":"2010-Q3",
+            "start_period":1277942400000,
+            "end_period":1285804800000
+          },
+          {
+            "TimeDescription":"2010-Q4",
+            "start_period":1285891200000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011-Q1",
+            "start_period":1293840000000,
+            "end_period":1301529600000
+          },
+          {
+            "TimeDescription":"2011-Q2",
+            "start_period":1301616000000,
+            "end_period":1309392000000
+          },
+          {
+            "TimeDescription":"2011-Q3",
+            "start_period":1309478400000,
+            "end_period":1317340800000
+          },
+          {
+            "TimeDescription":"2011-Q4",
+            "start_period":1317427200000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012-Q1",
+            "start_period":1325376000000,
+            "end_period":1333152000000
+          },
+          {
+            "TimeDescription":"2012-Q2",
+            "start_period":1333238400000,
+            "end_period":1341014400000
+          },
+          {
+            "TimeDescription":"2012-Q3",
+            "start_period":1341100800000,
+            "end_period":1348963200000
+          },
+          {
+            "TimeDescription":"2012-Q4",
+            "start_period":1349049600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013-Q1",
+            "start_period":1356998400000,
+            "end_period":1364688000000
+          },
+          {
+            "TimeDescription":"2013-Q2",
+            "start_period":1364774400000,
+            "end_period":1372550400000
+          },
+          {
+            "TimeDescription":"2013-Q3",
+            "start_period":1372636800000,
+            "end_period":1380499200000
+          },
+          {
+            "TimeDescription":"2013-Q4",
+            "start_period":1380585600000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014-Q1",
+            "start_period":1388534400000,
+            "end_period":1396224000000
+          },
+          {
+            "TimeDescription":"2014-Q2",
+            "start_period":1396310400000,
+            "end_period":1404086400000
+          },
+          {
+            "TimeDescription":"2014-Q3",
+            "start_period":1404172800000,
+            "end_period":1412035200000
+          },
+          {
+            "TimeDescription":"2014-Q4",
+            "start_period":1412121600000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015-Q1",
+            "start_period":1420070400000,
+            "end_period":1427760000000
+          },
+          {
+            "TimeDescription":"2015-Q2",
+            "start_period":1427846400000,
+            "end_period":1435622400000
+          },
+          {
+            "TimeDescription":"2015-Q3",
+            "start_period":1435708800000,
+            "end_period":1443571200000
+          },
+          {
+            "TimeDescription":"2015-Q4",
+            "start_period":1443657600000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016-Q1",
+            "start_period":1451606400000,
+            "end_period":1459382400000
+          },
+          {
+            "TimeDescription":"2016-Q2",
+            "start_period":1459468800000,
+            "end_period":1467244800000
+          },
+          {
+            "TimeDescription":"2016-Q3",
+            "start_period":1467331200000,
+            "end_period":1475193600000
+          },
+          {
+            "TimeDescription":"2016-Q4",
+            "start_period":1475280000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017-Q1",
+            "start_period":1483228800000,
+            "end_period":1490918400000
+          },
+          {
+            "TimeDescription":"2017-Q2",
+            "start_period":1491004800000,
+            "end_period":1498780800000
+          },
+          {
+            "TimeDescription":"2017-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2018-Q3",
+            "start_period":1498867200000,
+            "end_period":1506729600000
+          },
+          {
+            "TimeDescription":"2017-Q4",
+            "start_period":1506816000000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018-Q1",
+            "start_period":1514764800000,
+            "end_period":1522454400000
+          },
+          {
+            "TimeDescription":"2018-Q4",
+            "start_period":1538352000000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019-Q1",
+            "start_period":1546300800000,
+            "end_period":1553990400000
+          },
+          {
+            "TimeDescription":"2019-Q2",
+            "start_period":1554076800000,
+            "end_period":1561852800000
+          },
+          {
+            "TimeDescription":"2019-Q3",
+            "start_period":1561939200000,
+            "end_period":1569801600000
+          },
+          {
+            "TimeDescription":"2019-Q4",
+            "start_period":1569888000000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2018-Q2",
+            "start_period":1522540800000,
+            "end_period":1593475200000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
       {
         "MeasureID":864,
         "MeasureName":"Disinfection by-products (TTHM), Maximum allowable contaminant level (MCL)",
@@ -41751,6 +44990,144 @@
             "Trend":[
               {
                 "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":868,
+        "MeasureName":"Disinfection by-products (TTHM), Number (sample locations)",
+        "MeasurementType":"Number (sample locations)",
+        "how_calculated":"The number of total trihalomethanes (TTHM) samples taken throughout the distribution system.",
+        "Sources":"New York State Safe Drinking Water Information System",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -44317,6 +47694,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -44474,6 +47855,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -44525,6 +47910,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -44622,6 +48011,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -44719,6 +48112,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -44834,6 +48231,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -44958,6 +48359,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -45073,6 +48478,10 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -45193,6 +48602,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -45334,6 +48747,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -45481,6 +48898,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -45615,6 +49036,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -45753,6 +49178,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -45889,6 +49318,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -46023,6 +49456,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -46166,6 +49603,10 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -46300,6 +49741,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
           },
           {
             "GeoType":"UHF42",
@@ -54169,6 +57614,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -55595,6 +59044,52 @@
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Measures":[
       {
+        "MeasureID":1205,
+        "MeasureName":"Asthma ED visits (age 5 to 17), by NTA, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Aggregated number of asthma-related emergency department (ED) visits among NYC resident children aged 5 to 17 years. Measures are provided down to the neighborhood tabulation area (NTA) level. ED visits include both patients who are treated and released in the ED (outpatients) and who are admitted as inpatients through the emergency department. An ED visit is included if it has an ICD-9 principal diagnosis code of 493 or an ICD-10 principal diagnosis code of J45. New York hospitals began using the ICD-10 system on October 1, 2015. Because the ICD systems are similar in how they classify childhood asthma, data can be compared across years.",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017-2019",
+            "start_period":1483228800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
         "MeasureID":1206,
         "MeasureName":"Asthma ED visits (age 5 to 17), by NTA, Average annual rate",
         "MeasurementType":"Average annual rate",
@@ -55709,6 +59204,52 @@
     "IndicatorLabel":"Adults (by NTA)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Measures":[
+      {
+        "MeasureID":1207,
+        "MeasureName":"Asthma ED visits (adults, NTA), Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Aggregated number of asthma-related emergency department (ED) visits among NYC adults (18 years and older). ED visits include both patients who are treated and released in the ED (outpatients) and who are admitted as inpatients through the emergency department. An ED visit is included if it has an ICD-9 principal diagnosis code of 493.",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017-2019",
+            "start_period":1483228800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":0,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
       {
         "MeasureID":1208,
         "MeasureName":"Asthma ED visits (adults, NTA), Average annual rate",
@@ -57465,6 +61006,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -57692,6 +61237,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -57792,6 +61341,10 @@
           {
             "GeoType":"Subboro",
             "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -59519,6 +63072,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -59584,6 +63141,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
@@ -59645,6 +63206,10 @@
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
