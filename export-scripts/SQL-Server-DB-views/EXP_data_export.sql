@@ -25,6 +25,7 @@ ALTER VIEW [dbo].[EXP_data_export] AS
         ind.geo_entity_id    AS GeoID,
         iy.year_description  AS Time,
         si.ban_summary_flag,
+        mt.number_decimal_ind,
 
         -- null out value when show data = 0
 
