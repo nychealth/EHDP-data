@@ -9,10 +9,8 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 
         -- "DISTINCT" because an indicator can have multiple subtopics, but we have no subtopic data here
     
-        si.internal_id   AS IndicatorID,
-        ind.indicator_id AS MeasureID,
-
-        -- mt.description       AS MeasurementType,
+        si.internal_id       AS IndicatorID,
+        ind.indicator_id     AS MeasureID,
         gt.geo_type_name     AS GeoType,
         ind.geo_type_id      AS GeoTypeID,
         ind.geo_entity_id    AS GeoID,
