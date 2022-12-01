@@ -12,18 +12,12 @@ ALTER VIEW [dbo].[EXP_data_export] AS
         si.internal_id   AS IndicatorID,
         ind.indicator_id AS MeasureID,
 
-        -- format measure name
-
-        -- CASE WHEN ii.short_name IS NOT null 
-        --     THEN ii.short_name + ', ' + mt.description 
-        --     ELSE ii.name       + ', ' + mt.description 
-        -- END AS MeasureName,
-
         -- mt.description       AS MeasurementType,
         gt.geo_type_name     AS GeoType,
         ind.geo_type_id      AS GeoTypeID,
         ind.geo_entity_id    AS GeoID,
         iy.year_description  AS Time,
+        un.character_display AS flag,
         si.ban_summary_flag,
         mt.number_decimal_ind,
 
@@ -33,24 +27,14 @@ ALTER VIEW [dbo].[EXP_data_export] AS
             ELSE null 
         END AS Value,
 
-        un.character_display AS flag,
-
-        -- format character display (making sure to avoid scientific notation)
-
-        -- CASE 
-        --     WHEN un.show_data_flag = 1 AND un.character_display IS NOT null
-        --         THEN format(ind.data_value, 'G') + un.character_display
-        --     WHEN un.show_data_flag = 0
-        --         THEN ''
-        --     ELSE format(ind.data_value, 'G')
-        -- END AS DisplayValue,
-
-        -- replace nulls with empty strings
+        -- replace CI nulls with empty strings
 
         CASE 
             WHEN ind.ci IS null OR un.show_data_flag = 0 THEN ''
             ELSE ind.ci
         END AS CI,
+
+        -- include unreliability message
 
         CASE 
             WHEN un.message IS null THEN ''
