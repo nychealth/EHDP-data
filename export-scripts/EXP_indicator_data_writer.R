@@ -154,9 +154,10 @@ EXP_data_export <-
         ),
         DisplayValue = 
             case_when(
-                is.na(Value) ~ "-",
+                is.na(flag)  & is.na(Value) ~ "-",
                 is.na(flag)  & number_decimal_ind == "N" ~ sprintf("%.0f", Value),
                 is.na(flag)  & number_decimal_ind == "D" ~ sprintf("%.1f", Value),
+                !is.na(flag) & is.na(Value) ~ flag,
                 !is.na(flag) & number_decimal_ind == "N" ~ str_c(sprintf("%.0f", Value), flag),
                 !is.na(flag) & number_decimal_ind == "D" ~ str_c(sprintf("%.1f", Value), flag)
             )
