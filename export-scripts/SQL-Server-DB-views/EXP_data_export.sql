@@ -36,7 +36,7 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 
         CASE 
             WHEN un.message IS null THEN ''
-            ELSE un.character_display + un.message
+            ELSE un.character_display + ' ' + un.message
         END AS Note
 
     FROM dbo.indicator_data AS ind
