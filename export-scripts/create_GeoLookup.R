@@ -123,8 +123,7 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        # server = "SQLIT04A",
-        server = "DESKTOP-PU7DGC1",
+        server = "SQLIT04A",
         database = db_name,
         trusted_connection = "yes"
     )
@@ -152,12 +151,16 @@ geo_type <-
     ) %>% 
     filter(
         !geo_type_name %in% 
-            c("UHF33",
-              "State",
-              "National",
-              "Nationwide",
-              "AllBoroughs",
-              "MCL")
+            c(
+                "UHF33",
+                "State",
+                "National",
+                "Nationwide",
+                "AllBoroughs",
+                "MCL",
+                "County",
+                "Zip"
+            )
     ) %>% 
     collect()
 
@@ -437,9 +440,12 @@ geolookup <-
         geo_type_entity,
         all_geos,
         by = c("GeoType", "GeoID")
-    )
+    ) %>% 
+    mutate(Lat = round(Lat, 5), Long = round(Long, 5))
 
-write_csv(geolookup, "geography/GeoLookup.csv")
+
+write_csv(geolookup, "geography/GeoLookup.csv", na = "")
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
