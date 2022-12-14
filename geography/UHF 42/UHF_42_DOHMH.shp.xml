@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>NYC DOHMH</origin>
+				<pubdate>2009</pubdate>
+				<title Sync="TRUE">dohmh_gdb.GIS.UHF_42_DOHMH_2009</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<ftname Sync="TRUE">dohmh_gdb.GIS.UHF_42_DOHMH_2009</ftname><onlink>x</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This file includes updates to UHF_Areas_42_DOHMH_2006B - small topological errors have been removed to improve useability for large-scale (neighborhood level) maps.
+
+This file includes a major update from UHF_Areas_42_DOHMH_2006 - airports (LGA and JFK) are removed and areas have been coded as 0 in the attribute table.
+
+United Hospital Fund (UHF) areas (42) are included in this file.  These are aggregated boundaries based off of the ZIP_Code_Areas_w_UHF_DOHMH_2009B.shp file. NOTE:  If comparing to older, UHF / ZIP level analysis, areas may not match exactly due to ZIP code shifts over time.  The ZIP codes in this file were revised off of NYC DCP 2004 LION street centerline data, UHF / ZIP code match comparison information was compiled by DOHMH in 2006.  Deviations in boundaries as compared to other, existing datasets are due to these factors and should be considered accordingly.  This data should be treated as work in progress, DRAFT condition.</abstract>
+			<purpose>This file was created to remove small topology errors in the previous version, and adds alternate United Hosptial Fund names sometimes used in the NYC Community Health Profiles.
+
+This file's parent was created after a review of ZIP Code / UHF areas at the DOHMH in 2005 / 2006, and after the revision of a ZIP code area file by DOHMH in 2005 based off of DCP street centerlines.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>July 22, 2009</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>2009</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Quarterly</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-74.257465</westbc>
+				<eastbc Sync="TRUE">-73.699477</eastbc>
+				<northbc Sync="TRUE">40.915808</northbc>
+				<southbc Sync="TRUE">40.495805</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">913090.772269</leftbc><rightbc Sync="TRUE">1067309.915577</rightbc><bottombc Sync="TRUE">120053.530022</bottombc><topbc Sync="TRUE">272932.041518</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>United Hospital Fund</themekey>
+				<themekey>ZIP Code</themekey>
+				<themekey>42</themekey>
+				<themekey>UHF</themekey>
+				<themekey>neighborhood</themekey>
+				<themekey>Community Health Survey</themekey>
+				<themekey>CHS</themekey>
+			</theme>
+		</keywords>
+		<accconst>Data should be treated as work in progress, DRAFT condition.</accconst>
+		<useconst>Contact the GIS Center (giscenter@health.nyc.gov) prior to distribution.  This data is presently provided on an as-requested basis.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>GIS Center, NYC Department of Health and Mental Hygiene</cntorg>
+				</cntorgp>
+				<cntvoice>212-788-2221</cntvoice>
+				<cntemail>giscenter@health.nyc.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>GIS Center, NYC Department of Health and Mental Hygiene</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">SDE Feature Class</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>x</srcused></procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">Q:\GIS\NYC_Projects_09\Data\UHF_42_2009\UHF_42_DOHMH_2009\UHF_42_DOHMH_2009.shp.xml</srcused><date Sync="TRUE">20090904</date><time Sync="TRUE">15312300</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000075</absres>
+						<ordres Sync="TRUE">0.000075</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres>1.000000</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="UHF_42_DOHMH_2009">
+			<enttyp>
+				<enttypl Sync="TRUE">UHF_42_DOHMH_2009</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">CHSUHF</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>UHFCODE</attrlabl>
+				<attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>UHF Neighborhood Code</attrdef><attalias Sync="TRUE">UHFCODE</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">UHF</attrlabl><attalias Sync="TRUE">UHF</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>UHF Code</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attalias Sync="TRUE">BOROUGH</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>BOROUGH</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">70</attwidth><attrdef>NYC Borough Name</attrdef><attalias Sync="TRUE">UHFNAME</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">UHFNAME</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><attalias Sync="TRUE">ALTCHPUHF</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">ALTCHPUHF</attrlabl><attalias Sync="TRUE">CHSUHF</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_Leng</attrlabl><attalias Sync="TRUE">SHAPE_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_Area</attrlabl><attalias Sync="TRUE">SHAPE_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.227</transize>
+					<dssize Sync="TRUE">0.255</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20100729</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>GIS Center, NYC DOHMH</cntorg>
+					<cntper>Chris Goranson</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>212-788-4334</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><CreaDate>20110512</CreaDate><CreaTime>17022600</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20140815</SyncDate><SyncTime>15492100</SyncTime><ModDate>20140815</ModDate><ModTime>15492100</ModTime><DataProperties><lineage><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090908" Time="143115">FeatureClassToFeatureClass Q:\GIS\NYC_Projects_09\Data\UHF_42_2009\UHF_42_DOHMH_2009B.shp "Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF" UHF_42_DOHMH_2009 # "UHFCODE UHFCODE true false false 19 Double 0 0 ,First,#,Q:\GIS\NYC_Projects_09\Data\UHF_42_2009\UHF_42_DOHMH_2009B.shp,UHFCODE,-1,-1;UHFNAME UHFNAME true false false 70 Text 0 0 ,First,#,Q:\GIS\NYC_Projects_09\Data\UHF_42_2009\UHF_42_DOHMH_2009B.shp,UHF_NEIGH,-1,-1;BOROUGH BOROUGH true false false 20 Text 0 0 ,First,#,Q:\GIS\NYC_Projects_09\Data\UHF_42_2009\UHF_42_DOHMH_2009B.shp,BOROUGH,-1,-1;UHF UHF true false false 19 Double 6 18 ,First,#,Q:\GIS\NYC_Projects_09\Data\UHF_42_2009\UHF_42_DOHMH_2009B.shp,UHF,-1,-1;ALTCHPUHF ALTCHPUHF true false false 254 Text 0 0 ,First,#,Q:\GIS\NYC_Projects_09\Data\UHF_42_2009\UHF_42_DOHMH_2009B.shp,ALT_CHP_UH,-1,-1;CHSUHF CHSUHF true false false 254 Text 0 0 ,First,#,Q:\GIS\NYC_Projects_09\Data\UHF_42_2009\UHF_42_DOHMH_2009B.shp,CHS_UHF_NA,-1,-1" # "Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20100729" Time="104630">FeatureClassToFeatureClass "Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009" "Database Connections\write.sde" UHF_42_DOHMH_2009 # "UHFCODE 'UHFCODE' true true false 8 Double 8 38 ,First,#,Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009,UHFCODE,-1,-1;UHFNAME 'UHFNAME' true true false 70 Text 0 0 ,First,#,Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009,UHFNAME,-1,-1;BOROUGH 'BOROUGH' true true false 20 Text 0 0 ,First,#,Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009,BOROUGH,-1,-1;UHF 'UHF' true true false 8 Double 6 19 ,First,#,Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009,UHF,-1,-1;ALTCHPUHF 'ALTCHPUHF' true true false 254 Text 0 0 ,First,#,Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009,ALTCHPUHF,-1,-1;CHSUHF 'CHSUHF' true true false 254 Text 0 0 ,First,#,Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009,CHSUHF,-1,-1;SHAPE_area 'SHAPE_area' false false true 0 Double 0 0 ,First,#,Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009,SHAPE.area,-1,-1;SHAPE_len 'SHAPE_len' false false true 0 Double 0 0 ,First,#,Database Connections\Connection to gisdata1.health.nycnet (8).sde\nychealth.GIS.UHF\nychealth.GIS.UHF_42_DOHMH_2009,SHAPE.len,-1,-1" # "Database Connections\write.sde\dohmh_gdb.GIS.UHF_42_DOHMH_2009"</Process><Process Name="Add Spatial Index" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddSpatialIndex" Date="20100729" Time="104724">AddSpatialIndex "Database Connections\write.sde\dohmh_gdb.GIS.UHF_42_DOHMH_2009" 48000 0 0 "Database Connections\write.sde\dohmh_gdb.GIS.UHF_42_DOHMH_2009"</Process><Process Name="Change Privileges" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20100729" Time="104750">ChangePrivileges "Database Connections\write.sde\dohmh_gdb.GIS.UHF_42_DOHMH_2009" gisuser GRANT AS_IS "Database Connections\write.sde\dohmh_gdb.GIS.UHF_42_DOHMH_2009"</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20140815" Time="154921">CopyFeatures C:\LocalStore\GIS\Basemap.gdb\UHF_42_DOHMH_2009 "C:\LocalStore\GIS\geoJSON\shapefiles update\UHF_42_DOHMH_2009.shp" # 0 0 0</Process></lineage><itemProps><itemLocation><linkage Sync="TRUE">file://\\2UA11302W5\C$\LocalStore\GIS\geoJSON\shapefiles update\UHF_42_DOHMH_2009.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemName Sync="TRUE">UHF_42_DOHMH_2009</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,984250.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-74.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,40.66666666666666],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,41.03333333333333],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,40.16666666666666],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2263]]&lt;/WKT&gt;&lt;XOrigin&gt;-120039300&lt;/XOrigin&gt;&lt;YOrigin&gt;-96540300&lt;/YOrigin&gt;&lt;XYScale&gt;37212589.015695661&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333335&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;2263&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">UHF_42_DOHMH_2009</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">913090.772269</westBL><eastBL Sync="TRUE">1067309.915577</eastBL><northBL Sync="TRUE">272932.041518</northBL><southBL Sync="TRUE">120053.530022</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-74.257465</westBL><eastBL Sync="TRUE">-73.699477</eastBL><northBL Sync="TRUE">40.915808</northBL><southBL Sync="TRUE">40.495805</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">Server=gisdata1.health.nycnet; Service=5152; Database=dohmh_gdb; User=gis; Version=sde.DEFAULT</linkage><protocol Sync="TRUE">ArcSDE Connection</protocol></onLineSrc><transSize Sync="TRUE">0.255</transSize></distorTran><distorFormat><formatName Sync="TRUE">SDE Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" value="2263">NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="UHF_42_DOHMH_2009"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20140815</mdDateSt></metadata>

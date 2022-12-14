@@ -2368,7 +2368,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2497,7 +2497,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2613,7 +2613,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2710,7 +2710,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2817,7 +2817,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -2925,7 +2925,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -3005,6 +3005,10 @@
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":759,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":777,
                 "SecondaryAxis":"y"
               }
@@ -3044,7 +3048,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -3156,7 +3160,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -3510,6 +3514,26 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":292,
                 "SecondaryAxis":"x"
               },
@@ -3796,6 +3820,26 @@
               {
                 "MeasureID":31,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":155,
@@ -6836,6 +6880,14 @@
             ],
             "Links":[
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":90,
                 "SecondaryAxis":"x"
               },
@@ -6985,7 +7037,35 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":94,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":155,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
                 "SecondaryAxis":"y"
               },
               {
@@ -6994,6 +7074,62 @@
               },
               {
                 "MeasureID":245,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":625,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
                 "SecondaryAxis":"y"
               }
             ]
@@ -7260,8 +7396,84 @@
             ],
             "Links":[
               {
+                "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":625,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7407,12 +7619,140 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":45,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":73,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":155,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":209,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
                 "SecondaryAxis":"y"
               },
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":625,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":716,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":748,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":784,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1199,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7558,7 +7898,43 @@
             ],
             "Links":[
               {
+                "MeasureID":41,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":45,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":73,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":209,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
                 "SecondaryAxis":"y"
               },
               {
@@ -7566,8 +7942,76 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":539,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":625,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":716,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":748,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":750,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":751,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":753,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":759,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7707,12 +8151,64 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":73,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":155,
                 "SecondaryAxis":"y"
               },
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":716,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":748,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":750,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":751,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":753,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1199,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7868,16 +8364,52 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":76,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":155,
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -13059,11 +13591,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":94,
                 "SecondaryAxis":"x"
               },
               {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -14139,12 +14687,48 @@
             ],
             "Links":[
               {
+                "MeasureID":41,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               },
               {
                 "MeasureID":245,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":959,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -14577,7 +15161,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -14725,6 +15329,26 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -15785,8 +16409,32 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -16389,8 +17037,32 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -16745,6 +17417,26 @@
             ],
             "Links":[
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               }
@@ -16796,7 +17488,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -16925,7 +17617,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -17016,7 +17708,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -17129,8 +17821,24 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":76,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":92,
@@ -17141,11 +17849,87 @@
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":155,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":218,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":759,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":784,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
                 "SecondaryAxis":"y"
               }
             ]
@@ -19657,6 +20441,18 @@
               {
                 "MeasureID":460,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":643,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":644,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":645,
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":696,
@@ -23510,6 +24306,22 @@
               {
                 "MeasureID":29,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -27018,7 +27830,23 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -32535,10 +33363,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -35695,10 +36528,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -35812,10 +36650,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -35928,10 +36771,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -35985,7 +36833,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":643,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -37619,7 +38472,24 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -37843,7 +38713,24 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -38121,6 +39008,10 @@
               },
               {
                 "MeasureID":365,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":676,
                 "SecondaryAxis":"y"
               }
             ]
@@ -40241,7 +41132,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -40316,7 +41207,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -40388,7 +41279,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -40494,7 +41385,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -40588,7 +41479,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -40665,6 +41556,22 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":750,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":751,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":753,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":781,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -40692,7 +41599,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -40912,7 +41819,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -41099,7 +42026,15 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -42643,7 +43578,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -42741,7 +43676,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -42857,7 +43792,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -43031,6 +43966,10 @@
             ],
             "Links":[
               {
+                "MeasureID":27,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":88,
                 "SecondaryAxis":"y"
               },
@@ -43041,6 +43980,14 @@
               {
                 "MeasureID":245,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":790,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -43618,7 +44565,19 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":78,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
                 "SecondaryAxis":"x"
               },
               {
@@ -48629,7 +49588,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -48681,7 +49640,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -48734,7 +49693,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -49558,6 +50517,30 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -49615,6 +50598,30 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -49723,6 +50730,30 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -49829,6 +50860,30 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -50447,6 +51502,26 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -50598,7 +51673,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -51325,6 +52420,10 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -51618,6 +52717,30 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -51652,7 +52775,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -51895,7 +53018,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51981,7 +53104,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52065,7 +53188,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52149,7 +53272,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52235,7 +53358,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52321,7 +53444,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52422,7 +53545,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52522,7 +53645,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52634,7 +53757,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52733,7 +53856,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52849,7 +53972,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -52949,7 +54072,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -53070,7 +54193,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -53169,7 +54292,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -55672,7 +56795,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -55748,7 +56871,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -59724,7 +60847,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59777,7 +60900,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -60057,7 +61180,23 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -60450,6 +61589,14 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               },
@@ -60719,7 +61866,23 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -60744,6 +61907,10 @@
               },
               {
                 "MeasureID":386,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":759,
                 "SecondaryAxis":"x"
               }
             ]
@@ -61092,7 +62259,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -61157,7 +62344,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61207,7 +62394,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61266,7 +62453,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61330,7 +62517,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61380,7 +62567,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61435,7 +62622,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61494,7 +62681,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61560,7 +62747,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61613,7 +62800,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61674,7 +62861,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61728,7 +62915,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61789,7 +62976,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61839,7 +63026,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61893,7 +63080,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -61953,7 +63140,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -65605,7 +66792,7 @@
         "DisplayType":"1 (lowest) to 5 (highest)",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
