@@ -9,7 +9,7 @@
             "lookup": "geo_join_id",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/geography/UHF42.topo.json",
+                    "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/production/geography/UHF42.topo.json",
                     "format": {"type": "topojson", "feature": "collection"}
                 },
                 "key": "properties.GEOCODE"
@@ -20,7 +20,7 @@
     "layer": [
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/staging/geography/borough.topo.json",
+                "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/production/geography/borough.topo.json",
                 "format": {
                     "type": "topojson",
                     "feature": "collection"
