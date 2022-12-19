@@ -17280,11 +17280,11 @@
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"y"
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"x"
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":155,
@@ -48226,6 +48226,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -48238,7 +48248,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -48358,6 +48368,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -48370,7 +48390,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -48490,6 +48510,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
