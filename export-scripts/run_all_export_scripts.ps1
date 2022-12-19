@@ -75,9 +75,9 @@ python $base_dir\export-scripts\EXP_indicator_metadata_writer.py
 # NR spark bars
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> NR_SparkBarExport"
+# Write-Output ">>> NR_SparkBarExport"
 
-python $base_dir\export-scripts\NR_SparkBarExport.py
+# python $base_dir\export-scripts\NR_SparkBarExport.py
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
