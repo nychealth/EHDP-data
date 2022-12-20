@@ -124,7 +124,8 @@ EHDP_odbc <-
         driver = paste0("{", odbc_driver, "}"),
         server = "SQLIT04A",
         database = db_name,
-        trusted_connection = "yes"
+        trusted_connection = "yes",
+        encoding = "latin1"
     )
 
 
@@ -145,17 +146,27 @@ EXP_data_export <-
         GeoID,
         desc(Time)
     ) %>%
-    select(-GeoTypeID) %>% 
 
-    # removing "Rank" measure values
-    
-    # filter(MeasurementType != "Rank") %>%
     mutate(
         across(
             where(is.character),
             ~ as_utf8_character(enc2native(.x))
-        )
-    )
+        ),
+        DisplayValue = 
+            case_when(
+                is.na(flag)  & is.na(Value) ~ "-",
+                is.na(flag)  & number_decimal_ind == "N" ~ sprintf("%.0f", Value),
+                is.na(flag)  & number_decimal_ind == "D" ~ sprintf("%.1f", Value),
+                !is.na(flag) & is.na(Value) ~ flag,
+                !is.na(flag) & number_decimal_ind == "N" ~ str_c(sprintf("%.0f", Value), flag),
+                !is.na(flag) & number_decimal_ind == "D" ~ str_c(sprintf("%.1f", Value), flag)
+            )
+    ) %>% 
+    
+    # dropping unneeded columns
+    
+    select(-GeoTypeID, -number_decimal_ind, -flag)
+    
 
 # closing connection
 
