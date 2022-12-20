@@ -421,7 +421,7 @@ nta2020 <-
 
 nyc_kids_nodate <- 
     read_sf("geography/NYCKids.topo.json", crs = st_crs(4326)) %>% 
-    st_transform(st_crs(2263)) %>% 
+    st_transform(st_crs(2263)) %>% # planar coords for centroid
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
     transmute(
@@ -489,7 +489,8 @@ all_geos <-
         nyc_kids_nodate,
         nyc_kids_2017,
         nyc_kids_2019
-    )
+    ) %>% 
+    mutate(roworder = 1:nrow(.))
 
 
 #-----------------------------------------------------------------------------------------#
@@ -502,10 +503,12 @@ geolookup <-
         all_geos,
         by = c("GeoType", "GeoID")
     ) %>% 
-    mutate(Lat = round(Lat, 5), Long = round(Long, 5))
+    mutate(Lat = round(Lat, 5), Long = round(Long, 5)) %>% 
+    arrange(roworder) %>% 
+    select(-roworder)
 
 
-write_csv(geolookup, "geography/GeoLookup.csv", na = "")
+write_csv(geolookup, "geography/GeoLookup.csv", na = "", progress = FALSE)
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
