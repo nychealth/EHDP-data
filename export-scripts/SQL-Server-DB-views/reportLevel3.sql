@@ -5,7 +5,7 @@ GO
 
 ALTER VIEW [dbo].[reportLevel3] AS
 
-	SELECT TOP (100) PERCENT 
+    SELECT TOP (100) PERCENT 
 
         rtd.report_content_id,
         rtd.report_id,

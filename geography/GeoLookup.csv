@@ -1,402 +1,401 @@
-GeoType,GeoID,Name,Lat,Long,BoroID,Borough
-Citywide,1,New York City,,,,
-Borough,1,Bronx,40.8466508,-73.8785937,1,Bronx
-Borough,2,Brooklyn,40.6432482,-73.9522054,2,Brooklyn
-Borough,3,Manhattan,40.7789867,-73.9685647,3,Manhattan
-Borough,4,Queens,40.734452,-73.8250198,4,Queens
-Borough,5,Staten Island,40.5874264,-74.1538712,5,Staten Island
-UHF42,101,Kingsbridge - Riverdale,40.89242027,-73.90341914,1,Bronx
-UHF42,102,Northeast Bronx,40.87957896,-73.84498553,1,Bronx
-UHF42,103,Fordham - Bronx Pk,40.87152358,-73.88210139,1,Bronx
-UHF42,104,Pelham - Throgs Neck,40.84035018,-73.83410971,1,Bronx
-UHF42,105,Crotona -Tremont,40.84583782,-73.89546136,1,Bronx
-UHF42,106,High Bridge - Morrisania,40.8292016,-73.91846821,1,Bronx
-UHF42,107,Hunts Point - Mott Haven,40.81308411,-73.89845715,1,Bronx
-UHF42,201,Greenpoint,40.71877003,-73.95104606,2,Brooklyn
-UHF42,202,Downtown - Heights - Slope,40.6773633,-73.98561836,2,Brooklyn
-UHF42,203,Bedford Stuyvesant - Crown Heights,40.67361884,-73.93376466,2,Brooklyn
-UHF42,204,East New York,40.66931153,-73.88084677,2,Brooklyn
-UHF42,205,Sunset Park,40.64690584,-74.01201326,2,Brooklyn
-UHF42,206,Borough Park,40.62858125,-73.97989075,2,Brooklyn
-UHF42,207,East Flatbush - Flatbush,40.64501661,-73.94542148,2,Brooklyn
-UHF42,208,Canarsie - Flatlands,40.61928481,-73.90625452,2,Brooklyn
-UHF42,209,Bensonhurst - Bay Ridge,40.6118961,-74.01306355,2,Brooklyn
-UHF42,210,Coney Island - Sheepshead Bay,40.59050632,-73.96207009,2,Brooklyn
-UHF42,211,Williamsburg - Bushwick,40.69866641,-73.93153857,2,Brooklyn
-UHF42,301,Washington Heights,40.84961462,-73.93520964,3,Manhattan
-UHF42,302,Central Harlem - Morningside Heights,40.81512788,-73.94655115,3,Manhattan
-UHF42,303,East Harlem,40.79412648,-73.93481488,3,Manhattan
-UHF42,304,Upper West Side,40.7900328,-73.9744196,3,Manhattan
-UHF42,305,Upper East Side,40.77190182,-73.95546251,3,Manhattan
-UHF42,306,Chelsea - Clinton,40.75427082,-73.99323584,3,Manhattan
-UHF42,307,Gramercy Park - Murray Hill,40.74889082,-73.97549669,3,Manhattan
-UHF42,308,Greenwich Village - SoHo,40.72652855,-74.00375439,3,Manhattan
-UHF42,309,Union Square - Lower East Side,40.72339538,-73.98481747,3,Manhattan
-UHF42,310,Lower Manhattan,40.70971375,-74.00911891,3,Manhattan
-UHF42,401,Long Island City - Astoria,40.75842795,-73.92730975,4,Queens
-UHF42,402,West Queens,40.74661169,-73.88551532,4,Queens
-UHF42,403,Flushing - Clearview,40.77297957,-73.81293266,4,Queens
-UHF42,404,Bayside - Little Neck,40.75639422,-73.75393361,4,Queens
-UHF42,405,Ridgewood - Forest Hills,40.7121474,-73.8744224,4,Queens
-UHF42,406,Fresh Meadows,40.73382006,-73.8061396,4,Queens
-UHF42,407,Southwest Queens,40.68127982,-73.83695005,4,Queens
-UHF42,408,Jamaica,40.69623851,-73.78287679,4,Queens
-UHF42,409,Southeast Queens,40.70148807,-73.73689151,4,Queens
-UHF42,410,Rockaways,40.58218109,-73.82803595,4,Queens
-UHF42,501,Port Richmond,40.63191441,-74.14745584,5,Staten Island
-UHF42,502,Stapleton - St. George,40.60916146,-74.08817683,5,Staten Island
-UHF42,503,Willowbrook,40.59933734,-74.16647759,5,Staten Island
-UHF42,504,South Beach - Tottenville,40.54709467,-74.17551911,5,Staten Island
-CD,101,Financial District (CD1),40.71213156,-74.00955515,3,Manhattan
-CD,102,Greenwich Village and Soho (CD2),40.72980354,-74.00125515,3,Manhattan
-CD,103,Lower East Side and Chinatown (CD3),40.71960352,-73.98554449,3,Manhattan
-CD,104,Clinton and Chelsea (CD4),40.75530979,-73.99719654,3,Manhattan
-CD,105,Midtown (CD5),40.75228511,-73.98405733,3,Manhattan
-CD,106,Stuyvesant Town and Turtle Bay (CD6),40.7446878,-73.97458822,3,Manhattan
-CD,107,Upper West Side (CD7),40.78718086,-73.9761118,3,Manhattan
-CD,108,Upper East Side (CD8),40.77155083,-73.95576822,3,Manhattan
-CD,109,Morningside Heights and Hamilton Heights (CD9),40.81805332,-73.9550242,3,Manhattan
-CD,110,Central Harlem (CD10),40.81369671,-73.94473617,3,Manhattan
-CD,111,East Harlem (CD11),40.79491643,-73.9349791,3,Manhattan
-CD,112,Washington Heights and Inwood (CD12),40.85512094,-73.93152397,3,Manhattan
-CD,201,Mott Haven and Melrose (CD1),40.8109184,-73.91647265,1,Bronx
-CD,202,Hunts Point and Longwood (CD2),40.81357844,-73.8877298,1,Bronx
-CD,203,Morrisania and Crotona (CD3),40.83256359,-73.89864576,1,Bronx
-CD,204,Highbridge and Concourse (CD4),40.83381446,-73.92080027,1,Bronx
-CD,205,Fordham and University Heights (CD5),40.85275403,-73.9095815,1,Bronx
-CD,206,Belmont and East Tremont (CD6),40.84961215,-73.88753201,1,Bronx
-CD,207,Kingsbridge Heights and Bedford (CD7),40.87098427,-73.89145546,1,Bronx
-CD,208,Riverdale and Fieldston (CD8),40.89051216,-73.90629888,1,Bronx
-CD,209,Parkchester and Soundview (CD9),40.8247814,-73.86165842,1,Bronx
-CD,210,Throgs Neck and Co-op City (CD10),40.83814015,-73.82349094,1,Bronx
-CD,211,Morris Park and Bronxdale (CD11),40.85615508,-73.85277559,1,Bronx
-CD,212,Williamsbridge and Baychester (CD12),40.88630714,-73.8515,1,Bronx
-CD,301,Greenpoint and Williamsburg (CD1),40.71684272,-73.9471696,2,Brooklyn
-CD,302,Fort Greene and Brooklyn Heights (CD2),40.69333681,-73.97842172,2,Brooklyn
-CD,303,Bedford Stuyvesant (CD3),40.68769407,-73.94056337,2,Brooklyn
-CD,304,Bushwick (CD4),40.69455796,-73.91683768,2,Brooklyn
-CD,305,East New York and Starrett City (CD5),40.66848938,-73.87971387,2,Brooklyn
-CD,306,Park Slope and Carroll Gardens (CD6),40.6762099,-73.99418201,2,Brooklyn
-CD,307,Sunset Park (CD7),40.65179665,-74.00068824,2,Brooklyn
-CD,308,Crown Heights and Prospect Heights (CD8),40.67436423,-73.94659569,2,Brooklyn
-CD,309,South Crown Heights and Lefferts Gardens (CD9),40.66280792,-73.94692999,2,Brooklyn
-CD,310,Bay Ridge and Dyker Heights (CD10),40.62331604,-74.02346059,2,Brooklyn
-CD,311,Bensonhurst (CD11),40.60725734,-73.99363031,2,Brooklyn
-CD,312,Borough Park (CD12),40.63123488,-73.98326059,2,Brooklyn
-CD,313,Coney Island (CD13),40.5806601,-73.98213137,2,Brooklyn
-CD,314,Flatbush and Midwood (CD14),40.63186164,-73.95912065,2,Brooklyn
-CD,315,Sheepshead Bay (CD15),40.59449755,-73.94987313,2,Brooklyn
-CD,316,Brownsville (CD16),40.66816475,-73.91094499,2,Brooklyn
-CD,317,East Flatbush (CD17),40.64805041,-73.93381839,2,Brooklyn
-CD,318,Flatlands and Canarsie (CD18),40.62441003,-73.91395478,2,Brooklyn
-CD,401,Long Island City and Astoria (CD1),40.76772617,-73.91700779,4,Queens
-CD,402,Woodside and Sunnyside (CD2),40.74047074,-73.92298383,4,Queens
-CD,403,Jackson Heights (CD3),40.75824195,-73.8769416,4,Queens
-CD,404,Elmhurst and Corona (CD4),40.74085354,-73.87149653,4,Queens
-CD,405,Ridgewood and Maspeth (CD5),40.71077155,-73.89053681,4,Queens
-CD,406,Rego Park and Forest Hills (CD6),40.72217649,-73.85135116,4,Queens
-CD,407,Flushing and Whitestone (CD7),40.77145379,-73.81603534,4,Queens
-CD,408,Hillcrest and Fresh Meadows (CD8),40.72618079,-73.79733522,4,Queens
-CD,409,Kew Gardens and Woodhaven (CD9),40.6948551,-73.83904705,4,Queens
-CD,410,South Ozone Park and Howard Beach (CD10),40.66942634,-73.8327161,4,Queens
-CD,411,Bayside and Little Neck (CD11),40.75666224,-73.75916222,4,Queens
-CD,412,Jamaica and Hollis (CD12),40.69159342,-73.77843607,4,Queens
-CD,413,Queens Village (CD13),40.69958746,-73.73733663,4,Queens
-CD,414,Rockaway and Broad Channel (CD14),40.58911748,-73.81035863,4,Queens
-CD,501,St. George and Stapleton (CD1),40.6265933,-74.12037006,5,Staten Island
-CD,502,South Beach and Willowbrook (CD2),40.59318771,-74.14193507,5,Staten Island
-CD,503,Tottenville and Great Kills (CD3),40.54118749,-74.1903237,5,Staten Island
-UHF34,101,Kingsbridge - Riverdale,40.89263699,-73.90117167,1,Bronx
-UHF34,102,Northeast Bronx,40.88059556,-73.84478033,1,Bronx
-UHF34,103,Fordham - Bronx Park,40.87211452,-73.88065761,1,Bronx
-UHF34,104,Pelham - Throgs Neck,40.84051681,-73.83374786,1,Bronx
-UHF34,201,Greenpoint,40.72019398,-73.94966738,2,Brooklyn
-UHF34,202,Downtown - Heights - Slope,40.68356524,-73.98635833,2,Brooklyn
-UHF34,203,Bedford Stuyvesant - Crown Heights,40.67346408,-73.9334482,2,Brooklyn
-UHF34,204,East New York,40.67207561,-73.88299764,2,Brooklyn
-UHF34,205,Sunset Park,40.64774463,-74.00912333,2,Brooklyn
-UHF34,206,Borough Park,40.62844449,-73.98038632,2,Brooklyn
-UHF34,207,East Flatbush - Flatbush,40.6464495,-73.94839704,2,Brooklyn
-UHF34,208,Canarsie - Flatlands,40.6203271,-73.90370167,2,Brooklyn
-UHF34,209,Bensonhurst - Bay Ridge,40.61178799,-74.01265523,2,Brooklyn
-UHF34,210,Coney Island - Sheepshead Bay,40.59044286,-73.96118963,2,Brooklyn
-UHF34,211,Williamsburg - Bushwick,40.69863491,-73.93157732,2,Brooklyn
-UHF34,301,Washington Heights - Inwood,40.84954863,-73.93508287,3,Manhattan
-UHF34,302,Central Harlem - Morningside Heights,40.81318006,-73.94835509,3,Manhattan
-UHF34,303,East Harlem,40.79398224,-73.93500867,3,Manhattan
-UHF34,304,Upper West Side,40.78838996,-73.9755752,3,Manhattan
-UHF34,401,Long Island City - Astoria,40.75755497,-73.9278421,4,Queens
-UHF34,402,West Queens,40.7440691,-73.88794677,4,Queens
-UHF34,403,Flushing - Clearview,40.77075604,-73.81510214,4,Queens
-UHF34,405,Ridgewood - Forest Hills,40.71123628,-73.87233723,4,Queens
-UHF34,407,Southwest Queens,40.67955719,-73.83553286,4,Queens
-UHF34,408,Jamaica,40.69604658,-73.78311377,4,Queens
-UHF34,409,Southeast Queens,40.70222584,-73.73708425,4,Queens
-UHF34,410,Rockaway,40.58999199,-73.82281303,4,Queens
-UHF34,305307,Upper East Side - Gramercy,40.76094565,-73.96482304,3,Manhattan
-UHF34,306308,Chelsea - Village,40.74476911,-73.99720146,3,Manhattan
-UHF34,309310,"Union Square, Lower Manhattan",40.71642523,-73.99483441,3,Manhattan
-UHF34,404406,Bayside - Meadows,40.74705857,-73.77625321,4,Queens
-UHF34,501502,Northern SI,40.61779096,-74.10765313,5,Staten Island
-UHF34,503504,Southern SI,40.56518507,-74.17269147,5,Staten Island
-UHF34,105106107,South Bronx,40.82737357,-73.90179457,1,Bronx
-NTA,4788,Borough Park,40.6309579,-73.98866267,2,Brooklyn
-NTA,8151,Murray Hill,40.76835986,-73.80954729,4,Queens
-NTA,8127,East Elmhurst,40.76336047,-73.86839701,4,Queens
-NTA,8107,Hollis,40.7106476,-73.76113842,4,Queens
-NTA,4725,Homecrest,40.59996252,-73.9643351,2,Brooklyn
-NTA,8141,Fresh Meadows-Utopia,40.73490275,-73.78371774,4,Queens
-NTA,8108,St. Albans,40.6912101,-73.76314744,4,Queens
-NTA,8106,Jamaica Estates-Holliswood,40.72066362,-73.776102,4,Queens
-NTA,4744,Madison,40.60492183,-73.94813702,2,Brooklyn
-NTA,4741,Kensington-Ocean Parkway,40.64059839,-73.97620046,2,Brooklyn
-NTA,4795,Erasmus,40.64612467,-73.95162481,2,Brooklyn
-NTA,533,Longwood,40.81968335,-73.8989582,1,Bronx
-NTA,4769,Clinton Hill,40.68797507,-73.96236476,2,Brooklyn
-NTA,8133,Cambria Heights,40.69434974,-73.73555555,4,Queens
-NTA,4743,Midwood,40.62093228,-73.95682601,2,Brooklyn
-NTA,4726,Gravesend,40.58841105,-73.98143194,2,Brooklyn
-NTA,4729,Bensonhurst East,40.60143746,-73.98353895,2,Brooklyn
-NTA,4772,Williamsburg,40.70392478,-73.95859818,2,Brooklyn
-NTA,4775,Bedford,40.69151575,-73.94990645,2,Brooklyn
-NTA,4735,Stuyvesant Heights,40.6881765,-73.93188963,2,Brooklyn
-NTA,4779,Ocean Hill,40.67664587,-73.91364893,2,Brooklyn
-NTA,4763,Crown Heights South,40.66654705,-73.94878542,2,Brooklyn
-NTA,4796,Rugby-Remsen Village,40.65237305,-73.92225239,2,Brooklyn
-NTA,531,Allerton-Pelham Gardens,40.86448057,-73.84742655,1,Bronx
-NTA,4793,Starrett City,40.64753453,-73.882414,2,Brooklyn
-NTA,4791,East Flatbush-Farragut,40.64395522,-73.93793126,2,Brooklyn
-NTA,4778,Bushwick South,40.69646707,-73.92511615,2,Brooklyn
-NTA,4777,Bushwick North,40.70056894,-73.91776743,2,Brooklyn
-NTA,8120,Ridgewood,40.70653962,-73.90171683,4,Queens
-NTA,4746,Ocean Parkway South,40.6173232,-73.97032723,2,Brooklyn
-NTA,4768,Fort Greene,40.69080336,-73.97488292,2,Brooklyn
-NTA,8168,Queensbridge-Ravenswood-Long Island City,40.75757004,-73.93875096,4,Queens
-NTA,508,West Farms-Bronx River,40.83417339,-73.87228862,1,Bronx
-NTA,546,Parkchester,40.83775491,-73.85799026,1,Bronx
-NTA,555,Soundview-Bruckner,40.82790844,-73.86968333,1,Bronx
-NTA,8119,Glendale,40.70354323,-73.87574967,4,Queens
-NTA,528,Van Cortlandt Village,40.87652167,-73.89562352,1,Bronx
-NTA,8138,Pomonok-Flushing Heights-Hillcrest,40.72834143,-73.80244634,4,Queens
-NTA,6115,Clinton,40.76417456,-73.99239485,3,Manhattan
-NTA,8134,Queens Village,40.71546279,-73.74153317,4,Queens
-NTA,8121,Middle Village,40.7183461,-73.88005489,4,Queens
-NTA,562,Woodlawn-Wakefield,40.89793925,-73.85221689,1,Bronx
-NTA,507,Bronxdale,40.86401307,-73.86490242,1,Bronx
-NTA,4785,East New York (Pennsylvania Ave),40.66656719,-73.89536553,2,Brooklyn
-NTA,8155,South Ozone Park,40.67616353,-73.8194606,4,Queens
-NTA,4727,Bath Beach,40.60427805,-74.0074887,2,Brooklyn
-NTA,4728,Bensonhurst West,40.61222729,-73.99526063,2,Brooklyn
-NTA,8130,Maspeth,40.7240034,-73.9023313,4,Queens
-NTA,8123,College Point,40.78093149,-73.84280707,4,Queens
-NTA,598,Rikers Island,40.79113858,-73.88265657,1,Bronx
-NTA,8548,Arden Heights,40.55266701,-74.18848453,5,Staten Island
-NTA,4773,North Side-South Side,40.71492476,-73.95862691,2,Brooklyn
-NTA,4781,Brownsville,40.66400981,-73.91025594,2,Brooklyn
-NTA,552,Schuylerville-Throgs Neck-Edgewater Park,40.82334068,-73.82358944,1,Bronx
-NTA,8501,Annadale-Huguenot-Prince's Bay-Eltingville,40.52867545,-74.18770145,5,Staten Island
-NTA,6125,Battery Park City-Lower Manhattan,40.70801541,-74.01024636,3,Manhattan
-NTA,6114,Lincoln Square,40.77485483,-73.98470074,3,Manhattan
-NTA,6117,Midtown-Midtown South,40.75574219,-73.98350447,3,Manhattan
-NTA,6140,Upper East Side-Carnegie Hill,40.77473812,-73.96117553,3,Manhattan
-NTA,4760,Prospect Lefferts Gardens-Wingate,40.65875253,-73.94744303,2,Brooklyn
-NTA,526,Highbridge,40.83783418,-73.92616024,1,Bronx
-NTA,4721,Seagate-Coney Island,40.57649088,-73.99123721,2,Brooklyn
-NTA,522,North Riverdale-Fieldston-Riverdale,40.89954326,-73.90698619,1,Bronx
-NTA,529,Spuyten Duyvil-Kingsbridge,40.88241431,-73.91066827,1,Bronx
-NTA,4740,Windsor Terrace,40.65362022,-73.97798416,2,Brooklyn
-NTA,4750,Canarsie,40.63804881,-73.89975168,2,Brooklyn
-NTA,4742,Flatbush,40.63790862,-73.9609699,2,Brooklyn
-NTA,4758,Flatlands,40.62628103,-73.93009838,2,Brooklyn
-NTA,8145,Douglas Manor-Douglaston-Little Neck,40.76385458,-73.73701249,4,Queens
-NTA,509,Soundview-Castle Hill-Clason Point-Harding Park,40.81806287,-73.85618903,1,Bronx
-NTA,4737,Park Slope-Gowanus,40.67123655,-73.98390473,2,Brooklyn
-NTA,8511,Charleston-Richmond Valley-Tottenville,40.52551656,-74.23354549,5,Staten Island
-NTA,8532,Rossville-Woodrow,40.54034198,-74.20782908,5,Staten Island
-NTA,6103,Central Harlem North-Polo Grounds,40.81826545,-73.94077328,3,Manhattan
-NTA,6132,Yorkville,40.77732476,-73.94870435,3,Manhattan
-NTA,8148,Auburndale,40.75104328,-73.7879504,4,Queens
-NTA,8152,East Flushing,40.75411724,-73.80729583,4,Queens
-NTA,535,Morrisania-Melrose,40.82752073,-73.90235329,1,Bronx
-NTA,6101,Marble Hill-Inwood,40.86791826,-73.91765083,3,Manhattan
-NTA,6113,Hudson Yards-Chelsea-Flatiron-Union Square,40.74759373,-73.99902217,3,Manhattan
-NTA,6123,West Village,40.73305336,-74.00154809,3,Manhattan
-NTA,6112,Upper West Side,40.79038825,-73.97390928,3,Manhattan
-NTA,543,Norwood,40.87715057,-73.87902249,1,Bronx
-NTA,505,Bedford Park-Fordham North,40.86769038,-73.89018506,1,Bronx
-NTA,540,Fordham South,40.85816269,-73.89953846,1,Bronx
-NTA,541,Mount Hope,40.84906642,-73.90512337,1,Bronx
-NTA,503,Eastchester-Edenwald-Baychester,40.87080291,-73.83848033,1,Bronx
-NTA,513,Co-op City,40.87397308,-73.82827381,1,Bronx
-NTA,517,East Tremont,40.8449742,-73.88552461,1,Bronx
-NTA,4717,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,40.58830806,-73.94151255,2,Brooklyn
-NTA,8508,Grymes Hill-Clifton-Fox Hills,40.61798128,-74.08784075,5,Staten Island
-NTA,8105,Rosedale,40.65784981,-73.73945609,4,Queens
-NTA,8545,New Dorp-Midland Beach,40.57177854,-74.10501148,5,Staten Island
-NTA,4790,East Williamsburg,40.71537681,-73.93679844,2,Brooklyn
-NTA,4709,Brooklyn Heights-Cobble Hill,40.69547733,-73.99487214,2,Brooklyn
-NTA,4738,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,40.69293548,-73.98598813,2,Brooklyn
-NTA,4745,Georgetown-Marine Park-Bergen Beach-Mill Basin,40.61458704,-73.91524647,2,Brooklyn
-NTA,549,Pelham Parkway,40.85441289,-73.85439683,1,Bronx
-NTA,4733,Carroll Gardens-Columbia Street-Red Hook,40.67877981,-74.00390092,2,Brooklyn
-NTA,8146,Bayside-Bayside Hills,40.76274693,-73.77342305,4,Queens
-NTA,6104,Hamilton Heights,40.827022,-73.94852306,3,Manhattan
-NTA,6133,East Harlem South,40.79001956,-73.94575229,3,Manhattan
-NTA,8171,Old Astoria,40.77157843,-73.92833464,4,Queens
-NTA,8198,Airport,40.66462793,-73.79862646,4,Queens
-NTA,8172,Steinway,40.7774255,-73.90540756,4,Queens
-NTA,8147,Ft. Totten-Bay Terrace-Clearview,40.78334142,-73.78597482,4,Queens
-NTA,6111,Central Harlem South,40.80434076,-73.95129476,3,Manhattan
-NTA,6134,East Harlem North,40.80117669,-73.9373472,3,Manhattan
-NTA,8122,Flushing,40.76110154,-73.8288669,4,Queens
-NTA,8102,Springfield Gardens North,40.67209853,-73.77303773,4,Queens
-NTA,4734,Sunset Park East,40.64189744,-74.00464758,2,Brooklyn
-NTA,8142,Oakland Gardens,40.74268408,-73.75461687,4,Queens
-NTA,4732,Sunset Park West,40.65238163,-74.01125143,2,Brooklyn
-NTA,530,Kingsbridge Heights,40.86527397,-73.90591251,1,Bronx
-NTA,536,University Heights-Morris Heights,40.85253032,-73.91597563,1,Bronx
-NTA,8535,New Brighton-Silver Lake,40.6300583,-74.10286265,5,Staten Island
-NTA,8522,West New Brighton-New Brighton-St. George,40.64268695,-74.08531659,5,Staten Island
-NTA,8137,Kew Gardens Hills,40.7264077,-73.81866979,4,Queens
-NTA,8125,Corona,40.74235721,-73.85837219,4,Queens
-NTA,8126,North Corona,40.75258778,-73.86303771,4,Queens
-NTA,6122,East Village,40.72762859,-73.98593605,3,Manhattan
-NTA,575,Crotona Park East,40.8340044,-73.88589877,1,Bronx
-NTA,8507,Westerleigh,40.61689265,-74.12535464,5,Staten Island
-NTA,8528,Port Richmond,40.62817558,-74.14078901,5,Staten Island
-NTA,6128,Lower East Side,40.71784924,-73.98091308,3,Manhattan
-NTA,4719,Brighton Beach,40.58093124,-73.96121741,2,Brooklyn
-NTA,4723,West Brighton,40.57909692,-73.97339238,2,Brooklyn
-NTA,8117,Forest Hills,40.72143984,-73.8476739,4,Queens
-NTA,8118,Rego Park,40.72616372,-73.86334001,4,Queens
-NTA,6120,Murray Hill-Kips Bay,40.74420322,-73.97748399,3,Manhattan
-NTA,8128,Jackson Heights,40.75732014,-73.88532251,4,Queens
-NTA,8163,Woodside,40.74928635,-73.9037327,4,Queens
-NTA,514,East Concourse-Concourse Village,40.83051951,-73.91579003,1,Bronx
-NTA,8135,Briarwood-Jamaica Hills,40.71160293,-73.80871254,4,Queens
-NTA,8160,Kew Gardens,40.70806552,-73.82870151,4,Queens
-NTA,8170,Astoria,40.76150203,-73.91969848,4,Queens
-NTA,8162,Queensboro Hill,40.74309278,-73.81964269,4,Queens
-NTA,6121,Gramercy,40.73683261,-73.98405574,3,Manhattan
-NTA,6150,Stuyvesant Town-Cooper Village,40.7318197,-73.97656478,3,Manhattan
-NTA,4776,Greenpoint,40.72950796,-73.94951838,2,Brooklyn
-NTA,544,Williamsbridge-Olinville,40.88216448,-73.85895053,1,Bronx
-NTA,8512,Mariner's Harbor-Arlington-Port Ivory-Graniteville,40.63132233,-74.16736863,5,Staten Island
-NTA,6106,Manhattanville,40.81798384,-73.95378343,3,Manhattan
-NTA,6109,Morningside Heights,40.80789452,-73.96254509,3,Manhattan
-NTA,8112,Hammels-Arverne-Edgemere,40.59406935,-73.7896192,4,Queens
-NTA,8115,Far Rockaway-Bayswater,40.60246285,-73.75531818,4,Queens
-NTA,6124,SoHo-TriBeCa-Civic Center-Little Italy,40.72077438,-74.00474895,3,Manhattan
-NTA,6127,Chinatown,40.71561532,-73.99463099,3,Manhattan
-NTA,501,Claremont-Bathgate,40.84275495,-73.90031924,1,Bronx
-NTA,506,Belmont,40.85778851,-73.8858694,1,Bronx
-NTA,6135,Washington Heights North,40.85711454,-73.93283482,3,Manhattan
-NTA,6136,Washington Heights South,40.84171588,-73.94139985,3,Manhattan
-NTA,537,Van Nest-Morris Park-Westchester Square,40.84679149,-73.85066946,1,Bronx
-NTA,559,Westchester-Unionport,40.83210871,-73.84864408,1,Bronx
-NTA,534,Melrose South-Mott Haven North,40.81826783,-73.91285155,1,Bronx
-NTA,4730,Dyker Heights,40.62244687,-74.01209709,2,Brooklyn
-NTA,4731,Bay Ridge,40.62485538,-74.02988567,2,Brooklyn
-NTA,8505,New Springville-Bloomfield-Travis,40.5958827,-74.1763703,5,Staten Island
-NTA,8525,Oakwood-Oakwood Beach,40.56200351,-74.12258454,5,Staten Island
-NTA,8554,Great Kills,40.5518686,-74.15089184,5,Staten Island
-NTA,8514,Grasmere-Arrochar-Ft. Wadsworth,40.60032927,-74.07177624,5,Staten Island
-NTA,8537,Stapleton-Rosebank,40.61186669,-74.07231311,5,Staten Island
-NTA,8143,Bellerose,40.73549605,-73.7266582,4,Queens
-NTA,8144,Glen Oaks-Floral Park-New Hyde Park,40.74600214,-73.71102801,4,Queens
-NTA,8101,South Jamaica,40.69443573,-73.79096526,4,Queens
-NTA,8176,Baisley Park,40.67896185,-73.79098856,4,Queens
-NTA,6119,Turtle Bay-East Midtown,40.75432204,-73.96902038,3,Manhattan
-NTA,8166,Laurelton,40.67592539,-73.74452533,4,Queens
-NTA,6131,Lenox Hill-Roosevelt Island,40.76497255,-73.95508948,3,Manhattan
-NTA,8131,Hunters Point-Sunnyside-West Maspeth,40.73978077,-73.9312135,4,Queens
-NTA,8103,Springfield Gardens South-Brookville,40.66219631,-73.76449122,4,Queens
-NTA,599,park-cemetery-etc-Bronx,40.89713512,-73.89017813,1,Bronx
-NTA,8153,Woodhaven,40.6887392,-73.85576588,4,Queens
-NTA,8149,Whitestone,40.78819955,-73.81564459,4,Queens
-NTA,4761,Crown Heights North,40.67447765,-73.9392894,2,Brooklyn
-NTA,4764,Prospect Heights,40.67765349,-73.96759019,2,Brooklyn
-NTA,8156,Ozone Park,40.67560768,-73.84705014,4,Queens
-NTA,8157,Lindenwood-Howard Beach,40.65817846,-73.84488666,4,Queens
-NTA,4799,park-cemetery-etc-Brooklyn,40.59398021,-73.90114173,2,Brooklyn
-NTA,8154,Richmond Hill,40.69454895,-73.83092779,4,Queens
-NTA,8161,Jamaica,40.70437702,-73.79398105,4,Queens
-NTA,8110,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,40.55611351,-73.92021057,4,Queens
-NTA,6199,park-cemetery-etc-Manhattan,40.78248161,-73.96555997,3,Manhattan
-NTA,510,Pelham Bay-Country Club-City Island,40.84145021,-73.82041194,1,Bronx
-NTA,8199,park-cemetery-etc-Queens,40.74191982,-73.83965287,4,Queens
-NTA,527,Hunts Point,40.8120866,-73.88553614,1,Bronx
-NTA,4782,East New York,40.66095515,-73.87684064,2,Brooklyn
-NTA,4783,Cypress Hills-City Line,40.68218627,-73.87833582,2,Brooklyn
-NTA,539,Mott Haven-Port Morris,40.80735541,-73.91682281,1,Bronx
-NTA,563,West Concourse,40.82900152,-73.92440573,1,Bronx
-NTA,8129,Elmhurst,40.73950302,-73.87711985,4,Queens
-NTA,8150,Elmhurst-Maspeth,40.73832468,-73.89217459,4,Queens
-NTA,8524,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,40.58656777,-74.13297595,5,Staten Island
-NTA,8536,Old Town-Dongan Hills-South Beach,40.58680022,-74.08551457,5,Staten Island
-NTA,8599,park-cemetery-etc-Staten Island,40.54659504,-74.1263617,5,Staten Island
-Subboro,1,Mott Haven/Hunts Point,40.80925487,-73.89914131,1,Bronx
-Subboro,2,Morrisania/East Tremont,40.84540843,-73.88764642,1,Bronx
-Subboro,3,Highbridge/South Concourse,40.8324718,-73.92155717,1,Bronx
-Subboro,4,University Heights/Fordham,40.8521648,-73.90974564,1,Bronx
-Subboro,5,Kingsbridge Heights/Mosholu,40.87035471,-73.89090325,1,Bronx
-Subboro,6,Riverdale/Kingsbridge,40.88945083,-73.90488157,1,Bronx
-Subboro,7,Soundview/Parkchester,40.82538093,-73.8595273,1,Bronx
-Subboro,8,Throgs Neck/Co-op City,40.85099611,-73.81591399,1,Bronx
-Subboro,9,Pelham Parkway,40.85618567,-73.85254525,1,Bronx
-Subboro,10,Williamsbridge/Baychester,40.89001097,-73.86164526,1,Bronx
-Subboro,11,Williamsburg/Greenpoint,40.71845632,-73.94839216,2,Brooklyn
-Subboro,12,Brooklyn Heights/Fort Greene,40.6926681,-73.97739137,2,Brooklyn
-Subboro,13,Bedford Stuyvesant,40.68987805,-73.94107029,2,Brooklyn
-Subboro,14,Bushwick,40.69695938,-73.92063914,2,Brooklyn
-Subboro,15,East New York/Starret City,40.66497905,-73.87752546,2,Brooklyn
-Subboro,16,Park Slope/Carroll Gardens,40.67187895,-73.98810732,2,Brooklyn
-Subboro,17,Sunset Park,40.6499528,-74.00155973,2,Brooklyn
-Subboro,18,N. Crown Heights/Prospect Heights,40.6750029,-73.94396997,2,Brooklyn
-Subboro,19,South Crown Heights,40.66136964,-73.947895,2,Brooklyn
-Subboro,20,Bay Ridge,40.62289951,-74.0238969,2,Brooklyn
-Subboro,21,Bensonhurst,40.60689428,-73.99362678,2,Brooklyn
-Subboro,22,Borough Park,40.62994097,-73.98268553,2,Brooklyn
-Subboro,23,Coney Island,40.58141378,-73.98103514,2,Brooklyn
-Subboro,24,Flatbush,40.63041168,-73.95913991,2,Brooklyn
-Subboro,25,Sheepshead Bay/Gravesend,40.59497259,-73.94868617,2,Brooklyn
-Subboro,26,Brownsville/Ocean Hill,40.66821294,-73.90720004,2,Brooklyn
-Subboro,27,East Flatbush,40.64768046,-73.93429282,2,Brooklyn
-Subboro,28,Flatlands/Canarsie,40.61565063,-73.90332948,2,Brooklyn
-Subboro,29,Greenwich Village/Financial District,40.71718861,-74.0074057,3,Manhattan
-Subboro,30,Lower East Side/Chinatown,40.71937287,-73.98612295,3,Manhattan
-Subboro,31,Chelsea/Clinton/Midtown,40.75402911,-73.99212167,3,Manhattan
-Subboro,32,Stuyvesant Town/Turtle Bay,40.74535282,-73.97520252,3,Manhattan
-Subboro,33,Upper West Side,40.78419165,-73.97222181,3,Manhattan
-Subboro,34,Upper East Side,40.7715701,-73.95573161,3,Manhattan
-Subboro,35,Morningside Heights/Hamilton Heights,40.81674915,-73.95574335,3,Manhattan
-Subboro,36,Central Harlem,40.81322148,-73.94458419,3,Manhattan
-Subboro,37,East Harlem,40.79460929,-73.93488298,3,Manhattan
-Subboro,38,Washington Heights/Inwood,40.8559678,-73.93066471,3,Manhattan
-Subboro,39,Astoria,40.76878579,-73.9174007,4,Queens
-Subboro,40,Sunnyside/Woodside,40.74072523,-73.91970806,4,Queens
-Subboro,41,Jackson Heights,40.76220475,-73.87589824,4,Queens
-Subboro,42,Elmhurst/Corona,40.74063157,-73.85515675,4,Queens
-Subboro,43,Middle Village/Ridgewood,40.71041298,-73.88945964,4,Queens
-Subboro,44,Forest Hills/Rego Park,40.7226512,-73.85169127,4,Queens
-Subboro,45,Flushing/Whitestone,40.77147604,-73.81589883,4,Queens
-Subboro,46,Hillcrest/Fresh Meadows,40.72584354,-73.79621329,4,Queens
-Subboro,47,Kew Gardens/Woodhaven,40.69637758,-73.84161294,4,Queens
-Subboro,48,Howard Beach/South Ozone Park,40.66939826,-73.8329958,4,Queens
-Subboro,49,Bayside/Little Neck,40.75651017,-73.75928394,4,Queens
-Subboro,50,Jamaica,40.69165013,-73.778651730000007,4,Queens
-Subboro,51,Bellerose/Rosedale,40.68051694,-73.75499218,4,Queens
-Subboro,52,Rockaways,40.59171391,-73.82399263,4,Queens
-Subboro,53,North Shore,40.62668238,-74.12036173,5,Staten Island
-Subboro,54,Mid Island,40.590753,-74.14332398,5,Staten Island
-Subboro,55,South Shore,40.53896671,-74.18701649,5,Staten Island
-NYCKIDS,10,Rest of Manhattan,40.77133301,-73.97323772,3,Manhattan
-NYCKIDS,11,East and Central Harlem Neighborhood Health Action Center,40.80468959,-73.94064243,3,Manhattan
-NYCKIDS,20,Rest of Bronx,40.86233351,-73.85338921,1,Bronx
-NYCKIDS,21,South Bronx Neighborhood Health Action Center,40.82834807,-73.90321583,1,Bronx
-NYCKIDS,30,Rest of Brooklyn,40.63432451,-73.9599941,2,Brooklyn
-NYCKIDS,31,North and Central Brooklyn Neighborhood Health Action Center,40.67825197,-73.91300667,2,Brooklyn
-NYCKIDS,40,Rest of Queens,40.72426141,-73.82791773,4,Queens
-NYCKIDS,41,Queens - South Jamaica and Rockaway,40.66059699,-73.78578936,4,Queens
-NYCKIDS,50,Staten Island,40.58153513,-74.1533124,5,Staten Island
-NYCKIDS,42,Queens,40.734452,-73.8250198,4,Queens
+GeoType,GeoTypeDesc,GeoID,Name,BoroID,Borough,Lat,Long
+Citywide,Citywide,1,New York City,,,,
+Borough,Borough,1,Bronx,1,Bronx,40.85264,-73.86651
+Borough,Borough,2,Brooklyn,2,Brooklyn,40.64475,-73.94785
+Borough,Borough,3,Manhattan,3,Manhattan,40.77725,-73.96719
+Borough,Borough,4,Queens,4,Queens,40.70763,-73.81855
+Borough,Borough,5,Staten Island,5,Staten Island,40.58083,-74.1534
+UHF34,UHF 34,101,Kingsbridge - Riverdale,1,Bronx,40.89263,-73.90117
+UHF34,UHF 34,102,Northeast Bronx,1,Bronx,40.88059,-73.84478
+UHF34,UHF 34,103,Fordham - Bronx Pk,1,Bronx,40.87211,-73.88066
+UHF34,UHF 34,104,Pelham - Throgs Neck,1,Bronx,40.84051,-73.83375
+UHF34,UHF 34,201,Greenpoint,2,Brooklyn,40.72019,-73.94967
+UHF34,UHF 34,202,Downtown - Heights - Slope,2,Brooklyn,40.68356,-73.98636
+UHF34,UHF 34,203,Bedford Stuyvesant - Crown Heights,2,Brooklyn,40.67346,-73.93344
+UHF34,UHF 34,204,East New York,2,Brooklyn,40.67207,-73.883
+UHF34,UHF 34,205,Sunset Park,2,Brooklyn,40.64774,-74.00912
+UHF34,UHF 34,206,Borough Park,2,Brooklyn,40.62844,-73.98038
+UHF34,UHF 34,207,East Flatbush - Flatbush,2,Brooklyn,40.64644,-73.94839
+UHF34,UHF 34,208,Canarsie - Flatlands,2,Brooklyn,40.62031,-73.9037
+UHF34,UHF 34,209,Bensonhurst - Bay Ridge,2,Brooklyn,40.61178,-74.01265
+UHF34,UHF 34,210,Coney Island - Sheepshead Bay,2,Brooklyn,40.59043,-73.96119
+UHF34,UHF 34,211,Williamsburg - Bushwick,2,Brooklyn,40.69863,-73.93158
+UHF34,UHF 34,301,Washington Heights,3,Manhattan,40.84954,-73.93509
+UHF34,UHF 34,302,Central Harlem - Morningside Heights,3,Manhattan,40.81317,-73.94835
+UHF34,UHF 34,303,East Harlem,3,Manhattan,40.79397,-73.93501
+UHF34,UHF 34,304,Upper West Side,3,Manhattan,40.78838,-73.97558
+UHF34,UHF 34,401,Long Island City - Astoria,4,Queens,40.75754,-73.92784
+UHF34,UHF 34,402,West Queens,4,Queens,40.74406,-73.88795
+UHF34,UHF 34,403,Flushing - Clearview,4,Queens,40.77075,-73.8151
+UHF34,UHF 34,405,Ridgewood - Forest Hills,4,Queens,40.71123,-73.87234
+UHF34,UHF 34,407,Southwest Queens,4,Queens,40.67955,-73.83553
+UHF34,UHF 34,408,Jamaica,4,Queens,40.69603,-73.78311
+UHF34,UHF 34,409,Southeast Queens,4,Queens,40.7022,-73.73709
+UHF34,UHF 34,410,Rockaways,4,Queens,40.58999,-73.82284
+UHF34,UHF 34,305307,Upper East Side-Gramercy,3,Manhattan,40.76094,-73.96483
+UHF34,UHF 34,306308,Chelsea-Village  ,3,Manhattan,40.74476,-73.9972
+UHF34,UHF 34,309310,Union Square-Lower Manhattan,3,Manhattan,40.71642,-73.99484
+UHF34,UHF 34,404406,Bayside Little Neck-Fresh Meadows,4,Queens,40.74705,-73.77626
+UHF34,UHF 34,501502,Northern SI,5,Staten Island,40.61778,-74.10764
+UHF34,UHF 34,503504,Southern SI,5,Staten Island,40.56517,-74.17271
+UHF34,UHF 34,105106107,South Bronx,1,Bronx,40.82736,-73.90179
+UHF42,UHF 42,101,Kingsbridge - Riverdale,1,Bronx,40.89263,-73.90117
+UHF42,UHF 42,102,Northeast Bronx,1,Bronx,40.88059,-73.84478
+UHF42,UHF 42,103,Fordham - Bronx Pk,1,Bronx,40.87212,-73.88069
+UHF42,UHF 42,104,Pelham - Throgs Neck,1,Bronx,40.84051,-73.83375
+UHF42,UHF 42,105,Crotona -Tremont,1,Bronx,40.84636,-73.89448
+UHF42,UHF 42,106,High Bridge - Morrisania,1,Bronx,40.82938,-73.91843
+UHF42,UHF 42,107,Hunts Point - Mott Haven,1,Bronx,40.81309,-73.89883
+UHF42,UHF 42,201,Greenpoint,2,Brooklyn,40.7202,-73.94966
+UHF42,UHF 42,202,Downtown - Heights - Slope,2,Brooklyn,40.68356,-73.98636
+UHF42,UHF 42,203,Bedford Stuyvesant - Crown Heights,2,Brooklyn,40.67346,-73.93344
+UHF42,UHF 42,204,East New York,2,Brooklyn,40.67207,-73.883
+UHF42,UHF 42,205,Sunset Park,2,Brooklyn,40.64774,-74.00912
+UHF42,UHF 42,206,Borough Park,2,Brooklyn,40.62844,-73.98038
+UHF42,UHF 42,207,East Flatbush - Flatbush,2,Brooklyn,40.64644,-73.94839
+UHF42,UHF 42,208,Canarsie - Flatlands,2,Brooklyn,40.62031,-73.9037
+UHF42,UHF 42,209,Bensonhurst - Bay Ridge,2,Brooklyn,40.61178,-74.01265
+UHF42,UHF 42,210,Coney Island - Sheepshead Bay,2,Brooklyn,40.59043,-73.96119
+UHF42,UHF 42,211,Williamsburg - Bushwick,2,Brooklyn,40.69863,-73.93158
+UHF42,UHF 42,301,Washington Heights,3,Manhattan,40.84954,-73.93509
+UHF42,UHF 42,302,Central Harlem - Morningside Heights,3,Manhattan,40.81317,-73.94836
+UHF42,UHF 42,303,East Harlem,3,Manhattan,40.79397,-73.93501
+UHF42,UHF 42,304,Upper West Side,3,Manhattan,40.78838,-73.97547
+UHF42,UHF 42,305,Upper East Side,3,Manhattan,40.77168,-73.95551
+UHF42,UHF 42,306,Chelsea - Clinton,3,Manhattan,40.75401,-73.99367
+UHF42,UHF 42,307,Gramercy Park - Murray Hill,3,Manhattan,40.74885,-73.9753
+UHF42,UHF 42,308,Greenwich Village - SoHo,3,Manhattan,40.72653,-74.00417
+UHF42,UHF 42,309,Union Square - Lower East Side,3,Manhattan,40.72327,-73.9847
+UHF42,UHF 42,310,Lower Manhattan,3,Manhattan,40.70524,-74.01137
+UHF42,UHF 42,401,Long Island City - Astoria,4,Queens,40.75754,-73.92785
+UHF42,UHF 42,402,West Queens,4,Queens,40.74643,-73.88769
+UHF42,UHF 42,403,Flushing - Clearview,4,Queens,40.77074,-73.81511
+UHF42,UHF 42,404,Bayside - Little Neck,4,Queens,40.75662,-73.75391
+UHF42,UHF 42,405,Ridgewood - Forest Hills,4,Queens,40.71123,-73.87234
+UHF42,UHF 42,406,Fresh Meadows,4,Queens,40.73366,-73.80752
+UHF42,UHF 42,407,Southwest Queens,4,Queens,40.67955,-73.83553
+UHF42,UHF 42,408,Jamaica,4,Queens,40.69603,-73.78311
+UHF42,UHF 42,409,Southeast Queens,4,Queens,40.70222,-73.73709
+UHF42,UHF 42,410,Rockaways,4,Queens,40.58999,-73.82284
+UHF42,UHF 42,501,Port Richmond,5,Staten Island,40.63239,-74.14689
+UHF42,UHF 42,502,Stapleton - St. George,5,Staten Island,40.61044,-74.08792
+UHF42,UHF 42,503,Willowbrook,5,Staten Island,40.60031,-74.16118
+UHF42,UHF 42,504,South Beach - Tottenville,5,Staten Island,40.54531,-74.17922
+Subboro,Sub-borough/PUMA,1,Mott Haven/Hunts Point,1,Bronx,40.80925,-73.89914
+Subboro,Sub-borough/PUMA,2,Morrisania/East Tremont,1,Bronx,40.8454,-73.88765
+Subboro,Sub-borough/PUMA,3,Highbridge/South Concourse,1,Bronx,40.83247,-73.92155
+Subboro,Sub-borough/PUMA,4,University Heights/Fordham,1,Bronx,40.85216,-73.90974
+Subboro,Sub-borough/PUMA,5,Kingsbridge Heights/Mosholu,1,Bronx,40.87035,-73.8909
+Subboro,Sub-borough/PUMA,6,Riverdale/Kingsbridge,1,Bronx,40.88944,-73.90488
+Subboro,Sub-borough/PUMA,7,Soundview/Parkchester,1,Bronx,40.82537,-73.85953
+Subboro,Sub-borough/PUMA,8,Throgs Neck/Co-op City,1,Bronx,40.85103,-73.81588
+Subboro,Sub-borough/PUMA,9,Pelham Parkway,1,Bronx,40.85618,-73.85254
+Subboro,Sub-borough/PUMA,10,Williamsbridge/Baychester,1,Bronx,40.89,-73.86164
+Subboro,Sub-borough/PUMA,11,Williamsburg/Greenpoint,2,Brooklyn,40.71844,-73.94839
+Subboro,Sub-borough/PUMA,12,Brooklyn Heights/Fort Greene,2,Brooklyn,40.69266,-73.97739
+Subboro,Sub-borough/PUMA,13,Bedford Stuyvesant,2,Brooklyn,40.68987,-73.94107
+Subboro,Sub-borough/PUMA,14,Bushwick,2,Brooklyn,40.69695,-73.92064
+Subboro,Sub-borough/PUMA,15,East New York/Starret City,2,Brooklyn,40.66497,-73.87753
+Subboro,Sub-borough/PUMA,16,Park Slope/Carroll Gardens,2,Brooklyn,40.67187,-73.9881
+Subboro,Sub-borough/PUMA,17,Sunset Park,2,Brooklyn,40.64995,-74.00153
+Subboro,Sub-borough/PUMA,18,N. Crown Heights/Prospect Heights,2,Brooklyn,40.67499,-73.94397
+Subboro,Sub-borough/PUMA,19,South Crown Heights,2,Brooklyn,40.66136,-73.94789
+Subboro,Sub-borough/PUMA,20,Bay Ridge,2,Brooklyn,40.6229,-74.0239
+Subboro,Sub-borough/PUMA,21,Bensonhurst,2,Brooklyn,40.60688,-73.99363
+Subboro,Sub-borough/PUMA,22,Borough Park,2,Brooklyn,40.62993,-73.98268
+Subboro,Sub-borough/PUMA,23,Coney Island,2,Brooklyn,40.5814,-73.98104
+Subboro,Sub-borough/PUMA,24,Flatbush,2,Brooklyn,40.6304,-73.95914
+Subboro,Sub-borough/PUMA,25,Sheepshead Bay/Gravesend,2,Brooklyn,40.59496,-73.94868
+Subboro,Sub-borough/PUMA,26,Brownsville/Ocean Hill,2,Brooklyn,40.6682,-73.9072
+Subboro,Sub-borough/PUMA,27,East Flatbush,2,Brooklyn,40.64767,-73.93429
+Subboro,Sub-borough/PUMA,28,Flatlands/Canarsie,2,Brooklyn,40.61553,-73.90384
+Subboro,Sub-borough/PUMA,29,Greenwich Village/Financial District,3,Manhattan,40.71716,-74.00742
+Subboro,Sub-borough/PUMA,30,Lower East Side/Chinatown,3,Manhattan,40.71936,-73.98612
+Subboro,Sub-borough/PUMA,31,Chelsea/Clinton/Midtown,3,Manhattan,40.75401,-73.99213
+Subboro,Sub-borough/PUMA,32,Stuyvesant Town/Turtle Bay,3,Manhattan,40.74535,-73.97521
+Subboro,Sub-borough/PUMA,33,Upper West Side,3,Manhattan,40.78418,-73.97222
+Subboro,Sub-borough/PUMA,34,Upper East Side,3,Manhattan,40.77157,-73.95572
+Subboro,Sub-borough/PUMA,35,Morningside Heights/Hamilton Heights,3,Manhattan,40.81673,-73.95575
+Subboro,Sub-borough/PUMA,36,Central Harlem,3,Manhattan,40.81321,-73.94459
+Subboro,Sub-borough/PUMA,37,East Harlem,3,Manhattan,40.7946,-73.93488
+Subboro,Sub-borough/PUMA,38,Washington Heights/Inwood,3,Manhattan,40.85595,-73.93067
+Subboro,Sub-borough/PUMA,39,Astoria,4,Queens,40.76792,-73.918
+Subboro,Sub-borough/PUMA,40,Sunnyside/Woodside,4,Queens,40.74072,-73.91972
+Subboro,Sub-borough/PUMA,41,Jackson Heights,4,Queens,40.7622,-73.87589
+Subboro,Sub-borough/PUMA,42,Elmhurst/Corona,4,Queens,40.74058,-73.85508
+Subboro,Sub-borough/PUMA,43,Middle Village/Ridgewood,4,Queens,40.7104,-73.88946
+Subboro,Sub-borough/PUMA,44,Forest Hills/Rego Park,4,Queens,40.72264,-73.85169
+Subboro,Sub-borough/PUMA,45,Flushing/Whitestone,4,Queens,40.77147,-73.81589
+Subboro,Sub-borough/PUMA,46,Hillcrest/Fresh Meadows,4,Queens,40.72584,-73.79617
+Subboro,Sub-borough/PUMA,47,Kew Gardens/Woodhaven,4,Queens,40.69637,-73.84161
+Subboro,Sub-borough/PUMA,48,Howard Beach/South Ozone Park,4,Queens,40.66933,-73.83301
+Subboro,Sub-borough/PUMA,49,Bayside/Little Neck,4,Queens,40.75646,-73.7593
+Subboro,Sub-borough/PUMA,50,Jamaica,4,Queens,40.69164,-73.77865
+Subboro,Sub-borough/PUMA,51,Bellerose/Rosedale,4,Queens,40.68046,-73.75505
+Subboro,Sub-borough/PUMA,52,Rockaways,4,Queens,40.59103,-73.82455
+Subboro,Sub-borough/PUMA,53,North Shore,5,Staten Island,40.62668,-74.12045
+Subboro,Sub-borough/PUMA,54,Mid Island,5,Staten Island,40.59071,-74.14328
+Subboro,Sub-borough/PUMA,55,South Shore,5,Staten Island,40.53892,-74.18718
+CD,Community District,101,Financial District (CD1),3,Manhattan,40.70738,-74.012
+CD,Community District,102,Greenwich Village and Soho (CD2),3,Manhattan,40.7298,-74.00153
+CD,Community District,103,Lower East Side and Chinatown (CD3),3,Manhattan,40.7196,-73.98554
+CD,Community District,104,Clinton and Chelsea (CD4),3,Manhattan,40.75542,-73.99754
+CD,Community District,105,Midtown (CD5),3,Manhattan,40.75228,-73.98406
+CD,Community District,106,Stuyvesant Town and Turtle Bay (CD6),3,Manhattan,40.74466,-73.97458
+CD,Community District,107,Upper West Side (CD7),3,Manhattan,40.78717,-73.97613
+CD,Community District,108,Upper East Side (CD8),3,Manhattan,40.77157,-73.95572
+CD,Community District,109,Morningside Heights and Hamilton Heights (CD9),3,Manhattan,40.81805,-73.95503
+CD,Community District,110,Central Harlem (CD10),3,Manhattan,40.81369,-73.94474
+CD,Community District,111,East Harlem (CD11),3,Manhattan,40.79491,-73.93498
+CD,Community District,112,Washington Heights and Inwood (CD12),3,Manhattan,40.85512,-73.93152
+CD,Community District,201,Mott Haven and Melrose (CD1),1,Bronx,40.81091,-73.91647
+CD,Community District,202,Hunts Point and Longwood (CD2),1,Bronx,40.81333,-73.88788
+CD,Community District,203,Morrisania and Crotona (CD3),1,Bronx,40.83256,-73.89865
+CD,Community District,204,Highbridge and Concourse (CD4),1,Bronx,40.83381,-73.9208
+CD,Community District,205,Fordham and University Heights (CD5),1,Bronx,40.85275,-73.90958
+CD,Community District,206,Belmont and East Tremont (CD6),1,Bronx,40.8496,-73.88753
+CD,Community District,207,Kingsbridge Heights and Bedford (CD7),1,Bronx,40.87098,-73.89146
+CD,Community District,208,Riverdale and Fieldston (CD8),1,Bronx,40.8905,-73.9063
+CD,Community District,209,Parkchester and Soundview (CD9),1,Bronx,40.82477,-73.86166
+CD,Community District,210,Throgs Neck and Co-op City (CD10),1,Bronx,40.83863,-73.82181
+CD,Community District,211,Morris Park and Bronxdale (CD11),1,Bronx,40.85615,-73.85278
+CD,Community District,212,Williamsbridge and Baychester (CD12),1,Bronx,40.8863,-73.85149
+CD,Community District,301,Greenpoint and Williamsburg (CD1),2,Brooklyn,40.71684,-73.94717
+CD,Community District,302,Fort Greene and Brooklyn Heights (CD2),2,Brooklyn,40.69349,-73.97873
+CD,Community District,303,Bedford Stuyvesant (CD3),2,Brooklyn,40.68769,-73.94056
+CD,Community District,304,Bushwick (CD4),2,Brooklyn,40.69455,-73.91683
+CD,Community District,305,East New York and Starrett City (CD5),2,Brooklyn,40.66848,-73.87971
+CD,Community District,306,Park Slope and Carroll Gardens (CD6),2,Brooklyn,40.67637,-73.99445
+CD,Community District,307,Sunset Park (CD7),2,Brooklyn,40.65199,-74.00106
+CD,Community District,308,Crown Heights and Prospect Heights (CD8),2,Brooklyn,40.67436,-73.9466
+CD,Community District,309,South Crown Heights and Lefferts Gardens (CD9),2,Brooklyn,40.6628,-73.94692
+CD,Community District,310,Bay Ridge and Dyker Heights (CD10),2,Brooklyn,40.62331,-74.02347
+CD,Community District,311,Bensonhurst (CD11),2,Brooklyn,40.60721,-73.99364
+CD,Community District,312,Borough Park (CD12),2,Brooklyn,40.63123,-73.98326
+CD,Community District,313,Coney Island (CD13),2,Brooklyn,40.58065,-73.98214
+CD,Community District,314,Flatbush and Midwood (CD14),2,Brooklyn,40.63185,-73.95912
+CD,Community District,315,Sheepshead Bay (CD15),2,Brooklyn,40.59448,-73.94985
+CD,Community District,316,Brownsville (CD16),2,Brooklyn,40.66816,-73.91094
+CD,Community District,317,East Flatbush (CD17),2,Brooklyn,40.64804,-73.93382
+CD,Community District,318,Flatlands and Canarsie (CD18),2,Brooklyn,40.624,-73.91402
+CD,Community District,401,Long Island City and Astoria (CD1),4,Queens,40.7702,-73.91337
+CD,Community District,402,Woodside and Sunnyside (CD2),4,Queens,40.74047,-73.92301
+CD,Community District,403,Jackson Heights (CD3),4,Queens,40.75823,-73.87694
+CD,Community District,404,Elmhurst and Corona (CD4),4,Queens,40.74085,-73.8715
+CD,Community District,405,Ridgewood and Maspeth (CD5),4,Queens,40.71076,-73.89053
+CD,Community District,406,Rego Park and Forest Hills (CD6),4,Queens,40.72217,-73.85135
+CD,Community District,407,Flushing and Whitestone (CD7),4,Queens,40.77146,-73.81604
+CD,Community District,408,Hillcrest and Fresh Meadows (CD8),4,Queens,40.72617,-73.79736
+CD,Community District,409,Kew Gardens and Woodhaven (CD9),4,Queens,40.69484,-73.83907
+CD,Community District,410,South Ozone Park and Howard Beach (CD10),4,Queens,40.66937,-73.83274
+CD,Community District,411,Bayside and Little Neck (CD11),4,Queens,40.75661,-73.75918
+CD,Community District,412,Jamaica and Hollis (CD12),4,Queens,40.69158,-73.77844
+CD,Community District,413,Queens Village (CD13),4,Queens,40.69956,-73.73735
+CD,Community District,414,Rockaway and Broad Channel (CD14),4,Queens,40.58913,-73.81028
+CD,Community District,501,St. George and Stapleton (CD1),5,Staten Island,40.62664,-74.12049
+CD,Community District,502,South Beach and Willowbrook (CD2),5,Staten Island,40.59319,-74.1418
+CD,Community District,503,Tottenville and Great Kills (CD3),5,Staten Island,40.54124,-74.1903
+NTA,Neighborhood Tabulation Area,501,Claremont-Bathgate,1,Bronx,40.84275,-73.90032
+NTA,Neighborhood Tabulation Area,503,Eastchester-Edenwald-Baychester,1,Bronx,40.88094,-73.83664
+NTA,Neighborhood Tabulation Area,505,Bedford Park-Fordham North,1,Bronx,40.86768,-73.89018
+NTA,Neighborhood Tabulation Area,506,Belmont,1,Bronx,40.85778,-73.88587
+NTA,Neighborhood Tabulation Area,507,Bronxdale,1,Bronx,40.864,-73.8649
+NTA,Neighborhood Tabulation Area,508,West Farms-Bronx River,1,Bronx,40.83416,-73.87229
+NTA,Neighborhood Tabulation Area,509,Soundview-Castle Hill-Clason Point-Harding Park,1,Bronx,40.81805,-73.85619
+NTA,Neighborhood Tabulation Area,510,Pelham Bay-Country Club-City Island,1,Bronx,40.8466,-73.8065
+NTA,Neighborhood Tabulation Area,513,Co-op City,1,Bronx,40.87398,-73.82828
+NTA,Neighborhood Tabulation Area,514,East Concourse-Concourse Village,1,Bronx,40.83051,-73.91579
+NTA,Neighborhood Tabulation Area,517,East Tremont,1,Bronx,40.844970000000004,-73.88552
+NTA,Neighborhood Tabulation Area,522,North Riverdale-Fieldston-Riverdale,1,Bronx,40.89953,-73.90699
+NTA,Neighborhood Tabulation Area,526,Highbridge,1,Bronx,40.83783,-73.92616
+NTA,Neighborhood Tabulation Area,527,Hunts Point,1,Bronx,40.81209,-73.88555
+NTA,Neighborhood Tabulation Area,528,Van Cortlandt Village,1,Bronx,40.87651,-73.89562
+NTA,Neighborhood Tabulation Area,529,Spuyten Duyvil-Kingsbridge,1,Bronx,40.88241,-73.91067
+NTA,Neighborhood Tabulation Area,530,Kingsbridge Heights,1,Bronx,40.86527,-73.90591
+NTA,Neighborhood Tabulation Area,531,Allerton-Pelham Gardens,1,Bronx,40.86447,-73.84743
+NTA,Neighborhood Tabulation Area,533,Longwood,1,Bronx,40.81967,-73.89896
+NTA,Neighborhood Tabulation Area,534,Melrose South-Mott Haven North,1,Bronx,40.81826,-73.91285
+NTA,Neighborhood Tabulation Area,535,Morrisania-Melrose,1,Bronx,40.82751,-73.90235
+NTA,Neighborhood Tabulation Area,536,University Heights-Morris Heights,1,Bronx,40.85252,-73.91597
+NTA,Neighborhood Tabulation Area,537,Van Nest-Morris Park-Westchester Square,1,Bronx,40.84679,-73.85066
+NTA,Neighborhood Tabulation Area,539,Mott Haven-Port Morris,1,Bronx,40.80735,-73.91682
+NTA,Neighborhood Tabulation Area,540,Fordham South,1,Bronx,40.85815,-73.89954
+NTA,Neighborhood Tabulation Area,541,Mount Hope,1,Bronx,40.84906,-73.90512
+NTA,Neighborhood Tabulation Area,543,Norwood,1,Bronx,40.87714,-73.87902
+NTA,Neighborhood Tabulation Area,544,Williamsbridge-Olinville,1,Bronx,40.88216,-73.85895
+NTA,Neighborhood Tabulation Area,546,Parkchester,1,Bronx,40.83775,-73.85799
+NTA,Neighborhood Tabulation Area,549,Pelham Parkway,1,Bronx,40.8544,-73.8544
+NTA,Neighborhood Tabulation Area,552,Schuylerville-Throgs Neck-Edgewater Park,1,Bronx,40.82333,-73.82359
+NTA,Neighborhood Tabulation Area,555,Soundview-Bruckner,1,Bronx,40.8279,-73.86968
+NTA,Neighborhood Tabulation Area,559,Westchester-Unionport,1,Bronx,40.8321,-73.84864
+NTA,Neighborhood Tabulation Area,562,Woodlawn-Wakefield,1,Bronx,40.89793,-73.85222
+NTA,Neighborhood Tabulation Area,563,West Concourse,1,Bronx,40.829,-73.9244
+NTA,Neighborhood Tabulation Area,575,Crotona Park East,1,Bronx,40.834,-73.8859
+NTA,Neighborhood Tabulation Area,598,Rikers Island,1,Bronx,40.79113,-73.88265
+NTA,Neighborhood Tabulation Area,599,park-cemetery-etc-Bronx,1,Bronx,40.87246,-73.84799
+NTA,Neighborhood Tabulation Area,4709,Brooklyn Heights-Cobble Hill,2,Brooklyn,40.69547,-73.99487
+NTA,Neighborhood Tabulation Area,4717,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,2,Brooklyn,40.5883,-73.94151
+NTA,Neighborhood Tabulation Area,4719,Brighton Beach,2,Brooklyn,40.58092,-73.96122
+NTA,Neighborhood Tabulation Area,4721,Seagate-Coney Island,2,Brooklyn,40.57648,-73.99123
+NTA,Neighborhood Tabulation Area,4723,West Brighton,2,Brooklyn,40.57909,-73.97339
+NTA,Neighborhood Tabulation Area,4725,Homecrest,2,Brooklyn,40.59995,-73.96433
+NTA,Neighborhood Tabulation Area,4726,Gravesend,2,Brooklyn,40.5884,-73.98142
+NTA,Neighborhood Tabulation Area,4727,Bath Beach,2,Brooklyn,40.60426,-74.00748
+NTA,Neighborhood Tabulation Area,4728,Bensonhurst West,2,Brooklyn,40.61222,-73.99526
+NTA,Neighborhood Tabulation Area,4729,Bensonhurst East,2,Brooklyn,40.60142,-73.98355
+NTA,Neighborhood Tabulation Area,4730,Dyker Heights,2,Brooklyn,40.62244,-74.0121
+NTA,Neighborhood Tabulation Area,4731,Bay Ridge,2,Brooklyn,40.62485,-74.02989
+NTA,Neighborhood Tabulation Area,4732,Sunset Park West,2,Brooklyn,40.65238,-74.01124
+NTA,Neighborhood Tabulation Area,4733,Carroll Gardens-Columbia Street-Red Hook,2,Brooklyn,40.67877,-74.0039
+NTA,Neighborhood Tabulation Area,4734,Sunset Park East,2,Brooklyn,40.64189,-74.00465
+NTA,Neighborhood Tabulation Area,4735,Stuyvesant Heights,2,Brooklyn,40.68817,-73.93189
+NTA,Neighborhood Tabulation Area,4737,Park Slope-Gowanus,2,Brooklyn,40.67123,-73.9839
+NTA,Neighborhood Tabulation Area,4738,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,2,Brooklyn,40.69293,-73.98599
+NTA,Neighborhood Tabulation Area,4740,Windsor Terrace,2,Brooklyn,40.65361,-73.97798
+NTA,Neighborhood Tabulation Area,4741,Kensington-Ocean Parkway,2,Brooklyn,40.64059,-73.9762
+NTA,Neighborhood Tabulation Area,4742,Flatbush,2,Brooklyn,40.6379,-73.96097
+NTA,Neighborhood Tabulation Area,4743,Midwood,2,Brooklyn,40.62092,-73.95682
+NTA,Neighborhood Tabulation Area,4744,Madison,2,Brooklyn,40.60491,-73.94814
+NTA,Neighborhood Tabulation Area,4745,Georgetown-Marine Park-Bergen Beach-Mill Basin,2,Brooklyn,40.61458,-73.91525
+NTA,Neighborhood Tabulation Area,4746,Ocean Parkway South,2,Brooklyn,40.61731,-73.97033
+NTA,Neighborhood Tabulation Area,4750,Canarsie,2,Brooklyn,40.63804,-73.89975
+NTA,Neighborhood Tabulation Area,4758,Flatlands,2,Brooklyn,40.62627,-73.9301
+NTA,Neighborhood Tabulation Area,4760,Prospect Lefferts Gardens-Wingate,2,Brooklyn,40.65874,-73.94744
+NTA,Neighborhood Tabulation Area,4761,Crown Heights North,2,Brooklyn,40.67447,-73.93929
+NTA,Neighborhood Tabulation Area,4763,Crown Heights South,2,Brooklyn,40.66654,-73.94878
+NTA,Neighborhood Tabulation Area,4764,Prospect Heights,2,Brooklyn,40.67764,-73.96759
+NTA,Neighborhood Tabulation Area,4768,Fort Greene,2,Brooklyn,40.69079,-73.97488
+NTA,Neighborhood Tabulation Area,4769,Clinton Hill,2,Brooklyn,40.68797,-73.96236
+NTA,Neighborhood Tabulation Area,4772,Williamsburg,2,Brooklyn,40.70392,-73.9586
+NTA,Neighborhood Tabulation Area,4773,North Side-South Side,2,Brooklyn,40.71492,-73.95862
+NTA,Neighborhood Tabulation Area,4775,Bedford,2,Brooklyn,40.69151,-73.9499
+NTA,Neighborhood Tabulation Area,4776,Greenpoint,2,Brooklyn,40.7295,-73.94952
+NTA,Neighborhood Tabulation Area,4777,Bushwick North,2,Brooklyn,40.70056,-73.91777
+NTA,Neighborhood Tabulation Area,4778,Bushwick South,2,Brooklyn,40.69646,-73.92511
+NTA,Neighborhood Tabulation Area,4779,Ocean Hill,2,Brooklyn,40.67664,-73.91365
+NTA,Neighborhood Tabulation Area,4781,Brownsville,2,Brooklyn,40.664,-73.91025
+NTA,Neighborhood Tabulation Area,4782,East New York,2,Brooklyn,40.66095,-73.87684
+NTA,Neighborhood Tabulation Area,4783,Cypress Hills-City Line,2,Brooklyn,40.68218,-73.87833
+NTA,Neighborhood Tabulation Area,4785,East New York (Pennsylvania Ave),2,Brooklyn,40.66656,-73.89536
+NTA,Neighborhood Tabulation Area,4788,Borough Park,2,Brooklyn,40.63095,-73.98866
+NTA,Neighborhood Tabulation Area,4790,East Williamsburg,2,Brooklyn,40.71537,-73.9368
+NTA,Neighborhood Tabulation Area,4791,East Flatbush-Farragut,2,Brooklyn,40.64395,-73.93793
+NTA,Neighborhood Tabulation Area,4793,Starrett City,2,Brooklyn,40.64753,-73.88241
+NTA,Neighborhood Tabulation Area,4795,Erasmus,2,Brooklyn,40.64611,-73.95162
+NTA,Neighborhood Tabulation Area,4796,Rugby-Remsen Village,2,Brooklyn,40.65237,-73.92225
+NTA,Neighborhood Tabulation Area,4799,park-cemetery-etc-Brooklyn,2,Brooklyn,40.62308,-73.91956
+NTA,Neighborhood Tabulation Area,6101,Marble Hill-Inwood,3,Manhattan,40.86788,-73.91766
+NTA,Neighborhood Tabulation Area,6103,Central Harlem North-Polo Grounds,3,Manhattan,40.81826,-73.94077
+NTA,Neighborhood Tabulation Area,6104,Hamilton Heights,3,Manhattan,40.82702,-73.94847
+NTA,Neighborhood Tabulation Area,6106,Manhattanville,3,Manhattan,40.81802,-73.95382
+NTA,Neighborhood Tabulation Area,6109,Morningside Heights,3,Manhattan,40.80789,-73.96254
+NTA,Neighborhood Tabulation Area,6111,Central Harlem South,3,Manhattan,40.80433,-73.95129
+NTA,Neighborhood Tabulation Area,6112,Upper West Side,3,Manhattan,40.79038,-73.97391
+NTA,Neighborhood Tabulation Area,6113,Hudson Yards-Chelsea-Flatiron-Union Square,3,Manhattan,40.74758,-73.99902
+NTA,Neighborhood Tabulation Area,6114,Lincoln Square,3,Manhattan,40.77485,-73.9847
+NTA,Neighborhood Tabulation Area,6115,Clinton,3,Manhattan,40.76416,-73.9924
+NTA,Neighborhood Tabulation Area,6117,Midtown-Midtown South,3,Manhattan,40.75573,-73.9835
+NTA,Neighborhood Tabulation Area,6119,Turtle Bay-East Midtown,3,Manhattan,40.75431,-73.96902
+NTA,Neighborhood Tabulation Area,6120,Murray Hill-Kips Bay,3,Manhattan,40.74421,-73.97751
+NTA,Neighborhood Tabulation Area,6121,Gramercy,3,Manhattan,40.73682,-73.98405
+NTA,Neighborhood Tabulation Area,6122,East Village,3,Manhattan,40.72762,-73.98593
+NTA,Neighborhood Tabulation Area,6123,West Village,3,Manhattan,40.73302,-74.00152
+NTA,Neighborhood Tabulation Area,6124,SoHo-TriBeCa-Civic Center-Little Italy,3,Manhattan,40.72077,-74.00475
+NTA,Neighborhood Tabulation Area,6125,Battery Park City-Lower Manhattan,3,Manhattan,40.70801,-74.01025
+NTA,Neighborhood Tabulation Area,6127,Chinatown,3,Manhattan,40.71561,-73.99463
+NTA,Neighborhood Tabulation Area,6128,Lower East Side,3,Manhattan,40.71784,-73.98091
+NTA,Neighborhood Tabulation Area,6131,Lenox Hill-Roosevelt Island,3,Manhattan,40.76496,-73.95509
+NTA,Neighborhood Tabulation Area,6132,Yorkville,3,Manhattan,40.77732,-73.94868
+NTA,Neighborhood Tabulation Area,6133,East Harlem South,3,Manhattan,40.79001,-73.94575
+NTA,Neighborhood Tabulation Area,6134,East Harlem North,3,Manhattan,40.80117,-73.93735
+NTA,Neighborhood Tabulation Area,6135,Washington Heights North,3,Manhattan,40.85711,-73.93283
+NTA,Neighborhood Tabulation Area,6136,Washington Heights South,3,Manhattan,40.8417,-73.94141
+NTA,Neighborhood Tabulation Area,6140,Upper East Side-Carnegie Hill,3,Manhattan,40.77473,-73.96118
+NTA,Neighborhood Tabulation Area,6150,Stuyvesant Town-Cooper Village,3,Manhattan,40.73181,-73.97658
+NTA,Neighborhood Tabulation Area,6199,park-cemetery-etc-Manhattan,3,Manhattan,40.78793,-73.95483
+NTA,Neighborhood Tabulation Area,8101,South Jamaica,4,Queens,40.69443,-73.79096
+NTA,Neighborhood Tabulation Area,8102,Springfield Gardens North,4,Queens,40.67209,-73.77304
+NTA,Neighborhood Tabulation Area,8103,Springfield Gardens South-Brookville,4,Queens,40.66219,-73.76449
+NTA,Neighborhood Tabulation Area,8105,Rosedale,4,Queens,40.65784,-73.73946
+NTA,Neighborhood Tabulation Area,8106,Jamaica Estates-Holliswood,4,Queens,40.72066,-73.7761
+NTA,Neighborhood Tabulation Area,8107,Hollis,4,Queens,40.71064,-73.76114
+NTA,Neighborhood Tabulation Area,8108,St. Albans,4,Queens,40.6912,-73.76315
+NTA,Neighborhood Tabulation Area,8110,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,4,Queens,40.57149,-73.87648
+NTA,Neighborhood Tabulation Area,8112,Hammels-Arverne-Edgemere,4,Queens,40.59406,-73.78962
+NTA,Neighborhood Tabulation Area,8115,Far Rockaway-Bayswater,4,Queens,40.60245,-73.75531
+NTA,Neighborhood Tabulation Area,8117,Forest Hills,4,Queens,40.72143,-73.84767
+NTA,Neighborhood Tabulation Area,8118,Rego Park,4,Queens,40.72616,-73.86334
+NTA,Neighborhood Tabulation Area,8119,Glendale,4,Queens,40.70354,-73.87575
+NTA,Neighborhood Tabulation Area,8120,Ridgewood,4,Queens,40.70653,-73.90172
+NTA,Neighborhood Tabulation Area,8121,Middle Village,4,Queens,40.71834,-73.88005
+NTA,Neighborhood Tabulation Area,8122,Flushing,4,Queens,40.76109,-73.82887
+NTA,Neighborhood Tabulation Area,8123,College Point,4,Queens,40.78092,-73.84281
+NTA,Neighborhood Tabulation Area,8125,Corona,4,Queens,40.74235,-73.85837
+NTA,Neighborhood Tabulation Area,8126,North Corona,4,Queens,40.75258,-73.86304
+NTA,Neighborhood Tabulation Area,8127,East Elmhurst,4,Queens,40.76335,-73.86839
+NTA,Neighborhood Tabulation Area,8128,Jackson Heights,4,Queens,40.75731,-73.88532
+NTA,Neighborhood Tabulation Area,8129,Elmhurst,4,Queens,40.73949,-73.87712
+NTA,Neighborhood Tabulation Area,8130,Maspeth,4,Queens,40.72399,-73.90233
+NTA,Neighborhood Tabulation Area,8131,Hunters Point-Sunnyside-West Maspeth,4,Queens,40.73977,-73.93121
+NTA,Neighborhood Tabulation Area,8133,Cambria Heights,4,Queens,40.69434,-73.73555
+NTA,Neighborhood Tabulation Area,8134,Queens Village,4,Queens,40.71545,-73.74153
+NTA,Neighborhood Tabulation Area,8135,Briarwood-Jamaica Hills,4,Queens,40.71158,-73.80866
+NTA,Neighborhood Tabulation Area,8137,Kew Gardens Hills,4,Queens,40.7264,-73.81867
+NTA,Neighborhood Tabulation Area,8138,Pomonok-Flushing Heights-Hillcrest,4,Queens,40.72833,-73.80244
+NTA,Neighborhood Tabulation Area,8141,Fresh Meadows-Utopia,4,Queens,40.73489,-73.78372
+NTA,Neighborhood Tabulation Area,8142,Oakland Gardens,4,Queens,40.74267,-73.75462
+NTA,Neighborhood Tabulation Area,8143,Bellerose,4,Queens,40.73549,-73.72666
+NTA,Neighborhood Tabulation Area,8144,Glen Oaks-Floral Park-New Hyde Park,4,Queens,40.74599,-73.71102
+NTA,Neighborhood Tabulation Area,8145,Douglas Manor-Douglaston-Little Neck,4,Queens,40.76373,-73.73694
+NTA,Neighborhood Tabulation Area,8146,Bayside-Bayside Hills,4,Queens,40.76273,-73.77343
+NTA,Neighborhood Tabulation Area,8147,Ft. Totten-Bay Terrace-Clearview,4,Queens,40.78333,-73.78596
+NTA,Neighborhood Tabulation Area,8148,Auburndale,4,Queens,40.75103,-73.78795
+NTA,Neighborhood Tabulation Area,8149,Whitestone,4,Queens,40.78819,-73.81564
+NTA,Neighborhood Tabulation Area,8150,Elmhurst-Maspeth,4,Queens,40.73832,-73.89218
+NTA,Neighborhood Tabulation Area,8151,Murray Hill,4,Queens,40.76835,-73.80955
+NTA,Neighborhood Tabulation Area,8152,East Flushing,4,Queens,40.75411,-73.80729
+NTA,Neighborhood Tabulation Area,8153,Woodhaven,4,Queens,40.68873,-73.85576
+NTA,Neighborhood Tabulation Area,8154,Richmond Hill,4,Queens,40.69454,-73.83093
+NTA,Neighborhood Tabulation Area,8155,South Ozone Park,4,Queens,40.67615,-73.81946
+NTA,Neighborhood Tabulation Area,8156,Ozone Park,4,Queens,40.6756,-73.84705
+NTA,Neighborhood Tabulation Area,8157,Lindenwood-Howard Beach,4,Queens,40.65817,-73.84489
+NTA,Neighborhood Tabulation Area,8160,Kew Gardens,4,Queens,40.70804,-73.82871
+NTA,Neighborhood Tabulation Area,8161,Jamaica,4,Queens,40.70437,-73.79398
+NTA,Neighborhood Tabulation Area,8162,Queensboro Hill,4,Queens,40.74308,-73.81964
+NTA,Neighborhood Tabulation Area,8163,Woodside,4,Queens,40.74928,-73.90373
+NTA,Neighborhood Tabulation Area,8166,Laurelton,4,Queens,40.67592,-73.74453
+NTA,Neighborhood Tabulation Area,8168,Queensbridge-Ravenswood-Long Island City,4,Queens,40.75756,-73.93875
+NTA,Neighborhood Tabulation Area,8170,Astoria,4,Queens,40.76149,-73.9197
+NTA,Neighborhood Tabulation Area,8171,Old Astoria,4,Queens,40.77157,-73.92833
+NTA,Neighborhood Tabulation Area,8172,Steinway,4,Queens,40.77742,-73.90541
+NTA,Neighborhood Tabulation Area,8176,Baisley Park,4,Queens,40.67895,-73.79099
+NTA,Neighborhood Tabulation Area,8198,Airport,4,Queens,40.66459,-73.79857
+NTA,Neighborhood Tabulation Area,8199,park-cemetery-etc-Queens,4,Queens,40.68997,-73.8326
+NTA,Neighborhood Tabulation Area,8501,Annadale-Huguenot-Prince's Bay-Eltingville,5,Staten Island,40.52864,-74.18774
+NTA,Neighborhood Tabulation Area,8505,New Springville-Bloomfield-Travis,5,Staten Island,40.59586,-74.17637
+NTA,Neighborhood Tabulation Area,8507,Westerleigh,5,Staten Island,40.61688,-74.12535
+NTA,Neighborhood Tabulation Area,8508,Grymes Hill-Clifton-Fox Hills,5,Staten Island,40.61797,-74.08784
+NTA,Neighborhood Tabulation Area,8511,Charleston-Richmond Valley-Tottenville,5,Staten Island,40.52552,-74.23356
+NTA,Neighborhood Tabulation Area,8512,Mariner's Harbor-Arlington-Port Ivory-Graniteville,5,Staten Island,40.63131,-74.16737
+NTA,Neighborhood Tabulation Area,8514,Grasmere-Arrochar-Ft. Wadsworth,5,Staten Island,40.60032,-74.07178
+NTA,Neighborhood Tabulation Area,8522,West New Brighton-New Brighton-St. George,5,Staten Island,40.63897,-74.10231
+NTA,Neighborhood Tabulation Area,8524,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,5,Staten Island,40.58656,-74.13298
+NTA,Neighborhood Tabulation Area,8525,Oakwood-Oakwood Beach,5,Staten Island,40.562,-74.12259
+NTA,Neighborhood Tabulation Area,8528,Port Richmond,5,Staten Island,40.62817,-74.14079
+NTA,Neighborhood Tabulation Area,8532,Rossville-Woodrow,5,Staten Island,40.54033,-74.20783
+NTA,Neighborhood Tabulation Area,8535,New Brighton-Silver Lake,5,Staten Island,40.63005,-74.10286
+NTA,Neighborhood Tabulation Area,8536,Old Town-Dongan Hills-South Beach,5,Staten Island,40.58679,-74.08551
+NTA,Neighborhood Tabulation Area,8537,Stapleton-Rosebank,5,Staten Island,40.61872,-74.0737
+NTA,Neighborhood Tabulation Area,8545,New Dorp-Midland Beach,5,Staten Island,40.57177,-74.10501
+NTA,Neighborhood Tabulation Area,8548,Arden Heights,5,Staten Island,40.55266,-74.18848
+NTA,Neighborhood Tabulation Area,8554,Great Kills,5,Staten Island,40.55186,-74.15089
+NTA,Neighborhood Tabulation Area,8599,park-cemetery-etc-Staten Island,5,Staten Island,40.54578,-74.12835
+NYCKIDS,NYC KIDS,10,Rest of Manhattan,3,Manhattan,40.7713,-73.97327
+NYCKIDS,NYC KIDS,11,East and Central Harlem Neighborhood Health Action Center,3,Manhattan,40.80469,-73.94064
+NYCKIDS,NYC KIDS,20,Rest of Bronx,1,Bronx,40.86233,-73.85338
+NYCKIDS,NYC KIDS,21,South Bronx Neighborhood Health Action Center,1,Bronx,40.82835,-73.90322
+NYCKIDS,NYC KIDS,30,Rest of Brooklyn,2,Brooklyn,40.63431,-73.95999
+NYCKIDS,NYC KIDS,31,North and Central Brooklyn Neighborhood Health Action Center,2,Brooklyn,40.67825,-73.913
+NYCKIDS,NYC KIDS,40,Rest of Queens,4,Queens,40.72424,-73.82792
+NYCKIDS,NYC KIDS,41,Queens - South Jamaica and Rockaway,4,Queens,40.66057,-73.78578
+NYCKIDS,NYC KIDS,50,Staten Island,5,Staten Island,40.58152,-74.15334
