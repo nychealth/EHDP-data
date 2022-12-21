@@ -38,6 +38,7 @@ ALTER VIEW dbo.Report_UHF_indicator_Rank AS
                 id.indicator_data_id
         ) AS RankByValue,
 
+        -- now calculate tertiles, accounting for rank reverse
         CASE WHEN rc.rankReverse = 0 
             THEN NTILE(3) OVER (
                 PARTITION BY 
