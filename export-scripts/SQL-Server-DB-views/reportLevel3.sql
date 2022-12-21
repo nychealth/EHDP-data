@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW [dbo].[reportLevel3] AS
+ALTER VIEW dbo.reportLevel3 AS
 
     SELECT TOP (100) PERCENT 
 
@@ -164,9 +164,14 @@ ALTER VIEW [dbo].[reportLevel3] AS
             ) -- most recent year logic
 
         JOIN unreliability AS u ON nabeD.unreliability_flag = u.unreliability_id
-        JOIN Report_UHF_indicator_Rank AS rr ON rr.indicator_data_id = nabeD.indicator_data_id
-            AND rr.report_id = rtd.report_id
+
+        JOIN Report_UHF_indicator_Rank AS rr ON (
+            rr.indicator_data_id = nabeD.indicator_data_id AND 
+            rr.report_id = rtd.report_id
+        )
+
         JOIN Consolidated_Sources_by_IndicatorID AS s ON rtd.indicator_id = s.indicator_id
+
         JOIN (
             SELECT
                 count(rd.Time) AS TimeCount,
