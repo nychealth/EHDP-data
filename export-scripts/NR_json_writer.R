@@ -160,6 +160,10 @@ report_level_1 <-
                     str_replace_all(" ", "_"),
                 "_data.csv"
             )
+    ) %>% 
+    arrange(
+        report_id,
+        zip_code
     )
 
 
@@ -180,6 +184,12 @@ report_level_2 <-
         geo_entity_name,
         city,
         compared_with
+    ) %>% 
+    arrange(
+        report_id,
+        report_topic_id,
+        borough_name,
+        geo_entity_id
     ) %>% 
     collect()
 
@@ -216,6 +226,13 @@ report_level_3 <-
         measurement_type,
         units
     ) %>% 
+    arrange(
+        report_id,
+        report_topic_id,
+        IndicatorID,
+        indicator_id,
+        geo_entity_id
+    ) %>%     
     collect() %>% 
     mutate(
         indicator_short_name = 
