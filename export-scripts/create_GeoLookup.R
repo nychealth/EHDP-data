@@ -353,6 +353,26 @@ cdta <-
     arrange(GeoID)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# NTA (date not specified - same as 2010)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+nta_nodate <- 
+    read_sf("geography/nynta2010_22c") %>% 
+    as_tibble() %>% 
+    mutate(center = st_centroid(geometry)) %>% 
+    transmute(
+        GeoType = "NTA",
+        GeoID =
+            NTACode %>% 
+            str_remove("^\\w{2}") %>% 
+            str_c(CountyFIPS, .) %>% 
+            as.integer(),
+        Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
+        Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
+    ) %>%  
+    arrange(GeoID)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # NTA 2010
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -394,18 +414,56 @@ nta2020 <-
     arrange(GeoID)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# NYC Kids (date not specified - same as 2017)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# only have our own topojson file, no official shapefile
+
+nyc_kids_nodate <- 
+    read_sf("geography/NYCKids.topo.json", crs = st_crs(4326)) %>% 
+    st_transform(st_crs(2263)) %>% # planar coords for centroid
+    mutate(center = st_centroid(geometry)) %>% 
+    as_tibble() %>% 
+    transmute(
+        GeoType = "NYCKIDS",
+        GeoID = GEOCODE,
+        Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
+        Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
+    ) %>%  
+    arrange(GeoID)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# NYC Kids 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# only have our own topojson file, no official shapefile
+
+nyc_kids_2017 <- 
+    read_sf("geography/NYCKids_2017.topo.json", crs = st_crs(4326)) %>% 
+    st_transform(st_crs(2263)) %>% 
+    mutate(center = st_centroid(geometry)) %>% 
+    as_tibble() %>% 
+    transmute(
+        GeoType = "NYCKIDS2017",
+        GeoID = GEOCODE,
+        Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
+        Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
+    ) %>%  
+    arrange(GeoID)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # NYC Kids
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # only have our own topojson file, no official shapefile
 
-nyc_kids <- 
-    read_sf("geography/NYCKids.topo.json", crs = st_crs(4326)) %>% 
+nyc_kids_2019 <- 
+    read_sf("geography/NYCKids_2019.topo.json", crs = st_crs(4326)) %>% 
     st_transform(st_crs(2263)) %>% 
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
     transmute(
-        GeoType = "NYCKIDS",
+        GeoType = "NYCKIDS2019",
         GeoID = GEOCODE,
         Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
         Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
@@ -425,10 +483,14 @@ all_geos <-
         subboro,
         cd,
         cdta,
+        nta_nodate,
         nta2010,
         nta2020,
-        nyc_kids
-    )
+        nyc_kids_nodate,
+        nyc_kids_2017,
+        nyc_kids_2019
+    ) %>% 
+    mutate(roworder = 1:nrow(.))
 
 
 #-----------------------------------------------------------------------------------------#
@@ -441,10 +503,12 @@ geolookup <-
         all_geos,
         by = c("GeoType", "GeoID")
     ) %>% 
-    mutate(Lat = round(Lat, 5), Long = round(Long, 5))
+    mutate(Lat = round(Lat, 5), Long = round(Long, 5)) %>% 
+    arrange(roworder) %>% 
+    select(-roworder)
 
 
-write_csv(geolookup, "geography/GeoLookup.csv", na = "")
+write_csv(geolookup, "geography/GeoLookup.csv", na = "", progress = FALSE)
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
