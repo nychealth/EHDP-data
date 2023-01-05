@@ -2288,7 +2288,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2407,7 +2407,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2513,7 +2513,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2609,7 +2609,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2712,7 +2712,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -2819,7 +2819,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -2935,7 +2935,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -3046,7 +3046,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -16241,7 +16241,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -16369,7 +16369,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -16459,7 +16459,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -16572,11 +16572,11 @@
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"y"
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"x"
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":221,
@@ -26252,7 +26252,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -26298,7 +26298,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -26349,7 +26349,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -26395,7 +26395,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -38850,7 +38850,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -38921,7 +38921,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -38989,7 +38989,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -39094,7 +39094,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -39185,7 +39185,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -39288,7 +39288,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -41157,7 +41157,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -41255,7 +41255,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -41370,7 +41370,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -46982,7 +46982,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -47033,7 +47033,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -47084,7 +47084,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -47401,8 +47401,8 @@
       },
       {
         "MeasureID":1008,
-        "MeasureName":"Babesiosis, Estimated annual rate",
-        "MeasurementType":"Estimated annual rate",
+        "MeasureName":"Babesiosis, Rate",
+        "MeasurementType":"Rate",
         "how_calculated":"Crude Rate per 100,000 Population",
         "Sources":"NYC DOHMH Bureau of Communicable Disease",
         "DisplayType":"per 100,000",
@@ -49896,7 +49896,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -50123,7 +50123,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50206,7 +50206,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50289,7 +50289,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50372,7 +50372,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50455,7 +50455,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50538,7 +50538,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50634,7 +50634,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50732,7 +50732,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50843,7 +50843,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50941,7 +50941,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51052,7 +51052,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51150,7 +51150,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51269,7 +51269,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51367,7 +51367,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -53782,7 +53782,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -53855,7 +53855,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -57675,7 +57675,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -57726,7 +57726,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59060,7 +59060,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59106,7 +59106,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59162,7 +59162,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59221,7 +59221,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59267,7 +59267,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59318,7 +59318,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59374,7 +59374,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59433,7 +59433,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59484,7 +59484,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59538,7 +59538,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59589,7 +59589,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59643,7 +59643,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59689,7 +59689,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59740,7 +59740,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59794,7 +59794,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -60034,7 +60034,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60102,7 +60102,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60161,7 +60161,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60212,7 +60212,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60266,7 +60266,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60312,7 +60312,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60371,7 +60371,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60417,7 +60417,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60476,7 +60476,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60522,7 +60522,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -63264,7 +63264,7 @@
         "DisplayType":"1 (lowest) to 5 (highest)",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
