@@ -60036,6 +60036,10 @@
           {
             "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
         "AvailableTimes":[
@@ -60103,6 +60107,10 @@
           },
           {
             "GeoType":"NYCKIDS2017",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
