@@ -1,7 +1,7 @@
 ###########################################################################################
 ###########################################################################################
 ##
-## Building indicators.json using nested DataFrames
+## Building indicators.json and comparisons.json using nested DataFrames
 ##
 ###########################################################################################
 ###########################################################################################
@@ -178,7 +178,7 @@ measure_trend = (
             "Trend",
             "Disparities"
         ]
-    ]    
+    ]
     .drop_duplicates()
     .rename(columns = {"Trend": "On"})
     .groupby(["IndicatorID", "MeasureID"], dropna = False)
@@ -186,6 +186,34 @@ measure_trend = (
     .reset_index()
     .rename(columns = {0: "Trend"})
 )
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# measure (non-boro) trend comparisons
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# ==== specific comparisons view ==== #
+
+EXP_measure_comparisons = (
+    pd.read_sql("SELECT * FROM EXP_measure_comparisons", EHDP_odbc)
+    .sort_values(by = ["IndicatorID", "ComparisonID", "MeasureID"])
+    .dropna()
+)
+
+
+# ==== nesting ComparisonIDs ==== #
+
+indicator_comparisons = (
+    EXP_measure_comparisons
+    .loc[:, ["IndicatorID", "ComparisonID"]]
+    .drop_duplicates()
+    .dropna()
+    .groupby(["IndicatorID"])
+    .apply(lambda x: x["ComparisonID"].tolist()) # [] returns Series, not DataFrame
+    .reset_index()
+    .rename(columns = {0: "Comparisons"})
+)
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # linked measures
@@ -367,6 +395,10 @@ metadata = (
     ]].to_dict('records'))
     .reset_index()
     .rename(columns = {0: "Measures"})
+    .merge(
+        indicator_comparisons,
+        how = "left"
+    )
 )
 
 
