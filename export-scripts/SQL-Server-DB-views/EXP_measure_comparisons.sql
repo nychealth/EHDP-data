@@ -10,8 +10,8 @@ ALTER VIEW dbo.EXP_measure_comparisons AS
         mc.name                AS ComparisonName,
         mc.group_title_display AS LegendTitle,
         mc.Y_axis_title,
-        mm.indicator_id        AS MeasureID,
-        idef.internal_id       AS IndicatorID
+        idef.internal_id       AS IndicatorID,
+        mm.indicator_id        AS MeasureID
 
     FROM measure_compare AS mc
         LEFT JOIN m_to_m               AS   mm ON mm.measure_compare_id = mc.measure_compare_id
