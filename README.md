@@ -3,12 +3,12 @@
 This repository serves data used by the Environment and Health Data Portal. 
 
 Details on data files and definitions are available in Readme files in each folder:
-- datafeatures
-- datastories
+- data-stories
 - export-scripts
 - geography
 - indicators
-- neighborhoodreports
+- key-topics
+- neighborhood-reports
 
 ## Contact us
 
