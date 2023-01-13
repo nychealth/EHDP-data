@@ -399,6 +399,17 @@ metadata = (
         indicator_comparisons,
         how = "left"
     )
+    .loc[:, 
+        [
+            "IndicatorID",
+            "IndicatorName",
+            "IndicatorLabel",
+            "IndicatorDescription",
+            "Comparisons",
+            "Measures"
+        ]
+    ]
+    
 )
 
 
