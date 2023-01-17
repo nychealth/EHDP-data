@@ -127,7 +127,7 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "SQLIT04A",
+        server = "DESKTOP-PU7DGC1",
         database = db_name,
         trusted_connection = "yes"
     )
@@ -236,6 +236,18 @@ report_data_list <-
         )
     )
 
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# saving indicator names for the reports
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+nr_indicator_names <- 
+    report_data %>% 
+    select(title, indicator_name) %>% 
+    distinct() %>% 
+    mutate(title = title %>% str_replace_all(" ", "_"))
+
+write_csv(nr_indicator_names, paste0(base_dir, "/neighborhood-reports/data/nr_indicator_names.csv"))
 
 #=========================================================================================#
 # Cleaning up ----
