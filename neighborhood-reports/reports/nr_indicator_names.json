@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Housing_and_Health",
+    "indicator_names": ["Household crowding", "Homes with cracks or holes", "Old homes with peeling paint", "Homes with leaks", "Homes using supplemental heat", "Homes with mice or rats in the building", "Homes with cockroaches", "No smoke-free home policy", "Heat stress: hospitalizations", "Mold in homes", "Carbon monoxide incidents (without a detector)", "Child poverty (under age 5)", "Elevated blood levels (under age 6)", "Household air conditioning", "Asthma hospitalizations (age 5 to 17)", "Asthma hospitalizations (adults)", "Renter-occupied homes with any health-related maintenance problems"]
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_names": ["Fine particles (PM 2.5)", "Nitrogen dioxide (NO2)", "Sulfur dioxide (SO2)", "Ozone (O3)", "Deaths due to PM2.5", "Boiler Emissions- Total SO2 Emissions", "Boiler Emissions- Total PM2.5 Emissions", "Boiler Emissions- Total NOx Emissions", "Annual vehicle miles traveled", "Annual vehicle miles travelled (cars)", "Annual vehicle miles travelled (trucks)", "Air Toxics Concentrations- Average Benzene Concentrations", "Air Toxics Concentrations- Average Formaldehyde Concentrations", "Asthma emergency department visits due to PM2.5", "Respiratory hospitalizations due to PM2.5 (age 20+)", "Cardiovascular hospitalizations due to PM2.5 (age 40+)", "Cardiac and respiratory deaths due to Ozone", "Asthma emergency departments visits due to Ozone", "Asthma hospitalizations due to Ozone"]
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_names": ["Adults with asthma (past 12 months)", "Secondhand smoke at home", "Homes with cracks or holes", "Homes with leaks", "Neighborhood poverty", "Homes with cockroaches", "No smoke-free home policy", "Fine particles (PM 2.5)", "Ozone (O3)", "Mold in homes", "Adults reporting mice or rats inside", "Asthma emergency department visits due to PM2.5", "Cardiovascular hospitalizations due to PM2.5 (age 40+)", "Asthma emergency departments visits due to Ozone", "Asthma hospitalizations due to Ozone", "Health insurance (adults)", "Asthma in public school children (age 5 to 14)", "Asthma emergency department visits (age 5 to 17)", "Asthma emegency department visits (adults)", "Asthma hospitalizations (age 5 to 17)", "Asthma hospitalizations (adults)", "Renter-occupied homes with any health-related maintenance problems"]
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_names": ["Homes near structures rated good or excellent", "Ozone (O3)", "Obesity (adults)", "Heat stress: emergency department visits", "Area in hurricane evacuation zone", "Daytime summer surface temperature", "Neighborhood Poverty (ACS)", "Vegetative cover", "Serious psychological distress", "Independent living difficulty (adults)", "Older adults living alone", "Older adults with air conditioners (age 65+)", "Asthma emergency department visits (age 5 to 17)"]
+  },
+  {
+    "title": "Active_Design_Physical_Activity_and_Health",
+    "indicator_names": ["Adults reporting mice or rats outside", "Neighborhood poverty", "Monthly bicycle use", "Recent exercise", "Overweight or obesity (adults)", "Tree canopy cover", "Premature mortality", "Perception of neighborhood safety", "Sidewalk area", "Walking distance to a park", "Bicycle network coverage", "Walking distance to a subway station"]
+  }
+]

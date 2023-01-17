@@ -25,6 +25,7 @@ suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(rlang)))
+suppressWarnings(suppressMessages(library(jsonlite)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 
 #-----------------------------------------------------------------------------------------#
@@ -245,9 +246,28 @@ nr_indicator_names <-
     report_data %>% 
     select(title, indicator_name) %>% 
     distinct() %>% 
-    mutate(title = title %>% str_replace_all(" ", "_"))
+    group_by(title) %>% 
+    transmute(
+        title = title %>% str_replace_all(" ", "_"),
+        indicator_names = list(unlist(indicator_name))
+    ) %>% 
+    # group_nest(.key = "indicator_names", keep = FALSE) %>% 
+    ungroup() %>% 
+    distinct()
 
-write_csv(nr_indicator_names, paste0(base_dir, "/neighborhood-reports/data/nr_indicator_names.csv"))
+nr_indicator_names_json <- 
+    toJSON(
+        nr_indicator_names, 
+        pretty = TRUE, 
+        na = "null", 
+        auto_unbox = TRUE
+    )
+
+write_lines(
+    nr_indicator_names_json, 
+    paste0(base_dir, "/neighborhood-reports/reports/nr_indicator_names.json")
+)
+
 
 #=========================================================================================#
 # Cleaning up ----
