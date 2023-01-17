@@ -265,7 +265,7 @@ nr_indicator_names_json <-
 
 write_lines(
     nr_indicator_names_json, 
-    paste0(base_dir, "/neighborhood-reports/reports/nr_indicator_names.json")
+    paste0(base_dir, "/neighborhood-reports/data/nr_indicator_names.json")
 )
 
 
