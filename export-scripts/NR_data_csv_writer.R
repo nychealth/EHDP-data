@@ -128,7 +128,7 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "DESKTOP-PU7DGC1",
+        server = "SQLIT04A",
         database = db_name,
         trusted_connection = "yes"
     )
@@ -251,7 +251,6 @@ nr_indicator_names <-
         title = title %>% str_replace_all(" ", "_"),
         indicator_names = list(unlist(indicator_name))
     ) %>% 
-    # group_nest(.key = "indicator_names", keep = FALSE) %>% 
     ungroup() %>% 
     distinct()
 
