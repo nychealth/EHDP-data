@@ -128,7 +128,7 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "SQLIT04A",
+        server = "DESKTOP-PU7DGC1",
         database = db_name,
         trusted_connection = "yes"
     )
@@ -227,6 +227,7 @@ report_data <-
 
 report_data_list <- 
     report_data %>% 
+    select(-indicator_description) %>% 
     group_by(report_id) %>% 
     group_split() %>% 
     walk(
@@ -244,12 +245,13 @@ report_data_list <-
 
 nr_indicator_names <- 
     report_data %>% 
-    select(title, indicator_name) %>% 
+    select(title, indicator_name, indicator_description) %>% 
     distinct() %>% 
     group_by(title) %>% 
     transmute(
         title = title %>% str_replace_all(" ", "_"),
-        indicator_names = list(unlist(indicator_name))
+        indicator_names = list(unlist(indicator_name)),
+        indicator_descriptions = list(unlist(indicator_description))
     ) %>% 
     ungroup() %>% 
     distinct()
