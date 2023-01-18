@@ -10,6 +10,7 @@ ALTER VIEW [dbo].[ReportData] AS
         a.indicator_id,
         b.data_field_name,
         c.name             AS 'indicator_name',
+        c.description      AS 'indicator_description',
         m.description      AS 'measure_name',
         d.description      AS 'display_type',
         y.start_period     AS 'start_date',
