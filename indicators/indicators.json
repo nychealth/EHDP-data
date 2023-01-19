@@ -2299,7 +2299,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2418,7 +2418,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2525,7 +2525,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2621,7 +2621,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -2725,7 +2725,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -2832,7 +2832,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -2912,6 +2912,10 @@
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":759,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":777,
                 "SecondaryAxis":"y"
               }
@@ -2949,7 +2953,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -3060,7 +3064,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -3410,6 +3414,26 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":292,
                 "SecondaryAxis":"x"
               },
@@ -3691,6 +3715,26 @@
               {
                 "MeasureID":31,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":155,
@@ -5469,7 +5513,7 @@
     "IndicatorID":33,
     "IndicatorName":"Gastroschisis",
     "IndicatorLabel":"Gastroschisis",
-    "IndicatorDescription":"A birth defect where there is a hole beside the belly button and the baby\ufffds intestines or other organs are outside the baby\ufffds body.",
+    "IndicatorDescription":"A birth defect where there is a hole beside the belly button and the baby\u2019s intestines or other organs are outside the baby\u2019s body.",
     "Comparisons":null,
     "Measures":[
       {
@@ -6542,7 +6586,7 @@
         "MeasureName":"Carbon monoxide incidents, Estimated annual rate",
         "MeasurementType":"Estimated annual rate",
         "how_calculated":"Number of carbon monoxide incidents in an area, where FDNY measured at least 1 ppm at the scene, divided by the number of buildings in the area; expressed as incidents per 10,000 buildings.",
-        "Sources":"Fire Department of New York City (FDNY) Carbon Monoxide Incidents; New York City Primary Land Use Tax Lot Output (PLUTO\ufffd ) Property Characteristic Data",
+        "Sources":"Fire Department of New York City (FDNY) Carbon Monoxide Incidents; New York City Primary Land Use Tax Lot Output (PLUTO\u2122 ) Property Characteristic Data",
         "DisplayType":"per 10,000 buildings",
         "AvailableGeographyTypes":[
           {
@@ -6644,6 +6688,14 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
               {
                 "MeasureID":90,
                 "SecondaryAxis":"x"
@@ -6791,7 +6843,35 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":94,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":155,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
                 "SecondaryAxis":"y"
               },
               {
@@ -6800,6 +6880,62 @@
               },
               {
                 "MeasureID":245,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":625,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
                 "SecondaryAxis":"y"
               }
             ]
@@ -7055,8 +7191,84 @@
             ],
             "Links":[
               {
+                "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":625,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7197,12 +7409,140 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":45,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":73,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":155,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":209,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
                 "SecondaryAxis":"y"
               },
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":625,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":716,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":748,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":784,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1199,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7341,7 +7681,43 @@
             ],
             "Links":[
               {
+                "MeasureID":41,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":45,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":73,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":209,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
                 "SecondaryAxis":"y"
               },
               {
@@ -7349,8 +7725,76 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":539,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":625,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":716,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":748,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":750,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":751,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":753,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":759,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7489,12 +7933,64 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":73,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":155,
                 "SecondaryAxis":"y"
               },
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":716,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":748,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":750,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":751,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":753,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1199,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7645,16 +8141,52 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":76,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":155,
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -12660,11 +13192,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":94,
                 "SecondaryAxis":"x"
               },
               {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -13722,12 +14270,48 @@
             ],
             "Links":[
               {
+                "MeasureID":41,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               },
               {
                 "MeasureID":245,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":959,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -14151,7 +14735,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -14297,6 +14901,26 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -15336,8 +15960,32 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -15928,8 +16576,32 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -16275,6 +16947,26 @@
             ],
             "Links":[
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               }
@@ -16324,7 +17016,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -16452,7 +17144,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -16542,7 +17234,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -16653,8 +17345,24 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":76,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":92,
@@ -16665,11 +17373,87 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":155,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":218,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":759,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":784,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
                 "SecondaryAxis":"y"
               }
             ]
@@ -19121,6 +19905,18 @@
               {
                 "MeasureID":460,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":643,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":644,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":645,
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":696,
@@ -22905,6 +23701,22 @@
               {
                 "MeasureID":29,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -26300,7 +27112,23 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -26378,7 +27206,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -26424,7 +27252,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -26475,7 +27303,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -26521,7 +27349,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -31661,15 +32489,94 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -31687,10 +32594,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -31707,15 +32619,94 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34686,15 +35677,69 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34712,10 +35757,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -34732,15 +35782,69 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34787,15 +35891,94 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34813,10 +35996,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -34833,15 +36021,94 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34888,15 +36155,69 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34914,10 +36235,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -34934,15 +36260,69 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34963,7 +36343,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":643,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -36542,7 +37927,24 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -36761,7 +38163,24 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -37025,6 +38444,10 @@
               {
                 "MeasureID":365,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":676,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -37190,7 +38613,7 @@
         "MeasureName":"PM2.5 asthma ED visits (children), Estimated annual rate (under age 18)",
         "MeasurementType":"Estimated annual rate (under age 18)",
         "how_calculated":"Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents under 18 years of age.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\ufffdS60",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\u2013S60",
         "DisplayType":"per 100,000 children",
         "AvailableGeographyTypes":[
           {
@@ -37256,7 +38679,7 @@
         "MeasureName":"PM2.5 asthma ED visits (children), Estimated annual rate (age 18+)",
         "MeasurementType":"Estimated annual rate (age 18+)",
         "how_calculated":"Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents over 18 years of Age.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\ufffdS60",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\u2013S60",
         "DisplayType":"per 100,000 adults",
         "AvailableGeographyTypes":[
           {
@@ -37317,7 +38740,7 @@
         "MeasureName":"PM2.5 asthma ED visits (children), Estimated annual number (under age 18)",
         "MeasurementType":"Estimated annual number (under age 18)",
         "how_calculated":"Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\ufffdS60",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\u2013S60",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -37378,7 +38801,7 @@
         "MeasureName":"PM2.5 asthma ED visits (children), Estimated annual number (age 18+)",
         "MeasurementType":"Estimated annual number (age 18+)",
         "how_calculated":"Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\ufffdS60",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\u2013S60",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -37448,7 +38871,7 @@
         "MeasureName":"PM2.5 health burden (lungs), Estimated annual rate",
         "MeasurementType":"Estimated annual rate",
         "how_calculated":"Estimate is based on the number of hospitalizations for respiratory causes associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of hospitalizations for all respiratory causes from the Moolgavkar 2000 study conducted on Los Angeles residents between 20-64 years of age and the Zanobetti et al 2009 study in 26 US communities of residents over 65 years of age. Neighborhood estimates expressed as annual cases per 100,000 residents over 20 years of Age.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75\ufffd90; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186\/1476-069X-8-58",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75\u201390; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186\/1476-069X-8-58",
         "DisplayType":"per 100,000 adults",
         "AvailableGeographyTypes":[
           {
@@ -37514,7 +38937,7 @@
         "MeasureName":"PM2.5 health burden (lungs), Estimated annual number",
         "MeasurementType":"Estimated annual number",
         "how_calculated":"Estimate is based on the number of hospitalizations for respiratory causes associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of hospitalizations for all respiratory causes from the Moolgavkar 2000 study conducted on Los Angeles residents between 20-64 years of age and the Zanobetti et al 2009 study in 26 US communities of residents over 65 years of age.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75\ufffd90; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186\/1476-069X-8-58",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75\u201390; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186\/1476-069X-8-58",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -37720,7 +39143,7 @@
         "MeasureName":"Deaths from ozone, Estimated annual rate",
         "MeasurementType":"Estimated annual rate",
         "how_calculated":"Estimate is based on the number of cardiovascular and respiratory mortalities associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute cardiorespiratory mortality risk estimate from Huang et al 2005 estimate of New York City risk. Neighborhood estimates expressed as annual cases per 100,000 residents.",
-        "Sources":"New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547\ufffd562",
+        "Sources":"New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547\u2013562",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
           {
@@ -37786,7 +39209,7 @@
         "MeasureName":"Deaths from ozone, Estimated annual number",
         "MeasurementType":"Estimated annual number",
         "how_calculated":"Estimate is based on the number of cardiovascular and respiratory mortalities associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute cardiorespiratory mortality risk estimate from Huang et al 2005 estimate of New York City risk.",
-        "Sources":"New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547\ufffd562",
+        "Sources":"New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547\u2013562",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -37856,7 +39279,7 @@
         "MeasureName":"Ozone asthma ED visits (children), Estimated annual rate (under age 18)",
         "MeasurementType":"Estimated annual rate (under age 18)",
         "how_calculated":"Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents under 18 years of age.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\ufffdS60",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\u2013S60",
         "DisplayType":"per 100,000 children",
         "AvailableGeographyTypes":[
           {
@@ -37922,7 +39345,7 @@
         "MeasureName":"Ozone asthma ED visits (children), Estimated annual rate (age 18+)",
         "MeasurementType":"Estimated annual rate (age 18+)",
         "how_calculated":"Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents over 18 years of Age.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\ufffdS60",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\u2013S60",
         "DisplayType":"per 100,000 adults",
         "AvailableGeographyTypes":[
           {
@@ -37983,7 +39406,7 @@
         "MeasureName":"Ozone asthma ED visits (children), Estimated annual number (under age 18)",
         "MeasurementType":"Estimated annual number (under age 18)",
         "how_calculated":"Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\ufffdS60",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\u2013S60",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -38044,7 +39467,7 @@
         "MeasureName":"Ozone asthma ED visits (children), Estimated annual number (age 18+)",
         "MeasurementType":"Estimated annual number (age 18+)",
         "how_calculated":"Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\ufffdS60",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45\u2013S60",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -38114,7 +39537,7 @@
         "MeasureName":"Ozone asthma hospitalizations (children), Estimated annual rate (under age 18)",
         "MeasurementType":"Estimated annual rate (under age 18)",
         "how_calculated":"Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background (modeled air quality levels under no man made air pollution emissions). Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents under 18 years of age.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367\ufffd373",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367\u2013373",
         "DisplayType":"per 100,000 children",
         "AvailableGeographyTypes":[
           {
@@ -38180,7 +39603,7 @@
         "MeasureName":"Ozone asthma hospitalizations (children), Estimated annual rate (age 18+)",
         "MeasurementType":"Estimated annual rate (age 18+)",
         "how_calculated":"Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background. Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents over 18 years of age.",
-        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367\ufffd373",
+        "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367\u2013373",
         "DisplayType":"per 100,000 adults",
         "AvailableGeographyTypes":[
           {
@@ -38241,7 +39664,7 @@
         "MeasureName":"Ozone asthma hospitalizations (children), Estimated annual number (under age 18)",
         "MeasurementType":"Estimated annual number (under age 18)",
         "how_calculated":"Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background (modeled air quality levels under no man made air pollution emissions). Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents.",
-        "Sources":"Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367\ufffd373",
+        "Sources":"Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367\u2013373",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -38302,7 +39725,7 @@
         "MeasureName":"Ozone asthma hospitalizations (children), Estimated annual number (age 18+)",
         "MeasurementType":"Estimated annual number (age 18+)",
         "how_calculated":"Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background (modeled air quality levels under no man made air pollution emissions). Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents.",
-        "Sources":"Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367\ufffd373",
+        "Sources":"Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367\u2013373",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -38589,7 +40012,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":1
               }
             ],
@@ -39043,7 +40466,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -39095,7 +40518,7 @@
         "MeasureName":"Grass and tree cover, Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Spatial information classifying ground cover is used to calculate a percentage of each geographic area that is covered in vegetation. See <a href=\"https:\/\/doi.org\/10.1117\/1.JRS.6.063567\" target=\"_blank\">this paper<\/a> for classification methods discussion.",
-        "Sources":"University of Vermont remote sensing LiDAR data, assessed using methodology described in: MacFaden, S.W., O\ufffdNeil-Dunne, J.P.M., Royer, A.R., Lu, J.W.T., & Rundle, A.G. (2012). High-resolution tree canopy mapping for New York City using LiDAR and object-based image analysis. Journal of Applied Remote Sensing, 6(1).",
+        "Sources":"University of Vermont remote sensing LiDAR data, assessed using methodology described in: MacFaden, S.W., O\u2019Neil-Dunne, J.P.M., Royer, A.R., Lu, J.W.T., & Rundle, A.G. (2012). High-resolution tree canopy mapping for New York City using LiDAR and object-based image analysis. Journal of Applied Remote Sensing, 6(1).",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -39115,7 +40538,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -39184,7 +40607,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -39289,7 +40712,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -39381,7 +40804,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -39458,6 +40881,22 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":750,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":751,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":753,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":781,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -39484,7 +40923,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -39698,7 +41137,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -39878,7 +41337,15 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -41365,7 +42832,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -41463,7 +42930,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -41578,7 +43045,7 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -41628,7 +43095,7 @@
         "MeasureID":758,
         "MeasureName":"Renter-occupied homes with no maintenance deficiencies, Number",
         "MeasurementType":"Number",
-        "how_calculated":"Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks\/holes in the walls, ceilings or floors, broken plaster\/peeling paint larger than 8\ufffd x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
+        "how_calculated":"Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks\/holes in the walls, ceilings or floors, broken plaster\/peeling paint larger than 8\u00bd x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
         "Sources":"New York City Housing and Vacancy Survey (HVS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -41689,7 +43156,7 @@
         "MeasureID":759,
         "MeasureName":"Renter-occupied homes with no maintenance deficiencies, Percent",
         "MeasurementType":"Percent",
-        "how_calculated":"Estimated number of renter-occupied households in an area reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks\/holes in the walls, ceilings or floors, broken plaster\/peeling paint larger than 8\ufffd x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of renter-occupied households in the area; expressed as percent..",
+        "how_calculated":"Estimated number of renter-occupied households in an area reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks\/holes in the walls, ceilings or floors, broken plaster\/peeling paint larger than 8\u00bd x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of renter-occupied households in the area; expressed as percent..",
         "Sources":"New York City Housing and Vacancy Survey (HVS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -41748,6 +43215,10 @@
             ],
             "Links":[
               {
+                "MeasureID":27,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":88,
                 "SecondaryAxis":"y"
               },
@@ -41758,6 +43229,14 @@
               {
                 "MeasureID":245,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":790,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -41836,7 +43315,7 @@
         "MeasureID":774,
         "MeasureName":"Child lead poisoning, Number (5+ mcg\/dL)",
         "MeasurementType":"Number (5+ mcg\/dL)",
-        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 5 mcg\/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\ufffds blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels at or above a certain level reported by the Health Department in other publications.",
+        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 5 mcg\/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\u00c2\u2019s blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels at or above a certain level reported by the Health Department in other publications.",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -41957,7 +43436,7 @@
         "MeasureID":775,
         "MeasureName":"Child lead poisoning, Number (10+ mcg\/dL)",
         "MeasurementType":"Number (10+ mcg\/dL)",
-        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 10 mcg\/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\ufffds blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels of 10 mcg\/dL or greater reported by the Health Department in other publications.",
+        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 10 mcg\/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\u00c2\u2019s blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels of 10 mcg\/dL or greater reported by the Health Department in other publications.",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -42073,7 +43552,7 @@
         "MeasureID":776,
         "MeasureName":"Child lead poisoning, Number (15+ mcg\/dL)",
         "MeasurementType":"Number (15+ mcg\/dL)",
-        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 15 mcg\/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\ufffds blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels of 15 mcg\/dL or greater reported by the Health Department in other publications.",
+        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 15 mcg\/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\u00c2\u2019s blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels of 15 mcg\/dL or greater reported by the Health Department in other publications.",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -42189,7 +43668,7 @@
         "MeasureID":777,
         "MeasureName":"Child lead poisoning, Rate (5+ mcg\/dL)",
         "MeasurementType":"Rate (5+ mcg\/dL)",
-        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 5 mcg\/dL or greater, divided by the total number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\ufffds blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels at or above a certain level reported by the Health Department in other publications.",
+        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 5 mcg\/dL or greater, divided by the total number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\u00c2\u2019s blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels at or above a certain level reported by the Health Department in other publications.",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"per 1,000 tested",
         "AvailableGeographyTypes":[
@@ -42315,7 +43794,19 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":78,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
                 "SecondaryAxis":"x"
               },
               {
@@ -42350,7 +43841,7 @@
         "MeasureID":778,
         "MeasureName":"Child lead poisoning, Rate (10+ mcg\/dL)",
         "MeasurementType":"Rate (10+ mcg\/dL)",
-        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 10 mcg\/dL or greater, divided by the number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\ufffds blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels at or above 10 mcg\/dL reported by the Health Department in other publications.",
+        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 10 mcg\/dL or greater, divided by the number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\u00c2\u2019s blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels at or above 10 mcg\/dL reported by the Health Department in other publications.",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"per 1,000 tested",
         "AvailableGeographyTypes":[
@@ -42471,7 +43962,7 @@
         "MeasureID":779,
         "MeasureName":"Child lead poisoning, Rate (15+ mcg\/dL)",
         "MeasurementType":"Rate (15+ mcg\/dL)",
-        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 15 mcg\/dL or greater, divided by the number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\ufffds blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels of 15 mcg\/dL or greater reported by the Health Department in other publications.",
+        "how_calculated":"Number of children less than 6 years old tested in a given year with blood lead levels of 15 mcg\/dL or greater, divided by the number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child\u00c2\u2019s blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels of 15 mcg\/dL or greater reported by the Health Department in other publications.",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"per 1,000 tested",
         "AvailableGeographyTypes":[
@@ -47199,8 +48690,8 @@
     "Measures":[
       {
         "MeasureID":886,
-        "MeasureName":"Child lead poisoning, by NTA, Average Annual Number BLL >=5 ?g\/dL",
-        "MeasurementType":"Average Annual Number BLL >=5 ?g\/dL",
+        "MeasureName":"Child lead poisoning, by NTA, Average Annual Number BLL >=5 \u00b5g\/dL",
+        "MeasurementType":"Average Annual Number BLL >=5 \u00b5g\/dL",
         "how_calculated":"<p>Sum of the number of children under 6 years of age with blood lead levels (BLL) 5 mcg\/dL or greater over the time period, divided by the number of years in the time period. While children can receive more than one test during the calendar year, for this measure children are only counted once per year using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child&rsquo;s blood lead level is based on the highest capillary or unknown test type.&nbsp;<a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">Read more&nbsp;<\/a>about different measures used by the Health Department for surveillance of childhood lead poisoning.<\/p>\n<ul>\n<li>For the purpose of providing data for small geographic areas, multiple years of data were combined to get sufficient numbers of observations to make more reliable estimates for a greater number of neighborhood tabulation areas (NTAs).<\/li>\n<li>Annual numbers and rates of children under 6 years of age with elevated blood lead levels at the citywide, borough, and United Hospital Fund neighborhood level are available <a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2184,4466a0,14,Summarize\">here<\/a>. &nbsp;&nbsp;<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"",
@@ -47210,7 +48701,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -47261,7 +48752,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -47312,7 +48803,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -47630,8 +49121,8 @@
       },
       {
         "MeasureID":1008,
-        "MeasureName":"Babesiosis, Estimated annual rate",
-        "MeasurementType":"Estimated annual rate",
+        "MeasureName":"Babesiosis, Rate",
+        "MeasurementType":"Rate",
         "how_calculated":"Crude Rate per 100,000 Population",
         "Sources":"NYC DOHMH Bureau of Communicable Disease",
         "DisplayType":"per 100,000",
@@ -48117,6 +49608,30 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -48171,6 +49686,30 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -48273,6 +49812,30 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -48373,6 +49936,30 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -48820,7 +50407,7 @@
     "IndicatorID":2312,
     "IndicatorName":"Commercial insecticide use",
     "IndicatorLabel":"Combined Insecticides",
-    "IndicatorDescription":"Pest control services provided by a professional exterminator in the individual\ufffds home.",
+    "IndicatorDescription":"Pest control services provided by a professional exterminator in the individual\u2019s home.",
     "Comparisons":null,
     "Measures":[
       {
@@ -48962,6 +50549,26 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -49110,7 +50717,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -49817,6 +51444,10 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -50102,6 +51733,30 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -50133,7 +51788,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -50363,7 +52018,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50446,7 +52101,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50529,7 +52184,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50612,7 +52267,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50695,7 +52350,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50778,7 +52433,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50875,7 +52530,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -50973,7 +52628,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51085,7 +52740,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51183,7 +52838,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51295,7 +52950,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51393,7 +53048,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51513,7 +53168,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -51611,7 +53266,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -54039,7 +55694,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -54112,7 +55767,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -54715,7 +56370,7 @@
     "IndicatorID":2367,
     "IndicatorName":"NYC agency use of glyphosate",
     "IndicatorLabel":"Glyphosate",
-    "IndicatorDescription":"Herbicide containing the chemical glyphosate, targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff. This chemical is often sold commercially as \ufffdRoundup",
+    "IndicatorDescription":"Herbicide containing the chemical glyphosate, targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff. This chemical is often sold commercially as \u201cRoundup.\u201d",
     "Comparisons":[
       493,
       567
@@ -57959,7 +59614,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -58010,7 +59665,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -58285,7 +59940,23 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -58668,6 +60339,14 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               },
@@ -58933,7 +60612,23 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -58958,6 +60653,10 @@
               },
               {
                 "MeasureID":386,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":759,
                 "SecondaryAxis":"x"
               }
             ]
@@ -59300,7 +60999,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -59361,7 +61080,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59407,7 +61126,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59463,7 +61182,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59523,7 +61242,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59569,7 +61288,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59620,7 +61339,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59676,7 +61395,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59736,7 +61455,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59787,7 +61506,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59842,7 +61561,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59893,7 +61612,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59948,7 +61667,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -59994,7 +61713,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -60045,7 +61764,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -60100,7 +61819,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -60344,7 +62063,11 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60404,6 +62127,10 @@
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"NYCKIDS2017",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
             "GeoType":"Borough",
             "GeoTypeDescription":"Borough"
           },
@@ -60412,7 +62139,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2019",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60472,7 +62199,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60523,7 +62250,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60578,7 +62305,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60624,7 +62351,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60684,7 +62411,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60730,7 +62457,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60790,7 +62517,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -60836,7 +62563,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NYCKIDS",
+            "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
@@ -63605,7 +65332,7 @@
         "DisplayType":"1 (lowest) to 5 (highest)",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"NTA",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
@@ -63766,6 +65493,759 @@
             "TimeDescription":"2020",
             "start_period":1577836800000,
             "end_period":1609372800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2416,
+    "IndicatorName":"Litter basket coverage",
+    "IndicatorLabel":"Litter basket coverage",
+    "IndicatorDescription":"<p><span>Sanitation supports public health by providing clean, healthy public spaces for people to live, work, and get around. Litter baskets, or trash cans, are associated with a decrease in littering. Enclosed, non-wire baskets are generally better than wire baskets.<\/span><\/p>",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1308,
+        "MeasureName":"Litter basket coverage, Number (total)",
+        "MeasurementType":"Number (total)",
+        "how_calculated":"<p>Number of DSNY-regulated litter baskets.<\/p>",
+        "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1314,
+        "MeasureName":"Litter basket coverage, Rate",
+        "MeasurementType":"Rate",
+        "how_calculated":"<p>Number of DSNY-regulated litter baskets, divided by neighborhood area in square miles.<\/p>",
+        "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
+        "DisplayType":"per square mile",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1316,
+        "MeasureName":"Litter basket coverage, Number (non-wire)",
+        "MeasurementType":"Number (non-wire)",
+        "how_calculated":"<p>Number of DSNY-regulated non-wire litter baskets.<\/p>",
+        "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1317,
+        "MeasureName":"Litter basket coverage, Rate (non-wire)",
+        "MeasurementType":"Rate (non-wire)",
+        "how_calculated":"<p>Number of DSNY-regulated non-wire litter baskets, divided by neighborhood area&nbsp;in square miles.<\/p>",
+        "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
+        "DisplayType":"per square mile",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1322,
+        "MeasureName":"Litter basket coverage, Percent (non-wire)",
+        "MeasurementType":"Percent (non-wire)",
+        "how_calculated":"<p>Percent of all DSNY-regulated litter baskets in neighborhood that are non-wire baskets.<\/p>",
+        "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2417,
+    "IndicatorName":"Depression (adults)",
+    "IndicatorLabel":"Depression (adults)",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1323,
+        "MeasureName":"Depression (adults), Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number if adults aged 18 years and older who were determined to have probably depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled years 2016-2018, divided by all adults; expressed as percent",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-2018",
+            "start_period":1451606400000,
+            "end_period":1546214400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1324,
+        "MeasureName":"Depression (adults), Age-adjusted percent",
+        "MeasurementType":"Age-adjusted percent",
+        "how_calculated":"Estimated number if adults aged 18 years and older who were determined to have probably depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled years 2016-2018, divided by all adults; expressed as percent",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-2018",
+            "start_period":1451606400000,
+            "end_period":1546214400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2418,
+    "IndicatorName":"Psychiatric hospitalizations (adults)",
+    "IndicatorLabel":"Psychiatric hospitalizations (adults)",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1325,
+        "MeasureName":"Psychiatric hospitalizations (adults), Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1326,
+        "MeasureName":"Psychiatric hospitalizations (adults), Rate",
+        "MeasurementType":"Rate",
+        "how_calculated":"Number of adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, divided by the population of adults (18 years and older) using NYC DOHMH intercensal estimates; expressed as cases per 10,000 residents.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1327,
+        "MeasureName":"Psychiatric hospitalizations (adults), Age-adjusted rate",
+        "MeasurementType":"Age-adjusted rate",
+        "how_calculated":"Counts were calculated as described above and summed within six age groups (18-24, 25-34, 35-44, 45-54, 55-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group.  Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2419,
+    "IndicatorName":"Serious psychological distress (adults)",
+    "IndicatorLabel":"Serious psychological distress (adults)",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1328,
+        "MeasureName":"Serious psychological distress (adults), Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, pooled years 2019-2020, rounded to the nearest 1,000",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019-20",
+            "start_period":1546300800000,
+            "end_period":1609372800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1329,
+        "MeasureName":"Serious psychological distress (adults), Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, divided by all adults; expressed as percent",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019-20",
+            "start_period":1546300800000,
+            "end_period":1609372800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1330,
+        "MeasureName":"Serious psychological distress (adults), Age-adjusted percent",
+        "MeasurementType":"Age-adjusted percent",
+        "how_calculated":"Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, divided by all adults and age adjusted, pooled years 2019-2020, expressed as percent",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019-20",
+            "start_period":1546300800000,
+            "end_period":1609372800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2420,
+    "IndicatorName":"Suicide deaths",
+    "IndicatorLabel":"Suicide deaths",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1331,
+        "MeasureName":"Suicide deaths, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Number of suicide deaths, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1332,
+        "MeasureName":"Suicide deaths, Rate",
+        "MeasurementType":"Rate",
+        "how_calculated":"Number of suicide deaths, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1333,
+        "MeasureName":"Suicide deaths, Age-adjusted rate",
+        "MeasurementType":"Age-adjusted rate",
+        "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group.  Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
