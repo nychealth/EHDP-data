@@ -1,0 +1,818 @@
+[
+  {
+    "ComparisonID": 91,
+    "ComparisonName": "Rates of Heart Attack Hospitalizations in New York City by Age",
+    "LegendTitle": "Ages",
+    "Y_axis_title": "Rates",
+    "Indicators": [
+      {
+        "Measures": [172, 444],
+        "IndicatorID": 90
+      }
+    ]
+  },
+  {
+    "ComparisonID": 105,
+    "ComparisonName": "State of Good Repair in New York City by Mode of Transportation",
+    "LegendTitle": "State of Good Repair by Mode of Transportation",
+    "Y_axis_title": "Percent",
+    "Indicators": [
+      {
+        "Measures": [256, 257, 258],
+        "IndicatorID": 774
+      }
+    ]
+  },
+  {
+    "ComparisonID": 118,
+    "ComparisonName": "Number of Heart Attack Hospitalizations in New York City by Age",
+    "LegendTitle": "Ages",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [170, 442],
+        "IndicatorID": 90
+      }
+    ]
+  },
+  {
+    "ComparisonID": 303,
+    "ComparisonName": "Employed Adults with Elevated Blood Lead Levels",
+    "LegendTitle": "Citywide Levels",
+    "Y_axis_title": "Rate (per 100,000 employed)",
+    "Indicators": [
+      {
+        "Measures": [873, 880],
+        "IndicatorID": 2209
+      }
+    ]
+  },
+  {
+    "ComparisonID": 402,
+    "ComparisonName": "Number of Asthma ED Visits in New York City by Age",
+    "LegendTitle": "Age",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [459],
+        "IndicatorID": 2048
+      }
+    ]
+  },
+  {
+    "ComparisonID": 404,
+    "ComparisonName": "Rates of Asthma ED Visits in New York City by Age",
+    "LegendTitle": "Age",
+    "Y_axis_title": "Rate( per 10,000 residents)",
+    "Indicators": [
+      {
+        "Measures": [460],
+        "IndicatorID": 2048
+      }
+    ]
+  },
+  {
+    "ComparisonID": 418,
+    "ComparisonName": "Cigarette Smoking in New York City by Age",
+    "LegendTitle": "Ages",
+    "Y_axis_title": "Percent",
+    "Indicators": [
+      {
+        "Measures": [307],
+        "IndicatorID": 2019
+      },
+      {
+        "Measures": [311],
+        "IndicatorID": 2021
+      }
+    ]
+  },
+  {
+    "ComparisonID": 442,
+    "ComparisonName": "Agency Use of Fungicides (Soild Products)",
+    "LegendTitle": "Agency Use of Fungicides (Soild Products)",
+    "Y_axis_title": "Solid Products (pounds)",
+    "Indicators": [
+      {
+        "Measures": [1079],
+        "IndicatorID": 2348
+      }
+    ]
+  },
+  {
+    "ComparisonID": 443,
+    "ComparisonName": "Agency Use of Fungicides (Liquid Products)",
+    "LegendTitle": "Agency Use of Fungicides (Liquid Products)",
+    "Y_axis_title": "Liquid Products (gallons)",
+    "Indicators": [
+      {
+        "Measures": [1078],
+        "IndicatorID": 2348
+      }
+    ]
+  },
+  {
+    "ComparisonID": 445,
+    "ComparisonName": "Agency Use of Herbicides (Liquid Products)",
+    "LegendTitle": "Agency Use of Herbicides (Liquid Products)",
+    "Y_axis_title": "Liquid Products (gallons)",
+    "Indicators": [
+      {
+        "Measures": [1087],
+        "IndicatorID": 2351
+      }
+    ]
+  },
+  {
+    "ComparisonID": 449,
+    "ComparisonName": "Agency Use of Herbicides (Solid Products)",
+    "LegendTitle": "Agency Use of Herbicides (Solid Products)",
+    "Y_axis_title": "Solid Products (pounds)",
+    "Indicators": [
+      {
+        "Measures": [1088],
+        "IndicatorID": 2351
+      }
+    ]
+  },
+  {
+    "ComparisonID": 455,
+    "ComparisonName": "Agency Use of Insecticides (Liquid Products)",
+    "LegendTitle": "Agency Use of Insecticides (Liquid Products)",
+    "Y_axis_title": "Liquid Products (gallons)",
+    "Indicators": [
+      {
+        "Measures": [1096],
+        "IndicatorID": 2354
+      }
+    ]
+  },
+  {
+    "ComparisonID": 460,
+    "ComparisonName": "<p>Agency Use of Best Practice Products<\/p>",
+    "LegendTitle": "Agency Use of Best Practice Products",
+    "Y_axis_title": "Solid Products (pounds)",
+    "Indicators": [
+      {
+        "Measures": [1072],
+        "IndicatorID": 2345
+      }
+    ]
+  },
+  {
+    "ComparisonID": 464,
+    "ComparisonName": "Agency Use of Rodenticides",
+    "LegendTitle": "Agency Use of Rodenticides",
+    "Y_axis_title": "Solid Products (pounds)",
+    "Indicators": [
+      {
+        "Measures": [1105],
+        "IndicatorID": 2357
+      }
+    ]
+  },
+  {
+    "ComparisonID": 469,
+    "ComparisonName": "Agency Use of Insecticides (Soild Products)",
+    "LegendTitle": "Agency Use of Insecticides (Soild Products)",
+    "Y_axis_title": "Solid Products (pounds)",
+    "Indicators": [
+      {
+        "Measures": [1097],
+        "IndicatorID": 2354
+      }
+    ]
+  },
+  {
+    "ComparisonID": 493,
+    "ComparisonName": "<span>Agency Use of Glyphosate<\/span>",
+    "LegendTitle": "Agency Use of Glyphosate",
+    "Y_axis_title": "(gallons)",
+    "Indicators": [
+      {
+        "Measures": [1136, 1138],
+        "IndicatorID": 2367
+      }
+    ]
+  },
+  {
+    "ComparisonID": 536,
+    "ComparisonName": "Consumption of 1 or More Sugary Drinks Per Day",
+    "LegendTitle": "Ages",
+    "Y_axis_title": "Percent",
+    "Indicators": [
+      {
+        "Measures": [609],
+        "IndicatorID": 2097
+      },
+      {
+        "Measures": [610],
+        "IndicatorID": 2098
+      }
+    ]
+  },
+  {
+    "ComparisonID": 537,
+    "ComparisonName": "Asthma in the Past 12 Months",
+    "LegendTitle": "Ages",
+    "Y_axis_title": "Percent",
+    "Indicators": [
+      {
+        "Measures": [363],
+        "IndicatorID": 18
+      },
+      {
+        "Measures": [1040],
+        "IndicatorID": 2339
+      }
+    ]
+  },
+  {
+    "ComparisonID": 538,
+    "ComparisonName": "Obesity in New York City by Age",
+    "LegendTitle": "Ages",
+    "Y_axis_title": "Percent",
+    "Indicators": [
+      {
+        "Measures": [506],
+        "IndicatorID": 2063
+      },
+      {
+        "Measures": [508],
+        "IndicatorID": 2064
+      }
+    ]
+  },
+  {
+    "ComparisonID": 539,
+    "ComparisonName": "Overweight or Obesity in New York City by Age",
+    "LegendTitle": "Ages",
+    "Y_axis_title": "Percent",
+    "Indicators": [
+      {
+        "Measures": [502],
+        "IndicatorID": 2061
+      },
+      {
+        "Measures": [504],
+        "IndicatorID": 2062
+      }
+    ]
+  },
+  {
+    "ComparisonID": 551,
+    "ComparisonName": "Carbon Monoxide Deaths",
+    "LegendTitle": "Number of Carbon Monoxide Deaths",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [1244, 1245, 1246],
+        "IndicatorID": 2398
+      }
+    ]
+  },
+  {
+    "ComparisonID": 553,
+    "ComparisonName": "Heat Stress Deaths and Heat Events",
+    "LegendTitle": "Heat Stress Deaths and Heat Events",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [553],
+        "IndicatorID": 2084
+      },
+      {
+        "Measures": [534],
+        "IndicatorID": 2074
+      }
+    ]
+  },
+  {
+    "ComparisonID": 554,
+    "ComparisonName": "<span>Rates of Asthma Hospitalizations<\/span>",
+    "LegendTitle": "Age",
+    "Y_axis_title": "Rate( per 10,000 residents)",
+    "Indicators": [
+      {
+        "Measures": [1203],
+        "IndicatorID": 2382
+      },
+      {
+        "Measures": [155],
+        "IndicatorID": 84
+      },
+      {
+        "Measures": [1201],
+        "IndicatorID": 2381
+      }
+    ]
+  },
+  {
+    "ComparisonID": 555,
+    "ComparisonName": "<span>Rates of Asthma ED Visits<\/span>",
+    "LegendTitle": "Age",
+    "Y_axis_title": "Rate( per 10,000 residents)",
+    "Indicators": [
+      {
+        "Measures": [1196],
+        "IndicatorID": 2379
+      },
+      {
+        "Measures": [460],
+        "IndicatorID": 2048
+      },
+      {
+        "Measures": [1198],
+        "IndicatorID": 2380
+      }
+    ]
+  },
+  {
+    "ComparisonID": 564,
+    "ComparisonName": "PM2.5 Air Quality Advisory Days in New York City",
+    "LegendTitle": "PM2.5",
+    "Y_axis_title": "Days Above Standard",
+    "Indicators": [
+      {
+        "Measures": [786, 785],
+        "IndicatorID": 57
+      }
+    ]
+  },
+  {
+    "ComparisonID": 565,
+    "ComparisonName": "Ozone Air Quality Advisory Days in New York City",
+    "LegendTitle": "Ozone",
+    "Y_axis_title": "Days above Standard",
+    "Indicators": [
+      {
+        "Measures": [107, 787],
+        "IndicatorID": 55
+      }
+    ]
+  },
+  {
+    "ComparisonID": 566,
+    "ComparisonName": "Air Quality Advisory Days in New York City",
+    "LegendTitle": "Population Subgroups",
+    "Y_axis_title": "Number of Days",
+    "Indicators": [
+      {
+        "Measures": [201, 200],
+        "IndicatorID": 92
+      }
+    ]
+  },
+  {
+    "ComparisonID": 567,
+    "ComparisonName": "Glyphosate Applications",
+    "LegendTitle": "Glyphosate Applications",
+    "Y_axis_title": "Applications",
+    "Indicators": [
+      {
+        "Measures": [1135, 1137],
+        "IndicatorID": 2367
+      }
+    ]
+  },
+  {
+    "ComparisonID": 568,
+    "ComparisonName": "<span>Agency Use of Herbicides (Solid Products)<\/span>",
+    "LegendTitle": "Agency Use of Herbicides (Solid Products)",
+    "Y_axis_title": "(pounds)",
+    "Indicators": [
+      {
+        "Measures": [1141, 1147, 1144],
+        "IndicatorID": 2368
+      }
+    ]
+  },
+  {
+    "ComparisonID": 569,
+    "ComparisonName": "<span>Agency Use of Herbicides (Liquid Products)<\/span>",
+    "LegendTitle": "Agency Use of Herbicides (Liquid Products)",
+    "Y_axis_title": "(gallons)",
+    "Indicators": [
+      {
+        "Measures": [1140, 1146, 1143],
+        "IndicatorID": 2368
+      }
+    ]
+  },
+  {
+    "ComparisonID": 570,
+    "ComparisonName": "Herbicides Applications",
+    "LegendTitle": "Herbicides Applications",
+    "Y_axis_title": "Applications",
+    "Indicators": [
+      {
+        "Measures": [1139, 1145, 1142],
+        "IndicatorID": 2368
+      }
+    ]
+  },
+  {
+    "ComparisonID": 571,
+    "ComparisonName": "Housing Disrepair in New York City",
+    "LegendTitle": "Disrepair",
+    "Y_axis_title": "Percent of Households",
+    "Indicators": [
+      {
+        "Measures": [94],
+        "IndicatorID": 48
+      },
+      {
+        "Measures": [76],
+        "IndicatorID": 40
+      },
+      {
+        "Measures": [80],
+        "IndicatorID": 42
+      },
+      {
+        "Measures": [86],
+        "IndicatorID": 45
+      },
+      {
+        "Measures": [245],
+        "IndicatorID": 107
+      }
+    ]
+  },
+  {
+    "ComparisonID": 573,
+    "ComparisonName": "Agency Use of Best Practice Products",
+    "LegendTitle": "Agency Use of Best Practice Products",
+    "Y_axis_title": "Soilds (pounds)",
+    "Indicators": [
+      {
+        "Measures": [1130, 1132, 1134],
+        "IndicatorID": 2366
+      }
+    ]
+  },
+  {
+    "ComparisonID": 574,
+    "ComparisonName": "Agency Use of Best Practice Products",
+    "LegendTitle": "Agency Use of Best Practice Products",
+    "Y_axis_title": "All Agency Applications",
+    "Indicators": [
+      {
+        "Measures": [1129, 1131, 1133],
+        "IndicatorID": 2366
+      }
+    ]
+  },
+  {
+    "ComparisonID": 575,
+    "ComparisonName": "<span>Agency Use of Insecticides (Soild Products)<\/span>",
+    "LegendTitle": "Agency Use of Insecticides (Soild Products)",
+    "Y_axis_title": "(pounds)",
+    "Indicators": [
+      {
+        "Measures": [1151, 1154, 1157],
+        "IndicatorID": 2369
+      }
+    ]
+  },
+  {
+    "ComparisonID": 576,
+    "ComparisonName": "<span>Agency Use of Insecticides (Liquid Products)<\/span>",
+    "LegendTitle": "Agency Use of Insecticides (Liquid Products)",
+    "Y_axis_title": "(gallons)",
+    "Indicators": [
+      {
+        "Measures": [1150, 1153, 1156],
+        "IndicatorID": 2369
+      }
+    ]
+  },
+  {
+    "ComparisonID": 577,
+    "ComparisonName": "Insecticides Applications",
+    "LegendTitle": "Insecticides Applications",
+    "Y_axis_title": "Applications",
+    "Indicators": [
+      {
+        "Measures": [1148, 1152, 1155],
+        "IndicatorID": 2369
+      }
+    ]
+  },
+  {
+    "ComparisonID": 578,
+    "ComparisonName": "NYC Agency Use of Fungicides (Soild Products)",
+    "LegendTitle": "NYC Agency Use of Fungicides (Soild Products)",
+    "Y_axis_title": "Soild Products (pounds)",
+    "Indicators": [
+      {
+        "Measures": [1120, 1126, 1123],
+        "IndicatorID": 2364
+      }
+    ]
+  },
+  {
+    "ComparisonID": 579,
+    "ComparisonName": "NYC Agency Use of Fungicides (Liquid Products)",
+    "LegendTitle": "NYC Agency Use of Fungicides",
+    "Y_axis_title": "Liquid Products (gallons)",
+    "Indicators": [
+      {
+        "Measures": [1119, 1125, 1122],
+        "IndicatorID": 2364
+      }
+    ]
+  },
+  {
+    "ComparisonID": 580,
+    "ComparisonName": "NYC Agency Fungicides Applications",
+    "LegendTitle": "NYC Agency Fungicides Applications",
+    "Y_axis_title": "Applications",
+    "Indicators": [
+      {
+        "Measures": [1118, 1124, 1121],
+        "IndicatorID": 2364
+      }
+    ]
+  },
+  {
+    "ComparisonID": 581,
+    "ComparisonName": "<span>Agency Use of Rodenticides<\/span>",
+    "LegendTitle": "Agency Use of Rodenticides",
+    "Y_axis_title": "(pounds)",
+    "Indicators": [
+      {
+        "Measures": [1159, 1163, 1161],
+        "IndicatorID": 2370
+      }
+    ]
+  },
+  {
+    "ComparisonID": 582,
+    "ComparisonName": "Rodenticides Applications",
+    "LegendTitle": "Rodenticides Applications",
+    "Y_axis_title": "Applications",
+    "Indicators": [
+      {
+        "Measures": [1158, 1162, 1160],
+        "IndicatorID": 2370
+      }
+    ]
+  },
+  {
+    "ComparisonID": 628,
+    "ComparisonName": "<p>Carbon Monoxide Emergency Department Visits<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [1260, 1262, 1264],
+        "IndicatorID": 2405
+      }
+    ]
+  },
+  {
+    "ComparisonID": 629,
+    "ComparisonName": "<p>Carbon Monoxide Emergency Department Visits<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [1262, 1260, 1264],
+        "IndicatorID": 2405
+      }
+    ]
+  },
+  {
+    "ComparisonID": 630,
+    "ComparisonName": "<p>Carbon Monoxide Emergency Department Visits<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [1264, 1260, 1262],
+        "IndicatorID": 2405
+      }
+    ]
+  },
+  {
+    "ComparisonID": 644,
+    "ComparisonName": "<p>,Carbon Monoxide Emergency Department Visits (per 100,000)<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Rate (per 100,000)",
+    "Indicators": [
+      {
+        "Measures": [1263, 1261, 1265],
+        "IndicatorID": 2405
+      }
+    ]
+  },
+  {
+    "ComparisonID": 645,
+    "ComparisonName": "<p>,Carbon Monoxide Emergency Department Visits (per 100,000)<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Rate (per 100,000)",
+    "Indicators": [
+      {
+        "Measures": [1261, 1263, 1265],
+        "IndicatorID": 2405
+      }
+    ]
+  },
+  {
+    "ComparisonID": 646,
+    "ComparisonName": "<p>,Carbon Monoxide Emergency Department Visits (per 100,000)<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Rate (per 100,000)",
+    "Indicators": [
+      {
+        "Measures": [1265, 1261, 1263],
+        "IndicatorID": 2405
+      }
+    ]
+  },
+  {
+    "ComparisonID": 647,
+    "ComparisonName": "Carbon Monoxide Hospitalizations",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [1267, 1268, 1270],
+        "IndicatorID": 2406
+      }
+    ]
+  },
+  {
+    "ComparisonID": 649,
+    "ComparisonName": "<p>Carbon Monoxide Hospitalizations<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [1268, 1267, 1270],
+        "IndicatorID": 2406
+      }
+    ]
+  },
+  {
+    "ComparisonID": 651,
+    "ComparisonName": "<p>,Carbon Monoxide Hospitalizations (per 100,000)<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Rate (per 100,000)",
+    "Indicators": [
+      {
+        "Measures": [1269, 1266, 1271],
+        "IndicatorID": 2406
+      }
+    ]
+  },
+  {
+    "ComparisonID": 652,
+    "ComparisonName": "<p>Carbon Monoxide Hospitalizations<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [1270, 1268, 1267],
+        "IndicatorID": 2406
+      }
+    ]
+  },
+  {
+    "ComparisonID": 653,
+    "ComparisonName": "<p>,Carbon Monoxide Hospitalizations (per 100,000)<\/p>",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Rate (per 100,000)",
+    "Indicators": [
+      {
+        "Measures": [1271, 1266, 1269],
+        "IndicatorID": 2406
+      }
+    ]
+  },
+  {
+    "ComparisonID": 663,
+    "ComparisonName": "Arsenic in NYC Drinking Water",
+    "LegendTitle": "Arsenic Concentrations",
+    "Y_axis_title": "Concentration (micrograms per liter)",
+    "Indicators": [
+      {
+        "Measures": [435, 528, 436],
+        "IndicatorID": 2044
+      }
+    ]
+  },
+  {
+    "ComparisonID": 664,
+    "ComparisonName": "Nitrate in NYC Drinking water",
+    "LegendTitle": "Nitrate Concentrations",
+    "Y_axis_title": "Concentration (milligrams per liter)",
+    "Indicators": [
+      {
+        "Measures": [423, 531, 424],
+        "IndicatorID": 2041
+      }
+    ]
+  },
+  {
+    "ComparisonID": 669,
+    "ComparisonName": "Haloacetic Acids<span> (HAA5)<\/span> in NYC Drinking Water",
+    "LegendTitle": "Quarterly Concentration",
+    "Y_axis_title": "Concentration (µg/L)",
+    "Indicators": [
+      {
+        "Measures": [860, 858, 859],
+        "IndicatorID": 2043
+      }
+    ]
+  },
+  {
+    "ComparisonID": 672,
+    "ComparisonName": "Total&nbsp;<span>Trihalomethanes<\/span> <span>(TTHM) <\/span>in NYC Drinking Water",
+    "LegendTitle": "TTHM Concentration",
+    "Y_axis_title": "Concentration (micrograms per liter)",
+    "Indicators": [
+      {
+        "Measures": [867, 864, 865],
+        "IndicatorID": 2207
+      }
+    ]
+  },
+  {
+    "ComparisonID": 673,
+    "ComparisonName": "Total&nbsp;<span>Trihalomethanes<\/span> <span>(TTHM)<\/span> in NYC Drinking Water",
+    "LegendTitle": "Quarterly Concentration",
+    "Y_axis_title": "Concentration (µg/L)",
+    "Indicators": [
+      {
+        "Measures": [862, 863, 861],
+        "IndicatorID": 2207
+      }
+    ]
+  },
+  {
+    "ComparisonID": 674,
+    "ComparisonName": "Haloacetic Acids <span>(HAA5)<\/span> in NYC Drinking Water",
+    "LegendTitle": "Annual",
+    "Y_axis_title": "Concentration (µg/L)",
+    "Indicators": [
+      {
+        "Measures": [431, 529, 432],
+        "IndicatorID": 2043
+      }
+    ]
+  },
+  {
+    "ComparisonID": 675,
+    "ComparisonName": "<span>Number of Asthma Hospitalizations<\/span>",
+    "LegendTitle": "Age",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [154],
+        "IndicatorID": 84
+      },
+      {
+        "Measures": [1200],
+        "IndicatorID": 2381
+      },
+      {
+        "Measures": [1202],
+        "IndicatorID": 2382
+      }
+    ]
+  },
+  {
+    "ComparisonID": 676,
+    "ComparisonName": "<span>Number of Asthma ED Visits<\/span>",
+    "LegendTitle": "Age",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "Measures": [1197],
+        "IndicatorID": 2380
+      },
+      {
+        "Measures": [459],
+        "IndicatorID": 2048
+      },
+      {
+        "Measures": [1195],
+        "IndicatorID": 2379
+      }
+    ]
+  },
+  {
+    "ComparisonID": 677,
+    "ComparisonName": ",Carbon Monoxide Hospitalizations (per 100,000)",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Rate (per 100,000)",
+    "Indicators": [
+      {
+        "Measures": [1266, 1269, 1271],
+        "IndicatorID": 2406
+      }
+    ]
+  }
+]

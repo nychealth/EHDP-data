@@ -4,6 +4,7 @@
     "IndicatorName":"Preterm birth",
     "IndicatorLabel":"Preterm birth",
     "IndicatorDescription":"Birth at fewer than 37 weeks gestational age.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1,
@@ -259,6 +260,7 @@
     "IndicatorName":"Very preterm birth",
     "IndicatorLabel":"Very preterm birth",
     "IndicatorDescription":"Birth at fewer than 32 weeks gestational age.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":3,
@@ -514,6 +516,7 @@
     "IndicatorName":"Very low birthweight",
     "IndicatorLabel":"Very low birthweight",
     "IndicatorDescription":"Very low birth weight is when a baby weighs less than 3 lbs, 5 oz.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":5,
@@ -769,6 +772,7 @@
     "IndicatorName":"Low birthweight at full term",
     "IndicatorLabel":"Low birthweight at full term",
     "IndicatorDescription":"Low birth weight is when a baby weighs less than 5 lbs, 8 oz at full term.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":7,
@@ -1032,6 +1036,7 @@
     "IndicatorName":"Death (infants)",
     "IndicatorLabel":"Death (infants)",
     "IndicatorDescription":"Death among children under 1 year old.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":9,
@@ -1287,6 +1292,7 @@
     "IndicatorName":"Death (neonatal)",
     "IndicatorLabel":"Death (neonatal)",
     "IndicatorDescription":"Deaths among children less than 28 days old.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":11,
@@ -1542,6 +1548,7 @@
     "IndicatorName":"Death (perinatal)",
     "IndicatorLabel":"Death (perinatal)",
     "IndicatorDescription":"Deaths from 28 weeks of pregnancy to 6 days old.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":13,
@@ -1777,6 +1784,7 @@
     "IndicatorName":"Death (postneonatal)",
     "IndicatorLabel":"Death (postneonatal)",
     "IndicatorDescription":"Deaths from 28 days old to 1 year old.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":15,
@@ -2032,6 +2040,7 @@
     "IndicatorName":"Total lifetime fertility",
     "IndicatorLabel":"Total lifetime fertility",
     "IndicatorDescription":"A measure of total birth rate, expressed as the number of children per 1,000 women.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":17,
@@ -2141,6 +2150,7 @@
     "IndicatorName":"Sex ratio",
     "IndicatorLabel":"Sex ratio",
     "IndicatorDescription":"The ratio of male to female births.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":18,
@@ -2266,6 +2276,7 @@
     "IndicatorName":"Foreign-born",
     "IndicatorLabel":"Foreign born",
     "IndicatorDescription":"People born outside the USA or its territories (including Puerto Rico).",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":24,
@@ -2491,6 +2502,7 @@
     "IndicatorName":"Household crowding",
     "IndicatorLabel":"Household crowding",
     "IndicatorDescription":"Households with more than one person per room are considered crowded.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":25,
@@ -2678,6 +2690,7 @@
     "IndicatorName":"Very old homes",
     "IndicatorLabel":"Very old homes",
     "IndicatorDescription":"Homes built before 1950. Older housing can put residents at risk of lead poisoning.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":26,
@@ -2913,6 +2926,7 @@
     "IndicatorName":"Owner-occupied homes",
     "IndicatorLabel":"Owner-occupied homes",
     "IndicatorDescription":"Housing units occupied by their owner.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":29,
@@ -3130,6 +3144,9 @@
     "IndicatorName":"Adults with asthma (past 12 months)",
     "IndicatorLabel":"Adults with asthma (past 12 months)",
     "IndicatorDescription":"Asthma is a common disease characterized by breathing difficulty. Poor air quality and housing issues increase risk of developing and triggering asthma.",
+    "Comparisons":[
+      537
+    ],
     "Measures":[
       {
         "MeasureID":30,
@@ -3566,6 +3583,7 @@
     "IndicatorName":"Adults reporting cockroaches",
     "IndicatorLabel":"Adults reporting cockroaches",
     "IndicatorDescription":"The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":40,
@@ -3773,6 +3791,7 @@
     "IndicatorName":"Adults reporting mice or rats outside",
     "IndicatorLabel":"Adults reporting rats or mice outside their building",
     "IndicatorDescription":"Mice and rats are a source of household allergens connected to developing or worsening asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":44,
@@ -3904,6 +3923,7 @@
     "IndicatorName":"Secondhand smoke at home",
     "IndicatorLabel":"Secondhand smoke at home",
     "IndicatorDescription":"Adults reporting secondhand smoke at home. Secondhand smoke, especially indoors, is bad for health - particularly for the health of children.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":46,
@@ -4099,6 +4119,7 @@
     "IndicatorName":"Anencephaly",
     "IndicatorLabel":"Anencephaly",
     "IndicatorDescription":"Anencephaly is a serious birth defect in which a baby is born without parts of the brain and skull.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":798,
@@ -4291,6 +4312,7 @@
     "IndicatorName":"Spina bifida (without anencephaly)",
     "IndicatorLabel":"Spina bifida (without anencephaly)",
     "IndicatorDescription":"Spina bifida is a neural tube defect that can cause cause physical and intellectual disabilities.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":810,
@@ -4483,6 +4505,7 @@
     "IndicatorName":"Hypoplastic left heart syndrome",
     "IndicatorLabel":"Hypoplastic left heart syndrome",
     "IndicatorDescription":"A rare birth defect where part of the heart is underdeveloped.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":796,
@@ -4675,6 +4698,7 @@
     "IndicatorName":"Transposition of the great arteries (vessels)",
     "IndicatorLabel":"Transposition of the great arteries (vessels)",
     "IndicatorDescription":"Transposition of the great arteries or vessels is a congenital heart defect that involves abnormal arrangement of parts of the heart.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":814,
@@ -4867,6 +4891,7 @@
     "IndicatorName":"Cleft lip (with or without cleft palate)",
     "IndicatorLabel":"Cleft lip (with or without cleft palate)",
     "IndicatorDescription":"Cleft lip is a birth defect that occurs when a baby's lip does not form properly during pregnancy.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":802,
@@ -5059,6 +5084,7 @@
     "IndicatorName":"Cleft palate (without cleft lip)",
     "IndicatorLabel":"Cleft palate (without cleft lip)",
     "IndicatorDescription":"Cleft palate is a birth defect that occurs when a baby's mouth does not form properly during pregnancy.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":800,
@@ -5251,6 +5277,7 @@
     "IndicatorName":"Hypospadias",
     "IndicatorLabel":"Hypospadias",
     "IndicatorDescription":"A birth defect in male babies where the urethra opening is not at the tip of the penis.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":806,
@@ -5443,6 +5470,7 @@
     "IndicatorName":"Gastroschisis",
     "IndicatorLabel":"Gastroschisis",
     "IndicatorDescription":"A birth defect where there is a hole beside the belly button and the baby\u2019s intestines or other organs are outside the baby\u2019s body.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":804,
@@ -5635,6 +5663,7 @@
     "IndicatorName":"Upper limb deficiencies",
     "IndicatorLabel":"Upper limb deficiencies",
     "IndicatorDescription":"Upper limb deficiencies include undergrowth, overgrowth, failure of formation, and other variations or deficiencies in the upper limbs.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":820,
@@ -5827,6 +5856,7 @@
     "IndicatorName":"Lower limb Deficiencies",
     "IndicatorLabel":"Lower limb Deficiencies",
     "IndicatorDescription":"Lower limb deficiencies include undergrowth, overgrowth, failure of formation, and other variations or deficiencies in the lower limbs.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":808,
@@ -6019,6 +6049,7 @@
     "IndicatorName":"Down Syndrome (Mother under age 35)",
     "IndicatorLabel":"Down Syndrome (Mother under age 35)",
     "IndicatorDescription":"Down syndrome is a condition in which a person has an extra chromosome. It causes delays in physical growth, and intellectual disabilities.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":818,
@@ -6211,6 +6242,7 @@
     "IndicatorName":"Down Syndrome (Mother age 35 and up)",
     "IndicatorLabel":"Down Syndrome (Mother age 35 and up)",
     "IndicatorDescription":"Down syndrome is a condition in which a person has an extra chromosome. It causes delays in physical growth, and intellectual disabilities.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":816,
@@ -6403,6 +6435,7 @@
     "IndicatorName":"Carbon monoxide incidents",
     "IndicatorLabel":"Carbon monoxide incidents",
     "IndicatorDescription":"A carbon monoxide incident is a leak where the Fire Department measures at least 1 ppm at the scene.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":72,
@@ -6630,6 +6663,9 @@
     "IndicatorName":"Homes with cracks or holes",
     "IndicatorLabel":"Homes with cracks or holes",
     "IndicatorDescription":"Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":75,
@@ -6777,6 +6813,7 @@
     "IndicatorName":"Old homes with peeling paint",
     "IndicatorLabel":"Old homes with peeling paint",
     "IndicatorDescription":"Older housing (built before 1960) that has peeling paint can put residents at risk of lead poisoning, due to lead paint. Lead paint was banned from household paints in New York City in 1960 and in the USA in 1978.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":77,
@@ -6890,6 +6927,9 @@
     "IndicatorName":"Homes with leaks",
     "IndicatorLabel":"Homes with leaks",
     "IndicatorDescription":"Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":79,
@@ -7029,6 +7069,9 @@
     "IndicatorName":"Homes with 3+ maintenance deficiencies",
     "IndicatorLabel":"Homes with 3 or more maintenance deficiencies",
     "IndicatorDescription":"Homes with maintenance deficiencies can threaten the health of the people who live there.",
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":85,
@@ -7172,6 +7215,7 @@
     "IndicatorName":"Homes near structures rated good or excellent",
     "IndicatorLabel":"Homes near structures rated good or excellent",
     "IndicatorDescription":"Building quality predicts the number of housing maintenance deficiencies in a residence that place residents at increased risk of acute or chronic health problems.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":87,
@@ -7319,6 +7363,7 @@
     "IndicatorName":"Homes using supplemental heat",
     "IndicatorLabel":"Homes using supplemental heat",
     "IndicatorDescription":"The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":89,
@@ -7462,6 +7507,9 @@
     "IndicatorName":"Homes with mice or rats in the building",
     "IndicatorLabel":"Homes with mice or rats in the building",
     "IndicatorDescription":"The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":93,
@@ -7619,6 +7667,9 @@
     "IndicatorName":"Ozone",
     "IndicatorLabel":"Ozone",
     "IndicatorDescription":"Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
+    "Comparisons":[
+      565
+    ],
     "Measures":[
       {
         "MeasureID":107,
@@ -7883,6 +7934,9 @@
     "IndicatorName":"Fine particles (PM 2.5)",
     "IndicatorLabel":"Fine particles (PM 2.5)",
     "IndicatorDescription":"Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+    "Comparisons":[
+      564
+    ],
     "Measures":[
       {
         "MeasureID":111,
@@ -8423,6 +8477,7 @@
     "IndicatorName":"Breast cancer (in females)",
     "IndicatorLabel":"Breast cancer (in females)",
     "IndicatorDescription":"Breast cancer is a common cancer. It is more common among females.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":112,
@@ -8796,6 +8851,7 @@
     "IndicatorName":"Lung and bronchus cancer",
     "IndicatorLabel":"Lung and bronchus cancer",
     "IndicatorDescription":"Cancers in the lung or bronchus.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":116,
@@ -9383,6 +9439,7 @@
     "IndicatorName":"Pancreatic cancer",
     "IndicatorLabel":"Pancreatic cancer",
     "IndicatorDescription":"Cancer of the pancreas.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":120,
@@ -9966,6 +10023,7 @@
     "IndicatorName":"Brain and other nervous system cancer",
     "IndicatorLabel":"Brain and other nervous system cancer",
     "IndicatorDescription":"Brain and other nervous system cancers are tumors that start in the brain or spinal cord.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":124,
@@ -10553,6 +10611,7 @@
     "IndicatorName":"Non-Hodgkin's lymphomas",
     "IndicatorLabel":"Non-Hodgkin's lymphomas",
     "IndicatorDescription":"A cancer that starts in the lymphatic system, part of the body's immune system.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":132,
@@ -11136,6 +11195,7 @@
     "IndicatorName":"Leukemia",
     "IndicatorLabel":"Leukemia",
     "IndicatorDescription":"Leukemia is a general term for cancer of blood cells.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":136,
@@ -11719,6 +11779,7 @@
     "IndicatorName":"Acute myeloid leukemia",
     "IndicatorLabel":"Acute myeloid leukemia",
     "IndicatorDescription":"Acute myeloid leukemia is a cancer of the blood and bone marrow.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":140,
@@ -12306,6 +12367,10 @@
     "IndicatorName":"Asthma hospitalizations (age 4 and under)",
     "IndicatorLabel":"Children (4 and under)",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "Comparisons":[
+      554,
+      675
+    ],
     "Measures":[
       {
         "MeasureID":154,
@@ -12637,6 +12702,10 @@
     "IndicatorName":"Heart attack hospitalizations",
     "IndicatorLabel":"Heart attack hospitalizations",
     "IndicatorDescription":"Heart attacks can stem from genetic, lifestyle, and environmental factors including ambient air pollution and second-hand smoke.",
+    "Comparisons":[
+      91,
+      118
+    ],
     "Measures":[
       {
         "MeasureID":170,
@@ -13527,6 +13596,7 @@
     "IndicatorName":"Regular exterminator service",
     "IndicatorLabel":"Regular Exterminator Service",
     "IndicatorDescription":"Households that report using a regular exterminator service.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":91,
@@ -13670,6 +13740,9 @@
     "IndicatorName":"Air quality action days",
     "IndicatorLabel":"Air quality action days",
     "IndicatorDescription":"Action days for sensitive groups are counted when either ozone or PM2.5 levels are above 100, and for the general population when levels are above 150.",
+    "Comparisons":[
+      566
+    ],
     "Measures":[
       {
         "MeasureID":200,
@@ -13934,6 +14007,7 @@
     "IndicatorName":"Commercial use of insecticides",
     "IndicatorLabel":"Insecticides",
     "IndicatorDescription":"Pesticides targeting insects, applied by professional exterminators or licensed maintenance staff.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":206,
@@ -14236,6 +14310,7 @@
     "IndicatorName":"Commercial use of herbicides",
     "IndicatorLabel":"Herbicides",
     "IndicatorDescription":"Pesticides targeting unwanted weeds, grasses, vines and trees applied by professional exterminators or licensed maintenance staff.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":209,
@@ -14529,6 +14604,7 @@
     "IndicatorName":"Commercial use of fungicides",
     "IndicatorLabel":"Fungicides",
     "IndicatorDescription":"Pesticides targeting type of fungus such as mold or plant blight applied by professional exterminators or licensed maintenance staff. These are often applied to protect landscaping and golf course grasses.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":211,
@@ -14822,6 +14898,7 @@
     "IndicatorName":"Commercial use of insecticides (Organophosphate)",
     "IndicatorLabel":"Insecticides (Organophosphate)",
     "IndicatorDescription":"Pesticides of this chemical class used to target insects, applied by professional exterminators or licensed maintenance staff. Organophosphates are acutely toxic and present a significant health risk from human exposure.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":212,
@@ -15115,6 +15192,7 @@
     "IndicatorName":"Commercial use of insecticides (Pyrethroid\/Pyrethrin)",
     "IndicatorLabel":"Insecticides (Pyrethroid\/Pyrethrin)",
     "IndicatorDescription":"Pyrethroids and Pyrethrins are less acutely toxic than some other insecticide classes. But based on how they are broadly applied, they can present a significant risk of human exposure. These chemicals can also cause a respiratory allergic reaction and short term irritation to the skin and face.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":214,
@@ -15412,6 +15490,7 @@
     "IndicatorName":"Insecticides (carbamate)",
     "IndicatorLabel":"Insecticides (Carbamate)",
     "IndicatorDescription":"Carbamates are acutely toxic and present a significant health risk from human exposure.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":216,
@@ -15705,6 +15784,7 @@
     "IndicatorName":"Commercial use of \"Best Practice\" products",
     "IndicatorLabel":"\"Best Practice\" Products",
     "IndicatorDescription":"Pesticides targeting insects, but have low toxicity or low potential for human exposure, applied by professionally licensed exterminators and maintenance staff.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":218,
@@ -15862,6 +15942,7 @@
     "IndicatorName":"Tetralogy of Fallot",
     "IndicatorLabel":"Tetralogy of Fallot",
     "IndicatorDescription":"Tetralogy of Fallot is a congenital heart defect that affects how blood flows through the heart.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":812,
@@ -16054,6 +16135,7 @@
     "IndicatorName":"Commercial use of rodenticides",
     "IndicatorLabel":"Rodenticides",
     "IndicatorDescription":"Pesticides targeting rats and mice, applied by professional exterminators or licensed maintenance staff. These products are frequently added to tamper proof containers or applied directly to rodent burrows",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":208,
@@ -16207,6 +16289,7 @@
     "IndicatorName":"Neighborhood poverty",
     "IndicatorLabel":"Neighborhood poverty",
     "IndicatorDescription":"The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to items such as health care and good quality housing that are needed to maintain good health.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":221,
@@ -16513,6 +16596,9 @@
     "IndicatorName":"Homes with cockroaches",
     "IndicatorLabel":"Homes with cockroaches",
     "IndicatorDescription":"The presence of cockroaches in the home is often associated with poor housing maintenance. Cockroaches in the home can contaminate food and worsen asthma.",
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":245,
@@ -16572,11 +16658,11 @@
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"x"
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"y"
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":221,
@@ -16643,6 +16729,7 @@
     "IndicatorName":"Thyroid cancer",
     "IndicatorLabel":"Thyroid cancer",
     "IndicatorDescription":"Cancer of the thyroid, a gland in the neck.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":128,
@@ -17226,6 +17313,7 @@
     "IndicatorName":"Chronic lymphocytic leukemia",
     "IndicatorLabel":"Chronic lymphocytic leukemia",
     "IndicatorDescription":"Chronic lymphocytic leukemia (CLL) is a cancer that starts from white blood cells in bone marrow.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":144,
@@ -17809,6 +17897,7 @@
     "IndicatorName":"No smoke-free home policy",
     "IndicatorLabel":"No smoke-free home policy",
     "IndicatorDescription":"Adults without a smoke-free home policy. A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":292,
@@ -18046,6 +18135,9 @@
     "IndicatorName":"Cigarette smoking (adults)",
     "IndicatorLabel":"Cigarette smoking (adults)",
     "IndicatorDescription":"Adults who are current smokers. Cigarette smoking is the leading cause of preventable deaths in the USA. It causes many diseases and greatly harms health.",
+    "Comparisons":[
+      418
+    ],
     "Measures":[
       {
         "MeasureID":306,
@@ -18395,6 +18487,7 @@
     "IndicatorName":"Secondhand smoke at work",
     "IndicatorLabel":"Secondhand smoke at work",
     "IndicatorDescription":"Adults reporting secondhand smoke at work. Secondhand smoke, especially indoors, is bad for health.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":308,
@@ -18551,6 +18644,9 @@
     "IndicatorName":"Cigarette smoking (youth)",
     "IndicatorLabel":"Cigarette smoking (youth)",
     "IndicatorDescription":"High school students who smoked in the past 30 days (from when they were surveyed). Cigarette smoking is the leading cause of preventable deaths in the USA. It causes many diseases and greatly harms health.",
+    "Comparisons":[
+      418
+    ],
     "Measures":[
       {
         "MeasureID":310,
@@ -18743,6 +18839,7 @@
     "IndicatorName":"Fine particles (PM 2.5)",
     "IndicatorLabel":"Fine particles (PM 2.5)",
     "IndicatorDescription":"Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":365,
@@ -19556,6 +19653,7 @@
     "IndicatorName":"Black carbon",
     "IndicatorLabel":"Black carbon",
     "IndicatorDescription":"Black carbon is a major component of fine particles in the air. Fine particles are easily inhaled and contribute to both short-term acute health effects, as well as long-term chronic illness.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":370,
@@ -20320,6 +20418,7 @@
     "IndicatorName":"Nitrogen dioxide (NO2)",
     "IndicatorLabel":"Nitrogen dioxide (NO2)",
     "IndicatorDescription":"Nitrogen dioxide is a pollutant formed by combusion that damage lung tissue, cause breathing problems, and contribute to smog and acid rain.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":375,
@@ -21138,6 +21237,7 @@
     "IndicatorName":"Sulfur dioxide (SO2)",
     "IndicatorLabel":"Sulfur dioxide (SO2)",
     "IndicatorDescription":"Sulfur dioxide comes from burning some kinds of fuel oil. As an air pollutant, it can can worsen lung diseases.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":383,
@@ -21482,6 +21582,7 @@
     "IndicatorName":"Ozone (O3)",
     "IndicatorLabel":"Ozone (O3)",
     "IndicatorDescription":"Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":386,
@@ -21917,6 +22018,7 @@
     "IndicatorName":"Nitric oxide (NOx)",
     "IndicatorLabel":"Nitric oxide (NOx)",
     "IndicatorDescription":"Nitrogen oxides (NOx), including nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that damage lung tissue, cause breathing problems, and contribute to smog and acid rain.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":391,
@@ -22685,6 +22787,7 @@
     "IndicatorName":"Bed bugs",
     "IndicatorLabel":"Bed bugs",
     "IndicatorDescription":"Adults reporting a problem with bed bugs that required an exterminator, in the past 12 months.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":397,
@@ -22814,6 +22917,7 @@
     "IndicatorName":"Leukemia (children)",
     "IndicatorLabel":"Leukemia (children)",
     "IndicatorDescription":"Leukemia is a general term for cancer of blood cells.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":399,
@@ -23006,6 +23110,7 @@
     "IndicatorName":"Brain and other nervous system cancer (children)",
     "IndicatorLabel":"Brain and other nervous system cancer (children)",
     "IndicatorDescription":"Brain and other nervous system cancers are tumors that start in the brain or spinal cord.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":403,
@@ -23190,6 +23295,7 @@
     "IndicatorName":"Acute myeloid leukemia (children)",
     "IndicatorLabel":"Acute myeloid leukemia (children)",
     "IndicatorDescription":"A cancer of the blood and bone marrow.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":407,
@@ -23374,6 +23480,7 @@
     "IndicatorName":"Acute lymphocytic leukemia (children)",
     "IndicatorLabel":"Acute lymphocytic leukemia (children)",
     "IndicatorDescription":"A cancer of the blood and bone marrow.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":411,
@@ -23558,6 +23665,7 @@
     "IndicatorName":"All cancer (children)",
     "IndicatorLabel":"All cancer (children)",
     "IndicatorDescription":"A group of diseases where cells grow abnormally.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":415,
@@ -23763,6 +23871,9 @@
     "IndicatorName":"Nitrate",
     "IndicatorLabel":"Nitrate",
     "IndicatorDescription":"Nitrates are found in water near where nitrogen-based fertilizers are used. Infants who are fed formula made with water containing nitrates over 10 mg\/L sometimes became seriously ill.",
+    "Comparisons":[
+      664
+    ],
     "Measures":[
       {
         "MeasureID":423,
@@ -24386,6 +24497,10 @@
     "IndicatorName":"Disinfection by-products (HAA5)",
     "IndicatorLabel":"Disinfection by-products (HAA5)",
     "IndicatorDescription":"Disinfection by-products are chemicals that can form when a disinfectant such as chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
+    "Comparisons":[
+      669,
+      674
+    ],
     "Measures":[
       {
         "MeasureID":431,
@@ -25238,6 +25353,9 @@
     "IndicatorName":"Arsenic",
     "IndicatorLabel":"Arsenic",
     "IndicatorDescription":"Arsenic is naturally-occurring in some groundwater systems. It may also enter drinking water systems from some pesticides and wood preservatives. Chronic exposure may increase risk of certain cancers.",
+    "Comparisons":[
+      663
+    ],
     "Measures":[
       {
         "MeasureID":435,
@@ -25836,6 +25954,7 @@
     "IndicatorName":"Asthma Emergency Department Visits (Children 5 to 14 Yrs Old)",
     "IndicatorLabel":"Children ages 5 to 14",
     "IndicatorDescription":null,
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":452,
@@ -25940,6 +26059,12 @@
     "IndicatorName":"Asthma emergency department visits (age 4 and under)",
     "IndicatorLabel":"Children (4 and under)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "Comparisons":[
+      402,
+      404,
+      555,
+      676
+    ],
     "Measures":[
       {
         "MeasureID":459,
@@ -26213,6 +26338,7 @@
     "IndicatorName":"Alcohol access",
     "IndicatorLabel":"Alcohol access",
     "IndicatorDescription":"Greater alcohol outlet density has been associated with a variety of health effects.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":462,
@@ -26415,6 +26541,7 @@
     "IndicatorName":"Heavy drinking (adults)",
     "IndicatorLabel":"Heavy drinking (adults)",
     "IndicatorDescription":"Heavy drinking is having more than 2 drinks per day (men) or more than 1 drink per day ( women).",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":466,
@@ -26692,6 +26819,7 @@
     "IndicatorName":"Binge drinking (adults)",
     "IndicatorLabel":"Binge drinking (adults)",
     "IndicatorDescription":"Binge drinking is having 5 or more drinks on one occasion, and as of 2011, 4 or more drinks for women.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":469,
@@ -26890,6 +27018,7 @@
     "IndicatorName":"Binge drinking (youth)",
     "IndicatorLabel":"Binge drinking (youth)",
     "IndicatorDescription":"Public high school students who reported having 5 or more drinks in a row in the past 30 days (from when they were surveyed).",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":481,
@@ -27082,6 +27211,7 @@
     "IndicatorName":"Underage drinking",
     "IndicatorLabel":"Underage drinking",
     "IndicatorDescription":"Public high school students who report having at least 1 drink in the past 30 days (from when they were surveyed).",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":483,
@@ -27274,6 +27404,7 @@
     "IndicatorName":"Alcohol access (youth)",
     "IndicatorLabel":"Alcohol access (youth)",
     "IndicatorDescription":"Greater alcohol outlet density has been associated with a variety of health effects.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":491,
@@ -27466,6 +27597,7 @@
     "IndicatorName":"Walking or biking for transportation",
     "IndicatorLabel":"Walking or biking for transportation",
     "IndicatorDescription":"Adults reporting walking or biking for transportation in the last 30 days (from when they were surveyed). Regularly walking or biking for transportation is good for you.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":495,
@@ -27579,6 +27711,7 @@
     "IndicatorName":"Monthly bicycle use",
     "IndicatorLabel":"Monthly bicycle use",
     "IndicatorDescription":"Adults reporting having ridden a bicycle at least once a month in the past year.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":497,
@@ -27816,6 +27949,7 @@
     "IndicatorName":"Recent exercise",
     "IndicatorLabel":"Recent exercise",
     "IndicatorDescription":"Adults reporting exercise in the past 30 days (from when they were surveyed). Regular exercise is a key way to stay healthy.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":499,
@@ -28099,6 +28233,9 @@
     "IndicatorName":"Overweight or obesity (adults)",
     "IndicatorLabel":"Overweight or obesity (adults)",
     "IndicatorDescription":"People who are overweight or obese are at increased risk for heart disease and diabetes.",
+    "Comparisons":[
+      539
+    ],
     "Measures":[
       {
         "MeasureID":501,
@@ -28406,6 +28543,9 @@
     "IndicatorName":"Overweight or obesity (youth)",
     "IndicatorLabel":"Overweight or obesity (youth)",
     "IndicatorDescription":"People who are overweight or obese are at increased risk for heart disease and diabetes.",
+    "Comparisons":[
+      539
+    ],
     "Measures":[
       {
         "MeasureID":503,
@@ -28568,6 +28708,9 @@
     "IndicatorName":"Obesity (adults)",
     "IndicatorLabel":"Obesity (adults)",
     "IndicatorDescription":"People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
+    "Comparisons":[
+      538
+    ],
     "Measures":[
       {
         "MeasureID":505,
@@ -28875,6 +29018,9 @@
     "IndicatorName":"Obesity (youth)",
     "IndicatorLabel":"Obesity (youth)",
     "IndicatorDescription":"People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
+    "Comparisons":[
+      538
+    ],
     "Measures":[
       {
         "MeasureID":507,
@@ -29037,6 +29183,7 @@
     "IndicatorName":"Restaurants with A grades",
     "IndicatorLabel":"Restaurants with A grades",
     "IndicatorDescription":"An A grade is the highest a restaurant can score in a health inspection. It indicates a well maintained restaurant with clean and safe food handling and storage practices, minimizing the risk of food poisoning.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":509,
@@ -29232,6 +29379,7 @@
     "IndicatorName":"Perception of neighborhood safety",
     "IndicatorLabel":"Perception of neighborhood safety",
     "IndicatorDescription":"Adults reporting their neighborhood is safe from crime. Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":892,
@@ -29351,6 +29499,9 @@
     "IndicatorName":"Heat stress: deaths",
     "IndicatorLabel":"Heat stress: deaths",
     "IndicatorDescription":"Hot weather kills more people than all other extreme weather combined. This measure includes only deaths directly attributed to heat on death certificates, which represent a small proportion of all heat-related deaths.",
+    "Comparisons":[
+      553
+    ],
     "Measures":[
       {
         "MeasureID":534,
@@ -29492,6 +29643,7 @@
     "IndicatorName":"Heat stress: emergency department visits",
     "IndicatorLabel":"Heat stress: emergency department visits",
     "IndicatorDescription":"ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of extreme heat.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":535,
@@ -29830,6 +29982,7 @@
     "IndicatorName":"Heat stress: hospitalizations",
     "IndicatorLabel":"Heat stress: hospitalizations",
     "IndicatorDescription":"Heat stress hospitalizations due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of hot weather. Data aggregated over five years provides enough stability to display neighborhood impacts.\r\n",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":538,
@@ -30258,6 +30411,7 @@
     "IndicatorName":"Esophageal cancer",
     "IndicatorLabel":"Esophageal cancer",
     "IndicatorDescription":"Esophageal cancer forms in the tissues of the esophagus, in the throat.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":541,
@@ -30841,6 +30995,9 @@
     "IndicatorName":"Heat events",
     "IndicatorLabel":"Heat events",
     "IndicatorDescription":"Heat events threaten health. More people die due to extreme heat than all other extreme weather events combined. As the climate continues to warm, we can expect more severe and more frequent heat events.",
+    "Comparisons":[
+      553
+    ],
     "Measures":[
       {
         "MeasureID":549,
@@ -31489,6 +31646,7 @@
     "IndicatorName":"Bicycle injury hospitalizations",
     "IndicatorLabel":"Bicycle injury hospitalizations",
     "IndicatorDescription":"Bicycle injury hospitalizations can indicate the overall safety of cycling in the city - for transporation or other purposes.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":557,
@@ -31503,15 +31661,94 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -31529,10 +31766,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -31549,15 +31791,94 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -31589,6 +31910,7 @@
     "IndicatorName":"Kidney and renal pelvis cancer",
     "IndicatorLabel":"Kidney and renal pelvis cancer",
     "IndicatorDescription":"Kidney and renal pelvis cancers start in the kidney.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":559,
@@ -32176,6 +32498,7 @@
     "IndicatorName":"Larynx cancer",
     "IndicatorLabel":"Larynx cancer",
     "IndicatorDescription":"Larynx cancer starts in the tissues of the larynx.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":565,
@@ -32759,6 +33082,7 @@
     "IndicatorName":"Liver and intrahepatic bile duct cancer",
     "IndicatorLabel":"Liver and intrahepatic bile duct cancer",
     "IndicatorDescription":"Cancers of the liver and intrahepatic bile duct.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":571,
@@ -33342,6 +33666,7 @@
     "IndicatorName":"Melanoma of the skin",
     "IndicatorLabel":"Melanoma of the skin",
     "IndicatorDescription":"A dangerous form of skin cancer.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":577,
@@ -33925,6 +34250,7 @@
     "IndicatorName":"Oral cavity and pharynx cancer",
     "IndicatorLabel":"Oral cavity and pharynx cancer",
     "IndicatorDescription":"Cancers of the mouth and throat.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":583,
@@ -34508,6 +34834,7 @@
     "IndicatorName":"Bicycle injury emergency department visits",
     "IndicatorLabel":"Bicycle injury emergency department visits",
     "IndicatorDescription":"Bicycle injury ED visits can indicate the overall safety of cycling in the city - for transporation or other purposes.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":591,
@@ -34522,15 +34849,69 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34548,10 +34929,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -34568,15 +34954,69 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34608,6 +35048,7 @@
     "IndicatorName":"Pedestrian injury hospitalizations",
     "IndicatorLabel":"Pedestrian injury hospitalizations",
     "IndicatorDescription":"Pedestrian injury hospitalizations can indicate the safety of walking for transporation.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":594,
@@ -34622,15 +35063,94 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34648,10 +35168,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -34668,15 +35193,94 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34708,6 +35312,7 @@
     "IndicatorName":"Pedestrian injury emergency department visits",
     "IndicatorLabel":"Pedestrian injury emergency department visits",
     "IndicatorDescription":"Pedestrian injury ED visits can indicate the safety of walking for transporation.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":592,
@@ -34722,15 +35327,69 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34748,10 +35407,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       },
@@ -34768,15 +35432,69 @@
             "GeoTypeDescription":"Borough"
           },
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
-          },
-          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2016",
             "start_period":1451606400000,
@@ -34808,6 +35526,7 @@
     "IndicatorName":"Mesothelioma",
     "IndicatorLabel":"Mesothelioma",
     "IndicatorDescription":"A cancer caused by exposure to asbestos.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":596,
@@ -35338,6 +36057,7 @@
     "IndicatorName":"Bladder cancer",
     "IndicatorLabel":"Bladder cancer",
     "IndicatorDescription":"Bladder cancer is a common type of cancer. It typically affects older adults.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":602,
@@ -35921,6 +36641,9 @@
     "IndicatorName":"Sugary drink consumption (adults)",
     "IndicatorLabel":"Sugary drink consumption (adults)",
     "IndicatorDescription":"Adults reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
+    "Comparisons":[
+      536
+    ],
     "Measures":[
       {
         "MeasureID":608,
@@ -36158,6 +36881,9 @@
     "IndicatorName":"Sugary drink consumption (youth)",
     "IndicatorLabel":"Sugary drink consumption (youth)",
     "IndicatorDescription":"Youths reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
+    "Comparisons":[
+      536
+    ],
     "Measures":[
       {
         "MeasureID":610,
@@ -36270,6 +36996,7 @@
     "IndicatorName":"Mold in homes",
     "IndicatorLabel":"Mold in homes",
     "IndicatorDescription":"Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate maintenance deficiencies in a building.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":624,
@@ -36378,6 +37105,7 @@
     "IndicatorName":"Adults with air conditioners",
     "IndicatorLabel":"Adults with air conditioners",
     "IndicatorDescription":"Adults reporting having an air conditioner. Air conditioning reduces the risk of heat stroke and other heat-related illness.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":635,
@@ -36491,6 +37219,7 @@
     "IndicatorName":"Adults reporting mice or rats inside",
     "IndicatorLabel":"Adults reporting mice in the home",
     "IndicatorDescription":"Mice and rats are a source of household allergens connected to developing or worsening asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":633,
@@ -36595,6 +37324,7 @@
     "IndicatorName":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
     "IndicatorLabel":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
     "IndicatorDescription":null,
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":637,
@@ -36650,6 +37380,7 @@
     "IndicatorName":"Deaths due to PM2.5",
     "IndicatorLabel":"Deaths due to PM2.5",
     "IndicatorDescription":"Estimating deaths that can be linked to PM2.5 is a way to understand how air pollution increases mortality.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":639,
@@ -36785,6 +37516,7 @@
     "IndicatorName":"Annual vehicle miles traveled",
     "IndicatorLabel":"Annual vehicle miles traveled",
     "IndicatorDescription":"Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":643,
@@ -36845,6 +37577,10 @@
               {
                 "MeasureID":365,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":676,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -36857,6 +37593,7 @@
     "IndicatorName":"Annual vehicle miles travelled (cars)",
     "IndicatorLabel":"Annual vehicle miles travelled (cars)",
     "IndicatorDescription":"Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":644,
@@ -36929,6 +37666,7 @@
     "IndicatorName":"Annual vehicle miles travelled (trucks)",
     "IndicatorLabel":"Annual vehicle miles travelled (trucks)",
     "IndicatorDescription":"Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":645,
@@ -37001,6 +37739,7 @@
     "IndicatorName":"Asthma emergency department visits due to PM2.5",
     "IndicatorLabel":"Asthma emergency department visits due to PM2.5",
     "IndicatorDescription":"PM2.5 can cause asthma ED visits, which represent part of the health burden of fine particle air pollution.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":648,
@@ -37258,6 +37997,7 @@
     "IndicatorName":"Respiratory hospitalizations due to PM2.5 (age 20+)",
     "IndicatorLabel":"Respiratory hospitalizations due to PM2.5 (age 20+)",
     "IndicatorDescription":"Estimating hospitalizations that can be linked to PM2.5 is a way to understand how air pollution impacts public health.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":650,
@@ -37393,6 +38133,7 @@
     "IndicatorName":"Cardiovascular hospitalizations due to PM2.5 (age 40+)",
     "IndicatorLabel":"Cardiovascular hospitalizations due to PM2.5 (age 40+)",
     "IndicatorDescription":"PM2.5 can cause cardiovascular hospitalizations, which represent part of the health burden of fine particle air pollution.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":651,
@@ -37528,6 +38269,7 @@
     "IndicatorName":"Cardiac and respiratory deaths due to Ozone",
     "IndicatorLabel":"Cardiac and respiratory deaths due to Ozone",
     "IndicatorDescription":"Estimating heart and respiratory deaths that can be linked to ozone is a way to understand how air pollution increases mortality.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":652,
@@ -37663,6 +38405,7 @@
     "IndicatorName":"Asthma emergency departments visits due to Ozone",
     "IndicatorLabel":"Asthma emergency departments visits due to Ozone",
     "IndicatorDescription":"Ozone can cause asthma ED visits, which are part of the health burden of air pollution.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":653,
@@ -37920,6 +38663,7 @@
     "IndicatorName":"Asthma hospitalizations due to Ozone",
     "IndicatorLabel":"Asthma hospitalizations due to Ozone",
     "IndicatorDescription":"Ozone can cause hospitalizations for asthma, which are part of the health burden of air pollution.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":655,
@@ -38177,6 +38921,7 @@
     "IndicatorName":"Health insurance (adults)",
     "IndicatorLabel":"Health insurance (adults)",
     "IndicatorDescription":"Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":671,
@@ -38374,6 +39119,7 @@
     "IndicatorName":"Walkability index",
     "IndicatorLabel":"Walkability index",
     "IndicatorDescription":"This score summarizes features that promote walking, including density of residences, intersections, subway stops, and retail area. Higher scores indicate greater walkability. Neighborhoods range from -4.0 to 9.4, with zero as an approximate NYC average. This indicator excludes some factors that may impact access and walkability, like maintenance, ADA access, neighborhood safety, and street trees.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":673,
@@ -38429,6 +39175,7 @@
     "IndicatorName":"Fall-related emergency department visits (age 65+)",
     "IndicatorLabel":"Fall-related emergency department visits among older adults",
     "IndicatorDescription":"Falls are a leading cause of injury among older adults.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":680,
@@ -38534,6 +39281,7 @@
     "IndicatorName":"Fall-related hospitalizations (age 65+)",
     "IndicatorLabel":"Fall-related hospitalizations among older adults",
     "IndicatorDescription":"Falls are a leading cause of injury among older adults.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":682,
@@ -38828,6 +39576,7 @@
     "IndicatorName":"Daytime summer surface temperature",
     "IndicatorLabel":"Daytime summer surface temperature",
     "IndicatorDescription":"Surface temperatures vary based on vegetative cover (which promotes cooling), as well as by materials that retain heat (like paved roads, sidewalks, and buildings). Hotter neighborhoods tend to have more heat-exacerbated deaths associated with extreme heat events.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":688,
@@ -38895,6 +39644,7 @@
     "IndicatorName":"Vegetative cover",
     "IndicatorLabel":"Grass and tree cover",
     "IndicatorDescription":"Vegetative cover is the land covered by trees, grass, or other plants instead of a hard surface like roads, sidewalks, or buildings. Vegetative cover tends to reduce temperatures in the immediate area and may increase air quality.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":690,
@@ -38967,6 +39717,7 @@
     "IndicatorName":"Independent living difficulty (adults)",
     "IndicatorLabel":"Independent living difficulty (adults)",
     "IndicatorDescription":"People with disabilities or access or functional needs may need additional support during extreme weather. For example, they may need extra planning for safe travel out of evacuation zones during a hurricane, or back-up electricity to support medical equipment during power outages. Information provided here about adults with independent living difficulties can help emergency management professionals better prepare our residents for emergencies.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":692,
@@ -39163,6 +39914,7 @@
     "IndicatorName":"Older adults living alone",
     "IndicatorLabel":"Older adults living alone",
     "IndicatorDescription":"Older adults are more vulnerable to extreme weather. Those living alone may have more difficulty getting resources they need in an emergency, and are at higher risk of weather-related illnesses like heat stroke and hypothermia.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":693,
@@ -39372,6 +40124,7 @@
     "IndicatorName":"Asthma in public school children (age 5 to 14)",
     "IndicatorLabel":"Asthma in public school children (age 5 to 14)",
     "IndicatorDescription":"Asthma is a common disease characterized by breathing difficulty. Poor air quality and housing issues increase risk of developing and triggering asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":695,
@@ -39547,6 +40300,7 @@
     "IndicatorName":"Persistent asthma in public school children (age 5 to 14)",
     "IndicatorLabel":"Persistent asthma in public school children (age 5 to 14)",
     "IndicatorDescription":"Persistent asthma is when symptom occur more than twice per week.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":698,
@@ -39714,6 +40468,7 @@
     "IndicatorName":"Adults with a personal doctor",
     "IndicatorLabel":"Adults with a personal doctor",
     "IndicatorDescription":"Having a regular doctor makes it easier to maintain good health.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":699,
@@ -39893,6 +40648,7 @@
     "IndicatorName":"Older adults with air conditioners (age 65+)",
     "IndicatorLabel":"Older adults with air conditioners (age 65+)",
     "IndicatorDescription":"Older adults (over 65) are more vulnerable to hot weather and heat stress. Air conditioning reduces the risk of heat stroke and other heat-related illness.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":705,
@@ -40001,6 +40757,7 @@
     "IndicatorName":"Tree canopy cover",
     "IndicatorLabel":"Tree canopy cover",
     "IndicatorDescription":"Tree canopy coverage is the percent of a neighborhood that is shaded by trees. Tree shade can lower a neighborhood's temperatures, can make it more comfortable and attractive to walk and stay active.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":708,
@@ -40060,6 +40817,7 @@
     "IndicatorName":"Subway station density",
     "IndicatorLabel":"Subway station density",
     "IndicatorDescription":"Neighborhoods with greater subway access encourage active transportation, which may increase physical activity and overall health of residents. They also tend to have more foot traffic, which attracts businesses and can foster community.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":709,
@@ -40106,6 +40864,7 @@
     "IndicatorName":"Carbon monoxide incidents (without a detector)",
     "IndicatorLabel":"Carbon monoxide incidents (without a detector)",
     "IndicatorDescription":"Carbon monoxide detectors are required in NYC homes by law. Failure to provide or maintain a detector can put people at risk for carbon monoxide poisoning and death.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":715,
@@ -40229,6 +40988,7 @@
     "IndicatorName":"Recent walking",
     "IndicatorLabel":"Recent walking for transportation",
     "IndicatorDescription":"Adults reporting walking for transportation in the last 7 days (from when they were surveyed)",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":738,
@@ -40356,6 +41116,7 @@
     "IndicatorName":"Recent biking",
     "IndicatorLabel":"Recent biking for transportation",
     "IndicatorDescription":"Adults reporting biking for transportation in the last 7 days (from when they were surveyed).",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":740,
@@ -40479,6 +41240,7 @@
     "IndicatorName":"Cold stress: hospitalizations",
     "IndicatorLabel":"Cold stress: hospitalizations",
     "IndicatorDescription":"Hospitalizations for cold-related illnesses, such as hypothermia and frostbite, represent part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":748,
@@ -40807,6 +41569,7 @@
     "IndicatorName":"Cold stress: emergency department visits",
     "IndicatorLabel":"Cold stress: emergency department visits",
     "IndicatorDescription":"ED visits for cold-related illnesses, such as hypothermia and frostbite, represent part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":751,
@@ -41135,6 +41898,7 @@
     "IndicatorName":"Child poverty (under age 5)",
     "IndicatorLabel":"Children under 5 years old in Poverty",
     "IndicatorDescription":"Poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":754,
@@ -41414,6 +42178,7 @@
     "IndicatorName":"Renter-occupied homes with no maintenance deficiencies",
     "IndicatorLabel":"Renter-occupied homes with no maintenance deficiencies",
     "IndicatorDescription":"Healthy homes are free of maintenance deficiencies.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":758,
@@ -41561,6 +42326,7 @@
     "IndicatorName":"Sidewalk area",
     "IndicatorLabel":"Sidewalk area",
     "IndicatorDescription":"Sidewalks are important for commuting, businesses, and physical activity. Greater sidewalk area can contribute to a safer pedestrian environment, support vibrant business districts and can foster social interaction among residents.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1223,
@@ -41620,6 +42386,7 @@
     "IndicatorName":"Elevated blood levels (under age 6)",
     "IndicatorLabel":"Elevated blood levels (under age 6)",
     "IndicatorDescription":"Elevated blood lead levels are 5+ mcg\/dL. There is no safe level of lead in the blood. Lead poisoning can cause learning and behavior problems, and delay growth and mental development.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":774,
@@ -42500,6 +43267,7 @@
     "IndicatorName":"Household air conditioning",
     "IndicatorLabel":"Household air conditioning",
     "IndicatorDescription":"Air conditioning is an important way to avoid heat stress, especially for persons with limited mobility.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":781,
@@ -42686,6 +43454,7 @@
     "IndicatorName":"Homes with grab bars in bathroom (among older adult households)",
     "IndicatorLabel":"Homes with grab bars in bathroom (among older adult households)",
     "IndicatorDescription":"Grab bars in bathrooms can help prevent falls among older adults.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":789,
@@ -42811,6 +43580,7 @@
     "IndicatorName":"Lead testing (by age 3)",
     "IndicatorLabel":"Lead testing (by age 3)",
     "IndicatorDescription":"In New York State, all children must be tested for lead before age 3. There is no safe level of lead in the blood.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":791,
@@ -43034,6 +43804,7 @@
     "IndicatorName":"Heat vulnerability index",
     "IndicatorLabel":"Heat vulnerability index",
     "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, poverty, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":822,
@@ -43085,6 +43856,10 @@
     "IndicatorName":"Disinfection by-products (TTHM)",
     "IndicatorLabel":"Disinfection by-products (TTHM)",
     "IndicatorDescription":"Disinfection by-products are chemicals that can form when a disinfectant such as chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
+    "Comparisons":[
+      672,
+      673
+    ],
     "Measures":[
       {
         "MeasureID":861,
@@ -45142,6 +45917,7 @@
     "IndicatorName":"Asbestosis hospitalizations",
     "IndicatorLabel":"Hospitalizations for Asbestosis",
     "IndicatorDescription":"Asbestos is a naturally-occurring mineral which was commonly used as an insulation material until the 1970s. Inhaling high concentrations of asbestos fibers over a long time can produce lung inflammation and scarring resulting in the chronic lung disease called asbestosis, a type of pneumoconiosis. New York City construction, insulation, and shipyard workers who installed, disturbed, or removed asbestos without respiratory protection are at risk. Additionally, smokers who are exposed to asbestos have a greater risk of developing asbestos-related diseases than non-smokers. Typically it takes more than ten years from the time of exposure before symptoms develop. The use of proper protective masks is key to preventing the disease, since there is no treatment.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":871,
@@ -45384,6 +46160,9 @@
     "IndicatorName":"Elevated blood lead levels (age 16+)",
     "IndicatorLabel":"Elevated blood lead levels (age 16+)",
     "IndicatorDescription":"In New York City, the most common cause of lead poisoning in non-pregnant adults is from working in the construction. Workers are exposed by breathing or ingesting lead dust or fumes during work that disturbs old lead based paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through lead-contaminated products, like some imported health remedies, spices, foods, pottery and cosmetics.",
+    "Comparisons":[
+      303
+    ],
     "Measures":[
       {
         "MeasureID":872,
@@ -45860,6 +46639,7 @@
     "IndicatorName":"Pneumoconiosis hospitalizations",
     "IndicatorLabel":"Hospitalizations for Pneumoconiosis",
     "IndicatorDescription":"Pneumoconiosis is a general term given to any lung disease caused by breathing in certain particles or fibers over a prolonged period. Pneumoconiosis usually results from a workplace exposure. The most common causes of pneumoconiosis include asbestos fibers, silica dust, and coal dust. There is no cure, but it can be prevented with appropriate respiratory protection.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":874,
@@ -46102,6 +46882,7 @@
     "IndicatorName":"Hospitalizations billed to workers' compensation",
     "IndicatorLabel":"Hospitalizations Billed to Workers' Compensation",
     "IndicatorDescription":"Workers' compensation is a type of insurance that provides medical care for workers who are injured or become ill as a direct result of their job. Hospitalizations billed to workers' comp represent only a portion of work-related injuries that require hospital care. It is important to realize that workers' compensation policies vary from state-to-state with respect to the types of workers covered and the types of injuries and illnesses eligible for compensation",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":875,
@@ -46344,6 +47125,7 @@
     "IndicatorName":"Work-related deaths (all industries)",
     "IndicatorLabel":"Work-related deaths (all industries)",
     "IndicatorDescription":"Fatal work-related injuries include deaths resulting from unintentional injuries such as falls, acute poisonings, and motor vehicle crashes that occur during travel for work, and intentional injuries (i.e., homicides and suicides) that occur at work. Fatal injuries that occur during a commute are not included.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":882,
@@ -46656,6 +47438,7 @@
     "IndicatorName":"Work-related deaths (construction industry), Citywide",
     "IndicatorLabel":"Work-related deaths (construction industry), Citywide",
     "IndicatorDescription":"Construction is the most dangerous industry in NYC, with nearly a third of work-related injury deaths each year. Falls from scaffolds, ladders and roofs are the most common cause of fatal injuries among construction workers.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":884,
@@ -46968,6 +47751,7 @@
     "IndicatorName":"Elevated blood levels (under age 6), by NTA",
     "IndicatorLabel":"Elevated blood levels (under age 6), by NTA",
     "IndicatorDescription":"Elevated blood lead levels are 5+ mcg\/dL. There is no safe level of lead in the blood. Lead poisoning can cause learning and behavior problems, and delay growth and mental development.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":886,
@@ -47134,6 +47918,7 @@
     "IndicatorName":"Babesiosis",
     "IndicatorLabel":"Babesiosis",
     "IndicatorDescription":"Babesiosis s a rare, sometimes severe or fatal tick-borne disease caused by a parasite that infects red blood cells. Babesiosis is transmitted by the bite of an infected blacklegged tick (the same tick that transmits Lyme disease and anaplasmosis). Most patients acquire this disease while traveling outside NYC. However, there has been an increase in the number of cases with no history of travel to endemic areas, primarily in Staten Island, as well as isolated cases in the Bronx and Queens. Babesiosis can also be transmitted through transfused blood products.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1006,
@@ -47538,6 +48323,7 @@
     "IndicatorName":"Self-reported health",
     "IndicatorLabel":"Self-reported health",
     "IndicatorDescription":"Adults reporting that their health is excellent, very good, or good.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":894,
@@ -47835,6 +48621,7 @@
     "IndicatorName":"Adults reporting personal use of pesticides",
     "IndicatorLabel":"Adults Reporting Personal Pesticide Use",
     "IndicatorDescription":"Pesticide use in the home. This does not include pesticide applications by professional exterminators.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":934,
@@ -48155,6 +48942,7 @@
     "IndicatorName":"Recent driving",
     "IndicatorLabel":"Recent driving",
     "IndicatorDescription":"Adults reporting driving in the last 30 days (from when they were surveyed).",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":898,
@@ -48288,6 +49076,7 @@
     "IndicatorName":"Recent messaging while driving",
     "IndicatorLabel":"Recent messaging while driving",
     "IndicatorDescription":"Adults reporting messaging while drivcing in the past 30 days (from when they were surveyed).",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":900,
@@ -48402,6 +49191,7 @@
     "IndicatorName":"Recent speeding",
     "IndicatorLabel":"Recent speeding",
     "IndicatorDescription":"Adults reporting speeding while driving in the past 30 days (from when they were surveyed).",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":902,
@@ -48526,6 +49316,7 @@
     "IndicatorName":"Work-related deaths (construction industry), by borough",
     "IndicatorLabel":"Work-related deaths (construction industry), by borough",
     "IndicatorDescription":"Construction is the most dangerous industry in NYC, with nearly a third of work-related injury deaths each year.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":904,
@@ -48586,6 +49377,7 @@
     "IndicatorName":"Commercial insecticide use",
     "IndicatorLabel":"Combined Insecticides",
     "IndicatorDescription":"Pest control services provided by a professional exterminator in the individual\u2019s home.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":953,
@@ -49878,6 +50670,7 @@
     "IndicatorName":"Jail Incarceration",
     "IndicatorLabel":"Jail Incarceration",
     "IndicatorDescription":"Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighbourhoods.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":973,
@@ -49937,6 +50730,7 @@
     "IndicatorName":"Premature mortality",
     "IndicatorLabel":"Premature mortality",
     "IndicatorDescription":"The rate of people who die before age 65 can indicate the overall health of a population.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":983,
@@ -50042,6 +50836,7 @@
     "IndicatorName":"School absenteeism",
     "IndicatorLabel":"School absenteeism",
     "IndicatorDescription":"Students missing 20 or more school days per year.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":984,
@@ -50101,6 +50896,7 @@
     "IndicatorName":"Race and ethnicity",
     "IndicatorLabel":"Race and ethnicity",
     "IndicatorDescription":"Structural racism, which includes neighborhood disinvestment, racist housing policies, fewer job opportunities and lower pay, and less access to high-quality education and health care, means that our society often deprives people of color of the resources they need to stay healthy.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":987,
@@ -50612,6 +51408,7 @@
     "IndicatorName":"Graduated high school",
     "IndicatorLabel":"Graduated high school",
     "IndicatorDescription":"People age 25 years and over who have completed high school or high school equivalency.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1024,
@@ -50821,6 +51618,7 @@
     "IndicatorName":"Limited English",
     "IndicatorLabel":"Limited English",
     "IndicatorDescription":null,
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1026,
@@ -51030,6 +51828,7 @@
     "IndicatorName":"Rent-burdened households",
     "IndicatorLabel":"Rent-burdened households",
     "IndicatorDescription":"Rent burden is spending 30% or more of your income on rent and utilities.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1028,
@@ -51247,6 +52046,7 @@
     "IndicatorName":"Unemployment",
     "IndicatorLabel":"Unemployment",
     "IndicatorDescription":"Adults age 16+ who are unemployed.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1030,
@@ -51456,6 +52256,7 @@
     "IndicatorName":"Secondhand smoke at home (from outside sources)",
     "IndicatorLabel":"Secondhand smoke at home (from outside sources)",
     "IndicatorDescription":"Adults reporting secondhand smoke at home, from outside sources. Secondhand smoke, especially indoors, is bad for health - especially for the health of children.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1033,
@@ -51800,6 +52601,9 @@
     "IndicatorName":"Youth asthma (past 12 months)",
     "IndicatorLabel":"Youth asthma (past 12 months)",
     "IndicatorDescription":"Public high school students who reported having an asthma attack in the past 12 months.",
+    "Comparisons":[
+      537
+    ],
     "Measures":[
       {
         "MeasureID":1039,
@@ -51942,6 +52746,7 @@
     "IndicatorName":"West Nile virus",
     "IndicatorLabel":"West Nile virus",
     "IndicatorDescription":"West Nile virus is transmitted through the bite of infected mosquitoes. While most people who are infected will not go on to develop symptoms, about 20% experience mild or moderate illness and more rarely, neuroinvasive disease which can present as encephalitis or meningitis. Most of the West Nile disease cases detected by the New York City Department of Health and Mental Hygiene represent neuroinvasive disease as these patients are more likely to seek care.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1041,
@@ -52346,6 +53151,7 @@
     "IndicatorName":"Chronic Obstructive Pulmonary Disease Hospitalization",
     "IndicatorLabel":"Hospitalization",
     "IndicatorDescription":null,
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1063,
@@ -52653,6 +53459,7 @@
     "IndicatorName":"Chronic Obstructive Pulmonary Disease Emergency Department Visits",
     "IndicatorLabel":"Emergency Department Visits",
     "IndicatorDescription":null,
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1066,
@@ -52960,6 +53767,11 @@
     "IndicatorName":"NYC agency use of fungicides",
     "IndicatorLabel":"Fungicides",
     "IndicatorDescription":"Pesticides targeting fungus such as mold or plant blight, applied by NYC agency-contracted exterminators or NYC agency pest control staff. These are often applied to protect landscaping and golf course grasses.",
+    "Comparisons":[
+      578,
+      579,
+      580
+    ],
     "Measures":[
       {
         "MeasureID":1118,
@@ -53760,6 +54572,7 @@
     "IndicatorName":"Evictions (court-ordered)",
     "IndicatorLabel":"Evictions (court-ordered)",
     "IndicatorDescription":"Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with negative health among adults and children.People who are threatened with eviction, even before they lose their home, are more likely to report poor health, high blood pressure, depression (from \"The Hidden Health Crisis of Eviction\" by Allison Bovell-Ammo and Megan Sandel).",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1127,
@@ -53919,6 +54732,10 @@
     "IndicatorName":"NYC agency use of \"Best Practice\" products",
     "IndicatorLabel":"\"Best Practice\" Products",
     "IndicatorDescription":"Pesticides targeting insects that are effective, but have low toxicity or low potential for human exposure to humans, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
+    "Comparisons":[
+      573,
+      574
+    ],
     "Measures":[
       {
         "MeasureID":1129,
@@ -54455,6 +55272,10 @@
     "IndicatorName":"NYC agency use of glyphosate",
     "IndicatorLabel":"Glyphosate",
     "IndicatorDescription":"Herbicide containing the chemical glyphosate, targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff. This chemical is often sold commercially as \u201cRoundup.\u201d",
+    "Comparisons":[
+      493,
+      567
+    ],
     "Measures":[
       {
         "MeasureID":1135,
@@ -54831,6 +55652,11 @@
     "IndicatorName":"NYC agency use of herbicides",
     "IndicatorLabel":"Herbicides",
     "IndicatorDescription":"Pesticides targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
+    "Comparisons":[
+      568,
+      569,
+      570
+    ],
     "Measures":[
       {
         "MeasureID":1139,
@@ -55631,6 +56457,11 @@
     "IndicatorName":"NYC agency use of insecticides",
     "IndicatorLabel":"Insecticides",
     "IndicatorDescription":"Pesticides targeting insects, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
+    "Comparisons":[
+      575,
+      576,
+      577
+    ],
     "Measures":[
       {
         "MeasureID":1148,
@@ -56431,6 +57262,10 @@
     "IndicatorName":"NYC agency use of rodenticides",
     "IndicatorLabel":"Rodenticides",
     "IndicatorDescription":"Pesticides targeting rats and mice, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
+    "Comparisons":[
+      581,
+      582
+    ],
     "Measures":[
       {
         "MeasureID":1158,
@@ -56967,6 +57802,7 @@
     "IndicatorName":"NYC agency use of mosquito control",
     "IndicatorLabel":"Mosquito Control",
     "IndicatorDescription":"Pesticides targeting mosquitoes, applied by NYC agency-contracted exterminators or NYC agency pest control staff. These application include treatment of standing water with larvicides and the spraying of adult mosquito infestations.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1170,
@@ -57327,6 +58163,7 @@
     "IndicatorName":"Assault hospitalizations (non-fatal)",
     "IndicatorLabel":"Assault hospitalizations (non-fatal)",
     "IndicatorDescription":"Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1187,
@@ -57432,6 +58269,7 @@
     "IndicatorName":"Cold stress: deaths",
     "IndicatorLabel":"Cold stress: deaths",
     "IndicatorDescription":"Deaths due to cold weather represent part of the public health burden of cold weather. Cold weather can also worsen chronic conditions, sometimes leading to death. This data only includes deaths directly attributed to cold on death certificates.\r\n",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1189,
@@ -57548,6 +58386,7 @@
     "IndicatorName":"Households using electric medical equipment",
     "IndicatorLabel":"Households using electric medical equipment",
     "IndicatorDescription":"People who use electric medical equipment are more vulnerable during power outages or evacuations.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1190,
@@ -57657,6 +58496,7 @@
     "IndicatorName":"Asthma emergency department visits (age 4 and under), by NTA",
     "IndicatorLabel":"Children (4 and under), by NTA",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1193,
@@ -57762,6 +58602,10 @@
     "IndicatorName":"Asthma emergency department visits (age 5 to 17)",
     "IndicatorLabel":"Children (age 5 to 17)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "Comparisons":[
+      555,
+      676
+    ],
     "Measures":[
       {
         "MeasureID":1195,
@@ -58031,6 +58875,10 @@
     "IndicatorName":"Asthma emegency department visits (adults)",
     "IndicatorLabel":"Adults",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "Comparisons":[
+      555,
+      676
+    ],
     "Measures":[
       {
         "MeasureID":1197,
@@ -58418,6 +59266,10 @@
     "IndicatorName":"Asthma hospitalizations (age 5 to 17)",
     "IndicatorLabel":"Children (age 5 to 17)",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "Comparisons":[
+      554,
+      675
+    ],
     "Measures":[
       {
         "MeasureID":1200,
@@ -58675,6 +59527,10 @@
     "IndicatorName":"Asthma hospitalizations (adults)",
     "IndicatorLabel":"Adults",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "Comparisons":[
+      554,
+      675
+    ],
     "Measures":[
       {
         "MeasureID":1202,
@@ -59042,6 +59898,7 @@
     "IndicatorName":"Asthma emergency department visits (age 5 to 17), by NTA",
     "IndicatorLabel":"Children (age 5 to 17), by NTA",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1205,
@@ -59203,6 +60060,7 @@
     "IndicatorName":"Asthma emegency department visits (adults), by NTA",
     "IndicatorLabel":"Adults (by NTA)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1207,
@@ -59415,6 +60273,7 @@
     "IndicatorName":"Asthma hospitalizations (age 4 and under), by NTA",
     "IndicatorLabel":"Children (age 4 and under), by NTA",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1210,
@@ -59520,6 +60379,7 @@
     "IndicatorName":"Asthma hospitalizations (age 5 to 17), by NTA",
     "IndicatorLabel":"Children (age 5 to 17), by NTA",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1213,
@@ -59625,6 +60485,7 @@
     "IndicatorName":"Asthma hospitalizations (adults), by NTA",
     "IndicatorLabel":"Adults (by NTA)",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1215,
@@ -59776,6 +60637,7 @@
     "IndicatorName":"Walking distance to a park",
     "IndicatorLabel":"Park access (walking distance)",
     "IndicatorDescription":"The percentage of the population who live within walking distance to a park: a quarter-mile or less to entrances of smaller sites, such as sitting areas and playgrounds, and half-mile or less to entrances of larger parks. Increased access to green space and open space can contribute to increased levels of physical activity.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1224,
@@ -59847,6 +60709,7 @@
     "IndicatorName":"Unhealthy food access",
     "IndicatorLabel":"Unhealthy food access",
     "IndicatorDescription":"A neighborhood's ratio of bodegas to supermarkets can indicate whether the environment makes accessing unhealthy food easier for residents, as bodegas are less likely to have healthy food options than supermarkets.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1225,
@@ -59906,6 +60769,7 @@
     "IndicatorName":"Bicycle network coverage",
     "IndicatorLabel":"Bicycle network coverage",
     "IndicatorDescription":"Bike lanes can improve bicyclist and pedestrian safety, physical activity, and sustainable transportation use. An increase in percentage of streets with bike lanes can indicate a safer cycling environment in a neighborhood which may increase overall cycling.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1226,
@@ -59957,6 +60821,7 @@
     "IndicatorName":"Walking distance to a subway station",
     "IndicatorLabel":"Subway access (walking distance)",
     "IndicatorDescription":"The percentage of population within a quarter-mile of a subway station entrance. When more people have convenient access to the transit system, they're more likely to use it. Subway access encourages active transportation, which improves the health of residents.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1227,
@@ -60016,6 +60881,7 @@
     "IndicatorName":"Children with asthma",
     "IndicatorLabel":"Children with asthma",
     "IndicatorDescription":"Children age 1 to 13 who have ever been diagnosed with asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1228,
@@ -60098,16 +60964,16 @@
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"NYCKIDS2017",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
             "GeoType":"Borough",
             "GeoTypeDescription":"Borough"
           },
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
-          },
-          {
-            "GeoType":"NYCKIDS2017",
-            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           },
           {
             "GeoType":"NYCKIDS2019",
@@ -60151,6 +61017,7 @@
     "IndicatorName":"Children in homes with cockroaches (age 13 and under)",
     "IndicatorLabel":"Children in homes with cockroaches (under age 14)",
     "IndicatorDescription":"The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1232,
@@ -60256,6 +61123,7 @@
     "IndicatorName":"Children in homes with mice (age 13 and under)",
     "IndicatorLabel":"Children in homes with mice (age 13 and under)",
     "IndicatorDescription":"The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1233,
@@ -60361,6 +61229,7 @@
     "IndicatorName":"Children in homes with cracks or holes (age 13 and under)",
     "IndicatorLabel":"Children in homes with cracks or holes (age 13 and under)",
     "IndicatorDescription":"Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches. Pests in the home can contaminate food and worsen asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1235,
@@ -60466,6 +61335,7 @@
     "IndicatorName":"Children in homes with supplemental heat (age 13 and under)",
     "IndicatorLabel":"Children in homes with supplemental heat (age 13 and under)",
     "IndicatorDescription":"The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies, which can harm children's health.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1238,
@@ -60571,6 +61441,9 @@
     "IndicatorName":"Carbon monoxide deaths",
     "IndicatorLabel":"Carbon monoxide deaths",
     "IndicatorDescription":"A death due to carbon monoxide may be fire-related or non-fire-related.",
+    "Comparisons":[
+      551
+    ],
     "Measures":[
       {
         "MeasureID":1244,
@@ -60948,6 +61821,7 @@
     "IndicatorName":"Renter-occupied homes with any health-related maintenance problems",
     "IndicatorLabel":"Renter-occupied homes with any health-related maintenance problems",
     "IndicatorDescription":"Homes with maintenance deficiencies can threaten the health of the people who live there.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1247,
@@ -61069,6 +61943,7 @@
     "IndicatorName":"Assault emergency department visits (non-fatal)",
     "IndicatorLabel":"Assault emergency department visits (non-fatal)",
     "IndicatorDescription":"Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1250,
@@ -61174,6 +62049,7 @@
     "IndicatorName":"Postponing health care",
     "IndicatorLabel":"Postponing health care",
     "IndicatorDescription":"Households that postponed health care in the last 12 months",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1253,
@@ -61283,6 +62159,7 @@
     "IndicatorName":"Homes with reported falls (age 65+)",
     "IndicatorLabel":"Homes with reported falls among adults 65 and older",
     "IndicatorDescription":"Falls are a leading cause of injury among older adults.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1256,
@@ -61400,6 +62277,14 @@
     "IndicatorName":"Carbon monoxide emergency department visits",
     "IndicatorLabel":"Carbon monoxide emergency department visits",
     "IndicatorDescription":"Carbon monoxide (CO) exposure can be life-threatening or fatal. ED visits and hospitalizations allows us to understand the burden of CO-related health impacts.",
+    "Comparisons":[
+      628,
+      629,
+      630,
+      644,
+      645,
+      646
+    ],
     "Measures":[
       {
         "MeasureID":1260,
@@ -62050,6 +62935,14 @@
     "IndicatorName":"Carbon monoxide hospitalizations",
     "IndicatorLabel":"Carbon monoxide hospitalizations",
     "IndicatorDescription":"Carbon monoxide (CO) exposure can be life-threatening or fatal. ED visits and hospitalizations allows us to understand the burden of CO-related health impacts.",
+    "Comparisons":[
+      647,
+      649,
+      651,
+      652,
+      653,
+      677
+    ],
     "Measures":[
       {
         "MeasureID":1266,
@@ -62850,6 +63743,7 @@
     "IndicatorName":"Home fall-related emergency department visits (age 65+)",
     "IndicatorLabel":"Home fall-related emergency department visits among older adults",
     "IndicatorDescription":"Falls are a leading cause of injury among older adults.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1281,
@@ -62955,6 +63849,7 @@
     "IndicatorName":"Home fall-related hospitalizations (age 65+)",
     "IndicatorLabel":"Home fall-related hospitalizations among older adults",
     "IndicatorDescription":"Falls are a leading cause of injury among older adults.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1279,
@@ -63060,6 +63955,7 @@
     "IndicatorName":"Heat stress: hospitalizations",
     "IndicatorLabel":"Heat stress: hospitalizations",
     "IndicatorDescription":"Heat stress hospitalizations weather are part of the public health burden due to hot weather. Data aggregated over five years provides enough stablility to display neighborhood impacts.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1283,
@@ -63262,6 +64158,7 @@
     "IndicatorName":"Heat vulnerability index (NTA)",
     "IndicatorLabel":"Heat vulnerability index (NTA)",
     "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, poverty, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1288,
@@ -63313,6 +64210,7 @@
     "IndicatorName":"Adults with asthma",
     "IndicatorLabel":"Adults with asthma",
     "IndicatorDescription":"Adults age 18 and older who have ever been diagnosed with asthma.",
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1297,
