@@ -43,6 +43,14 @@ Write-Output ">>> EXP_indicator_data_writer"
 Rscript $base_dir\export-scripts\EXP_indicator_data_writer.R
 
 #-----------------------------------------------------------------------------------------#
+# EXP comparisons metadata
+#-----------------------------------------------------------------------------------------#
+
+Write-Output ">>> EXP_measure_comparisons_writer"
+
+Rscript $base_dir\export-scripts\EXP_measure_comparisons_writer.R
+
+#-----------------------------------------------------------------------------------------#
 # NR viz data (for VegaLite)
 #-----------------------------------------------------------------------------------------#
 
