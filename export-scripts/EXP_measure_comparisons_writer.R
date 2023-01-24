@@ -143,7 +143,7 @@ EXP_measure_comparisons <-
 # Nesting
 #-----------------------------------------------------------------------------------------#
 
-comparisons_nested_2 <- 
+comparisons_nested <- 
     EXP_measure_comparisons %>% 
     drop_na() %>% 
     rename(Measures = MeasureID) %>% 
