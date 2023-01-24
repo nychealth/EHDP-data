@@ -57,7 +57,7 @@ ALTER VIEW [dbo].[ReportData] AS
     WHERE
         a.geo_type_id = 3 AND
         r.public_flag = 1 AND -- only public reports
-        si.push_ready = 1
+        si.creator_id = 1 -- repurpose as stage_flag: 0 = don't stage, 1 = stage
 
     ORDER BY
         b.data_field_name,

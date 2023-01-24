@@ -58,6 +58,6 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 
     WHERE 
         st.public_display_flag = 'Y' AND
-        si.push_ready = 1
+        si.creator_id = 1 -- repurpose as stage_flag: 0 = don't stage, 1 = stage
 
 GO

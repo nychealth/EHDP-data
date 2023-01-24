@@ -41,7 +41,7 @@ ALTER VIEW [dbo].[EXP_measure_links] AS
         -- disparity_flag != 1 AND
         st1.public_display_flag = 'Y' AND
         st2.public_display_flag = 'Y' AND
-        si1.push_ready = 1 AND
-        si2.push_ready = 1
+        si1.creator_id = 1 AND
+        si2.creator_id = 1 -- repurpose as stage_flag: 0 = don't stage, 1 = stage
 
 GO
