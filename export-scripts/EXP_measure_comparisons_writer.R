@@ -120,7 +120,8 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "SQLIT04A",
+        # server = "SQLIT04A",
+        server = "DESKTOP-PU7DGC1",
         database = db_name,
         trusted_connection = "yes"
     )
@@ -146,6 +147,7 @@ EXP_measure_comparisons <-
 comparisons_nested_2 <- 
     EXP_measure_comparisons %>% 
     drop_na() %>% 
+    mutate(ComparisonName = ComparisonName %>% str_remove_all("<.*?>")) %>% 
     rename(Measures = MeasureID) %>% 
     group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title, IndicatorID) %>% 
     mutate(Measures = list(unlist(Measures))) %>%
