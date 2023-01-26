@@ -6,8 +6,8 @@
     "Y_axis_title": "Rates",
     "Indicators": [
       {
-        "Measures": [172, 444],
-        "IndicatorID": 90
+        "IndicatorID": 90,
+        "Measures": [172, 444]
       }
     ]
   },
@@ -18,8 +18,8 @@
     "Y_axis_title": "Percent",
     "Indicators": [
       {
-        "Measures": [256, 257, 258],
-        "IndicatorID": 774
+        "IndicatorID": 774,
+        "Measures": [256, 257, 258]
       }
     ]
   },
@@ -30,8 +30,8 @@
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [170, 442],
-        "IndicatorID": 90
+        "IndicatorID": 90,
+        "Measures": [170, 442]
       }
     ]
   },
@@ -42,8 +42,8 @@
     "Y_axis_title": "Rate (per 100,000 employed)",
     "Indicators": [
       {
-        "Measures": [873, 880],
-        "IndicatorID": 2209
+        "IndicatorID": 2209,
+        "Measures": [873, 880]
       }
     ]
   },
@@ -54,8 +54,8 @@
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [459],
-        "IndicatorID": 2048
+        "IndicatorID": 2048,
+        "Measures": [459]
       }
     ]
   },
@@ -66,8 +66,8 @@
     "Y_axis_title": "Rate( per 10,000 residents)",
     "Indicators": [
       {
-        "Measures": [460],
-        "IndicatorID": 2048
+        "IndicatorID": 2048,
+        "Measures": [460]
       }
     ]
   },
@@ -78,12 +78,12 @@
     "Y_axis_title": "Percent",
     "Indicators": [
       {
-        "Measures": [307],
-        "IndicatorID": 2019
+        "IndicatorID": 2019,
+        "Measures": [307]
       },
       {
-        "Measures": [311],
-        "IndicatorID": 2021
+        "IndicatorID": 2021,
+        "Measures": [311]
       }
     ]
   },
@@ -94,8 +94,8 @@
     "Y_axis_title": "Solid Products (pounds)",
     "Indicators": [
       {
-        "Measures": [1079],
-        "IndicatorID": 2348
+        "IndicatorID": 2348,
+        "Measures": [1079]
       }
     ]
   },
@@ -106,8 +106,8 @@
     "Y_axis_title": "Liquid Products (gallons)",
     "Indicators": [
       {
-        "Measures": [1078],
-        "IndicatorID": 2348
+        "IndicatorID": 2348,
+        "Measures": [1078]
       }
     ]
   },
@@ -118,8 +118,8 @@
     "Y_axis_title": "Liquid Products (gallons)",
     "Indicators": [
       {
-        "Measures": [1087],
-        "IndicatorID": 2351
+        "IndicatorID": 2351,
+        "Measures": [1087]
       }
     ]
   },
@@ -130,8 +130,8 @@
     "Y_axis_title": "Solid Products (pounds)",
     "Indicators": [
       {
-        "Measures": [1088],
-        "IndicatorID": 2351
+        "IndicatorID": 2351,
+        "Measures": [1088]
       }
     ]
   },
@@ -142,20 +142,20 @@
     "Y_axis_title": "Liquid Products (gallons)",
     "Indicators": [
       {
-        "Measures": [1096],
-        "IndicatorID": 2354
+        "IndicatorID": 2354,
+        "Measures": [1096]
       }
     ]
   },
   {
     "ComparisonID": 460,
-    "ComparisonName": "<p>Agency Use of Best Practice Products<\/p>",
+    "ComparisonName": "Agency Use of Best Practice Products",
     "LegendTitle": "Agency Use of Best Practice Products",
     "Y_axis_title": "Solid Products (pounds)",
     "Indicators": [
       {
-        "Measures": [1072],
-        "IndicatorID": 2345
+        "IndicatorID": 2345,
+        "Measures": [1072]
       }
     ]
   },
@@ -166,8 +166,8 @@
     "Y_axis_title": "Solid Products (pounds)",
     "Indicators": [
       {
-        "Measures": [1105],
-        "IndicatorID": 2357
+        "IndicatorID": 2357,
+        "Measures": [1105]
       }
     ]
   },
@@ -178,20 +178,20 @@
     "Y_axis_title": "Solid Products (pounds)",
     "Indicators": [
       {
-        "Measures": [1097],
-        "IndicatorID": 2354
+        "IndicatorID": 2354,
+        "Measures": [1097]
       }
     ]
   },
   {
     "ComparisonID": 493,
-    "ComparisonName": "<span>Agency Use of Glyphosate<\/span>",
+    "ComparisonName": "Agency Use of Glyphosate",
     "LegendTitle": "Agency Use of Glyphosate",
     "Y_axis_title": "(gallons)",
     "Indicators": [
       {
-        "Measures": [1136, 1138],
-        "IndicatorID": 2367
+        "IndicatorID": 2367,
+        "Measures": [1136, 1138]
       }
     ]
   },
@@ -202,12 +202,12 @@
     "Y_axis_title": "Percent",
     "Indicators": [
       {
-        "Measures": [609],
-        "IndicatorID": 2097
+        "IndicatorID": 2097,
+        "Measures": [609]
       },
       {
-        "Measures": [610],
-        "IndicatorID": 2098
+        "IndicatorID": 2098,
+        "Measures": [610]
       }
     ]
   },
@@ -218,12 +218,12 @@
     "Y_axis_title": "Percent",
     "Indicators": [
       {
-        "Measures": [363],
-        "IndicatorID": 18
+        "IndicatorID": 18,
+        "Measures": [363]
       },
       {
-        "Measures": [1040],
-        "IndicatorID": 2339
+        "IndicatorID": 2339,
+        "Measures": [1040]
       }
     ]
   },
@@ -234,12 +234,12 @@
     "Y_axis_title": "Percent",
     "Indicators": [
       {
-        "Measures": [506],
-        "IndicatorID": 2063
+        "IndicatorID": 2063,
+        "Measures": [506]
       },
       {
-        "Measures": [508],
-        "IndicatorID": 2064
+        "IndicatorID": 2064,
+        "Measures": [508]
       }
     ]
   },
@@ -250,12 +250,12 @@
     "Y_axis_title": "Percent",
     "Indicators": [
       {
-        "Measures": [502],
-        "IndicatorID": 2061
+        "IndicatorID": 2061,
+        "Measures": [502]
       },
       {
-        "Measures": [504],
-        "IndicatorID": 2062
+        "IndicatorID": 2062,
+        "Measures": [504]
       }
     ]
   },
@@ -266,8 +266,8 @@
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [1244, 1245, 1246],
-        "IndicatorID": 2398
+        "IndicatorID": 2398,
+        "Measures": [1244, 1245, 1246]
       }
     ]
   },
@@ -278,52 +278,52 @@
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [553],
-        "IndicatorID": 2084
+        "IndicatorID": 2084,
+        "Measures": [553]
       },
       {
-        "Measures": [534],
-        "IndicatorID": 2074
+        "IndicatorID": 2074,
+        "Measures": [534]
       }
     ]
   },
   {
     "ComparisonID": 554,
-    "ComparisonName": "<span>Rates of Asthma Hospitalizations<\/span>",
+    "ComparisonName": "Rates of Asthma Hospitalizations",
     "LegendTitle": "Age",
     "Y_axis_title": "Rate( per 10,000 residents)",
     "Indicators": [
       {
-        "Measures": [1203],
-        "IndicatorID": 2382
+        "IndicatorID": 2382,
+        "Measures": [1203]
       },
       {
-        "Measures": [155],
-        "IndicatorID": 84
+        "IndicatorID": 84,
+        "Measures": [155]
       },
       {
-        "Measures": [1201],
-        "IndicatorID": 2381
+        "IndicatorID": 2381,
+        "Measures": [1201]
       }
     ]
   },
   {
     "ComparisonID": 555,
-    "ComparisonName": "<span>Rates of Asthma ED Visits<\/span>",
+    "ComparisonName": "Rates of Asthma ED Visits",
     "LegendTitle": "Age",
     "Y_axis_title": "Rate( per 10,000 residents)",
     "Indicators": [
       {
-        "Measures": [1196],
-        "IndicatorID": 2379
+        "IndicatorID": 2379,
+        "Measures": [1196]
       },
       {
-        "Measures": [460],
-        "IndicatorID": 2048
+        "IndicatorID": 2048,
+        "Measures": [460]
       },
       {
-        "Measures": [1198],
-        "IndicatorID": 2380
+        "IndicatorID": 2380,
+        "Measures": [1198]
       }
     ]
   },
@@ -334,8 +334,8 @@
     "Y_axis_title": "Days Above Standard",
     "Indicators": [
       {
-        "Measures": [786, 785],
-        "IndicatorID": 57
+        "IndicatorID": 57,
+        "Measures": [786, 785]
       }
     ]
   },
@@ -346,8 +346,8 @@
     "Y_axis_title": "Days above Standard",
     "Indicators": [
       {
-        "Measures": [107, 787],
-        "IndicatorID": 55
+        "IndicatorID": 55,
+        "Measures": [107, 787]
       }
     ]
   },
@@ -358,8 +358,8 @@
     "Y_axis_title": "Number of Days",
     "Indicators": [
       {
-        "Measures": [201, 200],
-        "IndicatorID": 92
+        "IndicatorID": 92,
+        "Measures": [201, 200]
       }
     ]
   },
@@ -370,32 +370,32 @@
     "Y_axis_title": "Applications",
     "Indicators": [
       {
-        "Measures": [1135, 1137],
-        "IndicatorID": 2367
+        "IndicatorID": 2367,
+        "Measures": [1135, 1137]
       }
     ]
   },
   {
     "ComparisonID": 568,
-    "ComparisonName": "<span>Agency Use of Herbicides (Solid Products)<\/span>",
+    "ComparisonName": "Agency Use of Herbicides (Solid Products)",
     "LegendTitle": "Agency Use of Herbicides (Solid Products)",
     "Y_axis_title": "(pounds)",
     "Indicators": [
       {
-        "Measures": [1141, 1147, 1144],
-        "IndicatorID": 2368
+        "IndicatorID": 2368,
+        "Measures": [1141, 1147, 1144]
       }
     ]
   },
   {
     "ComparisonID": 569,
-    "ComparisonName": "<span>Agency Use of Herbicides (Liquid Products)<\/span>",
+    "ComparisonName": "Agency Use of Herbicides (Liquid Products)",
     "LegendTitle": "Agency Use of Herbicides (Liquid Products)",
     "Y_axis_title": "(gallons)",
     "Indicators": [
       {
-        "Measures": [1140, 1146, 1143],
-        "IndicatorID": 2368
+        "IndicatorID": 2368,
+        "Measures": [1140, 1146, 1143]
       }
     ]
   },
@@ -406,8 +406,8 @@
     "Y_axis_title": "Applications",
     "Indicators": [
       {
-        "Measures": [1139, 1145, 1142],
-        "IndicatorID": 2368
+        "IndicatorID": 2368,
+        "Measures": [1139, 1145, 1142]
       }
     ]
   },
@@ -418,24 +418,24 @@
     "Y_axis_title": "Percent of Households",
     "Indicators": [
       {
-        "Measures": [94],
-        "IndicatorID": 48
+        "IndicatorID": 48,
+        "Measures": [94]
       },
       {
-        "Measures": [76],
-        "IndicatorID": 40
+        "IndicatorID": 40,
+        "Measures": [76]
       },
       {
-        "Measures": [80],
-        "IndicatorID": 42
+        "IndicatorID": 42,
+        "Measures": [80]
       },
       {
-        "Measures": [86],
-        "IndicatorID": 45
+        "IndicatorID": 45,
+        "Measures": [86]
       },
       {
-        "Measures": [245],
-        "IndicatorID": 107
+        "IndicatorID": 107,
+        "Measures": [245]
       }
     ]
   },
@@ -446,8 +446,8 @@
     "Y_axis_title": "Soilds (pounds)",
     "Indicators": [
       {
-        "Measures": [1130, 1132, 1134],
-        "IndicatorID": 2366
+        "IndicatorID": 2366,
+        "Measures": [1130, 1132, 1134]
       }
     ]
   },
@@ -458,32 +458,32 @@
     "Y_axis_title": "All Agency Applications",
     "Indicators": [
       {
-        "Measures": [1129, 1131, 1133],
-        "IndicatorID": 2366
+        "IndicatorID": 2366,
+        "Measures": [1129, 1131, 1133]
       }
     ]
   },
   {
     "ComparisonID": 575,
-    "ComparisonName": "<span>Agency Use of Insecticides (Soild Products)<\/span>",
+    "ComparisonName": "Agency Use of Insecticides (Soild Products)",
     "LegendTitle": "Agency Use of Insecticides (Soild Products)",
     "Y_axis_title": "(pounds)",
     "Indicators": [
       {
-        "Measures": [1151, 1154, 1157],
-        "IndicatorID": 2369
+        "IndicatorID": 2369,
+        "Measures": [1151, 1154, 1157]
       }
     ]
   },
   {
     "ComparisonID": 576,
-    "ComparisonName": "<span>Agency Use of Insecticides (Liquid Products)<\/span>",
+    "ComparisonName": "Agency Use of Insecticides (Liquid Products)",
     "LegendTitle": "Agency Use of Insecticides (Liquid Products)",
     "Y_axis_title": "(gallons)",
     "Indicators": [
       {
-        "Measures": [1150, 1153, 1156],
-        "IndicatorID": 2369
+        "IndicatorID": 2369,
+        "Measures": [1150, 1153, 1156]
       }
     ]
   },
@@ -494,8 +494,8 @@
     "Y_axis_title": "Applications",
     "Indicators": [
       {
-        "Measures": [1148, 1152, 1155],
-        "IndicatorID": 2369
+        "IndicatorID": 2369,
+        "Measures": [1148, 1152, 1155]
       }
     ]
   },
@@ -506,8 +506,8 @@
     "Y_axis_title": "Soild Products (pounds)",
     "Indicators": [
       {
-        "Measures": [1120, 1126, 1123],
-        "IndicatorID": 2364
+        "IndicatorID": 2364,
+        "Measures": [1120, 1126, 1123]
       }
     ]
   },
@@ -518,8 +518,8 @@
     "Y_axis_title": "Liquid Products (gallons)",
     "Indicators": [
       {
-        "Measures": [1119, 1125, 1122],
-        "IndicatorID": 2364
+        "IndicatorID": 2364,
+        "Measures": [1119, 1125, 1122]
       }
     ]
   },
@@ -530,20 +530,20 @@
     "Y_axis_title": "Applications",
     "Indicators": [
       {
-        "Measures": [1118, 1124, 1121],
-        "IndicatorID": 2364
+        "IndicatorID": 2364,
+        "Measures": [1118, 1124, 1121]
       }
     ]
   },
   {
     "ComparisonID": 581,
-    "ComparisonName": "<span>Agency Use of Rodenticides<\/span>",
+    "ComparisonName": "Agency Use of Rodenticides",
     "LegendTitle": "Agency Use of Rodenticides",
     "Y_axis_title": "(pounds)",
     "Indicators": [
       {
-        "Measures": [1159, 1163, 1161],
-        "IndicatorID": 2370
+        "IndicatorID": 2370,
+        "Measures": [1159, 1163, 1161]
       }
     ]
   },
@@ -554,80 +554,80 @@
     "Y_axis_title": "Applications",
     "Indicators": [
       {
-        "Measures": [1158, 1162, 1160],
-        "IndicatorID": 2370
+        "IndicatorID": 2370,
+        "Measures": [1158, 1162, 1160]
       }
     ]
   },
   {
     "ComparisonID": 628,
-    "ComparisonName": "<p>Carbon Monoxide Emergency Department Visits<\/p>",
+    "ComparisonName": "Carbon Monoxide Emergency Department Visits",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [1260, 1262, 1264],
-        "IndicatorID": 2405
+        "IndicatorID": 2405,
+        "Measures": [1260, 1262, 1264]
       }
     ]
   },
   {
     "ComparisonID": 629,
-    "ComparisonName": "<p>Carbon Monoxide Emergency Department Visits<\/p>",
+    "ComparisonName": "Carbon Monoxide Emergency Department Visits",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [1262, 1260, 1264],
-        "IndicatorID": 2405
+        "IndicatorID": 2405,
+        "Measures": [1262, 1260, 1264]
       }
     ]
   },
   {
     "ComparisonID": 630,
-    "ComparisonName": "<p>Carbon Monoxide Emergency Department Visits<\/p>",
+    "ComparisonName": "Carbon Monoxide Emergency Department Visits",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [1264, 1260, 1262],
-        "IndicatorID": 2405
+        "IndicatorID": 2405,
+        "Measures": [1264, 1260, 1262]
       }
     ]
   },
   {
     "ComparisonID": 644,
-    "ComparisonName": "<p>,Carbon Monoxide Emergency Department Visits (per 100,000)<\/p>",
+    "ComparisonName": ",Carbon Monoxide Emergency Department Visits (per 100,000)",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Rate (per 100,000)",
     "Indicators": [
       {
-        "Measures": [1263, 1261, 1265],
-        "IndicatorID": 2405
+        "IndicatorID": 2405,
+        "Measures": [1263, 1261, 1265]
       }
     ]
   },
   {
     "ComparisonID": 645,
-    "ComparisonName": "<p>,Carbon Monoxide Emergency Department Visits (per 100,000)<\/p>",
+    "ComparisonName": ",Carbon Monoxide Emergency Department Visits (per 100,000)",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Rate (per 100,000)",
     "Indicators": [
       {
-        "Measures": [1261, 1263, 1265],
-        "IndicatorID": 2405
+        "IndicatorID": 2405,
+        "Measures": [1261, 1263, 1265]
       }
     ]
   },
   {
     "ComparisonID": 646,
-    "ComparisonName": "<p>,Carbon Monoxide Emergency Department Visits (per 100,000)<\/p>",
+    "ComparisonName": ",Carbon Monoxide Emergency Department Visits (per 100,000)",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Rate (per 100,000)",
     "Indicators": [
       {
-        "Measures": [1265, 1261, 1263],
-        "IndicatorID": 2405
+        "IndicatorID": 2405,
+        "Measures": [1265, 1261, 1263]
       }
     ]
   },
@@ -638,56 +638,56 @@
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [1267, 1268, 1270],
-        "IndicatorID": 2406
+        "IndicatorID": 2406,
+        "Measures": [1267, 1268, 1270]
       }
     ]
   },
   {
     "ComparisonID": 649,
-    "ComparisonName": "<p>Carbon Monoxide Hospitalizations<\/p>",
+    "ComparisonName": "Carbon Monoxide Hospitalizations",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [1268, 1267, 1270],
-        "IndicatorID": 2406
+        "IndicatorID": 2406,
+        "Measures": [1268, 1267, 1270]
       }
     ]
   },
   {
     "ComparisonID": 651,
-    "ComparisonName": "<p>,Carbon Monoxide Hospitalizations (per 100,000)<\/p>",
+    "ComparisonName": ",Carbon Monoxide Hospitalizations (per 100,000)",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Rate (per 100,000)",
     "Indicators": [
       {
-        "Measures": [1269, 1266, 1271],
-        "IndicatorID": 2406
+        "IndicatorID": 2406,
+        "Measures": [1269, 1266, 1271]
       }
     ]
   },
   {
     "ComparisonID": 652,
-    "ComparisonName": "<p>Carbon Monoxide Hospitalizations<\/p>",
+    "ComparisonName": "Carbon Monoxide Hospitalizations",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [1270, 1268, 1267],
-        "IndicatorID": 2406
+        "IndicatorID": 2406,
+        "Measures": [1270, 1268, 1267]
       }
     ]
   },
   {
     "ComparisonID": 653,
-    "ComparisonName": "<p>,Carbon Monoxide Hospitalizations (per 100,000)<\/p>",
+    "ComparisonName": ",Carbon Monoxide Hospitalizations (per 100,000)",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Rate (per 100,000)",
     "Indicators": [
       {
-        "Measures": [1271, 1266, 1269],
-        "IndicatorID": 2406
+        "IndicatorID": 2406,
+        "Measures": [1271, 1266, 1269]
       }
     ]
   },
@@ -698,8 +698,8 @@
     "Y_axis_title": "Concentration (micrograms per liter)",
     "Indicators": [
       {
-        "Measures": [435, 528, 436],
-        "IndicatorID": 2044
+        "IndicatorID": 2044,
+        "Measures": [435, 528, 436]
       }
     ]
   },
@@ -710,96 +710,96 @@
     "Y_axis_title": "Concentration (milligrams per liter)",
     "Indicators": [
       {
-        "Measures": [423, 531, 424],
-        "IndicatorID": 2041
+        "IndicatorID": 2041,
+        "Measures": [423, 531, 424]
       }
     ]
   },
   {
     "ComparisonID": 669,
-    "ComparisonName": "Haloacetic Acids<span> (HAA5)<\/span> in NYC Drinking Water",
+    "ComparisonName": "Haloacetic Acids (HAA5) in NYC Drinking Water",
     "LegendTitle": "Quarterly Concentration",
     "Y_axis_title": "Concentration (µg/L)",
     "Indicators": [
       {
-        "Measures": [860, 858, 859],
-        "IndicatorID": 2043
+        "IndicatorID": 2043,
+        "Measures": [860, 858, 859]
       }
     ]
   },
   {
     "ComparisonID": 672,
-    "ComparisonName": "Total&nbsp;<span>Trihalomethanes<\/span> <span>(TTHM) <\/span>in NYC Drinking Water",
+    "ComparisonName": "Total&nbsp;Trihalomethanes (TTHM) in NYC Drinking Water",
     "LegendTitle": "TTHM Concentration",
     "Y_axis_title": "Concentration (micrograms per liter)",
     "Indicators": [
       {
-        "Measures": [867, 864, 865],
-        "IndicatorID": 2207
+        "IndicatorID": 2207,
+        "Measures": [867, 864, 865]
       }
     ]
   },
   {
     "ComparisonID": 673,
-    "ComparisonName": "Total&nbsp;<span>Trihalomethanes<\/span> <span>(TTHM)<\/span> in NYC Drinking Water",
+    "ComparisonName": "Total&nbsp;Trihalomethanes (TTHM) in NYC Drinking Water",
     "LegendTitle": "Quarterly Concentration",
     "Y_axis_title": "Concentration (µg/L)",
     "Indicators": [
       {
-        "Measures": [862, 863, 861],
-        "IndicatorID": 2207
+        "IndicatorID": 2207,
+        "Measures": [862, 863, 861]
       }
     ]
   },
   {
     "ComparisonID": 674,
-    "ComparisonName": "Haloacetic Acids <span>(HAA5)<\/span> in NYC Drinking Water",
+    "ComparisonName": "Haloacetic Acids (HAA5) in NYC Drinking Water",
     "LegendTitle": "Annual",
     "Y_axis_title": "Concentration (µg/L)",
     "Indicators": [
       {
-        "Measures": [431, 529, 432],
-        "IndicatorID": 2043
+        "IndicatorID": 2043,
+        "Measures": [431, 529, 432]
       }
     ]
   },
   {
     "ComparisonID": 675,
-    "ComparisonName": "<span>Number of Asthma Hospitalizations<\/span>",
+    "ComparisonName": "Number of Asthma Hospitalizations",
     "LegendTitle": "Age",
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [154],
-        "IndicatorID": 84
+        "IndicatorID": 84,
+        "Measures": [154]
       },
       {
-        "Measures": [1200],
-        "IndicatorID": 2381
+        "IndicatorID": 2381,
+        "Measures": [1200]
       },
       {
-        "Measures": [1202],
-        "IndicatorID": 2382
+        "IndicatorID": 2382,
+        "Measures": [1202]
       }
     ]
   },
   {
     "ComparisonID": 676,
-    "ComparisonName": "<span>Number of Asthma ED Visits<\/span>",
+    "ComparisonName": "Number of Asthma ED Visits",
     "LegendTitle": "Age",
     "Y_axis_title": "Number",
     "Indicators": [
       {
-        "Measures": [1197],
-        "IndicatorID": 2380
+        "IndicatorID": 2380,
+        "Measures": [1197]
       },
       {
-        "Measures": [459],
-        "IndicatorID": 2048
+        "IndicatorID": 2048,
+        "Measures": [459]
       },
       {
-        "Measures": [1195],
-        "IndicatorID": 2379
+        "IndicatorID": 2379,
+        "Measures": [1195]
       }
     ]
   },
@@ -810,8 +810,8 @@
     "Y_axis_title": "Rate (per 100,000)",
     "Indicators": [
       {
-        "Measures": [1266, 1269, 1271],
-        "IndicatorID": 2406
+        "IndicatorID": 2406,
+        "Measures": [1266, 1269, 1271]
       }
     ]
   }
