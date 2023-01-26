@@ -94,8 +94,16 @@
     "Y_axis_title": "Solid Products (pounds)",
     "Indicators": [
       {
+        "IndicatorID": 2350,
+        "Measures": [1085]
+      },
+      {
         "IndicatorID": 2348,
         "Measures": [1079]
+      },
+      {
+        "IndicatorID": 2349,
+        "Measures": [1082]
       }
     ]
   },
@@ -106,8 +114,16 @@
     "Y_axis_title": "Liquid Products (gallons)",
     "Indicators": [
       {
+        "IndicatorID": 2350,
+        "Measures": [1084]
+      },
+      {
         "IndicatorID": 2348,
         "Measures": [1078]
+      },
+      {
+        "IndicatorID": 2349,
+        "Measures": [1081]
       }
     ]
   },
@@ -120,6 +136,14 @@
       {
         "IndicatorID": 2351,
         "Measures": [1087]
+      },
+      {
+        "IndicatorID": 2352,
+        "Measures": [1090]
+      },
+      {
+        "IndicatorID": 2353,
+        "Measures": [1093]
       }
     ]
   },
@@ -132,6 +156,14 @@
       {
         "IndicatorID": 2351,
         "Measures": [1088]
+      },
+      {
+        "IndicatorID": 2352,
+        "Measures": [1091]
+      },
+      {
+        "IndicatorID": 2353,
+        "Measures": [1094]
       }
     ]
   },
@@ -142,8 +174,16 @@
     "Y_axis_title": "Liquid Products (gallons)",
     "Indicators": [
       {
+        "IndicatorID": 2356,
+        "Measures": [1102]
+      },
+      {
         "IndicatorID": 2354,
         "Measures": [1096]
+      },
+      {
+        "IndicatorID": 2355,
+        "Measures": [1099]
       }
     ]
   },
@@ -156,6 +196,14 @@
       {
         "IndicatorID": 2345,
         "Measures": [1072]
+      },
+      {
+        "IndicatorID": 2346,
+        "Measures": [1074]
+      },
+      {
+        "IndicatorID": 2347,
+        "Measures": [1076]
       }
     ]
   },
@@ -166,8 +214,32 @@
     "Y_axis_title": "Solid Products (pounds)",
     "Indicators": [
       {
+        "IndicatorID": 2359,
+        "Measures": [1109]
+      },
+      {
         "IndicatorID": 2357,
         "Measures": [1105]
+      },
+      {
+        "IndicatorID": 2358,
+        "Measures": [1107]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 467,
+    "ComparisonName": "Agency Use of Glyphosate",
+    "LegendTitle": "Agency Use of Glyphosate",
+    "Y_axis_title": "Liquid Products (gallons)",
+    "Indicators": [
+      {
+        "IndicatorID": 2363,
+        "Measures": [1117]
+      },
+      {
+        "IndicatorID": 2362,
+        "Measures": [1115]
       }
     ]
   },
@@ -178,8 +250,16 @@
     "Y_axis_title": "Solid Products (pounds)",
     "Indicators": [
       {
+        "IndicatorID": 2356,
+        "Measures": [1103]
+      },
+      {
         "IndicatorID": 2354,
         "Measures": [1097]
+      },
+      {
+        "IndicatorID": 2355,
+        "Measures": [1100]
       }
     ]
   },
