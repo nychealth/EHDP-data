@@ -50669,7 +50669,7 @@
     "IndicatorID":2317,
     "IndicatorName":"Jail incarceration",
     "IndicatorLabel":"Jail incarceration",
-    "IndicatorDescription":"<p>Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighborhoods.<\/p>",
+    "IndicatorDescription":"Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighborhoods.",
     "Comparisons":null,
     "Measures":[
       {
@@ -60964,16 +60964,16 @@
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"NYCKIDS2017",
-            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
-          },
-          {
             "GeoType":"Borough",
             "GeoTypeDescription":"Borough"
           },
           {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2017",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           },
           {
             "GeoType":"NYCKIDS2019",
