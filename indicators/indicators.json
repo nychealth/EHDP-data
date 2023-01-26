@@ -50667,14 +50667,14 @@
   },
   {
     "IndicatorID":2317,
-    "IndicatorName":"Jail Incarceration",
-    "IndicatorLabel":"Jail Incarceration",
-    "IndicatorDescription":"Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighbourhoods.",
+    "IndicatorName":"Jail incarceration",
+    "IndicatorLabel":"Jail incarceration",
+    "IndicatorDescription":"<p>Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighborhoods.<\/p>",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":973,
-        "MeasureName":"Jail Incarceration, Estimated annual rate",
+        "MeasureName":"Jail incarceration, Estimated annual rate",
         "MeasurementType":"Estimated annual rate",
         "how_calculated":"Crude rate of of incarcerated adults in NYC Department of Correction facilities per 1,000 population ages 18 and older. Addresses at admission to New York City Department of Correction facilities were geocoded; 69% of all records could be geocoded to a valid NTA. Data were limited to those ages 18 years of age and older and deduplicated by individuals' unique ID numbers and NTAs of residence. The six years of count data were annualized by dividing by six.",
         "Sources":"New York City Department of Correction",
@@ -58872,9 +58872,9 @@
   },
   {
     "IndicatorID":2380,
-    "IndicatorName":"Asthma emegency department visits (adults)",
+    "IndicatorName":"Asthma emergency department visits (adults)",
     "IndicatorLabel":"Adults",
-    "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "IndicatorDescription":"<p>Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.<\/p>",
     "Comparisons":[
       555,
       676
@@ -60057,9 +60057,9 @@
   },
   {
     "IndicatorID":2384,
-    "IndicatorName":"Asthma emegency department visits (adults), by NTA",
+    "IndicatorName":"Asthma emergency department visits (adults), by NTA",
     "IndicatorLabel":"Adults (by NTA)",
-    "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "IndicatorDescription":"<p>Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.<\/p>",
     "Comparisons":null,
     "Measures":[
       {
