@@ -28325,6 +28325,11 @@
             "TimeDescription":"2009",
             "start_period":1230768000000,
             "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -28337,7 +28342,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -28371,6 +28376,11 @@
             "TimeDescription":"2009",
             "start_period":1230768000000,
             "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -28383,7 +28393,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -28417,6 +28427,11 @@
             "TimeDescription":"2009",
             "start_period":1230768000000,
             "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -28429,7 +28444,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -28463,6 +28478,11 @@
             "TimeDescription":"2009",
             "start_period":1230768000000,
             "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -28475,7 +28495,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
