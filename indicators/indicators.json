@@ -17366,11 +17366,11 @@
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"x"
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"y"
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":155,
@@ -65679,7 +65679,7 @@
     "IndicatorID":2416,
     "IndicatorName":"Litter basket coverage",
     "IndicatorLabel":"Litter basket coverage",
-    "IndicatorDescription":"<p><span>Sanitation supports public health by providing clean, healthy public spaces for people to live, work, and get around. Litter baskets, or trash cans, are associated with a decrease in littering. Enclosed, non-wire baskets are generally better than wire baskets.<\/span><\/p>",
+    "IndicatorDescription":"Sanitation supports public health by providing clean, healthy public spaces for people to live, work, and get around. Litter baskets, or trash cans, are associated with a decrease in littering. Enclosed, non-wire baskets are generally better than wire baskets.",
     "Comparisons":null,
     "Measures":[
       {
@@ -65978,7 +65978,7 @@
     "IndicatorID":2417,
     "IndicatorName":"Depression (adults)",
     "IndicatorLabel":"Depression (adults)",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"Adults with probable depression in the past 2 weeks (from when they were surveyed). Depression is a common mental health disorder. Symptoms include feeling sad or hopeless, having little interest in doing things and feeling tired.",
     "Comparisons":null,
     "Measures":[
       {
@@ -66063,7 +66063,7 @@
     "IndicatorID":2418,
     "IndicatorName":"Psychiatric hospitalizations (adults)",
     "IndicatorLabel":"Psychiatric hospitalizations (adults)",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"A psychiatric hospitalization is defined as an overnight stay or longer in a psychiatric inpatient unit (excluding emergency room visits without an inpatient admission) for individuals with behaviors or symptoms that are likely to result in harm to themselves or others.",
     "Comparisons":null,
     "Measures":[
       {
@@ -66186,7 +66186,7 @@
     "IndicatorID":2419,
     "IndicatorName":"Serious psychological distress (adults)",
     "IndicatorLabel":"Serious psychological distress (adults)",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, pooled years 2019-2020, rounded to the nearest 1,000.",
     "Comparisons":null,
     "Measures":[
       {
@@ -66309,7 +66309,7 @@
     "IndicatorID":2420,
     "IndicatorName":"Suicide deaths",
     "IndicatorLabel":"Suicide deaths",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"Number of suicide deaths, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.",
     "Comparisons":null,
     "Measures":[
       {
