@@ -16658,11 +16658,11 @@
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"y"
+                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":92,
-                "SecondaryAxis":"x"
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":221,
@@ -27444,7 +27444,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -27490,7 +27490,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -27536,7 +27536,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -27582,7 +27582,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -47917,7 +47917,7 @@
     "IndicatorID":2218,
     "IndicatorName":"Babesiosis",
     "IndicatorLabel":"Babesiosis",
-    "IndicatorDescription":"Babesiosis s a rare, sometimes severe or fatal tick-borne disease caused by a parasite that infects red blood cells. Babesiosis is transmitted by the bite of an infected blacklegged tick (the same tick that transmits Lyme disease and anaplasmosis). Most patients acquire this disease while traveling outside NYC. However, there has been an increase in the number of cases with no history of travel to endemic areas, primarily in Staten Island, as well as isolated cases in the Bronx and Queens. Babesiosis can also be transmitted through transfused blood products.",
+    "IndicatorDescription":"Babesiosis is a rare, sometimes severe or fatal tick-borne disease caused by a parasite that infects red blood cells. Babesiosis is transmitted by the bite of an infected blacklegged tick (the same tick that transmits Lyme disease and anaplasmosis). Most patients acquire this disease while traveling outside NYC. However, there has been an increase in the number of cases with no history of travel to endemic areas, primarily in Staten Island, as well as isolated cases in the Bronx and Queens. Babesiosis can also be transmitted through transfused blood products.",
     "Comparisons":null,
     "Measures":[
       {
@@ -64356,7 +64356,7 @@
     "IndicatorID":2416,
     "IndicatorName":"Litter basket coverage",
     "IndicatorLabel":"Litter basket coverage",
-    "IndicatorDescription":"<p><span>Sanitation supports public health by providing clean, healthy public spaces for people to live, work, and get around. Litter baskets, or trash cans, are associated with a decrease in littering. Enclosed, non-wire baskets are generally better than wire baskets.<\/span><\/p>",
+    "IndicatorDescription":"Sanitation supports public health by providing clean, healthy public spaces for people to live, work, and get around. Litter baskets, or trash cans, are associated with a decrease in littering. Enclosed, non-wire baskets are generally better than wire baskets.",
     "Comparisons":null,
     "Measures":[
       {
