@@ -66186,7 +66186,7 @@
     "IndicatorID":2419,
     "IndicatorName":"Serious psychological distress (adults)",
     "IndicatorLabel":"Serious psychological distress (adults)",
-    "IndicatorDescription":"Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, pooled years 2019-2020, rounded to the nearest 1,000.",
+    "IndicatorDescription":"Serious psychological distress includes mental health problems that impact social, occupational, and educational functioning.",
     "Comparisons":null,
     "Measures":[
       {
@@ -66309,7 +66309,7 @@
     "IndicatorID":2420,
     "IndicatorName":"Suicide deaths",
     "IndicatorLabel":"Suicide deaths",
-    "IndicatorDescription":"Number of suicide deaths, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.",
+    "IndicatorDescription":"An intentional injury death that results from self-harm.",
     "Comparisons":null,
     "Measures":[
       {
@@ -66419,6 +66419,131 @@
             "Trend":[
               {
                 "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2421,
+    "IndicatorName":"Tobacco Retailers",
+    "IndicatorLabel":"Tobacco Retailers",
+    "IndicatorDescription":"Retail locations that sell tobacco products. Neighborhoods with higher densities of tobacco retailers increase access to tobacco and may increase smoking rates.",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1334,
+        "MeasureName":"Tobacco Retailers, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Number of tobacco retailers holding a DCA license so they can legally operate in NYC, as of 1\/20\/23.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1672531200000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1335,
+        "MeasureName":"Tobacco Retailers, Density",
+        "MeasurementType":"Density",
+        "how_calculated":"Number of tobacco retailers holding a DCA license so they can legally operate in NYC, as of 1\/20\/23, divided by square miles of a given geographical area.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1672531200000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
                 "Disparities":0
               }
             ],
