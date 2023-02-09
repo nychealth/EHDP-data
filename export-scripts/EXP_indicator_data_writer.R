@@ -23,6 +23,7 @@ suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(jsonlite)))
 suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(svDialogs)))
+suppressWarnings(suppressMessages(library(scales)))
 
 #-----------------------------------------------------------------------------------------#
 # get base_dir for absolute path
@@ -133,6 +134,11 @@ EHDP_odbc <-
 # Pulling data ----
 #=========================================================================================#
 
+# formatting with comma and decimal
+
+add_comma_dec <- label_comma(accuracy = 0.1, big.mark = ",")
+add_comma_num <- label_comma(accuracy = 1.0, big.mark = ",")
+
 # using existing views
 
 EXP_data_export <- 
@@ -155,11 +161,13 @@ EXP_data_export <-
         DisplayValue = 
             case_when(
                 is.na(flag)  & is.na(Value) ~ "-",
-                is.na(flag)  & number_decimal_ind == "N" ~ sprintf("%.0f", Value),
-                is.na(flag)  & number_decimal_ind == "D" ~ sprintf("%.1f", Value),
+                is.na(flag)  & number_decimal_ind == "N" ~ add_comma_num(Value),
+                is.na(flag)  & number_decimal_ind == "D" ~ add_comma_dec(Value),
+                is.na(flag)  & is.na(number_decimal_ind) ~ add_comma_dec(Value),
                 !is.na(flag) & is.na(Value) ~ flag,
-                !is.na(flag) & number_decimal_ind == "N" ~ str_c(sprintf("%.0f", Value), flag),
-                !is.na(flag) & number_decimal_ind == "D" ~ str_c(sprintf("%.1f", Value), flag)
+                !is.na(flag) & number_decimal_ind == "N" ~ str_c(add_comma_num(Value), flag),
+                !is.na(flag) & number_decimal_ind == "D" ~ str_c(add_comma_dec(Value), flag),
+                !is.na(flag) & is.na(number_decimal_ind) ~ str_c(add_comma_dec(Value), flag)
             )
     ) %>% 
     
