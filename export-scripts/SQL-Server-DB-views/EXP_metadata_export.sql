@@ -37,8 +37,8 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
             ELSE dsp.Disparities
         END AS Disparities,
 
-        CASE WHEN rc.RankReverse IS null THEN 0
-            ELSE rc.RankReverse
+        CASE WHEN id.rankReverse IS null THEN 0
+            ELSE id.rankReverse
         END AS RankReverse
 
     FROM subtopic_indicators AS si
@@ -77,18 +77,6 @@ ALTER VIEW [dbo].[EXP_metadata_export] AS
 
         ) AS dsp ON dsp.base_indicator_id = si.indicator_id
         
-        -- if this measure is rank-reversed, rankReverse will be 1
-        
-        LEFT JOIN (
-
-            SELECT 
-                indicator_id,
-                max(cast(rankReverse AS int)) AS rankReverse
-            FROM report_content
-            GROUP BY indicator_id
-
-        ) AS rc ON rc.indicator_id = si.indicator_id
-    
     WHERE 
         st.public_display_flag = 'Y' AND
         si.creator_id = 1 -- repurpose as stage_flag: 0 = don't stage, 1 = stage
