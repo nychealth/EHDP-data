@@ -7791,7 +7791,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -7919,7 +7919,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -13864,7 +13864,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -13992,7 +13992,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -24001,7 +24001,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -24139,7 +24139,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -24478,7 +24478,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -24618,7 +24618,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -24746,7 +24746,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -25140,7 +25140,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -25233,7 +25233,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -25326,7 +25326,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -25419,7 +25419,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -25563,7 +25563,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -25696,7 +25696,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -26020,7 +26020,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -29749,7 +29749,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -30237,7 +30237,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -31624,7 +31624,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -44427,7 +44427,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -44880,7 +44880,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -45333,7 +45333,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -45471,7 +45471,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -45609,7 +45609,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -45885,7 +45885,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -51217,8 +51217,8 @@
       },
       {
         "MeasureID":989,
-        "MeasureName":"Race\/ethnicity, Percent Hispanic Alone",
-        "MeasurementType":"Percent Hispanic Alone",
+        "MeasureName":"Race\/ethnicity, Hispanic alone (percent)",
+        "MeasurementType":"Hispanic alone (percent)",
         "how_calculated":"<p>Estimated Percent Hispanic<\/p>",
         "Sources":"American Community Survey",
         "DisplayType":"",
@@ -51300,8 +51300,8 @@
       },
       {
         "MeasureID":990,
-        "MeasureName":"Race\/ethnicity, Percent White Alone",
-        "MeasurementType":"Percent White Alone",
+        "MeasureName":"Race\/ethnicity, White alone (percent)",
+        "MeasurementType":"White alone (percent)",
         "how_calculated":"<p>Estimated Percent White<\/p>",
         "Sources":"American Community Survey",
         "DisplayType":"",
@@ -51547,6 +51547,10 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1322,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -54004,7 +54008,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -54092,7 +54096,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -54180,7 +54184,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -54268,7 +54272,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -54356,7 +54360,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -54444,7 +54448,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -54532,7 +54536,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -54620,7 +54624,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -54708,7 +54712,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -54968,7 +54972,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -55056,7 +55060,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -55144,7 +55148,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -55232,7 +55236,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -55320,7 +55324,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -55408,7 +55412,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -55889,7 +55893,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -55977,7 +55981,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56065,7 +56069,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56153,7 +56157,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56241,7 +56245,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56329,7 +56333,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56417,7 +56421,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56505,7 +56509,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56593,7 +56597,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56694,7 +56698,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56782,7 +56786,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56870,7 +56874,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -56958,7 +56962,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57046,7 +57050,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57134,7 +57138,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57222,7 +57226,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57310,7 +57314,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57398,7 +57402,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57498,7 +57502,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57586,7 +57590,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57674,7 +57678,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57762,7 +57766,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57850,7 +57854,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -57938,7 +57942,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -61711,7 +61715,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -61834,7 +61838,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -61957,7 +61961,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -62429,12 +62433,8 @@
     "IndicatorLabel":"Carbon monoxide emergency department visits",
     "IndicatorDescription":"Carbon monoxide (CO) exposure can be life-threatening or fatal. ED visits and hospitalizations allows us to understand the burden of CO-related health impacts.",
     "Comparisons":[
-      628,
-      629,
-      630,
-      644,
-      645,
-      646
+      678,
+      680
     ],
     "Measures":[
       {
@@ -63087,11 +63087,7 @@
     "IndicatorLabel":"Carbon monoxide hospitalizations",
     "IndicatorDescription":"Carbon monoxide (CO) exposure can be life-threatening or fatal. ED visits and hospitalizations allows us to understand the burden of CO-related health impacts.",
     "Comparisons":[
-      647,
-      649,
-      651,
       652,
-      653,
       677
     ],
     "Measures":[
@@ -63219,7 +63215,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -63615,7 +63611,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -63879,7 +63875,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -64796,7 +64792,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":1192,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
