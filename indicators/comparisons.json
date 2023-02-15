@@ -640,114 +640,6 @@
     ]
   },
   {
-    "ComparisonID": 628,
-    "ComparisonName": "Carbon Monoxide Emergency Department Visits",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Number",
-    "Indicators": [
-      {
-        "IndicatorID": 2405,
-        "Measures": [1260, 1262, 1264]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 629,
-    "ComparisonName": "Carbon Monoxide Emergency Department Visits",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Number",
-    "Indicators": [
-      {
-        "IndicatorID": 2405,
-        "Measures": [1262, 1260, 1264]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 630,
-    "ComparisonName": "Carbon Monoxide Emergency Department Visits",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Number",
-    "Indicators": [
-      {
-        "IndicatorID": 2405,
-        "Measures": [1264, 1260, 1262]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 644,
-    "ComparisonName": ",Carbon Monoxide Emergency Department Visits (per 100,000)",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Rate (per 100,000)",
-    "Indicators": [
-      {
-        "IndicatorID": 2405,
-        "Measures": [1263, 1261, 1265]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 645,
-    "ComparisonName": ",Carbon Monoxide Emergency Department Visits (per 100,000)",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Rate (per 100,000)",
-    "Indicators": [
-      {
-        "IndicatorID": 2405,
-        "Measures": [1261, 1263, 1265]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 646,
-    "ComparisonName": ",Carbon Monoxide Emergency Department Visits (per 100,000)",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Rate (per 100,000)",
-    "Indicators": [
-      {
-        "IndicatorID": 2405,
-        "Measures": [1265, 1261, 1263]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 647,
-    "ComparisonName": "Carbon Monoxide Hospitalizations",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Number",
-    "Indicators": [
-      {
-        "IndicatorID": 2406,
-        "Measures": [1267, 1268, 1270]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 649,
-    "ComparisonName": "Carbon Monoxide Hospitalizations",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Number",
-    "Indicators": [
-      {
-        "IndicatorID": 2406,
-        "Measures": [1268, 1267, 1270]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 651,
-    "ComparisonName": ",Carbon Monoxide Hospitalizations (per 100,000)",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Rate (per 100,000)",
-    "Indicators": [
-      {
-        "IndicatorID": 2406,
-        "Measures": [1269, 1266, 1271]
-      }
-    ]
-  },
-  {
     "ComparisonID": 652,
     "ComparisonName": "Carbon Monoxide Hospitalizations",
     "LegendTitle": "Cause-Specific Comparison",
@@ -756,18 +648,6 @@
       {
         "IndicatorID": 2406,
         "Measures": [1270, 1268, 1267]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 653,
-    "ComparisonName": ",Carbon Monoxide Hospitalizations (per 100,000)",
-    "LegendTitle": "Cause-Specific Comparison",
-    "Y_axis_title": "Rate (per 100,000)",
-    "Indicators": [
-      {
-        "IndicatorID": 2406,
-        "Measures": [1271, 1266, 1269]
       }
     ]
   },
@@ -885,13 +765,37 @@
   },
   {
     "ComparisonID": 677,
-    "ComparisonName": ",Carbon Monoxide Hospitalizations (per 100,000)",
+    "ComparisonName": "Carbon Monoxide Hospitalizations (per 100,000)",
     "LegendTitle": "Cause-Specific Comparison",
     "Y_axis_title": "Rate (per 100,000)",
     "Indicators": [
       {
         "IndicatorID": 2406,
         "Measures": [1266, 1269, 1271]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 678,
+    "ComparisonName": "Carbon Monoxide Emergency Department Visits (per 100,000)",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Rate (per 100,000)",
+    "Indicators": [
+      {
+        "IndicatorID": 2405,
+        "Measures": [1261, 1263, 1265]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 680,
+    "ComparisonName": "Carbon Monoxide Emergency Department Visits",
+    "LegendTitle": "Cause-Specific Comparison",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "IndicatorID": 2405,
+        "Measures": [1264, 1260, 1262]
       }
     ]
   }
