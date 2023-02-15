@@ -2309,6 +2309,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2356,6 +2360,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2444,6 +2458,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2491,6 +2509,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2551,6 +2579,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2583,6 +2615,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2663,6 +2705,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2695,6 +2741,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2759,6 +2815,10 @@
           {
             "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2811,6 +2871,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2866,6 +2936,10 @@
           {
             "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2918,6 +2992,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2995,6 +3079,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -3042,6 +3130,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -3106,6 +3204,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -3153,6 +3255,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -19335,6 +19447,10 @@
               {
                 "MeasureID":1204,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1335,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -41136,6 +41252,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -41183,6 +41303,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -41271,6 +41401,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -41318,6 +41452,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -43180,6 +43324,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -43227,6 +43375,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -43278,6 +43436,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -43325,6 +43487,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52447,6 +52619,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -52479,6 +52655,11 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52530,6 +52711,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -52562,6 +52747,11 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52584,8 +52774,8 @@
       },
       {
         "MeasureID":989,
-        "MeasureName":"Race\/ethnicity, Percent Hispanic Alone",
-        "MeasurementType":"Percent Hispanic Alone",
+        "MeasureName":"Race\/ethnicity, Hispanic alone (percent)",
+        "MeasurementType":"Hispanic alone (percent)",
         "how_calculated":"<p>Estimated Percent Hispanic<\/p>",
         "Sources":"American Community Survey",
         "DisplayType":"",
@@ -52613,6 +52803,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -52645,6 +52839,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52667,8 +52871,8 @@
       },
       {
         "MeasureID":990,
-        "MeasureName":"Race\/ethnicity, Percent White Alone",
-        "MeasurementType":"Percent White Alone",
+        "MeasureName":"Race\/ethnicity, White alone (percent)",
+        "MeasurementType":"White alone (percent)",
         "how_calculated":"<p>Estimated Percent White<\/p>",
         "Sources":"American Community Survey",
         "DisplayType":"",
@@ -52696,6 +52900,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -52728,6 +52936,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52862,6 +53080,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -52894,6 +53116,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52914,6 +53146,10 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1322,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -52959,6 +53195,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -53006,6 +53246,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -53057,6 +53307,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -53104,6 +53358,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -53185,6 +53449,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -53232,6 +53500,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -53283,6 +53561,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -53330,6 +53612,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -53395,6 +53687,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -53442,6 +53738,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -53493,6 +53799,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -53540,6 +53850,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -53629,6 +53949,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -53676,6 +54000,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -53727,6 +54061,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -53774,6 +54112,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -60860,6 +61208,10 @@
               {
                 "MeasureID":386,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1335,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -63950,12 +64302,8 @@
     "IndicatorLabel":"Carbon monoxide emergency department visits",
     "IndicatorDescription":"Carbon monoxide (CO) exposure can be life-threatening or fatal. ED visits and hospitalizations allows us to understand the burden of CO-related health impacts.",
     "Comparisons":[
-      628,
-      629,
-      630,
-      644,
-      645,
-      646
+      678,
+      680
     ],
     "Measures":[
       {
@@ -64608,11 +64956,7 @@
     "IndicatorLabel":"Carbon monoxide hospitalizations",
     "IndicatorDescription":"Carbon monoxide (CO) exposure can be life-threatening or fatal. ED visits and hospitalizations allows us to understand the burden of CO-related health impacts.",
     "Comparisons":[
-      647,
-      649,
-      651,
       652,
-      653,
       677
     ],
     "Measures":[
@@ -66025,6 +66369,519 @@
     ]
   },
   {
+    "IndicatorID":2415,
+    "IndicatorName":"Means of transportation to work",
+    "IndicatorLabel":"Means of transportation to work",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1300,
+        "MeasureName":"Means of transportation to work, Number: Bicycle",
+        "MeasurementType":"Number: Bicycle",
+        "how_calculated":"Estimated number of workers age 16 years and over who usually rode a bicycle to work",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1301,
+        "MeasureName":"Means of transportation to work, Number: Car, truck, or van",
+        "MeasurementType":"Number: Car, truck, or van",
+        "how_calculated":"Estimated number of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1302,
+        "MeasureName":"Means of transportation to work, Number: Public transportation",
+        "MeasurementType":"Number: Public transportation",
+        "how_calculated":"Estimated number of workers age 16 years and over who usually took public transportation to work",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1303,
+        "MeasureName":"Means of transportation to work, Number: Walked",
+        "MeasurementType":"Number: Walked",
+        "how_calculated":"Estimated number of workers age 16 years and over who usually walked to work",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1304,
+        "MeasureName":"Means of transportation to work, Percent: Bicycle",
+        "MeasurementType":"Percent: Bicycle",
+        "how_calculated":"Estimated percentage of workers age 16 years and over who usually rode a bicycle to work",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1305,
+        "MeasureName":"Means of transportation to work, Percent: Car, truck, or van",
+        "MeasurementType":"Percent: Car, truck, or van",
+        "how_calculated":"Estimated percentage of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1306,
+        "MeasureName":"Means of transportation to work, Percent: Public transportation",
+        "MeasurementType":"Percent: Public transportation",
+        "how_calculated":"Estimated percentage of workers age 16 years and over who usually took public transportation to work",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1307,
+        "MeasureName":"Means of transportation to work, Percent: Walked",
+        "MeasurementType":"Percent: Walked",
+        "how_calculated":"Estimated percentage of workers age 16 years and over who usually walked to work",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID":2416,
     "IndicatorName":"Litter basket coverage",
     "IndicatorLabel":"Litter basket coverage",
@@ -66317,7 +67174,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":1192,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -67067,14 +67929,14 @@
   },
   {
     "IndicatorID":2421,
-    "IndicatorName":"Tobacco Retailers",
-    "IndicatorLabel":"Tobacco Retailers",
-    "IndicatorDescription":"Retail locations that sell tobacco products. Neighborhoods with higher densities of tobacco retailers increase access to tobacco and may increase smoking rates.",
+    "IndicatorName":"Tobacco retailers",
+    "IndicatorLabel":"Tobacco retailers",
+    "IndicatorDescription":"<p>Retail locations that sell tobacco products. Neighborhoods with higher densities of tobacco retailers increase access to tobacco and may increase smoking rates.<\/p>",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1334,
-        "MeasureName":"Tobacco Retailers, Number",
+        "MeasureName":"Tobacco retailers, Number",
         "MeasurementType":"Number",
         "how_calculated":"Number of tobacco retailers holding a DCA license so they can legally operate in NYC, as of 1\/20\/23.",
         "Sources":"",
@@ -67132,7 +67994,7 @@
       },
       {
         "MeasureID":1335,
-        "MeasureName":"Tobacco Retailers, Density",
+        "MeasureName":"Tobacco retailers, Density",
         "MeasurementType":"Density",
         "how_calculated":"Number of tobacco retailers holding a DCA license so they can legally operate in NYC, as of 1\/20\/23, divided by square miles of a given geographical area.",
         "Sources":"",
@@ -67181,10 +68043,23 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":307,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":311,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1199,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       }
