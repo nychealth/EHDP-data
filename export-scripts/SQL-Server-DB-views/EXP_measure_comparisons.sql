@@ -9,6 +9,7 @@ ALTER VIEW dbo.EXP_measure_comparisons AS
         mc.measure_compare_id  AS ComparisonID,
         mc.name                AS ComparisonName,
         mc.group_title_display AS LegendTitle,
+        mc.Y_axis_title,
         idef.internal_id       AS IndicatorID,
         mm.indicator_id        AS MeasureID
 
