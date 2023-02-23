@@ -36,18 +36,6 @@
     ]
   },
   {
-    "ComparisonID": 303,
-    "ComparisonName": "Employed adults with elevated blood lead levels",
-    "LegendTitle": "Citywide",
-    "Y_axis_title": "Rate (per 100,000 employed)",
-    "Indicators": [
-      {
-        "IndicatorID": 2209,
-        "Measures": [873, 880]
-      }
-    ]
-  },
-  {
     "ComparisonID": 418,
     "ComparisonName": "Cigarette smoking",
     "LegendTitle": "Age",
@@ -240,18 +228,6 @@
     ]
   },
   {
-    "ComparisonID": 493,
-    "ComparisonName": "NYC agency use of glyphosate (liquids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "(gallons)",
-    "Indicators": [
-      {
-        "IndicatorID": 2367,
-        "Measures": [1136, 1138]
-      }
-    ]
-  },
-  {
     "ComparisonID": 536,
     "ComparisonName": "Sugary drink consumption",
     "LegendTitle": "Age",
@@ -347,7 +323,7 @@
     "ComparisonID": 554,
     "ComparisonName": "Asthma hospitalizations (rate)",
     "LegendTitle": "Age",
-    "Y_axis_title": "Rate( per 10,000 residents)",
+    "Y_axis_title": "Rate",
     "Indicators": [
       {
         "IndicatorID": 2382,
@@ -367,7 +343,7 @@
     "ComparisonID": 555,
     "ComparisonName": "Asthma ED visits (rate)",
     "LegendTitle": "Age",
-    "Y_axis_title": "Rate( per 10,000 residents)",
+    "Y_axis_title": "Rate",
     "Indicators": [
       {
         "IndicatorID": 2379,
@@ -432,30 +408,6 @@
     ]
   },
   {
-    "ComparisonID": 568,
-    "ComparisonName": "NYC agency use of herbicides (solids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "(pounds)",
-    "Indicators": [
-      {
-        "IndicatorID": 2368,
-        "Measures": [1141, 1147, 1144]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 569,
-    "ComparisonName": "NYC agency use of herbicides (liquids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "(gallons)",
-    "Indicators": [
-      {
-        "IndicatorID": 2368,
-        "Measures": [1140, 1146, 1143]
-      }
-    ]
-  },
-  {
     "ComparisonID": 570,
     "ComparisonName": "NYC agency use of herbicides (count)",
     "LegendTitle": "Property type",
@@ -468,38 +420,10 @@
     ]
   },
   {
-    "ComparisonID": 571,
-    "ComparisonName": "Housing disrepair",
-    "LegendTitle": "Type of disrepair",
-    "Y_axis_title": "Percent of Households",
-    "Indicators": [
-      {
-        "IndicatorID": 48,
-        "Measures": [94]
-      },
-      {
-        "IndicatorID": 40,
-        "Measures": [76]
-      },
-      {
-        "IndicatorID": 42,
-        "Measures": [80]
-      },
-      {
-        "IndicatorID": 45,
-        "Measures": [86]
-      },
-      {
-        "IndicatorID": 107,
-        "Measures": [245]
-      }
-    ]
-  },
-  {
     "ComparisonID": 573,
     "ComparisonName": "NYC agency use of \"Best Practice\" products (solids)",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Soilds (pounds)",
+    "Y_axis_title": "Soilds",
     "Indicators": [
       {
         "IndicatorID": 2366,
@@ -511,35 +435,11 @@
     "ComparisonID": 574,
     "ComparisonName": "NYC agency use of \"Best Practice\" products (count)",
     "LegendTitle": "Property type",
-    "Y_axis_title": "All Agency Applications",
+    "Y_axis_title": "Applications",
     "Indicators": [
       {
         "IndicatorID": 2366,
         "Measures": [1129, 1131, 1133]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 575,
-    "ComparisonName": "NYC agency use of insecticides (solids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "(pounds)",
-    "Indicators": [
-      {
-        "IndicatorID": 2369,
-        "Measures": [1151, 1154, 1157]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 576,
-    "ComparisonName": "NYC agency use of insecticides (liquids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "(gallons)",
-    "Indicators": [
-      {
-        "IndicatorID": 2369,
-        "Measures": [1150, 1153, 1156]
       }
     ]
   },
@@ -559,7 +459,7 @@
     "ComparisonID": 578,
     "ComparisonName": "NYC agency use of fungicides (solids)",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Soild Products (pounds)",
+    "Y_axis_title": "Soilds",
     "Indicators": [
       {
         "IndicatorID": 2364,
@@ -571,7 +471,7 @@
     "ComparisonID": 579,
     "ComparisonName": "NYC agency use of fungicides (liquids)",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Liquid Products (gallons)",
+    "Y_axis_title": "Liquids",
     "Indicators": [
       {
         "IndicatorID": 2364,
@@ -588,18 +488,6 @@
       {
         "IndicatorID": 2364,
         "Measures": [1118, 1124, 1121]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 581,
-    "ComparisonName": "NYC agency use of rodenticides (solids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "(pounds)",
-    "Indicators": [
-      {
-        "IndicatorID": 2370,
-        "Measures": [1159, 1163, 1161]
       }
     ]
   },
@@ -624,78 +512,6 @@
       {
         "IndicatorID": 2406,
         "Measures": [1270, 1268, 1267]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 663,
-    "ComparisonName": "Arsenic in NYC drinking water",
-    "LegendTitle": "Levels",
-    "Y_axis_title": "Concentration (micrograms per liter)",
-    "Indicators": [
-      {
-        "IndicatorID": 2044,
-        "Measures": [435, 528, 436]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 664,
-    "ComparisonName": "Nitrate in NYC drinking water",
-    "LegendTitle": "Levels",
-    "Y_axis_title": "Concentration (milligrams per liter)",
-    "Indicators": [
-      {
-        "IndicatorID": 2041,
-        "Measures": [423, 531, 424]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 669,
-    "ComparisonName": "Disinfection by-products (HAA5)",
-    "LegendTitle": "Levels",
-    "Y_axis_title": "Concentration (µg/L)",
-    "Indicators": [
-      {
-        "IndicatorID": 2043,
-        "Measures": [860, 858, 859]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 672,
-    "ComparisonName": "Disinfection by-products (TTHM)",
-    "LegendTitle": "Levels",
-    "Y_axis_title": "Concentration (micrograms per liter)",
-    "Indicators": [
-      {
-        "IndicatorID": 2207,
-        "Measures": [867, 864, 865]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 673,
-    "ComparisonName": "Disinfection by-products (TTHM)",
-    "LegendTitle": "Levels",
-    "Y_axis_title": "Concentration (µg/L)",
-    "Indicators": [
-      {
-        "IndicatorID": 2207,
-        "Measures": [862, 863, 861]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 674,
-    "ComparisonName": "Disinfection by-products (HAA5)",
-    "LegendTitle": "Levels",
-    "Y_axis_title": "Concentration (µg/L)",
-    "Indicators": [
-      {
-        "IndicatorID": 2043,
-        "Measures": [431, 529, 432]
       }
     ]
   },
@@ -743,7 +559,7 @@
     "ComparisonID": 677,
     "ComparisonName": "Carbon monoxide hospitalizations",
     "LegendTitle": "Cause",
-    "Y_axis_title": "Rate (per 100,000)",
+    "Y_axis_title": "Rate",
     "Indicators": [
       {
         "IndicatorID": 2406,
@@ -755,7 +571,7 @@
     "ComparisonID": 678,
     "ComparisonName": "Carbon monoxide ED visits",
     "LegendTitle": "Cause",
-    "Y_axis_title": "Rate (per 100,000)",
+    "Y_axis_title": "Rate",
     "Indicators": [
       {
         "IndicatorID": 2405,
