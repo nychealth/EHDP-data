@@ -6859,9 +6859,7 @@
     "IndicatorName":"Homes with cracks or holes",
     "IndicatorLabel":"Homes with cracks or holes",
     "IndicatorDescription":"Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
-    "Comparisons":[
-      571
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":75,
@@ -7207,9 +7205,7 @@
     "IndicatorName":"Homes with leaks",
     "IndicatorLabel":"Homes with leaks",
     "IndicatorDescription":"Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
-    "Comparisons":[
-      571
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":79,
@@ -7425,9 +7421,7 @@
     "IndicatorName":"Homes with 3+ maintenance deficiencies",
     "IndicatorLabel":"Homes with 3 or more maintenance deficiencies",
     "IndicatorDescription":"Homes with maintenance deficiencies can threaten the health of the people who live there.",
-    "Comparisons":[
-      571
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":85,
@@ -8179,9 +8173,7 @@
     "IndicatorName":"Homes with mice or rats in the building",
     "IndicatorLabel":"Homes with mice or rats in the building",
     "IndicatorDescription":"The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
-    "Comparisons":[
-      571
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":93,
@@ -14526,7 +14518,7 @@
         "MeasurementType":"General population",
         "how_calculated":"An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug\/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for the general public are counted when either ozone or PM2.5 levels are above 150.",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
@@ -14654,7 +14646,7 @@
         "MeasurementType":"Sensitive groups",
         "how_calculated":"An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug\/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for sensitive groups are counted when either ozone or PM2.5 levels are above 100.",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
@@ -17480,9 +17472,7 @@
     "IndicatorName":"Homes with cockroaches",
     "IndicatorLabel":"Homes with cockroaches",
     "IndicatorDescription":"The presence of cockroaches in the home is often associated with poor housing maintenance. Cockroaches in the home can contaminate food and worsen asthma.",
-    "Comparisons":[
-      571
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":245,
@@ -24936,9 +24926,7 @@
     "IndicatorName":"Nitrate",
     "IndicatorLabel":"Nitrate",
     "IndicatorDescription":"Nitrates are found in water near where nitrogen-based fertilizers are used. Infants who are fed formula made with water containing nitrates over 10 mg\/L sometimes became seriously ill.",
-    "Comparisons":[
-      664
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":423,
@@ -25562,10 +25550,7 @@
     "IndicatorName":"Disinfection by-products (HAA5)",
     "IndicatorLabel":"Disinfection by-products (HAA5)",
     "IndicatorDescription":"Disinfection by-products are chemicals that can form when a disinfectant such as chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
-    "Comparisons":[
-      669,
-      674
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":431,
@@ -26503,9 +26488,7 @@
     "IndicatorName":"Arsenic",
     "IndicatorLabel":"Arsenic",
     "IndicatorDescription":"Arsenic is naturally-occurring in some groundwater systems. It may also enter drinking water systems from some pesticides and wood preservatives. Chronic exposure may increase risk of certain cancers.",
-    "Comparisons":[
-      663
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":435,
@@ -27210,8 +27193,6 @@
     "IndicatorLabel":"Children (4 and under)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Comparisons":[
-      402,
-      404,
       555,
       676
     ],
@@ -45352,10 +45333,7 @@
     "IndicatorName":"Disinfection by-products (TTHM)",
     "IndicatorLabel":"Disinfection by-products (TTHM)",
     "IndicatorDescription":"Disinfection by-products are chemicals that can form when a disinfectant such as chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
-    "Comparisons":[
-      672,
-      673
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":861,
@@ -47656,9 +47634,7 @@
     "IndicatorName":"Elevated blood lead levels (age 16+)",
     "IndicatorLabel":"Elevated blood lead levels (age 16+)",
     "IndicatorDescription":"In New York City, the most common cause of lead poisoning in non-pregnant adults is from working in the construction. Workers are exposed by breathing or ingesting lead dust or fumes during work that disturbs old lead based paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through lead-contaminated products, like some imported health remedies, spices, foods, pottery and cosmetics.",
-    "Comparisons":[
-      303
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":872,
@@ -57203,7 +57179,6 @@
     "IndicatorLabel":"Glyphosate",
     "IndicatorDescription":"Herbicide containing the chemical glyphosate, targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff. This chemical is often sold commercially as \u201cRoundup.\u201d",
     "Comparisons":[
-      493,
       567
     ],
     "Measures":[
@@ -57583,8 +57558,6 @@
     "IndicatorLabel":"Herbicides",
     "IndicatorDescription":"Pesticides targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
     "Comparisons":[
-      568,
-      569,
       570
     ],
     "Measures":[
@@ -58388,8 +58361,6 @@
     "IndicatorLabel":"Insecticides",
     "IndicatorDescription":"Pesticides targeting insects, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
     "Comparisons":[
-      575,
-      576,
       577
     ],
     "Measures":[
@@ -59193,7 +59164,6 @@
     "IndicatorLabel":"Rodenticides",
     "IndicatorDescription":"Pesticides targeting rats and mice, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
     "Comparisons":[
-      581,
       582
     ],
     "Measures":[
