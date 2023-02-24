@@ -3292,7 +3292,9 @@
     "IndicatorName":"Adults with asthma (past 12 months)",
     "IndicatorLabel":"Adults with asthma (past 12 months)",
     "IndicatorDescription":"Asthma is a common disease characterized by breathing difficulty. Poor air quality and housing issues increase risk of developing and triggering asthma.",
-    "Comparisons":null,
+    "Comparisons":[
+      537
+    ],
     "Measures":[
       {
         "MeasureID":30,
@@ -6857,7 +6859,9 @@
     "IndicatorName":"Homes with cracks or holes",
     "IndicatorLabel":"Homes with cracks or holes",
     "IndicatorDescription":"Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
-    "Comparisons":null,
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":75,
@@ -7203,7 +7207,9 @@
     "IndicatorName":"Homes with leaks",
     "IndicatorLabel":"Homes with leaks",
     "IndicatorDescription":"Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
-    "Comparisons":null,
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":79,
@@ -7419,7 +7425,9 @@
     "IndicatorName":"Homes with 3+ maintenance deficiencies",
     "IndicatorLabel":"Homes with 3 or more maintenance deficiencies",
     "IndicatorDescription":"Homes with maintenance deficiencies can threaten the health of the people who live there.",
-    "Comparisons":null,
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":85,
@@ -8171,7 +8179,9 @@
     "IndicatorName":"Homes with mice or rats in the building",
     "IndicatorLabel":"Homes with mice or rats in the building",
     "IndicatorDescription":"The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
-    "Comparisons":null,
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":93,
@@ -13081,7 +13091,10 @@
     "IndicatorName":"Asthma hospitalizations (age 4 and under)",
     "IndicatorLabel":"Children (4 and under)",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
-    "Comparisons":null,
+    "Comparisons":[
+      554,
+      675
+    ],
     "Measures":[
       {
         "MeasureID":154,
@@ -17467,7 +17480,9 @@
     "IndicatorName":"Homes with cockroaches",
     "IndicatorLabel":"Homes with cockroaches",
     "IndicatorDescription":"The presence of cockroaches in the home is often associated with poor housing maintenance. Cockroaches in the home can contaminate food and worsen asthma.",
-    "Comparisons":null,
+    "Comparisons":[
+      571
+    ],
     "Measures":[
       {
         "MeasureID":245,
@@ -19092,7 +19107,9 @@
     "IndicatorName":"Cigarette smoking (adults)",
     "IndicatorLabel":"Cigarette smoking (adults)",
     "IndicatorDescription":"Adults who are current smokers. Cigarette smoking is the leading cause of preventable deaths in the USA. It causes many diseases and greatly harms health.",
-    "Comparisons":null,
+    "Comparisons":[
+      418
+    ],
     "Measures":[
       {
         "MeasureID":306,
@@ -19603,7 +19620,9 @@
     "IndicatorName":"Cigarette smoking (youth)",
     "IndicatorLabel":"Cigarette smoking (youth)",
     "IndicatorDescription":"High school students who smoked in the past 30 days (from when they were surveyed). Cigarette smoking is the leading cause of preventable deaths in the USA. It causes many diseases and greatly harms health.",
-    "Comparisons":null,
+    "Comparisons":[
+      418
+    ],
     "Measures":[
       {
         "MeasureID":310,
@@ -24917,7 +24936,9 @@
     "IndicatorName":"Nitrate",
     "IndicatorLabel":"Nitrate",
     "IndicatorDescription":"Nitrates are found in water near where nitrogen-based fertilizers are used. Infants who are fed formula made with water containing nitrates over 10 mg\/L sometimes became seriously ill.",
-    "Comparisons":null,
+    "Comparisons":[
+      664
+    ],
     "Measures":[
       {
         "MeasureID":423,
@@ -25541,7 +25562,10 @@
     "IndicatorName":"Disinfection by-products (HAA5)",
     "IndicatorLabel":"Disinfection by-products (HAA5)",
     "IndicatorDescription":"Disinfection by-products are chemicals that can form when a disinfectant such as chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
-    "Comparisons":null,
+    "Comparisons":[
+      669,
+      674
+    ],
     "Measures":[
       {
         "MeasureID":431,
@@ -26479,7 +26503,9 @@
     "IndicatorName":"Arsenic",
     "IndicatorLabel":"Arsenic",
     "IndicatorDescription":"Arsenic is naturally-occurring in some groundwater systems. It may also enter drinking water systems from some pesticides and wood preservatives. Chronic exposure may increase risk of certain cancers.",
-    "Comparisons":null,
+    "Comparisons":[
+      663
+    ],
     "Measures":[
       {
         "MeasureID":435,
@@ -27183,7 +27209,10 @@
     "IndicatorName":"Asthma emergency department visits (age 4 and under)",
     "IndicatorLabel":"Children (4 and under)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
-    "Comparisons":null,
+    "Comparisons":[
+      555,
+      676
+    ],
     "Measures":[
       {
         "MeasureID":459,
@@ -29408,7 +29437,9 @@
     "IndicatorName":"Overweight or obesity (adults)",
     "IndicatorLabel":"Overweight or obesity (adults)",
     "IndicatorDescription":"People who are overweight or obese are at increased risk for heart disease and diabetes.",
-    "Comparisons":null,
+    "Comparisons":[
+      539
+    ],
     "Measures":[
       {
         "MeasureID":501,
@@ -29716,7 +29747,9 @@
     "IndicatorName":"Overweight or obesity (youth)",
     "IndicatorLabel":"Overweight or obesity (youth)",
     "IndicatorDescription":"People who are overweight or obese are at increased risk for heart disease and diabetes.",
-    "Comparisons":null,
+    "Comparisons":[
+      539
+    ],
     "Measures":[
       {
         "MeasureID":503,
@@ -29879,7 +29912,9 @@
     "IndicatorName":"Obesity (adults)",
     "IndicatorLabel":"Obesity (adults)",
     "IndicatorDescription":"People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
-    "Comparisons":null,
+    "Comparisons":[
+      538
+    ],
     "Measures":[
       {
         "MeasureID":505,
@@ -30187,7 +30222,9 @@
     "IndicatorName":"Obesity (youth)",
     "IndicatorLabel":"Obesity (youth)",
     "IndicatorDescription":"People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
-    "Comparisons":null,
+    "Comparisons":[
+      538
+    ],
     "Measures":[
       {
         "MeasureID":507,
@@ -37829,7 +37866,9 @@
     "IndicatorName":"Sugary drink consumption (adults)",
     "IndicatorLabel":"Sugary drink consumption (adults)",
     "IndicatorDescription":"Adults reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
-    "Comparisons":null,
+    "Comparisons":[
+      536
+    ],
     "Measures":[
       {
         "MeasureID":608,
@@ -38067,7 +38106,9 @@
     "IndicatorName":"Sugary drink consumption (youth)",
     "IndicatorLabel":"Sugary drink consumption (youth)",
     "IndicatorDescription":"Youths reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
-    "Comparisons":null,
+    "Comparisons":[
+      536
+    ],
     "Measures":[
       {
         "MeasureID":610,
@@ -45309,7 +45350,10 @@
     "IndicatorName":"Disinfection by-products (TTHM)",
     "IndicatorLabel":"Disinfection by-products (TTHM)",
     "IndicatorDescription":"Disinfection by-products are chemicals that can form when a disinfectant such as chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
-    "Comparisons":null,
+    "Comparisons":[
+      672,
+      673
+    ],
     "Measures":[
       {
         "MeasureID":861,
@@ -54469,7 +54513,9 @@
     "IndicatorName":"Youth asthma (past 12 months)",
     "IndicatorLabel":"Youth asthma (past 12 months)",
     "IndicatorDescription":"Public high school students who reported having an asthma attack in the past 12 months.",
-    "Comparisons":null,
+    "Comparisons":[
+      537
+    ],
     "Measures":[
       {
         "MeasureID":1039,
@@ -60484,7 +60530,10 @@
     "IndicatorName":"Asthma emergency department visits (age 5 to 17)",
     "IndicatorLabel":"Children (age 5 to 17)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
-    "Comparisons":null,
+    "Comparisons":[
+      555,
+      676
+    ],
     "Measures":[
       {
         "MeasureID":1195,
@@ -60770,7 +60819,10 @@
     "IndicatorName":"Asthma emergency department visits (adults)",
     "IndicatorLabel":"Adults",
     "IndicatorDescription":"<p>Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.<\/p>",
-    "Comparisons":null,
+    "Comparisons":[
+      555,
+      676
+    ],
     "Measures":[
       {
         "MeasureID":1197,
@@ -61170,7 +61222,10 @@
     "IndicatorName":"Asthma hospitalizations (age 5 to 17)",
     "IndicatorLabel":"Children (age 5 to 17)",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
-    "Comparisons":null,
+    "Comparisons":[
+      554,
+      675
+    ],
     "Measures":[
       {
         "MeasureID":1200,
@@ -61448,7 +61503,10 @@
     "IndicatorName":"Asthma hospitalizations (adults)",
     "IndicatorLabel":"Adults",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
-    "Comparisons":null,
+    "Comparisons":[
+      554,
+      675
+    ],
     "Measures":[
       {
         "MeasureID":1202,
