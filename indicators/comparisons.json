@@ -1,7 +1,7 @@
 [
   {
     "ComparisonID": 91,
-    "ComparisonName": "Heart attack hospitalizations (rate)",
+    "ComparisonName": "Heart attack hospitalizations",
     "LegendTitle": "Age",
     "Y_axis_title": "Rates",
     "Indicators": [
@@ -25,7 +25,7 @@
   },
   {
     "ComparisonID": 118,
-    "ComparisonName": "Heart attack hospitalizations (number)",
+    "ComparisonName": "Heart attack hospitalizations",
     "LegendTitle": "Age",
     "Y_axis_title": "Number",
     "Indicators": [
@@ -36,264 +36,32 @@
     ]
   },
   {
-    "ComparisonID": 418,
-    "ComparisonName": "Cigarette smoking",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Percent",
+    "ComparisonID": 303,
+    "ComparisonName": "Employed adults with elevated blood lead levels",
+    "LegendTitle": "Blood lead level",
+    "Y_axis_title": "Average annual rate",
     "Indicators": [
       {
-        "IndicatorID": 2019,
-        "Measures": [307]
-      },
-      {
-        "IndicatorID": 2021,
-        "Measures": [311]
+        "IndicatorID": 2209,
+        "Measures": [873, 880]
       }
     ]
   },
   {
-    "ComparisonID": 442,
-    "ComparisonName": "NYC agency use of fungicides (solids)",
+    "ComparisonID": 493,
+    "ComparisonName": "NYC agency use of glyphosate",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Solid Products (pounds)",
+    "Y_axis_title": "Liquid products",
     "Indicators": [
       {
-        "IndicatorID": 2350,
-        "Measures": [1085]
-      },
-      {
-        "IndicatorID": 2348,
-        "Measures": [1079]
-      },
-      {
-        "IndicatorID": 2349,
-        "Measures": [1082]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 443,
-    "ComparisonName": "NYC agency use of fungicides (liquids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "Liquid Products (gallons)",
-    "Indicators": [
-      {
-        "IndicatorID": 2350,
-        "Measures": [1084]
-      },
-      {
-        "IndicatorID": 2348,
-        "Measures": [1078]
-      },
-      {
-        "IndicatorID": 2349,
-        "Measures": [1081]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 445,
-    "ComparisonName": "NYC agency use of herbicides (liquids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "Liquid Products (gallons)",
-    "Indicators": [
-      {
-        "IndicatorID": 2351,
-        "Measures": [1087]
-      },
-      {
-        "IndicatorID": 2352,
-        "Measures": [1090]
-      },
-      {
-        "IndicatorID": 2353,
-        "Measures": [1093]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 449,
-    "ComparisonName": "NYC agency use of herbicides (solids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "Solid Products (pounds)",
-    "Indicators": [
-      {
-        "IndicatorID": 2351,
-        "Measures": [1088]
-      },
-      {
-        "IndicatorID": 2352,
-        "Measures": [1091]
-      },
-      {
-        "IndicatorID": 2353,
-        "Measures": [1094]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 455,
-    "ComparisonName": "NYC agency use of insecticides (liquids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "Liquid Products (gallons)",
-    "Indicators": [
-      {
-        "IndicatorID": 2356,
-        "Measures": [1102]
-      },
-      {
-        "IndicatorID": 2354,
-        "Measures": [1096]
-      },
-      {
-        "IndicatorID": 2355,
-        "Measures": [1099]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 460,
-    "ComparisonName": "NYC agency use of \"Best Practice\" products",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "Solid Products (pounds)",
-    "Indicators": [
-      {
-        "IndicatorID": 2345,
-        "Measures": [1072]
-      },
-      {
-        "IndicatorID": 2346,
-        "Measures": [1074]
-      },
-      {
-        "IndicatorID": 2347,
-        "Measures": [1076]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 464,
-    "ComparisonName": "NYC agency use of rodenticides (solids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "Solid Products (pounds)",
-    "Indicators": [
-      {
-        "IndicatorID": 2359,
-        "Measures": [1109]
-      },
-      {
-        "IndicatorID": 2357,
-        "Measures": [1105]
-      },
-      {
-        "IndicatorID": 2358,
-        "Measures": [1107]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 467,
-    "ComparisonName": "NYC agency use of glyphosate (liquids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "Liquid Products (gallons)",
-    "Indicators": [
-      {
-        "IndicatorID": 2363,
-        "Measures": [1117]
-      },
-      {
-        "IndicatorID": 2362,
-        "Measures": [1115]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 469,
-    "ComparisonName": "NYC agency use of insecticides (solids)",
-    "LegendTitle": "Property type",
-    "Y_axis_title": "Solid Products (pounds)",
-    "Indicators": [
-      {
-        "IndicatorID": 2356,
-        "Measures": [1103]
-      },
-      {
-        "IndicatorID": 2354,
-        "Measures": [1097]
-      },
-      {
-        "IndicatorID": 2355,
-        "Measures": [1100]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 536,
-    "ComparisonName": "Sugary drink consumption",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Percent",
-    "Indicators": [
-      {
-        "IndicatorID": 2097,
-        "Measures": [609]
-      },
-      {
-        "IndicatorID": 2098,
-        "Measures": [610]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 537,
-    "ComparisonName": "Asthma in the past 12 months",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Percent",
-    "Indicators": [
-      {
-        "IndicatorID": 18,
-        "Measures": [363]
-      },
-      {
-        "IndicatorID": 2339,
-        "Measures": [1040]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 538,
-    "ComparisonName": "Obesity",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Percent",
-    "Indicators": [
-      {
-        "IndicatorID": 2063,
-        "Measures": [506]
-      },
-      {
-        "IndicatorID": 2064,
-        "Measures": [508]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 539,
-    "ComparisonName": "Overweight or obesity",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Percent",
-    "Indicators": [
-      {
-        "IndicatorID": 2061,
-        "Measures": [502]
-      },
-      {
-        "IndicatorID": 2062,
-        "Measures": [504]
+        "IndicatorID": 2367,
+        "Measures": [1136, 1138]
       }
     ]
   },
   {
     "ComparisonID": 551,
-    "ComparisonName": "Carbon monoxide deaths (number)",
+    "ComparisonName": "Carbon monoxide deaths",
     "LegendTitle": "Cause",
     "Y_axis_title": "Number",
     "Indicators": [
@@ -306,7 +74,7 @@
   {
     "ComparisonID": 553,
     "ComparisonName": "Heat stress deaths",
-    "LegendTitle": "Heat events",
+    "LegendTitle": "Events",
     "Y_axis_title": "Number",
     "Indicators": [
       {
@@ -320,50 +88,10 @@
     ]
   },
   {
-    "ComparisonID": 554,
-    "ComparisonName": "Asthma hospitalizations (rate)",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Rate",
-    "Indicators": [
-      {
-        "IndicatorID": 2382,
-        "Measures": [1203]
-      },
-      {
-        "IndicatorID": 84,
-        "Measures": [155]
-      },
-      {
-        "IndicatorID": 2381,
-        "Measures": [1201]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 555,
-    "ComparisonName": "Asthma ED visits (rate)",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Rate",
-    "Indicators": [
-      {
-        "IndicatorID": 2379,
-        "Measures": [1196]
-      },
-      {
-        "IndicatorID": 2048,
-        "Measures": [460]
-      },
-      {
-        "IndicatorID": 2380,
-        "Measures": [1198]
-      }
-    ]
-  },
-  {
     "ComparisonID": 564,
     "ComparisonName": "PM2.5 air quality action days",
     "LegendTitle": "Sensitivity group",
-    "Y_axis_title": "Days Above Standard",
+    "Y_axis_title": "Number of days",
     "Indicators": [
       {
         "IndicatorID": 57,
@@ -375,7 +103,7 @@
     "ComparisonID": 565,
     "ComparisonName": "Ozone air quality action days",
     "LegendTitle": "Sensitivity group",
-    "Y_axis_title": "Days above Standard",
+    "Y_axis_title": "Number of days",
     "Indicators": [
       {
         "IndicatorID": 55,
@@ -387,7 +115,7 @@
     "ComparisonID": 566,
     "ComparisonName": "Air quality action days",
     "LegendTitle": "Sensitivity group",
-    "Y_axis_title": "Number of Days",
+    "Y_axis_title": "Number of days",
     "Indicators": [
       {
         "IndicatorID": 92,
@@ -397,9 +125,9 @@
   },
   {
     "ComparisonID": 567,
-    "ComparisonName": "NYC agency use of glyphosate (count)",
+    "ComparisonName": "NYC agency use of glyphosate",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Applications",
+    "Y_axis_title": "Application count",
     "Indicators": [
       {
         "IndicatorID": 2367,
@@ -408,10 +136,34 @@
     ]
   },
   {
-    "ComparisonID": 570,
-    "ComparisonName": "NYC agency use of herbicides (count)",
+    "ComparisonID": 568,
+    "ComparisonName": "NYC agency use of herbicides",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Applications",
+    "Y_axis_title": "Solid products",
+    "Indicators": [
+      {
+        "IndicatorID": 2368,
+        "Measures": [1141, 1147, 1144]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 569,
+    "ComparisonName": "NYC agency use of herbicides",
+    "LegendTitle": "Property type",
+    "Y_axis_title": "Liquid products",
+    "Indicators": [
+      {
+        "IndicatorID": 2368,
+        "Measures": [1140, 1146, 1143]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 570,
+    "ComparisonName": "NYC agency use of herbicides",
+    "LegendTitle": "Property type",
+    "Y_axis_title": "Application count",
     "Indicators": [
       {
         "IndicatorID": 2368,
@@ -421,9 +173,9 @@
   },
   {
     "ComparisonID": 573,
-    "ComparisonName": "NYC agency use of \"Best Practice\" products (solids)",
+    "ComparisonName": "NYC agency use of \"Best Practice\" products",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Soilds",
+    "Y_axis_title": "Solid products",
     "Indicators": [
       {
         "IndicatorID": 2366,
@@ -433,9 +185,9 @@
   },
   {
     "ComparisonID": 574,
-    "ComparisonName": "NYC agency use of \"Best Practice\" products (count)",
+    "ComparisonName": "NYC agency use of \"Best Practice\" products",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Applications",
+    "Y_axis_title": "Application count",
     "Indicators": [
       {
         "IndicatorID": 2366,
@@ -444,10 +196,34 @@
     ]
   },
   {
+    "ComparisonID": 575,
+    "ComparisonName": "NYC agency use of insecticides",
+    "LegendTitle": "Property type",
+    "Y_axis_title": "Solid products",
+    "Indicators": [
+      {
+        "IndicatorID": 2369,
+        "Measures": [1151, 1154, 1157]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 576,
+    "ComparisonName": "NYC agency use of insecticides",
+    "LegendTitle": "Property type",
+    "Y_axis_title": "Liquid products",
+    "Indicators": [
+      {
+        "IndicatorID": 2369,
+        "Measures": [1150, 1153, 1156]
+      }
+    ]
+  },
+  {
     "ComparisonID": 577,
-    "ComparisonName": "NYC agency use of insecticides (count)",
+    "ComparisonName": "NYC agency use of insecticides",
     "LegendTitle": "Agency",
-    "Y_axis_title": "Applications",
+    "Y_axis_title": "Application count",
     "Indicators": [
       {
         "IndicatorID": 2369,
@@ -457,9 +233,9 @@
   },
   {
     "ComparisonID": 578,
-    "ComparisonName": "NYC agency use of fungicides (solids)",
+    "ComparisonName": "NYC agency use of fungicides",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Soilds",
+    "Y_axis_title": "Solid products",
     "Indicators": [
       {
         "IndicatorID": 2364,
@@ -469,9 +245,9 @@
   },
   {
     "ComparisonID": 579,
-    "ComparisonName": "NYC agency use of fungicides (liquids)",
+    "ComparisonName": "NYC agency use of fungicides",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Liquids",
+    "Y_axis_title": "Liquid products",
     "Indicators": [
       {
         "IndicatorID": 2364,
@@ -481,9 +257,9 @@
   },
   {
     "ComparisonID": 580,
-    "ComparisonName": "NYC agency use of fungicides (count)",
+    "ComparisonName": "NYC agency use of fungicides",
     "LegendTitle": "Property type",
-    "Y_axis_title": "Applications",
+    "Y_axis_title": "Application count",
     "Indicators": [
       {
         "IndicatorID": 2364,
@@ -492,10 +268,22 @@
     ]
   },
   {
+    "ComparisonID": 581,
+    "ComparisonName": "NYC agency use of rodenticides",
+    "LegendTitle": "Property type",
+    "Y_axis_title": "Solid products",
+    "Indicators": [
+      {
+        "IndicatorID": 2370,
+        "Measures": [1159, 1163, 1161]
+      }
+    ]
+  },
+  {
     "ComparisonID": 582,
-    "ComparisonName": "NYC agency use of rodenticides (count)",
+    "ComparisonName": "NYC agency use of rodenticides",
     "LegendTitle": "Agency",
-    "Y_axis_title": "Applications",
+    "Y_axis_title": "Application count",
     "Indicators": [
       {
         "IndicatorID": 2370,
@@ -512,46 +300,6 @@
       {
         "IndicatorID": 2406,
         "Measures": [1270, 1268, 1267]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 675,
-    "ComparisonName": "Asthma hospitalizations",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Number",
-    "Indicators": [
-      {
-        "IndicatorID": 84,
-        "Measures": [154]
-      },
-      {
-        "IndicatorID": 2381,
-        "Measures": [1200]
-      },
-      {
-        "IndicatorID": 2382,
-        "Measures": [1202]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 676,
-    "ComparisonName": "Asthma ED visits",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Number",
-    "Indicators": [
-      {
-        "IndicatorID": 2380,
-        "Measures": [1197]
-      },
-      {
-        "IndicatorID": 2048,
-        "Measures": [459]
-      },
-      {
-        "IndicatorID": 2379,
-        "Measures": [1195]
       }
     ]
   },
