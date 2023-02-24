@@ -197,7 +197,6 @@ measure_trend = (
 EXP_measure_comparisons = (
     pd.read_sql("SELECT * FROM EXP_measure_comparisons", EHDP_odbc)
     .sort_values(by = ["IndicatorID", "ComparisonID", "MeasureID"])
-    .dropna()
 )
 
 
