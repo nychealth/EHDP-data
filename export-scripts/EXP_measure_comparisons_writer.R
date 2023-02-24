@@ -161,7 +161,7 @@ comparisons_nested <-
 # converting to JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-comparisons_json <- comparisons_nested %>% toJSON(pretty = TRUE)
+comparisons_json <- comparisons_nested %>% toJSON(pretty = TRUE, null = "null", na = "null")
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # saving JSON

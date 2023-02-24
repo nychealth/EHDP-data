@@ -30,7 +30,8 @@
     "Y_axis_title": "Percent",
     "Indicators": [
       {
-        "Measures": ["NA"]
+        "IndicatorID": null,
+        "Measures": [null]
       }
     ]
   },
@@ -53,7 +54,8 @@
     "Y_axis_title": "Y-axis",
     "Indicators": [
       {
-        "Measures": ["NA"]
+        "IndicatorID": null,
+        "Measures": [null]
       }
     ]
   },
@@ -73,6 +75,7 @@
     "ComparisonID": 418,
     "ComparisonName": "Cigarette smoking",
     "LegendTitle": "Age",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2019,
@@ -88,6 +91,7 @@
     "ComparisonID": 442,
     "ComparisonName": "NYC agency use of fungicides",
     "LegendTitle": "Property type",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2350,
@@ -107,6 +111,7 @@
     "ComparisonID": 443,
     "ComparisonName": "NYC agency use of fungicides",
     "LegendTitle": "Property type",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2350,
@@ -126,6 +131,7 @@
     "ComparisonID": 445,
     "ComparisonName": "NYC agency use of herbicides",
     "LegendTitle": "Property type",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2351,
@@ -145,6 +151,7 @@
     "ComparisonID": 449,
     "ComparisonName": "NYC agency use of herbicides",
     "LegendTitle": "Property type",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2351,
@@ -164,6 +171,7 @@
     "ComparisonID": 455,
     "ComparisonName": "NYC agency use of insecticides",
     "LegendTitle": "Property type",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2356,
@@ -183,6 +191,7 @@
     "ComparisonID": 460,
     "ComparisonName": "NYC agency use of \"Best Practice\" products",
     "LegendTitle": "Property type",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2345,
@@ -202,6 +211,7 @@
     "ComparisonID": 464,
     "ComparisonName": "NYC agency use of rodenticides",
     "LegendTitle": "Property type",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2359,
@@ -221,6 +231,7 @@
     "ComparisonID": 467,
     "ComparisonName": "NYC agency use of glyphosate",
     "LegendTitle": "Property type",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2363,
@@ -236,6 +247,7 @@
     "ComparisonID": 469,
     "ComparisonName": "NYC agency use of insecticides",
     "LegendTitle": "Property type",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2356,
@@ -267,6 +279,7 @@
     "ComparisonID": 536,
     "ComparisonName": "Sugary drink consumption",
     "LegendTitle": "Age",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2097,
@@ -282,6 +295,7 @@
     "ComparisonID": 537,
     "ComparisonName": "Asthma in the past 12 months",
     "LegendTitle": "Age",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 18,
@@ -297,6 +311,7 @@
     "ComparisonID": 538,
     "ComparisonName": "Obesity",
     "LegendTitle": "Age",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2063,
@@ -312,6 +327,7 @@
     "ComparisonID": 539,
     "ComparisonName": "Overweight or obesity",
     "LegendTitle": "Age",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2061,
@@ -355,6 +371,7 @@
     "ComparisonID": 554,
     "ComparisonName": "Asthma hospitalizations",
     "LegendTitle": "Age",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2382,
@@ -374,6 +391,7 @@
     "ComparisonID": 555,
     "ComparisonName": "Asthma ED visits",
     "LegendTitle": "Age",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2379,
@@ -477,6 +495,7 @@
     "ComparisonID": 571,
     "ComparisonName": "Housing disrepair",
     "LegendTitle": "Type of disrepair",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 48,
@@ -636,6 +655,7 @@
     "ComparisonID": 663,
     "ComparisonName": "Arsenic",
     "LegendTitle": "Levels vs. threshold",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2044,
@@ -647,6 +667,7 @@
     "ComparisonID": 664,
     "ComparisonName": "Nitrate",
     "LegendTitle": "Levels vs. threshold",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2041,
@@ -658,6 +679,7 @@
     "ComparisonID": 669,
     "ComparisonName": "Disinfection by-products (HAA5)",
     "LegendTitle": "Levels vs. threshold",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2043,
@@ -669,6 +691,7 @@
     "ComparisonID": 672,
     "ComparisonName": "Disinfection by-products (TTHM)",
     "LegendTitle": "Levels vs. threshold",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2207,
@@ -680,6 +703,7 @@
     "ComparisonID": 673,
     "ComparisonName": "Disinfection by-products (TTHM)",
     "LegendTitle": "Levels vs. threshold",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2207,
@@ -691,6 +715,7 @@
     "ComparisonID": 674,
     "ComparisonName": "Disinfection by-products (HAA5)",
     "LegendTitle": "Levels vs. threshold",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2043,
@@ -702,6 +727,7 @@
     "ComparisonID": 675,
     "ComparisonName": "Asthma hospitalizations",
     "LegendTitle": "Age",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 84,
@@ -721,6 +747,7 @@
     "ComparisonID": 676,
     "ComparisonName": "Asthma ED visits",
     "LegendTitle": "Age",
+    "Y_axis_title": null,
     "Indicators": [
       {
         "IndicatorID": 2380,
