@@ -146,7 +146,7 @@ EXP_measure_comparisons <-
 
 comparisons_nested <- 
     EXP_measure_comparisons %>% 
-    drop_na() %>% 
+    # drop_na() %>% 
     mutate(ComparisonName = ComparisonName %>% str_remove_all("<.*?>")) %>% # remove HTML tags
     rename(Measures = MeasureID) %>% 
     group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title, IndicatorID) %>% 

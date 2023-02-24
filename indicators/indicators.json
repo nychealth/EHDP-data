@@ -3292,9 +3292,7 @@
     "IndicatorName":"Adults with asthma (past 12 months)",
     "IndicatorLabel":"Adults with asthma (past 12 months)",
     "IndicatorDescription":"Asthma is a common disease characterized by breathing difficulty. Poor air quality and housing issues increase risk of developing and triggering asthma.",
-    "Comparisons":[
-      537
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":30,
@@ -13083,10 +13081,7 @@
     "IndicatorName":"Asthma hospitalizations (age 4 and under)",
     "IndicatorLabel":"Children (4 and under)",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
-    "Comparisons":[
-      554,
-      675
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":154,
@@ -19097,9 +19092,7 @@
     "IndicatorName":"Cigarette smoking (adults)",
     "IndicatorLabel":"Cigarette smoking (adults)",
     "IndicatorDescription":"Adults who are current smokers. Cigarette smoking is the leading cause of preventable deaths in the USA. It causes many diseases and greatly harms health.",
-    "Comparisons":[
-      418
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":306,
@@ -19610,9 +19603,7 @@
     "IndicatorName":"Cigarette smoking (youth)",
     "IndicatorLabel":"Cigarette smoking (youth)",
     "IndicatorDescription":"High school students who smoked in the past 30 days (from when they were surveyed). Cigarette smoking is the leading cause of preventable deaths in the USA. It causes many diseases and greatly harms health.",
-    "Comparisons":[
-      418
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":310,
@@ -27192,10 +27183,7 @@
     "IndicatorName":"Asthma emergency department visits (age 4 and under)",
     "IndicatorLabel":"Children (4 and under)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
-    "Comparisons":[
-      555,
-      676
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":459,
@@ -29420,9 +29408,7 @@
     "IndicatorName":"Overweight or obesity (adults)",
     "IndicatorLabel":"Overweight or obesity (adults)",
     "IndicatorDescription":"People who are overweight or obese are at increased risk for heart disease and diabetes.",
-    "Comparisons":[
-      539
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":501,
@@ -29730,9 +29716,7 @@
     "IndicatorName":"Overweight or obesity (youth)",
     "IndicatorLabel":"Overweight or obesity (youth)",
     "IndicatorDescription":"People who are overweight or obese are at increased risk for heart disease and diabetes.",
-    "Comparisons":[
-      539
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":503,
@@ -29895,9 +29879,7 @@
     "IndicatorName":"Obesity (adults)",
     "IndicatorLabel":"Obesity (adults)",
     "IndicatorDescription":"People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
-    "Comparisons":[
-      538
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":505,
@@ -30205,9 +30187,7 @@
     "IndicatorName":"Obesity (youth)",
     "IndicatorLabel":"Obesity (youth)",
     "IndicatorDescription":"People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
-    "Comparisons":[
-      538
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":507,
@@ -37849,9 +37829,7 @@
     "IndicatorName":"Sugary drink consumption (adults)",
     "IndicatorLabel":"Sugary drink consumption (adults)",
     "IndicatorDescription":"Adults reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
-    "Comparisons":[
-      536
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":608,
@@ -38089,9 +38067,7 @@
     "IndicatorName":"Sugary drink consumption (youth)",
     "IndicatorLabel":"Sugary drink consumption (youth)",
     "IndicatorDescription":"Youths reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
-    "Comparisons":[
-      536
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":610,
@@ -47634,7 +47610,9 @@
     "IndicatorName":"Elevated blood lead levels (age 16+)",
     "IndicatorLabel":"Elevated blood lead levels (age 16+)",
     "IndicatorDescription":"In New York City, the most common cause of lead poisoning in non-pregnant adults is from working in the construction. Workers are exposed by breathing or ingesting lead dust or fumes during work that disturbs old lead based paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through lead-contaminated products, like some imported health remedies, spices, foods, pottery and cosmetics.",
-    "Comparisons":null,
+    "Comparisons":[
+      303
+    ],
     "Measures":[
       {
         "MeasureID":872,
@@ -54491,9 +54469,7 @@
     "IndicatorName":"Youth asthma (past 12 months)",
     "IndicatorLabel":"Youth asthma (past 12 months)",
     "IndicatorDescription":"Public high school students who reported having an asthma attack in the past 12 months.",
-    "Comparisons":[
-      537
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1039,
@@ -57179,6 +57155,7 @@
     "IndicatorLabel":"Glyphosate",
     "IndicatorDescription":"Herbicide containing the chemical glyphosate, targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff. This chemical is often sold commercially as \u201cRoundup.\u201d",
     "Comparisons":[
+      493,
       567
     ],
     "Measures":[
@@ -57558,6 +57535,8 @@
     "IndicatorLabel":"Herbicides",
     "IndicatorDescription":"Pesticides targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
     "Comparisons":[
+      568,
+      569,
       570
     ],
     "Measures":[
@@ -58361,6 +58340,8 @@
     "IndicatorLabel":"Insecticides",
     "IndicatorDescription":"Pesticides targeting insects, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
     "Comparisons":[
+      575,
+      576,
       577
     ],
     "Measures":[
@@ -59164,6 +59145,7 @@
     "IndicatorLabel":"Rodenticides",
     "IndicatorDescription":"Pesticides targeting rats and mice, applied by NYC agency-contracted exterminators or NYC agency pest control staff.",
     "Comparisons":[
+      581,
       582
     ],
     "Measures":[
@@ -60502,10 +60484,7 @@
     "IndicatorName":"Asthma emergency department visits (age 5 to 17)",
     "IndicatorLabel":"Children (age 5 to 17)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
-    "Comparisons":[
-      555,
-      676
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1195,
@@ -60791,10 +60770,7 @@
     "IndicatorName":"Asthma emergency department visits (adults)",
     "IndicatorLabel":"Adults",
     "IndicatorDescription":"<p>Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.<\/p>",
-    "Comparisons":[
-      555,
-      676
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1197,
@@ -61194,10 +61170,7 @@
     "IndicatorName":"Asthma hospitalizations (age 5 to 17)",
     "IndicatorLabel":"Children (age 5 to 17)",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
-    "Comparisons":[
-      554,
-      675
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1200,
@@ -61475,10 +61448,7 @@
     "IndicatorName":"Asthma hospitalizations (adults)",
     "IndicatorLabel":"Adults",
     "IndicatorDescription":"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
-    "Comparisons":[
-      554,
-      675
-    ],
+    "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1202,
