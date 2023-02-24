@@ -654,7 +654,7 @@
   {
     "ComparisonID": 663,
     "ComparisonName": "Arsenic",
-    "LegendTitle": "Yearly levels",
+    "LegendTitle": "Year",
     "Y_axis_title": "Arsenic",
     "Indicators": [
       {
@@ -666,7 +666,7 @@
   {
     "ComparisonID": 664,
     "ComparisonName": "Nitrate",
-    "LegendTitle": "Yearly levels",
+    "LegendTitle": "Year",
     "Y_axis_title": "Nitrate",
     "Indicators": [
       {
@@ -678,7 +678,7 @@
   {
     "ComparisonID": 669,
     "ComparisonName": "Disinfection by-products (HAA5)",
-    "LegendTitle": "Quarterly levels",
+    "LegendTitle": "Quarter",
     "Y_axis_title": "HAA5",
     "Indicators": [
       {
@@ -690,7 +690,7 @@
   {
     "ComparisonID": 672,
     "ComparisonName": "Disinfection by-products (TTHM)",
-    "LegendTitle": "Yearly levels",
+    "LegendTitle": "Year",
     "Y_axis_title": "TTHM",
     "Indicators": [
       {
@@ -702,7 +702,7 @@
   {
     "ComparisonID": 673,
     "ComparisonName": "Disinfection by-products (TTHM)",
-    "LegendTitle": "Quarterly levels",
+    "LegendTitle": "Quarter",
     "Y_axis_title": "TTHM",
     "Indicators": [
       {
@@ -714,7 +714,7 @@
   {
     "ComparisonID": 674,
     "ComparisonName": "Disinfection by-products (HAA5)",
-    "LegendTitle": "Yearly levels",
+    "LegendTitle": "Year",
     "Y_axis_title": "HAA5",
     "Indicators": [
       {
