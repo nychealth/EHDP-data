@@ -24,6 +24,18 @@
     ]
   },
   {
+    "ComparisonID": 115,
+    "ComparisonName": "Consumption of Sugary Drinks (1+/day) in New York City by Age",
+    "LegendTitle": "Consumption of Sugary Drinks (1+/day) in New York City by Age",
+    "Y_axis_title": "Percent",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
     "ComparisonID": 118,
     "ComparisonName": "Number of Heart Attack Hospitalizations in New York City by Age",
     "LegendTitle": "Ages",
@@ -32,6 +44,18 @@
       {
         "IndicatorID": 90,
         "Measures": [170, 442]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 121,
+    "ComparisonName": "Modal Shift - All Travel: Automobile and Transit Volume",
+    "LegendTitle": "Modal Shift - All Travel",
+    "Y_axis_title": "Y-axis",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
       }
     ]
   },
@@ -168,6 +192,18 @@
       {
         "IndicatorID": 2357,
         "Measures": [1105]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 467,
+    "ComparisonName": "Agency Use of Glyphosate",
+    "LegendTitle": "Agency Use of Glyphosate",
+    "Y_axis_title": "Liquid Products (gallons)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
       }
     ]
   },
@@ -599,7 +635,7 @@
     "ComparisonID": 669,
     "ComparisonName": "Haloacetic Acids (HAA5) in NYC Drinking Water",
     "LegendTitle": "Quarterly Concentration",
-    "Y_axis_title": "Concentration (µg/L)",
+    "Y_axis_title": "Concentration (Âµg/L)",
     "Indicators": [
       {
         "IndicatorID": 2043,
@@ -623,7 +659,7 @@
     "ComparisonID": 673,
     "ComparisonName": "Total&nbsp;Trihalomethanes (TTHM) in NYC Drinking Water",
     "LegendTitle": "Quarterly Concentration",
-    "Y_axis_title": "Concentration (µg/L)",
+    "Y_axis_title": "Concentration (Âµg/L)",
     "Indicators": [
       {
         "IndicatorID": 2207,
@@ -635,7 +671,7 @@
     "ComparisonID": 674,
     "ComparisonName": "Haloacetic Acids (HAA5) in NYC Drinking Water",
     "LegendTitle": "Annual",
-    "Y_axis_title": "Concentration (µg/L)",
+    "Y_axis_title": "Concentration (Âµg/L)",
     "Indicators": [
       {
         "IndicatorID": 2043,
@@ -716,6 +752,22 @@
       {
         "IndicatorID": 2405,
         "Measures": [1264, 1260, 1262]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 690,
+    "ComparisonName": "Heat deaths",
+    "LegendTitle": "Heat deaths",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "IndicatorID": 2084,
+        "Measures": [549, 550, 551]
+      },
+      {
+        "IndicatorID": 2074,
+        "Measures": [534]
       }
     ]
   }
