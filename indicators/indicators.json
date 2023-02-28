@@ -2039,7 +2039,7 @@
     "IndicatorID":9,
     "IndicatorName":"Total lifetime fertility",
     "IndicatorLabel":"Total lifetime fertility",
-    "IndicatorDescription":"A measure of total birth rate, expressed as the number of children per 1,000 women.",
+    "IndicatorDescription":"<p>A measure of total birth rate, expressed as the number of children per 1,000 women.<\/p>",
     "Comparisons":null,
     "Measures":[
       {
@@ -42177,6 +42177,22 @@
               {
                 "MeasureID":1059,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1324,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1327,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1330,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1333,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -42346,6 +42362,22 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1324,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1327,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1330,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1333,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -50283,6 +50315,22 @@
               {
                 "MeasureID":700,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1324,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1327,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1330,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1333,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -67414,23 +67462,7 @@
             ],
             "Links":[
               {
-                "MeasureID":24,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":25,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":88,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":94,
                 "SecondaryAxis":"x"
               },
               {
@@ -67438,15 +67470,7 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":370,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":672,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":688,
                 "SecondaryAxis":"x"
               },
               {
@@ -67454,15 +67478,11 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":693,
+                "MeasureID":700,
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":781,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1025,
+                "MeasureID":708,
                 "SecondaryAxis":"x"
               },
               {
@@ -67470,15 +67490,11 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":1032,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":1058,
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":1128,
+                "MeasureID":1059,
                 "SecondaryAxis":"x"
               },
               {
@@ -67610,31 +67626,11 @@
             ],
             "Links":[
               {
-                "MeasureID":24,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":25,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":88,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":94,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":221,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":370,
                 "SecondaryAxis":"x"
               },
               {
@@ -67646,15 +67642,11 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":693,
+                "MeasureID":700,
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":781,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1025,
+                "MeasureID":708,
                 "SecondaryAxis":"x"
               },
               {
@@ -67662,15 +67654,7 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":1032,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1058,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1128,
+                "MeasureID":1059,
                 "SecondaryAxis":"x"
               },
               {
@@ -67802,23 +67786,7 @@
             ],
             "Links":[
               {
-                "MeasureID":24,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":25,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":88,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":94,
                 "SecondaryAxis":"x"
               },
               {
@@ -67826,15 +67794,7 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":370,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":672,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":688,
                 "SecondaryAxis":"x"
               },
               {
@@ -67842,15 +67802,11 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":693,
+                "MeasureID":700,
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":781,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1025,
+                "MeasureID":708,
                 "SecondaryAxis":"x"
               },
               {
@@ -67858,15 +67814,11 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":1032,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":1058,
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":1128,
+                "MeasureID":1059,
                 "SecondaryAxis":"x"
               },
               {
@@ -67998,23 +67950,7 @@
             ],
             "Links":[
               {
-                "MeasureID":24,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":25,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":86,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":88,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":94,
                 "SecondaryAxis":"x"
               },
               {
@@ -68022,15 +67958,7 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":370,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":672,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":688,
                 "SecondaryAxis":"x"
               },
               {
@@ -68038,15 +67966,11 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":693,
+                "MeasureID":700,
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":781,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1025,
+                "MeasureID":708,
                 "SecondaryAxis":"x"
               },
               {
@@ -68054,15 +67978,7 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":1032,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1058,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":1128,
+                "MeasureID":1059,
                 "SecondaryAxis":"x"
               },
               {
