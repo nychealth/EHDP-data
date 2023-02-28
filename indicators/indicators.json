@@ -27360,6 +27360,8 @@
     "IndicatorLabel":"Children (4 and under)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Comparisons":[
+      402,
+      404,
       555,
       676
     ],
@@ -30870,7 +30872,8 @@
     "IndicatorLabel":"Heat stress: deaths",
     "IndicatorDescription":"Hot weather kills more people than all other extreme weather combined. This measure includes only deaths directly attributed to heat on death certificates, which represent a small proportion of all heat-related deaths.",
     "Comparisons":[
-      553
+      704,
+      715
     ],
     "Measures":[
       {
@@ -30998,7 +31001,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -32366,7 +32369,8 @@
     "IndicatorLabel":"Heat events",
     "IndicatorDescription":"Heat events threaten health. More people die due to extreme heat than all other extreme weather events combined. As the climate continues to warm, we can expect more severe and more frequent heat events.",
     "Comparisons":[
-      553
+      704,
+      715
     ],
     "Measures":[
       {
@@ -32873,7 +32877,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],

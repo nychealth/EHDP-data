@@ -72,6 +72,30 @@
     ]
   },
   {
+    "ComparisonID": 402,
+    "ComparisonName": "Number of Asthma ED Visits in New York City by Age",
+    "LegendTitle": "Age",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "IndicatorID": 2048,
+        "Measures": [459]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 404,
+    "ComparisonName": "Rates of Asthma ED Visits in New York City by Age",
+    "LegendTitle": "Age",
+    "Y_axis_title": "Rate( per 10,000 residents)",
+    "Indicators": [
+      {
+        "IndicatorID": 2048,
+        "Measures": [460]
+      }
+    ]
+  },
+  {
     "ComparisonID": 418,
     "ComparisonName": "Cigarette smoking",
     "LegendTitle": "Age",
@@ -348,22 +372,6 @@
       {
         "IndicatorID": 2398,
         "Measures": [1244, 1245, 1246]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 553,
-    "ComparisonName": "Heat stress deaths",
-    "LegendTitle": "Events",
-    "Y_axis_title": "Number",
-    "Indicators": [
-      {
-        "IndicatorID": 2084,
-        "Measures": [553]
-      },
-      {
-        "IndicatorID": 2074,
-        "Measures": [534]
       }
     ]
   },
@@ -796,6 +804,38 @@
       {
         "IndicatorID": 2405,
         "Measures": [1264, 1260, 1262]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 704,
+    "ComparisonName": "Heat events and deaths",
+    "LegendTitle": "Events",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "IndicatorID": 2074,
+        "Measures": [534]
+      },
+      {
+        "IndicatorID": 2084,
+        "Measures": [551, 550, 549]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 715,
+    "ComparisonName": "Heat stress deaths",
+    "LegendTitle": "Heat events",
+    "Y_axis_title": "Number",
+    "Indicators": [
+      {
+        "IndicatorID": 2084,
+        "Measures": [553]
+      },
+      {
+        "IndicatorID": 2074,
+        "Measures": [534]
       }
     ]
   }
