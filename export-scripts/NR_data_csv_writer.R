@@ -130,7 +130,8 @@ EHDP_odbc <-
         driver = paste0("{", odbc_driver, "}"),
         server = "SQLIT04A",
         database = db_name,
-        trusted_connection = "yes"
+        trusted_connection = "yes",
+        encoding = "latin1"
     )
 
 

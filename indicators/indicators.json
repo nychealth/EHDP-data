@@ -2039,7 +2039,7 @@
     "IndicatorID":9,
     "IndicatorName":"Total lifetime fertility",
     "IndicatorLabel":"Total lifetime fertility",
-    "IndicatorDescription":"A measure of total birth rate, expressed as the number of children per 1,000 women.",
+    "IndicatorDescription":"<p>A measure of total birth rate, expressed as the number of children per 1,000 women.<\/p>",
     "Comparisons":null,
     "Measures":[
       {
@@ -2309,6 +2309,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2356,6 +2360,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2428,6 +2442,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2475,6 +2493,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2535,6 +2563,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2567,6 +2599,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2631,6 +2673,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2663,6 +2709,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2727,6 +2783,10 @@
           {
             "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2779,6 +2839,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2834,6 +2904,10 @@
           {
             "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -2886,6 +2960,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -2959,6 +3043,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -3006,6 +3094,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -3070,6 +3168,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -3117,6 +3219,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -13750,7 +13862,7 @@
         "MeasurementType":"General population",
         "how_calculated":"An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug\/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for the general public are counted when either ozone or PM2.5 levels are above 150.",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
@@ -13878,7 +13990,7 @@
         "MeasurementType":"Sensitive groups",
         "how_calculated":"An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug\/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for sensitive groups are counted when either ozone or PM2.5 levels are above 100.",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
@@ -24438,6 +24550,81 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
             "TimeDescription":"2014",
             "start_period":1388534400000,
             "end_period":1419984000000
@@ -25984,6 +26171,81 @@
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"1999",
+            "start_period":915148800000,
+            "end_period":946598400000
+          },
+          {
+            "TimeDescription":"2000",
+            "start_period":946684800000,
+            "end_period":978220800000
+          },
+          {
+            "TimeDescription":"2001",
+            "start_period":978307200000,
+            "end_period":1009756800000
+          },
+          {
+            "TimeDescription":"2002",
+            "start_period":1009843200000,
+            "end_period":1041292800000
+          },
+          {
+            "TimeDescription":"2003",
+            "start_period":1041379200000,
+            "end_period":1072828800000
+          },
+          {
+            "TimeDescription":"2004",
+            "start_period":1072915200000,
+            "end_period":1104451200000
+          },
+          {
+            "TimeDescription":"2005",
+            "start_period":1104537600000,
+            "end_period":1135987200000
+          },
+          {
+            "TimeDescription":"2006",
+            "start_period":1136073600000,
+            "end_period":1167523200000
+          },
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
           {
             "TimeDescription":"2014",
             "start_period":1388534400000,
@@ -29621,7 +29883,8 @@
     "IndicatorLabel":"Heat stress: deaths",
     "IndicatorDescription":"Hot weather kills more people than all other extreme weather combined. This measure includes only deaths directly attributed to heat on death certificates, which represent a small proportion of all heat-related deaths.",
     "Comparisons":[
-      553
+      704,
+      715
     ],
     "Measures":[
       {
@@ -31117,7 +31380,8 @@
     "IndicatorLabel":"Heat events",
     "IndicatorDescription":"Heat events threaten health. More people die due to extreme heat than all other extreme weather events combined. As the climate continues to warm, we can expect more severe and more frequent heat events.",
     "Comparisons":[
-      553
+      704,
+      715
     ],
     "Measures":[
       {
@@ -31624,7 +31888,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -40068,6 +40332,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -40115,6 +40383,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -40171,6 +40449,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -40218,6 +40500,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -42052,6 +42344,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -42099,6 +42395,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -42150,6 +42456,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -42197,6 +42507,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -51080,6 +51400,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -51112,6 +51436,11 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -51163,6 +51492,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -51195,6 +51528,11 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -51246,6 +51584,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -51278,6 +51620,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -51329,6 +51681,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -51361,6 +51717,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -51495,6 +51861,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -51527,6 +51897,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -51596,6 +51976,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -51643,6 +52027,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -51694,6 +52088,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -51741,6 +52139,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -51806,6 +52214,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -51853,6 +52265,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -51904,6 +52326,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -51951,6 +52377,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52016,6 +52452,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -52063,6 +52503,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52114,6 +52564,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -52161,6 +52615,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52234,6 +52698,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -52281,6 +52749,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -52332,6 +52810,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
@@ -52379,6 +52861,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2017-21",
+            "start_period":1483228800000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
