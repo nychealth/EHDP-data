@@ -2039,7 +2039,7 @@
     "IndicatorID":9,
     "IndicatorName":"Total lifetime fertility",
     "IndicatorLabel":"Total lifetime fertility",
-    "IndicatorDescription":"A measure of total birth rate, expressed as the number of children per 1,000 women.",
+    "IndicatorDescription":"<p>A measure of total birth rate, expressed as the number of children per 1,000 women.<\/p>",
     "Comparisons":null,
     "Measures":[
       {
@@ -29883,8 +29883,8 @@
     "IndicatorLabel":"Heat stress: deaths",
     "IndicatorDescription":"Hot weather kills more people than all other extreme weather combined. This measure includes only deaths directly attributed to heat on death certificates, which represent a small proportion of all heat-related deaths.",
     "Comparisons":[
-      553,
-      690
+      704,
+      715
     ],
     "Measures":[
       {
@@ -30012,7 +30012,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -31380,8 +31380,8 @@
     "IndicatorLabel":"Heat events",
     "IndicatorDescription":"Heat events threaten health. More people die due to extreme heat than all other extreme weather events combined. As the climate continues to warm, we can expect more severe and more frequent heat events.",
     "Comparisons":[
-      553,
-      690
+      704,
+      715
     ],
     "Measures":[
       {
@@ -31888,7 +31888,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
