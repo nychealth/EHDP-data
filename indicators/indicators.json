@@ -2416,6 +2416,10 @@
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":1322,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":1324,
                 "SecondaryAxis":"y"
               },
@@ -7997,6 +8001,10 @@
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":1322,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":1324,
                 "SecondaryAxis":"y"
               },
@@ -8402,6 +8410,10 @@
               },
               {
                 "MeasureID":1204,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1322,
                 "SecondaryAxis":"y"
               },
               {
@@ -67425,6 +67437,14 @@
             ],
             "Links":[
               {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":1192,
                 "SecondaryAxis":"x"
               }
@@ -68115,7 +68135,7 @@
         "MeasurementType":"Density",
         "how_calculated":"Number of tobacco retailers holding a DCA license so they can legally operate in NYC, as of 1\/20\/23, divided by square miles of a given geographical area.",
         "Sources":"",
-        "DisplayType":"",
+        "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -68166,10 +68186,6 @@
             "Links":[
               {
                 "MeasureID":307,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":311,
                 "SecondaryAxis":"y"
               },
               {
