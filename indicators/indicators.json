@@ -30671,7 +30671,7 @@
             "Map":[
               {
                 "On":0,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -30762,7 +30762,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -41185,7 +41185,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -45182,7 +45182,7 @@
             "Map":[
               {
                 "On":0,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -45232,7 +45232,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -57003,7 +57003,7 @@
             "Map":[
               {
                 "On":0,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -57091,7 +57091,7 @@
             "Map":[
               {
                 "On":0,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -57179,7 +57179,7 @@
             "Map":[
               {
                 "On":0,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -57267,7 +57267,7 @@
             "Map":[
               {
                 "On":0,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -57355,7 +57355,7 @@
             "Map":[
               {
                 "On":0,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -57443,7 +57443,7 @@
             "Map":[
               {
                 "On":0,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -66631,14 +66631,14 @@
   },
   {
     "IndicatorID":2415,
-    "IndicatorName":"Commuting methods",
+    "IndicatorName":"Commuting modes",
     "IndicatorLabel":"Commuting methods",
     "IndicatorDescription":null,
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1300,
-        "MeasureName":"Commuting methods, Number: Bicycle",
+        "MeasureName":"Commuting modes, Number: Bicycle",
         "MeasurementType":"Number: Bicycle",
         "how_calculated":"Estimated number of workers age 16 years and over who usually rode a bicycle to work",
         "Sources":"American Community Survey",
@@ -66686,7 +66686,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -66701,7 +66701,7 @@
       },
       {
         "MeasureID":1301,
-        "MeasureName":"Commuting methods, Number: Car, truck, or van",
+        "MeasureName":"Commuting modes, Number: Car, truck, or van",
         "MeasurementType":"Number: Car, truck, or van",
         "how_calculated":"Estimated number of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources":"American Community Survey",
@@ -66749,7 +66749,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -66764,7 +66764,7 @@
       },
       {
         "MeasureID":1302,
-        "MeasureName":"Commuting methods, Number: Public transportation",
+        "MeasureName":"Commuting modes, Number: Public transportation",
         "MeasurementType":"Number: Public transportation",
         "how_calculated":"Estimated number of workers age 16 years and over who usually took public transportation to work",
         "Sources":"American Community Survey",
@@ -66812,7 +66812,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -66827,7 +66827,7 @@
       },
       {
         "MeasureID":1303,
-        "MeasureName":"Commuting methods, Number: Walked",
+        "MeasureName":"Commuting modes, Number: Walked",
         "MeasurementType":"Number: Walked",
         "how_calculated":"Estimated number of workers age 16 years and over who usually walked to work",
         "Sources":"American Community Survey",
@@ -66875,7 +66875,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -66890,7 +66890,7 @@
       },
       {
         "MeasureID":1304,
-        "MeasureName":"Commuting methods, Percent: Bicycle",
+        "MeasureName":"Commuting modes, Percent: Bicycle",
         "MeasurementType":"Percent: Bicycle",
         "how_calculated":"Estimated percentage of workers age 16 years and over who usually rode a bicycle to work",
         "Sources":"American Community Survey",
@@ -66938,7 +66938,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -66953,7 +66953,7 @@
       },
       {
         "MeasureID":1305,
-        "MeasureName":"Commuting methods, Percent: Car, truck, or van",
+        "MeasureName":"Commuting modes, Percent: Car, truck, or van",
         "MeasurementType":"Percent: Car, truck, or van",
         "how_calculated":"Estimated percentage of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources":"American Community Survey",
@@ -67001,7 +67001,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -67016,7 +67016,7 @@
       },
       {
         "MeasureID":1306,
-        "MeasureName":"Commuting methods, Percent: Public transportation",
+        "MeasureName":"Commuting modes, Percent: Public transportation",
         "MeasurementType":"Percent: Public transportation",
         "how_calculated":"Estimated percentage of workers age 16 years and over who usually took public transportation to work",
         "Sources":"American Community Survey",
@@ -67064,7 +67064,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -67079,7 +67079,7 @@
       },
       {
         "MeasureID":1307,
-        "MeasureName":"Commuting methods, Percent: Walked",
+        "MeasureName":"Commuting modes, Percent: Walked",
         "MeasurementType":"Percent: Walked",
         "how_calculated":"Estimated percentage of workers age 16 years and over who usually walked to work",
         "Sources":"American Community Survey",
@@ -67127,7 +67127,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -67194,7 +67194,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -67252,7 +67252,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -67310,7 +67310,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -67368,7 +67368,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -67426,7 +67426,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
