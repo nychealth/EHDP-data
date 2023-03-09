@@ -66631,14 +66631,14 @@
   },
   {
     "IndicatorID":2415,
-    "IndicatorName":"Means of transportation to work",
-    "IndicatorLabel":"Means of transportation to work",
+    "IndicatorName":"Commuting methods",
+    "IndicatorLabel":"Commuting methods",
     "IndicatorDescription":null,
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1300,
-        "MeasureName":"Means of transportation to work, Number: Bicycle",
+        "MeasureName":"Commuting methods, Number: Bicycle",
         "MeasurementType":"Number: Bicycle",
         "how_calculated":"Estimated number of workers age 16 years and over who usually rode a bicycle to work",
         "Sources":"American Community Survey",
@@ -66701,7 +66701,7 @@
       },
       {
         "MeasureID":1301,
-        "MeasureName":"Means of transportation to work, Number: Car, truck, or van",
+        "MeasureName":"Commuting methods, Number: Car, truck, or van",
         "MeasurementType":"Number: Car, truck, or van",
         "how_calculated":"Estimated number of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources":"American Community Survey",
@@ -66764,7 +66764,7 @@
       },
       {
         "MeasureID":1302,
-        "MeasureName":"Means of transportation to work, Number: Public transportation",
+        "MeasureName":"Commuting methods, Number: Public transportation",
         "MeasurementType":"Number: Public transportation",
         "how_calculated":"Estimated number of workers age 16 years and over who usually took public transportation to work",
         "Sources":"American Community Survey",
@@ -66827,7 +66827,7 @@
       },
       {
         "MeasureID":1303,
-        "MeasureName":"Means of transportation to work, Number: Walked",
+        "MeasureName":"Commuting methods, Number: Walked",
         "MeasurementType":"Number: Walked",
         "how_calculated":"Estimated number of workers age 16 years and over who usually walked to work",
         "Sources":"American Community Survey",
@@ -66890,7 +66890,7 @@
       },
       {
         "MeasureID":1304,
-        "MeasureName":"Means of transportation to work, Percent: Bicycle",
+        "MeasureName":"Commuting methods, Percent: Bicycle",
         "MeasurementType":"Percent: Bicycle",
         "how_calculated":"Estimated percentage of workers age 16 years and over who usually rode a bicycle to work",
         "Sources":"American Community Survey",
@@ -66953,7 +66953,7 @@
       },
       {
         "MeasureID":1305,
-        "MeasureName":"Means of transportation to work, Percent: Car, truck, or van",
+        "MeasureName":"Commuting methods, Percent: Car, truck, or van",
         "MeasurementType":"Percent: Car, truck, or van",
         "how_calculated":"Estimated percentage of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources":"American Community Survey",
@@ -67016,7 +67016,7 @@
       },
       {
         "MeasureID":1306,
-        "MeasureName":"Means of transportation to work, Percent: Public transportation",
+        "MeasureName":"Commuting methods, Percent: Public transportation",
         "MeasurementType":"Percent: Public transportation",
         "how_calculated":"Estimated percentage of workers age 16 years and over who usually took public transportation to work",
         "Sources":"American Community Survey",
@@ -67079,7 +67079,7 @@
       },
       {
         "MeasureID":1307,
-        "MeasureName":"Means of transportation to work, Percent: Walked",
+        "MeasureName":"Commuting methods, Percent: Walked",
         "MeasurementType":"Percent: Walked",
         "how_calculated":"Estimated percentage of workers age 16 years and over who usually walked to work",
         "Sources":"American Community Survey",
@@ -68076,7 +68076,7 @@
         "MeasureName":"Tobacco retailers, Number",
         "MeasurementType":"Number",
         "how_calculated":"Number of tobacco retailers holding a DCA license so they can legally operate in NYC, as of 1\/20\/23.",
-        "Sources":"",
+        "Sources":"NYC Department of Consumer and Worker Protection accessed via NYC OpenData.",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68134,7 +68134,7 @@
         "MeasureName":"Tobacco retailers, Density",
         "MeasurementType":"Density",
         "how_calculated":"Number of tobacco retailers holding a DCA license so they can legally operate in NYC, as of 1\/20\/23, divided by square miles of a given geographical area.",
-        "Sources":"",
+        "Sources":"NYC Department of Consumer and Worker Protection accessed via NYC OpenData.",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
