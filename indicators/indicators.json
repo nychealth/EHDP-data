@@ -18639,6 +18639,10 @@
               {
                 "MeasureID":1204,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1335,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -59966,6 +59970,10 @@
               {
                 "MeasureID":386,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1335,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -65361,6 +65369,140 @@
               {
                 "MeasureID":1192,
                 "SecondaryAxis":"x"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2421,
+    "IndicatorName":"Tobacco retailers",
+    "IndicatorLabel":"Tobacco retailers",
+    "IndicatorDescription":"<p>Retail locations that sell tobacco products. Neighborhoods with higher densities of tobacco retailers increase access to tobacco and may increase smoking rates.<\/p>",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1334,
+        "MeasureName":"Tobacco retailers, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Number of tobacco retailers holding a DCA license so they can legally operate in NYC, as of 1\/20\/23.",
+        "Sources":"NYC Department of Consumer and Worker Protection accessed via NYC OpenData.",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1672531200000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1335,
+        "MeasureName":"Tobacco retailers, Density",
+        "MeasurementType":"Density",
+        "how_calculated":"Number of tobacco retailers holding a DCA license so they can legally operate in NYC, as of 1\/20\/23, divided by square miles of a given geographical area.",
+        "Sources":"NYC Department of Consumer and Worker Protection accessed via NYC OpenData.",
+        "DisplayType":"per square mile",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1672531200000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":307,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1199,
+                "SecondaryAxis":"y"
               }
             ]
           }
