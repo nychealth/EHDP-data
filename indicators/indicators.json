@@ -27412,8 +27412,6 @@
     "IndicatorLabel":"Children (4 and under)",
     "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Comparisons":[
-      402,
-      404,
       555,
       676
     ],
@@ -52918,6 +52916,11 @@
             "end_period":1577750400000
           },
           {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
+          },
+          {
             "TimeDescription":"2017-21",
             "start_period":1483228800000,
             "end_period":1640908800000
@@ -53008,6 +53011,11 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2016-20",
+            "start_period":1451606400000,
+            "end_period":1609372800000
           },
           {
             "TimeDescription":"2017-21",
@@ -66657,7 +66665,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA2020",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -66667,9 +66675,58 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2016-20",
             "start_period":1451606400000,
@@ -66720,7 +66777,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA2020",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -66730,9 +66787,58 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2016-20",
             "start_period":1451606400000,
@@ -66783,7 +66889,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA2020",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -66793,9 +66899,58 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2016-20",
             "start_period":1451606400000,
@@ -66846,7 +67001,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA2020",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -66856,9 +67011,53 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2016-20",
             "start_period":1451606400000,
@@ -66909,7 +67108,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA2020",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -66919,9 +67118,58 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2016-20",
             "start_period":1451606400000,
@@ -66972,7 +67220,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA2020",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -66982,9 +67230,58 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2016-20",
             "start_period":1451606400000,
@@ -67035,7 +67332,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA2020",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -67045,9 +67342,58 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2016-20",
             "start_period":1451606400000,
@@ -67098,7 +67444,7 @@
             "GeoTypeDescription":"Citywide"
           },
           {
-            "GeoType":"NTA2020",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           },
           {
@@ -67108,9 +67454,53 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2007-11",
+            "start_period":1167609600000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2008-12",
+            "start_period":1199145600000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2009-13",
+            "start_period":1230768000000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2010-14",
+            "start_period":1262304000000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2012-16",
+            "start_period":1325376000000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2013-17",
+            "start_period":1356998400000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2014-18",
+            "start_period":1388534400000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2015-19",
+            "start_period":1420070400000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2016-20",
             "start_period":1451606400000,
