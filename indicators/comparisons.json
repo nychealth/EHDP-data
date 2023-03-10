@@ -72,30 +72,6 @@
     ]
   },
   {
-    "ComparisonID": 402,
-    "ComparisonName": "Number of Asthma ED Visits in New York City by Age",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Number",
-    "Indicators": [
-      {
-        "IndicatorID": 2048,
-        "Measures": [459]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 404,
-    "ComparisonName": "Rates of Asthma ED Visits in New York City by Age",
-    "LegendTitle": "Age",
-    "Y_axis_title": "Rate( per 10,000 residents)",
-    "Indicators": [
-      {
-        "IndicatorID": 2048,
-        "Measures": [460]
-      }
-    ]
-  },
-  {
     "ComparisonID": 418,
     "ComparisonName": "Cigarette smoking",
     "LegendTitle": "Age",
