@@ -395,7 +395,7 @@
     "ComparisonID": 564,
     "ComparisonName": "PM2.5 air quality action days",
     "LegendTitle": "Sensitivity group",
-    "Y_axis_title": "Number of days",
+    "Y_axis_title": "Number",
     "Indicators": [
       {
         "IndicatorID": 57,
@@ -407,7 +407,7 @@
     "ComparisonID": 565,
     "ComparisonName": "Ozone air quality action days",
     "LegendTitle": "Sensitivity group",
-    "Y_axis_title": "Number of days",
+    "Y_axis_title": "Number",
     "Indicators": [
       {
         "IndicatorID": 55,
@@ -419,7 +419,7 @@
     "ComparisonID": 566,
     "ComparisonName": "Air quality action days",
     "LegendTitle": "Sensitivity group",
-    "Y_axis_title": "Number of days",
+    "Y_axis_title": "Number",
     "Indicators": [
       {
         "IndicatorID": 92,
@@ -639,7 +639,7 @@
     "ComparisonID": 663,
     "ComparisonName": "Arsenic",
     "LegendTitle": "Year",
-    "Y_axis_title": "Arsenic",
+    "Y_axis_title": "Concentration levels",
     "Indicators": [
       {
         "IndicatorID": 2044,
@@ -651,7 +651,7 @@
     "ComparisonID": 664,
     "ComparisonName": "Nitrate",
     "LegendTitle": "Year",
-    "Y_axis_title": "Nitrate",
+    "Y_axis_title": "Concentration levels",
     "Indicators": [
       {
         "IndicatorID": 2041,
@@ -663,7 +663,7 @@
     "ComparisonID": 669,
     "ComparisonName": "Disinfection by-products (HAA5)",
     "LegendTitle": "Quarter",
-    "Y_axis_title": "HAA5",
+    "Y_axis_title": "Concentration levels",
     "Indicators": [
       {
         "IndicatorID": 2043,
@@ -675,7 +675,7 @@
     "ComparisonID": 672,
     "ComparisonName": "Disinfection by-products (TTHM)",
     "LegendTitle": "Year",
-    "Y_axis_title": "TTHM",
+    "Y_axis_title": "Concentration levels",
     "Indicators": [
       {
         "IndicatorID": 2207,
@@ -687,7 +687,7 @@
     "ComparisonID": 673,
     "ComparisonName": "Disinfection by-products (TTHM)",
     "LegendTitle": "Quarter",
-    "Y_axis_title": "TTHM",
+    "Y_axis_title": "Concentration levels",
     "Indicators": [
       {
         "IndicatorID": 2207,
@@ -699,7 +699,7 @@
     "ComparisonID": 674,
     "ComparisonName": "Disinfection by-products (HAA5)",
     "LegendTitle": "Year",
-    "Y_axis_title": "HAA5",
+    "Y_axis_title": "Concentration levels",
     "Indicators": [
       {
         "IndicatorID": 2043,
@@ -785,8 +785,8 @@
   },
   {
     "ComparisonID": 704,
-    "ComparisonName": "Heat events and deaths",
-    "LegendTitle": "Events",
+    "ComparisonName": "All heat events and deaths",
+    "LegendTitle": "Temperature",
     "Y_axis_title": "Number",
     "Indicators": [
       {
@@ -801,8 +801,8 @@
   },
   {
     "ComparisonID": 715,
-    "ComparisonName": "Heat stress deaths",
-    "LegendTitle": "Heat events",
+    "ComparisonName": "2+ 95 degree days and deaths",
+    "LegendTitle": "Temperature",
     "Y_axis_title": "Number",
     "Indicators": [
       {
