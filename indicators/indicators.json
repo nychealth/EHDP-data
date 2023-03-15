@@ -8581,7 +8581,7 @@
         "MeasurementType":"Sensitive groups",
         "how_calculated":"When the daily average ozone levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with lung disease, children, older adults, people who are active outdoors or have certain genetic variants).",
         "Sources":"United States Environmental Protection Agency (EPA); United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
@@ -8858,7 +8858,7 @@
         "MeasurementType":"Sensitive groups",
         "how_calculated":"When the daily average PM2.5 levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with heart or lung disease, children, older adults and people of lower socieconomic status). Folks in these groups may need to take action to protect their health on these days. An AQI value of 100 generally corresponds to a pollution level that is equal to the daily federal air quality standard.",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
@@ -8986,7 +8986,7 @@
         "MeasurementType":"General population",
         "how_calculated":"When the daily average PM2.5 levels are above 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for the General Population\".",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
