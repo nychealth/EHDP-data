@@ -7832,8 +7832,8 @@
   },
   {
     "IndicatorID":55,
-    "IndicatorName":"Ozone",
-    "IndicatorLabel":"Ozone",
+    "IndicatorName":"Ozone action days",
+    "IndicatorLabel":"Ozone action days",
     "IndicatorDescription":"Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
     "Comparisons":[
       565
@@ -7841,7 +7841,7 @@
     "Measures":[
       {
         "MeasureID":107,
-        "MeasureName":"Ozone, General population",
+        "MeasureName":"Ozone action days, General population",
         "MeasurementType":"General population",
         "how_calculated":"When the daily average ozone levels are above 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for the General Population\".",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
@@ -7969,11 +7969,11 @@
       },
       {
         "MeasureID":787,
-        "MeasureName":"Ozone, Sensitive groups",
+        "MeasureName":"Ozone action days, Sensitive groups",
         "MeasurementType":"Sensitive groups",
         "how_calculated":"When the daily average ozone levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with lung disease, children, older adults, people who are active outdoors or have certain genetic variants).",
         "Sources":"United States Environmental Protection Agency (EPA); United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
@@ -8099,17 +8099,17 @@
   },
   {
     "IndicatorID":57,
-    "IndicatorName":"Fine particles (PM 2.5)",
-    "IndicatorLabel":"Fine particles (PM 2.5)",
-    "IndicatorDescription":"Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+    "IndicatorName":"Fine particles (PM 2.5) action days",
+    "IndicatorLabel":"Fine particles (PM 2.5) action days",
+    "IndicatorDescription":"<p>Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.<\/p>",
     "Comparisons":[
       564
     ],
     "Measures":[
       {
         "MeasureID":111,
-        "MeasureName":"PM2.5 (Fine particles), Annual average",
-        "MeasurementType":"Annual average",
+        "MeasureName":"PM2.5 (Fine particles) action days, PM2.5 annual average",
+        "MeasurementType":"PM2.5 annual average",
         "how_calculated":"This measure is calculated by averaging PM2.5 levels at each monitor, weighted by the number of samples in each quarter, then taking the weighted average of all monitors in the geographic area.",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType":"mcg\/m3",
@@ -8246,11 +8246,11 @@
       },
       {
         "MeasureID":785,
-        "MeasureName":"PM2.5 (Fine particles), Sensitive groups",
+        "MeasureName":"PM2.5 (Fine particles) action days, Sensitive groups",
         "MeasurementType":"Sensitive groups",
         "how_calculated":"When the daily average PM2.5 levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with heart or lung disease, children, older adults and people of lower socieconomic status). Folks in these groups may need to take action to protect their health on these days. An AQI value of 100 generally corresponds to a pollution level that is equal to the daily federal air quality standard.",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
@@ -8374,11 +8374,11 @@
       },
       {
         "MeasureID":786,
-        "MeasureName":"PM2.5 (Fine particles), General population",
+        "MeasureName":"PM2.5 (Fine particles) action days, General population",
         "MeasurementType":"General population",
         "how_calculated":"When the daily average PM2.5 levels are above 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for the General Population\".",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType":"action days",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Citywide",
@@ -8502,8 +8502,8 @@
       },
       {
         "MeasureID":788,
-        "MeasureName":"PM2.5 (Fine particles), 98th percentile",
-        "MeasurementType":"98th percentile",
+        "MeasureName":"PM2.5 (Fine particles) action days, PM2.5 98% percentile",
+        "MeasurementType":"PM2.5 98% percentile",
         "how_calculated":"98% of PM2.5 measurements taken at New York City's EPA Air Quality Stations are below this value over the past three years. This value is one of the PM2.5 Federal Air Quality Standards. The standard is 65 mcg per cubic meter.",
         "Sources":"United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType":"mcg\/m3",
@@ -48245,7 +48245,7 @@
         "MeasureID":886,
         "MeasureName":"Child lead poisoning, by NTA, Average Annual Number BLL >=5 \u00b5g\/dL",
         "MeasurementType":"Average Annual Number BLL >=5 \u00b5g\/dL",
-        "how_calculated":"<p>Sum of the number of children under 6 years of age with blood lead levels (BLL) 5 mcg\/dL or greater over the time period, divided by the number of years in the time period. While children can receive more than one test during the calendar year, for this measure children are only counted once per year using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child&rsquo;s blood lead level is based on the highest capillary or unknown test type.&nbsp;<a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">Read more&nbsp;<\/a>about different measures used by the Health Department for surveillance of childhood lead poisoning.<\/p>\n<ul>\n<li>For the purpose of providing data for small geographic areas, multiple years of data were combined to get sufficient numbers of observations to make more reliable estimates for a greater number of neighborhood tabulation areas (NTAs).<\/li>\n<li>Annual numbers and rates of children under 6 years of age with elevated blood lead levels at the citywide, borough, and United Hospital Fund neighborhood level are available <a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2184,4466a0,14,Summarize\">here<\/a>. &nbsp;&nbsp;<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>",
+        "how_calculated":"Sum of the number of children under 6 years of age with blood lead levels (BLL) 5 mcg\/dL or greater over the time period, divided by the number of years in the time period. While children can receive more than one test during the calendar year, for this measure children are only counted once per year using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child&rsquo;s blood lead level is based on the highest capillary or unknown test type.&nbsp;<a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">Read more&nbsp;<\/a>about different measures used by the Health Department for surveillance of childhood lead poisoning.<\/p>\n<ul>\n<li>For the purpose of providing data for small geographic areas, multiple years of data were combined to get sufficient numbers of observations to make more reliable estimates for a greater number of neighborhood tabulation areas (NTAs).<\/li>\n<li>Annual numbers and rates of children under 6 years of age with elevated blood lead levels at the citywide, borough, and United Hospital Fund neighborhood level are available <a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2184,4466a0,14,Summarize\">here<\/a>. &nbsp;&nbsp;<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>&nbsp;",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -48296,7 +48296,7 @@
         "MeasureID":887,
         "MeasureName":"Child lead poisoning, by NTA, Average Annual Number Tested",
         "MeasurementType":"Average Annual Number Tested",
-        "how_calculated":"<p>Average annual number of children under 6 years of age tested for lead poisoning. Children may be tested multiple times in a given year but for this measure are only counted once per year. All children are counted regardless of blood specimen type (confirmed or unconfirmed). Numbers are rounded to nearest 10. <a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/Childhood_Lead_Exposure_Definitions_June_2016.pdf\">Read more<\/a> about definitions and measures used by the Health Department for surveillance of childhood lead poisoning.&nbsp;<\/p>",
+        "how_calculated":"Average annual number of children under 6 years of age tested for lead poisoning. Children may be tested multiple times in a given year but for this measure are only counted once per year. All children are counted regardless of blood specimen type (confirmed or unconfirmed). Numbers are rounded to nearest 10. <a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/Childhood_Lead_Exposure_Definitions_June_2016.pdf\">Read more<\/a> about definitions and measures used by the Health Department for surveillance of childhood lead poisoning.&nbsp;",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -48347,7 +48347,7 @@
         "MeasureID":888,
         "MeasureName":"Child lead poisoning, by NTA, Rate (5+ mcg\/dL)",
         "MeasurementType":"Rate (5+ mcg\/dL)",
-        "how_calculated":"<p>Number of children under 6 years of age tested with blood lead levels (BLL) 5 mcg\/dL or greater, divided by the total number of children under 6 years of age who were tested; expressed as cases per 1,000 tested. While children can receive more than one test during the calendar year, for this measure children are only counted once per year using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child&rsquo;s blood lead level is based on the highest capillary or unknown test type.&nbsp;<a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">Read more&nbsp;<\/a>about different measures used by the Health Department for surveillance of childhood lead poisoning.<\/p>\n<ul>\n<li>For the purpose of providing data for small geographic areas, multiple years of data were combined to get sufficient numbers of observations to make more reliable estimates for a greater number of neighborhood tabulation areas (NTAs).&nbsp;<\/li>\n<li>Annual numbers and rates of children under 6 years of age with elevated blood lead levels at the citywide, borough, and United Hospital Fund neighborhood level are available&nbsp;<a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2184,4466a0,14,Summarize\">here<\/a>. &nbsp;&nbsp;<\/li>\n<\/ul>\n<p><a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">&nbsp;<\/a><\/p>",
+        "how_calculated":"Number of children under 6 years of age tested with blood lead levels (BLL) 5 mcg\/dL or greater, divided by the total number of children under 6 years of age who were tested; expressed as cases per 1,000 tested. While children can receive more than one test during the calendar year, for this measure children are only counted once per year using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child&rsquo;s blood lead level is based on the highest capillary or unknown test type.&nbsp;<a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">Read more&nbsp;<\/a>about different measures used by the Health Department for surveillance of childhood lead poisoning.<\/p>\n<ul>\n<li>For the purpose of providing data for small geographic areas, multiple years of data were combined to get sufficient numbers of observations to make more reliable estimates for a greater number of neighborhood tabulation areas (NTAs).&nbsp;<\/li>\n<li>Annual numbers and rates of children under 6 years of age with elevated blood lead levels at the citywide, borough, and United Hospital Fund neighborhood level are available&nbsp;<a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2184,4466a0,14,Summarize\">here<\/a>. &nbsp;&nbsp;<\/li>\n<\/ul>\n<p><a href=\"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/EPHTPDF\/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">&nbsp;<\/a>",
         "Sources":"New York City Healthy Homes Program",
         "DisplayType":"per 1,000 tested",
         "AvailableGeographyTypes":[
@@ -51274,7 +51274,7 @@
         "MeasureID":983,
         "MeasureName":"Death before 65, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"<p>Average annual rate of premature deaths (death before age 65) per 100,000 population.<\/p>",
+        "how_calculated":"Average annual rate of premature deaths (death before age 65) per 100,000 population.",
         "Sources":"New York City Bureau of Vital Statistics; New York City Bureau of Vital Statistics; United States Census ",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -51624,7 +51624,7 @@
         "MeasureID":989,
         "MeasureName":"Race\/ethnicity, Hispanic alone (percent)",
         "MeasurementType":"Hispanic alone (percent)",
-        "how_calculated":"<p>Estimated Percent Hispanic<\/p>",
+        "how_calculated":"Estimated Percent Hispanic",
         "Sources":"American Community Survey",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -51721,7 +51721,7 @@
         "MeasureID":990,
         "MeasureName":"Race\/ethnicity, White alone (percent)",
         "MeasurementType":"White alone (percent)",
-        "how_calculated":"<p>Estimated Percent White<\/p>",
+        "how_calculated":"Estimated Percent White",
         "Sources":"American Community Survey",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -65073,7 +65073,7 @@
         "MeasureID":1308,
         "MeasureName":"Litter basket coverage, Number (total)",
         "MeasurementType":"Number (total)",
-        "how_calculated":"<p>Number of DSNY-regulated litter baskets.<\/p>",
+        "how_calculated":"Number of DSNY-regulated litter baskets.",
         "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -65131,7 +65131,7 @@
         "MeasureID":1314,
         "MeasureName":"Litter basket coverage, Rate",
         "MeasurementType":"Rate",
-        "how_calculated":"<p>Number of DSNY-regulated litter baskets, divided by neighborhood area in square miles.<\/p>",
+        "how_calculated":"Number of DSNY-regulated litter baskets, divided by neighborhood area in square miles.",
         "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
@@ -65189,7 +65189,7 @@
         "MeasureID":1316,
         "MeasureName":"Litter basket coverage, Number (non-wire)",
         "MeasurementType":"Number (non-wire)",
-        "how_calculated":"<p>Number of DSNY-regulated non-wire litter baskets.<\/p>",
+        "how_calculated":"Number of DSNY-regulated non-wire litter baskets.",
         "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -65247,7 +65247,7 @@
         "MeasureID":1317,
         "MeasureName":"Litter basket coverage, Rate (non-wire)",
         "MeasurementType":"Rate (non-wire)",
-        "how_calculated":"<p>Number of DSNY-regulated non-wire litter baskets, divided by neighborhood area&nbsp;in square miles.<\/p>",
+        "how_calculated":"Number of DSNY-regulated non-wire litter baskets, divided by neighborhood area&nbsp;in square miles.",
         "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
@@ -65305,7 +65305,7 @@
         "MeasureID":1322,
         "MeasureName":"Litter basket coverage, Percent (non-wire)",
         "MeasurementType":"Percent (non-wire)",
-        "how_calculated":"<p>Percent of all DSNY-regulated litter baskets in neighborhood that are non-wire baskets.<\/p>",
+        "how_calculated":"Percent of all DSNY-regulated litter baskets in neighborhood that are non-wire baskets.",
         "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
         "DisplayType":"",
         "AvailableGeographyTypes":[
