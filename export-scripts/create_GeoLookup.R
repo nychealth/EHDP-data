@@ -198,7 +198,8 @@ geo_type_entity <-
     inner_join(
         geo_type,
         geo_entity,
-        by = "geo_type_id"
+        by = "geo_type_id",
+        multiple = "all"
     ) %>% 
     arrange(geo_type_id, geo_entity_id) %>% 
     select(
@@ -293,7 +294,7 @@ uhf_42 <-
 # PUMA/Subboro
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-puma_to_subboro <- read_csv("geography/puma_to_subboro.csv")
+puma_to_subboro <- read_csv("geography/puma_to_subboro.csv", show_col_types = FALSE)
 
 subboro <- 
     read_sf("geography/nypuma2010_22c") %>% 
@@ -305,7 +306,8 @@ subboro <-
     inner_join(
         .,
         puma_to_subboro,
-        by = "PUMA"
+        by = "PUMA",
+        multiple = "all"
     ) %>% 
     transmute(
         GeoType = "Subboro",
@@ -521,7 +523,8 @@ geolookup <-
     inner_join(
         geo_type_entity,
         all_geos,
-        by = c("GeoType", "GeoID")
+        by = c("GeoType", "GeoID"),
+        multiple = "all"
     ) %>% 
     mutate(Lat = round(Lat, 5), Long = round(Long, 5)) %>% 
     arrange(roworder) %>% 
