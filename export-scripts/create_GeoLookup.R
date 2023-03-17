@@ -480,12 +480,12 @@ nyc_kids_2019 <-
 # only have our own topojson file, no official shapefile
 
 nyc_kids_2021 <- 
-    read_sf("geography/NYCKids_2019.topo.json", crs = st_crs(4326)) %>% 
+    read_sf("geography/NYCKids_2021.topo.json", crs = st_crs(4326)) %>% 
     st_transform(st_crs(2263)) %>% 
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
     transmute(
-        GeoType = "NYCKIDS2019",
+        GeoType = "NYCKIDS2021",
         GeoID = GEOCODE,
         Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
         Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
@@ -510,7 +510,8 @@ all_geos <-
         nta2020,
         nyc_kids_nodate,
         nyc_kids_2017,
-        nyc_kids_2019
+        nyc_kids_2019,
+        nyc_kids_2021
     ) %>% 
     mutate(roworder = 1:nrow(.))
 
@@ -526,7 +527,7 @@ geolookup <-
         by = c("GeoType", "GeoID"),
         multiple = "all"
     ) %>% 
-    mutate(Lat = round(Lat, 5), Long = round(Long, 5)) %>% 
+    mutate(Lat = round(Lat, 4), Long = round(Long, 4)) %>% 
     arrange(roworder) %>% 
     select(-roworder)
 
