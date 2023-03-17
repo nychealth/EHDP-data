@@ -167,7 +167,8 @@ report_data_0 <-
     left_join(
         report_list %>% select(report_id, title),
         .,
-        by = "report_id"
+        by = "report_id",
+        multiple = "all"
     ) %>% 
     mutate(
         time_type = str_trim(time_type),
@@ -200,7 +201,8 @@ report_data <-
     left_join(
         report_data_0,
         ind_has_annual,
-        by = "data_field_name"
+        by = "data_field_name",
+        multiple = "all"
     ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
     filter(
