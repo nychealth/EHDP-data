@@ -287,7 +287,8 @@ report_level_23_nested <-
     left_join(
         report_level_2,
         report_level_3_nested,
-        by = c("report_id", "report_topic_id", "geo_entity_id")
+        by = c("report_id", "report_topic_id", "geo_entity_id"),
+        multiple = "all"
     ) 
 
 #-----------------------------------------------------------------------------------------#
@@ -298,7 +299,8 @@ report_level_123_nested <-
     left_join(
         report_level_1 %>% select(report_id, geo_entity_name, report_title),
         report_level_23_nested,
-        by = c("report_id", "geo_entity_name")
+        by = c("report_id", "geo_entity_name"),
+        multiple = "all"
     ) %>% 
     arrange(geo_entity_name, report_title, report_topic) %>% 
     select(-c(report_id, report_topic_id, geo_entity_id))
