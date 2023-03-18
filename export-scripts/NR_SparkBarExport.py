@@ -152,7 +152,7 @@ for file in data_files:
     # - then loop through the list
 
     results = Parallel(
-        n_jobs = 4, 
+        n_jobs = os.cpu_count()/2, 
         prefer = "threads", 
         verbose = 1
     )(delayed(chart_fun)(ind, df, base_dir, conda_prefix) for ind in df.index)
