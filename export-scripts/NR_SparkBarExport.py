@@ -7,12 +7,15 @@
 
 import pandas as pd
 import altair as alt
-from altair_saver import save
 import os
 import warnings
 import subprocess
 import re
 from joblib import Parallel, delayed
+
+# set cores
+
+cpus = int(os.cpu_count()/2) if os.cpu_count() <= 8 else int(os.cpu_count()/4)
 
 # prevent other warnings
 
@@ -152,7 +155,7 @@ for file in data_files:
     # - then loop through the list
 
     results = Parallel(
-        n_jobs = os.cpu_count()/2, 
+        n_jobs = cpus, 
         prefer = "threads", 
         verbose = 1
     )(delayed(chart_fun)(ind, df, base_dir, conda_prefix) for ind in df.index)
