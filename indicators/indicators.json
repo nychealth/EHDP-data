@@ -67607,8 +67607,8 @@
       },
       {
         "MeasureID":1314,
-        "MeasureName":"Litter basket coverage, Rate",
-        "MeasurementType":"Rate",
+        "MeasureName":"Litter basket coverage, Density",
+        "MeasurementType":"Density",
         "how_calculated":"Number of DSNY-regulated litter baskets, divided by neighborhood area in square miles.",
         "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
         "DisplayType":"per square mile",
@@ -67723,8 +67723,8 @@
       },
       {
         "MeasureID":1317,
-        "MeasureName":"Litter basket coverage, Rate (non-wire)",
-        "MeasurementType":"Rate (non-wire)",
+        "MeasureName":"Litter basket coverage, Density (non-wire)",
+        "MeasurementType":"Density (non-wire)",
         "how_calculated":"Number of DSNY-regulated non-wire litter baskets, divided by neighborhood area&nbsp;in square miles.",
         "Sources":"NYC Department of Sanitation data, retrieved from NYC Open Data",
         "DisplayType":"per square mile",
