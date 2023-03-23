@@ -168,7 +168,8 @@ EXP_data_export <-
                 !is.na(flag) & number_decimal_ind == "N" ~ str_c(add_comma_num(Value), flag),
                 !is.na(flag) & number_decimal_ind == "D" ~ str_c(add_comma_dec(Value), flag),
                 !is.na(flag) & is.na(number_decimal_ind) ~ str_c(add_comma_dec(Value), flag)
-            )
+            ),
+        CI = CI %>% str_replace(",", ", ") %>% str_replace(",\\s{2,}", ", ")
     ) %>% 
     
     # dropping unneeded columns
