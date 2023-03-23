@@ -63242,6 +63242,10 @@
               {
                 "MeasureID":1239,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1259,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -63315,8 +63319,8 @@
   },
   {
     "IndicatorID":2393,
-    "IndicatorName":"Children in homes with cockroaches (age 13 and under)",
-    "IndicatorLabel":"Children in homes with cockroaches (under age 14)",
+    "IndicatorName":"Children in homes with cockroaches (age 1-13)",
+    "IndicatorLabel":"Children in homes with cockroaches (age 1-13)",
     "IndicatorDescription":"The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
     "Comparisons":null,
     "Measures":[
@@ -63339,6 +63343,10 @@
           {
             "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
         "AvailableTimes":[
@@ -63346,6 +63354,11 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -63358,7 +63371,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -63390,6 +63403,10 @@
           {
             "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
         "AvailableTimes":[
@@ -63397,19 +63414,24 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -63421,14 +63443,14 @@
   },
   {
     "IndicatorID":2394,
-    "IndicatorName":"Children in homes with mice (age 13 and under)",
-    "IndicatorLabel":"Children in homes with mice (age 13 and under)",
+    "IndicatorName":"Children in homes with mice (age 1-13)",
+    "IndicatorLabel":"Children in homes with mice (age 1-13)",
     "IndicatorDescription":"The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1233,
-        "MeasureName":"Children in homes with mice (age 13 and under), Number",
+        "MeasureName":"Children in homes with mice (age 1-13), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children ages 0-13 years living in a home with signs of mice in the past 90 days.",
         "Sources":"NYC KIDS Survey",
@@ -63445,6 +63467,10 @@
           {
             "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
         "AvailableTimes":[
@@ -63452,19 +63478,24 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -63474,7 +63505,7 @@
       },
       {
         "MeasureID":1234,
-        "MeasureName":"Children in homes with mice (age 13 and under), Percent",
+        "MeasureName":"Children in homes with mice (age 1-13), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children ages 0-13 years living in a home with signs of mice in the past 90 days, divided by the number of children in the area; expressed as a percent.",
         "Sources":"NYC KIDS Survey",
@@ -63491,6 +63522,10 @@
           {
             "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
         "AvailableTimes":[
@@ -63498,6 +63533,11 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -63510,7 +63550,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -63527,14 +63567,14 @@
   },
   {
     "IndicatorID":2395,
-    "IndicatorName":"Children in homes with cracks or holes (age 13 and under)",
-    "IndicatorLabel":"Children in homes with cracks or holes (age 13 and under)",
+    "IndicatorName":"Children in homes with cracks or holes (age 1-13)",
+    "IndicatorLabel":"Children in homes with cracks or holes (age 1-13)",
     "IndicatorDescription":"Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches. Pests in the home can contaminate food and worsen asthma.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1235,
-        "MeasureName":"Children in homes with cracks or holes (age 13 and under), Number",
+        "MeasureName":"Children in homes with cracks or holes (age 1-13), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children ages 0-13 years living in homes with cracks or holes in the walls, ceiling or floors.",
         "Sources":"NYC KIDS Survey",
@@ -63551,6 +63591,10 @@
           {
             "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
         "AvailableTimes":[
@@ -63558,19 +63602,24 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -63580,7 +63629,7 @@
       },
       {
         "MeasureID":1236,
-        "MeasureName":"Children in homes with cracks or holes (age 13 and under), Percent",
+        "MeasureName":"Children in homes with cracks or holes (age 1-13), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children ages 0-13 years living in homes with cracks or holes in the walls, ceiling or floors, divided by the number of children in the area; expressed as a percent.",
         "Sources":"NYC KIDS Survey",
@@ -63597,6 +63646,10 @@
           {
             "GeoType":"NYCKIDS2017",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
         "AvailableTimes":[
@@ -63604,6 +63657,11 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -63616,7 +63674,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -64566,6 +64624,130 @@
               {
                 "MeasureID":790,
                 "SecondaryAxis":"x"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2404,
+    "IndicatorName":"Children exposed to tobacco smoke in home",
+    "IndicatorLabel":"Children exposed to tobacco smoke in home (ages 1-13 years)",
+    "IndicatorDescription":"<p>Children exposed to tobacco smoke in home (ages 1-13 years)&nbsp;<\/p>",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1258,
+        "MeasureName":"Children exposed to tobacco smoke in home, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of children aged 1-13 years living in a home reporting cigarette, cigar, or other tobacco smoking all of the time, most of the time, or occasionally.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"number",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1259,
+        "MeasureName":"Children exposed to tobacco smoke in home, Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of children aged 1-13 years living in a home reporting cigarette, cigar, or other tobacco smoking all of the time, most of the time, or occasionally, divided by the number of children in the area as per the 2015-19 American Community Survey, expressed as a percent.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"percent",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":1228,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -68506,7 +68688,7 @@
           {
             "TimeDescription":"2023",
             "start_period":1672531200000,
-            "end_period":1672531200000
+            "end_period":1703980800000
           }
         ],
         "VisOptions":[
@@ -68564,7 +68746,7 @@
           {
             "TimeDescription":"2023",
             "start_period":1672531200000,
-            "end_period":1672531200000
+            "end_period":1703980800000
           }
         ],
         "VisOptions":[
@@ -68591,6 +68773,107 @@
                 "SecondaryAxis":"y"
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2422,
+    "IndicatorName":"Children exposed to e-cigarette smoke in home",
+    "IndicatorLabel":"Children exposed to e-cigarette smoke in home",
+    "IndicatorDescription":"Children exposed to e-cigarette smoke in home (ages 1-13 years)",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1336,
+        "MeasureName":"Children exposed to e-cigarette smoke in home, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of children aged 1-13 years living in a home reporting e-cigarette smoking all of the time, most of the time, or occasionally.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1337,
+        "MeasureName":"Children exposed to e-cigarette smoke in home, Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of children aged 1-13 years living in a home reporting e-cigarette smoking all of the time, most of the time, or occasionally, divided by the number of children in the area as per the 2015-19 American Community Survey, expressed as a percent.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
           }
         ]
       }
