@@ -68878,5 +68878,462 @@
         ]
       }
     ]
+  },
+  {
+    "IndicatorID":2425,
+    "IndicatorName":"Citi Bike availability",
+    "IndicatorLabel":"Citi Bike availability",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1342,
+        "MeasureName":"Citi Bike availability, Number (morning, peak)",
+        "MeasurementType":"Number (morning, peak)",
+        "how_calculated":null,
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1343,
+        "MeasureName":"Citi Bike availability, Population Density (morning, peak)",
+        "MeasurementType":"Population Density (morning, peak)",
+        "how_calculated":null,
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1344,
+        "MeasureName":"Citi Bike availability, Number (evening, peak)",
+        "MeasurementType":"Number (evening, peak)",
+        "how_calculated":null,
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1345,
+        "MeasureName":"Citi Bike availability, Population Density (evening, peak)",
+        "MeasurementType":"Population Density (evening, peak)",
+        "how_calculated":null,
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1346,
+        "MeasureName":"Citi Bike availability, Number (morning, year)",
+        "MeasurementType":"Number (morning, year)",
+        "how_calculated":null,
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1347,
+        "MeasureName":"Citi Bike availability, Population Density (morning, year)",
+        "MeasurementType":"Population Density (morning, year)",
+        "how_calculated":null,
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1348,
+        "MeasureName":"Citi Bike availability, Number (evening, year)",
+        "MeasurementType":"Number (evening, year)",
+        "how_calculated":null,
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1349,
+        "MeasureName":"Citi Bike availability, Population Density (evening, year)",
+        "MeasurementType":"Population Density (evening, year)",
+        "how_calculated":null,
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
   }
 ]
