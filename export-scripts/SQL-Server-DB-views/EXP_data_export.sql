@@ -11,9 +11,9 @@ ALTER VIEW [dbo].[EXP_data_export] AS
     
         si.internal_id       AS IndicatorID,
         ind.indicator_id     AS MeasureID,
-        gt.geo_type_name     AS GeoType,
         ind.geo_type_id      AS GeoTypeID,
         ind.geo_entity_id    AS GeoID,
+        gt.geo_type_name     AS GeoType,
         iy.year_description  AS Time,
         un.character_display AS flag,
         si.ban_summary_flag,
@@ -48,7 +48,6 @@ ALTER VIEW [dbo].[EXP_data_export] AS
         )
 
         INNER JOIN dbo.subtopic             AS st ON st.subtopic_id         = si.subtopic_id
-        INNER JOIN dbo.internal_indicator   AS ii ON ii.internal_id         = si.internal_id
         INNER JOIN dbo.measurement_type     AS mt ON mt.measurement_type_id = si.measurement_type_id
         INNER JOIN dbo.geo_type             AS gt ON gt.geo_type_id         = ind.geo_type_id
         INNER JOIN dbo.indicator_year       AS iy ON iy.year_id             = ind.year_id
