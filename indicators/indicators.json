@@ -38783,62 +38783,6 @@
     ]
   },
   {
-    "IndicatorID":2106,
-    "IndicatorName":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
-    "IndicatorLabel":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
-    "IndicatorDescription":null,
-    "Comparisons":null,
-    "Measures":[
-      {
-        "MeasureID":637,
-        "MeasureName":"Neighborhood Race\/Ethnicity - Non Hispanic Black, Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"Neighborhoods are ranked according to the percent of people who consider themselves non-Hispanic blacks. Rankings are divided into 3 approximately equal groupings of low, medium and high population density. ",
-        "Sources":"American Community Survey; United States Census",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":2108,
     "IndicatorName":"Deaths due to PM2.5",
     "IndicatorLabel":"Deaths due to PM2.5",
@@ -64633,18 +64577,18 @@
   },
   {
     "IndicatorID":2404,
-    "IndicatorName":"Children exposed to tobacco smoke in home",
+    "IndicatorName":"Secondhand smoke exposure at home (children)",
     "IndicatorLabel":"Children exposed to tobacco smoke in home (ages 1-13 years)",
-    "IndicatorDescription":"<p>Children exposed to tobacco smoke in home (ages 1-13 years)&nbsp;<\/p>",
+    "IndicatorDescription":"The amount of children aged 1\u201313 years exposed to tobacco smoke at home all of the time, most of the time, or occasionally.\u00a0Secondhand smoke is harmful to children and can cause or worsen respiratory and asthma issues and ear infections.\u00a0\u00a0",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1258,
-        "MeasureName":"Children exposed to tobacco smoke in home, Number",
+        "MeasureName":"Secondhand smoke exposure at home (children), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children aged 1-13 years living in a home reporting cigarette, cigar, or other tobacco smoking all of the time, most of the time, or occasionally.",
         "Sources":"NYC KIDS Survey",
-        "DisplayType":"number",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -64695,11 +64639,11 @@
       },
       {
         "MeasureID":1259,
-        "MeasureName":"Children exposed to tobacco smoke in home, Percent",
+        "MeasureName":"Secondhand smoke exposure at home (children), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children aged 1-13 years living in a home reporting cigarette, cigar, or other tobacco smoking all of the time, most of the time, or occasionally, divided by the number of children in the area as per the 2015-19 American Community Survey, expressed as a percent.",
         "Sources":"NYC KIDS Survey",
-        "DisplayType":"percent",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -68780,14 +68724,14 @@
   },
   {
     "IndicatorID":2422,
-    "IndicatorName":"Children exposed to e-cigarette smoke in home",
+    "IndicatorName":"E-cigarette vapor exposure at home (children)",
     "IndicatorLabel":"Children exposed to e-cigarette smoke in home",
-    "IndicatorDescription":"Children exposed to e-cigarette smoke in home (ages 1-13 years)",
+    "IndicatorDescription":"E-cigarette smoke:\u00a0The amount of children aged 1\u201313 years exposed to e-cigarette smoke at home all of the time, most of the time, or occasionally. Chemicals in the vapor from e-cigarettes can be harmful to kids.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1336,
-        "MeasureName":"Children exposed to e-cigarette smoke in home, Number",
+        "MeasureName":"E-cigarette vapor exposure at home (children), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children aged 1-13 years living in a home reporting e-cigarette smoking all of the time, most of the time, or occasionally.",
         "Sources":"NYC KIDS Survey",
@@ -68833,7 +68777,7 @@
       },
       {
         "MeasureID":1337,
-        "MeasureName":"Children exposed to e-cigarette smoke in home, Percent",
+        "MeasureName":"E-cigarette vapor exposure at home (children), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children aged 1-13 years living in a home reporting e-cigarette smoking all of the time, most of the time, or occasionally, divided by the number of children in the area as per the 2015-19 American Community Survey, expressed as a percent.",
         "Sources":"NYC KIDS Survey",
@@ -68881,14 +68825,14 @@
   },
   {
     "IndicatorID":2425,
-    "IndicatorName":"Citi Bike availability",
-    "IndicatorLabel":"Citi Bike availability",
-    "IndicatorDescription":null,
+    "IndicatorName":"Average Citi Bike availability",
+    "IndicatorLabel":"Average Citi Bike availability",
+    "IndicatorDescription":"The average number of Citi Bikes available to rent per geoentity between 7am-7pm. Biking bridges gaps in existing public transportation systems and is a great way to exercise. Neighborhoods with lower Citi Bike availability have limited access to this beneficial public resource.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1342,
-        "MeasureName":"Citi Bike availability, Number (morning, peak)",
+        "MeasureName":"Average Citi Bike availability, Number (morning, peak)",
         "MeasurementType":"Number (morning, peak)",
         "how_calculated":null,
         "Sources":"",
@@ -68931,7 +68875,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -68946,11 +68890,11 @@
       },
       {
         "MeasureID":1343,
-        "MeasureName":"Citi Bike availability, Population Density (morning, peak)",
-        "MeasurementType":"Population Density (morning, peak)",
+        "MeasureName":"Average Citi Bike availability, Density (morning, peak)",
+        "MeasurementType":"Density (morning, peak)",
         "how_calculated":null,
         "Sources":"",
-        "DisplayType":"",
+        "DisplayType":"per 1000 people",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -68985,7 +68929,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -69000,7 +68944,7 @@
       },
       {
         "MeasureID":1344,
-        "MeasureName":"Citi Bike availability, Number (evening, peak)",
+        "MeasureName":"Average Citi Bike availability, Number (evening, peak)",
         "MeasurementType":"Number (evening, peak)",
         "how_calculated":null,
         "Sources":"",
@@ -69043,7 +68987,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -69058,11 +69002,11 @@
       },
       {
         "MeasureID":1345,
-        "MeasureName":"Citi Bike availability, Population Density (evening, peak)",
-        "MeasurementType":"Population Density (evening, peak)",
+        "MeasureName":"Average Citi Bike availability, Density (evening, peak)",
+        "MeasurementType":"Density (evening, peak)",
         "how_calculated":null,
         "Sources":"",
-        "DisplayType":"",
+        "DisplayType":"per 1000 people",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -69097,7 +69041,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -69112,7 +69056,7 @@
       },
       {
         "MeasureID":1346,
-        "MeasureName":"Citi Bike availability, Number (morning, year)",
+        "MeasureName":"Average Citi Bike availability, Number (morning, year)",
         "MeasurementType":"Number (morning, year)",
         "how_calculated":null,
         "Sources":"",
@@ -69155,7 +69099,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -69170,11 +69114,11 @@
       },
       {
         "MeasureID":1347,
-        "MeasureName":"Citi Bike availability, Population Density (morning, year)",
-        "MeasurementType":"Population Density (morning, year)",
+        "MeasureName":"Average Citi Bike availability, Density (morning, year)",
+        "MeasurementType":"Density (morning, year)",
         "how_calculated":null,
         "Sources":"",
-        "DisplayType":"",
+        "DisplayType":"per 1000 people",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -69209,7 +69153,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -69224,7 +69168,7 @@
       },
       {
         "MeasureID":1348,
-        "MeasureName":"Citi Bike availability, Number (evening, year)",
+        "MeasureName":"Average Citi Bike availability, Number (evening, year)",
         "MeasurementType":"Number (evening, year)",
         "how_calculated":null,
         "Sources":"",
@@ -69267,7 +69211,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -69282,11 +69226,11 @@
       },
       {
         "MeasureID":1349,
-        "MeasureName":"Citi Bike availability, Population Density (evening, year)",
-        "MeasurementType":"Population Density (evening, year)",
+        "MeasureName":"Average Citi Bike availability, Density (evening, year)",
+        "MeasurementType":"Density (evening, year)",
         "how_calculated":null,
         "Sources":"",
-        "DisplayType":"",
+        "DisplayType":"per 1000 people",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -69314,6 +69258,189 @@
             "TimeDescription":"2022",
             "start_period":1640995200000,
             "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2426,
+    "IndicatorName":"Citi Bike stations",
+    "IndicatorLabel":"Citi Bike stations",
+    "IndicatorDescription":"Biking bridges gaps in existing public transportation systems and is a great way to exercise. Neighborhoods with fewer Citi Bike stations have limited access to this beneficial public resource. Neighborhoods with relatively few docks per station may also have limited access to bikes even if they have many stations.",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1350,
+        "MeasureName":"Citi Bike stations, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"The number of Citi Bike stations per geoentity.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1351,
+        "MeasureName":"Citi Bike stations, Density",
+        "MeasurementType":"Density",
+        "how_calculated":"The number of Citi Bike stations per geoentity, divided by the geoentity's square mileage.",
+        "Sources":"",
+        "DisplayType":"per square mile",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1352,
+        "MeasureName":"Citi Bike stations, Docks per station",
+        "MeasurementType":"Docks per station",
+        "how_calculated":"The total dock capacity of Citi Bike stations per geoentity, divided by total stations per geoentity.",
+        "Sources":null,
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
           }
         ],
         "VisOptions":[
