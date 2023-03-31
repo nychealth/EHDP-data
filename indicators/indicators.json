@@ -42320,7 +42320,7 @@
         "MeasurementType":"Percent",
         "how_calculated":"Tree canopy cover represents a 'top down' mapping perspective in which tree canopy over-hanging city features (such as sidewalks) is measured. The percent is calculated by dividing the area of tree canopy in km2 within the UHF neighborhood by the total land area (excluding inland water bodies).",
         "Sources":"The Built Environment & Health Project (BEH), Columbia University",
-        "DisplayType":"",
+        "DisplayType":"of land area",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
