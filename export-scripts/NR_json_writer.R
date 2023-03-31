@@ -139,6 +139,8 @@ EHDP_odbc <-
 # Top-level report details
 #-----------------------------------------------------------------------------------------#
 
+# 42 UHFs x 5 reports = 210 rows
+
 report_level_1 <- 
     EHDP_odbc %>% 
     tbl("reportLevel1") %>% 
@@ -172,6 +174,8 @@ report_level_1 <-
 # Report topic details
 #-----------------------------------------------------------------------------------------#
 
+# 42 UHFs x 21 topics (with a few topics on 2 reports) = 1092 rows
+
 report_level_2 <- 
     EHDP_odbc %>% 
     tbl("reportLevel2") %>% 
@@ -198,6 +202,8 @@ report_level_2 <-
 #-----------------------------------------------------------------------------------------#
 # Report data
 #-----------------------------------------------------------------------------------------#
+
+# 42 UHFs x 70 measures (with a few on 2-3 reports) = 3780 rows
 
 adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
 
