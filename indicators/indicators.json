@@ -37808,62 +37808,6 @@
     ]
   },
   {
-    "IndicatorID":2106,
-    "IndicatorName":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
-    "IndicatorLabel":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
-    "IndicatorDescription":null,
-    "Comparisons":null,
-    "Measures":[
-      {
-        "MeasureID":637,
-        "MeasureName":"Neighborhood Race\/Ethnicity - Non Hispanic Black, Percent",
-        "MeasurementType":"Percent",
-        "how_calculated":"Neighborhoods are ranked according to the percent of people who consider themselves non-Hispanic blacks. Rankings are divided into 3 approximately equal groupings of low, medium and high population density. ",
-        "Sources":"American Community Survey; United States Census",
-        "DisplayType":"",
-        "AvailableGeographyTypes":[
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
-          }
-        ],
-        "AvailableTimes":[
-          {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          }
-        ],
-        "VisOptions":[
-          {
-            "Map":[
-              {
-                "On":0,
-                "RankReverse":0
-              }
-            ],
-            "Trend":[
-              {
-                "On":0,
-                "Disparities":1
-              }
-            ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":777,
-                "SecondaryAxis":"y"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID":2108,
     "IndicatorName":"Deaths due to PM2.5",
     "IndicatorLabel":"Deaths due to PM2.5",
@@ -41281,7 +41225,7 @@
         "MeasurementType":"Percent",
         "how_calculated":"Tree canopy cover represents a 'top down' mapping perspective in which tree canopy over-hanging city features (such as sidewalks) is measured. The percent is calculated by dividing the area of tree canopy in km2 within the UHF neighborhood by the total land area (excluding inland water bodies).",
         "Sources":"The Built Environment & Health Project (BEH), Columbia University",
-        "DisplayType":"",
+        "DisplayType":"of land area",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -61787,8 +61731,8 @@
   },
   {
     "IndicatorID":2393,
-    "IndicatorName":"Children in homes with cockroaches (age 13 and under)",
-    "IndicatorLabel":"Children in homes with cockroaches (under age 14)",
+    "IndicatorName":"Children in homes with cockroaches (age 1-13)",
+    "IndicatorLabel":"Children in homes with cockroaches (age 1-13)",
     "IndicatorDescription":"The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
     "Comparisons":null,
     "Measures":[
@@ -61830,7 +61774,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -61875,13 +61819,13 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -61893,14 +61837,14 @@
   },
   {
     "IndicatorID":2394,
-    "IndicatorName":"Children in homes with mice (age 13 and under)",
-    "IndicatorLabel":"Children in homes with mice (age 13 and under)",
+    "IndicatorName":"Children in homes with mice (age 1-13)",
+    "IndicatorLabel":"Children in homes with mice (age 1-13)",
     "IndicatorDescription":"The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1233,
-        "MeasureName":"Children in homes with mice (age 13 and under), Number",
+        "MeasureName":"Children in homes with mice (age 1-13), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children ages 0-13 years living in a home with signs of mice in the past 90 days.",
         "Sources":"NYC KIDS Survey",
@@ -61930,13 +61874,13 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -61946,7 +61890,7 @@
       },
       {
         "MeasureID":1234,
-        "MeasureName":"Children in homes with mice (age 13 and under), Percent",
+        "MeasureName":"Children in homes with mice (age 1-13), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children ages 0-13 years living in a home with signs of mice in the past 90 days, divided by the number of children in the area; expressed as a percent.",
         "Sources":"NYC KIDS Survey",
@@ -61982,7 +61926,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -61999,14 +61943,14 @@
   },
   {
     "IndicatorID":2395,
-    "IndicatorName":"Children in homes with cracks or holes (age 13 and under)",
-    "IndicatorLabel":"Children in homes with cracks or holes (age 13 and under)",
+    "IndicatorName":"Children in homes with cracks or holes (age 1-13)",
+    "IndicatorLabel":"Children in homes with cracks or holes (age 1-13)",
     "IndicatorDescription":"Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches. Pests in the home can contaminate food and worsen asthma.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1235,
-        "MeasureName":"Children in homes with cracks or holes (age 13 and under), Number",
+        "MeasureName":"Children in homes with cracks or holes (age 1-13), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children ages 0-13 years living in homes with cracks or holes in the walls, ceiling or floors.",
         "Sources":"NYC KIDS Survey",
@@ -62036,13 +61980,13 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -62052,7 +61996,7 @@
       },
       {
         "MeasureID":1236,
-        "MeasureName":"Children in homes with cracks or holes (age 13 and under), Percent",
+        "MeasureName":"Children in homes with cracks or holes (age 1-13), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children ages 0-13 years living in homes with cracks or holes in the walls, ceiling or floors, divided by the number of children in the area; expressed as a percent.",
         "Sources":"NYC KIDS Survey",
@@ -62088,7 +62032,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
