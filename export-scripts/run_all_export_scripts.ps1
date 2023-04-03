@@ -28,7 +28,7 @@ $Env:data_env = Read-Host "staging [s] or production [p]?"
 # Tell conda which environment to load
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-conda activate r-reticulate
+conda activate EHDP-data
 
 #=========================================================================================#
 # R
