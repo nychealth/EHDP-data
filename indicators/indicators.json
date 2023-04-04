@@ -67990,7 +67990,7 @@
         "MeasureName":"Depression (adults), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number if adults aged 18 years and older who were determined to have probably depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled years 2016-2018, divided by all adults; expressed as percent",
-        "Sources":"",
+        "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68028,7 +68028,7 @@
         "MeasureName":"Depression (adults), Age-adjusted percent",
         "MeasurementType":"Age-adjusted percent",
         "how_calculated":"Estimated number if adults aged 18 years and older who were determined to have probably depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled years 2016-2018, divided by all adults; expressed as percent",
-        "Sources":"",
+        "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68116,7 +68116,7 @@
         "MeasureName":"Psychiatric hospitalizations (adults), Number",
         "MeasurementType":"Number",
         "how_calculated":"Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019",
-        "Sources":"",
+        "Sources":"New York City Bureau of Vital Statistics; New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68154,7 +68154,7 @@
         "MeasureName":"Psychiatric hospitalizations (adults), Rate",
         "MeasurementType":"Rate",
         "how_calculated":"Number of adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, divided by the population of adults (18 years and older) using NYC DOHMH intercensal estimates; expressed as cases per 10,000 residents.",
-        "Sources":"",
+        "Sources":"New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68192,7 +68192,7 @@
         "MeasureName":"Psychiatric hospitalizations (adults), Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
         "how_calculated":"Counts were calculated as described above and summed within six age groups (18-24, 25-34, 35-44, 45-54, 55-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group.  Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
-        "Sources":"",
+        "Sources":"New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68276,7 +68276,7 @@
         "MeasureName":"Serious psychological distress (adults), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, pooled years 2019-2020, rounded to the nearest 1,000",
-        "Sources":"",
+        "Sources":"New York City Bureau of Vital Statistics; New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68314,7 +68314,7 @@
         "MeasureName":"Serious psychological distress (adults), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, divided by all adults; expressed as percent",
-        "Sources":"",
+        "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68352,7 +68352,7 @@
         "MeasureName":"Serious psychological distress (adults), Age-adjusted percent",
         "MeasurementType":"Age-adjusted percent",
         "how_calculated":"Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, divided by all adults and age adjusted, pooled years 2019-2020, expressed as percent",
-        "Sources":"",
+        "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68440,7 +68440,7 @@
         "MeasureName":"Suicide deaths, Number",
         "MeasurementType":"Number",
         "how_calculated":"Number of suicide deaths, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.",
-        "Sources":"",
+        "Sources":"New York City Bureau of Vital Statistics; New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68478,7 +68478,7 @@
         "MeasureName":"Suicide deaths, Rate",
         "MeasurementType":"Rate",
         "how_calculated":"Number of suicide deaths, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019",
-        "Sources":"",
+        "Sources":"New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68516,7 +68516,7 @@
         "MeasureName":"Suicide deaths, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
         "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group.  Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
-        "Sources":"",
+        "Sources":"New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68835,7 +68835,7 @@
         "MeasureName":"Average Citi Bike availability, Number",
         "MeasurementType":"Number",
         "how_calculated":"Yearly bike availability is calculated by totaling average daily bike availability and dividing by the number of days in the year. Average daily bike availability is calculated from totaling bikes available at every station per each area as reported at every hour mark from 7am to 7pm on a given day and dividing by the number of hours (13). Values are rounded to the nearest whole number after all calculations are complete.",
-        "Sources":null,
+        "Sources":"Citi Bike GBFS feed",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -68893,7 +68893,7 @@
         "MeasureName":"Average Citi Bike availability, Density",
         "MeasurementType":"Density",
         "how_calculated":"Yearly bike availability is calculated by totaling average daily bike availability and dividing by the number of days in the year. Average daily bike availability is calculated from totaling bikes available per 1000 people at every station per each area as reported at every hour mark from 7am to 7pm on a given day and dividing by the number of hours (13). Values are rounded to the single decimal place after all calculations are complete.",
-        "Sources":null,
+        "Sources":"Citi Bike GBFS feed",
         "DisplayType":"per 1000 people",
         "AvailableGeographyTypes":[
           {
@@ -68956,7 +68956,7 @@
         "MeasureName":"Citi Bike stations, Number",
         "MeasurementType":"Number",
         "how_calculated":"The number of Citi Bike stations per geoentity.",
-        "Sources":"",
+        "Sources":"Citi Bike GBFS feed",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -69014,7 +69014,7 @@
         "MeasureName":"Citi Bike stations, Density",
         "MeasurementType":"Density",
         "how_calculated":"The number of Citi Bike stations per geoentity, divided by the geoentity's square mileage.",
-        "Sources":"",
+        "Sources":"Citi Bike GBFS feed",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
@@ -69072,7 +69072,7 @@
         "MeasureName":"Citi Bike stations, Docks per station",
         "MeasurementType":"Docks per station",
         "how_calculated":"The total dock capacity of Citi Bike stations per geoentity, divided by total stations per geoentity.",
-        "Sources":null,
+        "Sources":"Citi Bike GBFS feed",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
