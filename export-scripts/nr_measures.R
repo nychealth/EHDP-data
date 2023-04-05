@@ -220,5 +220,7 @@ reportLevel3_new <-
     tbl("reportLevel3_new") %>% 
     collect()
 
+reportLevel3_new %>% glimpse()
+
 reportLevel3_new %>% toJSON() %>% write_lines("neighborhood-reports/data/reportLevel3_new.json")
 

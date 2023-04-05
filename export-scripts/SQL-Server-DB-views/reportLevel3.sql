@@ -75,6 +75,7 @@ ALTER VIEW dbo.reportLevel3_new AS
         END AS trend_flag,
         
         ge.geo_entity_id,
+        ge.name AS geo_entity_name,
         geb.name AS borough_name,
         uz.Zipcodes  AS zip_code
 
