@@ -5,13 +5,15 @@ GO
 
 ALTER VIEW dbo.reportLevel3_new AS
 
-    SELECT TOP (100) PERCENT 
+    SELECT DISTINCT TOP (100) PERCENT 
 
-        rtd.report_content_id,
-        rtd.report_id,
-        rtd.report_topic_id,
+        -- rtd.report_content_id,
+        -- rtd.report_id,
+        -- r.title AS report_title,
+        -- rtd.report_topic_id,
+        -- rt.description AS report_topic,
         rtd.indicator_id AS MeasureID,
-        rtd.sort_key,
+        -- rtd.sort_key,
         rtd.rankReverse,
         rtd.indicator_desc + ' ' + (
             CASE
@@ -86,6 +88,7 @@ ALTER VIEW dbo.reportLevel3_new AS
          LEFT JOIN measurement_type     AS  mt ON id.measurement_type_id = mt.measurement_type_id
         INNER JOIN internal_indicator   AS  ii ON id.internal_id         = ii.internal_id
         INNER JOIN report               AS   r ON rtd.report_id          = r.report_id
+        INNER JOIN report_topic         AS  rt ON rt.report_topic_id     = rtd.report_topic_id
         INNER JOIN report_geo_type      AS rgt ON r.report_id            = rgt.report_id
         INNER JOIN geo_type             AS  gt ON rgt.geo_type_id        = gt.geo_type_id
         INNER JOIN geo_entity           AS  ge ON gt.geo_type_id         = ge.geo_type_id
@@ -206,9 +209,9 @@ ALTER VIEW dbo.reportLevel3_new AS
 
     WHERE r.public_flag = 1 
 
-    ORDER BY
-        rtd.report_id,
-        rtd.report_topic_id,
-        rtd.sort_key
+    -- ORDER BY
+    --     rtd.report_id,
+        -- rtd.report_topic_id
+    --     rtd.sort_key
 
 GO

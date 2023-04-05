@@ -214,11 +214,34 @@ report_topics_measures %>%
     )
 
 
+adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
 
 reportLevel3_new <- 
     EHDP_odbc %>% 
     tbl("reportLevel3_new") %>% 
-    collect()
+    collect() %>% 
+    mutate(
+        indicator_short_name = 
+            case_when(
+                MeasureID %in% adult_indicators ~ 
+                    str_replace(indicator_short_name, "\\(children\\)", "(adults)"),
+                TRUE ~ indicator_short_name
+            ),
+        indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
+        summary_bar_svg = 
+            str_c(
+                indicator_data_name,
+                "_",
+                geo_entity_id,
+                ".svg"
+            ),
+        
+        across(
+            c(indicator_name, indicator_description, measurement_type, units),
+            ~ as_utf8_character(enc2native(.x))
+        )
+        
+    )
 
 reportLevel3_new %>% glimpse()
 
