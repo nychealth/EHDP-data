@@ -8,11 +8,13 @@ ALTER VIEW [dbo].[ReportData] AS
     SELECT DISTINCT TOP (100) PERCENT 
         rc.report_id,
         a.indicator_id,
+        c.internal_id,
         b.data_field_name,
         c.name             AS 'indicator_name',
         c.description      AS 'indicator_description',
         m.description      AS 'measure_name',
         d.description      AS 'display_type',
+        y.year_id          AS 'year_id',
         y.start_period     AS 'start_date',
         y.end_period       AS 'end_date',
         y.time_type        AS 'time_type',

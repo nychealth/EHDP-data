@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW dbo.reportLevel3 AS
+ALTER VIEW dbo.reportLevel3_new AS
 
     SELECT TOP (100) PERCENT 
 
@@ -55,7 +55,7 @@ ALTER VIEW dbo.reportLevel3 AS
 
         CASE
             WHEN u.show_data_flag = 0 THEN 'N/A' + COALESCE(u.character_display, '')
-            ELSE Cast(
+            ELSE CAST(
                 CAST(nabeD.data_value AS decimal(18, 1)) AS varchar
             ) + COALESCE(u.character_display, '')
         END AS data_value_geo_entity,
@@ -78,28 +78,47 @@ ALTER VIEW dbo.reportLevel3 AS
             ELSE 0
         END AS trend_flag,
         
-        ge.geo_entity_id
+        ge.geo_entity_id,
+        geb.name AS borough_name,
+        uz.Zipcodes  AS zip_code
 
     FROM report_content AS rtd
 
-        JOIN indicator_definition   AS    id ON rtd.indicator_id       = id.indicator_id
-        LEFT JOIN display_data_type AS   ddt ON id.display_type_id     = ddt.display_type_id
-        LEFT JOIN measurement_type  AS    mt ON id.measurement_type_id = mt.measurement_type_id
-        JOIN internal_indicator     AS    ii ON id.internal_id         = ii.internal_id
-        JOIN report                 AS     r ON rtd.report_id          = r.report_id
-        JOIN report_geo_type        AS   rgt ON r.report_id            = rgt.report_id
-        JOIN geo_type               AS    gt ON rgt.geo_type_id        = gt.geo_type_id
-        JOIN geo_entity             AS    ge ON gt.geo_type_id         = ge.geo_type_id
+        INNER JOIN indicator_definition AS  id ON rtd.indicator_id       = id.indicator_id
+         LEFT JOIN display_data_type    AS ddt ON id.display_type_id     = ddt.display_type_id
+         LEFT JOIN measurement_type     AS  mt ON id.measurement_type_id = mt.measurement_type_id
+        INNER JOIN internal_indicator   AS  ii ON id.internal_id         = ii.internal_id
+        INNER JOIN report               AS   r ON rtd.report_id          = r.report_id
+        INNER JOIN report_geo_type      AS rgt ON r.report_id            = rgt.report_id
+        INNER JOIN geo_type             AS  gt ON rgt.geo_type_id        = gt.geo_type_id
+        INNER JOIN geo_entity           AS  ge ON gt.geo_type_id         = ge.geo_type_id
+         LEFT JOIN UHF_to_ZipList       AS  uz ON (
+            gt.geo_type_id = 3 AND
+            uz.UHF42 = ge.geo_entity_id
+        )
 
-        JOIN indicator_data         AS cityD ON rtd.indicator_id       = cityD.indicator_id
+        INNER JOIN (
+            
+            SELECT
+                borough_id,
+                name
+            FROM geo_entity
+            WHERE geo_type_id = 1
+
+        ) AS geb ON ge.borough_id = geb.borough_id
+
+        INNER JOIN indicator_data AS cityD ON (
+                rtd.indicator_id = cityD.indicator_id
+            )
             AND (
                 cityD.geo_type_id = 6 AND 
                 cityD.geo_entity_id = 1
             )
             AND cityD.year_id IN (
 
+                -- most recent year subquery
                 SELECT TOP 1 
-                    idata.year_id ---- most recent year subquery
+                    idata.year_id
                 FROM indicator_data AS idata
                     LEFT JOIN indicator_year AS iy ON idata.year_id = iy.year_id
                 GROUP BY
@@ -112,18 +131,18 @@ ALTER VIEW dbo.reportLevel3 AS
                     geo_type_id = 3
                 ORDER BY
                     end_period DESC
+            )
 
-            ) -- most recent year logic
-
-        JOIN indicator_data AS boroD ON rtd.indicator_id = boroD.indicator_id
+        INNER JOIN indicator_data AS boroD ON rtd.indicator_id = boroD.indicator_id
             AND (
                 boroD.geo_type_id = 1 AND 
                 boroD.geo_entity_id = ge.borough_id
             )
             AND boroD.year_id IN (
 
+                -- most recent year subquery
                 SELECT TOP 1 
-                    idata.year_id ---- most recent year subquery
+                    idata.year_id 
                 FROM indicator_data AS idata
                     LEFT JOIN indicator_year AS iy ON idata.year_id = iy.year_id
                 GROUP BY
@@ -136,18 +155,18 @@ ALTER VIEW dbo.reportLevel3 AS
                     geo_type_id = 3
                 ORDER BY
                     end_period DESC
+            )
 
-            ) -- most recent year logic
-
-        JOIN indicator_data AS nabeD ON rtd.indicator_id = nabeD.indicator_id
+        INNER JOIN indicator_data AS nabeD ON rtd.indicator_id = nabeD.indicator_id
             AND (
                 nabeD.geo_type_id = 3 AND 
                 nabeD.geo_entity_id = ge.geo_entity_id
             )
             AND nabeD.year_id IN (
 
+                -- most recent year subquery
                 SELECT TOP 1 
-                    idata.year_id ---- most recent year subquery
+                    idata.year_id
                 FROM indicator_data AS idata
                     LEFT JOIN indicator_year AS iy ON idata.year_id = iy.year_id
                 GROUP BY
@@ -160,24 +179,25 @@ ALTER VIEW dbo.reportLevel3 AS
                     geo_type_id = 3
                 ORDER BY
                     end_period DESC
+            )
 
-            ) -- most recent year logic
+        INNER JOIN unreliability AS u ON nabeD.unreliability_flag = u.unreliability_id
 
-        JOIN unreliability AS u ON nabeD.unreliability_flag = u.unreliability_id
-
-        JOIN Report_UHF_indicator_Rank AS rr ON (
+        INNER JOIN Report_UHF_indicator_Rank AS rr ON (
             rr.indicator_data_id = nabeD.indicator_data_id AND 
             rr.report_id = rtd.report_id
         )
 
-        JOIN Consolidated_Sources_by_IndicatorID AS s ON rtd.indicator_id = s.indicator_id
+        INNER JOIN Consolidated_Sources_by_IndicatorID AS s ON rtd.indicator_id = s.indicator_id
 
-        JOIN (
+        INNER JOIN (
+
+            -- Trend time period count subquery
             SELECT
                 count(rd.Time) AS TimeCount,
                 report_id,
                 geo_entity_id,
-                indicator_id --Trend time period count subquery
+                indicator_id
             FROM ReportData AS rd
             GROUP BY
                 report_id,
@@ -187,8 +207,7 @@ ALTER VIEW dbo.reportLevel3 AS
                 AND ge.geo_entity_id = rd.geo_entity_id
                 AND r.report_id      = rd.report_id
 
-    WHERE 
-        r.public_flag = 1 
+    WHERE r.public_flag = 1 
 
     ORDER BY
         rtd.report_id,
