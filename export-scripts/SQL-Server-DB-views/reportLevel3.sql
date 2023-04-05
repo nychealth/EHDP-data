@@ -10,7 +10,7 @@ ALTER VIEW dbo.reportLevel3_new AS
         rtd.report_content_id,
         rtd.report_id,
         rtd.report_topic_id,
-        rtd.indicator_id,
+        rtd.indicator_id AS MeasureID,
         rtd.sort_key,
         rtd.rankReverse,
         rtd.indicator_desc + ' ' + (
@@ -21,8 +21,9 @@ ALTER VIEW dbo.reportLevel3_new AS
                     WHERE rtd.year_id = iy.year_id
                 )
                 ELSE (
+                    -- most recent year subquery
                     SELECT TOP 1 
-                        iy.year_description ---- most recent year subquery
+                        iy.year_description
                     FROM
                         indicator_data AS idata
                         LEFT JOIN indicator_year AS iy ON idata.year_id = iy.year_id
@@ -36,16 +37,11 @@ ALTER VIEW dbo.reportLevel3_new AS
                         geo_type_id = 3
                     ORDER BY
                         end_period DESC
-                ) -- most recent year logic
+                )
             END
         ) AS indicator_name,
         
-        ii.short_name AS indicator_short_name,
-
-        -- add in URL for indicator
-        --sample: http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2049,1,1,Summarize
-
-        'http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=' + CONVERT(varchar, ii.internal_id) + ',1,1,Summarize' AS indicator_URL,
+        ii.short_name      AS indicator_short_name,
         ii.internal_id     AS IndicatorID,
         id.data_field_name AS indicator_data_name,
         ii.description     AS indicator_description,
