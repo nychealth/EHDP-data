@@ -218,7 +218,6 @@ report_topics_measures %>%
 reportLevel3_new <- 
     EHDP_odbc %>% 
     tbl("reportLevel3_new") %>% 
-    select(-indicator_URL) %>% 
     collect()
 
 reportLevel3_new %>% toJSON() %>% write_lines("neighborhood-reports/data/reportLevel3_new.json")
