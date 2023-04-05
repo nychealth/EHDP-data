@@ -1,0 +1,49 @@
+report_topics:
+  - report_topic: Adult Asthma
+    report_topic_description: Age-adjusted rates per 10,000 residents (or percent where indicated)
+    MeasureID:
+      - 31
+      - 1199
+      - 1204
+  - report_topic: Child Asthma
+    report_topic_description: Rates per 10,000 residents, unless otherwise indicated.
+    MeasureID:
+      - 696
+      - 1196
+      - 1201
+  - report_topic: "Health Burden: Fine Particles (PM2.5) "
+    report_topic_description: Estimated health events attributable to PM2.5 exposures, (average annual rate per 100,000 residents)
+    MeasureID:
+      - 648
+      - 657
+  - report_topic: "Health Burden: Ozone (O3)"
+    report_topic_description: Estimated health events attributable to ozone (O3) exposures,(average annual rate per 100,000 residents), April through September
+    MeasureID:
+      - 653
+      - 655
+      - 659
+      - 661
+  - report_topic: Home Maintenance
+    report_topic_description: Percentage of homes with conditions that can affect asthma.
+    MeasureID:
+      - 76
+      - 80
+      - 1248
+  - report_topic: Indoor Air Quality
+    report_topic_description: Percentage of homes with potential sources of allergens and pollutants that can make asthma symptoms worse.
+    MeasureID:
+      - 47
+      - 245
+      - 292
+      - 625
+      - 634
+  - report_topic: Outdoor Air Quality
+    report_topic_description: Outdoor pollutants that can worsen asthma symptoms.
+    MeasureID:
+      - 365
+      - 386
+  - report_topic: Social and Economic Risk Factors
+    report_topic_description: These indicators describe conditions that make a neighborhood more at-risk for asthma.
+    MeasureID:
+      - 221
+      - 672
