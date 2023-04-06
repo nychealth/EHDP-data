@@ -49,7 +49,7 @@ ALTER VIEW dbo.reportLevel3_new AS
         ii.description     AS indicator_description,
         ddt.description    AS units,
         mt.description     AS measurement_type,
-        '4'                AS indicator_neighborhood_rank, -- this is a placeholder for 4/42 and may be going away
+        rr.reportRank      AS indicator_neighborhood_rank, -- this is a placeholder for 4/42 and may be going away
 
         CASE
             WHEN u.show_data_flag = 0 THEN 'N/A' + COALESCE(u.character_display, '')
