@@ -15,7 +15,7 @@ ALTER VIEW dbo.reportLevel3_new AS
         rtd.indicator_id AS MeasureID,
         -- rtd.sort_key,
         rtd.rankReverse,
-        rtd.indicator_desc + ' ' + (
+        rtd.indicator_desc + ', ' + (
             CASE
                 WHEN use_most_recent_year = 0 THEN (
                     SELECT year_description
