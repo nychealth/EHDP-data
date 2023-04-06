@@ -27,16 +27,27 @@ ALTER VIEW dbo.Report_UHF_indicator_Rank AS
                 id.indicator_data_id -- arbitrarily breaking ties, but it'll be consistent at least
         ) AS Tertile,
 
-        RANK() OVER (
-            PARTITION BY 
-                rc.report_id,
-                id.indicator_id,
-                id.geo_type_id,
-                id.year_id
-            ORDER BY 
-                id.data_value DESC,
-                id.indicator_data_id
-        ) AS RankByValue,
+        CASE WHEN rc.rankReverse = 0 
+            THEN RANK() OVER (
+                PARTITION BY 
+                    rc.report_id,
+                    id.indicator_id,
+                    id.geo_type_id,
+                    id.year_id
+                ORDER BY 
+                    id.data_value DESC,
+                    id.indicator_data_id
+            )
+            ELSE RANK() OVER (
+                PARTITION BY 
+                    rc.report_id,
+                    id.indicator_id,
+                    id.geo_type_id,
+                    id.year_id
+                ORDER BY 
+                    id.data_value ASC,
+                    id.indicator_data_id
+            ) END AS RankByValue,
 
         -- now calculate tertiles, accounting for rank reverse
         CASE WHEN rc.rankReverse = 0 

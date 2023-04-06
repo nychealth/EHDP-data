@@ -263,3 +263,5 @@ reportLevel3_new %>%
     add_count(MeasureID) %>% 
     filter(n > 1)
 
+
+EHDP_odbc %>% tbl("Report_UHF_indicator_Rank") %>% glimpse()
