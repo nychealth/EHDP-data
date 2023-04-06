@@ -5,7 +5,7 @@ GO
 
 ALTER VIEW dbo.reportLevel3_new AS
 
-    SELECT DISTINCT TOP (100) PERCENT 
+    SELECT DISTINCT
 
         -- rtd.report_content_id,
         -- rtd.report_id,
@@ -83,16 +83,16 @@ ALTER VIEW dbo.reportLevel3_new AS
 
     FROM report_content AS rtd
 
-        INNER JOIN indicator_definition AS  id ON rtd.indicator_id       = id.indicator_id
-         LEFT JOIN display_data_type    AS ddt ON id.display_type_id     = ddt.display_type_id
-         LEFT JOIN measurement_type     AS  mt ON id.measurement_type_id = mt.measurement_type_id
-        INNER JOIN internal_indicator   AS  ii ON id.internal_id         = ii.internal_id
         INNER JOIN report               AS   r ON rtd.report_id          = r.report_id
-        INNER JOIN report_topic         AS  rt ON rt.report_topic_id     = rtd.report_topic_id
+        INNER JOIN indicator_definition AS  id ON rtd.indicator_id       = id.indicator_id
+        INNER JOIN display_data_type    AS ddt ON id.display_type_id     = ddt.display_type_id
+        INNER JOIN measurement_type     AS  mt ON id.measurement_type_id = mt.measurement_type_id
+        INNER JOIN internal_indicator   AS  ii ON id.internal_id         = ii.internal_id
+        -- INNER JOIN report_topic         AS  rt ON rt.report_topic_id     = rtd.report_topic_id
         INNER JOIN report_geo_type      AS rgt ON r.report_id            = rgt.report_id
         INNER JOIN geo_type             AS  gt ON rgt.geo_type_id        = gt.geo_type_id
         INNER JOIN geo_entity           AS  ge ON gt.geo_type_id         = ge.geo_type_id
-         LEFT JOIN UHF_to_ZipList       AS  uz ON (
+        INNER JOIN UHF_to_ZipList       AS  uz ON (
             gt.geo_type_id = 3 AND
             uz.UHF42 = ge.geo_entity_id
         )
@@ -207,7 +207,9 @@ ALTER VIEW dbo.reportLevel3_new AS
                 AND ge.geo_entity_id = rd.geo_entity_id
                 AND r.report_id      = rd.report_id
 
-    WHERE r.public_flag = 1 
+    WHERE 
+        r.public_flag = 1 AND 
+        rtd.report_id IN (73, 77, 78, 79, 82)
 
     -- ORDER BY
     --     rtd.report_id,

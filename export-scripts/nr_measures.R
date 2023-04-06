@@ -235,15 +235,31 @@ reportLevel3_new <-
                 geo_entity_id,
                 ".svg"
             ),
-        
         across(
             c(indicator_name, indicator_description, measurement_type, units),
             ~ as_utf8_character(enc2native(.x))
         )
-        
-    )
+    ) %>% 
+    distinct(MeasureID, geo_entity_id, .keep_all = TRUE)
+
 
 reportLevel3_new %>% glimpse()
 
 reportLevel3_new %>% toJSON() %>% write_lines("neighborhood-reports/data/reportLevel3_new.json")
+
+
+reportLevel3_new %>% nrow()
+reportLevel3_new %>% distinct(MeasureID, indicator_desc) %>% nrow()
+reportLevel3_new %>% distinct(MeasureID, geo_entity_id, indicator_desc) %>% nrow()
+
+
+reportLevel3_new %>% 
+    select(MeasureID, geo_entity_id, indicator_desc) %>% 
+    add_count(MeasureID, geo_entity_id) %>% 
+    filter(n > 1)
+
+reportLevel3_new %>% 
+    distinct(MeasureID, indicator_desc) %>% 
+    add_count(MeasureID) %>% 
+    filter(n > 1)
 
