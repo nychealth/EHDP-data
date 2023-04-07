@@ -33,26 +33,36 @@ ALTER VIEW [dbo].[NR_data_export] AS
         idef.rankReverse,
         rr.RankByValue       AS indicator_neighborhood_rank,
         rr.reportRank        AS data_value_rank,
+
+        -- bar chart filename
         idef.data_field_name + '_' + CAST(id.geo_entity_id AS varchar) + '.svg' AS summary_bar_svg,
 
+        -- formatted neighborhood data value
         CASE WHEN un.show_data_flag = 0 THEN 'N/A' + COALESCE(un.character_display, '')
             ELSE CAST(
                 CAST(id.data_value AS decimal(18, 1)) AS varchar
             ) + COALESCE(un.character_display, '')
         END AS data_value_geo_entity,
 
+        -- unformatted neighborhood data value
         CASE WHEN un.show_data_flag = 0 THEN NULL
             ELSE CAST(id.data_value AS decimal(18, 1))
         END AS unmodified_data_value_geo_entity,
 
+        -- unformatted borough data value
         CAST(boro.data_value AS decimal(18, 1)) AS data_value_boro,
+
+        -- unformatted city data value
         CAST(city.data_value AS decimal(18, 1)) AS data_value_nyc,
 
+        -- data reliability flag
         CASE WHEN un.message IS null THEN ''
             ELSE un.character_display + ' ' + un.message
         END AS nbr_data_note
 
     FROM report_content AS rc
+
+        -- joining UHF42 data
 
         INNER JOIN (
             SELECT * 
@@ -61,6 +71,8 @@ ALTER VIEW [dbo].[NR_data_export] AS
         ) AS id ON (
             id.indicator_id  = rc.indicator_id
         )
+
+        -- joining subtopic indicators, to get flags
 
         INNER JOIN subtopic_indicators AS si ON (
             si.indicator_id        = id.indicator_id AND 
@@ -80,10 +92,14 @@ ALTER VIEW [dbo].[NR_data_export] AS
         INNER JOIN unreliability    AS  un ON id.unreliability_flag    = un.unreliability_id
         INNER JOIN report           AS rpt ON rc.report_id             = rpt.report_id
 
+        -- getting zips from UHFs
+
         INNER JOIN UHF_to_ZipList AS uz ON (
             uz.UHF42 = ge.geo_entity_id AND
             gt.geo_type_id = 3
         )
+
+        -- getting boro names
 
         INNER JOIN (
             SELECT borough_id, name
@@ -91,19 +107,7 @@ ALTER VIEW [dbo].[NR_data_export] AS
             WHERE geo_type_id = 1
         ) AS geb ON geb.borough_id = ge.borough_id
 
-        -- INNER JOIN indicator_data AS city ON (
-        --         city.indicator_id = rc.indicator_id AND
-        --         city.geo_type_id = 6 AND 
-        --         city.geo_entity_id = 1 AND
-        --         city.year_id = id.year_id
-        --     )
-
-        -- INNER JOIN indicator_data AS boro ON (
-        --         boro.indicator_id = rc.indicator_id AND
-        --         boro.geo_type_id = 1 AND 
-        --         boro.geo_entity_id = ge.borough_id AND
-        --         boro.year_id = id.year_id
-        --     )
+        -- joining city data
 
         INNER JOIN (
             SELECT 
@@ -119,6 +123,8 @@ ALTER VIEW [dbo].[NR_data_export] AS
             city.year_id = id.year_id
         )
 
+        -- joining boro data
+
         INNER JOIN (
             SELECT 
                 indicator_id, 
@@ -133,11 +139,15 @@ ALTER VIEW [dbo].[NR_data_export] AS
             boro.year_id = id.year_id
         )
 
+        -- getting UHF ranks for this indicator
+
         INNER JOIN Report_UHF_indicator_Rank AS rr ON (
             rr.indicator_data_id = id.indicator_data_id AND 
             rr.report_id         = rc.report_id
         )
 
+        -- getting indicator sources
+        
         INNER JOIN Consolidated_Sources_by_IndicatorID AS s ON rc.indicator_id = s.indicator_id
 
     WHERE
