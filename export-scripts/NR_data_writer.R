@@ -194,7 +194,8 @@ report_data_0 <-
         neighborhood,
         data_value_geo_entity,
         unmodified_data_value_geo_entity,
-        nbr_data_note
+        nbr_data_note,
+        summary_bar_svg
     )
 
 
