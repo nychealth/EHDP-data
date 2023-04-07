@@ -26,6 +26,8 @@ warnings.simplefilter("ignore")
 base_dir = os.environ.get("base_dir", "")
 conda_prefix = os.environ.get("CONDA_PREFIX")
 
+# set environment vars if not already set
+
 if (base_dir == ""):
     
     # get current folder
@@ -47,22 +49,33 @@ if (base_dir == ""):
     os.environ["base_dir"] = base_dir
 
 
+if (conda_prefix == ""):
+    
+    # get conda root folder
+    
+    conda_root = os.environ.get("_CONDA_ROOT")
+
+    conda_prefix = conda_root + "/envs/EHDP-data"
+    
+    os.environ["conda_prefix"] = conda_prefix
+
+
 def chart_fun(ind, df, base_dir, conda_prefix):
 
     # - filter by data field name to create dataset
-
+    
     dset = df[df.indicator_data_name == df['indicator_data_name'][ind]]
-    dset = dset.sort_values('data_value_geo_entity')
-
+    dset = dset.sort_values('unmodified_data_value_geo_entity')
+    
     # - use Altair, the python connector to Vega-Lite
     # - https://altair-viz.github.io/getting_started/overview.html
-
+    
     chart = (
         alt.Chart(dset)
             .mark_bar()
             .encode(
                 x = alt.X('neighborhood', sort = 'y', axis = None),
-                y = alt.Y('data_value_geo_entity', axis = None),
+                y = alt.Y('unmodified_data_value_geo_entity', axis = None),
                 
                 # The highlight will be set on the result of a conditional statement
                 
@@ -149,7 +162,7 @@ for file in data_files:
     
     df = pd.DataFrame(
         df, 
-        columns = ['indicator_data_name', 'neighborhood', 'data_value_geo_entity', 'geo_join_id']
+        columns = ['indicator_data_name', 'neighborhood', 'unmodified_data_value_geo_entity', 'geo_join_id']
     )
     
     # - then loop through the list
