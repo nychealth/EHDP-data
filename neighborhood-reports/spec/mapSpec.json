@@ -42,9 +42,9 @@
                 "shape": {"field": "geo", "type": "geojson"},
                 "color": {
                     "condition": {
-                        "test": "isValid(datum.data_value)",
+                        "test": "isValid(datum.unmodified_data_value_geo_entity)",
                         "bin": false,
-                        "field": "data_value",
+                        "field": "unmodified_data_value_geo_entity",
                         "type": "quantitative",
                         "scale": {"scheme": {"name": "greens", "extent": [0, 1]}},
                         "legend": {"orient": "top-left", "title": null}
@@ -65,7 +65,7 @@
                 },
                 "tooltip":[
                     {"field":"neighborhood", "title": "Neighborhood", "type":"nominal"},
-                    {"field":"data_value", "title": "Value", "type":"quantitative"}
+                    {"field":"unmodified_data_value_geo_entity", "title": "Value", "type":"quantitative"}
                 ]
             }
         },

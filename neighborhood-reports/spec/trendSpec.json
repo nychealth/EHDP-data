@@ -14,7 +14,7 @@
           "axis": {"title": null, "labelAngle": 45}
         },
         "y": {
-          "field": "data_value",
+          "field": "unmodified_data_value_geo_entity",
           "title": "Value",
           "type": "quantitative",
           "axis": {"title": null}
@@ -38,7 +38,7 @@
           "axis": {"title": null, "labelAngle": 45}
         },
         "y": {
-          "field": "data_value",
+          "field": "unmodified_data_value_geo_entity",
           "title": "Value",
           "type": "quantitative",
           "axis": {"title": null}

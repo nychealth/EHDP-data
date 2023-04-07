@@ -13,11 +13,11 @@
         "field": "neighborhood",
         "title": "Neighborhood",
         "type": "nominal",
-        "sort": {"op": "mean", "field": "data_value"},
+        "sort": {"op": "mean", "field": "unmodified_data_value_geo_entity"},
         "axis":null
       },
       "y": {
-        "field": "data_value",
+        "field": "unmodified_data_value_geo_entity",
         "title": "Value",
         "type": "quantitative",
         "axis": {"title": ""}
