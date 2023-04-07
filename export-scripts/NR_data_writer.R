@@ -329,6 +329,7 @@ report_content <-
         rankReverse,
         indicator_name,
         indicator_short_name,
+        indicator_long_name,
         IndicatorID,
         indicator_data_name,
         indicator_description,
