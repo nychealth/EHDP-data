@@ -148,13 +148,6 @@ NR_data_export <-
             ),
         indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
         summary_bar_svg = str_replace(summary_bar_svg, "PM2\\.", "PM2-"),
-        # summary_bar_svg = 
-        #     str_c(
-        #         indicator_data_name,
-        #         "_",
-        #         geo_entity_id,
-        #         ".svg"
-        #     ),
         time_type = str_trim(time_type),
         across(
             c(indicator_name, indicator_description, measurement_type, units),
