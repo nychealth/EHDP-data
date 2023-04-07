@@ -33,7 +33,7 @@ ALTER VIEW [dbo].[NR_data_export] AS
         idef.rankReverse,
         rr.RankByValue       AS indicator_neighborhood_rank,
         rr.reportRank        AS data_value_rank,
-        idef.data_field_name + '-' + CAST(id.geo_entity_id AS varchar) + '.svg' AS summary_bar_svg,
+        idef.data_field_name + '_' + CAST(id.geo_entity_id AS varchar) + '.svg' AS summary_bar_svg,
 
         CASE WHEN un.show_data_flag = 0 THEN 'N/A' + COALESCE(un.character_display, '')
             ELSE CAST(
