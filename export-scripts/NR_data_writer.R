@@ -157,14 +157,14 @@ NR_data_export <-
 
 
 #=========================================================================================#
-# CSV data for Vega Lite viz
+# CSV data for Vega Lite viz ----
 #=========================================================================================#
 
 #-----------------------------------------------------------------------------------------#
 # selecting columns
 #-----------------------------------------------------------------------------------------#
 
-report_data_0 <- 
+report_data_for_js_0 <- 
     NR_data_export %>% 
     select(
         report_id,
@@ -196,10 +196,10 @@ report_data_0 <-
 #-----------------------------------------------------------------------------------------#
 
 ind_has_annual <- 
-    report_data_0 %>% 
+    report_data_for_js_0 %>% 
     filter(time_type %>% str_detect("(?i)Annual Average")) %>% 
     semi_join(
-        report_data_0,
+        report_data_for_js_0,
         .,
         by = c("indicator_data_name", "neighborhood")
     ) %>% 
@@ -212,9 +212,9 @@ ind_has_annual <-
 # keeping annual average measure if it exists
 #-----------------------------------------------------------------------------------------#
 
-report_data <- 
+report_data_for_js <- 
     left_join(
-        report_data_0,
+        report_data_for_js_0,
         ind_has_annual,
         by = "indicator_data_name",
         multiple = "all"
@@ -243,8 +243,8 @@ report_data <-
 
 # split by report_id, named using title
 
-report_data_list <- 
-    report_data %>% 
+report_data_for_js_list <- 
+    report_data_for_js %>% 
     select(-indicator_description) %>% 
     group_by(report_id) %>% 
     group_split() %>% 
@@ -264,7 +264,7 @@ report_data_list <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 nr_indicator_names <- 
-    report_data %>% 
+    report_data_for_js %>% 
     select(title, indicator_name, indicator_description) %>% 
     distinct() %>% 
     group_by(title) %>% 
@@ -322,7 +322,7 @@ time_count <-
 # keeping only most recent
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-report_content <- 
+report_data_for_hugo <- 
     NR_data_export %>% 
     select(
         MeasureID,
@@ -381,7 +381,7 @@ report_content <-
 # saving big report data file
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-report_content %>% toJSON() %>% write_lines("neighborhood-reports/data/report_content.json")
+report_data_for_hugo %>% toJSON() %>% write_lines("neighborhood-reports/data/report_data_for_hugo.json")
 
 
 #=========================================================================================#
