@@ -5,7 +5,8 @@ GO
 
 ALTER VIEW [dbo].[NR_data_export] AS
 
-    SELECT DISTINCT TOP (100) PERCENT 
+    SELECT DISTINCT
+
         rc.report_id,
         rpt.title,
         id.indicator_id      AS MeasureID,
@@ -144,10 +145,5 @@ ALTER VIEW [dbo].[NR_data_export] AS
         rpt.public_flag = 1 AND -- only public reports
         si.creator_id = 1 AND -- repurpose as stage_flag: 0 = don't stage, 1 = stage
         rpt.report_id IN (73, 77, 78, 79, 82)
-
-    ORDER BY
-        id.indicator_id,
-        id.geo_entity_id,
-        iy.end_period DESC
 
 GO

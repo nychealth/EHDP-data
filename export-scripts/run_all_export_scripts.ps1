@@ -51,21 +51,12 @@ Write-Output ">>> EXP_measure_comparisons_writer"
 Rscript $base_dir\export-scripts\EXP_measure_comparisons_writer.R
 
 #-----------------------------------------------------------------------------------------#
-# NR viz data (for VegaLite)
+# NR data
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> NR_data_csv_writer"
+Write-Output ">>> NR_data_writer"
 
-Rscript $base_dir\export-scripts\NR_data_csv_writer.R
-
-#-----------------------------------------------------------------------------------------#
-# NR JSON data (for report)
-#-----------------------------------------------------------------------------------------#
-
-Write-Output ">>> NR_json_writer"
-
-Rscript $base_dir\export-scripts\NR_json_writer.R
-
+Rscript $base_dir\export-scripts\NR_data_writer.R
 
 #=========================================================================================#
 # Python

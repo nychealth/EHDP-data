@@ -147,6 +147,14 @@ NR_data_export <-
                 TRUE ~ indicator_short_name
             ),
         indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
+        summary_bar_svg = str_replace(summary_bar_svg, "PM2\\.", "PM2-"),
+        # summary_bar_svg = 
+        #     str_c(
+        #         indicator_data_name,
+        #         "_",
+        #         geo_entity_id,
+        #         ".svg"
+        #     ),
         time_type = str_trim(time_type),
         across(
             c(indicator_name, indicator_description, measurement_type, units),
@@ -250,8 +258,10 @@ report_data_list <-
     walk(
         ~ write_csv(
             .x,
-            paste0(base_dir, "/neighborhood-reports/data/", str_replace_all(unique(.x$title), " ", "_"), "_data.csv")
-            
+            paste0(
+                base_dir, "/neighborhood-reports/data/", 
+                unique(.x$title) %>% str_replace_all(" ", "_") %>% str_replace_all(",", ""), "_data.csv"
+            )
         )
     )
 
