@@ -45,7 +45,7 @@ ALTER VIEW [dbo].[NR_data_export] AS
             ELSE CAST(id.data_value AS decimal(18, 1))
         END AS unmodified_data_value_geo_entity,
 
-        CAST(boro.data_value AS decimal(18, 1)) AS data_value_borough,
+        CAST(boro.data_value AS decimal(18, 1)) AS data_value_boro,
         CAST(city.data_value AS decimal(18, 1)) AS data_value_nyc,
 
         CASE WHEN un.message IS null THEN ''

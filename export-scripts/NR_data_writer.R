@@ -338,7 +338,7 @@ report_content <-
         indicator_neighborhood_rank,
         data_value_geo_entity,
         unmodified_data_value_geo_entity,
-        data_value_borough,
+        data_value_boro,
         data_value_nyc,
         data_value_rank,
         nbr_data_note,
