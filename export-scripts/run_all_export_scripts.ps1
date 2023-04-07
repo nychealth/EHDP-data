@@ -25,7 +25,7 @@ $Env:base_dir = $base_dir
 $Env:data_env = Read-Host "staging [s] or production [p]?"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# Tell conda which environment to load
+# Tell conda which environment to use
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 conda activate EHDP-data
