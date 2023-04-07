@@ -219,6 +219,7 @@ adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
 reportLevel3_new <- 
     EHDP_odbc %>% 
     tbl("reportLevel3_new") %>% 
+    arrange(MeasureID, geo_entity_id) %>% 
     collect() %>% 
     mutate(
         indicator_short_name = 
@@ -265,3 +266,102 @@ reportLevel3_new %>%
 
 
 EHDP_odbc %>% tbl("Report_UHF_indicator_Rank") %>% glimpse()
+
+
+ReportData <- 
+    EHDP_odbc %>% 
+    tbl("ReportData") %>% 
+    rename(MeasureID = indicator_id) %>% 
+    arrange(MeasureID, geo_entity_id, desc(end_date)) %>% 
+    collect() %>% 
+    distinct(MeasureID, geo_entity_id, .keep_all = TRUE)
+
+
+reportLevel3_new_2 <- 
+    reportLevel3_new %>% 
+    select(MeasureID, geo_entity_id, year_id)
+
+ReportData_2 <- 
+    ReportData %>% 
+    select(MeasureID, geo_entity_id, year_id)
+
+
+reportLevel3_new_3 <- 
+    reportLevel3_new %>% 
+    distinct(MeasureID, year_id)
+
+ReportData_3 <- 
+    ReportData %>% 
+    distinct(MeasureID, year_id)
+
+
+anti_join(
+    reportLevel3_new_3,
+    ReportData_3
+)
+
+anti_join(
+    ReportData_3,
+    reportLevel3_new_3
+)
+
+
+report_content <- 
+    EHDP_odbc %>% 
+    tbl("report_content") %>% 
+    collect()
+
+report_content %>% filter(indicator_id %in% c(536, 540))
+
+
+indicator_data_2 <- 
+    EHDP_odbc %>% 
+    tbl("indicator_data") %>% 
+    filter(indicator_id %in% c(536, 540), year_id %in% c(41, 44, 45)) %>% 
+    collect()
+
+
+indicator_data_2
+
+indicator_data_2 %>% count(indicator_id, geo_type_id, year_id)
+
+
+subtopic_indicators_2 <- 
+    EHDP_odbc %>% 
+    tbl("subtopic_indicators") %>% 
+    filter(indicator_id %in% c(536, 540), year_id %in% c(41, 44, 45)) %>% 
+    collect()
+
+subtopic_indicators_2 %>% count(indicator_id, geo_type_id, year_id, creator_id)
+
+
+
+
+NR_data_export <- 
+    EHDP_odbc %>% 
+    tbl("NR_data_export") %>% 
+    collect()
+
+
+NR_data_export_2 <- 
+    EHDP_odbc %>% 
+    tbl("NR_data_export_2") %>% 
+    collect()
+
+city_data <- 
+    EHDP_odbc %>% 
+    tbl("indicator_data") %>% 
+    filter(geo_type_id == 6, geo_entity_id == 1) %>% 
+    select(MeasureID = indicator_id, data_value_nyc = data_value) %>% 
+    distinct() %>%
+    collect()
+
+boro_data <- 
+    EHDP_odbc %>% 
+    tbl("indicator_data") %>% 
+    filter(geo_type_id == 1) %>% 
+    select(MeasureID = indicator_id, data_value_boro = data_value) %>% 
+    collect()
+
+
+
