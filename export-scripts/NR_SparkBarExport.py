@@ -156,7 +156,7 @@ for file in data_files:
 
     results = Parallel(
         n_jobs = cpus, 
-        prefer = "threads", 
+        # prefer = "threads", 
         verbose = 1
     )(delayed(chart_fun)(ind, df, base_dir, conda_prefix) for ind in df.index)
 
