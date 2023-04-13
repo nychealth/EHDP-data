@@ -68905,6 +68905,68 @@
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
           {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1365,
+        "MeasureName":"Average Citi Bike availability, Bikes per station",
+        "MeasurementType":"Bikes per station",
+        "how_calculated":"Yearly bike availability is calculated by totaling average daily bike availability and dividing by the number of days in the year. Average daily bike availability is calculated from totaling bikes available at every station per each area as reported at every hour mark from 7am to 7pm on a given day and dividing by the number of hours (13). Values are rounded to the nearest whole number after all calculations and are complete and then divided by the number of stations per area.",
+        "Sources":null,
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
             "GeoType":"Citywide",
             "GeoTypeDescription":"Citywide"
           },
