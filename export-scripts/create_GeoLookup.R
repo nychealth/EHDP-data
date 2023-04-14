@@ -148,7 +148,8 @@ geo_type <-
     select(
         geo_type_id, 
         geo_type_name,
-        geo_type_description
+        geo_type_description,
+        geo_type_short_desc = description
     ) %>% 
     filter(
         !geo_type_name %in% 
@@ -205,6 +206,7 @@ geo_type_entity <-
     select(
         GeoType = geo_type_name,
         GeoTypeDesc = geo_type_description,
+        GeoTypeShortDesc = geo_type_short_desc,
         GeoID = geo_entity_id,
         Name = name,
         BoroID = borough_id,
