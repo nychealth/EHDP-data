@@ -66,6 +66,14 @@ Write-Output ">>> NR_json_writer"
 
 Rscript $base_dir\export-scripts\NR_json_writer.R
 
+#-----------------------------------------------------------------------------------------#
+# GeoLookup
+#-----------------------------------------------------------------------------------------#
+
+Write-Output ">>> create_GeoLookup"
+
+Rscript $base_dir\export-scripts\create_GeoLookup.R
+
 
 #=========================================================================================#
 # Python
