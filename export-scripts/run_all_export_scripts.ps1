@@ -70,9 +70,9 @@ Rscript $base_dir\export-scripts\NR_json_writer.R
 # GeoLookup
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> create_GeoLookup"
+# Write-Output ">>> create_GeoLookup"
 
-Rscript $base_dir\export-scripts\create_GeoLookup.R
+# Rscript $base_dir\export-scripts\create_GeoLookup.R
 
 
 #=========================================================================================#
