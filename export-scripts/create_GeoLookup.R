@@ -495,6 +495,23 @@ nyc_kids_2021 <-
     arrange(GeoID)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# harbor areas
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+ny_harbor <- 
+    read_sf("geography/ny_harbor.topo.json", crs = st_crs(4326)) %>% 
+    st_transform(st_crs(2263)) %>% 
+    mutate(center = st_centroid(geometry)) %>% 
+    as_tibble() %>% 
+    transmute(
+        GeoType = "NYHarbor",
+        GeoID = GEOCODE,
+        Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
+        Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
+    ) %>%  
+    arrange(GeoID)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # row-binding
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -513,7 +530,8 @@ all_geos <-
         nyc_kids_nodate,
         nyc_kids_2017,
         nyc_kids_2019,
-        nyc_kids_2021
+        nyc_kids_2021,
+        ny_harbor
     ) %>% 
     mutate(roworder = 1:nrow(.))
 
