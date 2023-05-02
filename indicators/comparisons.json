@@ -830,8 +830,8 @@
   {
     "ComparisonID": 717,
     "ComparisonName": "Fecal coliform",
-    "LegendTitle": "Bacteria type",
-    "Y_axis_title": "Geometric mean",
+    "LegendTitle": "NYS Standard",
+    "Y_axis_title": "Fecal coliform (geometric mean)",
     "Indicators": [
       {
         "IndicatorID": 2427,
@@ -842,8 +842,8 @@
   {
     "ComparisonID": 718,
     "ComparisonName": "Enterococcui",
-    "LegendTitle": "Bacteria type",
-    "Y_axis_title": "Geometric mean",
+    "LegendTitle": "NYS Standard",
+    "Y_axis_title": "Enterococcui (geometric mean)",
     "Indicators": [
       {
         "IndicatorID": 2427,

@@ -67149,7 +67149,7 @@
         "MeasureID":1350,
         "MeasureName":"Citi Bike stations, Number",
         "MeasurementType":"Number",
-        "how_calculated":"The number of Citi Bike stations per geoentity.",
+        "how_calculated":"The number of Citi Bike stations per geographic area.",
         "Sources":"Citi Bike GBFS feed",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -67207,7 +67207,7 @@
         "MeasureID":1351,
         "MeasureName":"Citi Bike stations, Density",
         "MeasurementType":"Density",
-        "how_calculated":"The number of Citi Bike stations per geoentity, divided by the geoentity's square mileage.",
+        "how_calculated":"The number of Citi Bike stations per geographic area, divided by the area's square mileage.",
         "Sources":"Citi Bike GBFS feed",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
@@ -67282,7 +67282,7 @@
         "MeasureID":1352,
         "MeasureName":"Citi Bike stations, Docks per station",
         "MeasurementType":"Docks per station",
-        "how_calculated":"The total dock capacity of Citi Bike stations per geoentity, divided by total stations per geoentity.",
+        "how_calculated":"The total dock capacity of Citi Bike stations per geographic area, divided by total stations per area.",
         "Sources":"Citi Bike GBFS feed",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -67345,7 +67345,7 @@
         "MeasureID":1372,
         "MeasureName":"Citi Bike stations, Docks per person",
         "MeasurementType":"Docks per person",
-        "how_calculated":"The total dock capacity of Citi Bike stations per geoentity, divided by total population per geoentity.",
+        "how_calculated":"The total dock capacity of Citi Bike stations per geographic area, divided by total population per area.",
         "Sources":null,
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -67546,7 +67546,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -67684,7 +67684,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -67822,7 +67822,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -67960,7 +67960,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -68098,7 +68098,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
