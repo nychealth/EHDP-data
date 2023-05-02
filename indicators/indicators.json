@@ -61186,8 +61186,8 @@
   },
   {
     "IndicatorID":2392,
-    "IndicatorName":"Children with asthma",
-    "IndicatorLabel":"Children with asthma",
+    "IndicatorName":"Children ever diagnosed with asthma",
+    "IndicatorLabel":"Children ever diagnosed with asthma",
     "IndicatorDescription":"Children age 1 to 13 who have ever been diagnosed with asthma.",
     "Comparisons":null,
     "Measures":[
@@ -66965,7 +66965,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":1350,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       },
@@ -67023,7 +67028,32 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1225,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1226,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1227,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1351,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1372,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       },
@@ -67032,7 +67062,7 @@
         "MeasureName":"Average Citi Bike availability, Bikes per station",
         "MeasurementType":"Bikes per station",
         "how_calculated":"Yearly bike availability is calculated by totaling average daily bike availability and dividing by the number of days in the year. Average daily bike availability is calculated from totaling bikes available at every station per each area as reported at every hour mark from 7am to 7pm on a given day and dividing by the number of hours (13). Values are rounded to the nearest whole number after all calculations and are complete and then divided by the number of stations per area.",
-        "Sources":null,
+        "Sources":"Citi Bike GBFS feed",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -67081,7 +67111,28 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1225,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1226,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1227,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1352,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       }
@@ -67091,7 +67142,7 @@
     "IndicatorID":2426,
     "IndicatorName":"Citi Bike stations",
     "IndicatorLabel":"Citi Bike stations",
-    "IndicatorDescription":"Biking bridges gaps in existing public transportation systems and is a great way to exercise. Neighborhoods with fewer Citi Bike stations have limited access to this beneficial public resource. Neighborhoods with relatively few docks per station may also have limited access to bikes even if they have many stations.",
+    "IndicatorDescription":"Biking bridges gaps in existing public transportation systems and is a great way to exercise. Neighborhoods with fewer Citi Bike stations have limited access to this beneficial public resource. Neighborhoods with relatively few docks per station may also have limited access to bikes even if they have many stations. The National Association of City Transportation Officials (NACTO) suggests that there should be 28 stations per square mile and one station every 1000 feet.",
     "Comparisons":null,
     "Measures":[
       {
@@ -67206,7 +67257,24 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1225,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1226,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1227,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       },
@@ -67255,7 +67323,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -67264,7 +67332,75 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"y"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID":1372,
+        "MeasureName":"Citi Bike stations, Docks per person",
+        "MeasurementType":"Docks per person",
+        "how_calculated":"The total dock capacity of Citi Bike stations per geoentity, divided by total population per geoentity.",
+        "Sources":null,
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       }
@@ -68503,6 +68639,345 @@
             "TimeDescription":"2020",
             "start_period":1577836800000,
             "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2429,
+    "IndicatorName":"Children with an asthma attack",
+    "IndicatorLabel":"Children with an asthma attack",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1366,
+        "MeasureName":"Children with an asthma attack, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"past 12 months",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2017",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1367,
+        "MeasureName":"Children with an asthma attack, Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months, divided by all children of the same ages, expressed as a percent.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"past 12 months",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2017",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2430,
+    "IndicatorName":"Children in homes with visible mold or mildew",
+    "IndicatorLabel":"Children in homes with visible mold or mildew",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1368,
+        "MeasureName":"Children in homes with visible mold or mildew, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"past 12 months",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1369,
+        "MeasureName":"Children in homes with visible mold or mildew, Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months., divided by all children of the same ages, expressed as a percent.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"past 12 months",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2431,
+    "IndicatorName":"Children still with asthma",
+    "IndicatorLabel":"Children still with asthma",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1370,
+        "MeasureName":"Children still with asthma, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of children ages 1-13 years who reported still having asthma. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1371,
+        "MeasureName":"Children still with asthma, Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of children ages 1-13 years who reported still having asthma, divided by all children of the same ages, expressed as a percent. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2021",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           },
           {
             "TimeDescription":"2021",
