@@ -31903,7 +31903,7 @@
         "MeasureID":675,
         "MeasureName":"Bicycle hospitalizations, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Counts are the number of NYC nonfatal hospitalizations related to bicycle injuries among all ages was identified using the following ICD10-CM injury codes: V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -35066,7 +35066,7 @@
         "MeasureID":674,
         "MeasureName":"Bicycle injuries, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Counts are the number of NYC emergency department (ED) visits related to bicycle injuries among all ages was identified using the following ICD10-CM injury codes: V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -35305,7 +35305,7 @@
         "MeasureID":677,
         "MeasureName":"Pedestrian hospitalizations, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Counts are the number of NYC nonfatal hospitalizations related to pedestrian injurie samong all ages was identified using the following ICD10-CM injury codes: V01-V99.Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -35544,7 +35544,7 @@
         "MeasureID":676,
         "MeasureName":"Pedestrian injuries, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Counts are the number of NYC emergency department (ED) visits related to pedestrian injuries among all ages was identified using the following ICD10-CM injury codes:V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -58439,7 +58439,7 @@
         "MeasureID":1249,
         "MeasureName":"Assault hospitalizations, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are the number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"Statewide Planning and Research Cooperative System",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -62333,7 +62333,7 @@
         "MeasureID":1250,
         "MeasureName":"Assault ED visits, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
+        "how_calculated":"Number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are the number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
         "Sources":"Statewide Planning and Research Cooperative System",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -67411,7 +67411,10 @@
     "IndicatorName":"Bacteria",
     "IndicatorLabel":"Bacteria",
     "IndicatorDescription":null,
-    "Comparisons":null,
+    "Comparisons":[
+      717,
+      718
+    ],
     "Measures":[
       {
         "MeasureID":1355,
@@ -68110,7 +68113,9 @@
     "IndicatorName":"Dissolved oxygen (DO)",
     "IndicatorLabel":"Dissolved oxygen (DO)",
     "IndicatorDescription":null,
-    "Comparisons":null,
+    "Comparisons":[
+      716
+    ],
     "Measures":[
       {
         "MeasureID":1360,
@@ -68242,7 +68247,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -68380,7 +68385,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -68518,7 +68523,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -68656,7 +68661,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],

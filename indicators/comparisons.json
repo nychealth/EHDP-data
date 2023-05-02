@@ -814,5 +814,41 @@
         "Measures": [534]
       }
     ]
+  },
+  {
+    "ComparisonID": 716,
+    "ComparisonName": "Dissolved Oxygen (DO)",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Concentration levels",
+    "Indicators": [
+      {
+        "IndicatorID": 2428,
+        "Measures": [1362, 1363, 1360, 1361]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 717,
+    "ComparisonName": "Fecal coliform",
+    "LegendTitle": "Bacteria type",
+    "Y_axis_title": "Geometric mean",
+    "Indicators": [
+      {
+        "IndicatorID": 2427,
+        "Measures": [1355, 1357, 1358]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 718,
+    "ComparisonName": "Enterococcui",
+    "LegendTitle": "Bacteria type",
+    "Y_axis_title": "Geometric mean",
+    "Indicators": [
+      {
+        "IndicatorID": 2427,
+        "Measures": [1356, 1359]
+      }
+    ]
   }
 ]
