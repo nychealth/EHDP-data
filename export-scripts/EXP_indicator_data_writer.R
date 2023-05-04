@@ -123,10 +123,12 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "SQLIT04A",
+        # server = "SQLIT04A",
+        server = "DESKTOP-PU7DGC1",
         database = db_name,
         trusted_connection = "yes",
-        encoding = "latin1"
+        encoding = "latin1",
+        trustservercertificate = "yes"
     )
 
 
@@ -199,6 +201,7 @@ for (i in 1:length(IndicatorIDs)) {
         filter(IndicatorID == this_indicator) %>% 
         select(-IndicatorID) %>% 
         toJSON(
+            dataframe = "columns",
             pretty = FALSE, 
             na = "null", 
             auto_unbox = TRUE
