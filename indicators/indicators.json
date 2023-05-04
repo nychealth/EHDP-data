@@ -61188,7 +61188,7 @@
     "IndicatorID":2392,
     "IndicatorName":"Children ever diagnosed with asthma",
     "IndicatorLabel":"Children ever diagnosed with asthma",
-    "IndicatorDescription":"Children age 1 to 13 who have ever been diagnosed with asthma.",
+    "IndicatorDescription":"Children ages 1 to 13 that have ever received an asthma diagnosis. This includes people who were eventually found to have a misdoagnosis.",
     "Comparisons":null,
     "Measures":[
       {
@@ -68675,7 +68675,7 @@
     "IndicatorID":2429,
     "IndicatorName":"Children with an asthma attack",
     "IndicatorLabel":"Children with an asthma attack",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"Children ages 1 to 13 who have had an asthma attack over the past year. Asthma attacks are a measureable adverse health outcome of asthma.",
     "Comparisons":null,
     "Measures":[
       {
@@ -68794,7 +68794,7 @@
     "IndicatorID":2430,
     "IndicatorName":"Children in homes with visible mold or mildew",
     "IndicatorLabel":"Children in homes with visible mold or mildew",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"Children who live in homes with visible mold\/mildew. Mold and mildew can trigger asthma attacks in children.",
     "Comparisons":null,
     "Measures":[
       {
@@ -68895,7 +68895,7 @@
     "IndicatorID":2431,
     "IndicatorName":"Children still with asthma",
     "IndicatorLabel":"Children still with asthma",
-    "IndicatorDescription":null,
+    "IndicatorDescription":"Children ages 1 to 13 that currently have asthma. Not every asthma diagnosis is correct or permanent. The number of children who still have asthma is usually smaller than the number of children who have ever been diagnosed with asthma.",
     "Comparisons":null,
     "Measures":[
       {
@@ -68988,6 +68988,247 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2432,
+    "IndicatorName":"Farmers Markets",
+    "IndicatorLabel":"Farmers Markets",
+    "IndicatorDescription":"Farmers markets are a great source of fresh produce and other healthy food options and can help mitigate the negative effects of food deserts.",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1373,
+        "MeasureName":"Farmers Markets, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year per.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1374,
+        "MeasureName":"Farmers Markets, Density",
+        "MeasurementType":"Density",
+        "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year, divided by the square mileage of the neighborhood.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1375,
+        "MeasureName":"Farmers Markets, Number (year-round)",
+        "MeasurementType":"Number (year-round)",
+        "how_calculated":"The number of farmers markets per neighborhood that are open during the entire the year.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1376,
+        "MeasureName":"Farmers Markets, Density (year-round)",
+        "MeasurementType":"Density (year-round)",
+        "how_calculated":"The number of farmers markets per neighborhood that are open during the entire year, divided by the square mileage of the neighborhood.",
+        "Sources":"",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
           }
         ],
         "VisOptions":[
