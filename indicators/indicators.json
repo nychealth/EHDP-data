@@ -16216,10 +16216,6 @@
             ],
             "Links":[
               {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":674,
                 "SecondaryAxis":"y"
               },
@@ -16248,23 +16244,7 @@
                 "SecondaryAxis":"y"
               },
               {
-                "MeasureID":1351,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1352,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":1354,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1365,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1372,
                 "SecondaryAxis":"y"
               }
             ]
@@ -61579,15 +61559,7 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":1351,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":1354,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1365,
                 "SecondaryAxis":"y"
               }
             ]
@@ -61651,15 +61623,7 @@
                 "SecondaryAxis":"x"
               },
               {
-                "MeasureID":1351,
-                "SecondaryAxis":"y"
-              },
-              {
                 "MeasureID":1354,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1365,
                 "SecondaryAxis":"y"
               }
             ]
@@ -63256,10 +63220,6 @@
             "Links":[
               {
                 "MeasureID":1228,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1259,
                 "SecondaryAxis":"y"
               }
             ]
@@ -67576,10 +67536,23 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1226,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1227,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -67706,16 +67679,24 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":[
               {
-                "MeasureID":1304,
-                "SecondaryAxis":"y"
+                "MeasureID":221,
+                "SecondaryAxis":"x"
               },
               {
-                "MeasureID":1351,
+                "MeasureID":1226,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1227,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1304,
                 "SecondaryAxis":"y"
               },
               {
@@ -67777,10 +67758,14 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
               {
                 "MeasureID":1365,
                 "SecondaryAxis":"y"
@@ -67791,11 +67776,11 @@
       },
       {
         "MeasureID":1372,
-        "MeasureName":"Citi Bike stations, Docks",
-        "MeasurementType":"Docks",
+        "MeasureName":"Citi Bike stations, Docks per 1000 people",
+        "MeasurementType":"Docks per 1000 people",
         "how_calculated":"The total dock capacity of Citi Bike stations per geographic area, divided by total population per area.",
         "Sources":null,
-        "DisplayType":"per 100mL",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -67840,10 +67825,14 @@
             "Trend":[
               {
                 "On":1,
-                "Disparities":0
+                "Disparities":1
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
               {
                 "MeasureID":1354,
                 "SecondaryAxis":"y"
