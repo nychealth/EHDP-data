@@ -16246,6 +16246,26 @@
               {
                 "MeasureID":888,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1351,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1352,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1354,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1365,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1372,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -23912,6 +23932,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -23924,7 +23954,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24050,6 +24080,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -24062,7 +24102,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24188,6 +24228,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -24200,7 +24250,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24326,6 +24376,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -24338,7 +24398,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24464,6 +24524,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -24476,7 +24546,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24604,6 +24674,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -24616,7 +24696,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24732,6 +24812,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -24744,7 +24834,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24860,6 +24950,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -24872,7 +24972,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24988,6 +25088,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -25000,7 +25110,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -25126,6 +25236,56 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020-Q1",
+            "start_period":1577836800000,
+            "end_period":1585612800000
+          },
+          {
+            "TimeDescription":"2020-Q2",
+            "start_period":1585699200000,
+            "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q3",
+            "start_period":1593561600000,
+            "end_period":1601424000000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2020-Q4",
+            "start_period":1601510400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021-Q1",
+            "start_period":1609459200000,
+            "end_period":1617062400000
+          },
+          {
+            "TimeDescription":"2021-Q2",
+            "start_period":1617235200000,
+            "end_period":1625011200000
+          },
+          {
+            "TimeDescription":"2021-Q3",
+            "start_period":1625097600000,
+            "end_period":1632960000000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
+          },
+          {
+            "TimeDescription":"2021-Q4",
+            "start_period":1633046400000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -25138,7 +25298,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -25216,9 +25376,49 @@
             "end_period":1577750400000
           },
           {
+            "TimeDescription":"2020-Q1",
+            "start_period":1577836800000,
+            "end_period":1585612800000
+          },
+          {
             "TimeDescription":"2018-Q2",
             "start_period":1522540800000,
             "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q2",
+            "start_period":1585699200000,
+            "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q3",
+            "start_period":1593561600000,
+            "end_period":1601424000000
+          },
+          {
+            "TimeDescription":"2020-Q4",
+            "start_period":1601510400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021-Q1",
+            "start_period":1609459200000,
+            "end_period":1617062400000
+          },
+          {
+            "TimeDescription":"2021-Q2",
+            "start_period":1617235200000,
+            "end_period":1625011200000
+          },
+          {
+            "TimeDescription":"2021-Q3",
+            "start_period":1625097600000,
+            "end_period":1632960000000
+          },
+          {
+            "TimeDescription":"2021-Q4",
+            "start_period":1633046400000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -25231,7 +25431,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -25402,9 +25602,49 @@
             "end_period":1577750400000
           },
           {
+            "TimeDescription":"2020-Q1",
+            "start_period":1577836800000,
+            "end_period":1585612800000
+          },
+          {
             "TimeDescription":"2018-Q2",
             "start_period":1522540800000,
             "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q2",
+            "start_period":1585699200000,
+            "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q3",
+            "start_period":1593561600000,
+            "end_period":1601424000000
+          },
+          {
+            "TimeDescription":"2020-Q4",
+            "start_period":1601510400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021-Q1",
+            "start_period":1609459200000,
+            "end_period":1617062400000
+          },
+          {
+            "TimeDescription":"2021-Q2",
+            "start_period":1617235200000,
+            "end_period":1625011200000
+          },
+          {
+            "TimeDescription":"2021-Q3",
+            "start_period":1625097600000,
+            "end_period":1632960000000
+          },
+          {
+            "TimeDescription":"2021-Q4",
+            "start_period":1633046400000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -25417,7 +25657,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -25549,6 +25789,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -25561,7 +25811,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -25682,6 +25932,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -25694,7 +25954,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -25815,6 +26075,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -25827,7 +26097,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -25948,6 +26218,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -25960,7 +26240,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -26081,6 +26361,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -26093,7 +26383,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -44651,9 +44941,49 @@
             "end_period":1577750400000
           },
           {
+            "TimeDescription":"2020-Q1",
+            "start_period":1577836800000,
+            "end_period":1585612800000
+          },
+          {
             "TimeDescription":"2018-Q2",
             "start_period":1522540800000,
             "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q2",
+            "start_period":1585699200000,
+            "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q3",
+            "start_period":1593561600000,
+            "end_period":1601424000000
+          },
+          {
+            "TimeDescription":"2020-Q4",
+            "start_period":1601510400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021-Q1",
+            "start_period":1609459200000,
+            "end_period":1617062400000
+          },
+          {
+            "TimeDescription":"2021-Q2",
+            "start_period":1617235200000,
+            "end_period":1625011200000
+          },
+          {
+            "TimeDescription":"2021-Q3",
+            "start_period":1625097600000,
+            "end_period":1632960000000
+          },
+          {
+            "TimeDescription":"2021-Q4",
+            "start_period":1633046400000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -44666,7 +44996,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -45104,9 +45434,49 @@
             "end_period":1577750400000
           },
           {
+            "TimeDescription":"2020-Q1",
+            "start_period":1577836800000,
+            "end_period":1585612800000
+          },
+          {
             "TimeDescription":"2018-Q2",
             "start_period":1522540800000,
             "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q2",
+            "start_period":1585699200000,
+            "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q3",
+            "start_period":1593561600000,
+            "end_period":1601424000000
+          },
+          {
+            "TimeDescription":"2020-Q4",
+            "start_period":1601510400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021-Q1",
+            "start_period":1609459200000,
+            "end_period":1617062400000
+          },
+          {
+            "TimeDescription":"2021-Q2",
+            "start_period":1617235200000,
+            "end_period":1625011200000
+          },
+          {
+            "TimeDescription":"2021-Q3",
+            "start_period":1625097600000,
+            "end_period":1632960000000
+          },
+          {
+            "TimeDescription":"2021-Q4",
+            "start_period":1633046400000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -45119,7 +45489,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -45557,9 +45927,49 @@
             "end_period":1577750400000
           },
           {
+            "TimeDescription":"2020-Q1",
+            "start_period":1577836800000,
+            "end_period":1585612800000
+          },
+          {
             "TimeDescription":"2018-Q2",
             "start_period":1522540800000,
             "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q2",
+            "start_period":1585699200000,
+            "end_period":1593475200000
+          },
+          {
+            "TimeDescription":"2020-Q3",
+            "start_period":1593561600000,
+            "end_period":1601424000000
+          },
+          {
+            "TimeDescription":"2020-Q4",
+            "start_period":1601510400000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021-Q1",
+            "start_period":1609459200000,
+            "end_period":1617062400000
+          },
+          {
+            "TimeDescription":"2021-Q2",
+            "start_period":1617235200000,
+            "end_period":1625011200000
+          },
+          {
+            "TimeDescription":"2021-Q3",
+            "start_period":1625097600000,
+            "end_period":1632960000000
+          },
+          {
+            "TimeDescription":"2021-Q4",
+            "start_period":1633046400000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -45572,7 +45982,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -45698,6 +46108,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -45710,7 +46130,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -45836,6 +46256,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -45848,7 +46278,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -45974,6 +46404,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -45986,7 +46426,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -46112,6 +46552,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -46124,7 +46574,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -46250,6 +46700,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -46262,7 +46722,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -61117,6 +61577,18 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1351,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1354,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1365,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -61177,6 +61649,18 @@
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":1351,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1354,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1365,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -61188,12 +61672,12 @@
     "IndicatorID":2392,
     "IndicatorName":"Children ever diagnosed with asthma",
     "IndicatorLabel":"Children ever diagnosed with asthma",
-    "IndicatorDescription":"Children ages 1 to 13 that have ever received an asthma diagnosis. This includes people who were eventually found to have a misdoagnosis.",
+    "IndicatorDescription":"Children ages 1 to 13 that have ever received an asthma diagnosis.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1228,
-        "MeasureName":"Children with asthma, Percent",
+        "MeasureName":"Children ever diagnosed with asthma, Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children ages 1-13 years who were ever diagnosed with asthma, divided by all children of the same ages, expressed as a percent.",
         "Sources":"NYC KIDS Survey",
@@ -61278,7 +61762,7 @@
       },
       {
         "MeasureID":1229,
-        "MeasureName":"Children with asthma, Number",
+        "MeasureName":"Children ever diagnosed with asthma, Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children ages 1-13 years who were ever diagnosed with asthma.",
         "Sources":"NYC KIDS Survey",
@@ -62772,6 +63256,10 @@
             "Links":[
               {
                 "MeasureID":1228,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1259,
                 "SecondaryAxis":"y"
               }
             ]
@@ -66898,7 +67386,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":1228,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       }
@@ -66965,12 +67458,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":1350,
-                "SecondaryAxis":"y"
-              }
-            ]
+            "Links":null
           }
         ]
       },
@@ -67030,27 +67518,7 @@
             ],
             "Links":[
               {
-                "MeasureID":221,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1225,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1226,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1227,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1351,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1372,
+                "MeasureID":1304,
                 "SecondaryAxis":"y"
               }
             ]
@@ -67111,28 +67579,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":221,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1225,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1226,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1227,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1352,
-                "SecondaryAxis":"y"
-              }
-            ]
+            "Links":null
           }
         ]
       }
@@ -67199,7 +67646,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":1353,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       },
@@ -67259,19 +67711,15 @@
             ],
             "Links":[
               {
-                "MeasureID":221,
+                "MeasureID":1304,
                 "SecondaryAxis":"y"
               },
               {
-                "MeasureID":1225,
+                "MeasureID":1351,
                 "SecondaryAxis":"y"
               },
               {
-                "MeasureID":1226,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1227,
+                "MeasureID":1354,
                 "SecondaryAxis":"y"
               }
             ]
@@ -67334,7 +67782,7 @@
             ],
             "Links":[
               {
-                "MeasureID":221,
+                "MeasureID":1365,
                 "SecondaryAxis":"y"
               }
             ]
@@ -67343,11 +67791,11 @@
       },
       {
         "MeasureID":1372,
-        "MeasureName":"Citi Bike stations, Docks per person",
-        "MeasurementType":"Docks per person",
+        "MeasureName":"Citi Bike stations, Docks",
+        "MeasurementType":"Docks",
         "how_calculated":"The total dock capacity of Citi Bike stations per geographic area, divided by total population per area.",
         "Sources":null,
-        "DisplayType":"",
+        "DisplayType":"per 100mL",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -67397,7 +67845,7 @@
             ],
             "Links":[
               {
-                "MeasureID":221,
+                "MeasureID":1354,
                 "SecondaryAxis":"y"
               }
             ]
@@ -68675,7 +69123,7 @@
     "IndicatorID":2429,
     "IndicatorName":"Children with an asthma attack",
     "IndicatorLabel":"Children with an asthma attack",
-    "IndicatorDescription":"Children ages 1 to 13 who have had an asthma attack over the past year. Asthma attacks are a measureable adverse health outcome of asthma.",
+    "IndicatorDescription":"Children ages 1 to 13 who have had an asthma attack in the past year. Asthma attacks are a measureable adverse health outcome of asthma.",
     "Comparisons":null,
     "Measures":[
       {
@@ -68784,7 +69232,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":1228,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       }
@@ -68792,14 +69245,14 @@
   },
   {
     "IndicatorID":2430,
-    "IndicatorName":"Children in homes with visible mold or mildew",
+    "IndicatorName":"Children in homes with visible mold or mildew (age 1-13)",
     "IndicatorLabel":"Children in homes with visible mold or mildew",
     "IndicatorDescription":"Children who live in homes with visible mold\/mildew. Mold and mildew can trigger asthma attacks in children.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1368,
-        "MeasureName":"Children in homes with visible mold or mildew, Number",
+        "MeasureName":"Children in homes with visible mold or mildew (age 1-13), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months.",
         "Sources":"NYC KIDS Survey",
@@ -68845,7 +69298,7 @@
       },
       {
         "MeasureID":1369,
-        "MeasureName":"Children in homes with visible mold or mildew, Percent",
+        "MeasureName":"Children in homes with visible mold or mildew (age 1-13), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months., divided by all children of the same ages, expressed as a percent.",
         "Sources":"NYC KIDS Survey",
@@ -68885,7 +69338,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":1228,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       }
@@ -68895,7 +69353,7 @@
     "IndicatorID":2431,
     "IndicatorName":"Children still with asthma",
     "IndicatorLabel":"Children still with asthma",
-    "IndicatorDescription":"Children ages 1 to 13 that currently have asthma. Not every asthma diagnosis is correct or permanent. The number of children who still have asthma is usually smaller than the number of children who have ever been diagnosed with asthma.",
+    "IndicatorDescription":"Children ages 1 to 13 that currently have asthma. Not every asthma diagnosis is correct. The number of children who still have asthma is usually smaller than the number of children who have ever been diagnosed with asthma.",
     "Comparisons":null,
     "Measures":[
       {
@@ -69004,7 +69462,12 @@
                 "Disparities":0
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":1228,
+                "SecondaryAxis":"y"
+              }
+            ]
           }
         ]
       }
@@ -69012,14 +69475,14 @@
   },
   {
     "IndicatorID":2432,
-    "IndicatorName":"Farmers Markets",
-    "IndicatorLabel":"Farmers Markets",
+    "IndicatorName":"Farmers markets",
+    "IndicatorLabel":"Farmers markets",
     "IndicatorDescription":"Farmers markets are a great source of fresh produce and other healthy food options and can help mitigate the negative effects of food deserts.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1373,
-        "MeasureName":"Farmers Markets, Number",
+        "MeasureName":"Farmers markets, Number",
         "MeasurementType":"Number",
         "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year per.",
         "Sources":"",
@@ -69062,7 +69525,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -69077,11 +69540,11 @@
       },
       {
         "MeasureID":1374,
-        "MeasureName":"Farmers Markets, Density",
+        "MeasureName":"Farmers markets, Density",
         "MeasurementType":"Density",
         "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year, divided by the square mileage of the neighborhood.",
         "Sources":"",
-        "DisplayType":"",
+        "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -69120,7 +69583,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -69135,7 +69598,7 @@
       },
       {
         "MeasureID":1375,
-        "MeasureName":"Farmers Markets, Number (year-round)",
+        "MeasureName":"Farmers markets, Number (year-round)",
         "MeasurementType":"Number (year-round)",
         "how_calculated":"The number of farmers markets per neighborhood that are open during the entire the year.",
         "Sources":"",
@@ -69178,7 +69641,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -69193,11 +69656,11 @@
       },
       {
         "MeasureID":1376,
-        "MeasureName":"Farmers Markets, Density (year-round)",
+        "MeasureName":"Farmers markets, Density (year-round)",
         "MeasurementType":"Density (year-round)",
         "how_calculated":"The number of farmers markets per neighborhood that are open during the entire year, divided by the square mileage of the neighborhood.",
         "Sources":"",
-        "DisplayType":"",
+        "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -69236,7 +69699,7 @@
             "Map":[
               {
                 "On":1,
-                "RankReverse":0
+                "RankReverse":1
               }
             ],
             "Trend":[
