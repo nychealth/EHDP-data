@@ -15448,10 +15448,6 @@
             ],
             "Links":[
               {
-                "MeasureID":221,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":674,
                 "SecondaryAxis":"y"
               },
@@ -23020,7 +23016,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -23158,7 +23154,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -23296,7 +23292,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -23434,7 +23430,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -23572,7 +23568,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -23712,7 +23708,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -23840,7 +23836,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -23968,7 +23964,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24096,7 +24092,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24234,7 +24230,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24327,7 +24323,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24513,7 +24509,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24657,7 +24653,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24790,7 +24786,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -24923,7 +24919,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -25056,7 +25052,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -25189,7 +25185,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -30967,7 +30963,7 @@
         "MeasureID":675,
         "MeasureName":"Bicycle hospitalizations, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Counts are the number of NYC nonfatal hospitalizations related to bicycle injuries among all ages was identified using the following ICD10-CM injury codes: V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -34130,7 +34126,7 @@
         "MeasureID":674,
         "MeasureName":"Bicycle injuries, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Counts are the number of NYC emergency department (ED) visits related to bicycle injuries among all ages was identified using the following ICD10-CM injury codes: V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -34369,7 +34365,7 @@
         "MeasureID":677,
         "MeasureName":"Pedestrian hospitalizations, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Counts are the number of NYC nonfatal hospitalizations related to pedestrian injurie samong all ages was identified using the following ICD10-CM injury codes: V01-V99.Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -34608,7 +34604,7 @@
         "MeasureID":676,
         "MeasureName":"Pedestrian injuries, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Counts are the number of NYC emergency department (ED) visits related to pedestrian injuries among all ages was identified using the following ICD10-CM injury codes:V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -43480,7 +43476,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -43933,7 +43929,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -44386,7 +44382,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -44524,7 +44520,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -44662,7 +44658,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -44800,7 +44796,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -44938,7 +44934,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -45076,7 +45072,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -57009,7 +57005,7 @@
         "MeasureID":1249,
         "MeasureName":"Assault hospitalizations, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated":"Number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are the number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources":"Statewide Planning and Research Cooperative System",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -59676,14 +59672,14 @@
   },
   {
     "IndicatorID":2392,
-    "IndicatorName":"Children with asthma",
-    "IndicatorLabel":"Children with asthma",
-    "IndicatorDescription":"Children age 1 to 13 who have ever been diagnosed with asthma.",
+    "IndicatorName":"Children ever diagnosed with asthma",
+    "IndicatorLabel":"Children ever diagnosed with asthma",
+    "IndicatorDescription":"Children ages 1 to 13 that have ever received an asthma diagnosis.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1228,
-        "MeasureName":"Children with asthma, Percent",
+        "MeasureName":"Children ever diagnosed with asthma, Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children ages 1-13 years who were ever diagnosed with asthma, divided by all children of the same ages, expressed as a percent.",
         "Sources":"NYC KIDS Survey",
@@ -59755,7 +59751,7 @@
       },
       {
         "MeasureID":1229,
-        "MeasureName":"Children with asthma, Number",
+        "MeasureName":"Children ever diagnosed with asthma, Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children ages 1-13 years who were ever diagnosed with asthma.",
         "Sources":"NYC KIDS Survey",
@@ -60747,7 +60743,7 @@
         "MeasureID":1250,
         "MeasureName":"Assault ED visits, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts were calculated as described above and summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
+        "how_calculated":"Number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are the number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
         "Sources":"Statewide Planning and Research Cooperative System",
         "DisplayType":"per 100,000",
         "AvailableGeographyTypes":[
@@ -64478,6 +64474,430 @@
                 "SecondaryAxis":"y"
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2425,
+    "IndicatorName":"Average Citi Bike availability",
+    "IndicatorLabel":"Average Citi Bike availability",
+    "IndicatorDescription":"The average number of Citi Bikes available to rent per each area between 7am-7pm. Biking bridges gaps in existing public transportation systems and is a great way to exercise. Neighborhoods with lower Citi Bike availability have limited access to this beneficial public resource.",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1353,
+        "MeasureName":"Average Citi Bike availability, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Yearly bike availability is calculated by totaling average daily bike availability and dividing by the number of days in the year. Average daily bike availability is calculated from totaling bikes available at every station per each area as reported at every hour mark from 7am to 7pm on a given day and dividing by the number of hours (13). Values are rounded to the nearest whole number after all calculations are complete.",
+        "Sources":"Citi Bike GBFS feed",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1354,
+        "MeasureName":"Average Citi Bike availability, Density",
+        "MeasurementType":"Density",
+        "how_calculated":"Yearly bike availability is calculated by totaling average daily bike availability and dividing by the number of days in the year. Average daily bike availability is calculated from totaling bikes available per 1000 people at every station per each area as reported at every hour mark from 7am to 7pm on a given day and dividing by the number of hours (13). Values are rounded to the single decimal place after all calculations are complete.",
+        "Sources":"Citi Bike GBFS feed",
+        "DisplayType":"per 1000 people",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1365,
+        "MeasureName":"Average Citi Bike availability, Bikes per station",
+        "MeasurementType":"Bikes per station",
+        "how_calculated":"Yearly bike availability is calculated by totaling average daily bike availability and dividing by the number of days in the year. Average daily bike availability is calculated from totaling bikes available at every station per each area as reported at every hour mark from 7am to 7pm on a given day and dividing by the number of hours (13). Values are rounded to the nearest whole number after all calculations and are complete and then divided by the number of stations per area.",
+        "Sources":"Citi Bike GBFS feed",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2426,
+    "IndicatorName":"Citi Bike stations",
+    "IndicatorLabel":"Citi Bike stations",
+    "IndicatorDescription":"Biking bridges gaps in existing public transportation systems and is a great way to exercise. Neighborhoods with fewer Citi Bike stations have limited access to this beneficial public resource. Neighborhoods with relatively few docks per station may also have limited access to bikes even if they have many stations. The National Association of City Transportation Officials (NACTO) suggests that there should be 28 stations per square mile and one station every 1000 feet.",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1350,
+        "MeasureName":"Citi Bike stations, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"The number of Citi Bike stations per geographic area.",
+        "Sources":"Citi Bike GBFS feed",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1351,
+        "MeasureName":"Citi Bike stations, Density",
+        "MeasurementType":"Density",
+        "how_calculated":"The number of Citi Bike stations per geographic area, divided by the area's square mileage.",
+        "Sources":"Citi Bike GBFS feed",
+        "DisplayType":"per square mile",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1352,
+        "MeasureName":"Citi Bike stations, Docks per station",
+        "MeasurementType":"Docks per station",
+        "how_calculated":"The total dock capacity of Citi Bike stations per geographic area, divided by total stations per area.",
+        "Sources":"Citi Bike GBFS feed",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1372,
+        "MeasureName":"Citi Bike stations, Docks per 1000 people",
+        "MeasurementType":"Docks per 1000 people",
+        "how_calculated":"The total dock capacity of Citi Bike stations per geographic area, divided by total population per area.",
+        "Sources":null,
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
           }
         ]
       }

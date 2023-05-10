@@ -746,5 +746,41 @@
         "Measures": [534]
       }
     ]
+  },
+  {
+    "ComparisonID": 716,
+    "ComparisonName": "Dissolved Oxygen (DO)",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Concentration levels",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 717,
+    "ComparisonName": "Fecal coliform",
+    "LegendTitle": "NYS Standard",
+    "Y_axis_title": "Fecal coliform (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 718,
+    "ComparisonName": "Enterococcui",
+    "LegendTitle": "NYS Standard",
+    "Y_axis_title": "Enterococcui (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
   }
 ]
