@@ -1,6 +1,6 @@
 # Data features: Heat Syndrome Data
 
-This contains data on heat syndrome emergency department visits, and max daily temperature. Data in this repository feed the interface at [http://a816-dohbesp.nyc.gov/IndicatorPublic/HeatHub/syndromic.html](https://a816-dohbesp.nyc.gov/IndicatorPublic/beta/key-topics/climatehealth/syndromic/)
+This contains data on heat syndrome emergency department visits, and max daily temperature. Data in this repository feed the interface at [real-time heat-related illness](https://a816-dohbesp.nyc.gov/IndicatorPublic/beta/key-topics/climatehealth/syndromic/)
 
 ## About the data
 Tracking heat-related illness (HRI) in near-real time can help provide situational awareness, supplementing the weather forecast as an indicator of public health risk. HRI detected in emergency department syndromic surveillance data are strongly associated with hot weather and highly correlated with daily counts of HRI hospital discharge data. However, HRI counts detected in the ED syndromic surveillance data represent suspected rather than confirmed illness and is useful to track trends. Some records may be counted as cases when they are not HRI, while other HRI cases may go undetected due to differences in hospital coding practices or because of what patients say when they describe what is bothering them.
