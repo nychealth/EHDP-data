@@ -16,7 +16,7 @@ For more syndromes tracked by the Health Department, visit [EpiQuery](https://a8
 
 ### Heat syndrome
 
-The heat syndrome is identified in surveillance data by looking for diagnostic codes for heat-related illness and by searching chief complaints (descriptions of why patients are at the ED) for words related to heat, such as overheating, sunstroke, and similar terms.
+The heat syndrome is identified in surveillance data by looking for diagnostic codes for heat-related illness and by searching chief complaints (descriptions of why patients are at the ED) for words related to heat, such as overheating, sunstroke, and similar terms. In 2023, we revised the case definition, including the exclusion keywords, which results in identification of slightly more suspected cases. The revised definition was applied to all years of data available on the portal.
 
 For more information, see the Council of State and Territorial Epidemiologists' [heat syndrome case definition](https://cdn.ymaws.com/www.cste.org/resource/resmgr/pdfs/pdfs2/CSTE_Heat_Syndrome_Case_Defi.pdf).
 
