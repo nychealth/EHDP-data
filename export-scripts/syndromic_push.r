@@ -6,7 +6,7 @@ library(readr)
 # fetch info on all changes in remote repo
 system("git fetch origin")
 
-# make sure you're on the procudction branch
+# make sure you're on the production branch
 system("git checkout production")
 
 # pull all changes on production
