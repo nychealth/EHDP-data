@@ -1,0 +1,12 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  hash: e527fe95e841491fe9f1d1f29915e76110f3ecb3
+  data_hash: 8b65420fa7700fbf5a91ed4b070ef0e659fed086
+END_DATE:
+  class: character
+HEAT_ED_VISIT_COUNT:
+  class: integer
+MAX_DAILY_TEMP:
+  class: integer
