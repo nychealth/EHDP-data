@@ -21,6 +21,10 @@ heat_syndrome_dir <- "~/networkDrives/smb-share:server=sasshare01,share=sasshare
 # read the updated data
 edheat_live <- read_csv(paste0(heat_syndrome_dir, "/edheat2023_live.csv"))
 
+#set surveillence window
+start=as.Date("2023-04-30")
+end=as.Date("2023-10-01")
+
 # restrict to the surveillance window
 edheat_live2 <- edheat_live[edheat_live$END_DATE > start & edheat_live$END_DATE < end, ]
 
@@ -29,7 +33,7 @@ write_csv(edheat_live2, "~/EHDP-data/key-topics/heat-syndrome/edheat2023_live.cs
 
 # add all file changes
 # system("git add .")
-git_add(".")
+git_add("~/EHDP-data/key-topics/heat-syndrome/edheat2023_live.csv")
 
 # commit with message
 # system("git commit --all --message 'Regular auto-commit'")
