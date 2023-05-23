@@ -2,6 +2,7 @@
 
 # load reader, for better file reading
 library(readr)
+library(gert)
 
 # fetch info on all changes in remote repo
 # system("git fetch origin")
