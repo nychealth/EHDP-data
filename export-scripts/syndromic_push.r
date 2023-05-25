@@ -1,4 +1,5 @@
 # This script should run on RStudio Server, from the folder "export-scripts"
+setwd("/home/health.dohmh.nycnet/klane1/EHDP-data")
 
 # load reader, for better file reading
 library(readr)
@@ -16,7 +17,6 @@ git_branch_checkout("production")
 # system("git pull --all")
 git_pull("origin")
 
-setwd("/home/health.dohmh.nycnet/klane1/EHDP-data")
 
 # set long file path in object
 heat_syndrome_dir <- "~/networkDrives/smb-share:server=sasshare01,share=sasshare/EHS/BESP/SecuredFolder/Syndromic/Heat_ED/EH data portal/live_data/EHDP-data/datafeatures/heatsyndrome"
