@@ -3,6 +3,10 @@
 # load reader, for better file reading
 library(readr)
 library(gert)
+library(fs)
+
+# make sure R is in the git repo directory
+setwd(path(path_home(), "EHDP-data"))
 
 # fetch info on all changes in remote repo
 # system("git fetch origin")
@@ -15,8 +19,6 @@ git_branch_checkout("production")
 # pull all changes on production
 # system("git pull --all")
 git_pull("origin")
-
-setwd("/home/health.dohmh.nycnet/klane1/EHDP-data")
 
 # set long file path in object
 heat_syndrome_dir <- "~/networkDrives/smb-share:server=sasshare01,share=sasshare/EHS/BESP/SecuredFolder/Syndromic/Heat_ED/EH data portal/live_data/EHDP-data/datafeatures/heatsyndrome"
