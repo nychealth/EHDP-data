@@ -4,6 +4,10 @@ setwd("/home/health.dohmh.nycnet/klane1/EHDP-data")
 # load reader, for better file reading
 library(readr)
 library(gert)
+library(fs)
+
+# make sure R is in the git repo directory
+setwd(path(path_home(), "EHDP-data"))
 
 # fetch info on all changes in remote repo
 # system("git fetch origin")
@@ -17,16 +21,19 @@ git_branch_checkout("production")
 # system("git pull --all")
 git_pull("origin")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 00d1b497a4e738ef510d30c0d08cf195beaf97d2
 # set long file path in object
 heat_syndrome_dir <- "~/networkDrives/smb-share:server=sasshare01,share=sasshare/EHS/BESP/SecuredFolder/Syndromic/Heat_ED/EH data portal/live_data/EHDP-data/datafeatures/heatsyndrome"
 
 # read the updated data
 edheat_live <- read_csv(paste0(heat_syndrome_dir, "/edheat2023_live.csv"))
 
-#set surveillence window
-start=as.Date("2023-04-30")
-end=as.Date("2023-10-01")
+#set surveillance window
+start <- as.Date("2023-04-30")
+end   <- as.Date("2023-10-01")
 
 # restrict to the surveillance window
 edheat_live2 <- edheat_live[edheat_live$END_DATE > start & edheat_live$END_DATE < end, ]
