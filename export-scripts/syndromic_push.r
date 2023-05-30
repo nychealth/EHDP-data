@@ -6,6 +6,8 @@ library(readr)
 library(gert)
 library(fs)
 
+git_config_set("pull.ff", "only")
+
 # make sure R is in the git repo directory
 setwd(path(path_home(), "EHDP-data"))
 
