@@ -37894,11 +37894,11 @@
     "Measures":[
       {
         "MeasureID":643,
-        "MeasureName":"Traffic, million miles",
-        "MeasurementType":"million miles",
+        "MeasureName":"Traffic, miles",
+        "MeasurementType":"miles",
         "how_calculated":"The average number of vehicles traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of vehicles was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilometer.",
         "Sources":"New York Metropolitan Transportation Council Best Practice Model",
-        "DisplayType":"per km2",
+        "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
             "GeoType":"CD",
@@ -37924,9 +37924,19 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -37964,18 +37974,18 @@
   },
   {
     "IndicatorID":2113,
-    "IndicatorName":"Annual vehicle miles travelled (cars)",
-    "IndicatorLabel":"Annual vehicle miles travelled (cars)",
+    "IndicatorName":"Annual vehicle miles traveled (cars)",
+    "IndicatorLabel":"Annual vehicle miles traveled (cars)",
     "IndicatorDescription":"Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":644,
-        "MeasureName":"Car traffic, million miles",
-        "MeasurementType":"million miles",
+        "MeasureName":"Car traffic, miles",
+        "MeasurementType":"miles",
         "how_calculated":"The average number of cars traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of cars was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilomete",
         "Sources":"New York Metropolitan Transportation Council Best Practice Model",
-        "DisplayType":"per km2",
+        "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -38001,9 +38011,19 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -38037,18 +38057,18 @@
   },
   {
     "IndicatorID":2114,
-    "IndicatorName":"Annual vehicle miles travelled (trucks)",
-    "IndicatorLabel":"Annual vehicle miles travelled (trucks)",
+    "IndicatorName":"Annual vehicle miles traveled (trucks)",
+    "IndicatorLabel":"Annual vehicle miles traveled (trucks)",
     "IndicatorDescription":"Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":645,
-        "MeasureName":"Truck traffic, million miles",
-        "MeasurementType":"million miles",
+        "MeasureName":"Truck traffic, miles",
+        "MeasurementType":"miles",
         "how_calculated":"The average number of trucks traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of trucks was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilomete",
         "Sources":"New York Metropolitan Transportation Council Best Practice Model",
-        "DisplayType":"per km2",
+        "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
             "GeoType":"CD",
@@ -38074,9 +38094,19 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
             "TimeDescription":"2016",
             "start_period":1451606400000,
             "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -67574,6 +67604,10 @@
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":1352,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":1372,
                 "SecondaryAxis":"x"
               }
@@ -67860,6 +67894,10 @@
               },
               {
                 "MeasureID":1354,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1365,
                 "SecondaryAxis":"y"
               }
             ]
@@ -69498,7 +69536,7 @@
         "MeasureID":1373,
         "MeasureName":"Farmers markets, Number",
         "MeasurementType":"Number",
-        "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year per.",
+        "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year.",
         "Sources":"",
         "DisplayType":"",
         "AvailableGeographyTypes":[
