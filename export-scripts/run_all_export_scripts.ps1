@@ -24,6 +24,23 @@ $Env:base_dir = $base_dir
 
 $Env:data_env = Read-Host "staging [s] or production [p]?"
 
+# make sure you're on the right branch
+
+$current_branch = git branch --show-current
+
+if (($Env:data_env -eq "s") -and ($current_branch -ne "staging")) {
+
+    git checkout staging
+    git pull
+    
+} elseif (($Env:data_env -eq "p") -and ($current_branch -ne "production")) {
+    
+    git checkout production
+    git pull
+
+}
+
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # Tell conda which environment to load
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
