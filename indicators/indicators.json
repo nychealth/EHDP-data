@@ -58974,7 +58974,7 @@
         "MeasureID":1189,
         "MeasureName":"Cold deaths, Number",
         "MeasurementType":"Number",
-        "how_calculated":"Number of deaths during cold season months of October-April with an underlying or contributing cause that includes excessive natural cold (ICD10 code X31) and hypothermia (ICD10 code T68), among NYC residents. Number excludes deaths due to excessive cold of man-made origin (ICD10 code W93) and intentional deaths (ICD10 codes X6-X9, Y0, Y35, Y36).",
+        "how_calculated":"Number of deaths during cold season months of October-April with an underlying or contributing cause that includes excessive natural cold (ICD10 code X31), hypothermia and other effects of reduced temperature (ICD10 codes T68-69), and frostbite (T33-34) among NYC residents. Number excludes deaths due to excessive cold of man-made origin (ICD10 code W93) and intentional deaths (ICD10 codes X6-X9, Y0, Y35, Y36).",
         "Sources":"New York City Bureau of Vital Statistics",
         "DisplayType":"",
         "AvailableGeographyTypes":[
