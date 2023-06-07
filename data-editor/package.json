@@ -1,0 +1,54 @@
+{
+  "name": "besp_ehdp_data_editor",
+  "version": "1.0.0",
+  "description": "UI data editor for updating EHDP database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nycehs/BESP_EHDP_data_editor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nycehs/BESP_EHDP_data_editor/issues"
+  },
+  "homepage": "https://github.com/nycehs/BESP_EHDP_data_editor#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "arquero": "^5.2.0",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.0-alpha3",
+    "bootstrap-editable": "^1.0.1",
+    "bootstrap-icons": "^1.10.5",
+    "bootstrap-table": "^1.21.4",
+    "bstable-react": "^0.1.0",
+    "d3": "^7.8.4",
+    "datatables.net": "^1.13.4",
+    "datatables.net-bs5": "^1.13.4",
+    "datatables.net-buttons": "^2.3.6",
+    "datatables.net-buttons-bs": "^2.3.6",
+    "datatables.net-buttons-dt": "^2.3.6",
+    "datatables.net-dt": "^1.13.4",
+    "datatables.net-fixedheader": "^3.3.2",
+    "datatables.net-plugins": "^1.13.4",
+    "datatables.net-responsive": "^2.4.1",
+    "datatables.net-select": "^1.6.2",
+    "datatables.net-select-bs5": "^1.6.2",
+    "datatables.net-select-dt": "^1.6.2",
+    "express": "^4.18.2",
+    "gridjs": "^6.0.6",
+    "he": "^1.2.0",
+    "jquery": "^3.6.4",
+    "jquery-flexdatalist": "^2.3.0",
+    "jquery-mockjax": "^2.6.0",
+    "jsdom": "^22.0.0",
+    "octokit": "^2.0.15",
+    "seraphnet-bootstable": "^1.5.38",
+    "simple-git": "^3.18.0",
+    "table-to-json": "^1.0.0",
+    "vanilla-jsoneditor": "^0.17.2"
+  }
+}
