@@ -14,11 +14,13 @@ const bodyParser = require("body-parser");
 const simpleGit = require("simple-git");
 const { request } = require("@octokit/request")
 
+console.log("__dirname", __dirname);
+
 // ----------------------------------------------------------------------- //
 // specify the base branch
 // ----------------------------------------------------------------------- //
 
-let base_branch = "compiled-data-edits"
+let base_branch = "feature-data-editor"
 
 // ----------------------------------------------------------------------- //
 // decide which database to use
@@ -102,9 +104,12 @@ app.use(bodyParser.json({ limit: '100mb' }));
 
 // map folders to locations relative to host
 
-app.use(express.static('public'));
-app.use('/node_modules', express.static(__dirname + '/node_modules'));
-app.use('/data', express.static(__dirname + '/data'));
+app.use("/", express.static(`${__dirname}/public`));
+// app.use("/", express.static(__dirname + '/public'));
+app.use('/node_modules', express.static(`${__dirname}/node_modules`));
+// app.use('/node_modules', express.static(__dirname + '/node_modules'));
+app.use('/data', express.static(`${__dirname}/data`));
+// app.use('/data', express.static(__dirname + '/data'));
 
 
 // ======================================================================= //
@@ -185,7 +190,7 @@ const edit = async (req, res) => {
 
     // create working dir if it doesn't exist
 
-    fs.mkdir(`data/working_edits/${database}/`, { recursive: true }, (err) => {
+    fs.mkdir(`${__dirname}/data/working_edits/${database}/`, { recursive: true }, (err) => {
 
         if (err) {
             res.send({"ERROR [create 'working_edits/']": err})
@@ -220,7 +225,7 @@ const edit = async (req, res) => {
 
     // define file path
 
-    let data_path_e = `data/working_edits/${database}/${table_name}-${timestamp}.json`;
+    let data_path_e = `${__dirname}/data/working_edits/${database}/${table_name}-${timestamp}.json`;
 
     console.log("data_path_e:", data_path_e);
 
@@ -231,10 +236,10 @@ const edit = async (req, res) => {
     writer.write(updated_data, (err, res) => {
         
         if (err) {
-            res.send({"ERROR [write edits]": err})
             console.log("ERROR [write edits]:", err)
             throw err;
         }
+        // res.send({"ERROR [write edits]": err})
 
     });
 }
@@ -252,7 +257,7 @@ const save = async (req, res) => {
     
     // compile all edits to each table
 
-    fs.readdir(`data/working_edits/${database}/`, async (err, all_update_files) => {
+    fs.readdir(`${__dirname}/data/working_edits/${database}/`, async (err, all_update_files) => {
         
         // remove .keep file from list
         let ki = all_update_files.indexOf(".keep")
@@ -295,7 +300,7 @@ const save = async (req, res) => {
 
                 // load JSON
 
-                return aq.loadJSON(`data/working_edits/${database}/${file}`).then(data => data.reify())
+                return aq.loadJSON(`${__dirname}/data/working_edits/${database}/${file}`).then(data => data.reify())
 
             }))
 
@@ -318,7 +323,7 @@ const save = async (req, res) => {
 
                 // set compiled data path
 
-                let data_path_c = `data/compiled_edits/${database}/${table_name}-${timestamp}.json`;
+                let data_path_c = `${__dirname}/data/compiled_edits/${database}/${table_name}-${timestamp}.json`;
 
                 // convert to JSON to save compiled
 
@@ -350,7 +355,7 @@ const save = async (req, res) => {
 
                 // update main data file for this table
 
-                let data_path_m = `data/full_data/${database}/${table_name}.json`;
+                let data_path_m = `${__dirname}/data/full_data/${database}/${table_name}.json`;
 
                 fs.readFile(data_path_m, (err, data) => {
 
@@ -410,7 +415,7 @@ const commit = async (req, res) => {
 
     // ==== unlink files during commit ==================== //
 
-    fs.readdir(`data/working_edits/${database}/`, (err, all_update_files) => {
+    fs.readdir(`${__dirname}/data/working_edits/${database}/`, (err, all_update_files) => {
         
         // remove .keep file from list
         let ki = all_update_files.indexOf(".keep")
@@ -418,7 +423,7 @@ const commit = async (req, res) => {
 
         all_update_files.forEach(file => {
 
-            fs.unlink(`data/working_edits/${database}/${file}`, (err) => {
+            fs.unlink(`${__dirname}/data/working_edits/${database}/${file}`, (err) => {
                 console.log("unlink:", `data/working_edits/${file}`)
                 if (err) {
                     console.log("unlink err:", err);
@@ -447,7 +452,7 @@ const commit = async (req, res) => {
 
         // ---- first add compiled edits and full data, then commit -------------------- //
         
-        await git.add([`data/compiled_edits/${database}/`, `data/full_data/${database}/`])
+        await git.add([`${__dirname}/data/compiled_edits/${database}/`, `${__dirname}/data/full_data/${database}/`])
             .commit(`data edits: ${commit_time.toDateString()} ${commit_time.toLocaleTimeString()}`)
             .push(['-u', 'origin', 'HEAD'], () => console.log('>>> pushed <<<'));
         
@@ -455,12 +460,12 @@ const commit = async (req, res) => {
 
         // but only if one doesn't already exist for this branch
 
-        await request('GET /repos/nycehs/BESP_EHDP_data_editor/pulls', {
-            owner: 'nycehs',
-            repo: 'BESP_EHDP_data_editor',
+        await request('GET /repos/nychealth/EHDP-data/pulls', {
+            owner: 'nychealth',
+            repo: 'EHDP-data',
             headers: {
                 'X-GitHub-Api-Version': '2022-11-28',
-                authorization: "token " + process.env.PAT_for_NYCEHS
+                authorization: "token " + process.env.token_for_everything
             }
         })
         .then(rslt => {
@@ -477,15 +482,15 @@ const commit = async (req, res) => {
 
                 console.log("rslt [PR GET]:", rslt);
                 
-                request('POST /repos/nycehs/BESP_EHDP_data_editor/pulls', {
-                    owner: 'nycehs',
-                    repo: 'BESP_EHDP_data_editor',
+                request('POST /repos/nychealth/EHDP-data/pulls', {
+                    owner: 'nychealth',
+                    repo: 'EHDP-data',
                     title: new_branch_name,
                     head: new_branch_name,
                     base: base_branch,
                     headers: {
                         'X-GitHub-Api-Version': '2022-11-28',
-                        authorization: "token " + process.env.PAT_for_NYCEHS
+                        authorization: "token " + process.env.token_for_everything
                     }
                 })
 
@@ -556,7 +561,7 @@ app.post('/commit', async (req, res) => {
     
     // first compile edits, then commit, etc.
     
-    fs.readdir(`data/working_edits/${database}/`, (err, files) => {
+    fs.readdir(`${__dirname}/data/working_edits/${database}/`, (err, files) => {
         
         // remove .keep file from list
         let ki = files.indexOf(".keep")

@@ -1,2 +1,2 @@
 start "http://localhost:8080/"
-node index.js
+node "data-editor/index.js"
