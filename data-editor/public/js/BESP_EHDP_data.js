@@ -1032,18 +1032,12 @@ const show_BESP_EHDP_data = () => {
             if (["dataset", "visualization_dataset_flags", "new_viz"].includes(table_name)) {
 
                 // console.log("e [select]", e);
-                
+
                 // iterate over the selected row(s)
-                
+
                 for (const idx of indexes) {
 
-                    let row = idx.row;
-                    let column = idx.column;
-
-                    // console.log("row", row, "column", column);
-                    
-                    // $(data_table.rows(row).nodes()).addClass("bg-warning-subtle")
-                    // $(data_table.row(idx.row).node()).addClass("bg-warning-subtle")
+                    // console.log("row", ids.row, "column", idx.column);
 
                     // if the shift key is pressed, then don't modify the already-selected row in
                     //  the range selection
@@ -1062,9 +1056,6 @@ const show_BESP_EHDP_data = () => {
                         let cell_text = $(data_table.cell(idx).node()).text()
                         let new_cell_text = (cell_text == "0" ? "1" : "0")
 
-                        // console.log("cell_text", cell_text);
-                        // console.log("new_cell_text", new_cell_text);
-
                         // set cell text
 
                         let text_content = data_table.cell(idx).node()?.childNodes[0].textContent
@@ -1077,20 +1068,9 @@ const show_BESP_EHDP_data = () => {
 
                         }
                         
-                        // switch check
-
-                        // let this_checkbox = $(data_table.cell(idx).node()).find("input[type=checkbox]")
-                        // let is_checked = this_checkbox.prop("checked")
-
-                        // this_checkbox.prop("checked", is_checked ? false : true)
-                        
-                        // wait half a second before telling DT about the change and triggering sort
+                        // wait 1/10th of a second before saving, telling DT about the change, and triggering sort
                         
                         setTimeout(() => {
-                            
-                            // tell DT to refresh the data for this cell
-                            
-                            // data_table.cell(idx).invalidate()
                             
                             // save table edits
                             
@@ -1099,7 +1079,7 @@ const show_BESP_EHDP_data = () => {
                         }, 100)
                         
                     }
-                    
+
                 }
                 
                 // save these indexes
@@ -1123,21 +1103,12 @@ const show_BESP_EHDP_data = () => {
             if (["dataset", "visualization_dataset_flags", "new_viz"].includes(table_name)) {
 
                 // console.log("e [deselect]", e);
-                
-                let row = indexes[0].row;
-                let column = indexes[0].column;
 
                 // iterate over the selected row(s)
 
                 for (const idx of indexes) {
 
-                    let row = idx.row;
-                    let column = idx.column;
-
-                    // console.log("row", row, "column", column);
-                    
-                    // $(data_table.rows(row).nodes()).addClass("bg-warning-subtle")
-                    // $(data_table.row(idx.row).node()).removeClass("bg-warning-subtle")
+                    // console.log("row", ids.row, "column", idx.column);
 
                     // if the shift key is pressed, then don't modify the already-selected row in
                     //  the range selection
@@ -1168,29 +1139,21 @@ const show_BESP_EHDP_data = () => {
 
                         }
                         
-                        // switch check
-
-                        // let this_checkbox = $(data_table.cell(idx).node()).find("input[type=checkbox]")
-                        // let is_checked = this_checkbox.prop("checked")
-
-                        // this_checkbox.prop("checked", is_checked ? false : true)
-                        
-                        // wait half a second before telling DT about the change and triggering sort
+                        // wait 1/10th of a second before saving, telling DT about the change, and triggering sort
                         
                         setTimeout(() => {
                             
-                            // tell DT to refresh the data for this cell
-                            
-                            data_table.cell(idx).invalidate()
-                            
                             // save table edits
                             
-                            save_edits(idx.row)
+                            save_edits(idx.row, idx.column)
                             
                         }, 100)
                         
                     }
+
                 }
+
+                // restore deselected rows back to their original order
 
                 if (table_name == "new_viz") {
 
@@ -1440,7 +1403,7 @@ const show_BESP_EHDP_data = () => {
                 .filter(aq.escape(d => d[col_names[0]] == edited_id))
                 .select(aq.all(col_names))
                 .toJSON({schema: false})
-                .replace( /(<([^>]+)>)/ig, '')
+                // .replace( /(<([^>]+)>)/ig, '')
 
             // ==== post updated data to server ====================== //
 
