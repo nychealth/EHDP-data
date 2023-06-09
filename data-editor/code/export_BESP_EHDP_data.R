@@ -110,7 +110,7 @@ for (i in 1:length(table_names)) {
 
     write_file(
         table_json, 
-        paste0("data/full_data/BESP_EHDP_data/", table_name, ".json")
+        paste0("data-editor/data/full_data/BESP_EHDP_data/", table_name, ".json")
     )
     
 }
@@ -143,7 +143,7 @@ indicator_measure_names_json <-
 
 write_file(
     indicator_measure_names_json, 
-    paste0("data/full_data/BESP_EHDP_data/indicator_measure_names.json")
+    paste0("data-editor/data/full_data/BESP_EHDP_data/indicator_measure_names.json")
 )
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -169,7 +169,7 @@ indicator_measure_names_concat_json <-
 
 write_file(
     indicator_measure_names_concat_json, 
-    paste0("data/full_data/BESP_EHDP_data/indicator_measure_names_concat.json")
+    paste0("data-editor/data/full_data/BESP_EHDP_data/indicator_measure_names_concat.json")
 )
 
 
