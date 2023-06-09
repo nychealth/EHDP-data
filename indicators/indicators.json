@@ -44480,15 +44480,15 @@
         "DisplayType":"1 (lowest) to 5 (highest)",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"CD",
-            "GeoTypeDescription":"Neighborhood (Community District)"
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
           }
         ],
         "AvailableTimes":[
           {
-            "TimeDescription":"2018",
-            "start_period":1514764800000,
-            "end_period":1546214400000
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
           }
         ],
         "VisOptions":[
@@ -65157,15 +65157,15 @@
         "DisplayType":"1 (lowest) to 5 (highest)",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"NTA2010",
+            "GeoType":"NTA2020",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
           {
-            "TimeDescription":"2018",
-            "start_period":1514764800000,
-            "end_period":1546214400000
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
           }
         ],
         "VisOptions":[
