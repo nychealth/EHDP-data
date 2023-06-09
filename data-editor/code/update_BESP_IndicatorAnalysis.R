@@ -56,7 +56,7 @@ base_branch <- "compiled-data-edits"
 pr_titles <-
     gh(
         "/repos/nycehs/BESP_EHDP_data_editor/pulls",
-        .token = Sys.getenv("PAT_for_NYCEHS"),
+        .token = Sys.getenv("token_for_everything"),
         state = "open"
     ) %>% 
     map_chr( ~ .x$title) %>% 
