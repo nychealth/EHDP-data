@@ -48,7 +48,8 @@ now_ms <- function () {
 # set base branch
 #-----------------------------------------------------------------------------------------#
 
-base_branch <- "compiled-data-edits"
+# base_branch <- "compiled-data-edits"
+base_branch <- "feature-data-editor"
 
 #-----------------------------------------------------------------------------------------#
 # check for open PRs first
@@ -191,7 +192,7 @@ EHDP_data <-
 # getting file paths ----
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-file_dir <- path("data/compiled_edits/BESP_EHDP_data")
+file_dir <- path("data-editor/data/compiled_edits/BESP_EHDP_data")
 
 files_to_upload <- dir_ls(file_dir)
 
