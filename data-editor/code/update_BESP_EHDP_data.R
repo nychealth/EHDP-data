@@ -56,7 +56,7 @@ base_branch <- "compiled-data-edits"
 
 pr_titles <-
     gh(
-        "/repos/nycehs/BESP_EHDP_data_editor/pulls",
+        "/repos/nychealth/EHDP-data/pulls",
         .token = Sys.getenv("token_for_everything"),
         state = "open"
     ) %>% 
@@ -71,7 +71,7 @@ if (length(pr_titles) > 0) {
             "\n",
             paste0(" - ", pr_titles, "\n"),
             "\n",
-            "https://github.com/nycehs/BESP_EHDP_data_editor/pulls"
+            "https://github.com/nychealth/EHDP-data/pulls"
         ),
         call. = FALSE
     )
