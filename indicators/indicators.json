@@ -8319,6 +8319,11 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
+          },
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -8447,6 +8452,11 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
+          },
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -8724,6 +8734,11 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
+          },
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -8852,6 +8867,11 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
+          },
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -13522,16 +13542,6 @@
             "end_period":1451520000000
           },
           {
-            "TimeDescription":"2016",
-            "start_period":1451606400000,
-            "end_period":1483142400000
-          },
-          {
-            "TimeDescription":"2017",
-            "start_period":1483228800000,
-            "end_period":1514678400000
-          },
-          {
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
@@ -13550,6 +13560,11 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
+          },
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -13678,6 +13693,11 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
+          },
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -40009,7 +40029,7 @@
         "MeasurementType":"Degrees Fahrenheit",
         "how_calculated":"Daytime landsat thermal data on surface, July 17, 2018, averaged spatially.",
         "Sources":"U.S. Geological Survey",
-        "DisplayType":"degrees Fahrenheit",
+        "DisplayType":"",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
