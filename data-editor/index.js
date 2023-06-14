@@ -413,28 +413,6 @@ const save = async (req, res) => {
 
 const commit = async (req, res) => {
 
-    // ==== unlink files during commit ==================== //
-
-    fs.readdir(`${__dirname}/data/working_edits/${database}/`, (err, all_update_files) => {
-        
-        // remove .keep file from list
-        let ki = all_update_files.indexOf(".keep")
-        all_update_files.splice(ki, 1)
-
-        all_update_files.forEach(file => {
-
-            fs.unlink(`${__dirname}/data/working_edits/${database}/${file}`, (err) => {
-                console.log("unlink:", `data/working_edits/${file}`)
-                if (err) {
-                    console.log("unlink err:", err);
-                    res.send({"unlink err": err})
-                    throw err;
-                }
-            })
-            
-        });
-
-    })
     
     // ==== check branch and switch if necessary, then commit etc. ==================== //
 
@@ -522,6 +500,32 @@ const commit = async (req, res) => {
 
 }
 
+const unlink = () => {
+    
+    // ==== unlink files during commit ==================== //
+
+    fs.readdir(`${__dirname}/data/working_edits/${database}/`, (err, all_update_files) => {
+        
+        // remove .keep file from list
+        let ki = all_update_files.indexOf(".keep")
+        all_update_files.splice(ki, 1)
+
+        all_update_files.forEach(file => {
+
+            fs.unlink(`${__dirname}/data/working_edits/${database}/${file}`, (err) => {
+                console.log("unlink:", `data/working_edits/${file}`)
+                if (err) {
+                    console.log("unlink err:", err);
+                    res.send({"unlink err": err})
+                    throw err;
+                }
+            })
+            
+        });
+
+    })
+}
+
 
 // ----------------------------------------------------------------------- //
 // handle POST requests
@@ -589,8 +593,14 @@ app.post('/commit', async (req, res) => {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
 
 app.post('/exit', async (req, res) => {
+
+    // delete working edits
+    unlink()
+
+    // exit node process
     res.send("exit")
     process.exit()
+    
 })
 
 
