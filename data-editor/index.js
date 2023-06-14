@@ -431,8 +431,9 @@ const commit = async (req, res) => {
         // ---- first add compiled edits and full data, then commit -------------------- //
         
         await git.add([`${__dirname}/data/compiled_edits/${database}/`])
-            .add([`${__dirname}/data/full_data/${database}/`])
-            .commit(`data edits: ${commit_time.toDateString()} ${commit_time.toLocaleTimeString()}`)
+        await git.add([`${__dirname}/data/full_data/${database}/`])
+        
+        await git.commit(`data edits: ${commit_time.toDateString()} ${commit_time.toLocaleTimeString()}`)
             .push(['-u', 'origin', 'HEAD'], () => console.log('>>> pushed <<<'));
         
         // ---- then, create pull request using GitHub CLI -------------------- //
@@ -562,11 +563,11 @@ app.post('/new_branch', async (req, res) => {
 // handle commit POST
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
 
-app.post('/commit', async (req, res) => {
+app.post('/commit', (req, res) => {
     
     // first compile edits, then commit, etc.
     
-    fs.readdir(`${__dirname}/data/working_edits/${database}/`, (err, files) => {
+    fs.readdir(`${__dirname}/data/working_edits/${database}/`, async (err, files) => {
         
         // remove .keep file from list
         let ki = files.indexOf(".keep")
@@ -576,7 +577,8 @@ app.post('/commit', async (req, res) => {
 
             // if there are working edits, compile them, then commit
 
-            save(req, res).then(() => commit(req, res))
+            await save(req, res)
+            commit(req, res);
 
         } else {
 
