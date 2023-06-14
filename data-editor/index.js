@@ -595,12 +595,20 @@ app.post('/commit', async (req, res) => {
 app.post('/exit', async (req, res) => {
 
     // delete working edits
+
     unlink()
 
-    // exit node process
-    res.send("exit")
-    process.exit()
-    
+    // wait a bit to make sure the deleting finishes
+
+    setTimeout(() => {
+
+        // exit node process
+
+        res.send("exit")
+        process.exit()
+        
+    }, 500)
+
 })
 
 
