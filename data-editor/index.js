@@ -430,7 +430,8 @@ const commit = async (req, res) => {
 
         // ---- first add compiled edits and full data, then commit -------------------- //
         
-        await git.add([`${__dirname}/data/compiled_edits/${database}/`, `${__dirname}/data/full_data/${database}/`])
+        await git.add([`${__dirname}/data/compiled_edits/${database}/`])
+            .add([`${__dirname}/data/full_data/${database}/`])
             .commit(`data edits: ${commit_time.toDateString()} ${commit_time.toLocaleTimeString()}`)
             .push(['-u', 'origin', 'HEAD'], () => console.log('>>> pushed <<<'));
         
