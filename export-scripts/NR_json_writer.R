@@ -122,8 +122,10 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "SQLIT04A",
+        # server = "SQLIT04A",
+        server = "DESKTOP-PU7DGC1",
         database = db_name,
+        TrustServerCertificate = "yes",
         trusted_connection = "yes",
         encoding = "latin1"
     )
@@ -247,6 +249,26 @@ report_level_3 <-
                 indicator_id %in% adult_indicators ~ 
                     str_replace(indicator_short_name, "\\(children\\)", "(adults)"),
                 TRUE ~ indicator_short_name
+            ),
+        data_value_nyc =
+            case_when(
+                indicator_id %in% c(643, 644, 645) ~ data_value_nyc/1000000,
+                .default = data_value_nyc
+            ),
+        data_value_borough =
+            case_when(
+                indicator_id %in% c(643, 644, 645) ~ data_value_borough/1000000,
+                .default = data_value_borough
+            ),
+        unmodified_data_value_geo_entity =
+            case_when(
+                indicator_id %in% c(643, 644, 645) ~ unmodified_data_value_geo_entity/1000000,
+                .default = unmodified_data_value_geo_entity
+            ),
+        measurement_type =
+            case_when(
+                indicator_id %in% c(643, 644, 645) ~ str_c("Million ", measurement_type),
+                .default = measurement_type
             ),
         indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
         summary_bar_svg = 
