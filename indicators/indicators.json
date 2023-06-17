@@ -8336,7 +8336,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -8469,7 +8469,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -8751,7 +8751,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -8884,7 +8884,7 @@
             ],
             "Trend":[
               {
-                "On":1,
+                "On":0,
                 "Disparities":0
               }
             ],
@@ -26422,6 +26422,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -26538,6 +26542,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -44500,11 +44508,20 @@
         "DisplayType":"1 (lowest) to 5 (highest)",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
             "GeoType":"CDTA2020",
             "GeoTypeDescription":"Neighborhood (CDTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
           {
             "TimeDescription":"2023",
             "start_period":1672531200000,
@@ -59350,6 +59367,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59466,6 +59487,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59639,6 +59664,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59755,6 +59784,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59871,6 +59904,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59938,6 +59975,11 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -65177,11 +65219,20 @@
         "DisplayType":"1 (lowest) to 5 (highest)",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
             "GeoType":"NTA2020",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
           {
             "TimeDescription":"2023",
             "start_period":1672531200000,
