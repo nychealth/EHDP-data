@@ -122,8 +122,8 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        # server = "SQLIT04A",
-        server = "DESKTOP-PU7DGC1",
+        server = "SQLIT04A",
+        # server = "DESKTOP-PU7DGC1",
         database = db_name,
         TrustServerCertificate = "yes",
         trusted_connection = "yes",
@@ -252,17 +252,17 @@ report_level_3 <-
             ),
         data_value_nyc =
             case_when(
-                indicator_id %in% c(643, 644, 645) ~ data_value_nyc/1000000,
+                indicator_id %in% c(643, 644, 645) ~ round(data_value_nyc/1000000, 1),
                 .default = data_value_nyc
             ),
         data_value_borough =
             case_when(
-                indicator_id %in% c(643, 644, 645) ~ data_value_borough/1000000,
+                indicator_id %in% c(643, 644, 645) ~ round(data_value_borough/1000000, 1),
                 .default = data_value_borough
             ),
         unmodified_data_value_geo_entity =
             case_when(
-                indicator_id %in% c(643, 644, 645) ~ unmodified_data_value_geo_entity/1000000,
+                indicator_id %in% c(643, 644, 645) ~ round(unmodified_data_value_geo_entity/1000000, 1),
                 .default = unmodified_data_value_geo_entity
             ),
         measurement_type =
