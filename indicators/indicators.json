@@ -37932,9 +37932,9 @@
     "Measures":[
       {
         "MeasureID":643,
-        "MeasureName":"Traffic, Miles",
-        "MeasurementType":"Miles",
-        "how_calculated":"The average number of vehicles traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of vehicles was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilometer.",
+        "MeasureName":"Traffic, Million miles",
+        "MeasurementType":"Million miles",
+        "how_calculated":"The average number of vehicles traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of vehicles was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square mile.",
         "Sources":"New York Metropolitan Transportation Council Best Practice Model",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
@@ -38014,9 +38014,9 @@
     "Measures":[
       {
         "MeasureID":644,
-        "MeasureName":"Car traffic, Miles",
-        "MeasurementType":"Miles",
-        "how_calculated":"The average number of cars traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of cars was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilomete",
+        "MeasureName":"Car traffic, Million miles",
+        "MeasurementType":"Million miles",
+        "how_calculated":"The average number of cars traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of cars was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square mile.",
         "Sources":"New York Metropolitan Transportation Council Best Practice Model",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
@@ -38097,9 +38097,9 @@
     "Measures":[
       {
         "MeasureID":645,
-        "MeasureName":"Truck traffic, Miles",
-        "MeasurementType":"Miles",
-        "how_calculated":"The average number of trucks traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of trucks was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilomete",
+        "MeasureName":"Truck traffic, Million miles",
+        "MeasurementType":"Million miles",
+        "how_calculated":"The average number of trucks traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of trucks was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square mile.",
         "Sources":"New York Metropolitan Transportation Council Best Practice Model",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
