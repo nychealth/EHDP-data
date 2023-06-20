@@ -55,9 +55,7 @@ ALTER VIEW dbo.reportLevel3 AS
 
         CASE
             WHEN u.show_data_flag = 0 THEN 'N/A' + COALESCE(u.character_display, '')
-            ELSE Cast(
-                CAST(nabeD.data_value AS decimal(18, 1)) AS varchar
-            ) + COALESCE(u.character_display, '')
+            ELSE CAST(CAST(nabeD.data_value AS decimal(18, 1)) AS varchar) + COALESCE(u.character_display, '')
         END AS data_value_geo_entity,
 
         CASE
