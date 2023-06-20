@@ -68002,7 +68002,7 @@
         "MeasureName":"Bacteria, Fecal coliform (geometric mean)",
         "MeasurementType":"Fecal coliform (geometric mean)",
         "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC WRRF outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
-        "Sources":"",
+        "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
           {
@@ -68140,7 +68140,7 @@
         "MeasureName":"Bacteria, Enterococcui (geometric mean)",
         "MeasurementType":"Enterococcui (geometric mean)",
         "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC WRRF outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
-        "Sources":"",
+        "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
           {
@@ -68277,8 +68277,8 @@
         "MeasureID":1357,
         "MeasureName":"Bacteria, Fecal coliform bathing standard",
         "MeasurementType":"Fecal coliform bathing standard",
-        "how_calculated":"<p>NYS DEP standard<\/p>",
-        "Sources":"",
+        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
           {
@@ -68415,8 +68415,8 @@
         "MeasureID":1358,
         "MeasureName":"Bacteria, Fecal coliform fishing standard",
         "MeasurementType":"Fecal coliform fishing standard",
-        "how_calculated":"<p>NYS DEP standard<\/p>",
-        "Sources":"",
+        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
           {
@@ -68553,8 +68553,8 @@
         "MeasureID":1359,
         "MeasureName":"Bacteria, Enterococcui fishing standard",
         "MeasurementType":"Enterococcui fishing standard",
-        "how_calculated":"<p>NYS DEP standard<\/p>",
-        "Sources":"",
+        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
           {
@@ -68702,8 +68702,8 @@
         "MeasureID":1360,
         "MeasureName":"Dissolved oxygen (DO), Bathing standard",
         "MeasurementType":"Bathing standard",
-        "how_calculated":"<p>NYS DEP standard<\/p>",
-        "Sources":"",
+        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "Sources":"NYS DEC Regulations",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
           {
@@ -68840,8 +68840,8 @@
         "MeasureID":1361,
         "MeasureName":"Dissolved oxygen (DO), Fishing standard",
         "MeasurementType":"Fishing standard",
-        "how_calculated":"<p>NYS DEP standard<\/p>",
-        "Sources":"",
+        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "Sources":"NYS DEC Regulations",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
           {
@@ -68979,7 +68979,7 @@
         "MeasureName":"Dissolved oxygen (DO), Top of water column (mean)",
         "MeasurementType":"Top of water column (mean)",
         "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC WRRF outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
-        "Sources":"",
+        "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
           {
@@ -69117,7 +69117,7 @@
         "MeasureName":"Dissolved oxygen (DO), Bottom of water column (mean)",
         "MeasurementType":"Bottom of water column (mean)",
         "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC WRRF outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
-        "Sources":"",
+        "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
           {
@@ -69618,7 +69618,7 @@
         "MeasureName":"Farmers markets, Number",
         "MeasurementType":"Number",
         "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year.",
-        "Sources":"",
+        "Sources":"NYC Department of Health and Mental Hygiene (DOHMH) via NYC Open Data",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -69676,7 +69676,7 @@
         "MeasureName":"Farmers markets, Density",
         "MeasurementType":"Density",
         "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year, divided by the neighborhood area in square miles.",
-        "Sources":"",
+        "Sources":"NYC Department of Health and Mental Hygiene (DOHMH) via NYC Open Data",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
@@ -69734,7 +69734,7 @@
         "MeasureName":"Farmers markets, Number (year-round)",
         "MeasurementType":"Number (year-round)",
         "how_calculated":"The number of farmers markets per neighborhood that are open during the entire the year.",
-        "Sources":"",
+        "Sources":"NYC Department of Health and Mental Hygiene (DOHMH) via NYC Open Data",
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
@@ -69792,7 +69792,7 @@
         "MeasureName":"Farmers markets, Density (year-round)",
         "MeasurementType":"Density (year-round)",
         "how_calculated":"The number of farmers markets per neighborhood that are open during the entire year, divided by the neighborhood area in square miles.",
-        "Sources":"",
+        "Sources":"NYC Department of Health and Mental Hygiene (DOHMH) via NYC Open Data",
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
