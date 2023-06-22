@@ -120,7 +120,8 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "SQLIT04A",
+        # server = "SQLIT04A",
+        server = "DESKTOP-PU7DGC1",
         database = db_name,
         trusted_connection = "yes",
         encoding = "latin1",
@@ -150,8 +151,7 @@ comparisons_nested <-
     mutate(ComparisonName = ComparisonName %>% str_remove_all("<.*?>")) %>% # remove HTML tags
     rename(Measures = MeasureID) %>% 
     group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title, IndicatorID) %>% 
-    mutate(Measures = list(unlist(Measures))) %>%
-    distinct() %>% 
+    group_nest(.key = "Measures", keep = FALSE) %>%
     ungroup() %>%
     group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title) %>%
     group_nest(.key = "Indicators", keep = FALSE) %>%
