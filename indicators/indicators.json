@@ -37076,6 +37076,7 @@
     "IndicatorLabel":"Sugary drink consumption (adults)",
     "IndicatorDescription":"Adults reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
     "Comparisons":[
+      115,
       536
     ],
     "Measures":[
@@ -37316,6 +37317,7 @@
     "IndicatorLabel":"Sugary drink consumption (youth)",
     "IndicatorDescription":"Youths reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
     "Comparisons":[
+      115,
       536
     ],
     "Measures":[
@@ -37939,6 +37941,10 @@
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
@@ -37949,10 +37955,6 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
           }
         ],
         "AvailableTimes":[
@@ -38049,11 +38051,6 @@
             "end_period":1293753600000
           },
           {
-            "TimeDescription":"2016",
-            "start_period":1451606400000,
-            "end_period":1483142400000
-          },
-          {
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
@@ -38104,6 +38101,10 @@
         "DisplayType":"per square mile",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
           },
@@ -38114,10 +38115,6 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
-          },
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
           }
         ],
         "AvailableTimes":[
@@ -38130,11 +38127,6 @@
             "TimeDescription":"2010",
             "start_period":1262304000000,
             "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2016",
-            "start_period":1451606400000,
-            "end_period":1483142400000
           },
           {
             "TimeDescription":"2019",
