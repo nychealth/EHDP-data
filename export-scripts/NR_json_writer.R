@@ -125,9 +125,9 @@ EHDP_odbc <-
         server = "SQLIT04A",
         # server = "DESKTOP-PU7DGC1",
         database = db_name,
-        TrustServerCertificate = "yes",
         trusted_connection = "yes",
-        encoding = "latin1"
+        encoding = "latin1",
+        trustservercertificate = "yes"
     )
 
 

@@ -131,7 +131,8 @@ EHDP_odbc <-
         server = "SQLIT04A",
         database = db_name,
         trusted_connection = "yes",
-        encoding = "latin1"
+        encoding = "latin1",
+        trustservercertificate = "yes"
     )
 
 
