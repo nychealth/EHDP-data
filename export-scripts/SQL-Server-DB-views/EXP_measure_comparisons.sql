@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW dbo.EXP_measure_comparisons AS
+CREATE OR ALTER VIEW dbo.EXP_measure_comparisons AS
 
     SELECT
         mc.measure_compare_id  AS ComparisonID,
@@ -11,7 +11,9 @@ ALTER VIEW dbo.EXP_measure_comparisons AS
         mc.group_title_display AS LegendTitle,
         mc.Y_axis_title,
         idef.internal_id       AS IndicatorID,
-        mm.indicator_id        AS MeasureID
+        mm.indicator_id        AS MeasureID,
+        mm.geo_type_id         AS GeoTypeID,
+        mm.geo_entity_id       AS GeoEntityID
 
     FROM measure_compare AS mc
         LEFT JOIN m_to_m               AS   mm ON mm.measure_compare_id = mc.measure_compare_id
