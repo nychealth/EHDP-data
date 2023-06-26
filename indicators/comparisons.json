@@ -30,8 +30,12 @@
     "Y_axis_title": "Percent",
     "Indicators": [
       {
-        "IndicatorID": null,
-        "Measures": [null]
+        "IndicatorID": 2097,
+        "Measures": [609]
+      },
+      {
+        "IndicatorID": 2098,
+        "Measures": [610]
       }
     ]
   },
@@ -44,18 +48,6 @@
       {
         "IndicatorID": 90,
         "Measures": [170, 442]
-      }
-    ]
-  },
-  {
-    "ComparisonID": 121,
-    "ComparisonName": "Modal Shift - All Travel: Automobile and Transit Volume",
-    "LegendTitle": "Modal Shift - All Travel",
-    "Y_axis_title": "Y-axis",
-    "Indicators": [
-      {
-        "IndicatorID": null,
-        "Measures": [null]
       }
     ]
   },
