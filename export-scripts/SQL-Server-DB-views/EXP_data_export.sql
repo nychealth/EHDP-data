@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[EXP_data_export] AS
+ALTER VIEW [dbo].[EXP_data_export] AS
     
     SELECT DISTINCT
 

@@ -123,11 +123,9 @@ EHDP_odbc <-
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
         server = "SQLIT04A",
-        # server = "DESKTOP-PU7DGC1",
         database = db_name,
         trusted_connection = "yes",
-        encoding = "latin1",
-        trustservercertificate = "yes"
+        encoding = "latin1"
     )
 
 

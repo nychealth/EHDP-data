@@ -7711,11 +7711,6 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
-          },
-          {
-            "TimeDescription":"2022",
-            "start_period":1640995200000,
-            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -7844,11 +7839,6 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
-          },
-          {
-            "TimeDescription":"2022",
-            "start_period":1640995200000,
-            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -7875,7 +7865,7 @@
     "IndicatorID":57,
     "IndicatorName":"Fine particles (PM 2.5) action days",
     "IndicatorLabel":"Fine particles (PM 2.5) action days",
-    "IndicatorDescription":"Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+    "IndicatorDescription":"<p>Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.<\/p>",
     "Comparisons":[
       564
     ],
@@ -8126,11 +8116,6 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
-          },
-          {
-            "TimeDescription":"2022",
-            "start_period":1640995200000,
-            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -8143,7 +8128,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -8259,11 +8244,6 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
-          },
-          {
-            "TimeDescription":"2022",
-            "start_period":1640995200000,
-            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -8276,7 +8256,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -12882,6 +12862,16 @@
             "end_period":1451520000000
           },
           {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
@@ -12900,11 +12890,6 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
-          },
-          {
-            "TimeDescription":"2022",
-            "start_period":1640995200000,
-            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -13033,11 +13018,6 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
-          },
-          {
-            "TimeDescription":"2022",
-            "start_period":1640995200000,
-            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -18183,18 +18163,6 @@
               {
                 "MeasureID":460,
                 "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":643,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":644,
-                "SecondaryAxis":"x"
-              },
-              {
-                "MeasureID":645,
-                "SecondaryAxis":"x"
               },
               {
                 "MeasureID":696,
@@ -28832,16 +28800,6 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
-          },
-          {
-            "TimeDescription":"2019",
-            "start_period":1546300800000,
-            "end_period":1577750400000
-          },
-          {
-            "TimeDescription":"2020",
-            "start_period":1577836800000,
-            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -34742,12 +34700,7 @@
                 "Disparities":0
               }
             ],
-            "Links":[
-              {
-                "MeasureID":643,
-                "SecondaryAxis":"x"
-              }
-            ]
+            "Links":null
           }
         ]
       }
@@ -35874,7 +35827,6 @@
     "IndicatorLabel":"Sugary drink consumption (adults)",
     "IndicatorDescription":"Adults reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
     "Comparisons":[
-      115,
       536
     ],
     "Measures":[
@@ -36115,7 +36067,6 @@
     "IndicatorLabel":"Sugary drink consumption (youth)",
     "IndicatorDescription":"Youths reporting that they drink 1 or more sugary drinks per day. Sugary drinks contribute to an unhealthy, high-calorie diet.",
     "Comparisons":[
-      115,
       536
     ],
     "Measures":[
@@ -36698,16 +36649,12 @@
     "Measures":[
       {
         "MeasureID":643,
-        "MeasureName":"Traffic, Million miles",
-        "MeasurementType":"Million miles",
-        "how_calculated":"The average number of vehicles traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of vehicles was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square mile.",
+        "MeasureName":"Traffic, million miles",
+        "MeasurementType":"million miles",
+        "how_calculated":"The average number of vehicles traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of vehicles was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilometer.",
         "Sources":"New York Metropolitan Transportation Council Best Practice Model",
-        "DisplayType":"per square mile",
+        "DisplayType":"per km2",
         "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
           {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
@@ -36719,6 +36666,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
           }
         ],
         "AvailableTimes":[
@@ -36728,14 +36679,9 @@
             "end_period":1135987200000
           },
           {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2019",
-            "start_period":1546300800000,
-            "end_period":1577750400000
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
           }
         ],
         "VisOptions":[
@@ -36753,6 +36699,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
               {
                 "MeasureID":365,
                 "SecondaryAxis":"y"
@@ -36769,18 +36719,18 @@
   },
   {
     "IndicatorID":2113,
-    "IndicatorName":"Annual vehicle miles traveled (cars)",
-    "IndicatorLabel":"Annual vehicle miles traveled (cars)",
+    "IndicatorName":"Annual vehicle miles travelled (cars)",
+    "IndicatorLabel":"Annual vehicle miles travelled (cars)",
     "IndicatorDescription":"Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":644,
-        "MeasureName":"Car traffic, Million miles",
-        "MeasurementType":"Million miles",
-        "how_calculated":"The average number of cars traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of cars was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square mile.",
+        "MeasureName":"Car traffic, million miles",
+        "MeasurementType":"million miles",
+        "how_calculated":"The average number of cars traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of cars was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilomete",
         "Sources":"New York Metropolitan Transportation Council Best Practice Model",
-        "DisplayType":"per square mile",
+        "DisplayType":"per km2",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -36806,14 +36756,9 @@
             "end_period":1135987200000
           },
           {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2019",
-            "start_period":1546300800000,
-            "end_period":1577750400000
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
           }
         ],
         "VisOptions":[
@@ -36831,6 +36776,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
               {
                 "MeasureID":365,
                 "SecondaryAxis":"y"
@@ -36843,23 +36792,19 @@
   },
   {
     "IndicatorID":2114,
-    "IndicatorName":"Annual vehicle miles traveled (trucks)",
-    "IndicatorLabel":"Annual vehicle miles traveled (trucks)",
+    "IndicatorName":"Annual vehicle miles travelled (trucks)",
+    "IndicatorLabel":"Annual vehicle miles travelled (trucks)",
     "IndicatorDescription":"Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":645,
-        "MeasureName":"Truck traffic, Million miles",
-        "MeasurementType":"Million miles",
-        "how_calculated":"The average number of trucks traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of trucks was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square mile.",
+        "MeasureName":"Truck traffic, million miles",
+        "MeasurementType":"million miles",
+        "how_calculated":"The average number of trucks traveling on a road segment on any given day during the year was estimated for each segment in a geography. The number of trucks was multiplied by length of road segment to arrive at a daily vehicle-miles measure for that segment. The daily vehicle-miles measures were summed across all segments in a geography and then multiplied by 365 to arrive at an annual measure. Vehicle-miles are expressed in millions per square kilomete",
         "Sources":"New York Metropolitan Transportation Council Best Practice Model",
-        "DisplayType":"per square mile",
+        "DisplayType":"per km2",
         "AvailableGeographyTypes":[
-          {
-            "GeoType":"Borough",
-            "GeoTypeDescription":"Borough"
-          },
           {
             "GeoType":"CD",
             "GeoTypeDescription":"Neighborhood (Community District)"
@@ -36871,6 +36816,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
           }
         ],
         "AvailableTimes":[
@@ -36880,14 +36829,9 @@
             "end_period":1135987200000
           },
           {
-            "TimeDescription":"2010",
-            "start_period":1262304000000,
-            "end_period":1293753600000
-          },
-          {
-            "TimeDescription":"2019",
-            "start_period":1546300800000,
-            "end_period":1577750400000
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
           }
         ],
         "VisOptions":[
@@ -36905,6 +36849,10 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
               {
                 "MeasureID":365,
                 "SecondaryAxis":"y"
@@ -38765,7 +38713,7 @@
         "MeasurementType":"Degrees Fahrenheit",
         "how_calculated":"Daytime landsat thermal data on surface, July 17, 2018, averaged spatially.",
         "Sources":"U.S. Geological Survey",
-        "DisplayType":"",
+        "DisplayType":"degrees Fahrenheit",
         "AvailableGeographyTypes":[
           {
             "GeoType":"Borough",
@@ -43029,7 +42977,7 @@
     "IndicatorID":2191,
     "IndicatorName":"Heat vulnerability index",
     "IndicatorLabel":"Heat vulnerability index",
-    "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"..\/key-topics\/climatehealth\/hvi\">See our interactive Heat Vulnerability Index<\/a>",
+    "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, poverty, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"..\/..\/key-topics\/climatehealth\/hvi\">See our interactive Heat Vulnerability Index<\/a>",
     "Comparisons":null,
     "Measures":[
       {
@@ -43041,15 +42989,15 @@
         "DisplayType":"1 (lowest) to 5 (highest)",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"CDTA2020",
-            "GeoTypeDescription":"Neighborhood (CDTA)"
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
           {
-            "TimeDescription":"2023",
-            "start_period":1672531200000,
-            "end_period":1703980800000
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -43063,10 +43011,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -57116,7 +57069,7 @@
         "MeasureID":1189,
         "MeasureName":"Cold deaths, Number",
         "MeasurementType":"Number",
-        "how_calculated":"Number of deaths during cold season months of October-April with an underlying or contributing cause that includes excessive natural cold (ICD10 code X31), hypothermia and other effects of reduced temperature (ICD10 codes T68-69), and frostbite (T33-34) among NYC residents. Number excludes deaths due to excessive cold of man-made origin (ICD10 code W93) and intentional deaths (ICD10 codes X6-X9, Y0, Y35, Y36).",
+        "how_calculated":"Number of deaths during cold season months of October-April with an underlying or contributing cause that includes excessive natural cold (ICD10 code X31) and hypothermia (ICD10 code T68), among NYC residents. Number excludes deaths due to excessive cold of man-made origin (ICD10 code W93) and intentional deaths (ICD10 codes X6-X9, Y0, Y35, Y36).",
         "Sources":"New York City Bureau of Vital Statistics",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -57200,11 +57153,6 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
-          },
-          {
-            "TimeDescription":"2020",
-            "start_period":1577836800000,
-            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -57720,7 +57668,7 @@
     "IndicatorID":2380,
     "IndicatorName":"Asthma emergency department visits (adults)",
     "IndicatorLabel":"Adults",
-    "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "IndicatorDescription":"<p>Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.<\/p>",
     "Comparisons":[
       555,
       676
@@ -58909,7 +58857,7 @@
     "IndicatorID":2384,
     "IndicatorName":"Asthma emergency department visits (adults), by NTA",
     "IndicatorLabel":"Adults (by NTA)",
-    "IndicatorDescription":"Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "IndicatorDescription":"<p>Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.<\/p>",
     "Comparisons":null,
     "Measures":[
       {
@@ -63007,7 +62955,7 @@
     "IndicatorID":2411,
     "IndicatorName":"Heat vulnerability index (NTA)",
     "IndicatorLabel":"Heat vulnerability index (NTA)",
-    "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"..\/key-topics\/climatehealth\/hvi\">See our interactive Heat Vulnerability Index<\/a>",
+    "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, poverty, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"..\/..\/key-topics\/climatehealth\/hvi\">See our interactive Heat Vulnerability Index<\/a>",
     "Comparisons":null,
     "Measures":[
       {
@@ -63019,15 +62967,15 @@
         "DisplayType":"1 (lowest) to 5 (highest)",
         "AvailableGeographyTypes":[
           {
-            "GeoType":"NTA2020",
+            "GeoType":"NTA2010",
             "GeoTypeDescription":"Neighborhood (NTA)"
           }
         ],
         "AvailableTimes":[
           {
-            "TimeDescription":"2023",
-            "start_period":1672531200000,
-            "end_period":1703980800000
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
           }
         ],
         "VisOptions":[
@@ -63041,10 +62989,15 @@
             "Trend":[
               {
                 "On":0,
-                "Disparities":0
+                "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -64408,7 +64361,7 @@
     "IndicatorID":2421,
     "IndicatorName":"Tobacco retailers",
     "IndicatorLabel":"Tobacco retailers",
-    "IndicatorDescription":"Retail locations that sell tobacco products. Neighborhoods with higher densities of tobacco retailers increase access to tobacco and may increase smoking rates.",
+    "IndicatorDescription":"<p>Retail locations that sell tobacco products. Neighborhoods with higher densities of tobacco retailers increase access to tobacco and may increase smoking rates.<\/p>",
     "Comparisons":null,
     "Measures":[
       {
@@ -64755,10 +64708,6 @@
                 "SecondaryAxis":"y"
               },
               {
-                "MeasureID":1352,
-                "SecondaryAxis":"x"
-              },
-              {
                 "MeasureID":1372,
                 "SecondaryAxis":"x"
               }
@@ -65045,10 +64994,6 @@
               },
               {
                 "MeasureID":1354,
-                "SecondaryAxis":"y"
-              },
-              {
-                "MeasureID":1365,
                 "SecondaryAxis":"y"
               }
             ]

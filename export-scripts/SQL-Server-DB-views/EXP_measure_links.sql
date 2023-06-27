@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[EXP_measure_links] AS 
+ALTER VIEW [dbo].[EXP_measure_links] AS 
 
     SELECT DISTINCT
 

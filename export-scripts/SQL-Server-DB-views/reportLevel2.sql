@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[reportLevel2] AS
+ALTER VIEW [dbo].[reportLevel2] AS
 
     SELECT TOP (100) PERCENT 
 
