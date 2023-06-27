@@ -20,7 +20,7 @@ git_fetch("origin")
 git_branch_checkout("production")
 
 # pull all changes on production
-system("git pull -X theirs --ff")
+system("git pull -X theirs --ff --no-edit")
 # git_pull("origin")
 
 # set long file path in object
