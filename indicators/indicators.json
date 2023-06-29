@@ -16486,6 +16486,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -16641,6 +16651,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -16656,7 +16676,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
