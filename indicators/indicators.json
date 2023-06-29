@@ -67993,7 +67993,7 @@
         "MeasureID":1355,
         "MeasureName":"Bacteria, Fecal coliform (geometric mean)",
         "MeasurementType":"Fecal coliform (geometric mean)",
-        "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC WRRF outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
+        "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC Wastewater Resource Recovery Facility outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
         "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -68131,7 +68131,7 @@
         "MeasureID":1356,
         "MeasureName":"Bacteria, Enterococcui (geometric mean)",
         "MeasurementType":"Enterococcui (geometric mean)",
-        "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC WRRF outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
+        "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC Wastewater Resource Recovery Facility outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
         "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -68269,7 +68269,7 @@
         "MeasureID":1357,
         "MeasureName":"Bacteria, Fecal coliform bathing standard",
         "MeasurementType":"Fecal coliform bathing standard",
-        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "how_calculated":"NYS DEC standard",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -68407,7 +68407,7 @@
         "MeasureID":1358,
         "MeasureName":"Bacteria, Fecal coliform fishing standard",
         "MeasurementType":"Fecal coliform fishing standard",
-        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "how_calculated":"NYS DEC standard",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -68545,7 +68545,7 @@
         "MeasureID":1359,
         "MeasureName":"Bacteria, Enterococcui bathing standard",
         "MeasurementType":"Enterococcui bathing standard",
-        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "how_calculated":"NYS DEC standard",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -68694,7 +68694,7 @@
         "MeasureID":1360,
         "MeasureName":"Dissolved oxygen (DO), Bathing standard",
         "MeasurementType":"Bathing standard",
-        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "how_calculated":"NYS DEC standard",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
@@ -68832,7 +68832,7 @@
         "MeasureID":1361,
         "MeasureName":"Dissolved oxygen (DO), Fishing standard",
         "MeasurementType":"Fishing standard",
-        "how_calculated":"<p>NYS DEC standard<\/p>",
+        "how_calculated":"NYS DEC standard",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
@@ -68970,7 +68970,7 @@
         "MeasureID":1362,
         "MeasureName":"Dissolved oxygen (DO), Top of water column (mean)",
         "MeasurementType":"Top of water column (mean)",
-        "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC WRRF outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
+        "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC Wastewater Resource Recovery Facility outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
         "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
@@ -69108,7 +69108,7 @@
         "MeasureID":1363,
         "MeasureName":"Dissolved oxygen (DO), Bottom of water column (mean)",
         "MeasurementType":"Bottom of water column (mean)",
-        "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC WRRF outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
+        "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC Wastewater Resource Recovery Facility outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
         "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
