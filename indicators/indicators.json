@@ -37628,7 +37628,7 @@
         "MeasureID":624,
         "MeasureName":"Mold, Number",
         "MeasurementType":"Number",
-        "how_calculated":"Estimated number of adults reporting damp spots or mold in at least one room in their building, excluding the bathroom, in the past 30 days.",
+        "how_calculated":"Estimated number of adults reporting mold or mildew on their walls or ceilings in the past 12 months.",
         "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -37654,6 +37654,11 @@
             "TimeDescription":"2012",
             "start_period":1325376000000,
             "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -37678,7 +37683,7 @@
         "MeasureID":625,
         "MeasureName":"Mold, Percent",
         "MeasurementType":"Percent",
-        "how_calculated":"Estimated number of adults reporting damp spots or mold in at least one room in their building, excluding the bathroom, in the past 30 days, expressed as a percent.",
+        "how_calculated":"Estimated number of adults reporting mold or mildew on their walls or ceilings in the past 12 months, expressed as a percent.",
         "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -37704,6 +37709,11 @@
             "TimeDescription":"2012",
             "start_period":1325376000000,
             "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
@@ -69612,11 +69622,20 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
             "GeoType":"NYCKIDS2021",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2021",
             "start_period":1609459200000,
@@ -69658,11 +69677,20 @@
             "GeoTypeDescription":"Citywide"
           },
           {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
             "GeoType":"NYCKIDS2021",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
           {
             "TimeDescription":"2021",
             "start_period":1609459200000,
