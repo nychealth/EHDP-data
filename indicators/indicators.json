@@ -3753,6 +3753,10 @@
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":1017,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":1199,
                 "SecondaryAxis":"x"
               },
@@ -52783,6 +52787,606 @@
               },
               {
                 "MeasureID":1322,
+                "SecondaryAxis":"y"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2328,
+    "IndicatorName":"ICE 1",
+    "IndicatorLabel":"ICE 1",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1009,
+        "MeasureName":"ICE 1, ICE (Income)",
+        "MeasurementType":"ICE (Income)",
+        "how_calculated":"The&nbsp;<\/span><span>Index of Concentration at the Extremes (ICE)<\/span><span>&nbsp;is a continuous measure of concentrated neighbourhood affluence and poverty.<\/span><span>The ICE can range from &minus;1 (most deprived) to 1 (most privileged).&nbsp;<\/span><\/p>\n<p>&nbsp;<\/p>\n<p><span>ICE<sub>inc<\/sub> =&nbsp;<span>((over US$100 k)&ndash;(under US$25 k))\/total population_household income<\/span>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1010,
+        "MeasureName":"ICE 1, ICE (Race\/Ethnicity)",
+        "MeasurementType":"ICE (Race\/Ethnicity)",
+        "how_calculated":"The&nbsp;<\/span><span>Index of Concentration at the Extremes (ICE)<\/span><span>&nbsp;is a continuous measure of <span>concentration of white residents<\/span>.<\/span><span>The ICE can range from &minus;1 (least white) to 1 (most white).&nbsp;<\/span><\/p>\n<p>&nbsp;<\/p>\n<p>ICE<sub>race_wb<\/sub>=&nbsp;<span>((White non-Hispanic)&ndash;(Black non-Hispanic))\/total population_race<\/span><\/p>\n<p>&nbsp;",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1011,
+        "MeasureName":"ICE 1, ICE (Income+Race\/Ethnicity)",
+        "MeasurementType":"ICE (Income+Race\/Ethnicity)",
+        "how_calculated":"The&nbsp;<\/span><span>Index of Concentration at the Extremes (ICE)<\/span><span>&nbsp;is a continuous measure of concentrated neighbourhood affluence and poverty.<\/span><span>The ICE can range from &minus;1 (most deprived) to 1 (most privileged).&nbsp;<\/span><\/p>\n<p>&nbsp;<\/p>\n<p><span>ICE<sub>race_wb+inc<\/sub> =&nbsp;<\/span><span>((White non-Hispanic over US$100 k)&ndash;(Black alone under US$25 k))\/total population_household income",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2329,
+    "IndicatorName":"ICE 2",
+    "IndicatorLabel":"ICE 2",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1012,
+        "MeasureName":"ICE 2, ICE (Income)",
+        "MeasurementType":"ICE (Income)",
+        "how_calculated":"The&nbsp;Index of Concentration at the Extremes (ICE)&nbsp;is a continuous measure of concentrated neighbourhood affluence and poverty.The ICE can range from &minus;1 (most deprived) to 1 (most privileged).&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>ICE<sub>inc<\/sub>&nbsp;=&nbsp;((over US$100 k)&ndash;(under US$25 k))\/total population_household income",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1013,
+        "MeasureName":"ICE 2, ICE (Race\/Ethnicity)",
+        "MeasurementType":"ICE (Race\/Ethnicity)",
+        "how_calculated":"The&nbsp;Index of Concentration at the Extremes (ICE)&nbsp;is a continuous measure of <span>concentration of white residents<\/span>.The ICE can range from &minus;1 (least white) to 1 (most white).&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>ICE<sub>race&nbsp;<\/sub>=&nbsp;<span>((White non-Hispanic)&ndash;(total&ndash;White non-Hispanic))\/total population_race<\/span><\/p>\n<p>&nbsp;",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1014,
+        "MeasureName":"ICE 2, ICE (Income+Race\/Ethnicity)",
+        "MeasurementType":"ICE (Income+Race\/Ethnicity)",
+        "how_calculated":"The&nbsp;Index of Concentration at the Extremes (ICE)&nbsp;is a continuous measure of concentrated neighbourhood affluence and poverty.The ICE can range from &minus;1 (most deprived) to 1 (most privileged).&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>ICE<sub><span>race+inc<\/span><\/sub> =&nbsp;((White non-Hispanic over US$100 k) &ndash;(total under US$25 k&ndash;White non-Hispanic under US$25 k))\/total population_household income<\/p>\n<p>&nbsp;",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2330,
+    "IndicatorName":"ICE 3",
+    "IndicatorLabel":"ICE 3",
+    "IndicatorDescription":null,
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1015,
+        "MeasureName":"ICE 3, ICE (Income)",
+        "MeasurementType":"ICE (Income)",
+        "how_calculated":"The&nbsp;<\/span><span>Index of Concentration at the Extremes (ICE)<\/span><span>&nbsp;is a continuous measure of concentrated neighbourhood affluence and poverty.<\/span><span>The ICE can range from &minus;1 (most deprived) to 1 (most privileged).&nbsp;<\/span><\/p>\n<p>&nbsp;<\/p>\n<p><span>ICE<sub><span>inc<\/span><\/sub>&nbsp;=&nbsp;<span>((over US$100 k)&ndash;(under US$25 k))\/total population_household income<\/span>",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1016,
+        "MeasureName":"ICE 3, ICE (Race\/Ethnicity)",
+        "MeasurementType":"ICE (Race\/Ethnicity)",
+        "how_calculated":"The&nbsp;<\/span><span>Index of Concentration at the Extremes (ICE)<\/span><span>&nbsp;is a continuous measure of&nbsp;<span>concentration of white residents<\/span>.<\/span><span>The ICE can range from &minus;1 (least white) to 1 (most white).&nbsp;<\/span><\/p>\n<p>&nbsp;<\/p>\n<p>ICE<sub><span>race&nbsp;<\/span><\/sub>=&nbsp;<span>((White non-Hispanic)&ndash;(Largest Minority Group (Black, Hispanic, or Asian))\/total population_race",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1017,
+        "MeasureName":"ICE 3, ICE (Income+Race\/Ethnicity)",
+        "MeasurementType":"ICE (Income+Race\/Ethnicity)",
+        "how_calculated":"The&nbsp;Index of Concentration at the Extremes (ICE)&nbsp;is a continuous measure of concentrated neighbourhood affluence and poverty.The ICE can range from &minus;1 (most deprived) to 1 (most privileged).&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>ICE<sub><span>race+inc<\/span><\/sub> =&nbsp;((White non-Hispanic over US$100 k) &ndash;(total under US$25 k&ndash;White non-Hispanic under US$25 k))\/total population_household income",
+        "Sources":"American Community Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2010",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"Subboro",
+            "GeoTypeDescription":"Neighborhood (Sub-borough\/PUMA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2011-15",
+            "start_period":1293840000000,
+            "end_period":1451520000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":0,
+                "Disparities":1
+              }
+            ],
+            "Links":[
+              {
+                "MeasureID":25,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":27,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":29,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":41,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":790,
                 "SecondaryAxis":"y"
               }
             ]
