@@ -41784,7 +41784,7 @@
     "IndicatorID":2169,
     "IndicatorName":"Adults with diabetes",
     "IndicatorLabel":"Adults with diabetes",
-    "IndicatorDescription":"<p>Adults with diabetes<\/p>",
+    "IndicatorDescription":"Adults with diabetes",
     "Comparisons":null,
     "Measures":[
       {
@@ -68323,7 +68323,7 @@
         "MeasureID":1332,
         "MeasureName":"Suicide deaths, Rate",
         "MeasurementType":"Rate",
-        "how_calculated":"<p>Number of suicide deaths in NYC, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths might not be NYC residents.<\/p>",
+        "how_calculated":"Number of suicide deaths in NYC, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths might not be NYC residents.",
         "Sources":"New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -68361,7 +68361,7 @@
         "MeasureID":1333,
         "MeasureName":"Suicide deaths, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"<p>Number of suicide deaths, pooled years 2015-2019, summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.&nbsp;Note that identified deaths might not be NYC residents.<\/p>",
+        "how_calculated":"Number of suicide deaths, pooled years 2015-2019, summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.&nbsp;Note that identified deaths might not be NYC residents.",
         "Sources":"New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -69197,7 +69197,7 @@
     "IndicatorID":2427,
     "IndicatorName":"Bacteria",
     "IndicatorLabel":"Bacteria",
-    "IndicatorDescription":"<p>Conentration of bacteria - coliform in fresh water and enterococcI in salt water - are measured as human-health-related indicators of water quality.&nbsp; Harbor water is mixture of fresh and salt water. Fecal coliform bacteria are found in human and animal intestines and are associated with wastewater. Enterococci are a subgroup within the fecal streptococcus group and are distinguished by their ability to survive in salt water.<\/p>",
+    "IndicatorDescription":"Conentration of bacteria - coliform in fresh water and enterococcI in salt water - are measured as human-health-related indicators of water quality.&nbsp; Harbor water is mixture of fresh and salt water. Fecal coliform bacteria are found in human and animal intestines and are associated with wastewater. Enterococci are a subgroup within the fecal streptococcus group and are distinguished by their ability to survive in salt water.",
     "Comparisons":[
       717,
       718
@@ -69899,7 +69899,7 @@
     "IndicatorID":2428,
     "IndicatorName":"Dissolved oxygen (DO)",
     "IndicatorLabel":"Dissolved oxygen (DO)",
-    "IndicatorDescription":"<p>Dissolved oxygen is important for respiration of aquatic life including fish and invertebrates. It is also one of the important indicators of overall water quality.<\/p>",
+    "IndicatorDescription":"Dissolved oxygen is important for respiration of aquatic life including fish and invertebrates. It is also one of the important indicators of overall water quality.",
     "Comparisons":[
       716
     ],
