@@ -41781,6 +41781,356 @@
     ]
   },
   {
+    "IndicatorID":2169,
+    "IndicatorName":"Adults with diabetes",
+    "IndicatorLabel":"Adults with diabetes",
+    "IndicatorDescription":"<p>Adults with diabetes<\/p>",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":717,
+        "MeasureName":"Adults with diabetes, Age-adjusted percent",
+        "MeasurementType":"Age-adjusted percent",
+        "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults and adjusted for age; expressed as percent.",
+        "Sources":"New York City Community Health Survey (CHS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":1
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":718,
+        "MeasureName":"Adults with diabetes, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes rounded to the nearest 1,000.",
+        "Sources":"New York City Community Health Survey (CHS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":719,
+        "MeasureName":"Adults with diabetes, Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults; expressed as percent.",
+        "Sources":"New York City Community Health Survey (CHS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
+            "TimeDescription":"2015",
+            "start_period":1420070400000,
+            "end_period":1451520000000
+          },
+          {
+            "TimeDescription":"2016",
+            "start_period":1451606400000,
+            "end_period":1483142400000
+          },
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2018",
+            "start_period":1514764800000,
+            "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID":2172,
     "IndicatorName":"Recent walking",
     "IndicatorLabel":"Recent walking for transportation",
@@ -67973,7 +68323,7 @@
         "MeasureID":1332,
         "MeasureName":"Suicide deaths, Rate",
         "MeasurementType":"Rate",
-        "how_calculated":"Number of suicide deaths, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.",
+        "how_calculated":"<p>Number of suicide deaths in NYC, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths might not be NYC residents.<\/p>",
         "Sources":"New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -68011,7 +68361,7 @@
         "MeasureID":1333,
         "MeasureName":"Suicide deaths, Age-adjusted rate",
         "MeasurementType":"Age-adjusted rate",
-        "how_calculated":"Number of suicide deaths, pooled years 2015-2019, summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.",
+        "how_calculated":"<p>Number of suicide deaths, pooled years 2015-2019, summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.&nbsp;Note that identified deaths might not be NYC residents.<\/p>",
         "Sources":"New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType":"",
         "AvailableGeographyTypes":[
