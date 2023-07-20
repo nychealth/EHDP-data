@@ -71255,6 +71255,10 @@
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           },
           {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
             "GeoType":"NYCKIDS2021",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
@@ -71264,6 +71268,11 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           },
           {
             "TimeDescription":"2021",
@@ -71310,6 +71319,10 @@
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           },
           {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
             "GeoType":"NYCKIDS2021",
             "GeoTypeDescription":"Neighborhood (NYC KIDS)"
           }
@@ -71319,6 +71332,11 @@
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           },
           {
             "TimeDescription":"2021",
