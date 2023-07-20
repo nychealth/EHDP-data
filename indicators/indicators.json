@@ -71229,14 +71229,14 @@
   },
   {
     "IndicatorID":2429,
-    "IndicatorName":"Children with an asthma attack",
-    "IndicatorLabel":"Children with an asthma attack",
+    "IndicatorName":"Children with an asthma attack (past 12 months)",
+    "IndicatorLabel":"Children with an asthma attack (past 12 months)",
     "IndicatorDescription":"Children ages 1 to 13 who have had an asthma attack in the past year. Asthma attacks are a measureable adverse health outcome of asthma.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":1366,
-        "MeasureName":"Children with an asthma attack, Number",
+        "MeasureName":"Children with an asthma attack (past 12 months), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months.",
         "Sources":"NYC KIDS Survey",
@@ -71291,7 +71291,7 @@
       },
       {
         "MeasureID":1367,
-        "MeasureName":"Children with an asthma attack, Percent",
+        "MeasureName":"Children with an asthma attack (past 12 months), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months, divided by all children of the same ages, expressed as a percent.",
         "Sources":"NYC KIDS Survey",
