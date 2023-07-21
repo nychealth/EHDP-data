@@ -416,7 +416,8 @@ metadata = (
 # saving file
 #-----------------------------------------------------------------------------------------#
 
-metadata.to_json(base_dir + "/indicators/indicators.json", orient = "records", indent = 2)
+metadata.to_json(base_dir + "/indicators/indicators_pretty.json", orient = "records", indent = 2)
+metadata.to_json(base_dir + "/indicators/indicators.json", orient = "records", indent = 0)
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
