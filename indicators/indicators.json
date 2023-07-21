@@ -2776,6 +2776,10 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":759,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":777,
                 "SecondaryAxis":"y"
               },
@@ -3318,6 +3322,26 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":292,
                 "SecondaryAxis":"x"
               },
@@ -3601,6 +3625,26 @@
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":155,
                 "SecondaryAxis":"y"
               },
@@ -3732,6 +3776,11 @@
             "TimeDescription":"2010",
             "start_period":1262304000000,
             "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -3787,6 +3836,11 @@
             "TimeDescription":"2010",
             "start_period":1262304000000,
             "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -4107,7 +4161,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -4199,7 +4253,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -4300,7 +4354,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -4392,7 +4446,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -4493,7 +4547,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -4585,7 +4639,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -4686,7 +4740,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -4778,7 +4832,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -4879,7 +4933,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -4971,7 +5025,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5072,7 +5126,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5164,7 +5218,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5265,7 +5319,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5357,7 +5411,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5458,7 +5512,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5550,7 +5604,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5651,7 +5705,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5743,7 +5797,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5844,7 +5898,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -5936,7 +5990,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -6037,7 +6091,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -6129,7 +6183,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -6230,7 +6284,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -6322,7 +6376,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -6553,6 +6607,14 @@
             ],
             "Links":[
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":90,
                 "SecondaryAxis":"x"
               },
@@ -6608,6 +6670,16 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -6623,7 +6695,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -6678,6 +6750,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -6699,7 +6781,35 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":94,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":155,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
                 "SecondaryAxis":"y"
               },
               {
@@ -6711,7 +6821,59 @@
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":792,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
                 "SecondaryAxis":"y"
               }
             ]
@@ -6749,6 +6911,16 @@
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2017",
             "start_period":1483228800000,
@@ -6799,6 +6971,16 @@
           }
         ],
         "AvailableTimes":[
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
           {
             "TimeDescription":"2017",
             "start_period":1483228800000,
@@ -6880,6 +7062,16 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -6895,7 +7087,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -6950,6 +7142,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -6971,8 +7173,80 @@
             ],
             "Links":[
               {
+                "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7022,6 +7296,16 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -7037,7 +7321,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -7092,6 +7376,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -7113,7 +7407,51 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":45,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":73,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":155,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":209,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
                 "SecondaryAxis":"y"
               },
               {
@@ -7121,11 +7459,87 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":716,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":748,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":777,
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":784,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":792,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1199,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
                 "SecondaryAxis":"y"
               }
             ]
@@ -7174,6 +7588,16 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -7189,7 +7613,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -7244,6 +7668,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -7265,7 +7699,43 @@
             ],
             "Links":[
               {
+                "MeasureID":41,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":45,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":73,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":209,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
                 "SecondaryAxis":"y"
               },
               {
@@ -7273,8 +7743,72 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":539,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":634,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":716,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":748,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":750,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":751,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":753,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":759,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":777,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":1322,
@@ -7326,6 +7860,16 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -7341,7 +7885,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -7396,6 +7940,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -7417,12 +7971,64 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":73,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":155,
                 "SecondaryAxis":"y"
               },
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":716,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":748,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":750,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":751,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":753,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1199,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -7472,9 +8078,19 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
             "TimeDescription":"2012",
             "start_period":1325376000000,
             "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
           },
           {
             "TimeDescription":"2017",
@@ -7547,9 +8163,19 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
             "TimeDescription":"2012",
             "start_period":1325376000000,
             "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
           },
           {
             "TimeDescription":"2017",
@@ -7573,16 +8199,52 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":76,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":155,
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":208,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":1322,
@@ -12612,11 +13274,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":94,
                 "SecondaryAxis":"x"
               },
               {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -12689,6 +13367,16 @@
             "end_period":1135987200000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -12704,7 +13392,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -12759,6 +13447,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -12780,12 +13478,48 @@
             ],
             "Links":[
               {
+                "MeasureID":41,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":218,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               },
               {
                 "MeasureID":245,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":959,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -13209,7 +13943,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -13355,6 +14109,26 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -14394,8 +15168,32 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -14986,8 +15784,32 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -15080,7 +15902,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -15172,7 +15994,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -15332,6 +16154,26 @@
               }
             ],
             "Links":[
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
               {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
@@ -15718,6 +16560,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -15739,19 +16591,111 @@
             ],
             "Links":[
               {
+                "MeasureID":31,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":76,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"y"
               },
               {
                 "MeasureID":92,
                 "SecondaryAxis":"y"
               },
               {
+                "MeasureID":155,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":206,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":207,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":214,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":218,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":398,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":460,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":696,
+                "SecondaryAxis":"y"
+              },
+              {
                 "MeasureID":759,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":784,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":934,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":936,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":940,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":942,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":953,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":954,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":966,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1196,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1204,
                 "SecondaryAxis":"y"
               }
             ]
@@ -15781,6 +16725,16 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -15796,7 +16750,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -17796,7 +18750,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -17888,7 +18842,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -21952,6 +22906,22 @@
               {
                 "MeasureID":29,
                 "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -22044,7 +23014,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -22136,7 +23106,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -25475,7 +26445,23 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -26293,7 +27279,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -26385,7 +27371,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -26486,7 +27472,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -26578,7 +27564,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -27825,7 +28811,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -27902,7 +28888,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -28300,7 +29286,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -28377,7 +29363,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -34833,7 +35819,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -34920,7 +35906,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -35007,7 +35993,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -35094,7 +36080,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -35181,7 +36167,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -35268,7 +36254,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -36157,7 +37143,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -36209,7 +37195,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -36236,7 +37222,7 @@
         "MeasureID":624,
         "MeasureName":"Mold, Number",
         "MeasurementType":"Number",
-        "how_calculated":"Estimated number of adults reporting damp spots or mold in at least one room in their building, excluding the bathroom, in the past 30 days.",
+        "how_calculated":"Estimated number of adults reporting mold or mildew on their walls or ceilings in the past 12 months.",
         "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -36251,24 +37237,20 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
           {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":1,
+                "On":0,
                 "RankReverse":0
               }
             ],
@@ -36286,7 +37268,7 @@
         "MeasureID":625,
         "MeasureName":"Mold, Percent",
         "MeasurementType":"Percent",
-        "how_calculated":"Estimated number of adults reporting damp spots or mold in at least one room in their building, excluding the bathroom, in the past 30 days, expressed as a percent.",
+        "how_calculated":"Estimated number of adults reporting mold or mildew on their walls or ceilings in the past 12 months, expressed as a percent.",
         "Sources":"New York City Community Health Survey (CHS)",
         "DisplayType":"",
         "AvailableGeographyTypes":[
@@ -36301,31 +37283,27 @@
           {
             "GeoType":"UHF34",
             "GeoTypeDescription":"Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType":"UHF42",
-            "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes":[
           {
-            "TimeDescription":"2012",
-            "start_period":1325376000000,
-            "end_period":1356912000000
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":1,
+                "On":0,
                 "RankReverse":0
               }
             ],
             "Trend":[
               {
                 "On":0,
-                "Disparities":1
+                "Disparities":0
               }
             ],
             "Links":null
@@ -36547,7 +37525,24 @@
                 "Disparities":1
               }
             ],
-            "Links":null
+            "Links":[
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              }
+            ]
           }
         ]
       }
@@ -39463,7 +40458,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -39643,7 +40658,15 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -40187,6 +41210,266 @@
                 "SecondaryAxis":"x"
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2169,
+    "IndicatorName":"Adults with diabetes",
+    "IndicatorLabel":"Adults with diabetes",
+    "IndicatorDescription":"Adults with diabetes",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":717,
+        "MeasureName":"Adults with diabetes, Age-adjusted percent",
+        "MeasurementType":"Age-adjusted percent",
+        "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults and adjusted for age; expressed as percent.",
+        "Sources":"New York City Community Health Survey (CHS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":1
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":718,
+        "MeasureName":"Adults with diabetes, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes rounded to the nearest 1,000.",
+        "Sources":"New York City Community Health Survey (CHS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":719,
+        "MeasureName":"Adults with diabetes, Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults; expressed as percent.",
+        "Sources":"New York City Community Health Survey (CHS)",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"UHF34",
+            "GeoTypeDescription":"Neighborhood (UHF 34)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2007",
+            "start_period":1167609600000,
+            "end_period":1199059200000
+          },
+          {
+            "TimeDescription":"2008",
+            "start_period":1199145600000,
+            "end_period":1230681600000
+          },
+          {
+            "TimeDescription":"2009",
+            "start_period":1230768000000,
+            "end_period":1262217600000
+          },
+          {
+            "TimeDescription":"2010",
+            "start_period":1262304000000,
+            "end_period":1293753600000
+          },
+          {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2012",
+            "start_period":1325376000000,
+            "end_period":1356912000000
+          },
+          {
+            "TimeDescription":"2013",
+            "start_period":1356998400000,
+            "end_period":1388448000000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
           }
         ]
       }
@@ -41443,6 +42726,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -41458,7 +42751,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -41508,6 +42801,16 @@
             "end_period":1230681600000
           },
           {
+            "TimeDescription":"2011",
+            "start_period":1293840000000,
+            "end_period":1325289600000
+          },
+          {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -41529,6 +42832,10 @@
             ],
             "Links":[
               {
+                "MeasureID":27,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":88,
                 "SecondaryAxis":"y"
               },
@@ -41539,6 +42846,14 @@
               {
                 "MeasureID":245,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":790,
+                "SecondaryAxis":"y"
+              },
+              {
+                "MeasureID":1201,
+                "SecondaryAxis":"y"
               }
             ]
           }
@@ -42091,6 +43406,10 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":78,
                 "SecondaryAxis":"x"
               },
@@ -42514,7 +43833,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -42586,7 +43905,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -42637,7 +43956,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -42692,7 +44011,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -42742,7 +44061,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -45243,7 +46562,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -45360,7 +46679,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -45488,7 +46807,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -45605,7 +46924,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -45722,7 +47041,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -45839,7 +47158,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -45965,7 +47284,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -46082,7 +47401,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -46208,7 +47527,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -46325,7 +47644,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -47289,7 +48608,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -47431,7 +48750,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -47573,7 +48892,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -47944,6 +49263,30 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -47998,6 +49341,30 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -48100,6 +49467,30 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -48200,6 +49591,30 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -48627,7 +50042,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -48790,6 +50205,26 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -48937,7 +50372,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -49644,6 +51099,10 @@
               {
                 "MeasureID":41,
                 "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
               }
             ]
           }
@@ -49928,6 +51387,30 @@
             "Links":[
               {
                 "MeasureID":41,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":80,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":88,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":92,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               }
             ]
@@ -52115,7 +53598,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -52182,7 +53665,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -52317,13 +53800,23 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -52449,13 +53942,23 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -52581,13 +54084,23 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -54196,7 +55709,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -54288,7 +55801,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -54380,7 +55893,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -54472,7 +55985,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -57272,7 +58785,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -57322,7 +58835,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -57687,7 +59200,23 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -58070,6 +59599,14 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
                 "SecondaryAxis":"x"
               },
@@ -58339,7 +59876,23 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -58364,6 +59917,10 @@
               },
               {
                 "MeasureID":386,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":759,
                 "SecondaryAxis":"x"
               }
             ]
@@ -58706,7 +60263,27 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":76,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":86,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":90,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":94,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
+                "MeasureID":245,
                 "SecondaryAxis":"x"
               },
               {
@@ -60704,6 +62281,11 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -60719,7 +62301,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -60754,6 +62336,11 @@
         ],
         "AvailableTimes":[
           {
+            "TimeDescription":"2014",
+            "start_period":1388534400000,
+            "end_period":1419984000000
+          },
+          {
             "TimeDescription":"2017",
             "start_period":1483228800000,
             "end_period":1514678400000
@@ -60769,7 +62356,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -60947,7 +62534,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -61002,7 +62589,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -61057,7 +62644,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -61107,7 +62694,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -61233,7 +62820,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -61340,7 +62927,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -61447,7 +63034,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -61554,7 +63141,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -61661,7 +63248,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -61768,7 +63355,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -61912,7 +63499,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -62044,7 +63631,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -62176,7 +63763,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -62308,7 +63895,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -62440,7 +64027,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -62572,7 +64159,7 @@
           {
             "Map":[
               {
-                "On":0,
+                "On":1,
                 "RankReverse":0
               }
             ],
@@ -65052,6 +66639,247 @@
                 "SecondaryAxis":"y"
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2432,
+    "IndicatorName":"Farmers markets",
+    "IndicatorLabel":"Farmers markets",
+    "IndicatorDescription":"Farmers markets are a great source of fresh produce and other healthy food options and can help mitigate the negative effects of food deserts.",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1373,
+        "MeasureName":"Farmers markets, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year.",
+        "Sources":"NYC Department of Health and Mental Hygiene (DOHMH) via NYC Open Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1374,
+        "MeasureName":"Farmers markets, Density",
+        "MeasurementType":"Density",
+        "how_calculated":"The number of farmers markets per neighborhood that are open for any period of the year, divided by the neighborhood area in square miles.",
+        "Sources":"NYC Department of Health and Mental Hygiene (DOHMH) via NYC Open Data",
+        "DisplayType":"per square mile",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1375,
+        "MeasureName":"Farmers markets, Number (year-round)",
+        "MeasurementType":"Number (year-round)",
+        "how_calculated":"The number of farmers markets per neighborhood that are open during the entire the year.",
+        "Sources":"NYC Department of Health and Mental Hygiene (DOHMH) via NYC Open Data",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1376,
+        "MeasureName":"Farmers markets, Density (year-round)",
+        "MeasurementType":"Density (year-round)",
+        "how_calculated":"The number of farmers markets per neighborhood that are open during the entire year, divided by the neighborhood area in square miles.",
+        "Sources":"NYC Department of Health and Mental Hygiene (DOHMH) via NYC Open Data",
+        "DisplayType":"per square mile",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"CDTA2020",
+            "GeoTypeDescription":"Neighborhood (CDTA)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NTA2020",
+            "GeoTypeDescription":"Neighborhood (NTA)"
+          },
+          {
+            "GeoType":"UHF42",
+            "GeoTypeDescription":"Neighborhood (UHF 42)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2023",
+            "start_period":1672531200000,
+            "end_period":1703980800000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":1
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
           }
         ]
       }
