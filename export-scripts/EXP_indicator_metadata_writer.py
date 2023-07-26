@@ -20,6 +20,7 @@ import easygui
 import os
 import warnings
 import re
+import numpy as np
 
 warnings.simplefilter("ignore")
 
@@ -121,7 +122,8 @@ else:
 # Connecting to database
 #-----------------------------------------------------------------------------------------#
 
-EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=" + db_name + ";Trusted_Connection=yes;")
+# EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=" + db_name + ";Trusted_Connection=yes;")
+EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=DESKTOP-PU7DGC1;DATABASE=" + db_name + ";Trusted_Connection=yes;trustservercertificate=yes")
 
 
 #=========================================================================================#
@@ -141,26 +143,105 @@ EXP_metadata_export = (
 # map options
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# On: 0/1
-# RankReverse: 0/1
+# map flag
 
-measure_mapping = (
+measure_mapping_flag = (
     EXP_metadata_export
     .loc[:, 
         [
             "IndicatorID",
             "MeasureID",
-            "Map",
+            "Map"
+        ]
+    ]    
+    .drop_duplicates()
+    .rename(columns = {"Map": "Map_flag"})
+)
+
+# RankReverse: 0/1
+
+measure_mapping_rr = (
+    EXP_metadata_export
+    .query("Map == 1")
+    .loc[:, 
+        [
+            "IndicatorID",
+            "MeasureID",
             "RankReverse"
         ]
     ]    
     .drop_duplicates()
-    .rename(columns = {"Map": "On"})
     .groupby(["IndicatorID", "MeasureID"], dropna = False)
-    .apply(lambda x: x[["On", "RankReverse"]].to_dict("records"))
+    .apply(lambda x: x[["RankReverse"]].drop_duplicates().to_dict("list"))
     .reset_index()
-    .rename(columns = {0: "Map"})
+    .rename(columns = {0: "Map_rr"})
 )
+
+# TimeDescription
+
+measure_mapping_time = (
+    EXP_metadata_export
+    .query("Map == 1")
+    .loc[:, 
+        [
+            "IndicatorID",
+            "MeasureID",
+            "TimeDescription"
+        ]
+    ]    
+    .drop_duplicates()
+    .groupby(["IndicatorID", "MeasureID"], dropna = False)
+    .apply(lambda x: x[["TimeDescription"]].drop_duplicates().to_dict("list"))
+    .reset_index()
+    .rename(columns = {0: "Map_time"})
+)
+    
+# GeoType
+
+measure_mapping_geo = (
+    EXP_metadata_export
+    .query("Map == 1")
+    .loc[:, 
+        [
+            "IndicatorID",
+            "MeasureID",
+            "GeoType"
+        ]
+    ]    
+    .drop_duplicates()
+    .groupby(["IndicatorID", "MeasureID"], dropna = False)
+    .apply(lambda x: x[["GeoType"]].drop_duplicates().to_dict("list"))
+    .reset_index()
+    .rename(columns = {0: "Map_geo"})
+)
+
+# combining
+
+measure_mapping = (
+    pd.merge(
+        measure_mapping_flag,
+        measure_mapping_time,
+        how = "left"
+    )
+    .merge(
+        measure_mapping_geo,
+        how = "left"
+    )
+    .merge(
+        measure_mapping_rr,
+        how = "left"
+    )
+    .assign(Map = lambda x: pd.DataFrame([x["Map_time"], x["Map_geo"], x["Map_rr"]]).to_dict("list"))
+    .assign(Map = lambda x: np.where(x.Map_flag == 0, None, x.Map))
+    .loc[:, 
+        [
+            "IndicatorID",
+            "MeasureID",
+            "Map"
+        ]
+    ]  
+)
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # trend options
@@ -186,6 +267,105 @@ measure_trend = (
     .reset_index()
     .rename(columns = {0: "Trend"})
 )
+
+# trend flag
+
+# measure_trend_flag = (
+#     EXP_metadata_export
+#     .loc[:, 
+#         [
+#             "IndicatorID",
+#             "MeasureID",
+#             "Trend"
+#         ]
+#     ]    
+#     .drop_duplicates()
+#     .rename(columns = {"Trend": "Trend_flag"})
+# )
+
+# # Disparities: 0/1
+
+# measure_trend_disp = (
+#     EXP_metadata_export
+#     .query("Trend == 1")
+#     .loc[:, 
+#         [
+#             "IndicatorID",
+#             "MeasureID",
+#             "Disparities"
+#         ]
+#     ]    
+#     .drop_duplicates()
+#     .groupby(["IndicatorID", "MeasureID"], dropna = False)
+#     .apply(lambda x: x[["Disparities"]].drop_duplicates().to_dict("list"))
+#     .reset_index()
+#     .rename(columns = {0: "Trend_disp"})
+# )
+
+# # TimeDescription
+
+# measure_trend_time = (
+#     EXP_metadata_export
+#     .query("Trend == 1")
+#     .loc[:, 
+#         [
+#             "IndicatorID",
+#             "MeasureID",
+#             "TimeDescription"
+#         ]
+#     ]    
+#     .drop_duplicates()
+#     .groupby(["IndicatorID", "MeasureID"], dropna = False)
+#     .apply(lambda x: x[["TimeDescription"]].drop_duplicates().to_dict("list"))
+#     .reset_index()
+#     .rename(columns = {0: "Trend_time"})
+# )
+
+# # GeoType
+
+# measure_trend_geo = (
+#     EXP_metadata_export
+#     .query("Trend == 1")
+#     .loc[:, 
+#         [
+#             "IndicatorID",
+#             "MeasureID",
+#             "GeoType"
+#         ]
+#     ]    
+#     .drop_duplicates()
+#     .groupby(["IndicatorID", "MeasureID"], dropna = False)
+#     .apply(lambda x: x[["GeoType"]].drop_duplicates().to_dict("list"))
+#     .reset_index()
+#     .rename(columns = {0: "Trend_geo"})
+# )
+
+# # combining
+
+# measure_trend = (
+#     pd.merge(
+#         measure_trend_flag,
+#         measure_trend_time,
+#         how = "left"
+#     )
+#     .merge(
+#         measure_trend_geo,
+#         how = "left"
+#     )
+#     .merge(
+#         measure_trend_disp,
+#         how = "left"
+#     )
+#     .assign(Trend = lambda x: pd.DataFrame([x["Trend_time"], x["Trend_geo"], x["Trend_disp"]]).to_dict("list"))
+#     .assign(Trend = lambda x: np.where(x.Trend_flag == 0, None, x.Trend))
+#     .loc[:, 
+#         [
+#             "IndicatorID",
+#             "MeasureID",
+#             "Trend"
+#         ]
+#     ]  
+# )
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
