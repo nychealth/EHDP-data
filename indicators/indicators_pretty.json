@@ -13105,6 +13105,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -13207,6 +13211,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -13246,6 +13260,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -13348,6 +13366,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -26697,6 +26725,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -26817,6 +26850,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -61395,6 +61433,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -61515,6 +61558,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -61692,6 +61740,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -61812,6 +61865,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -61927,6 +61985,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -62031,6 +62094,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -62098,6 +62165,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -62137,6 +62214,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -62204,6 +62285,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -62312,6 +62403,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -62379,6 +62474,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -62418,6 +62523,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -62485,6 +62594,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -62524,6 +62643,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -62591,6 +62714,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -70234,7 +70367,7 @@
         "MeasureID":1357,
         "MeasureName":"Bacteria, Fecal coliform bathing standard",
         "MeasurementType":"Fecal coliform bathing standard",
-        "how_calculated":"NYS DEC standard",
+        "how_calculated":"NYS DEC standard: monthly geometric mean less than or equal to 200 cells\/100mL from 5 or more samples",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -70372,7 +70505,7 @@
         "MeasureID":1358,
         "MeasureName":"Bacteria, Fecal coliform fishing standard",
         "MeasurementType":"Fecal coliform fishing standard",
-        "how_calculated":"NYS DEC standard",
+        "how_calculated":"NYS DEC standard: monthly geometric mean less than or equal to 2,000 cells\/100mL from 5 or more samples",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -70510,7 +70643,7 @@
         "MeasureID":1359,
         "MeasureName":"Bacteria, Enterococcui bathing standard",
         "MeasurementType":"Enterococcui bathing standard",
-        "how_calculated":"NYS DEC standard",
+        "how_calculated":"NYS DEC standard: monthly geometric mean less than or equal to 35 cells\/100mL; or single-sample maximum of 104 cells\/100mL",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -70659,7 +70792,7 @@
         "MeasureID":1360,
         "MeasureName":"Dissolved oxygen (DO), Bathing standard",
         "MeasurementType":"Bathing standard",
-        "how_calculated":"NYS DEC standard",
+        "how_calculated":"NYS DEC standard: 5.0 mg\/L",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
@@ -70797,7 +70930,7 @@
         "MeasureID":1361,
         "MeasureName":"Dissolved oxygen (DO), Fishing standard",
         "MeasurementType":"Fishing standard",
-        "how_calculated":"NYS DEC standard",
+        "how_calculated":"NYS DEC standard: 4.0 mg\/L",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
