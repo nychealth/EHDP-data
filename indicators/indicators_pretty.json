@@ -13015,6 +13015,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -13117,6 +13121,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -13156,6 +13170,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -13258,6 +13276,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -26240,6 +26268,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -26317,6 +26349,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -26356,6 +26393,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -26433,6 +26474,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -58995,6 +59041,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59072,6 +59122,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -59111,6 +59166,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59188,6 +59247,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -59284,6 +59348,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59361,6 +59429,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -59400,6 +59473,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59477,6 +59554,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -59516,6 +59598,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59583,6 +59669,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -59687,6 +59783,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59754,6 +59854,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -59793,6 +59903,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -59860,6 +59974,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -59968,6 +60092,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -60035,6 +60163,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -60074,6 +60212,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -60141,6 +60283,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -60180,6 +60332,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -60247,6 +60403,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -66649,6 +66815,226 @@
                 "SecondaryAxis":"y"
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2429,
+    "IndicatorName":"Children with an asthma attack (past 12 months)",
+    "IndicatorLabel":"Children with an asthma attack (past 12 months)",
+    "IndicatorDescription":"Children ages 1 to 13 who have had an asthma attack in the past year. Asthma attacks are a measureable adverse health outcome of asthma.",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1366,
+        "MeasureName":"Children with an asthma attack (past 12 months), Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"past 12 months",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2017",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1367,
+        "MeasureName":"Children with an asthma attack (past 12 months), Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months, divided by all children of the same ages, expressed as a percent.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"past 12 months",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2017",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2017",
+            "start_period":1483228800000,
+            "end_period":1514678400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID":2431,
+    "IndicatorName":"Children still with asthma",
+    "IndicatorLabel":"Children still with asthma",
+    "IndicatorDescription":"Children ages 1 to 13 that currently have asthma. Not every asthma diagnosis is correct. The number of children who still have asthma is usually smaller than the number of children who have ever been diagnosed with asthma.",
+    "Comparisons":null,
+    "Measures":[
+      {
+        "MeasureID":1370,
+        "MeasureName":"Children still with asthma, Number",
+        "MeasurementType":"Number",
+        "how_calculated":"Estimated number of children ages 1-13 years who reported still having asthma. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
+          }
+        ]
+      },
+      {
+        "MeasureID":1371,
+        "MeasureName":"Children still with asthma, Percent",
+        "MeasurementType":"Percent",
+        "how_calculated":"Estimated number of children ages 1-13 years who reported still having asthma, divided by all children of the same ages, expressed as a percent. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
+        "Sources":"NYC KIDS Survey",
+        "DisplayType":"",
+        "AvailableGeographyTypes":[
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
+            "GeoType":"NYCKIDS2019",
+            "GeoTypeDescription":"Neighborhood (NYC KIDS)"
+          }
+        ],
+        "AvailableTimes":[
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          }
+        ],
+        "VisOptions":[
+          {
+            "Map":[
+              {
+                "On":1,
+                "RankReverse":0
+              }
+            ],
+            "Trend":[
+              {
+                "On":1,
+                "Disparities":0
+              }
+            ],
+            "Links":null
           }
         ]
       }
