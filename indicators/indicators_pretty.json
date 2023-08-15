@@ -41812,14 +41812,14 @@
   },
   {
     "IndicatorID":2169,
-    "IndicatorName":"Adults with diabetes",
-    "IndicatorLabel":"Adults with diabetes",
-    "IndicatorDescription":"Adults with diabetes",
+    "IndicatorName":"Diabetes (adults)",
+    "IndicatorLabel":"Diabetes (adults)",
+    "IndicatorDescription":"Diabetes is a metabolic disorder that affects how well your body can get energy from food and drink. Adults can be born with diabetes or develop it later in life. Health problems from diabetes can include heart disease, stroke, vision problems, and amputations.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":717,
-        "MeasureName":"Adults with diabetes, Age-adjusted percent",
+        "MeasureName":"Diabetes (adults), Age-adjusted percent",
         "MeasurementType":"Age-adjusted percent",
         "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults and adjusted for age; expressed as percent.",
         "Sources":"New York City Community Health Survey (CHS)",
@@ -41934,7 +41934,7 @@
       },
       {
         "MeasureID":718,
-        "MeasureName":"Adults with diabetes, Number",
+        "MeasureName":"Diabetes (adults), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes rounded to the nearest 1,000.",
         "Sources":"New York City Community Health Survey (CHS)",
@@ -42045,7 +42045,7 @@
       },
       {
         "MeasureID":719,
-        "MeasureName":"Adults with diabetes, Percent",
+        "MeasureName":"Diabetes (adults), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults; expressed as percent.",
         "Sources":"New York City Community Health Survey (CHS)",
@@ -70357,8 +70357,8 @@
       },
       {
         "MeasureID":1356,
-        "MeasureName":"Bacteria, Enterococcui (geometric mean)",
-        "MeasurementType":"Enterococcui (geometric mean)",
+        "MeasureName":"Bacteria, Enterococci (geometric mean)",
+        "MeasurementType":"Enterococci (geometric mean)",
         "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC Wastewater Resource Recovery Facility outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
         "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"cells\/100mL",
@@ -70771,8 +70771,8 @@
       },
       {
         "MeasureID":1359,
-        "MeasureName":"Bacteria, Enterococcui bathing standard",
-        "MeasurementType":"Enterococcui bathing standard",
+        "MeasureName":"Bacteria, Enterococci bathing standard",
+        "MeasurementType":"Enterococci bathing standard",
         "how_calculated":"NYS DEC standard: monthly geometric mean less than or equal to 35 cells\/100mL; or single-sample maximum of 104 cells\/100mL",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
