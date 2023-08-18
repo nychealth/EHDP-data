@@ -10377,6 +10377,11 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
+          },
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -10766,6 +10771,11 @@
             "TimeDescription":"2021",
             "start_period":1609459200000,
             "end_period":1640908800000
+          },
+          {
+            "TimeDescription":"2022",
+            "start_period":1640995200000,
+            "end_period":1672444800000
           }
         ],
         "VisOptions":[
@@ -14946,6 +14956,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -15048,6 +15062,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -15119,6 +15143,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -15221,6 +15249,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -29655,6 +29693,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -29803,6 +29846,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -46790,14 +46838,14 @@
   },
   {
     "IndicatorID":2169,
-    "IndicatorName":"Adults with diabetes",
-    "IndicatorLabel":"Adults with diabetes",
-    "IndicatorDescription":"Adults with diabetes",
+    "IndicatorName":"Diabetes (adults)",
+    "IndicatorLabel":"Diabetes (adults)",
+    "IndicatorDescription":"Diabetes is a metabolic disorder that affects how well your body can get energy from food and drink. Adults can be born with diabetes or develop it later in life. Health problems from diabetes can include heart disease, stroke, vision problems, and amputations.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":717,
-        "MeasureName":"Adults with diabetes, Age-adjusted percent",
+        "MeasureName":"Diabetes (adults), Age-adjusted percent",
         "MeasurementType":"Age-adjusted percent",
         "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults and adjusted for age; expressed as percent.",
         "Sources":"New York City Community Health Survey (CHS)",
@@ -46939,7 +46987,7 @@
       },
       {
         "MeasureID":718,
-        "MeasureName":"Adults with diabetes, Number",
+        "MeasureName":"Diabetes (adults), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes rounded to the nearest 1,000.",
         "Sources":"New York City Community Health Survey (CHS)",
@@ -47076,7 +47124,7 @@
       },
       {
         "MeasureID":719,
-        "MeasureName":"Adults with diabetes, Percent",
+        "MeasureName":"Diabetes (adults), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults; expressed as percent.",
         "Sources":"New York City Community Health Survey (CHS)",
@@ -50332,7 +50380,7 @@
     "IndicatorID":2191,
     "IndicatorName":"Heat vulnerability index",
     "IndicatorLabel":"Heat vulnerability index",
-    "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"..\/key-topics\/climatehealth\/hvi\">See our interactive Heat Vulnerability Index<\/a>",
+    "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"..\/..\/key-topics\/climatehealth\/hvi\">See our interactive Heat Vulnerability Index<\/a>",
     "Comparisons":null,
     "Measures":[
       {
@@ -61520,35 +61568,8 @@
           {
             "Map":[
               {
-                "TimeDescription":[
-                  "2007-11",
-                  "2008-12",
-                  "2009-13",
-                  "2010-14",
-                  "2011-15",
-                  "2012-16",
-                  "2013-17",
-                  "2014-18",
-                  "2015-19",
-                  "2016-20",
-                  "2017-21"
-                ]
-              },
-              {
-                "GeoType":[
-                  "Borough",
-                  "CD",
-                  "Citywide",
-                  "NTA2010",
-                  "Subboro",
-                  "UHF42",
-                  "NTA2020"
-                ]
-              },
-              {
-                "RankReverse":[
-                  1
-                ]
+                "On":1,
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -61659,35 +61680,8 @@
           {
             "Map":[
               {
-                "TimeDescription":[
-                  "2007-11",
-                  "2008-12",
-                  "2009-13",
-                  "2010-14",
-                  "2011-15",
-                  "2012-16",
-                  "2013-17",
-                  "2014-18",
-                  "2015-19",
-                  "2016-20",
-                  "2017-21"
-                ]
-              },
-              {
-                "GeoType":[
-                  "Borough",
-                  "CD",
-                  "Citywide",
-                  "NTA2010",
-                  "Subboro",
-                  "UHF42",
-                  "NTA2020"
-                ]
-              },
-              {
-                "RankReverse":[
-                  1
-                ]
+                "On":1,
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -68427,6 +68421,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -68575,6 +68574,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -68780,6 +68784,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -68928,6 +68937,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -69071,6 +69085,11 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -69202,6 +69221,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -69269,6 +69292,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -69333,6 +69366,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -69400,6 +69437,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -69533,6 +69580,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -69600,6 +69651,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -69664,6 +69725,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -69731,6 +69796,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -69795,6 +69870,10 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
           }
         ],
         "AvailableTimes":[
@@ -69862,6 +69941,16 @@
             "TimeDescription":"2018",
             "start_period":1514764800000,
             "end_period":1546214400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -77173,6 +77262,14 @@
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -77182,6 +77279,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -77205,7 +77312,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -77222,6 +77329,14 @@
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -77231,6 +77346,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -77254,7 +77379,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -77271,6 +77396,14 @@
         "DisplayType":"",
         "AvailableGeographyTypes":[
           {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
+          },
+          {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
           }
@@ -77280,6 +77413,16 @@
             "TimeDescription":"2019",
             "start_period":1546300800000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
+          },
+          {
+            "TimeDescription":"2021",
+            "start_period":1609459200000,
+            "end_period":1640908800000
           }
         ],
         "VisOptions":[
@@ -77303,7 +77446,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -77565,6 +77708,18 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
@@ -77572,6 +77727,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -77595,7 +77760,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -77614,6 +77779,18 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
@@ -77621,6 +77798,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -77644,7 +77831,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":0
               }
             ],
@@ -77663,6 +77850,18 @@
           {
             "GeoType":"UHF42",
             "GeoTypeDescription":"Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType":"Borough",
+            "GeoTypeDescription":"Borough"
+          },
+          {
+            "GeoType":"CD",
+            "GeoTypeDescription":"Neighborhood (Community District)"
+          },
+          {
+            "GeoType":"Citywide",
+            "GeoTypeDescription":"Citywide"
           }
         ],
         "AvailableTimes":[
@@ -77670,6 +77869,16 @@
             "TimeDescription":"2015-19",
             "start_period":1420070400000,
             "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2019",
+            "start_period":1546300800000,
+            "end_period":1577750400000
+          },
+          {
+            "TimeDescription":"2020",
+            "start_period":1577836800000,
+            "end_period":1609372800000
           }
         ],
         "VisOptions":[
@@ -77693,7 +77902,7 @@
             ],
             "Trend":[
               {
-                "On":0,
+                "On":1,
                 "Disparities":1
               }
             ],
@@ -78803,39 +79012,8 @@
           {
             "Map":[
               {
-                "TimeDescription":[
-                  "2001",
-                  "2002",
-                  "2003",
-                  "2004",
-                  "2005",
-                  "2006",
-                  "2007",
-                  "2008",
-                  "2009",
-                  "2010",
-                  "2011",
-                  "2012",
-                  "2013",
-                  "2014",
-                  "2015",
-                  "2016",
-                  "2017",
-                  "2018",
-                  "2019",
-                  "2020",
-                  "2021"
-                ]
-              },
-              {
-                "GeoType":[
-                  "NYHarbor"
-                ]
-              },
-              {
-                "RankReverse":[
-                  0
-                ]
+                "On":1,
+                "RankReverse":0
               }
             ],
             "Trend":[
@@ -78850,8 +79028,8 @@
       },
       {
         "MeasureID":1356,
-        "MeasureName":"Bacteria, Enterococcui (geometric mean)",
-        "MeasurementType":"Enterococcui (geometric mean)",
+        "MeasureName":"Bacteria, Enterococci (geometric mean)",
+        "MeasurementType":"Enterococci (geometric mean)",
         "how_calculated":"Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC Wastewater Resource Recovery Facility outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
         "Sources":"NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType":"cells\/100mL",
@@ -78972,39 +79150,8 @@
           {
             "Map":[
               {
-                "TimeDescription":[
-                  "2001",
-                  "2002",
-                  "2003",
-                  "2004",
-                  "2005",
-                  "2006",
-                  "2007",
-                  "2008",
-                  "2009",
-                  "2010",
-                  "2011",
-                  "2012",
-                  "2013",
-                  "2014",
-                  "2015",
-                  "2016",
-                  "2017",
-                  "2018",
-                  "2019",
-                  "2020",
-                  "2021"
-                ]
-              },
-              {
-                "GeoType":[
-                  "NYHarbor"
-                ]
-              },
-              {
-                "RankReverse":[
-                  0
-                ]
+                "On":1,
+                "RankReverse":0
               }
             ],
             "Trend":[
@@ -79021,7 +79168,7 @@
         "MeasureID":1357,
         "MeasureName":"Bacteria, Fecal coliform bathing standard",
         "MeasurementType":"Fecal coliform bathing standard",
-        "how_calculated":"NYS DEC standard",
+        "how_calculated":"NYS DEC standard: monthly geometric mean less than or equal to 200 cells\/100mL from 5 or more samples",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -79154,7 +79301,7 @@
         "MeasureID":1358,
         "MeasureName":"Bacteria, Fecal coliform fishing standard",
         "MeasurementType":"Fecal coliform fishing standard",
-        "how_calculated":"NYS DEC standard",
+        "how_calculated":"NYS DEC standard: monthly geometric mean less than or equal to 2,000 cells\/100mL from 5 or more samples",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -79285,9 +79432,9 @@
       },
       {
         "MeasureID":1359,
-        "MeasureName":"Bacteria, Enterococcui bathing standard",
-        "MeasurementType":"Enterococcui bathing standard",
-        "how_calculated":"NYS DEC standard",
+        "MeasureName":"Bacteria, Enterococci bathing standard",
+        "MeasurementType":"Enterococci bathing standard",
+        "how_calculated":"NYS DEC standard: monthly geometric mean less than or equal to 35 cells\/100mL; or single-sample maximum of 104 cells\/100mL",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"cells\/100mL",
         "AvailableGeographyTypes":[
@@ -79424,14 +79571,18 @@
     "IndicatorLabel":"Dissolved oxygen (DO)",
     "IndicatorDescription":"Dissolved oxygen is important for respiration of aquatic life including fish and invertebrates. It is also one of the important indicators of overall water quality.",
     "Comparisons":[
-      716
+      716,
+      719,
+      720,
+      721,
+      722
     ],
     "Measures":[
       {
         "MeasureID":1360,
         "MeasureName":"Dissolved oxygen (DO), Bathing standard",
         "MeasurementType":"Bathing standard",
-        "how_calculated":"NYS DEC standard",
+        "how_calculated":"NYS DEC standard: 5.0 mg\/L",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
@@ -79564,7 +79715,7 @@
         "MeasureID":1361,
         "MeasureName":"Dissolved oxygen (DO), Fishing standard",
         "MeasurementType":"Fishing standard",
-        "how_calculated":"NYS DEC standard",
+        "how_calculated":"NYS DEC standard: 4.0 mg\/L",
         "Sources":"NYS DEC Regulations",
         "DisplayType":"mg\/L",
         "AvailableGeographyTypes":[
@@ -79817,39 +79968,8 @@
           {
             "Map":[
               {
-                "TimeDescription":[
-                  "2001",
-                  "2002",
-                  "2003",
-                  "2004",
-                  "2005",
-                  "2006",
-                  "2007",
-                  "2008",
-                  "2009",
-                  "2010",
-                  "2011",
-                  "2012",
-                  "2013",
-                  "2014",
-                  "2015",
-                  "2016",
-                  "2017",
-                  "2018",
-                  "2019",
-                  "2020",
-                  "2021"
-                ]
-              },
-              {
-                "GeoType":[
-                  "NYHarbor"
-                ]
-              },
-              {
-                "RankReverse":[
-                  1
-                ]
+                "On":1,
+                "RankReverse":1
               }
             ],
             "Trend":[
@@ -79986,39 +80106,8 @@
           {
             "Map":[
               {
-                "TimeDescription":[
-                  "2001",
-                  "2002",
-                  "2003",
-                  "2004",
-                  "2005",
-                  "2006",
-                  "2007",
-                  "2008",
-                  "2009",
-                  "2010",
-                  "2011",
-                  "2012",
-                  "2013",
-                  "2014",
-                  "2015",
-                  "2016",
-                  "2017",
-                  "2018",
-                  "2019",
-                  "2020",
-                  "2021"
-                ]
-              },
-              {
-                "GeoType":[
-                  "NYHarbor"
-                ]
-              },
-              {
-                "RankReverse":[
-                  1
-                ]
+                "On":1,
+                "RankReverse":1
               }
             ],
             "Trend":[
