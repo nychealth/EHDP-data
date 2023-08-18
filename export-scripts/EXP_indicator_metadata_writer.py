@@ -250,122 +250,122 @@ measure_mapping = (
 # On: 0/1
 # Disparities: 0/1
 
-measure_trend = (
+# measure_trend = (
+#     EXP_metadata_export
+#     .loc[:, 
+#         [
+#             "IndicatorID",
+#             "MeasureID",
+#             "Trend",
+#             "Disparities"
+#         ]
+#     ]
+#     .drop_duplicates()
+#     .rename(columns = {"Trend": "On"})
+#     .groupby(["IndicatorID", "MeasureID"], dropna = False)
+#     .apply(lambda x: x[["On", "Disparities"]].to_dict("records"))
+#     .reset_index()
+#     .rename(columns = {0: "Trend"})
+# )
+
+# trend flag
+
+measure_trend_flag = (
     EXP_metadata_export
     .loc[:, 
         [
             "IndicatorID",
             "MeasureID",
-            "Trend",
-            "Disparities"
+            "Trend"
         ]
-    ]
+    ]    
     .drop_duplicates()
-    .rename(columns = {"Trend": "On"})
-    .groupby(["IndicatorID", "MeasureID"], dropna = False)
-    .apply(lambda x: x[["On", "Disparities"]].to_dict("records"))
-    .reset_index()
-    .rename(columns = {0: "Trend"})
+    .rename(columns = {"Trend": "Trend_flag"})
 )
 
-# trend flag
+# Disparities: 0/1
 
-# measure_trend_flag = (
-#     EXP_metadata_export
-#     .loc[:, 
-#         [
-#             "IndicatorID",
-#             "MeasureID",
-#             "Trend"
-#         ]
-#     ]    
-#     .drop_duplicates()
-#     .rename(columns = {"Trend": "Trend_flag"})
-# )
+measure_trend_disp = (
+    EXP_metadata_export
+    .query("Trend == 1")
+    .loc[:, 
+        [
+            "IndicatorID",
+            "MeasureID",
+            "Disparities"
+        ]
+    ]    
+    .drop_duplicates()
+    .groupby(["IndicatorID", "MeasureID"], dropna = False)
+    .apply(lambda x: x[["Disparities"]].drop_duplicates().to_dict("list"))
+    .reset_index()
+    .rename(columns = {0: "Trend_disp"})
+)
 
-# # Disparities: 0/1
+# TimeDescription
 
-# measure_trend_disp = (
-#     EXP_metadata_export
-#     .query("Trend == 1")
-#     .loc[:, 
-#         [
-#             "IndicatorID",
-#             "MeasureID",
-#             "Disparities"
-#         ]
-#     ]    
-#     .drop_duplicates()
-#     .groupby(["IndicatorID", "MeasureID"], dropna = False)
-#     .apply(lambda x: x[["Disparities"]].drop_duplicates().to_dict("list"))
-#     .reset_index()
-#     .rename(columns = {0: "Trend_disp"})
-# )
+measure_trend_time = (
+    EXP_metadata_export
+    .query("Trend == 1")
+    .loc[:, 
+        [
+            "IndicatorID",
+            "MeasureID",
+            "TimeDescription"
+        ]
+    ]    
+    .drop_duplicates()
+    .groupby(["IndicatorID", "MeasureID"], dropna = False)
+    .apply(lambda x: x[["TimeDescription"]].drop_duplicates().to_dict("list"))
+    .reset_index()
+    .rename(columns = {0: "Trend_time"})
+)
 
-# # TimeDescription
+# GeoType
 
-# measure_trend_time = (
-#     EXP_metadata_export
-#     .query("Trend == 1")
-#     .loc[:, 
-#         [
-#             "IndicatorID",
-#             "MeasureID",
-#             "TimeDescription"
-#         ]
-#     ]    
-#     .drop_duplicates()
-#     .groupby(["IndicatorID", "MeasureID"], dropna = False)
-#     .apply(lambda x: x[["TimeDescription"]].drop_duplicates().to_dict("list"))
-#     .reset_index()
-#     .rename(columns = {0: "Trend_time"})
-# )
+measure_trend_geo = (
+    EXP_metadata_export
+    .query("Trend == 1")
+    .loc[:, 
+        [
+            "IndicatorID",
+            "MeasureID",
+            "GeoType"
+        ]
+    ]    
+    .drop_duplicates()
+    .groupby(["IndicatorID", "MeasureID"], dropna = False)
+    .apply(lambda x: x[["GeoType"]].drop_duplicates().to_dict("list"))
+    .reset_index()
+    .rename(columns = {0: "Trend_geo"})
+)
 
-# # GeoType
+# combining
 
-# measure_trend_geo = (
-#     EXP_metadata_export
-#     .query("Trend == 1")
-#     .loc[:, 
-#         [
-#             "IndicatorID",
-#             "MeasureID",
-#             "GeoType"
-#         ]
-#     ]    
-#     .drop_duplicates()
-#     .groupby(["IndicatorID", "MeasureID"], dropna = False)
-#     .apply(lambda x: x[["GeoType"]].drop_duplicates().to_dict("list"))
-#     .reset_index()
-#     .rename(columns = {0: "Trend_geo"})
-# )
-
-# # combining
-
-# measure_trend = (
-#     pd.merge(
-#         measure_trend_flag,
-#         measure_trend_time,
-#         how = "left"
-#     )
-#     .merge(
-#         measure_trend_geo,
-#         how = "left"
-#     )
-#     .merge(
-#         measure_trend_disp,
-#         how = "left"
-#     )
-#     .assign(Trend = lambda x: pd.DataFrame([x["Trend_time"], x["Trend_geo"], x["Trend_disp"]]).to_dict("list"))
-#     .assign(Trend = lambda x: np.where(x.Trend_flag == 0, None, x.Trend))
-#     .loc[:, 
-#         [
-#             "IndicatorID",
-#             "MeasureID",
-#             "Trend"
-#         ]
-#     ]  
-# )
+measure_trend = (
+    pd.merge(
+        measure_trend_flag,
+        measure_trend_time,
+        how = "left"
+    )
+    .merge(
+        measure_trend_geo,
+        how = "left"
+    )
+    .merge(
+        measure_trend_disp,
+        how = "left"
+    )
+    .assign(Trend = lambda x: pd.DataFrame([x["Trend_time"], x["Trend_geo"], x["Trend_disp"]]).to_dict("list"))
+    .assign(Trend = lambda x: np.where(x.Trend_flag == 0, None, x.Trend))
+    .loc[:, 
+        [
+            "IndicatorID",
+            "MeasureID",
+            "Trend"
+        ]
+    ]  
+)
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
