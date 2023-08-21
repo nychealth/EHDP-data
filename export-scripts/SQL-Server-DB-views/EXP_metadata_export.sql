@@ -6,23 +6,23 @@ GO
 CREATE OR ALTER VIEW [dbo].[EXP_metadata_export] AS 
 
     SELECT DISTINCT
-        si.indicator_id      AS MeasureID,
+        si.indicator_id     AS MeasureID,
         id.how_calculated,
-        id.internal_id       AS IndicatorID,
-        iy.year_description  AS TimeDescription,
+        id.internal_id      AS IndicatorID,
+        iy.year_description AS TimeDescription,
         iy.start_period,
         iy.end_period,
-        iy.time_type         AS TimeType,
-        gt.geo_type_name     AS GeoType,
-        gt.description       AS GeoTypeDescription,
-        ii.name              AS IndicatorName,
-        ii.description       AS IndicatorDescription,
-        ii.label             AS IndicatorLabel,
-        mt.description       AS MeasurementType,
-        ddt.description      AS DisplayType,
-        cs.source_list       AS Sources,
-        si2.mapping          AS Map,
-        si2.trend_time_graph AS Trend,
+        iy.time_type        AS TimeType,
+        gt.geo_type_name    AS GeoType,
+        gt.description      AS GeoTypeDescription,
+        ii.name             AS IndicatorName,
+        ii.description      AS IndicatorDescription,
+        ii.label            AS IndicatorLabel,
+        mt.description      AS MeasurementType,
+        ddt.description     AS DisplayType,
+        cs.source_list      AS Sources,
+        si.mapping          AS Map,
+        si.trend_time_graph AS Trend,
 
         -- format measure name
 
@@ -33,9 +33,9 @@ CREATE OR ALTER VIEW [dbo].[EXP_metadata_export] AS
 
         -- replacing missing flag values with 0
         
-        CASE WHEN dsp.Disparities IS null THEN 0
-            ELSE dsp.Disparities
-        END AS Disparities,
+        -- CASE WHEN dsp.Disparities IS null THEN 0
+        --     ELSE dsp.Disparities
+        -- END AS Disparities,
 
         CASE WHEN id.rankReverse IS null THEN 0
             ELSE id.rankReverse
@@ -45,16 +45,16 @@ CREATE OR ALTER VIEW [dbo].[EXP_metadata_export] AS
 
         -- getting 1 mapping + trend row per Measure - if the indicator is mapped at all, set flag to 1
 
-        LEFT JOIN (
+        -- LEFT JOIN (
 
-            SELECT 
-                indicator_id,
-                max(cast(mapping AS int)) AS mapping, 
-                max(cast(trend_time_graph AS int)) AS trend_time_graph
-            FROM subtopic_indicators
-            GROUP BY indicator_id
+        --     SELECT 
+        --         indicator_id,
+        --         max(cast(mapping AS int)) AS mapping, 
+        --         max(cast(trend_time_graph AS int)) AS trend_time_graph
+        --     FROM subtopic_indicators
+        --     GROUP BY indicator_id
 
-        ) AS si2 ON si2.indicator_id = si.indicator_id
+        -- ) AS si2 ON si2.indicator_id = si.indicator_id
 
         LEFT JOIN subtopic             AS  st ON st.subtopic_id         = si.subtopic_id
         LEFT JOIN indicator_definition AS  id ON id.indicator_id        = si.indicator_id
@@ -67,15 +67,15 @@ CREATE OR ALTER VIEW [dbo].[EXP_metadata_export] AS
         
         -- if there's a disparities link for the measure, Disparities will be 1
 
-        LEFT JOIN (
+        -- LEFT JOIN (
 
-            SELECT DISTINCT 
-                base_indicator_id,
-                1 AS Disparities
-            FROM i_to_i 
-            WHERE disparity_flag = 1
+        --     SELECT DISTINCT 
+        --         base_indicator_id,
+        --         1 AS Disparities
+        --     FROM i_to_i 
+        --     WHERE disparity_flag = 1
 
-        ) AS dsp ON dsp.base_indicator_id = si.indicator_id
+        -- ) AS dsp ON dsp.base_indicator_id = si.indicator_id
         
     WHERE 
         st.public_display_flag = 'Y' AND

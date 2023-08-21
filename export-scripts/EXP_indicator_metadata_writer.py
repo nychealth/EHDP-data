@@ -162,17 +162,17 @@ measure_mapping_flag = (
 
 measure_mapping_rr = (
     EXP_metadata_export
-    .query("Map == 1")
-    .loc[:, 
+    .query("Map == '1'")
+    .loc[:,
         [
             "IndicatorID",
             "MeasureID",
             "RankReverse"
         ]
-    ]    
+    ]
     .drop_duplicates()
     .groupby(["IndicatorID", "MeasureID"], dropna = False)
-    .apply(lambda x: x[["RankReverse"]].drop_duplicates().to_dict("list"))
+    .apply(lambda x: x[["RankReverse"]].drop_duplicates().to_dict("records")[0])
     .reset_index()
     .rename(columns = {0: "Map_rr"})
 )
@@ -181,7 +181,7 @@ measure_mapping_rr = (
 
 measure_mapping_time = (
     EXP_metadata_export
-    .query("Map == 1")
+    .query("Map == '1'")
     .loc[:, 
         [
             "IndicatorID",
@@ -195,12 +195,12 @@ measure_mapping_time = (
     .reset_index()
     .rename(columns = {0: "Map_time"})
 )
-    
+
 # GeoType
 
 measure_mapping_geo = (
     EXP_metadata_export
-    .query("Map == 1")
+    .query("Map == '1'")
     .loc[:, 
         [
             "IndicatorID",
@@ -231,24 +231,21 @@ measure_mapping = (
         measure_mapping_rr,
         how = "left"
     )
-    .assign(Map = lambda x: pd.DataFrame([x["Map_time"], x["Map_geo"], x["Map_rr"]]).to_dict("list"))
-    .assign(Map = lambda x: np.where(x.Map_flag == 0, None, x.Map))
-    .loc[:, 
-        [
-            "IndicatorID",
-            "MeasureID",
-            "Map"
-        ]
-    ]  
+    # .assign(Map = lambda x: pd.DataFrame([x["Map_time"], x["Map_geo"], x["Map_rr"]]).to_dict("list"))
+    # .assign(Map = lambda x: np.where(x.Map_flag == 0, None, x.Map))
+    # .loc[:, 
+    #     [
+    #         "IndicatorID",
+    #         "MeasureID",
+    #         "Map"
+    #     ]
+    # ]
 )
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # trend options
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# On: 0/1
-# Disparities: 0/1
 
 # measure_trend = (
 #     EXP_metadata_export
@@ -283,30 +280,12 @@ measure_trend_flag = (
     .rename(columns = {"Trend": "Trend_flag"})
 )
 
-# Disparities: 0/1
-
-measure_trend_disp = (
-    EXP_metadata_export
-    .query("Trend == 1")
-    .loc[:, 
-        [
-            "IndicatorID",
-            "MeasureID",
-            "Disparities"
-        ]
-    ]    
-    .drop_duplicates()
-    .groupby(["IndicatorID", "MeasureID"], dropna = False)
-    .apply(lambda x: x[["Disparities"]].drop_duplicates().to_dict("list"))
-    .reset_index()
-    .rename(columns = {0: "Trend_disp"})
-)
 
 # TimeDescription
 
 measure_trend_time = (
     EXP_metadata_export
-    .query("Trend == 1")
+    .query("Trend == '1'")
     .loc[:, 
         [
             "IndicatorID",
@@ -325,7 +304,7 @@ measure_trend_time = (
 
 measure_trend_geo = (
     EXP_metadata_export
-    .query("Trend == 1")
+    .query("Trend == '1'")
     .loc[:, 
         [
             "IndicatorID",
@@ -417,6 +396,31 @@ measure_links = (
     .reset_index()
     .rename(columns = {0: "Links", "BaseMeasureID": "MeasureID"})
 )
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# disparities
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# Disparities: 0/1
+
+measure_disp = (
+    EXP_metadata_export
+    .query("Trend == '1'")
+    .loc[:, 
+        [
+            "IndicatorID",
+            "MeasureID",
+            "Disparities"
+        ]
+    ]    
+    .drop_duplicates()
+    .groupby(["IndicatorID", "MeasureID"], dropna = False)
+    .apply(lambda x: x[["Disparities"]].drop_duplicates().to_dict("records")[0])
+    .reset_index()
+    .rename(columns = {0: "Trend_disp"})
+)
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # combining map, trend, and links, then nesting those under VisOptions

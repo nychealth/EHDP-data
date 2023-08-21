@@ -18,7 +18,7 @@ CREATE OR ALTER VIEW [dbo].[EXP_measure_links] AS
 
         base_indicator_id   AS BaseMeasureID,
         linked_indicator_id AS MeasureID,
-        -- ii.disparity_flag,
+        ii.disparity_flag,
 
         CASE x_axis 
             WHEN 1 THEN 'x'
