@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[EXP_metadata_export] AS 
+CREATE OR ALTER VIEW [dbo].[EXP_metadata_export_2] AS 
 
     SELECT DISTINCT
         si.indicator_id     AS MeasureID,
