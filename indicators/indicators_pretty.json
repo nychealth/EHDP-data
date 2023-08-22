@@ -45120,6 +45120,10 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":755,
                 "SecondaryAxis":"x"
               },
@@ -69893,6 +69897,10 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":1226,
                 "SecondaryAxis":"x"
               },
@@ -70127,6 +70135,10 @@
                 "SecondaryAxis":"x"
               },
               {
+                "MeasureID":221,
+                "SecondaryAxis":"x"
+              },
+              {
                 "MeasureID":1365,
                 "SecondaryAxis":"y"
               }
@@ -70211,7 +70223,7 @@
     "IndicatorID":2427,
     "IndicatorName":"Bacteria",
     "IndicatorLabel":"Bacteria",
-    "IndicatorDescription":"Conentration of bacteria - coliform in fresh water and enterococcI in salt water - are measured as human-health-related indicators of water quality.&nbsp; Harbor water is mixture of fresh and salt water. Fecal coliform bacteria are found in human and animal intestines and are associated with wastewater. Enterococci are a subgroup within the fecal streptococcus group and are distinguished by their ability to survive in salt water.",
+    "IndicatorDescription":"Concentration of bacteria - coliform in fresh water and enterococci in salt water - are measured as human-health-related indicators of water quality.&nbsp; Harbor water is mixture of fresh and salt water. Fecal coliform bacteria are found in human and animal intestines and are associated with wastewater. Enterococci are a subgroup within the fecal streptococcus group and are distinguished by their ability to survive in salt water.",
     "Comparisons":[
       717,
       718
