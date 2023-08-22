@@ -3068,7 +3068,7 @@
             "Trend": [
               {
                 "TimeDescription": ["2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21"],
-                "GeoType": ["Borough", "Citywide"]
+                "GeoType": ["Borough", "Citywide", "UHF42"]
               }
             ],
             "Links": null
@@ -8820,6 +8820,11 @@
             "TimeDescription": "2021",
             "start_period": 1609459200000,
             "end_period": 1640908800000
+          },
+          {
+            "TimeDescription": "2022",
+            "start_period": 1640995200000,
+            "end_period": 1672444800000
           }
         ],
         "VisOptions": [
@@ -8833,7 +8838,7 @@
             ],
             "Trend": [
               {
-                "TimeDescription": ["2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"],
+                "TimeDescription": ["2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
                 "GeoType": ["Citywide"]
               }
             ],
@@ -9227,6 +9232,11 @@
             "TimeDescription": "2021",
             "start_period": 1609459200000,
             "end_period": 1640908800000
+          },
+          {
+            "TimeDescription": "2022",
+            "start_period": 1640995200000,
+            "end_period": 1672444800000
           }
         ],
         "VisOptions": [
@@ -13189,6 +13199,10 @@
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
           }
         ],
         "AvailableTimes": [
@@ -13291,20 +13305,30 @@
             "TimeDescription": "2018",
             "start_period": 1514764800000,
             "end_period": 1546214400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
+                "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -13331,6 +13355,10 @@
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
           }
         ],
         "AvailableTimes": [
@@ -13433,20 +13461,30 @@
             "TimeDescription": "2018",
             "start_period": 1514764800000,
             "end_period": 1546214400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
+                "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -26870,20 +26908,25 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -26991,20 +27034,25 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
+                "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -42068,14 +42116,14 @@
   },
   {
     "IndicatorID": 2169,
-    "IndicatorName": "Adults with diabetes",
-    "IndicatorLabel": "Adults with diabetes",
-    "IndicatorDescription": "Adults with diabetes",
+    "IndicatorName": "Diabetes (adults)",
+    "IndicatorLabel": "Diabetes (adults)",
+    "IndicatorDescription": "Diabetes is a metabolic disorder that affects how well your body can get energy from food and drink. Adults can be born with diabetes or develop it later in life. Health problems from diabetes can include heart disease, stroke, vision problems, and amputations.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 717,
-        "MeasureName": "Adults with diabetes, Age-adjusted percent",
+        "MeasureName": "Diabetes (adults), Age-adjusted percent",
         "MeasurementType": "Age-adjusted percent",
         "how_calculated": "Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults and adjusted for age; expressed as percent.",
         "Sources": "New York City Community Health Survey (CHS)",
@@ -42191,7 +42239,7 @@
       },
       {
         "MeasureID": 718,
-        "MeasureName": "Adults with diabetes, Number",
+        "MeasureName": "Diabetes (adults), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
@@ -42303,7 +42351,7 @@
       },
       {
         "MeasureID": 719,
-        "MeasureName": "Adults with diabetes, Percent",
+        "MeasureName": "Diabetes (adults), Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults; expressed as percent.",
         "Sources": "New York City Community Health Survey (CHS)",
@@ -45431,7 +45479,7 @@
     "IndicatorID": 2191,
     "IndicatorName": "Heat vulnerability index",
     "IndicatorLabel": "Heat vulnerability index",
-    "IndicatorDescription": "The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"../key-topics/climatehealth/hvi\">See our interactive Heat Vulnerability Index<\/a>",
+    "IndicatorDescription": "The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"../../key-topics/climatehealth/hvi\">See our interactive Heat Vulnerability Index<\/a>",
     "Comparisons": null,
     "Measures": [
       {
@@ -55294,7 +55342,7 @@
               {
                 "TimeDescription": ["2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21"],
                 "GeoType": ["CD", "NTA2010", "Subboro", "UHF42", "NTA2020"],
-                "RankReverse": 1
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -55407,7 +55455,7 @@
               {
                 "TimeDescription": ["2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21"],
                 "GeoType": ["CD", "NTA2010", "Subboro", "UHF42", "NTA2020"],
-                "RankReverse": 1
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -58414,7 +58462,7 @@
     "IndicatorID": 2367,
     "IndicatorName": "NYC agency use of glyphosate",
     "IndicatorLabel": "Glyphosate",
-    "IndicatorDescription": "Herbicide containing the chemical glyphosate, targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff. This chemical is often sold commercially as Roundup",
+    "IndicatorDescription": "Herbicide containing the chemical glyphosate, targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff. This chemical is often sold commercially as Roundup.",
     "Comparisons": [493, 567],
     "Measures": [
       {
@@ -61862,20 +61910,25 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -61983,20 +62036,25 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -62159,20 +62217,25 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2017", "2018", "2019"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2017", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -62280,20 +62343,25 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2017", "2018", "2019"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2017", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -62396,20 +62464,25 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2018", "2019"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -62499,6 +62572,10 @@
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
           }
         ],
         "AvailableTimes": [
@@ -62566,20 +62643,30 @@
             "TimeDescription": "2018",
             "start_period": 1514764800000,
             "end_period": 1546214400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
+                "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -62606,6 +62693,10 @@
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
           }
         ],
         "AvailableTimes": [
@@ -62673,20 +62764,30 @@
             "TimeDescription": "2018",
             "start_period": 1514764800000,
             "end_period": 1546214400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
+                "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -62780,6 +62881,10 @@
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
           }
         ],
         "AvailableTimes": [
@@ -62847,20 +62952,30 @@
             "TimeDescription": "2018",
             "start_period": 1514764800000,
             "end_period": 1546214400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2016", "2018"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
+                "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -62887,6 +63002,10 @@
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
           }
         ],
         "AvailableTimes": [
@@ -62954,20 +63073,30 @@
             "TimeDescription": "2018",
             "start_period": 1514764800000,
             "end_period": 1546214400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2016", "2018"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
+                "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -62994,6 +63123,10 @@
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
           }
         ],
         "AvailableTimes": [
@@ -63061,20 +63194,30 @@
             "TimeDescription": "2018",
             "start_period": 1514764800000,
             "end_period": 1546214400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2011", "2012", "2013", "2014", "2016", "2018"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
+                "GeoType": ["Borough", "UHF42", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2018"],
+                "TimeDescription": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2018", "2019", "2020"],
                 "GeoType": ["Borough", "Citywide"]
               }
             ],
@@ -65666,7 +65809,7 @@
     "IndicatorID": 2404,
     "IndicatorName": "Secondhand smoke exposure at home (children)",
     "IndicatorLabel": "Children exposed to tobacco smoke in home (ages 1-13 years)",
-    "IndicatorDescription": "The amount of children aged 113 years exposed to tobacco smoke at home all of the time, most of the time, or occasionally. Secondhand smoke is harmful to children and can cause or worsen respiratory and asthma issues and ear infections",
+    "IndicatorDescription": "The amount of children aged 113 years exposed to tobacco smoke at home all of the time, most of the time, or occasionally. Secondhand smoke is harmful to children and can cause or worsen respiratory and asthma issues and ear infections.  ",
     "Comparisons": null,
     "Measures": [
       {
@@ -68221,7 +68364,7 @@
             "Trend": [
               {
                 "TimeDescription": ["2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21"],
-                "GeoType": ["Borough", "Citywide", "Subboro"]
+                "GeoType": ["Borough", "Citywide", "Subboro", "UHF42"]
               }
             ],
             "Links": null
@@ -69252,6 +69395,14 @@
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
+            "GeoType": "Borough",
+            "GeoTypeDescription": "Borough"
+          },
+          {
+            "GeoType": "Citywide",
+            "GeoTypeDescription": "Citywide"
+          },
+          {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
@@ -69261,21 +69412,31 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
+          },
+          {
+            "TimeDescription": "2021",
+            "start_period": 1609459200000,
+            "end_period": 1640908800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2019"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2019", "2020", "2021"],
+                "GeoType": ["Borough", "UHF42"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": null,
-                "GeoType": null
+                "TimeDescription": ["2019", "2020", "2021"],
+                "GeoType": ["Borough", "Citywide"]
               }
             ],
             "Links": null
@@ -69291,6 +69452,14 @@
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
+            "GeoType": "Borough",
+            "GeoTypeDescription": "Borough"
+          },
+          {
+            "GeoType": "Citywide",
+            "GeoTypeDescription": "Citywide"
+          },
+          {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
@@ -69300,21 +69469,31 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
+          },
+          {
+            "TimeDescription": "2021",
+            "start_period": 1609459200000,
+            "end_period": 1640908800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2019"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2019", "2020", "2021"],
+                "GeoType": ["Borough", "UHF42"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": null,
-                "GeoType": null
+                "TimeDescription": ["2019", "2020", "2021"],
+                "GeoType": ["Borough", "Citywide"]
               }
             ],
             "Links": null
@@ -69330,6 +69509,14 @@
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
+            "GeoType": "Borough",
+            "GeoTypeDescription": "Borough"
+          },
+          {
+            "GeoType": "Citywide",
+            "GeoTypeDescription": "Citywide"
+          },
+          {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
@@ -69339,21 +69526,31 @@
             "TimeDescription": "2019",
             "start_period": 1546300800000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
+          },
+          {
+            "TimeDescription": "2021",
+            "start_period": 1609459200000,
+            "end_period": 1640908800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2019"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2019", "2020", "2021"],
+                "GeoType": ["Borough", "UHF42"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": null,
-                "GeoType": null
+                "TimeDescription": ["2019", "2020", "2021"],
+                "GeoType": ["Borough", "Citywide"]
               }
             ],
             "Links": [
@@ -69579,13 +69776,25 @@
         "MeasureID": 1331,
         "MeasureName": "Suicide deaths, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Number of suicide deaths, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.",
+        "how_calculated": "Number of suicide deaths, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC.",
         "Sources": "New York City Bureau of Vital Statistics; New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS)",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "Borough",
+            "GeoTypeDescription": "Borough"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
+          },
+          {
+            "GeoType": "Citywide",
+            "GeoTypeDescription": "Citywide"
           }
         ],
         "AvailableTimes": [
@@ -69593,21 +69802,31 @@
             "TimeDescription": "2015-19",
             "start_period": 1420070400000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2015-19"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2015-19", "2019", "2020"],
+                "GeoType": ["UHF42", "Borough", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": null,
-                "GeoType": null
+                "TimeDescription": ["2019", "2020"],
+                "GeoType": ["Borough", "Citywide"]
               }
             ],
             "Links": null
@@ -69618,13 +69837,25 @@
         "MeasureID": 1332,
         "MeasureName": "Suicide deaths, Rate",
         "MeasurementType": "Rate",
-        "how_calculated": "Number of suicide deaths in NYC, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths might not be NYC residents.",
+        "how_calculated": "Number of suicide deaths in NYC, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC.",
         "Sources": "New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "Borough",
+            "GeoTypeDescription": "Borough"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
+          },
+          {
+            "GeoType": "Citywide",
+            "GeoTypeDescription": "Citywide"
           }
         ],
         "AvailableTimes": [
@@ -69632,21 +69863,31 @@
             "TimeDescription": "2015-19",
             "start_period": 1420070400000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2015-19"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2015-19", "2019", "2020"],
+                "GeoType": ["UHF42", "Borough", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": null,
-                "GeoType": null
+                "TimeDescription": ["2019", "2020"],
+                "GeoType": ["Borough", "Citywide"]
               }
             ],
             "Links": null
@@ -69657,13 +69898,25 @@
         "MeasureID": 1333,
         "MeasureName": "Suicide deaths, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Number of suicide deaths, pooled years 2015-2019, summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0.&nbsp;Note that identified deaths might not be NYC residents.",
+        "how_calculated": "Number of suicide deaths, pooled years 2015-2019, summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC.",
         "Sources": "New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
+          },
+          {
+            "GeoType": "Borough",
+            "GeoTypeDescription": "Borough"
+          },
+          {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
+          },
+          {
+            "GeoType": "Citywide",
+            "GeoTypeDescription": "Citywide"
           }
         ],
         "AvailableTimes": [
@@ -69671,21 +69924,31 @@
             "TimeDescription": "2015-19",
             "start_period": 1420070400000,
             "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2019",
+            "start_period": 1546300800000,
+            "end_period": 1577750400000
+          },
+          {
+            "TimeDescription": "2020",
+            "start_period": 1577836800000,
+            "end_period": 1609372800000
           }
         ],
         "VisOptions": [
           {
             "Map": [
               {
-                "TimeDescription": ["2015-19"],
-                "GeoType": ["UHF42"],
+                "TimeDescription": ["2015-19", "2019", "2020"],
+                "GeoType": ["UHF42", "Borough", "CD"],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "TimeDescription": null,
-                "GeoType": null
+                "TimeDescription": ["2019", "2020"],
+                "GeoType": ["Borough", "Citywide"]
               }
             ],
             "Links": [
@@ -70678,9 +70941,9 @@
           {
             "Map": [
               {
-                "TimeDescription": ["2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"],
-                "GeoType": ["NYHarbor"],
-                "RankReverse": 0
+                "TimeDescription": null,
+                "GeoType": null,
+                "RankReverse": null
               }
             ],
             "Trend": [
@@ -70695,8 +70958,8 @@
       },
       {
         "MeasureID": 1356,
-        "MeasureName": "Bacteria, Enterococcui (geometric mean)",
-        "MeasurementType": "Enterococcui (geometric mean)",
+        "MeasureName": "Bacteria, Enterococci (geometric mean)",
+        "MeasurementType": "Enterococci (geometric mean)",
         "how_calculated": "Sampling sites were chosen based on historical data, open water sites (no tributaries) located near NYC Wastewater Resource Recovery Facility outfalls and landfill sites, boundary sites around New York City, and sites that have displayed historical water quality issues. Outliers were removed based on procedural justifications such as improper equipment calibration.",
         "Sources": "NYC DEP Historical Harbor Survey Data (Summer season data)",
         "DisplayType": "cells/100mL",
@@ -70817,9 +71080,9 @@
           {
             "Map": [
               {
-                "TimeDescription": ["2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"],
-                "GeoType": ["NYHarbor"],
-                "RankReverse": 0
+                "TimeDescription": null,
+                "GeoType": null,
+                "RankReverse": null
               }
             ],
             "Trend": [
@@ -70836,7 +71099,7 @@
         "MeasureID": 1357,
         "MeasureName": "Bacteria, Fecal coliform bathing standard",
         "MeasurementType": "Fecal coliform bathing standard",
-        "how_calculated": "NYS DEC standard",
+        "how_calculated": "NYS DEC standard: monthly geometric mean less than or equal to 200 cells/100mL from 5 or more samples",
         "Sources": "NYS DEC Regulations",
         "DisplayType": "cells/100mL",
         "AvailableGeographyTypes": [
@@ -70975,7 +71238,7 @@
         "MeasureID": 1358,
         "MeasureName": "Bacteria, Fecal coliform fishing standard",
         "MeasurementType": "Fecal coliform fishing standard",
-        "how_calculated": "NYS DEC standard",
+        "how_calculated": "NYS DEC standard: monthly geometric mean less than or equal to 2,000 cells/100mL from 5 or more samples",
         "Sources": "NYS DEC Regulations",
         "DisplayType": "cells/100mL",
         "AvailableGeographyTypes": [
@@ -71112,9 +71375,9 @@
       },
       {
         "MeasureID": 1359,
-        "MeasureName": "Bacteria, Enterococcui bathing standard",
-        "MeasurementType": "Enterococcui bathing standard",
-        "how_calculated": "NYS DEC standard",
+        "MeasureName": "Bacteria, Enterococci bathing standard",
+        "MeasurementType": "Enterococci bathing standard",
+        "how_calculated": "NYS DEC standard: monthly geometric mean less than or equal to 35 cells/100mL; or single-sample maximum of 104 cells/100mL",
         "Sources": "NYS DEC Regulations",
         "DisplayType": "cells/100mL",
         "AvailableGeographyTypes": [
@@ -71262,7 +71525,7 @@
         "MeasureID": 1360,
         "MeasureName": "Dissolved oxygen (DO), Bathing standard",
         "MeasurementType": "Bathing standard",
-        "how_calculated": "NYS DEC standard",
+        "how_calculated": "NYS DEC standard: 5.0 mg/L",
         "Sources": "NYS DEC Regulations",
         "DisplayType": "mg/L",
         "AvailableGeographyTypes": [
@@ -71401,7 +71664,7 @@
         "MeasureID": 1361,
         "MeasureName": "Dissolved oxygen (DO), Fishing standard",
         "MeasurementType": "Fishing standard",
-        "how_calculated": "NYS DEC standard",
+        "how_calculated": "NYS DEC standard: 4.0 mg/L",
         "Sources": "NYS DEC Regulations",
         "DisplayType": "mg/L",
         "AvailableGeographyTypes": [
@@ -71660,9 +71923,9 @@
           {
             "Map": [
               {
-                "TimeDescription": ["2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"],
-                "GeoType": ["NYHarbor"],
-                "RankReverse": 1
+                "TimeDescription": null,
+                "GeoType": null,
+                "RankReverse": null
               }
             ],
             "Trend": [
@@ -71799,9 +72062,9 @@
           {
             "Map": [
               {
-                "TimeDescription": ["2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"],
-                "GeoType": ["NYHarbor"],
-                "RankReverse": 1
+                "TimeDescription": null,
+                "GeoType": null,
+                "RankReverse": null
               }
             ],
             "Trend": [

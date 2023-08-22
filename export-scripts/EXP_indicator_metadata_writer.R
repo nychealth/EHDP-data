@@ -123,8 +123,8 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        # server = "SQLIT04A",
-        server = "DESKTOP-PU7DGC1",
+        server = "SQLIT04A",
+        # server = "DESKTOP-PU7DGC1",
         database = db_name,
         trusted_connection = "yes",
         encoding = "latin1",
@@ -133,7 +133,7 @@ EHDP_odbc <-
 
 
 #=========================================================================================#
-# Pulling & writing data
+# Pulling & writing data ----
 #=========================================================================================#
 
 #-----------------------------------------------------------------------------------------#
@@ -323,11 +323,6 @@ measure_trend <-
 
 # ==== specific comparisons view ==== #
 
-# EXP_measure_comparisons = (
-#     pd.read_sql("SELECT * FROM EXP_measure_comparisons", EHDP_odbc)
-#     .sort_values(by = ["IndicatorID", "ComparisonID", "MeasureID"])
-# )
-
 EXP_measure_comparisons <- 
     EHDP_odbc %>% 
     tbl("EXP_measure_comparisons") %>% 
@@ -339,17 +334,6 @@ EXP_measure_comparisons <-
     )
 
 # ==== nesting ComparisonIDs ==== #
-
-# indicator_comparisons = (
-#     EXP_measure_comparisons
-#     .loc[:, ["IndicatorID", "ComparisonID"]]
-#     .drop_duplicates()
-#     .dropna()
-#     .groupby(["IndicatorID"])
-#     .apply(lambda x: x["ComparisonID"].tolist()) # [] returns Series, not DataFrame
-#     .reset_index()
-#     .rename(columns = {0: "Comparisons"})
-# )
 
 indicator_comparisons <- 
     EXP_measure_comparisons %>% 
@@ -371,11 +355,6 @@ indicator_comparisons <-
 
 # because left-joining these 400 rows added 12k rows to the view
 
-# MeasureID_links = (
-#     pd.read_sql("SELECT * FROM EXP_measure_links", EHDP_odbc)
-#     .sort_values(by = ["BaseMeasureID", "MeasureID"])
-# )
-
 MeasureID_links <- 
     EHDP_odbc %>% 
     tbl("EXP_measure_links") %>% 
@@ -387,15 +366,6 @@ MeasureID_links <-
 
 
 # ==== nesting links ==== #
-
-# measure_links = (
-#     MeasureID_links
-#     .drop_duplicates()
-#     .groupby(["BaseMeasureID"], dropna = False)
-#     .apply(lambda x: x[["MeasureID", "SecondaryAxis"]].to_dict("records"))
-#     .reset_index()
-#     .rename(columns = {0: "Links", "BaseMeasureID": "MeasureID"})
-# )
 
 measure_links <- 
     MeasureID_links %>% 
@@ -410,23 +380,6 @@ measure_links <-
 # ==== nesting disparities ==== #
 
 # Disparities: 0/1
-
-# measure_disp = (
-#     EXP_metadata_export
-#     .query("Trend == '1'")
-#     .loc[:, 
-#          [
-#              "IndicatorID",
-#              "MeasureID",
-#              "Disparities"
-#          ]
-#     ]    
-#     .drop_duplicates()
-#     .groupby(["IndicatorID", "MeasureID"], dropna = False)
-#     .apply(lambda x: x[["Disparities"]].drop_duplicates().to_dict("records")[0])
-#     .reset_index()
-#     .rename(columns = {0: "Trend_disp"})
-# )
 
 measure_disp <- 
     MeasureID_links %>% 
@@ -458,32 +411,6 @@ measure_links_disp <-
 # combining map, trend, and links, then nesting those under VisOptions
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# measure_vis_options = (
-#     pd.merge(
-#         measure_mapping,
-#         measure_trend,
-#         how = "left"
-#     )
-#     .merge(
-#         measure_links,
-#         how = "left"
-#     )
-#     .groupby(
-#         [
-#             "IndicatorID",
-#             "MeasureID"
-#         ],
-#         dropna = False
-#     )
-#     .apply(lambda x: x[[
-#         "Map", 
-#         "Trend", 
-#         "Links"
-#     ]].to_dict('records'))
-#     .reset_index()
-#     .rename(columns = {0: "VisOptions"})
-# )
-
 measure_vis_options <- 
     left_join(
         measure_mapping,
@@ -501,45 +428,6 @@ measure_vis_options <-
 #-----------------------------------------------------------------------------------------#
 # nesting geotypes
 #-----------------------------------------------------------------------------------------#
-
-# measure_geotypes = (
-#     EXP_metadata_export
-#     .loc[:, 
-#         [
-#             "IndicatorID",
-#             "IndicatorName",
-#             "IndicatorLabel",
-#             "IndicatorDescription",
-#             "MeasureID",
-#             "MeasureName",
-#             "MeasurementType",
-#             "how_calculated",
-#             "Sources",
-#             "DisplayType",
-#             "GeoType",
-#             "GeoTypeDescription"
-#         ]
-#     ]
-#     .drop_duplicates()
-#     .groupby(
-#         [
-#             "IndicatorID",
-#             "IndicatorName",
-#             "IndicatorLabel",
-#             "IndicatorDescription",
-#             "MeasureID",
-#             "MeasureName",
-#             "MeasurementType",
-#             "how_calculated",
-#             "Sources",
-#             "DisplayType"
-#         ],
-#         dropna = False
-#     )
-#     .apply(lambda x: x[["GeoType", "GeoTypeDescription"]].to_dict("records"))
-#     .reset_index()
-#     .rename(columns = {0: "AvailableGeographyTypes"})
-# )
 
 measure_geotypes <- 
     EXP_metadata_export %>% 
@@ -560,46 +448,6 @@ measure_geotypes <-
 #-----------------------------------------------------------------------------------------#
 # nesting times
 #-----------------------------------------------------------------------------------------#
-
-# measure_times = (
-#     EXP_metadata_export
-#     .loc[:, 
-#         [
-#             "IndicatorID",
-#             "IndicatorName",
-#             "IndicatorLabel",
-#             "IndicatorDescription",
-#             "MeasureID",
-#             "MeasureName",
-#             "MeasurementType",
-#             "how_calculated",
-#             "Sources",
-#             "DisplayType",
-#             "TimeDescription",
-#             "start_period",
-#             "end_period"
-#         ]
-#     ]
-#     .drop_duplicates()
-#     .groupby(
-#         [
-#             "IndicatorID",
-#             "IndicatorName",
-#             "IndicatorLabel",
-#             "IndicatorDescription",
-#             "MeasureID",
-#             "MeasureName",
-#             "MeasurementType",
-#             "how_calculated",
-#             "Sources",
-#             "DisplayType"
-#         ],
-#         dropna = False
-#     )
-#     .apply(lambda x: x[["TimeDescription", "start_period", "end_period"]].to_dict("records"))
-#     .reset_index()
-#     .rename(columns = {0: "AvailableTimes"})
-# )
 
 measure_times <- 
     EXP_metadata_export %>% 
@@ -625,54 +473,6 @@ measure_times <-
 #-----------------------------------------------------------------------------------------#
 # combining geotype, times, and vis options, then nesting those under other measure-level info vars
 #-----------------------------------------------------------------------------------------#
-
-# metadata = (
-#     pd.merge(
-#         measure_geotypes,
-#         measure_times,
-#         how = "left"
-#     )
-#     .merge(
-#         measure_vis_options,
-#         how = "left"
-#     )
-#     .groupby(
-#         [
-#             "IndicatorID",
-#             "IndicatorName",
-#             "IndicatorLabel",
-#             "IndicatorDescription"
-#         ],
-#         dropna = False
-#     )
-#     .apply(lambda x: x[[
-#         "MeasureID", 
-#         "MeasureName", 
-#         "MeasurementType", 
-#         "how_calculated",
-#         "Sources",
-#         "DisplayType",
-#         "AvailableGeographyTypes",
-#         "AvailableTimes",
-#         "VisOptions"
-#     ]].to_dict('records'))
-#     .reset_index()
-#     .rename(columns = {0: "Measures"})
-#     .merge(
-#         indicator_comparisons,
-#         how = "left"
-#     )
-#     .loc[:, 
-#         [
-#             "IndicatorID",
-#             "IndicatorName",
-#             "IndicatorLabel",
-#             "IndicatorDescription",
-#             "Comparisons",
-#             "Measures"
-#         ]
-#     ]
-# )
 
 metadata <- 
     left_join(
@@ -710,7 +510,7 @@ metadata <-
 
 
 #-----------------------------------------------------------------------------------------#
-# saving file
+# saving file ----
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
