@@ -57,6 +57,23 @@ if (base_dir == ""):
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# get or set server to use
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# get envionment var
+
+server = os.environ.get("server", "")
+
+if (server == ""):
+    
+    # ask and set
+    
+    server = "SQLIT04A"
+    
+    os.environ["server"] = server
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # get or set database to use
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -121,7 +138,7 @@ else:
 # Connecting to database
 #-----------------------------------------------------------------------------------------#
 
-EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=" + db_name + ";Trusted_Connection=yes;")
+EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=" + server + ";DATABASE=" + db_name + ";Trusted_Connection=yes;")
 
 
 #=========================================================================================#
