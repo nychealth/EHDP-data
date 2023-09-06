@@ -19,10 +19,24 @@ $base_dir = Get-Location
 $Env:base_dir = $base_dir
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# Choose database to use, set env var
+# set server based on computer name
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-$Env:data_env = Read-Host "staging [s] or production [p]?"
+if ($Env:COMPUTERNAME -eq "DESKTOP-PU7DGC1") {
+
+    $Env:server = "DESKTOP-PU7DGC1"
+
+} else {
+
+    $Env:server = "SQLIT04A"
+
+}
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# Choose database to use
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+$Env:data_env = (Read-Host "staging [s] or production [p]?").ToLower().Trim()[0]
 
 # make sure you're on the right branch
 
@@ -30,14 +44,27 @@ $current_branch = git branch --show-current
 
 if (($Env:data_env -eq "s") -and ($current_branch -ne "staging")) {
 
-    git checkout staging
-    git pull
+    $switch = (Read-Host "Switch to staging? Yes [y] / No [n]").ToLower().Trim()[0]
+
+    if ($switch -eq "y") {
+
+        git checkout staging
+        git pull
+
+    }
+
     
 } elseif (($Env:data_env -eq "p") -and ($current_branch -ne "production")) {
-    
-    git checkout production
-    git pull
 
+    $switch = (Read-Host "Switch to production? Yes [y] / No [n]").ToLower().Trim()[0]
+
+    if ($switch -eq "y") {
+
+        git checkout production
+        git pull
+
+    }
+    
 }
 
 
