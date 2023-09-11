@@ -41273,14 +41273,14 @@
   },
   {
     "IndicatorID":2169,
-    "IndicatorName":"Adults with diabetes",
-    "IndicatorLabel":"Adults with diabetes",
-    "IndicatorDescription":"Adults with diabetes",
+    "IndicatorName":"Diabetes (adults)",
+    "IndicatorLabel":"Diabetes (adults)",
+    "IndicatorDescription":"Diabetes is a metabolic disorder that affects how well your body can get energy from food and drink. Adults can be born with diabetes or develop it later in life. Health problems from diabetes can include heart disease, stroke, vision problems, and amputations.",
     "Comparisons":null,
     "Measures":[
       {
         "MeasureID":717,
-        "MeasureName":"Adults with diabetes, Age-adjusted percent",
+        "MeasureName":"Diabetes (adults), Age-adjusted percent",
         "MeasurementType":"Age-adjusted percent",
         "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults and adjusted for age; expressed as percent.",
         "Sources":"New York City Community Health Survey (CHS)",
@@ -41365,7 +41365,7 @@
       },
       {
         "MeasureID":718,
-        "MeasureName":"Adults with diabetes, Number",
+        "MeasureName":"Diabetes (adults), Number",
         "MeasurementType":"Number",
         "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes rounded to the nearest 1,000.",
         "Sources":"New York City Community Health Survey (CHS)",
@@ -41446,7 +41446,7 @@
       },
       {
         "MeasureID":719,
-        "MeasureName":"Adults with diabetes, Percent",
+        "MeasureName":"Diabetes (adults), Percent",
         "MeasurementType":"Percent",
         "how_calculated":"Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes, divided by all adults; expressed as percent.",
         "Sources":"New York City Community Health Survey (CHS)",
@@ -64770,7 +64770,7 @@
     "IndicatorID":2411,
     "IndicatorName":"Heat vulnerability index (NTA)",
     "IndicatorLabel":"Heat vulnerability index (NTA)",
-    "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"..\/key-topics\/climatehealth\/hvi\">See our interactive Heat Vulnerability Index<\/a>",
+    "IndicatorDescription":"The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"..\/..\/key-topics\/climatehealth\/hvi\">See our interactive Heat Vulnerability Index<\/a>",
     "Comparisons":null,
     "Measures":[
       {

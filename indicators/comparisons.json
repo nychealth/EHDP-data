@@ -741,9 +741,9 @@
   },
   {
     "ComparisonID": 716,
-    "ComparisonName": "Dissolved Oxygen (DO)",
+    "ComparisonName": "Dissolved Oxygen (DO) - Harborwide",
     "LegendTitle": "Location",
-    "Y_axis_title": "Concentration levels",
+    "Y_axis_title": "Harborwide",
     "Indicators": [
       {
         "IndicatorID": null,
@@ -765,9 +765,57 @@
   },
   {
     "ComparisonID": 718,
-    "ComparisonName": "Enterococcui",
+    "ComparisonName": "Enterococci",
     "LegendTitle": "NYS Standard",
-    "Y_axis_title": "Enterococcui (geometric mean)",
+    "Y_axis_title": "Enterococci (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 719,
+    "ComparisonName": "Dissolved Oxygen (DO) - Inner Harbor",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Inner Harbor",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 720,
+    "ComparisonName": "Dissolved Oxygen (DO) - Jamaica Bay",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Jamaica Bay",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 721,
+    "ComparisonName": "Dissolved Oxygen (DO) - Lower NY Bay",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Lower NY Bay",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 722,
+    "ComparisonName": "Dissolved Oxygen (DO) - Upper East River",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Upper East River",
     "Indicators": [
       {
         "IndicatorID": null,
