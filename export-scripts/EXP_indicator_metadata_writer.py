@@ -138,7 +138,7 @@ else:
 # Connecting to database
 #-----------------------------------------------------------------------------------------#
 
-EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=" + server + ";DATABASE=" + db_name + ";Trusted_Connection=yes;")
+EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=" + server + ";DATABASE=" + db_name + ";Trusted_Connection=yes;trustservercertificate=yes")
 
 
 #=========================================================================================#
