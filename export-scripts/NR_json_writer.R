@@ -141,12 +141,11 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        # server = "SQLIT04A",
-        # server = "DESKTOP-PU7DGC1",
         server = server,
         database = db_name,
         trusted_connection = "yes",
-        encoding = "utf8",
+        # encoding = "utf8",
+        encoding = "latin1",
         trustservercertificate = "yes"
     )
 

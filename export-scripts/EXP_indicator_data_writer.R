@@ -142,12 +142,11 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        # server = "SQLIT04A",
-        # server = "DESKTOP-PU7DGC1",
         server = server,
         database = db_name,
         trusted_connection = "yes",
-        encoding = "utf8",
+        # encoding = "utf8",
+        encoding = "latin1",
         trustservercertificate = "yes"
     )
 
@@ -179,6 +178,7 @@ EXP_data_export <-
         across(
             where(is.character),
             ~ as_utf8_character(enc2native(.x))
+            # ~ enc2native(.x)
         ),
         DisplayValue = 
             case_when(
