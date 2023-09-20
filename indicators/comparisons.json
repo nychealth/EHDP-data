@@ -743,7 +743,7 @@
     "ComparisonID": 716,
     "ComparisonName": "Dissolved Oxygen (DO) - Harborwide",
     "LegendTitle": "Location",
-    "Y_axis_title": "Harborwide",
+    "Y_axis_title": "Dissolved Oxygen (geometric mean)",
     "Indicators": [
       {
         "IndicatorID": null,
@@ -753,8 +753,8 @@
   },
   {
     "ComparisonID": 717,
-    "ComparisonName": "Fecal coliform",
-    "LegendTitle": "NYS Standard",
+    "ComparisonName": "Fecal coliform - Harborwide",
+    "LegendTitle": "Location",
     "Y_axis_title": "Fecal coliform (geometric mean)",
     "Indicators": [
       {
@@ -765,8 +765,8 @@
   },
   {
     "ComparisonID": 718,
-    "ComparisonName": "Enterococci",
-    "LegendTitle": "NYS Standard",
+    "ComparisonName": "Enterococci - Harborwide",
+    "LegendTitle": "Location",
     "Y_axis_title": "Enterococci (geometric mean)",
     "Indicators": [
       {
@@ -779,7 +779,7 @@
     "ComparisonID": 719,
     "ComparisonName": "Dissolved Oxygen (DO) - Inner Harbor",
     "LegendTitle": "Location",
-    "Y_axis_title": "Inner Harbor",
+    "Y_axis_title": "Dissolved Oxygen (geometric mean)",
     "Indicators": [
       {
         "IndicatorID": null,
@@ -791,7 +791,7 @@
     "ComparisonID": 720,
     "ComparisonName": "Dissolved Oxygen (DO) - Jamaica Bay",
     "LegendTitle": "Location",
-    "Y_axis_title": "Jamaica Bay",
+    "Y_axis_title": "Dissolved Oxygen (geometric mean)",
     "Indicators": [
       {
         "IndicatorID": null,
@@ -803,7 +803,7 @@
     "ComparisonID": 721,
     "ComparisonName": "Dissolved Oxygen (DO) - Lower NY Bay",
     "LegendTitle": "Location",
-    "Y_axis_title": "Lower NY Bay",
+    "Y_axis_title": "Dissolved Oxygen (geometric mean)",
     "Indicators": [
       {
         "IndicatorID": null,
@@ -815,7 +815,103 @@
     "ComparisonID": 722,
     "ComparisonName": "Dissolved Oxygen (DO) - Upper East River",
     "LegendTitle": "Location",
-    "Y_axis_title": "Upper East River",
+    "Y_axis_title": "Dissolved Oxygen (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 723,
+    "ComparisonName": "Fecal coliform - Inner Harbor",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Fecal coliform (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 724,
+    "ComparisonName": "Fecal coliform - Jamaica Bay",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Fecal coliform (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 725,
+    "ComparisonName": "Fecal coliform - Lower NY Bay",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Fecal coliform (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 726,
+    "ComparisonName": "Fecal coliform - Upper East River",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Fecal coliform (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 727,
+    "ComparisonName": "Enterococci - Inner Harbor",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Enterococci (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 728,
+    "ComparisonName": "Enterococci - Jamaica Bay",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Enterococci (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 729,
+    "ComparisonName": "Enterococci - Lower NY Bay",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Enterococci (geometric mean)",
+    "Indicators": [
+      {
+        "IndicatorID": null,
+        "Measures": [null]
+      }
+    ]
+  },
+  {
+    "ComparisonID": 730,
+    "ComparisonName": "Enterococci - Upper East River",
+    "LegendTitle": "Location",
+    "Y_axis_title": "Enterococci (geometric mean)",
     "Indicators": [
       {
         "IndicatorID": null,
