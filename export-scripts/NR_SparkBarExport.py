@@ -15,7 +15,7 @@ from joblib import Parallel, delayed
 
 # set cores
 
-cpus = (int(os.cpu_count()/2) - 1) if os.cpu_count() <= 8 else (int(os.cpu_count()/4) - 1)
+cpus = (int(os.cpu_count()/2) - 0) if os.cpu_count() <= 8 else (int(os.cpu_count()/4) - 0)
 
 # prevent other warnings
 
