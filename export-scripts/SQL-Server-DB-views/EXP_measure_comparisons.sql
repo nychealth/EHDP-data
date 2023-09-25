@@ -13,7 +13,7 @@ CREATE OR ALTER VIEW dbo.EXP_measure_comparisons AS
         idef.internal_id       AS IndicatorID,
         mm.indicator_id        AS MeasureID,
         gt.geo_type_name       AS GeoTypeName,
-        mm.geo_entity_id       AS GeoEntityID,
+        mm.geo_entity_id       AS GeoID,
         ge.name                AS Geography
 
     FROM measure_compare AS mc
