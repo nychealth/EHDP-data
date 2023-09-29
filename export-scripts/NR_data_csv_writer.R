@@ -72,13 +72,24 @@ if (base_dir == "") {
 server <- Sys.getenv("server")
 
 if (server == "") {
-    
-    # default to network server
-    
-    server <- "SQLIT04A"
-    
-    Sys.setenv(server = server)
 
+    computername <- Sys.getenv("COMPUTERNAME")
+
+    if (computername != "DESKTOP-PU7DGC1") {
+        
+        # default to network server
+        
+        server <- "SQLIT04A"
+        
+        Sys.setenv(server = server)
+
+    } else {
+
+        server <- "DESKTOP-PU7DGC1"
+        
+        Sys.setenv(server = server)
+
+    }
 }
 
 

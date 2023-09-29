@@ -65,12 +65,22 @@ if (base_dir == ""):
 server = os.environ.get("server", "")
 
 if (server == ""):
-    
-    # ask and set
-    
-    server = "SQLIT04A"
-    
-    os.environ["server"] = server
+        
+    computername = os.environ.get("COMPUTERNAME", "")
+
+    if (computername != "DESKTOP-PU7DGC1"):
+        
+        # ask and set
+        
+        server = "SQLIT04A"
+        
+        os.environ["server"] = server
+
+    else:
+            
+        server = "DESKTOP-PU7DGC1"
+        
+        os.environ["server"] = server
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
