@@ -66,13 +66,19 @@ if (base_dir == "") {
 
 # get envionment var
 
-server <- Sys.getenv("server")
+computername <- Sys.getenv("COMPUTERNAME")
 
-if (server == "") {
+if (computername != "DESKTOP-PU7DGC1") {
     
     # default to network server
     
     server <- "SQLIT04A"
+    
+    Sys.setenv(server = server)
+
+} else {
+
+    server <- "DESKTOP-PU7DGC1"
     
     Sys.setenv(server = server)
 
