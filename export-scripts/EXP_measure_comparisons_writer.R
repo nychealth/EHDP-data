@@ -150,8 +150,6 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        # server = "SQLIT04A",
-        # server = "DESKTOP-PU7DGC1",
         server = server,
         database = db_name,
         trusted_connection = "yes",
@@ -180,11 +178,7 @@ EXP_measure_comparisons <-
 comparisons_nested <- 
     EXP_measure_comparisons %>% 
     mutate(ComparisonName = ComparisonName %>% str_remove_all("<.*?>")) %>% # remove HTML tags
-    # rename(Measures = MeasureID) %>% 
     group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title) %>% 
-    # group_nest(.key = "Measures", keep = FALSE) %>%
-    # ungroup() %>%
-    # group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title) %>%
     group_nest(.key = "Indicators", keep = FALSE) %>%
     ungroup()
 
@@ -192,7 +186,6 @@ comparisons_nested <-
 # converting to JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# comparisons_json <- comparisons_nested %>% toJSON(pretty = TRUE, null = "null", na = "null")
 comparisons_json <- comparisons_nested %>% toJSON(pretty = FALSE, null = "null", na = "null")
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
