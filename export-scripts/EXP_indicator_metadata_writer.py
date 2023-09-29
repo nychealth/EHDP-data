@@ -251,6 +251,7 @@ indicator_comparisons = (
 
 MeasureID_links = (
     pd.read_sql("SELECT * FROM EXP_measure_links", EHDP_odbc)
+    .loc[:, ["BaseMeasureID", "MeasureID", "SecondaryAxis"]]
     .sort_values(by = ["BaseMeasureID", "MeasureID"])
 )
 

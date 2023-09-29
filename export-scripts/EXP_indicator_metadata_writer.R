@@ -303,6 +303,7 @@ indicator_comparisons <-
 MeasureID_links <- 
     EHDP_odbc %>% 
     tbl("EXP_measure_links") %>% 
+    select(BaseMeasureID, MeasureID, SecondaryAxis) %>% 
     collect() %>% 
     arrange(
         BaseMeasureID,
@@ -314,8 +315,6 @@ MeasureID_links <-
 
 measure_links <- 
     MeasureID_links %>% 
-    filter(disparity_flag == 0) %>% 
-    select(-disparity_flag) %>% 
     distinct() %>% 
     group_by(BaseMeasureID) %>% 
     group_nest(.key = "Links", keep = FALSE) %>% 
@@ -439,8 +438,8 @@ metadata_json        <- metadata %>% toJSON(pretty = FALSE, null = "null", na = 
 # saving JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-write_lines(metadata_json_pretty, path(base_dir, "indicators/indicators_pretty.json"))
-write_lines(metadata_json,        path(base_dir, "indicators/indicators.json"))
+write_file(metadata_json_pretty, path(base_dir, "indicators/indicators_pretty.json"))
+write_file(metadata_json,        path(base_dir, "indicators/indicators.json"))
 
 #-----------------------------------------------------------------------------------------#
 # closing database connection
