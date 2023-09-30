@@ -21,6 +21,7 @@ suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(jsonlite)))
+suppressWarnings(suppressMessages(library(rjson)))
 suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 suppressWarnings(suppressMessages(library(scales)))
@@ -431,15 +432,19 @@ metadata <-
 # converting to JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-metadata_json_pretty <- metadata %>% toJSON(pretty = TRUE, null = "null", na = "null")
-metadata_json        <- metadata %>% toJSON(pretty = FALSE, null = "null", na = "null")
+# metadata_json_pretty <- metadata %>% toJSON(pretty = TRUE, null = "null", na = "null")
+# metadata_json        <- metadata %>% toJSON(pretty = FALSE, null = "null", na = "null")
+
+metadata_json_pretty <- metadata %>% head(1) %>% rjson::toJSON(indent = 4)
+# metadata_json        <- metadata %>% to_json()
+# metadata_json_2      <- metadata %>% rjson::toJSON(ident = 0)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # saving JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-write_file(metadata_json_pretty, path(base_dir, "indicators/indicators_pretty.json"))
-write_file(metadata_json,        path(base_dir, "indicators/indicators.json"))
+write_file(metadata_json_pretty, path(base_dir, "indicators/indicators_pretty_head_1.json"))
+# write_file(metadata_json,        path(base_dir, "indicators/indicators.json"))
 
 #-----------------------------------------------------------------------------------------#
 # closing database connection

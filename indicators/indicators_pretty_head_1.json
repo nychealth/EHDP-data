@@ -1,0 +1,216 @@
+{
+    "IndicatorID":    1,
+    "IndicatorName":"Preterm birth",
+    "IndicatorLabel":"Preterm birth",
+    "IndicatorDescription":"Birth at fewer than 37 weeks gestational age.",
+    "Comparisons":[
+        null
+    ],
+    "Measures":[
+        {
+            "MeasureID":[
+                1,
+                2
+            ],
+            "MeasureName":[
+"Preterm birth, Number",
+"Preterm birth, Percent"
+            ],
+            "MeasurementType":[
+"Number",
+"Percent"
+            ],
+            "how_calculated":[
+"Number of live, singleton births occurring at less than 37 weeks gestation among residents of an area. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. </a>",
+"Number of live, singleton births occurring at less than 37 weeks gestation among residents of an area, divided by the number of live, singleton births with nonmissing gestational age among residents of the area; expressed as percent. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. </a>"
+            ],
+            "Sources":[
+"New York City Bureau of Vital Statistics",
+"New York City Bureau of Vital Statistics"
+            ],
+            "DisplayType":[
+"",
+""
+            ],
+            "AvailableGeographyTypes":[
+                {
+                    "GeoType":[
+"Borough",
+"Citywide",
+"UHF42"
+                    ],
+                    "GeoTypeDescription":[
+"Borough",
+"Citywide",
+"Neighborhood (UHF 42)"
+                    ]
+                },
+                {
+                    "GeoType":[
+"Borough",
+"Citywide",
+"UHF42"
+                    ],
+                    "GeoTypeDescription":[
+"Borough",
+"Citywide",
+"Neighborhood (UHF 42)"
+                    ]
+                }
+            ],
+            "AvailableTimes":[
+                {
+                    "TimeDescription":[
+"1998",
+"1999",
+"2000",
+"2001",
+"2002",
+"2003",
+"2004",
+"2005",
+"2006",
+"2007",
+"2008",
+"2009",
+"2010",
+"2011",
+"2012",
+"2013"
+                    ],
+                    "start_period":[
+                        883612800000,
+                        915148800000,
+                        946684800000,
+                        978307200000,
+                        1009843200000,
+                        1041379200000,
+                        1072915200000,
+                        1104537600000,
+                        1136073600000,
+                        1167609600000,
+                        1199145600000,
+                        1230768000000,
+                        1262304000000,
+                        1293840000000,
+                        1325376000000,
+                        1356998400000
+                    ],
+                    "end_period":[
+                        915062400000,
+                        946598400000,
+                        978220800000,
+                        1009756800000,
+                        1041292800000,
+                        1072828800000,
+                        1104451200000,
+                        1135987200000,
+                        1167523200000,
+                        1199059200000,
+                        1230681600000,
+                        1262217600000,
+                        1293753600000,
+                        1325289600000,
+                        1356912000000,
+                        1388448000000
+                    ]
+                },
+                {
+                    "TimeDescription":[
+"1998",
+"1999",
+"2000",
+"2001",
+"2002",
+"2003",
+"2004",
+"2005",
+"2006",
+"2007",
+"2008",
+"2009",
+"2010",
+"2011",
+"2012",
+"2013"
+                    ],
+                    "start_period":[
+                        883612800000,
+                        915148800000,
+                        946684800000,
+                        978307200000,
+                        1009843200000,
+                        1041379200000,
+                        1072915200000,
+                        1104537600000,
+                        1136073600000,
+                        1167609600000,
+                        1199145600000,
+                        1230768000000,
+                        1262304000000,
+                        1293840000000,
+                        1325376000000,
+                        1356998400000
+                    ],
+                    "end_period":[
+                        915062400000,
+                        946598400000,
+                        978220800000,
+                        1009756800000,
+                        1041292800000,
+                        1072828800000,
+                        1104451200000,
+                        1135987200000,
+                        1167523200000,
+                        1199059200000,
+                        1230681600000,
+                        1262217600000,
+                        1293753600000,
+                        1325289600000,
+                        1356912000000,
+                        1388448000000
+                    ]
+                }
+            ],
+            "VisOptions":[
+                {
+                    "Map":[
+                        {
+                            "On":                            1,
+                            "RankReverse":                            0
+                        }
+                    ],
+                    "Trend":[
+                        {
+                            "On":                            1,
+                            "Disparities":                            0
+                        }
+                    ],
+                    "Links":[
+                        null
+                    ]
+                },
+                {
+                    "Map":[
+                        {
+                            "On":                            1,
+                            "RankReverse":                            0
+                        }
+                    ],
+                    "Trend":[
+                        {
+                            "On":                            1,
+                            "Disparities":                            1
+                        }
+                    ],
+                    "Links":[
+                        {
+                            "MeasureID":                            221,
+                            "SecondaryAxis":"x"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
