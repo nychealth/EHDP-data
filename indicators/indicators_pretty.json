@@ -6538,7 +6538,7 @@
         "MeasureName": "Carbon monoxide incidents, Estimated annual rate",
         "MeasurementType": "Estimated annual rate",
         "how_calculated": "Number of carbon monoxide incidents in an area, where FDNY measured at least 1 ppm at the scene, divided by the number of buildings in the area; expressed as incidents per 10,000 buildings.",
-        "Sources": "Fire Department of New York City (FDNY) Carbon Monoxide Incidents; New York City Primary Land Use Tax Lot Output (PLUTO) Property Characteristic Data",
+        "Sources": "Fire Department of New York City (FDNY) Carbon Monoxide Incidents; New York City Primary Land Use Tax Lot Output (PLUTO&trade;) Property Characteristic Data",
         "DisplayType": "per 10,000 buildings",
         "AvailableGeographyTypes": [
           {
