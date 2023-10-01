@@ -206,7 +206,8 @@ EXP_data_export <-
     
     # dropping unneeded columns
     
-    select(-GeoTypeID, -number_decimal_ind, -flag)
+    select(-GeoTypeID, -number_decimal_ind, -flag) %>% 
+    relocate(MeasureID, GeoType, GeoID)
     
 
 # closing connection
