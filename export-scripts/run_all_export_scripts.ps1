@@ -135,9 +135,9 @@ Rscript $base_dir\export-scripts\NR_json_writer.R
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_indicator_metadata_writer"
+# Write-Output ">>> EXP_indicator_metadata_writer"
 
-python $base_dir\export-scripts\EXP_indicator_metadata_writer.py
+# python $base_dir\export-scripts\EXP_indicator_metadata_writer.py
 
 #-----------------------------------------------------------------------------------------#
 # NR spark bars
