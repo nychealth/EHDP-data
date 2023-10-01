@@ -87,6 +87,14 @@ Write-Output ">>> EXP_indicator_data_writer"
 Rscript $base_dir\export-scripts\EXP_indicator_data_writer.R
 
 #-----------------------------------------------------------------------------------------#
+# EXP metadata
+#-----------------------------------------------------------------------------------------#
+
+Write-Output ">>> EXP_indicator_metadata_writer"
+
+Rscript $base_dir\export-scripts\EXP_indicator_metadata_writer.R
+
+#-----------------------------------------------------------------------------------------#
 # EXP comparisons metadata
 #-----------------------------------------------------------------------------------------#
 

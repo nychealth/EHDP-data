@@ -5465,7 +5465,7 @@
     "IndicatorID": 33,
     "IndicatorName": "Gastroschisis",
     "IndicatorLabel": "Gastroschisis",
-    "IndicatorDescription": "A birth defect where there is a hole beside the belly button and the babyâs intestines or other organs are outside the babyâs body.",
+    "IndicatorDescription": "A birth defect where there is a hole beside the belly button and the baby's intestines or other organs are outside the baby's body.",
     "Comparisons": null,
     "Measures": [
       {
@@ -6538,7 +6538,7 @@
         "MeasureName": "Carbon monoxide incidents, Estimated annual rate",
         "MeasurementType": "Estimated annual rate",
         "how_calculated": "Number of carbon monoxide incidents in an area, where FDNY measured at least 1 ppm at the scene, divided by the number of buildings in the area; expressed as incidents per 10,000 buildings.",
-        "Sources": "Fire Department of New York City (FDNY) Carbon Monoxide Incidents; New York City Primary Land Use Tax Lot Output (PLUTOâ¢ ) Property Characteristic Data",
+        "Sources": "Fire Department of New York City (FDNY) Carbon Monoxide Incidents; New York City Primary Land Use Tax Lot Output (PLUTO) Property Characteristic Data",
         "DisplayType": "per 10,000 buildings",
         "AvailableGeographyTypes": [
           {
@@ -38354,7 +38354,7 @@
         "MeasureName": "PM2.5 asthma ED visits (children), Estimated annual rate (under age 18)",
         "MeasurementType": "Estimated annual rate (under age 18)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents under 18 years of age.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45âS60",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "per 100,000 children",
         "AvailableGeographyTypes": [
           {
@@ -38420,7 +38420,7 @@
         "MeasureName": "PM2.5 asthma ED visits (children), Estimated annual rate (age 18+)",
         "MeasurementType": "Estimated annual rate (age 18+)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents over 18 years of Age.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45âS60",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "per 100,000 adults",
         "AvailableGeographyTypes": [
           {
@@ -38481,7 +38481,7 @@
         "MeasureName": "PM2.5 asthma ED visits (children), Estimated annual number (under age 18)",
         "MeasurementType": "Estimated annual number (under age 18)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45âS60",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
@@ -38542,7 +38542,7 @@
         "MeasureName": "PM2.5 asthma ED visits (children), Estimated annual number (age 18+)",
         "MeasurementType": "Estimated annual number (age 18+)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45âS60",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
@@ -38612,7 +38612,7 @@
         "MeasureName": "PM2.5 health burden (lungs), Estimated annual rate",
         "MeasurementType": "Estimated annual rate",
         "how_calculated": "Estimate is based on the number of hospitalizations for respiratory causes associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of hospitalizations for all respiratory causes from the Moolgavkar 2000 study conducted on Los Angeles residents between 20-64 years of age and the Zanobetti et al 2009 study in 26 US communities of residents over 65 years of age. Neighborhood estimates expressed as annual cases per 100,000 residents over 20 years of Age.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75â90; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186/1476-069X-8-58",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75-90; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186/1476-069X-8-58",
         "DisplayType": "per 100,000 adults",
         "AvailableGeographyTypes": [
           {
@@ -38678,7 +38678,7 @@
         "MeasureName": "PM2.5 health burden (lungs), Estimated annual number",
         "MeasurementType": "Estimated annual number",
         "how_calculated": "Estimate is based on the number of hospitalizations for respiratory causes associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of hospitalizations for all respiratory causes from the Moolgavkar 2000 study conducted on Los Angeles residents between 20-64 years of age and the Zanobetti et al 2009 study in 26 US communities of residents over 65 years of age.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75â90; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186/1476-069X-8-58",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75-90; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186/1476-069X-8-58",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
@@ -38884,7 +38884,7 @@
         "MeasureName": "Deaths from ozone, Estimated annual rate",
         "MeasurementType": "Estimated annual rate",
         "how_calculated": "Estimate is based on the number of cardiovascular and respiratory mortalities associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute cardiorespiratory mortality risk estimate from Huang et al 2005 estimate of New York City risk. Neighborhood estimates expressed as annual cases per 100,000 residents.",
-        "Sources": "New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547â562",
+        "Sources": "New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547-562",
         "DisplayType": "per 100,000",
         "AvailableGeographyTypes": [
           {
@@ -38950,7 +38950,7 @@
         "MeasureName": "Deaths from ozone, Estimated annual number",
         "MeasurementType": "Estimated annual number",
         "how_calculated": "Estimate is based on the number of cardiovascular and respiratory mortalities associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute cardiorespiratory mortality risk estimate from Huang et al 2005 estimate of New York City risk.",
-        "Sources": "New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547â562",
+        "Sources": "New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547-562",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
@@ -39020,7 +39020,7 @@
         "MeasureName": "Ozone asthma ED visits (children), Estimated annual rate (under age 18)",
         "MeasurementType": "Estimated annual rate (under age 18)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents under 18 years of age.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45âS60",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "per 100,000 children",
         "AvailableGeographyTypes": [
           {
@@ -39086,7 +39086,7 @@
         "MeasureName": "Ozone asthma ED visits (children), Estimated annual rate (age 18+)",
         "MeasurementType": "Estimated annual rate (age 18+)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents over 18 years of Age.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45âS60",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "per 100,000 adults",
         "AvailableGeographyTypes": [
           {
@@ -39147,7 +39147,7 @@
         "MeasureName": "Ozone asthma ED visits (children), Estimated annual number (under age 18)",
         "MeasurementType": "Estimated annual number (under age 18)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45âS60",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
@@ -39208,7 +39208,7 @@
         "MeasureName": "Ozone asthma ED visits (children), Estimated annual number (age 18+)",
         "MeasurementType": "Estimated annual number (age 18+)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45âS60",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
@@ -39278,7 +39278,7 @@
         "MeasureName": "Ozone asthma hospitalizations (children), Estimated annual rate (under age 18)",
         "MeasurementType": "Estimated annual rate (under age 18)",
         "how_calculated": "Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background (modeled air quality levels under no man made air pollution emissions). Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents under 18 years of age.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367â373",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
         "DisplayType": "per 100,000 children",
         "AvailableGeographyTypes": [
           {
@@ -39344,7 +39344,7 @@
         "MeasureName": "Ozone asthma hospitalizations (children), Estimated annual rate (age 18+)",
         "MeasurementType": "Estimated annual rate (age 18+)",
         "how_calculated": "Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background. Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents over 18 years of age.",
-        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367â373",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
         "DisplayType": "per 100,000 adults",
         "AvailableGeographyTypes": [
           {
@@ -39405,7 +39405,7 @@
         "MeasureName": "Ozone asthma hospitalizations (children), Estimated annual number (under age 18)",
         "MeasurementType": "Estimated annual number (under age 18)",
         "how_calculated": "Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background (modeled air quality levels under no man made air pollution emissions). Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents.",
-        "Sources": "Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367â373",
+        "Sources": "Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
@@ -39466,7 +39466,7 @@
         "MeasureName": "Ozone asthma hospitalizations (children), Estimated annual number (age 18+)",
         "MeasurementType": "Estimated annual number (age 18+)",
         "how_calculated": "Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background (modeled air quality levels under no man made air pollution emissions). Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents.",
-        "Sources": "Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367â373",
+        "Sources": "Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
@@ -40287,7 +40287,7 @@
         "MeasureName": "Grass and tree cover, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Spatial information classifying ground cover is used to calculate a percentage of each geographic area that is covered in vegetation. See <a href=\"https://doi.org/10.1117/1.JRS.6.063567\" target=\"_blank\">this paper<\/a> for classification methods discussion.",
-        "Sources": "University of Vermont remote sensing LiDAR data, assessed using methodology described in: MacFaden, S.W., OâNeil-Dunne, J.P.M., Royer, A.R., Lu, J.W.T., & Rundle, A.G. (2012). High-resolution tree canopy mapping for New York City using LiDAR and object-based image analysis. Journal of Applied Remote Sensing, 6(1).",
+        "Sources": "University of Vermont remote sensing LiDAR data, assessed using methodology described in: MacFaden, S.W., O'Neil-Dunne, J.P.M., Royer, A.R., Lu, J.W.T., & Rundle, A.G. (2012). High-resolution tree canopy mapping for New York City using LiDAR and object-based image analysis. Journal of Applied Remote Sensing, 6(1).",
         "DisplayType": "",
         "AvailableGeographyTypes": [
           {
@@ -43326,7 +43326,7 @@
         "MeasureID": 758,
         "MeasureName": "Renter-occupied homes with no maintenance deficiencies, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8Â½ x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
+        "how_calculated": "Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
         "Sources": "New York City Housing and Vacancy Survey (HVS)",
         "DisplayType": "",
         "AvailableGeographyTypes": [
@@ -43397,7 +43397,7 @@
         "MeasureID": 759,
         "MeasureName": "Renter-occupied homes with no maintenance deficiencies, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of renter-occupied households in an area reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8Â½ x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of renter-occupied households in the area; expressed as percent..",
+        "how_calculated": "Estimated number of renter-occupied households in an area reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of renter-occupied households in the area; expressed as percent..",
         "Sources": "New York City Housing and Vacancy Survey (HVS)",
         "DisplayType": "",
         "AvailableGeographyTypes": [
@@ -43566,7 +43566,7 @@
         "MeasureID": 774,
         "MeasureName": "Child lead poisoning, Number (5+ mcg/dL)",
         "MeasurementType": "Number (5+ mcg/dL)",
-        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 5 mcg/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the childÃâs blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels at or above a certain level reported by the Health Department in other publications.",
+        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 5 mcg/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child's blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels at or above a certain level reported by the Health Department in other publications.",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "",
         "AvailableGeographyTypes": [
@@ -43692,7 +43692,7 @@
         "MeasureID": 775,
         "MeasureName": "Child lead poisoning, Number (10+ mcg/dL)",
         "MeasurementType": "Number (10+ mcg/dL)",
-        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 10 mcg/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the childÃâs blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels of 10 mcg/dL or greater reported by the Health Department in other publications.",
+        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 10 mcg/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child's blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels of 10 mcg/dL or greater reported by the Health Department in other publications.",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "",
         "AvailableGeographyTypes": [
@@ -43818,7 +43818,7 @@
         "MeasureID": 776,
         "MeasureName": "Child lead poisoning, Number (15+ mcg/dL)",
         "MeasurementType": "Number (15+ mcg/dL)",
-        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 15 mcg/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the childÃâs blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels of 15 mcg/dL or greater reported by the Health Department in other publications.",
+        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 15 mcg/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child's blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels of 15 mcg/dL or greater reported by the Health Department in other publications.",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "",
         "AvailableGeographyTypes": [
@@ -43944,7 +43944,7 @@
         "MeasureID": 777,
         "MeasureName": "Child lead poisoning, Rate (5+ mcg/dL)",
         "MeasurementType": "Rate (5+ mcg/dL)",
-        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 5 mcg/dL or greater, divided by the total number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the childÃâs blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels at or above a certain level reported by the Health Department in other publications.",
+        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 5 mcg/dL or greater, divided by the total number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child's blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels at or above a certain level reported by the Health Department in other publications.",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "per 1,000 tested",
         "AvailableGeographyTypes": [
@@ -44111,7 +44111,7 @@
         "MeasureID": 778,
         "MeasureName": "Child lead poisoning, Rate (10+ mcg/dL)",
         "MeasurementType": "Rate (10+ mcg/dL)",
-        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 10 mcg/dL or greater, divided by the number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the childÃâs blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels at or above 10 mcg/dL reported by the Health Department in other publications.",
+        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 10 mcg/dL or greater, divided by the number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child's blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels at or above 10 mcg/dL reported by the Health Department in other publications.",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "per 1,000 tested",
         "AvailableGeographyTypes": [
@@ -44237,7 +44237,7 @@
         "MeasureID": 779,
         "MeasureName": "Child lead poisoning, Rate (15+ mcg/dL)",
         "MeasurementType": "Rate (15+ mcg/dL)",
-        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 15 mcg/dL or greater, divided by the number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the childÃâs blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels of 15 mcg/dL or greater reported by the Health Department in other publications.",
+        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 15 mcg/dL or greater, divided by the number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child's blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels of 15 mcg/dL or greater reported by the Health Department in other publications.",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "per 1,000 tested",
         "AvailableGeographyTypes": [
@@ -49208,8 +49208,8 @@
     "Measures": [
       {
         "MeasureID": 886,
-        "MeasureName": "Child lead poisoning, by NTA, Average Annual Number BLL >=5 Âµg/dL",
-        "MeasurementType": "Average Annual Number BLL >=5 Âµg/dL",
+        "MeasureName": "Child lead poisoning, by NTA, Average Annual Number BLL >=5 µg/dL",
+        "MeasurementType": "Average Annual Number BLL >=5 µg/dL",
         "how_calculated": "Sum of the number of children under 6 years of age with blood lead levels (BLL) 5 mcg/dL or greater over the time period, divided by the number of years in the time period. While children can receive more than one test during the calendar year, for this measure children are only counted once per year using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child&rsquo;s blood lead level is based on the highest capillary or unknown test type.&nbsp;<a href=\"http://a816-dohbesp.nyc.gov/IndicatorPublic/EPHTPDF/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">Read more&nbsp;<\/a>about different measures used by the Health Department for surveillance of childhood lead poisoning.<\/p>\n<ul>\n<li>For the purpose of providing data for small geographic areas, multiple years of data were combined to get sufficient numbers of observations to make more reliable estimates for a greater number of neighborhood tabulation areas (NTAs).<\/li>\n<li>Annual numbers and rates of children under 6 years of age with elevated blood lead levels at the citywide, borough, and United Hospital Fund neighborhood level are available <a href=\"http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2184,4466a0,14,Summarize\">here<\/a>. &nbsp;&nbsp;<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>&nbsp;",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "",
@@ -50991,7 +50991,7 @@
     "IndicatorID": 2312,
     "IndicatorName": "Commercial insecticide use",
     "IndicatorLabel": "Combined Insecticides",
-    "IndicatorDescription": "Pest control services provided by a professional exterminator in the individualâs home.",
+    "IndicatorDescription": "Pest control services provided by a professional exterminator in the individual's home.",
     "Comparisons": null,
     "Measures": [
       {
@@ -57933,7 +57933,7 @@
     "IndicatorID": 2367,
     "IndicatorName": "NYC agency use of glyphosate",
     "IndicatorLabel": "Glyphosate",
-    "IndicatorDescription": "Herbicide containing the chemical glyphosate, targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff. This chemical is often sold commercially as âRoundup.â",
+    "IndicatorDescription": "Herbicide containing the chemical glyphosate, targeting unwanted weeds, grasses, vines and trees, applied by NYC agency-contracted exterminators or NYC agency pest control staff. This chemical is often sold commercially as \"Roundup\".",
     "Comparisons": [493, 567],
     "Measures": [
       {
@@ -65213,7 +65213,7 @@
     "IndicatorID": 2404,
     "IndicatorName": "Secondhand smoke exposure at home (children)",
     "IndicatorLabel": "Children exposed to tobacco smoke in home (ages 1-13 years)",
-    "IndicatorDescription": "The amount of children aged 1â13 years exposed to tobacco smoke at home all of the time, most of the time, or occasionally.Â Secondhand smoke is harmful to children and can cause or worsen respiratory and asthma issues and ear infections.Â Â ",
+    "IndicatorDescription": "The number of children aged 1-13 years exposed to tobacco smoke at home all of the time, most of the time, or occasionally. Secondhand smoke is harmful to children and can cause or worsen respiratory and asthma issues and ear infections.",
     "Comparisons": null,
     "Measures": [
       {
@@ -69483,7 +69483,7 @@
     "IndicatorID": 2422,
     "IndicatorName": "E-cigarette vapor exposure at home (children)",
     "IndicatorLabel": "Children exposed to e-cigarette smoke in home",
-    "IndicatorDescription": "E-cigarette smoke:Â The amount of children aged 1â13 years exposed to e-cigarette smoke at home all of the time, most of the time, or occasionally. Chemicals in the vapor from e-cigarettes can be harmful to kids.",
+    "IndicatorDescription": "E-cigarette smoke: The number of children aged 1-13 years exposed to e-cigarette smoke at home all of the time, most of the time, or occasionally. Chemicals in the vapor from e-cigarettes can be harmful to kids.",
     "Comparisons": null,
     "Measures": [
       {
