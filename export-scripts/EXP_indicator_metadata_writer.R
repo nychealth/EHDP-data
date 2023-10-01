@@ -20,8 +20,7 @@ suppressWarnings(suppressMessages(library(dbplyr)))
 suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
-suppressWarnings(suppressMessages(library(jsonlite)))
-suppressWarnings(suppressMessages(library(jsonify)))
+suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
 suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 suppressWarnings(suppressMessages(library(scales)))
@@ -434,13 +433,6 @@ metadata <-
 
 metadata_json_pretty <- metadata %>% toJSON(pretty = TRUE, null = "null", na = "null")
 metadata_json        <- metadata %>% toJSON(pretty = FALSE, null = "null", na = "null")
-
-# metadata_json_pretty <- metadata %>% head(1) %>% toJSON(pretty = TRUE, null = "null", na = "null")
-
-# metadata_json_pretty <- metadata %>% head(1) %>% rjson::toJSON(indent = 4)
-# metadata_json        <- metadata %>% head(1) %>% to_json(unbox = TRUE, digits = 0)
-# metadata_json_pretty <- metadata_json %>% pretty_json()
-# metadata_json_2      <- metadata %>% rjson::toJSON(ident = 0)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # saving JSON
