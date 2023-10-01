@@ -178,7 +178,12 @@ EXP_measure_comparisons <-
 comparisons_nested <- 
     EXP_measure_comparisons %>% 
     mutate(ComparisonName = ComparisonName %>% str_remove_all("<.*?>")) %>% # remove HTML tags
-    group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title) %>% 
+    rename(Measures = MeasureID) %>% 
+    group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title, IndicatorID) %>% 
+    mutate(Measures = list(unlist(Measures))) %>%
+    distinct() %>% 
+    ungroup() %>%
+    group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title) %>%
     group_nest(.key = "Indicators", keep = FALSE) %>%
     ungroup()
 
