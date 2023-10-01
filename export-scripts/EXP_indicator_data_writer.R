@@ -69,13 +69,24 @@ if (base_dir == "") {
 server <- Sys.getenv("server")
 
 if (server == "") {
-    
-    # default to network server
-    
-    server <- "SQLIT04A"
-    
-    Sys.setenv(server = server)
 
+    computername <- Sys.getenv("COMPUTERNAME")
+
+    if (computername != "DESKTOP-PU7DGC1") {
+        
+        # default to network server
+        
+        server <- "SQLIT04A"
+        
+        Sys.setenv(server = server)
+
+    } else {
+
+        server <- "DESKTOP-PU7DGC1"
+        
+        Sys.setenv(server = server)
+
+    }
 }
 
 
@@ -145,7 +156,6 @@ EHDP_odbc <-
         server = server,
         database = db_name,
         trusted_connection = "yes",
-        # encoding = "utf8",
         encoding = "latin1",
         trustservercertificate = "yes"
     )
@@ -196,7 +206,8 @@ EXP_data_export <-
     
     # dropping unneeded columns
     
-    select(-GeoTypeID, -number_decimal_ind, -flag)
+    select(-GeoTypeID, -number_decimal_ind, -flag) %>% 
+    relocate(MeasureID, GeoType, GeoID)
     
 
 # closing connection
