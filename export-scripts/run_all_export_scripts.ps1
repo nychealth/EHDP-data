@@ -72,7 +72,7 @@ if (($Env:data_env -eq "s") -and ($current_branch -ne "staging")) {
 # Tell conda which environment to load
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-conda activate EHDP-data
+# conda activate EHDP-data
 
 #=========================================================================================#
 # R
