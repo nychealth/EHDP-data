@@ -108,7 +108,7 @@ if (data_env == "") {
     data_env <-
         dlgInput(
             message = "staging [s] or production [p]?",
-            rstudio = TRUE
+            rstudio = FALSE
         )$res
     
     Sys.setenv(data_env = data_env)

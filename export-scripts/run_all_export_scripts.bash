@@ -16,16 +16,16 @@
 # get parent dir for absolute path
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-base_dir=$(pwd)
+export base_dir=$(pwd)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # Set the server based on the computer name
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 if [ "$HOSTNAME" == "DESKTOP-PU7DGC1" ]; then
-    server="DESKTOP-PU7DGC1"
+    export server="DESKTOP-PU7DGC1"
 else
-    server="SQLIT04A"
+    export server="SQLIT04A"
 fi
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -33,7 +33,7 @@ fi
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 read -p "staging [s] or production [p]? " data_env
-data_env="${data_env,,}"  # Convert to lowercase
+export data_env="${data_env,,}"  # Convert to lowercase
 
 # Make sure you're on the right branch
 
@@ -62,7 +62,7 @@ fi
 # Tell conda which environment to load
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-conda activate EHDP-data
+# conda activate EHDP-data
 
 #=========================================================================================#
 # R
@@ -74,6 +74,13 @@ conda activate EHDP-data
 
 echo ">>> EXP_indicator_data_writer"
 Rscript "$base_dir/export-scripts/EXP_indicator_data_writer.R"
+
+#-----------------------------------------------------------------------------------------#
+# EXP metadata
+#-----------------------------------------------------------------------------------------#
+
+echo ">>> EXP_indicator_metadata_writer"
+Rscript $base_dir/export-scripts/EXP_indicator_metadata_writer.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP comparisons metadata
@@ -111,8 +118,8 @@ Rscript "$base_dir/export-scripts/NR_json_writer.R"
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_indicator_metadata_writer"
-python "$base_dir/export-scripts/EXP_indicator_metadata_writer.py"
+# echo ">>> EXP_indicator_metadata_writer"
+# python "$base_dir/export-scripts/EXP_indicator_metadata_writer.py"
 
 #-----------------------------------------------------------------------------------------#
 # NR spark bars
