@@ -155,7 +155,7 @@ EHDP_odbc <-
         server = server,
         database = db_name,
         trusted_connection = "yes",
-        encoding = "latin1",
+        encoding = "utf8",
         trustservercertificate = "yes"
     )
 
