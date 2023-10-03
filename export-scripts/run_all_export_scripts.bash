@@ -23,7 +23,7 @@ export base_dir=$base_dir
 # set server based on computer name
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-if [ "$COMPUTERNAME" == "DESKTOP-PU7DGC1" ]; then
+if [[ "$COMPUTERNAME" == "DESKTOP-PU7DGC1" ]]; then
   export server="DESKTOP-PU7DGC1"
 else
   export server="SQLIT04A"
@@ -39,7 +39,7 @@ current_branch=$(git rev-parse --abbrev-ref HEAD)
 # Choose database to use
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-if [ -z "$data_env" ]; then
+if [[ -z "$data_env" ]]; then
 
   # if $data_env doesn't exist yet, ask about setting it
   echo "-------------------------------------------------------------"
@@ -51,7 +51,7 @@ if [ -z "$data_env" ]; then
 
   data_env=${data_env_input:-"s"}  # default to staging if nothing entered
 
-  if [ "$data_env" == "s" ] && [ "$current_branch" != "staging" ]; then
+  if [[ "$data_env" == "s" ]] && [[ "$current_branch" != "staging" ]]; then
 
     # ask about switching
     echo "-------------------------------------------------------------"
@@ -63,7 +63,7 @@ if [ -z "$data_env" ]; then
 
     # switch branch, or not
 
-    if [ "$switch" == "y" ]; then
+    if [[ "$switch" == "y" ]]; then
 
       echo "-------------------------------------------------------------"
       echo ">> 4: 'switch = y', switching to <staging> branch"
@@ -71,7 +71,7 @@ if [ -z "$data_env" ]; then
       git checkout staging
       git pull
 
-    elif [ "$switch" == "n" ]; then
+    elif [[ "$switch" == "n" ]]; then
 
       # don't switch
       echo "-------------------------------------------------------------"
@@ -85,7 +85,7 @@ if [ -z "$data_env" ]; then
 
     fi
 
-  elif [ "$data_env" == "p" ] && [ "$current_branch" != "production" ]; then
+  elif [[ "$data_env" == "p" ]] && [[ "$current_branch" != "production" ]]; then
 
     # ask about switching
     echo "-------------------------------------------------------------"
@@ -97,7 +97,7 @@ if [ -z "$data_env" ]; then
 
     # switch branch, or not
 
-    if [ "$switch" == "y" ]; then
+    if [[ "$switch" == "y" ]]; then
 
       echo "-------------------------------------------------------------"
       echo ">> 4: 'switch = y', switching to <production> branch"
@@ -105,7 +105,7 @@ if [ -z "$data_env" ]; then
       git checkout production
       git pull
 
-    elif [ "$switch" == "n" ]; then
+    elif [[ "$switch" == "n" ]]; then
 
       # don't switch
       echo "-------------------------------------------------------------"
@@ -140,7 +140,7 @@ else
 
   # change environment by overwriting $data_env
 
-  if [ "$switch" == "y" ]; then
+  if [[ "$switch" == "y" ]]; then
 
     echo "-------------------------------------------------------------"
     echo ">> 2: switch 'data_env'"
@@ -151,7 +151,7 @@ else
 
     data_env=${data_env_input:-"s"}  # default to staging if nothing entered
 
-    if [ "$data_env" == "s" ] && [ "$current_branch" != "staging" ]; then
+    if [[ "$data_env" == "s" ]] && [[ "$current_branch" != "staging" ]]; then
 
       echo "-------------------------------------------------------------"
       echo ">> 4: 'data_env = s', not on staging branch"
@@ -160,7 +160,7 @@ else
       read -p "Switch to staging? Yes [y] / No [*n] -- " -n 1 switch
       printf "\n"
 
-      if [ "$switch" == "y" ]; then
+      if [[ "$switch" == "y" ]]; then
 
         echo "-------------------------------------------------------------"
         echo ">> 5: switching to staging branch"
@@ -170,7 +170,7 @@ else
 
       fi
 
-    elif [ "$data_env" == "p" ] && [ "$current_branch" != "production" ]; then
+    elif [[ "$data_env" == "p" ]] && [[ "$current_branch" != "production" ]]; then
 
       echo "-------------------------------------------------------------"
       echo ">> 4: 'data_env = p', not on <production> branch"
@@ -179,7 +179,7 @@ else
       read -p "Switch to <production> ? Yes [y] / No [*n] -- " -n 1 switch
       printf "\n"
 
-      if [ "$switch" == "y" ]; then
+      if [[ "$switch" == "y" ]]; then
 
         echo "-------------------------------------------------------------"
         echo ">> 5: switching to <production> branch"
@@ -187,7 +187,7 @@ else
         git checkout production
         git pull
 
-      elif [ "$switch" == "n" ]; then
+      elif [[ "$switch" == "n" ]]; then
 
         # don't switch
         echo "-------------------------------------------------------------"
@@ -206,7 +206,7 @@ else
 
     fi
 
-  elif [ "$switch" == "n" ]; then
+  elif [[ "$switch" == "n" ]]; then
 
     # don't switch
     echo "-------------------------------------------------------------"
@@ -227,7 +227,7 @@ echo "-------------------------------------------------------------"
 # Tell conda which environment to load
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-conda activate EHDP-data
+# conda activate EHDP-data
 
 #=========================================================================================#
 # R
@@ -239,6 +239,13 @@ conda activate EHDP-data
 
 echo ">>> EXP_indicator_data_writer"
 Rscript "$base_dir/export-scripts/EXP_indicator_data_writer.R"
+
+#-----------------------------------------------------------------------------------------#
+# EXP metadata
+#-----------------------------------------------------------------------------------------#
+
+echo ">>> EXP_indicator_metadata_writer"
+Rscript $base_dir/export-scripts/EXP_indicator_metadata_writer.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP comparisons metadata
@@ -276,8 +283,8 @@ Rscript "$base_dir/export-scripts/NR_json_writer.R"
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_indicator_metadata_writer"
-python "$base_dir/export-scripts/EXP_indicator_metadata_writer.py"
+# echo ">>> EXP_indicator_metadata_writer"
+# python "$base_dir/export-scripts/EXP_indicator_metadata_writer.py"
 
 #-----------------------------------------------------------------------------------------#
 # NR spark bars
