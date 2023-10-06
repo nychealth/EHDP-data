@@ -49,7 +49,7 @@ if [ -z "$data_env" ]; then
   read -p "staging [*s] or production [p]? -- " -n 1 data_env_input
   printf "\n"
 
-  data_env=${data_env_input:-"s"}  # default to staging if nothing entered
+  export data_env=${data_env_input:-"s"}  # default to staging if nothing entered
 
   if [ "$data_env" == "s" ] && [ "$current_branch" != "staging" ]; then
 
@@ -149,7 +149,7 @@ else
     read -p "staging [*s] or production [p]? -- " -n 1 data_env_input
     printf "\n"
 
-    data_env=${data_env_input:-"s"}  # default to staging if nothing entered
+    export data_env=${data_env_input:-"s"}  # default to staging if nothing entered
 
     if [ "$data_env" == "s" ] && [ "$current_branch" != "staging" ]; then
 
