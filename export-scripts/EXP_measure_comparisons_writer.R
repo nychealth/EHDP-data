@@ -19,6 +19,7 @@ suppressWarnings(suppressMessages(library(DBI)))
 suppressWarnings(suppressMessages(library(dbplyr)))
 suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(fs)))
+suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(jsonlite)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 
