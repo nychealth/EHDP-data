@@ -20,7 +20,7 @@ suppressWarnings(suppressMessages(library(dbplyr)))
 suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
-suppressWarnings(suppressMessages(library(jsonlite)))
+suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
 suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 suppressWarnings(suppressMessages(library(scales)))
@@ -61,6 +61,36 @@ if (base_dir == "") {
 
 
 #-----------------------------------------------------------------------------------------#
+# get or set server to use
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+server <- Sys.getenv("server")
+
+if (server == "") {
+
+    computername <- Sys.getenv("COMPUTERNAME")
+
+    if (computername != "DESKTOP-PU7DGC1") {
+        
+        # default to network server
+        
+        server <- "SQLIT04A"
+        
+        Sys.setenv(server = server)
+
+    } else {
+
+        server <- "DESKTOP-PU7DGC1"
+        
+        Sys.setenv(server = server)
+
+    }
+}
+
+
+#-----------------------------------------------------------------------------------------#
 # get or set database to use
 #-----------------------------------------------------------------------------------------#
 
@@ -75,7 +105,7 @@ if (data_env == "") {
     data_env <-
         dlgInput(
             message = "staging [s] or production [p]?",
-            rstudio = TRUE
+            rstudio = FALSE
         )$res
     
     Sys.setenv(data_env = data_env)
@@ -123,11 +153,10 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "SQLIT04A",
-        # server = "DESKTOP-PU7DGC1",
+        server = server,
         database = db_name,
         trusted_connection = "yes",
-        encoding = "latin1",
+        encoding = "utf8",
         trustservercertificate = "yes"
     )
 
@@ -142,14 +171,13 @@ EHDP_odbc <-
 
 EXP_metadata_export <- 
     EHDP_odbc %>% 
-    tbl("EXP_metadata_export_2") %>% 
+    tbl("EXP_metadata_export") %>% 
     collect() %>% 
     arrange(
         IndicatorID,
         MeasureID,
         end_period
     )
-
 #-----------------------------------------------------------------------------------------#
 # general datasets for joining
 #-----------------------------------------------------------------------------------------#
@@ -196,125 +224,42 @@ indicator_measure_text <-
 # map options
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# On: 0/1
 # RankReverse: 0/1
 
-measure_mapping_rr <- 
+measure_mapping <- 
     EXP_metadata_export %>% 
-    filter(Map == 1) %>% 
     select(
         IndicatorID,
         MeasureID,
+        On = Map,
         RankReverse
     ) %>% 
-    group_by(MeasureID) %>% 
-    summarise(RankReverse = max(RankReverse))
-
-# TimeDescription
-
-measure_mapping_time <- 
-    EXP_metadata_export %>% 
-    filter(Map == 1) %>% 
-    select(
-        IndicatorID,
-        MeasureID,
-        TimeDescription
-    ) %>% 
     distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "TimeDescription", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(TimeDescription = list(unname(unlist(TimeDescription)))) %>% 
+    group_nest(.key = "Map", keep = FALSE) %>% 
     ungroup()
 
-# GeoType
-
-measure_mapping_geo <- 
-    EXP_metadata_export %>% 
-    filter(Map == 1) %>% 
-    select(
-        IndicatorID,
-        MeasureID,
-        GeoType
-    ) %>% 
-    distinct() %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "GeoType", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(GeoType = list(unname(unlist(GeoType)))) %>% 
-    ungroup()
-
-# combining
-
-measure_mapping <- 
-    left_join(
-        distinct_measures,
-        measure_mapping_time,
-        by = c("IndicatorID", "MeasureID")
-    ) %>% 
-    left_join(
-        measure_mapping_geo,
-        by = c("IndicatorID", "MeasureID")
-    ) %>% 
-    left_join(
-        measure_mapping_rr,
-        by = "MeasureID"
-    ) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "Map", keep = FALSE)
-        
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # trend options
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# TimeDescription
-
-measure_trend_time <- 
-    EXP_metadata_export %>% 
-    filter(Trend == 1) %>% 
-    select(
-        IndicatorID,
-        MeasureID,
-        TimeDescription
-    ) %>% 
-    distinct() %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "TimeDescription", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(TimeDescription = list(unname(unlist(TimeDescription)))) %>% 
-    ungroup()
-
-# GeoType
-
-measure_trend_geo <- 
-    EXP_metadata_export %>% 
-    filter(Trend == 1) %>% 
-    select(
-        IndicatorID,
-        MeasureID,
-        GeoType
-    ) %>% 
-    distinct() %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "GeoType", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(GeoType = list(unname(unlist(GeoType)))) %>% 
-    ungroup()
-
-# combining
+# On: 0/1
+# Disparities: 0/1
 
 measure_trend <- 
-    left_join(
-        distinct_measures,
-        measure_trend_time,
-        by = c("IndicatorID", "MeasureID")
+    EXP_metadata_export %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        On = Trend,
+        Disparities
     ) %>% 
-    left_join(
-        measure_trend_geo,
-        by = c("IndicatorID", "MeasureID")
-    ) %>% 
+    distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "Trend", keep = FALSE)
+    group_nest(.key = "Trend", keep = FALSE) %>% 
+    ungroup()
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -358,6 +303,7 @@ indicator_comparisons <-
 MeasureID_links <- 
     EHDP_odbc %>% 
     tbl("EXP_measure_links") %>% 
+    select(BaseMeasureID, MeasureID, SecondaryAxis) %>% 
     collect() %>% 
     arrange(
         BaseMeasureID,
@@ -369,42 +315,10 @@ MeasureID_links <-
 
 measure_links <- 
     MeasureID_links %>% 
-    filter(disparity_flag == 0) %>% 
-    select(-disparity_flag) %>% 
     distinct() %>% 
     group_by(BaseMeasureID) %>% 
-    group_nest(.key = "Measures", keep = FALSE) %>% 
+    group_nest(.key = "Links", keep = FALSE) %>% 
     rename(MeasureID = BaseMeasureID)
-
-
-# ==== nesting disparities ==== #
-
-# Disparities: 0/1
-
-measure_disp <- 
-    MeasureID_links %>% 
-    filter(disparity_flag == 1) %>% 
-    group_by(BaseMeasureID) %>% 
-    summarise(Disparities = max(disparity_flag), .groups = "keep") %>% 
-    rename(MeasureID = BaseMeasureID) %>% 
-    left_join(
-        distinct_measures %>% select(MeasureID),
-        .,
-        by = "MeasureID"
-    ) %>% 
-    mutate(Disparities = replace_na(Disparities, 0L))
-
-
-# ==== nesting disparities ==== #
-
-measure_links_disp <- 
-    left_join(
-        measure_links,
-        measure_disp,
-        by = "MeasureID"
-    ) %>% 
-    group_by(MeasureID) %>% 
-    group_nest(.key = "Links", keep = FALSE)
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -418,7 +332,7 @@ measure_vis_options <-
         by = c("IndicatorID", "MeasureID")
     ) %>% 
     left_join(
-        measure_links_disp,
+        measure_links,
         by = "MeasureID"
     ) %>% 
     group_by(IndicatorID, MeasureID) %>% 
@@ -524,8 +438,8 @@ metadata_json        <- metadata %>% toJSON(pretty = FALSE, null = "null", na = 
 # saving JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-write_lines(metadata_json_pretty, path(base_dir, "indicators/indicators_pretty.json"))
-write_lines(metadata_json,        path(base_dir, "indicators/indicators.json"))
+write_file(metadata_json_pretty, path(base_dir, "indicators/indicators_pretty.json"))
+write_file(metadata_json,        path(base_dir, "indicators/indicators.json"))
 
 #-----------------------------------------------------------------------------------------#
 # closing database connection

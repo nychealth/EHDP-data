@@ -58,6 +58,33 @@ if (base_dir == ""):
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# get or set server to use
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# get envionment var
+
+server = os.environ.get("server", "")
+
+if (server == ""):
+        
+    computername = os.environ.get("COMPUTERNAME", "")
+
+    if (computername != "DESKTOP-PU7DGC1"):
+        
+        # ask and set
+        
+        server = "SQLIT04A"
+        
+        os.environ["server"] = server
+
+    else:
+            
+        server = "DESKTOP-PU7DGC1"
+        
+        os.environ["server"] = server
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # get or set database to use
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -122,8 +149,7 @@ else:
 # Connecting to database
 #-----------------------------------------------------------------------------------------#
 
-# EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=" + db_name + ";Trusted_Connection=yes;")
-EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=DESKTOP-PU7DGC1;DATABASE=" + db_name + ";Trusted_Connection=yes;trustservercertificate=yes")
+EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=" + server + ";DATABASE=" + db_name + ";Trusted_Connection=yes;trustservercertificate=yes")
 
 
 #=========================================================================================#
@@ -383,6 +409,7 @@ indicator_comparisons = (
 
 MeasureID_links = (
     pd.read_sql("SELECT * FROM EXP_measure_links", EHDP_odbc)
+    .loc[:, ["BaseMeasureID", "MeasureID", "SecondaryAxis"]]
     .sort_values(by = ["BaseMeasureID", "MeasureID"])
 )
 

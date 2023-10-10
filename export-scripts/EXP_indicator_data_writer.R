@@ -61,6 +61,36 @@ if (base_dir == "") {
 
 
 #-----------------------------------------------------------------------------------------#
+# get or set server to use
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+server <- Sys.getenv("server")
+
+if (server == "") {
+
+    computername <- Sys.getenv("COMPUTERNAME")
+
+    if (computername != "DESKTOP-PU7DGC1") {
+        
+        # default to network server
+        
+        server <- "SQLIT04A"
+        
+        Sys.setenv(server = server)
+
+    } else {
+
+        server <- "DESKTOP-PU7DGC1"
+        
+        Sys.setenv(server = server)
+
+    }
+}
+
+
+#-----------------------------------------------------------------------------------------#
 # get or set database to use
 #-----------------------------------------------------------------------------------------#
 
@@ -75,7 +105,7 @@ if (data_env == "") {
     data_env <-
         dlgInput(
             message = "staging [s] or production [p]?",
-            rstudio = TRUE
+            rstudio = FALSE
         )$res
     
     Sys.setenv(data_env = data_env)
@@ -123,10 +153,10 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "SQLIT04A",
+        server = server,
         database = db_name,
         trusted_connection = "yes",
-        encoding = "latin1",
+        encoding = "utf8",
         trustservercertificate = "yes"
     )
 
@@ -158,6 +188,7 @@ EXP_data_export <-
         across(
             where(is.character),
             ~ as_utf8_character(enc2native(.x))
+            # ~ enc2native(.x)
         ),
         DisplayValue = 
             case_when(
