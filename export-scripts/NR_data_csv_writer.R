@@ -242,11 +242,11 @@ report_data <-
     ) %>% 
     select(-has_annual) %>% 
     mutate(
-    across(
-        where(is.character),
-        ~ as_utf8_character(enc2native(.x))
+        across(
+            where(is.character),
+            ~ as_utf8_character(enc2native(.x))
+        )
     )
-)
 
 
 #-----------------------------------------------------------------------------------------#

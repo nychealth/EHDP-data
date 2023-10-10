@@ -188,7 +188,6 @@ EXP_data_export <-
         across(
             where(is.character),
             ~ as_utf8_character(enc2native(.x))
-            # ~ enc2native(.x)
         ),
         DisplayValue = 
             case_when(

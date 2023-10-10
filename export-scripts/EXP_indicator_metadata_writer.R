@@ -177,7 +177,14 @@ EXP_metadata_export <-
         IndicatorID,
         MeasureID,
         end_period
+    ) %>% 
+    mutate(
+        across(
+            where(is.character),
+            ~ as_utf8_character(enc2native(.x))
+        )
     )
+
 #-----------------------------------------------------------------------------------------#
 # general datasets for joining
 #-----------------------------------------------------------------------------------------#
@@ -276,6 +283,12 @@ EXP_measure_comparisons <-
         IndicatorID,
         ComparisonID,
         MeasureID
+    ) %>% 
+    mutate(
+        across(
+            where(is.character),
+            ~ as_utf8_character(enc2native(.x))
+        )
     )
 
 # ==== nesting ComparisonIDs ==== #
@@ -308,6 +321,12 @@ MeasureID_links <-
     arrange(
         BaseMeasureID,
         MeasureID
+    ) %>% 
+    mutate(
+        across(
+            where(is.character),
+            ~ as_utf8_character(enc2native(.x))
+        )
     )
 
 
