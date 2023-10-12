@@ -272,49 +272,49 @@ Write-Host "-------------------------------------------------------------"
 # EXP data
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_indicator_data_writer"
+Write-Output ">>> EXP_data_json"
 
-Rscript $base_dir\export-scripts\EXP_indicator_data_writer.R
+Rscript $base_dir\export-scripts\EXP_data_json.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_indicator_metadata_writer"
+Write-Output ">>> EXP_metadata_json"
 
-Rscript $base_dir\export-scripts\EXP_indicator_metadata_writer.R
+Rscript $base_dir\export-scripts\EXP_metadata_json.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP comparisons metadata
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_measure_comparisons_writer"
+Write-Output ">>> EXP_comparisons_json"
 
-Rscript $base_dir\export-scripts\EXP_measure_comparisons_writer.R
+Rscript $base_dir\export-scripts\EXP_comparisons_json.R
 
 #-----------------------------------------------------------------------------------------#
 # NR viz data (for VegaLite)
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> NR_data_csv_writer"
+Write-Output ">>> NR_data_csv"
 
-Rscript $base_dir\export-scripts\NR_data_csv_writer.R
+Rscript $base_dir\export-scripts\NR_data_csv.R
 
 #-----------------------------------------------------------------------------------------#
 # NR JSON data (for report)
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> NR_json_writer"
+Write-Output ">>> NR_report_json"
 
-Rscript $base_dir\export-scripts\NR_json_writer.R
+Rscript $base_dir\export-scripts\NR_report_json.R
 
 #-----------------------------------------------------------------------------------------#
 # GeoLookup
 #-----------------------------------------------------------------------------------------#
 
-# Write-Output ">>> create_GeoLookup"
+# Write-Output ">>> EXP_GeoLookup_csv"
 
-# Rscript $base_dir\export-scripts\create_GeoLookup.R
+# Rscript $base_dir\export-scripts\EXP_GeoLookup_csv.R
 
 
 #=========================================================================================#
@@ -325,17 +325,17 @@ Rscript $base_dir\export-scripts\NR_json_writer.R
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-# Write-Output ">>> EXP_indicator_metadata_writer"
+# Write-Output ">>> EXP_metadata_json"
 
-# python $base_dir\export-scripts\EXP_indicator_metadata_writer.py
+# python $base_dir\export-scripts\EXP_metadata_json.py
 
 #-----------------------------------------------------------------------------------------#
 # NR spark bars
 #-----------------------------------------------------------------------------------------#
 
-# Write-Output ">>> NR_SparkBarExport"
+# Write-Output ">>> NR_sparkbars"
 
-# python $base_dir\export-scripts\NR_SparkBarExport.py
+# python $base_dir\export-scripts\NR_sparkbars.py
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

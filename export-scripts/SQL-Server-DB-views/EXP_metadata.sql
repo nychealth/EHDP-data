@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[EXP_metadata_export] AS 
+CREATE OR ALTER VIEW dbo.EXP_metadata AS 
 
     SELECT DISTINCT
         si.indicator_id      AS MeasureID,
@@ -26,18 +26,21 @@ CREATE OR ALTER VIEW [dbo].[EXP_metadata_export] AS
 
         -- format measure name
 
-        CASE WHEN ii.short_name IS NOT null 
+        CASE 
+            WHEN ii.short_name IS NOT null 
             THEN ii.short_name + ', ' + mt.description 
             ELSE ii.name       + ', ' + mt.description 
         END AS MeasureName,
 
         -- replacing missing flag values with 0
         
-        CASE WHEN dsp.Disparities IS null THEN 0
+        CASE 
+            WHEN dsp.Disparities IS null THEN 0
             ELSE dsp.Disparities
         END AS Disparities,
 
-        CASE WHEN id.rankReverse IS null THEN 0
+        CASE 
+            WHEN id.rankReverse IS null THEN 0
             ELSE id.rankReverse
         END AS RankReverse
 

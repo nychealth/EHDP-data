@@ -1,7 +1,7 @@
 ###########################################################################################
 ###########################################################################################
 ##
-## Building indicators.json and comparisons.json using nested DataFrames
+## Building metadata.json and comparisons.json using nested DataFrames
 ##
 ###########################################################################################
 ###########################################################################################
@@ -169,9 +169,9 @@ EHDP_odbc <-
 # all metadata
 #-----------------------------------------------------------------------------------------#
 
-EXP_metadata_export <- 
+EXP_metadata <- 
     EHDP_odbc %>% 
-    tbl("EXP_metadata_export_2") %>% 
+    tbl("EXP_metadata_2") %>% 
     collect() %>% 
     arrange(
         IndicatorID,
@@ -194,7 +194,7 @@ EXP_metadata_export <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 distinct_measures <-
-    EXP_metadata_export %>%
+    EXP_metadata %>%
     select(
         IndicatorID,
         MeasureID
@@ -207,7 +207,7 @@ distinct_measures <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 indicator_measure_text <-
-    EXP_metadata_export %>%
+    EXP_metadata %>%
     select(
         IndicatorID,
         IndicatorName,
@@ -234,7 +234,7 @@ indicator_measure_text <-
 # RankReverse: 0/1
 
 measure_mapping_rr <- 
-    EXP_metadata_export %>% 
+    EXP_metadata %>% 
     filter(Map == 1) %>% 
     select(
         IndicatorID,
@@ -247,7 +247,7 @@ measure_mapping_rr <-
 # TimeDescription
 
 measure_mapping_time <- 
-    EXP_metadata_export %>% 
+    EXP_metadata %>% 
     filter(Map == 1) %>% 
     select(
         IndicatorID,
@@ -264,7 +264,7 @@ measure_mapping_time <-
 # GeoType
 
 measure_mapping_geo <- 
-    EXP_metadata_export %>% 
+    EXP_metadata %>% 
     filter(Map == 1) %>% 
     select(
         IndicatorID,
@@ -305,7 +305,7 @@ measure_mapping <-
 # TimeDescription
 
 measure_trend_time <- 
-    EXP_metadata_export %>% 
+    EXP_metadata %>% 
     filter(Trend == 1) %>% 
     select(
         IndicatorID,
@@ -322,7 +322,7 @@ measure_trend_time <-
 # GeoType
 
 measure_trend_geo <- 
-    EXP_metadata_export %>% 
+    EXP_metadata %>% 
     filter(Trend == 1) %>% 
     select(
         IndicatorID,
@@ -358,9 +358,9 @@ measure_trend <-
 
 # ==== specific comparisons view ==== #
 
-EXP_measure_comparisons <- 
+EXP_comparisons <- 
     EHDP_odbc %>% 
-    tbl("EXP_measure_comparisons") %>% 
+    tbl("EXP_comparisons") %>% 
     collect() %>% 
     arrange(
         IndicatorID,
@@ -371,7 +371,7 @@ EXP_measure_comparisons <-
 # ==== nesting ComparisonIDs ==== #
 
 indicator_comparisons <- 
-    EXP_measure_comparisons %>% 
+    EXP_comparisons %>% 
     select(
         IndicatorID,
         Comparisons = ComparisonID
@@ -392,7 +392,7 @@ indicator_comparisons <-
 
 MeasureID_links <- 
     EHDP_odbc %>% 
-    tbl("EXP_measure_links") %>% 
+    tbl("EXP_links") %>% 
     collect() %>% 
     arrange(
         BaseMeasureID,
@@ -465,7 +465,7 @@ measure_vis_options <-
 #-----------------------------------------------------------------------------------------#
 
 measure_geotypes <- 
-    EXP_metadata_export %>% 
+    EXP_metadata %>% 
     select(
         IndicatorID,
         MeasureID,
@@ -485,7 +485,7 @@ measure_geotypes <-
 #-----------------------------------------------------------------------------------------#
 
 measure_times <- 
-    EXP_metadata_export %>% 
+    EXP_metadata %>% 
     select(
         IndicatorID,
         MeasureID,
@@ -559,8 +559,8 @@ metadata_json        <- metadata %>% toJSON(pretty = FALSE, null = "null", na = 
 # saving JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-write_file(metadata_json_pretty, path(base_dir, "indicators/indicators_pretty.json"))
-write_file(metadata_json,        path(base_dir, "indicators/indicators.json"))
+write_file(metadata_json_pretty, path(base_dir, "indicators/metadata_pretty.json"))
+write_file(metadata_json,        path(base_dir, "indicators/metadata.json"))
 
 #-----------------------------------------------------------------------------------------#
 # closing database connection

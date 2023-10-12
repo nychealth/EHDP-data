@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW dbo.EXP_measure_comparisons AS
+CREATE OR ALTER VIEW dbo.EXP_comparisons AS
 
     SELECT
         mc.measure_compare_id  AS ComparisonID,

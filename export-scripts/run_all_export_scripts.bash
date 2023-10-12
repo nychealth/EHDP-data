@@ -237,43 +237,43 @@ echo "-------------------------------------------------------------"
 # EXP data
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_indicator_data_writer"
-Rscript "$base_dir/export-scripts/EXP_indicator_data_writer.R"
+echo ">>> EXP_data_json"
+Rscript "$base_dir/export-scripts/EXP_data_json.R"
 
 #-----------------------------------------------------------------------------------------#
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_indicator_metadata_writer"
-Rscript $base_dir/export-scripts/EXP_indicator_metadata_writer.R
+echo ">>> EXP_metadata_json"
+Rscript $base_dir/export-scripts/EXP_metadata_json.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP comparisons metadata
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_measure_comparisons_writer"
-Rscript "$base_dir/export-scripts/EXP_measure_comparisons_writer.R"
+echo ">>> EXP_comparisons_json"
+Rscript "$base_dir/export-scripts/EXP_comparisons_json.R"
 
 #-----------------------------------------------------------------------------------------#
 # NR viz data (for VegaLite)
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> NR_data_csv_writer"
-Rscript "$base_dir/export-scripts/NR_data_csv_writer.R"
+echo ">>> NR_data_csv"
+Rscript "$base_dir/export-scripts/NR_data_csv.R"
 
 #-----------------------------------------------------------------------------------------#
 # NR JSON data (for report)
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> NR_json_writer"
-Rscript "$base_dir/export-scripts/NR_json_writer.R"
+echo ">>> NR_report_json"
+Rscript "$base_dir/export-scripts/NR_report_json.R"
 
 #-----------------------------------------------------------------------------------------#
 # GeoLookup
 #-----------------------------------------------------------------------------------------#
 
-# echo ">>> create_GeoLookup"
-# Rscript "$base_dir/export-scripts/create_GeoLookup.R"
+# echo ">>> EXP_GeoLookup_csv"
+# Rscript "$base_dir/export-scripts/EXP_GeoLookup_csv.R"
 
 #=========================================================================================#
 # Python
@@ -283,15 +283,15 @@ Rscript "$base_dir/export-scripts/NR_json_writer.R"
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-# echo ">>> EXP_indicator_metadata_writer"
-# python "$base_dir/export-scripts/EXP_indicator_metadata_writer.py"
+# echo ">>> EXP_metadata_json"
+# python "$base_dir/export-scripts/EXP_metadata_json.py"
 
 #-----------------------------------------------------------------------------------------#
 # NR spark bars
 #-----------------------------------------------------------------------------------------#
 
-# echo ">>> NR_SparkBarExport"
-# python "$base_dir/export-scripts/NR_SparkBarExport.py"
+# echo ">>> NR_sparkbars"
+# python "$base_dir/export-scripts/NR_sparkbars.py"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

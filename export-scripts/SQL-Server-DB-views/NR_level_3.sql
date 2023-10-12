@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW dbo.reportLevel3 AS
+CREATE OR ALTER VIEW dbo.NR_level_3 AS
 
     SELECT TOP (100) PERCENT 
 
@@ -66,13 +66,13 @@ CREATE OR ALTER VIEW dbo.reportLevel3 AS
         CAST(boroD.data_value AS decimal(18, 1)) AS data_value_borough,
         CAST(cityD.data_value AS decimal(18, 1)) AS data_value_nyc,
 
-        rr.reportRank                   AS data_value_rank, -- this is the calculated rank that takes rank_reverse into account
+        rnk.reportRank                   AS data_value_rank, -- this is the calculated rank that takes rank_reverse into account
         u.character_display + u.message AS nabe_data_note,
         s.source_list                   AS data_source_list,
-        rd.TimeCount,
+        dt.TimeCount,
 
         CASE
-            WHEN (rd.TimeCount > 1) THEN 1
+            WHEN (dt.TimeCount > 1) THEN 1
             ELSE 0
         END AS trend_flag,
         
@@ -163,27 +163,27 @@ CREATE OR ALTER VIEW dbo.reportLevel3 AS
 
         JOIN unreliability AS u ON nabeD.unreliability_flag = u.unreliability_id
 
-        JOIN Report_UHF_indicator_Rank AS rr ON (
-            rr.indicator_data_id = nabeD.indicator_data_id AND 
-            rr.report_id = rtd.report_id
+        JOIN NR_ranks AS rnk ON (
+            rnk.indicator_data_id = nabeD.indicator_data_id AND 
+            rnk.report_id = rtd.report_id
         )
 
         JOIN Consolidated_Sources_by_IndicatorID AS s ON rtd.indicator_id = s.indicator_id
 
         JOIN (
             SELECT
-                count(rd.Time) AS TimeCount,
+                count(dt.Time) AS TimeCount,
                 report_id,
                 geo_entity_id,
                 indicator_id --Trend time period count subquery
-            FROM ReportData AS rd
+            FROM NR_data AS dt
             GROUP BY
                 report_id,
                 geo_entity_id,
                 indicator_id
-        ) AS rd ON rtd.indicator_id = rd.indicator_id
-                AND ge.geo_entity_id = rd.geo_entity_id
-                AND r.report_id      = rd.report_id
+        ) AS dt ON rtd.indicator_id = dt.indicator_id
+                AND ge.geo_entity_id = dt.geo_entity_id
+                AND r.report_id      = dt.report_id
 
     WHERE 
         r.public_flag = 1 

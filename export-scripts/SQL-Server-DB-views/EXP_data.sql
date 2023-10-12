@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[EXP_data_export] AS
+CREATE OR ALTER VIEW dbo.EXP_data AS
     
     SELECT DISTINCT
 
@@ -21,7 +21,8 @@ CREATE OR ALTER VIEW [dbo].[EXP_data_export] AS
 
         -- null out value when show data = 0
 
-        CASE WHEN un.show_data_flag = 1 THEN ind.data_value 
+        CASE 
+            WHEN un.show_data_flag = 1 THEN ind.data_value 
             ELSE null 
         END AS Value,
 

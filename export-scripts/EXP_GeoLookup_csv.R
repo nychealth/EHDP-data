@@ -69,13 +69,24 @@ if (base_dir == "") {
 server <- Sys.getenv("server")
 
 if (server == "") {
-    
-    # default to network server
-    
-    server <- "SQLIT04A"
-    
-    Sys.setenv(server = server)
 
+    computername <- Sys.getenv("COMPUTERNAME")
+
+    if (computername != "DESKTOP-PU7DGC1") {
+        
+        # default to network server
+        
+        server <- "SQLIT04A"
+        
+        Sys.setenv(server = server)
+
+    } else {
+
+        server <- "DESKTOP-PU7DGC1"
+        
+        Sys.setenv(server = server)
+
+    }
 }
 
 
@@ -142,8 +153,6 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        # server = "SQLIT04A",
-        # server = "DESKTOP-PU7DGC1",
         server = server,
         database = db_name,
         trusted_connection = "yes",

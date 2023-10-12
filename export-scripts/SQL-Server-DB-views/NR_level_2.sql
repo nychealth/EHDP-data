@@ -3,19 +3,19 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[reportLevel2] AS
+CREATE OR ALTER VIEW dbo.NR_level_2 AS
 
     SELECT TOP (100) PERCENT 
 
         rcnt.report_id,
         report_topic_id,
-        rcnt.description AS report_topic,
-        details AS report_topic_description,
-        ge.name AS geo_entity_name,
+        rcnt.description  AS report_topic,
+        details           AS report_topic_description,
+        ge.name           AS geo_entity_name,
         ge.geo_entity_id,
         ge.borough_id,
-        geb.name AS borough_name,
-        'NYC'    AS city,
+        geb.name          AS borough_name,
+        'NYC'             AS city,
         'Compared with other NYC neighborhoods*' AS compared_with
 
     FROM report_topic AS rcnt
