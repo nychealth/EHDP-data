@@ -18,10 +18,12 @@ suppressWarnings(suppressMessages(library(tidyverse)))
 suppressWarnings(suppressMessages(library(DBI)))
 suppressWarnings(suppressMessages(library(dbplyr)))
 suppressWarnings(suppressMessages(library(odbc)))
+suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
+suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
 suppressWarnings(suppressMessages(library(rlang)))
-suppressWarnings(suppressMessages(library(jsonlite)))
 suppressWarnings(suppressMessages(library(svDialogs)))
+suppressWarnings(suppressMessages(library(scales)))
 
 #-----------------------------------------------------------------------------------------#
 # get base_dir for absolute path
@@ -166,21 +168,21 @@ EHDP_odbc <-
 TimePeriods <- 
     EHDP_odbc %>% 
     tbl("indicator_year") %>% 
-    select(
+    collect() %>% 
+    transmute(
         TimePeriodID = year_id,
         TimeDescription = year_description,
         TimeType = time_type,
-        start_period,
-        end_period
-    ) %>% 
-    collect()
+        start_period = as.numeric(as_datetime(start_period)) * 1000,
+        end_period   = as.numeric(as_datetime(end_period)) * 1000
+    )
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # converting to JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-TimePeriods_json <- TimePeriods %>% toJSON(pretty = FALSE, null = "null", na = "null")
+TimePeriods_json <- TimePeriods %>% toJSON(dataframe = "columns", pretty = FALSE, null = "null", na = "null")
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # saving JSON

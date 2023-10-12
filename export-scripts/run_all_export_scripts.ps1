@@ -285,12 +285,20 @@ Write-Output ">>> EXP_metadata_json"
 Rscript $base_dir\export-scripts\EXP_metadata_json.R
 
 #-----------------------------------------------------------------------------------------#
-# EXP comparisons metadata
+# EXP comparisons
 #-----------------------------------------------------------------------------------------#
 
 Write-Output ">>> EXP_comparisons_json"
 
 Rscript $base_dir\export-scripts\EXP_comparisons_json.R
+
+#-----------------------------------------------------------------------------------------#
+# EXP TimePeriods
+#-----------------------------------------------------------------------------------------#
+
+Write-Output ">>> EXP_TimePeriods_json"
+
+Rscript $base_dir\export-scripts\EXP_TimePeriods_json.R
 
 #-----------------------------------------------------------------------------------------#
 # NR viz data (for VegaLite)
