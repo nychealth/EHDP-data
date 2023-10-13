@@ -243,9 +243,7 @@ measure_table_time <-
     ) %>% 
     distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "TimePeriodID", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
+    summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
 
 # GeoType
@@ -260,9 +258,7 @@ measure_table_geo <-
     ) %>% 
     distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "GeoType", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(GeoType = list(unname(unlist(GeoType)))) %>% 
+    summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
     ungroup()
 
 # combining
@@ -310,9 +306,7 @@ measure_mapping_time <-
     ) %>% 
     distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "TimePeriodID", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
+    summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
 
 # GeoType
@@ -327,9 +321,7 @@ measure_mapping_geo <-
     ) %>% 
     distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "GeoType", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(GeoType = list(unname(unlist(GeoType)))) %>% 
+    summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
     ungroup()
 
 # combining
@@ -368,9 +360,7 @@ measure_trend_time <-
     ) %>% 
     distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "TimePeriodID", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
+    summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
 
 # GeoType
@@ -385,9 +375,7 @@ measure_trend_geo <-
     ) %>% 
     distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "GeoType", keep = FALSE) %>% 
-    group_by(IndicatorID, MeasureID) %>% 
-    mutate(GeoType = list(unname(unlist(GeoType)))) %>% 
+    summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
     ungroup()
 
 # combining
@@ -535,32 +523,24 @@ measure_geotypes <-
         IndicatorID,
         MeasureID
     ) %>% 
-    group_nest(.key = "AvailableGeographyTypes", keep = FALSE)
+    group_nest(.key = "AvailableGeoTypes", keep = FALSE)
 
 
 #-----------------------------------------------------------------------------------------#
 # nesting times
 #-----------------------------------------------------------------------------------------#
 
-# measure_times <- 
-#     EXP_metadata %>% 
-#     select(
-#         IndicatorID,
-#         MeasureID,
-#         TimePeriodID,
-#         start_period,
-#         end_period
-#     ) %>% 
-#     mutate(
-#         start_period = as.numeric(as_datetime(start_period)) * 1000,
-#         end_period = as.numeric(as_datetime(end_period)) * 1000
-#     ) %>% 
-#     distinct() %>% 
-#     group_by(
-#         IndicatorID,
-#         MeasureID
-#     ) %>% 
-#     group_nest(.key = "AvailableTimes", keep = FALSE)
+measure_times <- 
+    EXP_metadata %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        AvailableTimePeriodIDs = TimePeriodID
+    ) %>% 
+    distinct() %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    summarise(AvailableTimePeriodIDs = list(unname(unlist(AvailableTimePeriodIDs)))) %>% 
+    ungroup()
 
 
 #-----------------------------------------------------------------------------------------#
@@ -573,10 +553,10 @@ metadata <-
         measure_geotypes,
         by = c("IndicatorID", "MeasureID")
     ) %>% 
-    # left_join(
-    #     measure_times,
-    #     by = c("IndicatorID", "MeasureID")
-    # ) %>% 
+    left_join(
+        measure_times,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
     left_join(
         measure_vis_options,
         by = c("IndicatorID", "MeasureID")
