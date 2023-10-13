@@ -24,7 +24,7 @@ For each measure, there are the following fields:
 | how_calculated | Text information on how this measure was calculated  |
 | Sources        | Text information on this measure's data source |
 | DisplayType         | Text field that includes measure information to be displayed with the value  |
-| AvailableGeographyTypes         | Geographic resolutions available in in the data  |
+| AvailableGeoTypes         | Geographic resolutions available in in the data  |
 | AvailableTimes         | Time units available in the data. Includes `TimeDescription`, `start_period`, and `end_period`  |
 | VisOptions         | Specific visualization options associated with this indicator, including `map`, `trends`, `disparities`, and `links`. 1 = yes, and 0 = no.  |
 

@@ -520,7 +520,7 @@ measure_geotypes = (
     )
     .apply(lambda x: x[["GeoType", "GeoTypeDescription"]].to_dict("records"))
     .reset_index()
-    .rename(columns = {0: "AvailableGeographyTypes"})
+    .rename(columns = {0: "AvailableGeoTypes"})
 )
 
 
@@ -599,7 +599,7 @@ metadata = (
         "how_calculated",
         "Sources",
         "DisplayType",
-        "AvailableGeographyTypes",
+        "AvailableGeoTypes",
         "AvailableTimes",
         "VisOptions"
     ]].to_dict('records'))
