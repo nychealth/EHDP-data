@@ -9,10 +9,7 @@ CREATE OR ALTER VIEW dbo.EXP_metadata_2 AS
         si.indicator_id     AS MeasureID,
         id.how_calculated,
         id.internal_id      AS IndicatorID,
-        iy.year_description AS TimeDescription,
-        iy.start_period,
-        iy.end_period,
-        iy.time_type        AS TimeType,
+        iy.year_id          AS TimePeriodID,
         gt.geo_type_name    AS GeoType,
         gt.description      AS GeoTypeDescription,
         ii.name             AS IndicatorName,
@@ -23,6 +20,9 @@ CREATE OR ALTER VIEW dbo.EXP_metadata_2 AS
         cs.source_list      AS Sources,
         si.mapping          AS Map,
         si.trend_time_graph AS Trend,
+        
+        CASE WHEN si.ban_summary_flag = 1 THEN 0 ELSE 1
+        END AS [Table],
 
         -- format measure name
 

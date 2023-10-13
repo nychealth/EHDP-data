@@ -181,7 +181,7 @@ EXP_data <-
         MeasureID,
         GeoTypeID,
         GeoID,
-        desc(Time)
+        TimePeriodID
     ) %>%
 
     mutate(

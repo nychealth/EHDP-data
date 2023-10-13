@@ -176,7 +176,7 @@ EXP_metadata <-
     arrange(
         IndicatorID,
         MeasureID,
-        end_period
+        TimePeriodID
     ) %>% 
     mutate(
         across(
@@ -228,6 +228,60 @@ indicator_measure_text <-
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# table options
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# TimePeriodID
+
+measure_table_time <- 
+    EXP_metadata %>% 
+    filter(Table == 1) %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        TimePeriodID
+    ) %>% 
+    distinct() %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    group_nest(.key = "TimePeriodID", keep = FALSE) %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    mutate(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
+    ungroup()
+
+# GeoType
+
+measure_table_geo <- 
+    EXP_metadata %>% 
+    filter(Table == 1) %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        GeoType
+    ) %>% 
+    distinct() %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    group_nest(.key = "GeoType", keep = FALSE) %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    mutate(GeoType = list(unname(unlist(GeoType)))) %>% 
+    ungroup()
+
+# combining
+
+measure_table <- 
+    left_join(
+        distinct_measures,
+        measure_table_time,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    left_join(
+        measure_table_geo,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    group_nest(.key = "Table", keep = FALSE)
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # map options
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -244,7 +298,7 @@ measure_mapping_rr <-
     group_by(MeasureID) %>% 
     summarise(RankReverse = max(RankReverse))
 
-# TimeDescription
+# TimePeriodID
 
 measure_mapping_time <- 
     EXP_metadata %>% 
@@ -252,13 +306,13 @@ measure_mapping_time <-
     select(
         IndicatorID,
         MeasureID,
-        TimeDescription
+        TimePeriodID
     ) %>% 
     distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "TimeDescription", keep = FALSE) %>% 
+    group_nest(.key = "TimePeriodID", keep = FALSE) %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    mutate(TimeDescription = list(unname(unlist(TimeDescription)))) %>% 
+    mutate(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
 
 # GeoType
@@ -296,13 +350,13 @@ measure_mapping <-
     ) %>% 
     group_by(IndicatorID, MeasureID) %>% 
     group_nest(.key = "Map", keep = FALSE)
-        
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # trend options
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# TimeDescription
+# TimePeriodID
 
 measure_trend_time <- 
     EXP_metadata %>% 
@@ -310,13 +364,13 @@ measure_trend_time <-
     select(
         IndicatorID,
         MeasureID,
-        TimeDescription
+        TimePeriodID
     ) %>% 
     distinct() %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "TimeDescription", keep = FALSE) %>% 
+    group_nest(.key = "TimePeriodID", keep = FALSE) %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    mutate(TimeDescription = list(unname(unlist(TimeDescription)))) %>% 
+    mutate(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
 
 # GeoType
@@ -448,7 +502,11 @@ measure_links_disp <-
 
 measure_vis_options <- 
     left_join(
+        measure_table,
         measure_mapping,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    left_join(
         measure_trend,
         by = c("IndicatorID", "MeasureID")
     ) %>% 
@@ -484,25 +542,25 @@ measure_geotypes <-
 # nesting times
 #-----------------------------------------------------------------------------------------#
 
-measure_times <- 
-    EXP_metadata %>% 
-    select(
-        IndicatorID,
-        MeasureID,
-        TimeDescription,
-        start_period,
-        end_period
-    ) %>% 
-    mutate(
-        start_period = as.numeric(as_datetime(start_period)) * 1000,
-        end_period = as.numeric(as_datetime(end_period)) * 1000
-    ) %>% 
-    distinct() %>% 
-    group_by(
-        IndicatorID,
-        MeasureID
-    ) %>% 
-    group_nest(.key = "AvailableTimes", keep = FALSE)
+# measure_times <- 
+#     EXP_metadata %>% 
+#     select(
+#         IndicatorID,
+#         MeasureID,
+#         TimePeriodID,
+#         start_period,
+#         end_period
+#     ) %>% 
+#     mutate(
+#         start_period = as.numeric(as_datetime(start_period)) * 1000,
+#         end_period = as.numeric(as_datetime(end_period)) * 1000
+#     ) %>% 
+#     distinct() %>% 
+#     group_by(
+#         IndicatorID,
+#         MeasureID
+#     ) %>% 
+#     group_nest(.key = "AvailableTimes", keep = FALSE)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -515,10 +573,10 @@ metadata <-
         measure_geotypes,
         by = c("IndicatorID", "MeasureID")
     ) %>% 
-    left_join(
-        measure_times,
-        by = c("IndicatorID", "MeasureID")
-    ) %>% 
+    # left_join(
+    #     measure_times,
+    #     by = c("IndicatorID", "MeasureID")
+    # ) %>% 
     left_join(
         measure_vis_options,
         by = c("IndicatorID", "MeasureID")
