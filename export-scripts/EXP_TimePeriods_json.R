@@ -171,8 +171,8 @@ TimePeriods <-
     collect() %>% 
     transmute(
         TimePeriodID = year_id,
-        TimeDescription = year_description,
-        TimeType = time_type,
+        TimePeriod   = year_description,
+        TimeType     = time_type,
         start_period = as.numeric(as_datetime(start_period)) * 1000,
         end_period   = as.numeric(as_datetime(end_period)) * 1000
     )
