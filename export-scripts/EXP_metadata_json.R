@@ -235,13 +235,18 @@ indicator_measure_text <-
 
 measure_table_time <- 
     EXP_metadata %>% 
-    filter(Table == 1) %>% 
+    filter(Table == 1) %>%
     select(
         IndicatorID,
         MeasureID,
         TimePeriodID
     ) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
     group_by(IndicatorID, MeasureID) %>% 
     summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
@@ -257,6 +262,11 @@ measure_table_geo <-
         GeoType
     ) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
     group_by(IndicatorID, MeasureID) %>% 
     summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
     ungroup()
@@ -305,6 +315,11 @@ measure_mapping_time <-
         TimePeriodID
     ) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>%     
     group_by(IndicatorID, MeasureID) %>% 
     summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
@@ -320,6 +335,11 @@ measure_mapping_geo <-
         GeoType
     ) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>%     
     group_by(IndicatorID, MeasureID) %>% 
     summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
     ungroup()
@@ -359,6 +379,11 @@ measure_trend_time <-
         TimePeriodID
     ) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>%     
     group_by(IndicatorID, MeasureID) %>% 
     summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
@@ -374,6 +399,11 @@ measure_trend_geo <-
         GeoType
     ) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>%     
     group_by(IndicatorID, MeasureID) %>% 
     summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
     ungroup()
