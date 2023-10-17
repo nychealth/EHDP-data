@@ -301,6 +301,11 @@ measure_mapping_rr <-
         MeasureID,
         RankReverse
     ) %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
     group_by(MeasureID) %>% 
     summarise(RankReverse = max(RankReverse))
 
@@ -479,6 +484,11 @@ measure_links <-
     filter(disparity_flag == 0) %>% 
     select(-disparity_flag) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures %>% select(BaseMeasureID = MeasureID),
+        .,
+        by = "BaseMeasureID"
+    ) %>% 
     group_by(BaseMeasureID) %>% 
     group_nest(.key = "Measures", keep = FALSE) %>% 
     rename(MeasureID = BaseMeasureID)
@@ -620,8 +630,15 @@ metadata <-
 # converting to JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-metadata_json_pretty <- metadata %>% toJSON(pretty = TRUE, null = "null", na = "null")
-metadata_json        <- metadata %>% toJSON(pretty = FALSE, null = "null", na = "null")
+metadata_json_pretty <- 
+    metadata %>% 
+    toJSON(pretty = TRUE, null = "null", na = "null") %>% 
+    str_replace_all("\\[null\\]", "[]")
+
+metadata_json <- 
+    metadata %>% 
+    toJSON(pretty = FALSE, null = "null", na = "null") %>% 
+    str_replace_all("\\[null\\]", "[]")
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # saving JSON
