@@ -62,7 +62,7 @@ if (!$Env:data_env) {
 
     }
 
-if (($Env:data_env -eq "s") -and ($current_branch -ne "staging")) {
+    if (($Env:data_env -eq "s") -and ($current_branch -ne "staging")) {
 
         # ask about switching
 
@@ -192,13 +192,13 @@ if (($Env:data_env -eq "s") -and ($current_branch -ne "staging")) {
                 Write-Host "-------------------------------------------------------------"
                 Write-Host ">> 5: switching to staging branch"
 
-        git checkout staging
-        git pull
+                git checkout staging
+                git pull
 
-    }
+            }
 
-    
-} elseif (($Env:data_env -eq "p") -and ($current_branch -ne "production")) {
+            
+        } elseif (($Env:data_env -eq "p") -and ($current_branch -ne "production")) {
 
             Write-Host "-------------------------------------------------------------"
             Write-Host ">> 4: `$Env:data_env = p, not on < production > branch"
@@ -211,8 +211,8 @@ if (($Env:data_env -eq "s") -and ($current_branch -ne "staging")) {
                 Write-Host "-------------------------------------------------------------"
                 Write-Host ">> 5: switching to < production > branch"
 
-        git checkout production
-        git pull
+                git checkout production
+                git pull
 
             } elseif ($switch -eq "n") {
 
@@ -252,17 +252,11 @@ if (($Env:data_env -eq "s") -and ($current_branch -ne "staging")) {
         Write-Host ">> 5: `$switch = [], staying on < $current_branch > branch"
 
     }
-    
+
 }
 
 Write-Host "-------------------------------------------------------------"
 
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# Tell conda which environment to load
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-conda activate EHDP-data
 
 #=========================================================================================#
 # R
@@ -320,6 +314,12 @@ Rscript $base_dir\export-scripts\NR_json_writer.R
 #=========================================================================================#
 # Python
 #=========================================================================================#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# Tell conda which environment to load
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# conda activate EHDP-data
 
 #-----------------------------------------------------------------------------------------#
 # EXP metadata
