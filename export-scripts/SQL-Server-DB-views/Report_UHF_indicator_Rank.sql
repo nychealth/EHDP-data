@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW dbo.Report_UHF_indicator_Rank AS
+CREATE OR ALTER VIEW dbo.Report_UHF_indicator_Rank AS
     SELECT
         rc.report_id,
         id.indicator_data_id,

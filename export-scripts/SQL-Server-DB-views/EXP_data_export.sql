@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW [dbo].[EXP_data_export] AS
+CREATE OR ALTER VIEW [dbo].[EXP_data_export] AS
     
     SELECT DISTINCT
 
@@ -36,7 +36,7 @@ ALTER VIEW [dbo].[EXP_data_export] AS
 
         CASE 
             WHEN un.message IS null THEN ''
-            ELSE un.character_display + ' ' + un.message
+            ELSE trim(un.character_display + ' ' + un.message)
         END AS Note
 
     FROM dbo.indicator_data AS ind

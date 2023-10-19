@@ -37,7 +37,7 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-EHDP-data.Rproj
+# EHDP-data.Rproj
 export-scripts/use_condaenv.R
 export-scripts/get_python_conda_info.R
 geography/NHAC_latlong.xlsx
@@ -57,3 +57,4 @@ export-scripts/SQL-Server-DB-views/EXP_measure_links_rev.sql
 export-scripts/using-vega-lite-cli.py
 
 export-scripts/SQL-Server-DB-views/.vs/
+EHDP-data.Rproj
