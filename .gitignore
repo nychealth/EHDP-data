@@ -58,3 +58,12 @@ export-scripts/using-vega-lite-cli.py
 
 export-scripts/SQL-Server-DB-views/.vs/
 EHDP-data.Rproj
+
+export-scripts\database and branch logic.bash
+export-scripts\database and branch logic.ps1
+export-scripts\download_binary_packages.ps1
+export-scripts\test_cronR.R
+export-scripts\test_cronR.log
+export-scripts\test path.py
+export-scripts\selenium test.py
+export-scripts\pre_post_refactor_size_diff.R
