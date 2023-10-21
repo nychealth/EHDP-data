@@ -230,6 +230,7 @@ for (i in 1:length(IndicatorIDs)) {
         filter(IndicatorID == this_indicator) %>% 
         select(-IndicatorID) %>% 
         toJSON(
+            dataframe = "columns",
             pretty = FALSE, 
             na = "null", 
             auto_unbox = TRUE
