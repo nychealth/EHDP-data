@@ -71046,7 +71046,7 @@
     "IndicatorID": 2427,
     "IndicatorName": "Bacteria",
     "IndicatorLabel": "Bacteria",
-    "IndicatorDescription": "Concentration of bacteria - coliform in fresh water and enterococci in salt water - are measured as human-health-related indicators of water quality.&nbsp; Harbor water is mixture of fresh and salt water. Fecal coliform bacteria are found in human and animal intestines and are associated with wastewater. Enterococci are a subgroup within the fecal streptococcus group and are distinguished by their ability to survive in salt water.",
+    "IndicatorDescription": "<p>Concentration of bacteria - fecal coliform and enterococci are human-health-related indicators of water quality. Fecal coliform bacteria are found in human and animal intestines and are associated with wastewater. Enterococci may be a more sensitive indicator of wastewater pollution in a saltwater environment.<\/p>",
     "Comparisons": [717, 718, 723, 724, 725, 726, 727, 728, 729, 730],
     "Measures": [
       {
@@ -71745,7 +71745,7 @@
     "IndicatorID": 2428,
     "IndicatorName": "Dissolved oxygen (DO)",
     "IndicatorLabel": "Dissolved oxygen (DO)",
-    "IndicatorDescription": "Dissolved oxygen is important for respiration of aquatic life including fish and invertebrates. It is also one of the important indicators of overall water quality.",
+    "IndicatorDescription": "<div>Dissolved oxygen is important for respiration of aquatic life. It is an important indicator of overall water quality.<\/div>",
     "Comparisons": [716, 719, 720, 721, 722],
     "Measures": [
       {
