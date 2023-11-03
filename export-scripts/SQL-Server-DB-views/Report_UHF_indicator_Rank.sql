@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW dbo.Report_UHF_indicator_Rank AS
+CREATE OR ALTER VIEW dbo.Report_UHF_indicator_Rank AS
     SELECT
         rc.report_id,
         id.indicator_data_id,
@@ -27,27 +27,16 @@ ALTER VIEW dbo.Report_UHF_indicator_Rank AS
                 id.indicator_data_id -- arbitrarily breaking ties, but it'll be consistent at least
         ) AS Tertile,
 
-        CASE WHEN rc.rankReverse = 0 
-            THEN RANK() OVER (
-                PARTITION BY 
-                    rc.report_id,
-                    id.indicator_id,
-                    id.geo_type_id,
-                    id.year_id
-                ORDER BY 
-                    id.data_value DESC,
-                    id.indicator_data_id
-            )
-            ELSE RANK() OVER (
-                PARTITION BY 
-                    rc.report_id,
-                    id.indicator_id,
-                    id.geo_type_id,
-                    id.year_id
-                ORDER BY 
-                    id.data_value ASC,
-                    id.indicator_data_id
-            ) END AS RankByValue,
+        RANK() OVER (
+            PARTITION BY 
+                rc.report_id,
+                id.indicator_id,
+                id.geo_type_id,
+                id.year_id
+            ORDER BY 
+                id.data_value DESC,
+                id.indicator_data_id
+        ) AS RankByValue,
 
         -- now calculate tertiles, accounting for rank reverse
         CASE WHEN rc.rankReverse = 0 

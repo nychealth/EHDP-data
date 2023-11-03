@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW [dbo].[ReportPublicList] AS
+CREATE OR ALTER VIEW [dbo].[ReportPublicList] AS
         
     SELECT
         report_id,

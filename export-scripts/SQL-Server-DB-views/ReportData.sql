@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW [dbo].[ReportData] AS
+CREATE OR ALTER VIEW [dbo].[ReportData] AS
 
     SELECT DISTINCT TOP (100) PERCENT 
         rc.report_id,

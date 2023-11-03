@@ -61,6 +61,36 @@ if (base_dir == "") {
 
 
 #-----------------------------------------------------------------------------------------#
+# get or set server to use
+#-----------------------------------------------------------------------------------------#
+
+# get envionment var
+
+server <- Sys.getenv("server")
+
+if (server == "") {
+
+    computername <- Sys.getenv("COMPUTERNAME")
+
+    if (computername != "DESKTOP-PU7DGC1") {
+        
+        # default to network server
+        
+        server <- "SQLIT04A"
+        
+        Sys.setenv(server = server)
+
+    } else {
+
+        server <- "DESKTOP-PU7DGC1"
+        
+        Sys.setenv(server = server)
+
+    }
+}
+
+
+#-----------------------------------------------------------------------------------------#
 # get or set database to use
 #-----------------------------------------------------------------------------------------#
 
@@ -123,10 +153,11 @@ EHDP_odbc <-
     dbConnect(
         drv = odbc::odbc(),
         driver = paste0("{", odbc_driver, "}"),
-        server = "SQLIT04A",
+        server = server,
         database = db_name,
         trusted_connection = "yes",
-        encoding = "latin1"
+        encoding = "latin1",
+        trustservercertificate = "yes"
     )
 
 
@@ -148,7 +179,8 @@ geo_type <-
     select(
         geo_type_id, 
         geo_type_name,
-        geo_type_description
+        geo_type_description,
+        geo_type_short_desc = description
     ) %>% 
     filter(
         !geo_type_name %in% 
@@ -205,6 +237,7 @@ geo_type_entity <-
     select(
         GeoType = geo_type_name,
         GeoTypeDesc = geo_type_description,
+        GeoTypeShortDesc = geo_type_short_desc,
         GeoID = geo_entity_id,
         Name = name,
         BoroID = borough_id,
@@ -480,12 +513,29 @@ nyc_kids_2019 <-
 # only have our own topojson file, no official shapefile
 
 nyc_kids_2021 <- 
-    read_sf("geography/NYCKids_2019.topo.json", crs = st_crs(4326)) %>% 
+    read_sf("geography/NYCKids_2021.topo.json", crs = st_crs(4326)) %>% 
     st_transform(st_crs(2263)) %>% 
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
     transmute(
-        GeoType = "NYCKIDS2019",
+        GeoType = "NYCKIDS2021",
+        GeoID = GEOCODE,
+        Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
+        Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
+    ) %>%  
+    arrange(GeoID)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# harbor areas
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+ny_harbor <- 
+    read_sf("geography/ny_harbor.topo.json", crs = st_crs(4326)) %>% 
+    st_transform(st_crs(2263)) %>% 
+    mutate(center = st_centroid(geometry)) %>% 
+    as_tibble() %>% 
+    transmute(
+        GeoType = "NYHarbor",
         GeoID = GEOCODE,
         Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
         Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
@@ -510,7 +560,9 @@ all_geos <-
         nta2020,
         nyc_kids_nodate,
         nyc_kids_2017,
-        nyc_kids_2019
+        nyc_kids_2019,
+        nyc_kids_2021,
+        ny_harbor
     ) %>% 
     mutate(roworder = 1:nrow(.))
 
@@ -526,7 +578,7 @@ geolookup <-
         by = c("GeoType", "GeoID"),
         multiple = "all"
     ) %>% 
-    mutate(Lat = round(Lat, 5), Long = round(Long, 5)) %>% 
+    mutate(Lat = round(Lat, 4), Long = round(Long, 4)) %>% 
     arrange(roworder) %>% 
     select(-roworder)
 
