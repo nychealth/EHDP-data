@@ -3109,10 +3109,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -3940,10 +3936,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -8157,11 +8149,6 @@
             "end_period": 1325289600000
           },
           {
-            "TimeDescription": "2012",
-            "start_period": 1325376000000,
-            "end_period": 1356912000000
-          },
-          {
             "TimeDescription": "2014",
             "start_period": 1388534400000,
             "end_period": 1419984000000
@@ -8240,11 +8227,6 @@
             "TimeDescription": "2011",
             "start_period": 1293840000000,
             "end_period": 1325289600000
-          },
-          {
-            "TimeDescription": "2012",
-            "start_period": 1325376000000,
-            "end_period": 1356912000000
           },
           {
             "TimeDescription": "2014",
@@ -16323,28 +16305,24 @@
             "GeoTypeDescription": "Borough"
           },
           {
+            "GeoType": "CD",
+            "GeoTypeDescription": "Neighborhood (Community District)"
+          },
+          {
             "GeoType": "Citywide",
             "GeoTypeDescription": "Citywide"
+          },
+          {
+            "GeoType": "NTA2010",
+            "GeoTypeDescription": "Neighborhood (NTA)"
           },
           {
             "GeoType": "Subboro",
             "GeoTypeDescription": "Neighborhood (Sub-borough/PUMA)"
           },
           {
-            "GeoType": "UHF34",
-            "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
             "GeoType": "UHF42",
             "GeoTypeDescription": "Neighborhood (UHF 42)"
-          },
-          {
-            "GeoType": "CD",
-            "GeoTypeDescription": "Neighborhood (Community District)"
-          },
-          {
-            "GeoType": "NTA2010",
-            "GeoTypeDescription": "Neighborhood (NTA)"
           },
           {
             "GeoType": "NTA2020",
@@ -16352,11 +16330,6 @@
           }
         ],
         "AvailableTimes": [
-          {
-            "TimeDescription": "2000",
-            "start_period": 946684800000,
-            "end_period": 978220800000
-          },
           {
             "TimeDescription": "2007-11",
             "start_period": 1167609600000,
@@ -18210,10 +18183,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -18313,10 +18282,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -18651,10 +18616,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -18746,16 +18707,6 @@
             "TimeDescription": "2007",
             "start_period": 1167609600000,
             "end_period": 1199059200000
-          },
-          {
-            "TimeDescription": "2008",
-            "start_period": 1199145600000,
-            "end_period": 1230681600000
-          },
-          {
-            "TimeDescription": "2009",
-            "start_period": 1230768000000,
-            "end_period": 1262217600000
           }
         ],
         "VisOptions": [
@@ -20697,11 +20648,6 @@
             "TimeDescription": "Summer 2010",
             "start_period": 1275350400000,
             "end_period": 1283299200000
-          },
-          {
-            "TimeDescription": "2-Year Annual Average 2009-2010",
-            "start_period": 1259625600000,
-            "end_period": 1291075200000
           },
           {
             "TimeDescription": "Annual Average 2010",
@@ -27340,10 +27286,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -27618,10 +27560,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -28768,10 +28706,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -29052,10 +28986,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -29523,10 +29453,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -37479,10 +37405,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -39740,10 +39662,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
@@ -41615,10 +41533,6 @@
           {
             "GeoType": "UHF34",
             "GeoTypeDescription": "Neighborhood (UHF 34)"
-          },
-          {
-            "GeoType": "UHF42",
-            "GeoTypeDescription": "Neighborhood (UHF 42)"
           }
         ],
         "AvailableTimes": [
