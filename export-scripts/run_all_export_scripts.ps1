@@ -298,9 +298,9 @@ Rscript $base_dir\export-scripts\NR_data_csv_writer.R
 # NR JSON data (for report)
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> NR_json_writer"
+Write-Output ">>> NR_data_writer"
 
-Rscript $base_dir\export-scripts\NR_json_writer.R
+Rscript $base_dir\export-scripts\NR_data_writer.R
 
 #-----------------------------------------------------------------------------------------#
 # GeoLookup
