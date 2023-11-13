@@ -11,6 +11,7 @@ CREATE OR ALTER VIEW dbo.reportLevel3 AS
         rtd.report_id,
         rtd.report_topic_id,
         rtd.indicator_id,
+        nabeD.year_id AS time_period_id,
         rtd.sort_key,
         rtd.rankReverse,
         rtd.indicator_desc + ' ' + (
