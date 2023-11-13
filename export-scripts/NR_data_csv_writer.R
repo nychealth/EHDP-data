@@ -25,7 +25,7 @@ suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(rlang)))
-suppressWarnings(suppressMessages(library(jsonlite)))
+suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
 suppressWarnings(suppressMessages(library(svDialogs)))
 
 #-----------------------------------------------------------------------------------------#
