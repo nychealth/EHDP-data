@@ -354,6 +354,8 @@ time_count <-
 # keeping only most recent
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# `NR_data_export` won't be the right length, but `report_data_for_hugo` will be
+
 report_data_for_hugo <- 
     NR_data_export %>% 
     select(
