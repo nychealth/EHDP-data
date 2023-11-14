@@ -7,8 +7,8 @@ CREATE OR ALTER VIEW [dbo].[NR_data_export_base] AS
 
     SELECT DISTINCT
 
-        -- rc.report_id,
-        -- rpt.title,
+        rc.report_id,
+        rpt.title,
         id.indicator_id      AS MeasureID,
         ii.internal_id       AS IndicatorID,
         ii.name              AS indicator_name,

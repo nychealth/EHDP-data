@@ -160,7 +160,6 @@ EHDP_odbc <-
     )
 
 
-
 #=========================================================================================#
 # Pulling data ----
 #=========================================================================================#
@@ -169,7 +168,7 @@ adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
 
 NR_data_export <- 
     EHDP_odbc %>% 
-    tbl("NR_data_export") %>% 
+    tbl("NR_data_export_base") %>% 
     arrange(MeasureID, geo_entity_id) %>% 
     collect() %>% 
     mutate(
