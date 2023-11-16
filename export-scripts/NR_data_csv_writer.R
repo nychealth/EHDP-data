@@ -217,7 +217,7 @@ ind_has_annual <-
     semi_join(
         report_data_0,
         .,
-        by = c("indicator_data_name ", "neighborhood")
+        by = c("indicator_data_name", "neighborhood")
     ) %>% 
     mutate(has_annual = TRUE) %>% 
     select(indicator_data_name , has_annual) %>% 
@@ -232,7 +232,7 @@ report_data <-
     left_join(
         report_data_0,
         ind_has_annual,
-        by = "indicator_data_name ",
+        by = "indicator_data_name",
         multiple = "all"
     ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
