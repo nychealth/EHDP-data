@@ -364,7 +364,7 @@ report_data_for_hugo <-
         indicator_short_name,
         indicator_long_name,
         IndicatorID,
-        data_field_name = indicator_data_name,
+        indicator_data_name,
         indicator_description,
         units,
         measurement_type,
