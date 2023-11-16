@@ -1768,12 +1768,7 @@
                 "Disparities": 1
               }
             ],
-            "Links": [
-              {
-                "MeasureID": 221,
-                "SecondaryAxis": "x"
-              }
-            ]
+            "Links": null
           }
         ]
       }
@@ -8275,10 +8270,6 @@
                 "SecondaryAxis": "y"
               },
               {
-                "MeasureID": 155,
-                "SecondaryAxis": "y"
-              },
-              {
                 "MeasureID": 208,
                 "SecondaryAxis": "y"
               },
@@ -13386,10 +13377,6 @@
               },
               {
                 "MeasureID": 90,
-                "SecondaryAxis": "x"
-              },
-              {
-                "MeasureID": 94,
                 "SecondaryAxis": "x"
               },
               {
@@ -40788,22 +40775,6 @@
               {
                 "MeasureID": 221,
                 "SecondaryAxis": "x"
-              },
-              {
-                "MeasureID": 750,
-                "SecondaryAxis": "y"
-              },
-              {
-                "MeasureID": 751,
-                "SecondaryAxis": "y"
-              },
-              {
-                "MeasureID": 753,
-                "SecondaryAxis": "y"
-              },
-              {
-                "MeasureID": 781,
-                "SecondaryAxis": "y"
               },
               {
                 "MeasureID": 1324,
@@ -71659,7 +71630,7 @@
     "IndicatorID": 2428,
     "IndicatorName": "Dissolved oxygen (DO)",
     "IndicatorLabel": "Dissolved oxygen (DO)",
-    "IndicatorDescription": "<div>Dissolved oxygen is important for respiration of aquatic life. It is an important indicator of overall water quality.<\/div>",
+    "IndicatorDescription": "Dissolved oxygen is essential for most aquatic life. It is an important indicator of overall water quality.",
     "Comparisons": [716, 719, 720, 721, 722],
     "Measures": [
       {
