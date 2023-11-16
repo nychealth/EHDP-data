@@ -192,7 +192,7 @@ report_list <-
 
 report_data_0 <- 
     EHDP_odbc %>% 
-    tbl("ReportData") %>% 
+    tbl("ReportData_2") %>% 
     filter(geo_type == "UHF42", report_id != 80) %>% 
     collect() %>% 
     left_join(
@@ -203,7 +203,7 @@ report_data_0 <-
     ) %>% 
     mutate(
         time_type = str_trim(time_type),
-        data_field_name = str_replace(data_field_name, "PM2\\.", "PM2-")
+        indicator_data_name  = str_replace(indicator_data_name , "PM2\\.", "PM2-")
     )
 
 
@@ -217,10 +217,10 @@ ind_has_annual <-
     semi_join(
         report_data_0,
         .,
-        by = c("data_field_name", "neighborhood")
+        by = c("indicator_data_name ", "neighborhood")
     ) %>% 
     mutate(has_annual = TRUE) %>% 
-    select(data_field_name, has_annual) %>% 
+    select(indicator_data_name , has_annual) %>% 
     distinct()
 
 
@@ -232,7 +232,7 @@ report_data <-
     left_join(
         report_data_0,
         ind_has_annual,
-        by = "data_field_name",
+        by = "indicator_data_name ",
         multiple = "all"
     ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 

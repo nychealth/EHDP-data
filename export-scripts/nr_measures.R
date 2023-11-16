@@ -62,8 +62,8 @@ EHDP_odbc <-
 # Setting up ----
 #=========================================================================================#
 
-ReportData <- EHDP_odbc %>% tbl("ReportData") %>% collect()
-reportLevel3 <- EHDP_odbc %>% tbl("reportLevel3") %>% collect()
+ReportData <- EHDP_odbc %>% tbl("ReportData_2") %>% collect()
+reportLevel3 <- EHDP_odbc %>% tbl("reportLevel3_new") %>% collect()
 reportLevel3_new <- EHDP_odbc %>% tbl("reportLevel3_new") %>% collect()
 
 
@@ -171,7 +171,7 @@ reportLevel2 <-
 
 reportLevel3 <- 
     EHDP_odbc %>% 
-    tbl("reportLevel3") %>% 
+    tbl("reportLevel3_new") %>% 
     select(
         report_id,
         report_topic_id,
@@ -270,7 +270,7 @@ EHDP_odbc %>% tbl("Report_UHF_indicator_Rank") %>% glimpse()
 
 ReportData <- 
     EHDP_odbc %>% 
-    tbl("ReportData") %>% 
+    tbl("ReportData_2") %>% 
     rename(MeasureID = indicator_id) %>% 
     arrange(MeasureID, geo_entity_id, desc(end_date)) %>% 
     collect() %>% 

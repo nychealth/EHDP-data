@@ -240,7 +240,7 @@ adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
 
 report_level_3 <- 
     EHDP_odbc %>% 
-    tbl("reportLevel3") %>% 
+    tbl("reportLevel3_new") %>% 
     select(
         report_id,
         report_topic_id,

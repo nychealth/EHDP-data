@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER VIEW dbo.reportLevel3_new AS
+CREATE OR ALTER VIEW dbo.reportLevel3_new AS
 
     SELECT DISTINCT
 
@@ -189,11 +189,11 @@ ALTER VIEW dbo.reportLevel3_new AS
         INNER JOIN (
             -- Trend time period count subquery
             SELECT
-                count(rd.Time) AS TimeCount,
+                count(rd.time_period) AS TimeCount,
                 report_id,
                 geo_entity_id,
                 indicator_id
-            FROM ReportData AS rd
+            FROM ReportData_2 AS rd
             GROUP BY
                 report_id,
                 geo_entity_id,
