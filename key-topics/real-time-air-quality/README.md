@@ -1,43 +1,36 @@
-# Data feature: Real-time Air Quality in New York City.
+# Real-time Air Quality Data
 
-This repository contains near-real-time air quality from monitors in NYC. You can view these data in context on the [Environment and Health Data Portal's Air Quality Hub, here](https://a816-dohbesp.nyc.gov/IndicatorPublic/AQHub/realtime.html).
+This repository contains near-real-time air quality from monitors in NYC. You can view these data for the last 7 days on [Environment and Health Data Portal here](https://a816-dohbesp.nyc.gov/IndicatorPublic/key-topics/air-quality/).
 
-![image](https://user-images.githubusercontent.com/55593359/137518896-bbee3dfe-6f55-4e45-8182-e32bd582f6cf.png)
+## Monthly data files
+Data in this repository are hourly averaged measurements of PM<sub>2.5</sub> from the New York City Community Air Survey's network of TSI DustTrak sensors.
 
-## About the data 
-### Measurements (RT_flat.csv)
-The data are hourly PM<sub>2.5</sub> measurements, in micrograms per cubic meter of air. Fine particles (PM<sub>2.5</sub>) are tiny airborne solid and liquid particles less than 2.5 microns in diameter. PM<sub>2.5</sub> is the most harmful urban air pollutant. It is small enough to penetrate deep into the lungs and enter the bloodstream, which can worsen lung and heart disease and lead to hospital admissions and premature deaths. 
+## Measurements 
+The value shown is PM2.5 in micrograms per cubic meter of air (µg/m3). 
 
-PM<sub>2.5</sub> can either be directly emitted or formed in the atmosphere from other pollutants. Fuel combustion in vehicles, boilers in buildings, power plants, construction equipment, marine vessels and commercial cooking are all common sources of PM<sub>2.5</sub>. Up to 40% of the PM<sub>2.5</sub> in New York City's air comes from sources in areas upwind from the city, such as coal-burning power plants in the Midwest. 
+ObservationTimeUTC datetime stamp displayed is the beginning of the averaged PM2.5 measurements for the hour (e.g. 2/1/2020  1:00:00 AM (UTC) reflects data collected between 2/1/2020  1:00:00 AM (UTC) and 2/1/2020  1:59:00 AM (UTC)).
 
-Measurements included are from monitors located along high-traffic corridors or neighborhood locations to assess PM<sub>2.5</sub> concentrations in the immediate vicinity. The results shown may not be indicative of overall PM<sub>2.5</sub> concentrations in the neighborhood. 
+External factors can sometimes affect monitor functioning. Data are preliminary and subject to change.
 
-Times shown (starttime) are in eastern standard time and do not change based on daylight savings time. The measurements are an average of all the PM<sub>2.5</sub> measurements during the given hour. For example, all measurements collected between 9:00 AM and 10:00 AM are averaged and stored as 9:00 AM.
+## Locations
+Location information for SiteIDs are below:
 
-All data are preliminary and subject to change.
-
-### Monitor locations
-| Location            | Latitude  | Longitude  |
-|---------------------|-----------|------------|
-| Broadway/35th St    |40.75069	  |-73.98783   |
-| Cross Bronx Expy  	|40.845167	|-73.906143  |
-| Hale Bus Depot	    |40.821311	|-73.936315  |
-| Hunts Point	        |40.819009	|-73.886198  |
-| Manhattan Bridge	  |40.71651	  |-73.997004  |
-| Midtown-DOT	        |40.755082	|-73.990415  |
-| Queens College	    |40.737107	|-73.821556  |
-| Queensboro Bridge	  |40.761234	|-73.963886  |
-| Williamsburg	      |40.710614	|-73.95938   |
-| Williamsburg Bridge	|40.718073	|-73.986059  |
-
-Not all monitoring locations will necessarily be utilized at the same time due to operational constraints.
-
-
-### Update frequency
-Data are pushed to this repository every hour and cover the last five days. However, each hourly update might not include new data.
+| SiteID       	| Latitude   	| Longitude  	| SiteName            	| Address                                                                                  	|   	|
+|--------------	|------------	|------------	|---------------------	|------------------------------------------------------------------------------------------	|---	|
+| 36005NY11790 	| 40.819092  	| -73.885659 	| Hunts Point         	| Southeast Corner of Seneca Ave and Longfellow Ave                                        	|   	|
+| 36005NY12387 	| 40.845167  	| -73.906143 	| Cross Bronx Expy    	| Cross Bronx Expressway Service road NS1E of Monroe Avenue (between Monroe   and Topping) 	|   	|
+| 36047NY08274 	| 40.710614  	| -73.95938  	| Williamsburg        	| S 4th St NS 1E of Roebling St                                                            	|   	|
+| 36061NY08454 	| 40.71651   	| -73.997004 	| Manhattan Bridge    	| Canal St SS1E of Elizabeth St                                                            	|   	|
+| 36061NY08552 	| 40.718073  	| -73.986059 	| Williamsburg Bridge 	| Delancey St NS 1E of Suffolk St                                                          	|   	|
+| 36061NY08653 	| 40.722288  	| -73.974651 	| FDR                 	| Southbound FDR access Road between E 10th St and E 6th St                                	|   	|
+| 36061NY09734 	| 40.75069   	| -73.98783  	| Broadway/35th St    	| Broadway ES1N of 35th St                                                                 	|   	|
+| 36061NY09929 	| 40.755082  	| -73.990415 	| Midtown-DOT         	| N Side of W 39th between 8th and 7th Ave                                                 	|   	|
+| 36061NY10130 	| 40.761234  	| -73.963886 	| Queensboro Bridge   	| 60 St NS1E of 2nd Ave                                                                    	|   	|
+| 36081NY08198 	| 40.7071128 	| -73.8734   	| Glendale            	| Cooper Rapid Rehousing Center - 78-16 Cooper Ave                                         	|   	|
+| 36081NY09285 	| 40.737107  	| -73.821556 	| Queens College      	| Queens College Reference Site                                                            	|   	|
 
 ## About the New York City Community Air Survey
-The [NYC Community Air Survey](https://nyccas.cityofnewyork.us/nyccas2021v9/report/2) is the largest ongoing urban air monitoring program of any U.S. City.  NYCCAS, which began collecting data in December 2008, is a collaboration between the Health Department and Queens College of the City University of New York and provides data to:
+The [NYC Community Air Survey](https://a816-dohbesp.nyc.gov/IndicatorPublic/key-topics/airquality/nyccas) is the largest ongoing urban air monitoring program of any U.S. City.  NYCCAS, which began collecting data in December 2008, is a collaboration between the Health Department and Queens College of the City University of New York and provides data to:
 - Help inform OneNYC, the City’s sustainability plan
 - Track changes in air quality over time
 - Estimate exposures for health research
