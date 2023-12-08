@@ -3,34 +3,36 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[ReportData] AS
+CREATE OR ALTER VIEW [dbo].[ReportData_2] AS
 
-    SELECT DISTINCT TOP (100) PERCENT 
+    SELECT DISTINCT
         rc.report_id,
         a.indicator_id,
-        b.data_field_name,
-        c.name             AS 'indicator_name',
-        c.description      AS 'indicator_description',
-        m.description      AS 'measure_name',
-        d.description      AS 'display_type',
-        y.start_period     AS 'start_date',
-        y.end_period       AS 'end_date',
-        y.time_type        AS 'time_type',
-        y.year_description AS 'time',
+        c.internal_id,
+        b.data_field_name  AS indicator_data_name,
+        c.name             AS indicator_name,
+        c.description      AS indicator_description,
+        m.description      AS measure_name,
+        d.description      AS display_type,
+        y.year_id          AS year_id,
+        y.start_period     AS start_date,
+        y.end_period       AS end_date,
+        y.time_type        AS time_type,
+        y.year_description AS time_period,
         a.geo_entity_id,
-        ge.geo_id          AS 'geo_join_id',
-        g.geo_type_name    AS 'geo_type',
-        ge.name            AS 'neighborhood',
+        ge.geo_id          AS geo_join_id,
+        g.geo_type_name    AS geo_type,
+        ge.name            AS neighborhood,
 
         CASE
-            WHEN u.show_data_flag = 1 THEN data_value
+            WHEN u.show_data_flag = 1 THEN a.data_value
             ELSE NULL
-        END AS 'data_value',
+        END AS data_value,
 
         CASE
             WHEN u.message IS NULL THEN ''
             ELSE u.message
-        END AS 'message'
+        END AS message
 
     FROM indicator_data AS a
 
@@ -57,11 +59,7 @@ CREATE OR ALTER VIEW [dbo].[ReportData] AS
     WHERE
         a.geo_type_id = 3 AND
         r.public_flag = 1 AND -- only public reports
-        si.creator_id = 1 -- repurpose as stage_flag: 0 = don't stage, 1 = stage
-
-    ORDER BY
-        b.data_field_name,
-        year_description,
-        data_value ASC
+        si.creator_id = 1 AND -- repurpose as stage_flag: 0 = dont stage, 1 = stage
+        r.report_id IN (73, 77, 78, 79, 82)
 
 GO

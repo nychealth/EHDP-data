@@ -12,6 +12,7 @@ CREATE OR ALTER VIEW dbo.EXP_measure_comparisons AS
         mc.Y_axis_title,
         idef.internal_id       AS IndicatorID,
         mm.indicator_id        AS MeasureID,
+        mm.geo_type_id         AS GeoTypeID,
         gt.geo_type_name       AS GeoTypeName,
         mm.geo_entity_id       AS GeoID,
         ge.name                AS Geography

@@ -7,22 +7,40 @@
 
 import pandas as pd
 import altair as alt
-from altair_saver import save
 import os
 import warnings
-from selenium import webdriver
+import subprocess
+import re
 
-# prevent 4000+ lines of console output
-
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-options.add_argument('--log-level=3')
-options.add_experimental_option('excludeSwitches', ['enable-logging'])
-driver = webdriver.Chrome(options = options)
+# prevent other warnings
 
 warnings.simplefilter("ignore")
 
-cwd = os.getcwd()
+# get environemnt vars
+
+base_dir = os.environ.get("base_dir", "")
+conda_prefix = os.environ.get("CONDA_PREFIX")
+
+if (base_dir == ""):
+    
+    # get current folder
+    
+    this_dir = os.path.basename(os.path.abspath("."))
+    
+    # if the current folder is "EHDP-data", use the absolute path to it
+    
+    if (this_dir == "EHDP-data"):
+        
+        base_dir = os.path.abspath(".")
+        
+    else:
+        
+        # if the current folder is below "EHDP-data", switch it
+        
+        base_dir = re.sub(r"(.*EHDP-data)(.*)", r"\1", os.path.abspath("."))
+        
+    os.environ["base_dir"] = base_dir
+
 
 data_files = [
     "Housing_and_Health_data.csv",
@@ -32,16 +50,15 @@ data_files = [
     "Climate_and_Health_data.csv"
 ]
 
-# looping through files
-
-file = data_files[0]
+# looping through files (run this in parallel)
 
 # for file in data_files:
 
-print(file)
+file = data_files[0]
 
-# df = pd.read_csv(cwd + "/neighborhood-reports/data/" + file)
-df = pd.read_csv(cwd + "/neighborhood-reports/data/" + file)
+print("> ", file)
+
+df = pd.read_csv(base_dir + "/neighborhood-reports/data/" + file)
 
 # convert End Date to date data type
 
@@ -67,17 +84,18 @@ df['geo_join_id'] = df['geo_join_id'].astype(str)
 
 df = pd.DataFrame(
     df, 
-    columns = ['indicator_data_name', 'neighborhood', 'data_value', 'geo_join_id']
+    columns = ['indicator_data_name', 'neighborhood', 'unmodified_data_value_geo_entity', 'geo_join_id']
 )
 # - then loop through the list
 
 # for ind in df.index:
+
 ind = df.index[0]
 
 # - filter by data field name to create dataset
 
 dset = df[df.indicator_data_name == df['indicator_data_name'][ind]]
-dset = dset.sort_values('data_value')
+dset = dset.sort_values('unmodified_data_value_geo_entity')
 
 # - use Altair, the python connector to Vega-Lite
 # - https://altair-viz.github.io/getting_started/overview.html
@@ -87,7 +105,7 @@ chart = (
         .mark_bar()
         .encode(
             x = alt.X('neighborhood', sort = 'y', axis = None),
-            y = alt.Y('data_value', axis = None),
+            y = alt.Y('unmodified_data_value_geo_entity', axis = None),
             
             # The highlight will be set on the result of a conditional statement
             
@@ -109,23 +127,27 @@ chart = (
         .properties(height = 100, width = 300)
 )
 
+# get VL json spec
+
+# chart_json = chart.to_json(indent=None)
+chart_json = chart.to_json()
+
 # - name each SVG with the indicator_data_name and the Neighborhood
 
-image_name = cwd + '/neighborhood-reports/images/' + df['indicator_data_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg'
+image_name = base_dir + '/neighborhood-reports/images/' + df['indicator_data_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg'
 
-save(chart, fp = image_name, webdriver = driver)
+# use VL CLI program to create SVG
+
+chart_svg = subprocess.run('node ' + conda_prefix + '/Library/share/vega-lite-cli/node_modules/vega-lite/bin/vl2svg', input = chart_json, text = True, capture_output = True).stdout
 
 # - viewBox="0 0 310 110" must be removed for ModLab team
 # - also adding in preserveAspectRatio="none" to allow Modlab designers more flexibility
 # - https://stackoverflow.com/questions/59058521/creating-a-script-in-python-to-alter-the-text-in-an-svg-file
 
-Change = open(image_name, "rt")
-data = Change.read()
-data = data.replace('viewBox="0 0 310 110"', '')
-data = data.replace('<svg class="marks"','<svg class="marks" preserveAspectRatio="none"')
-Change.close()
+chart_svg = chart_svg.replace('viewBox="0 0 310 110"', '').replace('<svg class="marks"','<svg class="marks" preserveAspectRatio="none"')
 
-Change = open(image_name, "wt")
-Change.write(data)
-Change.close()
+# create file for chart
 
+chart_file = open(image_name, "wt")
+chart_file.write(chart_svg)
+chart_file.close()

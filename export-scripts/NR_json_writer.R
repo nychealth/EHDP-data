@@ -21,7 +21,7 @@ suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(rlang)))
-suppressWarnings(suppressMessages(library(jsonlite)))
+suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
 suppressWarnings(suppressMessages(library(svDialogs)))
 
 #-----------------------------------------------------------------------------------------#
@@ -240,7 +240,7 @@ adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
 
 report_level_3 <- 
     EHDP_odbc %>% 
-    tbl("reportLevel3") %>% 
+    tbl("reportLevel3_new") %>% 
     select(
         report_id,
         report_topic_id,

@@ -1,14 +1,10 @@
 ###########################################################################################-
 ###########################################################################################-
 ##
-##  Writing neighborhod report data
+##  NR_data_writer
 ##
 ###########################################################################################-
 ###########################################################################################-
-
-# This script writes data for the neighborhood reports, all saved as CSV. The data files
-#   contain data broken out by report (e.g., Asthma and the Environment) and by
-#   Measure (i.e., Indicator x Time Period)
 
 #=========================================================================================#
 # Setting up ----
@@ -132,12 +128,10 @@ if (str_to_lower(data_env) == "s") {
 }
 
 #-----------------------------------------------------------------------------------------#
-# Connecting to BESP_Indicator database
+# Connecting to BESP_Indicator
 #-----------------------------------------------------------------------------------------#
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# determining which driver to use
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# determining driver to use (so script works across machines)
 
 odbc_driver <- 
     odbcListDrivers() %>% 
@@ -147,12 +141,12 @@ odbc_driver <-
     sort(decreasing = TRUE) %>% 
     head(1)
 
+# if no "ODBC Driver", use Windows built-in driver
+
 if (length(odbc_driver) == 0) odbc_driver <- "SQL Server"
 
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# connecting using Windows auth with no DSN
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# using Windows auth with no DSN
 
 EHDP_odbc <-
     dbConnect(
@@ -167,70 +161,91 @@ EHDP_odbc <-
 
 
 #=========================================================================================#
-# Pulling and saving data ----
+# Pulling data ----
 #=========================================================================================#
 
-#-----------------------------------------------------------------------------------------#
-# Pulling
-#-----------------------------------------------------------------------------------------#
+adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# getting list of neighborhood reports
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-report_list <- 
+NR_data_export <- 
     EHDP_odbc %>% 
-    tbl("ReportPublicList") %>% 
-    filter(report_id != 80) %>% 
-    collect()
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# getting neighborhood report data
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# also joining report names to report data
-
-report_data_0 <- 
-    EHDP_odbc %>% 
-    tbl("ReportData_2") %>% 
-    filter(geo_type == "UHF42", report_id != 80) %>% 
+    tbl("NR_data_export_base") %>% 
+    arrange(MeasureID, geo_entity_id) %>% 
     collect() %>% 
-    left_join(
-        report_list %>% select(report_id, title),
-        .,
-        by = "report_id",
-        multiple = "all"
-    ) %>% 
     mutate(
+        indicator_short_name = 
+            case_when(
+                MeasureID %in% adult_indicators ~ str_replace(indicator_short_name, "\\(children\\)", "(adults)"),
+                TRUE ~ indicator_short_name
+            ),
+        indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
+        summary_bar_svg = str_replace(summary_bar_svg, "PM2\\.", "PM2-"),
         time_type = str_trim(time_type),
-        indicator_data_name  = str_replace(indicator_data_name , "PM2\\.", "PM2-")
+        across(
+            c(indicator_name, indicator_description, measurement_type, units),
+            ~ as_utf8_character(enc2native(.x))
+        )
     )
 
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+#=========================================================================================#
+# CSV data for Vega Lite viz ----
+#=========================================================================================#
+
+#-----------------------------------------------------------------------------------------#
+# selecting columns
+#-----------------------------------------------------------------------------------------#
+
+report_data_for_js_0 <- 
+    NR_data_export %>% 
+    select(
+        report_id,
+        title,
+        MeasureID,
+        IndicatorID,
+        indicator_data_name,
+        indicator_name,
+        indicator_description,
+        measurement_type,
+        units,
+        year_id,
+        start_date,
+        end_date,
+        time_type,
+        time,
+        geo_entity_id,
+        geo_join_id,
+        geo_type,
+        neighborhood,
+        data_value_geo_entity,
+        unmodified_data_value_geo_entity,
+        nbr_data_note
+    )
+
+
+#-----------------------------------------------------------------------------------------#
 # identifying indicators that have an annual average measure
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+#-----------------------------------------------------------------------------------------#
 
 ind_has_annual <- 
-    report_data_0 %>% 
+    report_data_for_js_0 %>% 
     filter(time_type %>% str_detect("(?i)Annual Average")) %>% 
     semi_join(
-        report_data_0,
+        report_data_for_js_0,
         .,
         by = c("indicator_data_name", "neighborhood")
     ) %>% 
     mutate(has_annual = TRUE) %>% 
-    select(indicator_data_name , has_annual) %>% 
+    select(indicator_data_name, has_annual) %>% 
     distinct()
 
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+#-----------------------------------------------------------------------------------------#
 # keeping annual average measure if it exists
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+#-----------------------------------------------------------------------------------------#
 
-report_data <- 
+report_data_for_js <- 
     left_join(
-        report_data_0,
+        report_data_for_js_0,
         ind_has_annual,
         by = "indicator_data_name",
         multiple = "all"
@@ -238,15 +253,15 @@ report_data <-
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
     filter(
         has_annual == FALSE | (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
-        indicator_id != 386 | (indicator_id == 386 & str_detect(time_type, "(?i)Seasonal"))
+        MeasureID != 386 | (MeasureID == 386 & str_detect(time_type, "(?i)Seasonal"))
     ) %>% 
     select(-has_annual) %>% 
     mutate(
-    across(
-        where(is.character),
-        ~ as_utf8_character(enc2native(.x))
+        across(
+            where(is.character),
+            ~ as_utf8_character(enc2native(.x))
+        )
     )
-)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -259,16 +274,18 @@ report_data <-
 
 # split by report_id, named using title
 
-report_data_list <- 
-    report_data %>% 
+report_data_for_js_list <- 
+    report_data_for_js %>% 
     select(-indicator_description) %>% 
     group_by(report_id) %>% 
     group_split() %>% 
     walk(
         ~ write_csv(
             .x,
-            paste0(base_dir, "/neighborhood-reports/data/", str_replace_all(unique(.x$title), " ", "_"), "_data.csv")
-            
+            paste0(
+                base_dir, "/neighborhood-reports/data/", 
+                unique(.x$title) %>% str_replace_all(" ", "_") %>% str_replace_all(",", ""), "_data.csv"
+            )
         )
     )
 
@@ -278,7 +295,7 @@ report_data_list <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 nr_indicator_names <- 
-    report_data %>% 
+    report_data_for_js %>% 
     select(title, indicator_name, indicator_description) %>% 
     distinct() %>% 
     group_by(title) %>% 
@@ -302,6 +319,102 @@ write_lines(
     nr_indicator_names_json, 
     paste0(base_dir, "/neighborhood-reports/data/nr_indicator_names.json")
 )
+
+
+#=========================================================================================#
+# JSON for NR page
+#=========================================================================================#
+
+#-----------------------------------------------------------------------------------------#
+# selecting columns
+#-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# counting distinct times
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+time_count <- 
+    NR_data_export %>% 
+    distinct(
+        geo_type,
+        geo_entity_id,
+        MeasureID,
+        year_id
+    ) %>% 
+    count(
+        geo_type,
+        geo_entity_id,
+        MeasureID, 
+        name = "TimeCount"
+    )
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# keeping only most recent
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# `NR_data_export` won't be the right length, but `report_data_for_hugo` will be
+
+report_data_for_hugo <- 
+    NR_data_export %>% 
+    select(
+        MeasureID,
+        rankReverse,
+        indicator_name,
+        indicator_short_name,
+        indicator_long_name,
+        IndicatorID,
+        indicator_data_name,
+        indicator_description,
+        units,
+        measurement_type,
+        indicator_neighborhood_rank,
+        data_value_geo_entity,
+        unmodified_data_value_geo_entity,
+        data_value_boro,
+        data_value_nyc,
+        data_value_rank,
+        nbr_data_note,
+        data_source_list,
+        geo_type,
+        geo_entity_id,
+        neighborhood,
+        borough_name,
+        zip_code,
+        year_id,
+        summary_bar_svg,
+        end_date
+    ) %>% 
+    arrange(
+        geo_type,
+        geo_entity_id,
+        MeasureID,
+        desc(end_date)
+    ) %>% 
+    distinct(
+        geo_type,
+        geo_entity_id,
+        MeasureID,
+        .keep_all = TRUE
+    ) %>% 
+    left_join(
+        .,
+        time_count,
+        c("geo_type", "geo_entity_id", "MeasureID")
+    ) %>% 
+    mutate(trend_flag = if_else(TimeCount > 1, 1L, 0L)) %>% 
+    select(-geo_type)
+
+
+#-----------------------------------------------------------------------------------------#
+# Saving ----
+#-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# saving big report data file
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+report_data_for_hugo %>% toJSON() %>% write_lines("neighborhood-reports/data/report_data_for_hugo.json")
 
 
 #=========================================================================================#

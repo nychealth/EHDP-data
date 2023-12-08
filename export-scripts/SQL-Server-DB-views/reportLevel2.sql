@@ -20,12 +20,12 @@ CREATE OR ALTER VIEW [dbo].[reportLevel2] AS
 
     FROM report_topic AS rcnt
 
-        JOIN report          AS rpt ON rcnt.report_id  = rpt.report_id
-        JOIN report_geo_type AS rgt ON rpt.report_id   = rgt.report_id
-        JOIN geo_type        AS gt  ON rgt.geo_type_id = gt.geo_type_id
-        JOIN geo_entity      AS ge  ON gt.geo_type_id  = ge.geo_type_id
+        INNER JOIN report          AS rpt ON rcnt.report_id  = rpt.report_id
+        INNER JOIN report_geo_type AS rgt ON rpt.report_id   = rgt.report_id
+        INNER JOIN geo_type        AS gt  ON rgt.geo_type_id = gt.geo_type_id
+        INNER JOIN geo_entity      AS ge  ON gt.geo_type_id  = ge.geo_type_id
 
-        JOIN (
+        INNER JOIN (
             
             SELECT
                 borough_id,

@@ -3,195 +3,215 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW dbo.reportLevel3 AS
+CREATE OR ALTER VIEW dbo.reportLevel3_new AS
 
-    SELECT TOP (100) PERCENT 
+    SELECT DISTINCT
 
-        rtd.report_content_id,
-        rtd.report_id,
-        rtd.report_topic_id,
-        rtd.indicator_id,
-        nabeD.year_id AS time_period_id,
-        rtd.sort_key,
-        rtd.rankReverse,
-        rtd.indicator_desc + ' ' + (
-            CASE
-                WHEN use_most_recent_year = 0 THEN (
-                    SELECT year_description
-                    FROM indicator_year AS iy
-                    WHERE rtd.year_id = iy.year_id
-                )
-                ELSE (
-                    SELECT TOP 1 
-                        iy.year_description ---- most recent year subquery
-                    FROM
-                        indicator_data AS idata
-                        LEFT JOIN indicator_year AS iy ON idata.year_id = iy.year_id
-                    GROUP BY
-                        iy.year_description,
-                        indicator_id,
-                        geo_type_id,
-                        end_period
-                    HAVING
-                        indicator_id = rtd.indicator_id AND 
-                        geo_type_id = 3
-                    ORDER BY
-                        end_period DESC
-                ) -- most recent year logic
+        -- rc.report_content_id,
+        -- rc.report_id,
+        -- rpt.title AS report_title,
+        -- rc.report_topic_id,
+        -- rt.description AS report_topic,
+        rc.indicator_id AS MeasureID,
+        -- rc.sort_key,
+        rc.rankReverse,
+        rc.indicator_desc + ', ' + (
+            CASE WHEN use_most_recent_year = 0 THEN (
+                SELECT year_description
+                FROM indicator_year AS iy
+                WHERE iy.year_id = rc.year_id
+            )
+            ELSE (
+                -- most recent year subquery
+                SELECT TOP 1 
+                    iy.year_description
+                FROM
+                    indicator_data AS idata
+                    LEFT JOIN indicator_year AS iy ON iy.year_id = idata.year_id
+                GROUP BY
+                    iy.year_description,
+                    indicator_id,
+                    geo_type_id,
+                    end_period
+                HAVING
+                    indicator_id = rc.indicator_id AND 
+                    geo_type_id = 3
+                ORDER BY
+                    end_period DESC
+            )
             END
         ) AS indicator_name,
         
-        ii.short_name AS indicator_short_name,
+        ii.short_name        AS indicator_short_name,
+        ii.internal_id       AS IndicatorID,
+        idef.data_field_name AS indicator_data_name,
+        ii.description       AS indicator_description,
+        ddt.description      AS units,
+        mt.description       AS measurement_type,
+        rr.RankByValue       AS indicator_neighborhood_rank,
 
-        -- add in URL for indicator
-        --sample: http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2049,1,1,Summarize
-
-        'http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=' + CONVERT(varchar, ii.internal_id) + ',1,1,Summarize' AS indicator_URL,
-        ii.internal_id     AS IndicatorID,
-        id.data_field_name AS indicator_data_name,
-        ii.description     AS indicator_description,
-        ddt.description    AS units,
-        mt.description     AS measurement_type,
-        '4'                AS indicator_neighborhood_rank, -- this is a placeholder for 4/42 and may be going away
-
-        CASE
-            WHEN u.show_data_flag = 0 THEN 'N/A' + COALESCE(u.character_display, '')
-            ELSE CAST(CAST(nabeD.data_value AS decimal(18, 1)) AS varchar) + COALESCE(u.character_display, '')
+        CASE WHEN u.show_data_flag = 0 THEN 'N/A' + COALESCE(u.character_display, '')
+            ELSE CAST(
+                CAST(nbd.data_value AS decimal(18, 1)) AS varchar
+            ) + COALESCE(u.character_display, '')
         END AS data_value_geo_entity,
 
-        CASE
-            WHEN u.show_data_flag = 0 THEN NULL
-            ELSE CAST(nabeD.data_value AS decimal(18, 1))
+        CASE WHEN u.show_data_flag = 0 THEN NULL
+            ELSE CAST(nbd.data_value AS decimal(18, 1))
         END AS unmodified_data_value_geo_entity,
 
-        CAST(boroD.data_value AS decimal(18, 1)) AS data_value_borough,
-        CAST(cityD.data_value AS decimal(18, 1)) AS data_value_nyc,
+        CAST(brd.data_value AS decimal(18, 1)) AS data_value_borough,
+        CAST(ctd.data_value AS decimal(18, 1)) AS data_value_nyc,
 
         rr.reportRank                   AS data_value_rank, -- this is the calculated rank that takes rank_reverse into account
-        u.character_display + u.message AS nabe_data_note,
+        u.character_display + u.message AS nbr_data_note,
         s.source_list                   AS data_source_list,
         rd.TimeCount,
 
-        CASE
-            WHEN (rd.TimeCount > 1) THEN 1
-            ELSE 0
+        CASE WHEN (rd.TimeCount > 1) THEN 1 ELSE 0
         END AS trend_flag,
-        
-        ge.geo_entity_id
 
-    FROM report_content AS rtd
+        ge.geo_entity_id,
+        ge.name     AS geo_entity_name,
+        geb.name    AS borough_name,
+        uz.Zipcodes AS zip_code,
+        nbd.year_id
 
-        JOIN indicator_definition   AS    id ON rtd.indicator_id       = id.indicator_id
-        LEFT JOIN display_data_type AS   ddt ON id.display_type_id     = ddt.display_type_id
-        LEFT JOIN measurement_type  AS    mt ON id.measurement_type_id = mt.measurement_type_id
-        JOIN internal_indicator     AS    ii ON id.internal_id         = ii.internal_id
-        JOIN report                 AS     r ON rtd.report_id          = r.report_id
-        JOIN report_geo_type        AS   rgt ON r.report_id            = rgt.report_id
-        JOIN geo_type               AS    gt ON rgt.geo_type_id        = gt.geo_type_id
-        JOIN geo_entity             AS    ge ON gt.geo_type_id         = ge.geo_type_id
+    FROM report_content AS rc
 
-        JOIN indicator_data         AS cityD ON rtd.indicator_id       = cityD.indicator_id
-            AND (
-                cityD.geo_type_id = 6 AND 
-                cityD.geo_entity_id = 1
-            )
-            AND cityD.year_id IN (
-
-                SELECT TOP 1 
-                    idata.year_id ---- most recent year subquery
-                FROM indicator_data AS idata
-                    LEFT JOIN indicator_year AS iy ON idata.year_id = iy.year_id
-                GROUP BY
-                    idata.year_id,
-                    indicator_id,
-                    geo_type_id,
-                    end_period
-                HAVING
-                    indicator_id = rtd.indicator_id AND 
-                    geo_type_id = 3
-                ORDER BY
-                    end_period DESC
-
-            ) -- most recent year logic
-
-        JOIN indicator_data AS boroD ON rtd.indicator_id = boroD.indicator_id
-            AND (
-                boroD.geo_type_id = 1 AND 
-                boroD.geo_entity_id = ge.borough_id
-            )
-            AND boroD.year_id IN (
-
-                SELECT TOP 1 
-                    idata.year_id ---- most recent year subquery
-                FROM indicator_data AS idata
-                    LEFT JOIN indicator_year AS iy ON idata.year_id = iy.year_id
-                GROUP BY
-                    idata.year_id,
-                    indicator_id,
-                    geo_type_id,
-                    end_period
-                HAVING
-                    indicator_id = rtd.indicator_id AND 
-                    geo_type_id = 3
-                ORDER BY
-                    end_period DESC
-
-            ) -- most recent year logic
-
-        JOIN indicator_data AS nabeD ON rtd.indicator_id = nabeD.indicator_id
-            AND (
-                nabeD.geo_type_id = 3 AND 
-                nabeD.geo_entity_id = ge.geo_entity_id
-            )
-            AND nabeD.year_id IN (
-
-                SELECT TOP 1 
-                    idata.year_id ---- most recent year subquery
-                FROM indicator_data AS idata
-                    LEFT JOIN indicator_year AS iy ON idata.year_id = iy.year_id
-                GROUP BY
-                    idata.year_id,
-                    indicator_id,
-                    geo_type_id,
-                    end_period
-                HAVING
-                    indicator_id = rtd.indicator_id AND 
-                    geo_type_id = 3
-                ORDER BY
-                    end_period DESC
-
-            ) -- most recent year logic
-
-        JOIN unreliability AS u ON nabeD.unreliability_flag = u.unreliability_id
-
-        JOIN Report_UHF_indicator_Rank AS rr ON (
-            rr.indicator_data_id = nabeD.indicator_data_id AND 
-            rr.report_id = rtd.report_id
+        INNER JOIN report               AS  rpt ON rpt.report_id          = rc.report_id
+        INNER JOIN indicator_definition AS idef ON idef.indicator_id      = rc.indicator_id
+        INNER JOIN display_data_type    AS  ddt ON ddt.display_type_id    = idef.display_type_id
+        INNER JOIN measurement_type     AS   mt ON mt.measurement_type_id = idef.measurement_type_id
+        INNER JOIN internal_indicator   AS   ii ON ii.internal_id         = idef.internal_id
+        -- INNER JOIN report_topic         AS   rt ON rt.report_topic_id     = rc.report_topic_id
+        INNER JOIN report_geo_type      AS  rgt ON rgt.report_id          = rpt.report_id
+        INNER JOIN geo_type             AS   gt ON gt.geo_type_id         = rgt.geo_type_id
+        INNER JOIN geo_entity           AS   ge ON ge.geo_type_id         = gt.geo_type_id
+        INNER JOIN UHF_to_ZipList       AS   uz ON (
+            uz.UHF42 = ge.geo_entity_id AND
+            gt.geo_type_id = 3
         )
 
-        JOIN Consolidated_Sources_by_IndicatorID AS s ON rtd.indicator_id = s.indicator_id
-
-        JOIN (
+        INNER JOIN (
             SELECT
-                count(rd.Time) AS TimeCount,
+                borough_id,
+                name
+            FROM geo_entity
+            WHERE geo_type_id = 1
+        ) AS geb ON geb.borough_id = ge.borough_id
+
+        INNER JOIN indicator_data AS ctd ON ctd.indicator_id = rc.indicator_id
+            AND (
+                ctd.geo_type_id = 6 AND 
+                ctd.geo_entity_id = 1
+            )
+            AND ctd.year_id IN (
+                -- most recent year subquery
+                SELECT TOP 1 
+                    idata.year_id
+                FROM indicator_data AS idata
+                    LEFT JOIN indicator_year AS iy ON iy.year_id = idata.year_id
+                GROUP BY
+                    idata.year_id,
+                    indicator_id,
+                    geo_type_id,
+                    end_period
+                HAVING
+                    indicator_id = rc.indicator_id AND 
+                    geo_type_id = 3
+                ORDER BY
+                    end_period DESC
+            )
+
+        INNER JOIN indicator_data AS brd ON brd.indicator_id = rc.indicator_id
+            AND (
+                brd.geo_type_id = 1 AND 
+                brd.geo_entity_id = ge.borough_id
+            )
+            AND brd.year_id IN (
+                -- most recent year subquery
+                SELECT TOP 1 
+                    idata.year_id 
+                FROM indicator_data AS idata
+                    LEFT JOIN indicator_year AS iy ON iy.year_id = idata.year_id
+                GROUP BY
+                    idata.year_id,
+                    indicator_id,
+                    geo_type_id,
+                    end_period
+                HAVING
+                    indicator_id = rc.indicator_id AND 
+                    geo_type_id = 3
+                ORDER BY
+                    end_period DESC
+            )
+
+        INNER JOIN indicator_data AS nbd ON nbd.indicator_id = rc.indicator_id
+            AND (
+                nbd.geo_type_id = 3 AND 
+                nbd.geo_entity_id = ge.geo_entity_id
+            )
+            AND nbd.year_id IN (
+
+                -- most recent year subquery
+                SELECT TOP 1 
+                    idata.year_id
+                FROM indicator_data AS idata
+                    LEFT JOIN indicator_year AS iy ON iy.year_id = idata.year_id
+                GROUP BY
+                    idata.year_id,
+                    indicator_id,
+                    geo_type_id,
+                    end_period
+                HAVING
+                    indicator_id = rc.indicator_id AND 
+                    geo_type_id = 3
+                ORDER BY
+                    end_period DESC
+            )
+
+        LEFT JOIN subtopic_indicators AS si ON (
+            si.indicator_id        = rc.indicator_id AND 
+            si.geo_type_id         = rgt.geo_type_id AND 
+            si.year_id             = nbd.year_id
+        )
+
+        INNER JOIN unreliability AS u ON u.unreliability_id = nbd.unreliability_flag
+
+        INNER JOIN Report_UHF_indicator_Rank AS rr ON (
+            rr.indicator_data_id = nbd.indicator_data_id AND 
+            rr.report_id         = rc.report_id
+        )
+
+        INNER JOIN Consolidated_Sources_by_IndicatorID AS s ON rc.indicator_id = s.indicator_id
+
+        INNER JOIN (
+            -- Trend time period count subquery
+            SELECT
+                count(rd.time_period) AS TimeCount,
                 report_id,
                 geo_entity_id,
-                indicator_id --Trend time period count subquery
-            FROM ReportData AS rd
+                indicator_id
+            FROM ReportData_2 AS rd
             GROUP BY
                 report_id,
                 geo_entity_id,
                 indicator_id
-        ) AS rd ON rtd.indicator_id = rd.indicator_id
-                AND ge.geo_entity_id = rd.geo_entity_id
-                AND r.report_id      = rd.report_id
+        ) AS rd ON (
+            rd.indicator_id  = rc.indicator_id AND
+            rd.geo_entity_id = ge.geo_entity_id AND
+            rd.report_id     = rpt.report_id
+        )
 
     WHERE 
-        r.public_flag = 1 
+        rpt.public_flag = 1 AND 
+        si.creator_id = 1 AND 
+        rc.report_id IN (73, 77, 78, 79, 82)
 
-    ORDER BY
-        rtd.report_id,
-        rtd.report_topic_id,
-        rtd.sort_key
+    -- ORDER BY
+    --     rc.report_id,
+        -- rc.report_topic_id
+    --     rc.sort_key
 
 GO
