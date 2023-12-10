@@ -5,7 +5,7 @@ GO
 
 CREATE OR ALTER VIEW dbo.NR_data AS
 
--- need to integrate this with NR_data_export_base.sql
+-- need to integrate this with NR_data_base.sql
 
     SELECT DISTINCT TOP (100) PERCENT 
         rc.report_id,

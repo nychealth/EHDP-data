@@ -5,7 +5,7 @@ GO
 
 -- need to integrate this with NR_data.sql
 
-CREATE OR ALTER VIEW dbo.NR_data_export_base AS
+CREATE OR ALTER VIEW dbo.NR_data_base AS
 
     SELECT DISTINCT
 
