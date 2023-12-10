@@ -5,6 +5,8 @@ GO
 
 CREATE OR ALTER VIEW dbo.EXP_measure_comparisons_new AS
 
+    -- for moving comparisons logic to data export step
+
     SELECT
         mc.measure_compare_id  AS ComparisonID,
         mc.name                AS ComparisonName,
