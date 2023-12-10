@@ -1,7 +1,7 @@
 ###########################################################################################
 ###########################################################################################
 ##
-## Building indicators.json and comparisons.json using nested DataFrames
+## Building metadata.json and comparisons.json using nested DataFrames
 ##
 ###########################################################################################
 ###########################################################################################
@@ -24,6 +24,12 @@ suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.
 suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 suppressWarnings(suppressMessages(library(scales)))
+
+#-----------------------------------------------------------------------------------------#
+# set summarise options
+#-----------------------------------------------------------------------------------------#
+
+options(dplyr.summarise.inform = FALSE)
 
 #-----------------------------------------------------------------------------------------#
 # get base_dir for absolute path
@@ -169,16 +175,21 @@ EHDP_odbc <-
 # all metadata
 #-----------------------------------------------------------------------------------------#
 
-EXP_metadata_export <- 
+EXP_metadata <- 
     EHDP_odbc %>% 
-    tbl("EXP_metadata_export") %>% 
+    tbl("EXP_metadata_2") %>% 
     collect() %>% 
     arrange(
         IndicatorID,
         MeasureID,
-        end_period
+        TimePeriodID
+    ) %>% 
+    mutate(
+        across(
+            where(is.character),
+            ~ as_utf8_character(enc2native(.x))
+        )
     )
-
 
 #-----------------------------------------------------------------------------------------#
 # general datasets for joining
@@ -189,7 +200,7 @@ EXP_metadata_export <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 distinct_measures <-
-    EXP_metadata_export %>%
+    EXP_metadata %>%
     select(
         IndicatorID,
         MeasureID
@@ -202,7 +213,7 @@ distinct_measures <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 indicator_measure_text <-
-    EXP_metadata_export %>%
+    EXP_metadata %>%
     select(
         IndicatorID,
         IndicatorName,
@@ -223,45 +234,205 @@ indicator_measure_text <-
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# map options
+# table options
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# On: 0/1
-# RankReverse: 0/1
+# TimePeriodID
 
-measure_mapping <- 
-    EXP_metadata_export %>% 
+measure_table_time <- 
+    EXP_metadata %>% 
+    filter(Table == 1) %>%
     select(
         IndicatorID,
         MeasureID,
-        On = Map,
-        RankReverse
+        TimePeriodID
     ) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "Map", keep = FALSE) %>% 
+    summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
+
+# GeoType
+
+measure_table_geo <- 
+    EXP_metadata %>% 
+    filter(Table == 1) %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        GeoType
+    ) %>% 
+    distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
+    ungroup()
+
+# combining
+
+measure_table <- 
+    left_join(
+        distinct_measures,
+        measure_table_time,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    left_join(
+        measure_table_geo,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    group_nest(.key = "Table", keep = FALSE)
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# map options
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# RankReverse: 0/1
+
+measure_mapping_rr <- 
+    EXP_metadata %>% 
+    filter(Map == 1) %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        RankReverse
+    ) %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    group_by(MeasureID) %>% 
+    summarise(RankReverse = max(RankReverse))
+
+# TimePeriodID
+
+measure_mapping_time <- 
+    EXP_metadata %>% 
+    filter(Map == 1) %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        TimePeriodID
+    ) %>% 
+    distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>%     
+    group_by(IndicatorID, MeasureID) %>% 
+    summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
+    ungroup()
+
+# GeoType
+
+measure_mapping_geo <- 
+    EXP_metadata %>% 
+    filter(Map == 1) %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        GeoType
+    ) %>% 
+    distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>%     
+    group_by(IndicatorID, MeasureID) %>% 
+    summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
+    ungroup()
+
+# combining
+
+measure_mapping <- 
+    left_join(
+        distinct_measures,
+        measure_mapping_time,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    left_join(
+        measure_mapping_geo,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    left_join(
+        measure_mapping_rr,
+        by = "MeasureID"
+    ) %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    group_nest(.key = "Map", keep = FALSE)
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # trend options
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# On: 0/1
-# Disparities: 0/1
+# TimePeriodID
 
-measure_trend <- 
-    EXP_metadata_export %>% 
+measure_trend_time <- 
+    EXP_metadata %>% 
+    filter(Trend == 1) %>% 
     select(
         IndicatorID,
         MeasureID,
-        On = Trend,
-        Disparities
+        TimePeriodID
     ) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>%     
     group_by(IndicatorID, MeasureID) %>% 
-    group_nest(.key = "Trend", keep = FALSE) %>% 
+    summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
+
+# GeoType
+
+measure_trend_geo <- 
+    EXP_metadata %>% 
+    filter(Trend == 1) %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        GeoType
+    ) %>% 
+    distinct() %>% 
+    left_join(
+        distinct_measures,
+        .,
+        by = c("IndicatorID", "MeasureID")
+    ) %>%     
+    group_by(IndicatorID, MeasureID) %>% 
+    summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
+    ungroup()
+
+# combining
+
+measure_trend <- 
+    left_join(
+        distinct_measures,
+        measure_trend_time,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    left_join(
+        measure_trend_geo,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    group_by(IndicatorID, MeasureID) %>% 
+    group_nest(.key = "Trend", keep = FALSE)
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -270,9 +441,9 @@ measure_trend <-
 
 # ==== specific comparisons view ==== #
 
-EXP_measure_comparisons <- 
+EXP_comparisons <- 
     EHDP_odbc %>% 
-    tbl("EXP_measure_comparisons") %>% 
+    tbl("EXP_comparisons") %>% 
     collect() %>% 
     arrange(
         IndicatorID,
@@ -283,7 +454,7 @@ EXP_measure_comparisons <-
 # ==== nesting ComparisonIDs ==== #
 
 indicator_comparisons <- 
-    EXP_measure_comparisons %>% 
+    EXP_comparisons %>% 
     select(
         IndicatorID,
         Comparisons = ComparisonID
@@ -304,8 +475,7 @@ indicator_comparisons <-
 
 MeasureID_links <- 
     EHDP_odbc %>% 
-    tbl("EXP_measure_links") %>% 
-    select(BaseMeasureID, MeasureID, SecondaryAxis) %>% 
+    tbl("EXP_links") %>% 
     collect() %>% 
     arrange(
         BaseMeasureID,
@@ -317,10 +487,47 @@ MeasureID_links <-
 
 measure_links <- 
     MeasureID_links %>% 
+    filter(disparity_flag == 0) %>% 
+    select(-disparity_flag) %>% 
     distinct() %>% 
+    left_join(
+        distinct_measures %>% select(BaseMeasureID = MeasureID),
+        .,
+        by = "BaseMeasureID"
+    ) %>% 
     group_by(BaseMeasureID) %>% 
-    group_nest(.key = "Links", keep = FALSE) %>% 
+    group_nest(.key = "Measures", keep = FALSE) %>% 
     rename(MeasureID = BaseMeasureID)
+
+
+# ==== nesting disparities ==== #
+
+# Disparities: 0/1
+
+measure_disp <- 
+    MeasureID_links %>% 
+    filter(disparity_flag == 1) %>% 
+    group_by(BaseMeasureID) %>% 
+    summarise(Disparities = max(disparity_flag), .groups = "keep") %>% 
+    rename(MeasureID = BaseMeasureID) %>% 
+    left_join(
+        distinct_measures %>% select(MeasureID),
+        .,
+        by = "MeasureID"
+    ) %>% 
+    mutate(Disparities = replace_na(Disparities, 0L))
+
+
+# ==== nesting disparities ==== #
+
+measure_links_disp <- 
+    left_join(
+        measure_links,
+        measure_disp,
+        by = "MeasureID"
+    ) %>% 
+    group_by(MeasureID) %>% 
+    group_nest(.key = "Links", keep = FALSE)
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -329,12 +536,16 @@ measure_links <-
 
 measure_vis_options <- 
     left_join(
+        measure_table,
         measure_mapping,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    left_join(
         measure_trend,
         by = c("IndicatorID", "MeasureID")
     ) %>% 
     left_join(
-        measure_links,
+        measure_links_disp,
         by = "MeasureID"
     ) %>% 
     group_by(IndicatorID, MeasureID) %>% 
@@ -346,7 +557,7 @@ measure_vis_options <-
 #-----------------------------------------------------------------------------------------#
 
 measure_geotypes <- 
-    EXP_metadata_export %>% 
+    EXP_metadata %>% 
     select(
         IndicatorID,
         MeasureID,
@@ -358,7 +569,7 @@ measure_geotypes <-
         IndicatorID,
         MeasureID
     ) %>% 
-    group_nest(.key = "AvailableGeographyTypes", keep = FALSE)
+    group_nest(.key = "AvailableGeoTypes", keep = FALSE)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -366,24 +577,16 @@ measure_geotypes <-
 #-----------------------------------------------------------------------------------------#
 
 measure_times <- 
-    EXP_metadata_export %>% 
+    EXP_metadata %>% 
     select(
         IndicatorID,
         MeasureID,
-        TimeDescription,
-        start_period,
-        end_period
-    ) %>% 
-    mutate(
-        start_period = as.numeric(as_datetime(start_period)) * 1000,
-        end_period = as.numeric(as_datetime(end_period)) * 1000
+        AvailableTimePeriodIDs = TimePeriodID
     ) %>% 
     distinct() %>% 
-    group_by(
-        IndicatorID,
-        MeasureID
-    ) %>% 
-    group_nest(.key = "AvailableTimes", keep = FALSE)
+    group_by(IndicatorID, MeasureID) %>% 
+    summarise(AvailableTimePeriodIDs = list(unname(unlist(AvailableTimePeriodIDs)))) %>% 
+    ungroup()
 
 
 #-----------------------------------------------------------------------------------------#
@@ -433,15 +636,22 @@ metadata <-
 # converting to JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-metadata_json_pretty <- metadata %>% toJSON(pretty = TRUE, null = "null", na = "null")
-metadata_json        <- metadata %>% toJSON(pretty = FALSE, null = "null", na = "null")
+metadata_json_pretty <- 
+    metadata %>% 
+    toJSON(pretty = TRUE, null = "null", na = "null") %>% 
+    str_replace_all("\\[null\\]", "[]")
+
+metadata_json <- 
+    metadata %>% 
+    toJSON(pretty = FALSE, null = "null", na = "null") %>% 
+    str_replace_all("\\[null\\]", "[]")
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # saving JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-write_file(metadata_json_pretty, path(base_dir, "indicators/indicators_pretty.json"))
-write_file(metadata_json,        path(base_dir, "indicators/indicators.json"))
+write_file(metadata_json_pretty, path(base_dir, "indicators/metadata_pretty.json"))
+write_file(metadata_json,        path(base_dir, "indicators/metadata.json"))
 
 #-----------------------------------------------------------------------------------------#
 # closing database connection

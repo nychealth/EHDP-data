@@ -1,7 +1,7 @@
 ###########################################################################################-
 ###########################################################################################-
 ##
-##  NR_json_writer
+##  NR_report_json
 ##
 ###########################################################################################-
 ###########################################################################################-
@@ -21,7 +21,7 @@ suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(rlang)))
-suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
+suppressWarnings(suppressMessages(library(jsonlite)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 
 #-----------------------------------------------------------------------------------------#
@@ -172,9 +172,9 @@ EHDP_odbc <-
 
 # 42 UHFs x 5 reports = 210 rows
 
-report_level_1 <- 
+nr_level_1 <- 
     EHDP_odbc %>% 
-    tbl("reportLevel1") %>% 
+    tbl("NR_level_1") %>% 
     select(
         report_id,
         report_title,
@@ -207,9 +207,9 @@ report_level_1 <-
 
 # 42 UHFs x 21 topics (with a few topics on 2 reports) = 1092 rows
 
-report_level_2 <- 
+nr_level_2 <- 
     EHDP_odbc %>% 
-    tbl("reportLevel2") %>% 
+    tbl("NR_level_2") %>% 
     select(
         report_id,
         report_topic,
@@ -238,9 +238,9 @@ report_level_2 <-
 
 adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
 
-report_level_3 <- 
+nr_level_3 <- 
     EHDP_odbc %>% 
-    tbl("reportLevel3_new") %>% 
+    tbl("NR_level_3") %>% 
     select(
         report_id,
         report_topic_id,
@@ -310,8 +310,8 @@ dbDisconnect(EHDP_odbc)
 # Nesting by report_id, report_topic_id, geo_entity_id
 #-----------------------------------------------------------------------------------------#
 
-report_level_3_nested <- 
-    report_level_3 %>%
+nr_level_3_nested <- 
+    nr_level_3 %>%
     group_by(report_id, report_topic_id, geo_entity_id) %>% 
     group_nest(.key = "report_topic_data", keep = FALSE) %>% 
     ungroup()
@@ -320,10 +320,10 @@ report_level_3_nested <-
 # combining with topic details by nesting vars
 #-----------------------------------------------------------------------------------------#
 
-report_level_23_nested <- 
+nr_level_23_nested <- 
     left_join(
-        report_level_2,
-        report_level_3_nested,
+        nr_level_2,
+        nr_level_3_nested,
         by = c("report_id", "report_topic_id", "geo_entity_id"),
         multiple = "all"
     ) 
@@ -332,10 +332,10 @@ report_level_23_nested <-
 # adding report_title to nested data for filtering in the loop
 #-----------------------------------------------------------------------------------------#
 
-report_level_123_nested <- 
+nr_level_123_nested <- 
     left_join(
-        report_level_1 %>% select(report_id, geo_entity_name, report_title),
-        report_level_23_nested,
+        nr_level_1 %>% select(report_id, geo_entity_name, report_title),
+        nr_level_23_nested,
         by = c("report_id", "geo_entity_name"),
         multiple = "all"
     ) %>% 
@@ -347,8 +347,8 @@ report_level_123_nested <-
 # dropping unneeded report details columns
 #-----------------------------------------------------------------------------------------#
 
-report_level_1_small <- 
-    report_level_1 %>% 
+nr_level_1_small <- 
+    nr_level_1 %>% 
     select(
         report_title,
         report_description,
@@ -366,20 +366,20 @@ report_level_1_small <-
 # Writing JSON ----
 #=========================================================================================#
 
-for (i in 1:nrow(report_level_1_small)) {
+for (i in 1:nrow(nr_level_1_small)) {
     
     #-----------------------------------------------------------------------------------------#
     # looping through unique spec and using it to filter data
     #-----------------------------------------------------------------------------------------#
     
-    report_spec <- report_level_1_small[i, ]
+    report_spec <- nr_level_1_small[i, ]
     
     # This is safer than splitting by the spec outside the loop and then indexing with i. 
     #   It's probably slower, but that's inconsequential here.
     
     report_content <- 
         semi_join(
-            report_level_123_nested, 
+            nr_level_123_nested, 
             report_spec,
             by = c("geo_entity_name", "report_title")
         ) %>% 

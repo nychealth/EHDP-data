@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[reportLevel1] AS
+CREATE OR ALTER VIEW dbo.NR_level_1 AS
 
     SELECT
         rpt.report_id,

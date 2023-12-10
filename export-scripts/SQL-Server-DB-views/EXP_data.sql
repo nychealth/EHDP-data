@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[EXP_data_export] AS
+CREATE OR ALTER VIEW dbo.EXP_data AS
     
     SELECT DISTINCT
 
@@ -14,14 +14,15 @@ CREATE OR ALTER VIEW [dbo].[EXP_data_export] AS
         ind.geo_type_id      AS GeoTypeID,
         ind.geo_entity_id    AS GeoID,
         gt.geo_type_name     AS GeoType,
-        iy.year_description  AS Time,
+        iy.year_id           AS TimePeriodID,
         un.character_display AS flag,
-        si.ban_summary_flag,
+        -- si.ban_summary_flag,
         mt.number_decimal_ind,
 
         -- null out value when show data = 0
 
-        CASE WHEN un.show_data_flag = 1 THEN ind.data_value 
+        CASE 
+            WHEN un.show_data_flag = 1 THEN ind.data_value 
             ELSE null 
         END AS Value,
 

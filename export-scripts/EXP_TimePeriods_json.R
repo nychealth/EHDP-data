@@ -1,7 +1,7 @@
 ###########################################################################################-
 ###########################################################################################-
 ##
-##  Writing data explorer data
+##  Create TimePeriods.json
 ##
 ###########################################################################################-
 ###########################################################################################-
@@ -56,7 +56,7 @@ if (base_dir == "") {
     # set environment var
     
     Sys.setenv(base_dir = base_dir)
-
+    
 } 
 
 
@@ -109,7 +109,7 @@ if (data_env == "") {
         )$res
     
     Sys.setenv(data_env = data_env)
-
+    
 } 
 
 # set DB name
@@ -127,7 +127,6 @@ if (str_to_lower(data_env) == "s") {
     db_name <- "BESP_Indicator"
     
 }
-
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator
@@ -147,6 +146,7 @@ odbc_driver <-
 
 if (length(odbc_driver) == 0) odbc_driver <- "SQL Server"
 
+
 # using Windows auth with no DSN
 
 EHDP_odbc <-
@@ -162,87 +162,33 @@ EHDP_odbc <-
 
 
 #=========================================================================================#
-# Pulling data ----
+# Pulling and saving data ----
 #=========================================================================================#
 
-# formatting with comma and decimal
-
-add_comma_dec <- label_comma(accuracy = 0.1, big.mark = ",")
-add_comma_num <- label_comma(accuracy = 1.0, big.mark = ",")
-
-# using existing views
-
-EXP_data_export <- 
+TimePeriods <- 
     EHDP_odbc %>% 
-    tbl("EXP_data_export") %>% 
+    tbl("indicator_year") %>% 
     collect() %>% 
-    arrange(
-        IndicatorID,
-        MeasureID,
-        GeoTypeID,
-        GeoID,
-        desc(Time)
-    ) %>%
-
-    mutate(
-        across(
-            where(is.character),
-            ~ as_utf8_character(enc2native(.x))
-            # ~ enc2native(.x)
-        ),
-        DisplayValue = 
-            case_when(
-                is.na(flag)  & is.na(Value) ~ "-",
-                is.na(flag)  & number_decimal_ind == "N" ~ add_comma_num(Value),
-                is.na(flag)  & number_decimal_ind == "D" ~ add_comma_dec(Value),
-                is.na(flag)  & is.na(number_decimal_ind) ~ add_comma_dec(Value),
-                !is.na(flag) & is.na(Value) ~ flag,
-                !is.na(flag) & number_decimal_ind == "N" ~ str_c(add_comma_num(Value), flag),
-                !is.na(flag) & number_decimal_ind == "D" ~ str_c(add_comma_dec(Value), flag),
-                !is.na(flag) & is.na(number_decimal_ind) ~ str_c(add_comma_dec(Value), flag)
-            ),
-        CI = CI %>% str_replace(",", ", ") %>% str_replace(",\\s{2,}", ", ")
-    ) %>% 
-    
-    # dropping unneeded columns
-    
-    select(-GeoTypeID, -number_decimal_ind, -flag)
-    
-
-# closing connection
-
-dbDisconnect(EHDP_odbc)
-
-
-#=========================================================================================#
-# Writing JSON ----
-#=========================================================================================#
-
-IndicatorIDs <- sort(unique(EXP_data_export$IndicatorID))
-
-for (i in 1:length(IndicatorIDs)) {
-    
-    this_indicator <- IndicatorIDs[i]
-    
-    # cat(i, "/", length(IndicatorIDs), " [", this_indicator, "]", "\n", sep = "")
-    
-    exp_json <- 
-        EXP_data_export %>% 
-        filter(IndicatorID == this_indicator) %>% 
-        select(-IndicatorID) %>% 
-        toJSON(
-            pretty = FALSE, 
-            na = "null", 
-            auto_unbox = TRUE
-        )
-    
-    write_lines(
-        exp_json, 
-        str_c(base_dir, "/indicators/data/", this_indicator, ".json")
+    transmute(
+        TimePeriodID = year_id,
+        TimePeriod   = year_description,
+        TimeType     = time_type,
+        start_period = as.numeric(as_datetime(start_period)) * 1000,
+        end_period   = as.numeric(as_datetime(end_period)) * 1000
     )
-    
-}
 
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# converting to JSON
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+TimePeriods_json <- TimePeriods %>% toJSON(dataframe = "columns", pretty = FALSE, null = "null", na = "null")
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# saving JSON
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+write_lines(TimePeriods_json, "indicators/TimePeriods.json")
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

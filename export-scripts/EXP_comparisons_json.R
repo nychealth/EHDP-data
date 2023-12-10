@@ -1,14 +1,10 @@
 ###########################################################################################-
 ###########################################################################################-
 ##
-##  Writing neighborhod report data
+##  EXP_comparisons
 ##
 ###########################################################################################-
 ###########################################################################################-
-
-# This script writes data for the neighborhood reports, all saved as CSV. The data files
-#   contain data broken out by report (e.g., Asthma and the Environment) and by
-#   Measure (i.e., Indicator x Time Period)
 
 #=========================================================================================#
 # Setting up ----
@@ -22,10 +18,9 @@ suppressWarnings(suppressMessages(library(tidyverse)))
 suppressWarnings(suppressMessages(library(DBI)))
 suppressWarnings(suppressMessages(library(dbplyr)))
 suppressWarnings(suppressMessages(library(odbc)))
-suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(rlang)))
-suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
+suppressWarnings(suppressMessages(library(jsonlite)))
 suppressWarnings(suppressMessages(library(svDialogs)))
 
 #-----------------------------------------------------------------------------------------#
@@ -59,7 +54,7 @@ if (base_dir == "") {
     # set environment var
     
     Sys.setenv(base_dir = base_dir)
-
+    
 } 
 
 
@@ -112,7 +107,7 @@ if (data_env == "") {
         )$res
     
     Sys.setenv(data_env = data_env)
-
+    
 } 
 
 # set DB name
@@ -132,12 +127,10 @@ if (str_to_lower(data_env) == "s") {
 }
 
 #-----------------------------------------------------------------------------------------#
-# Connecting to BESP_Indicator database
+# Connecting to BESP_Indicator
 #-----------------------------------------------------------------------------------------#
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# determining which driver to use
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# determining driver to use (so script works across machines)
 
 odbc_driver <- 
     odbcListDrivers() %>% 
@@ -147,12 +140,12 @@ odbc_driver <-
     sort(decreasing = TRUE) %>% 
     head(1)
 
+# if no "ODBC Driver", use Windows built-in driver
+
 if (length(odbc_driver) == 0) odbc_driver <- "SQL Server"
 
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# connecting using Windows auth with no DSN
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# using Windows auth with no DSN
 
 EHDP_odbc <-
     dbConnect(
@@ -167,148 +160,46 @@ EHDP_odbc <-
 
 
 #=========================================================================================#
-# Pulling and saving data ----
+# Pulling and nesting data ----
 #=========================================================================================#
 
 #-----------------------------------------------------------------------------------------#
-# Pulling
+# Measure comparisons view
 #-----------------------------------------------------------------------------------------#
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# getting list of neighborhood reports
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-report_list <- 
+EXP_comparisons <- 
     EHDP_odbc %>% 
-    tbl("ReportPublicList") %>% 
-    filter(report_id != 80) %>% 
+    tbl("EXP_comparisons") %>% 
     collect()
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# getting neighborhood report data
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# also joining report names to report data
-
-report_data_0 <- 
-    EHDP_odbc %>% 
-    tbl("ReportData_2") %>% 
-    filter(geo_type == "UHF42", report_id != 80) %>% 
-    collect() %>% 
-    left_join(
-        report_list %>% select(report_id, title),
-        .,
-        by = "report_id",
-        multiple = "all"
-    ) %>% 
-    mutate(
-        time_type = str_trim(time_type),
-        indicator_data_name  = str_replace(indicator_data_name , "PM2\\.", "PM2-")
-    )
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# identifying indicators that have an annual average measure
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-ind_has_annual <- 
-    report_data_0 %>% 
-    filter(time_type %>% str_detect("(?i)Annual Average")) %>% 
-    semi_join(
-        report_data_0,
-        .,
-        by = c("indicator_data_name", "neighborhood")
-    ) %>% 
-    mutate(has_annual = TRUE) %>% 
-    select(indicator_data_name , has_annual) %>% 
-    distinct()
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# keeping annual average measure if it exists
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-report_data <- 
-    left_join(
-        report_data_0,
-        ind_has_annual,
-        by = "indicator_data_name",
-        multiple = "all"
-    ) %>% 
-    mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
-    filter(
-        has_annual == FALSE | (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
-        indicator_id != 386 | (indicator_id == 386 & str_detect(time_type, "(?i)Seasonal"))
-    ) %>% 
-    select(-has_annual) %>% 
-    mutate(
-    across(
-        where(is.character),
-        ~ as_utf8_character(enc2native(.x))
-    )
-)
-
-
 #-----------------------------------------------------------------------------------------#
-# Saving ----
+# Nesting
 #-----------------------------------------------------------------------------------------#
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# saving big report data files
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# split by report_id, named using title
-
-report_data_list <- 
-    report_data %>% 
-    select(-indicator_description) %>% 
-    group_by(report_id) %>% 
-    group_split() %>% 
-    walk(
-        ~ write_csv(
-            .x,
-            paste0(base_dir, "/neighborhood-reports/data/", str_replace_all(unique(.x$title), " ", "_"), "_data.csv")
-            
+comparisons_nested <- 
+    EXP_comparisons %>% 
+    mutate(ComparisonName = ComparisonName %>% str_remove_all("<.*?>")) %>% # remove HTML tags
+    mutate(
+        across(
+            where(is.character),
+            ~ as_utf8_character(enc2native(.x))
         )
-    )
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# saving indicator names for the reports
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-nr_indicator_names <- 
-    report_data %>% 
-    select(title, indicator_name, indicator_description) %>% 
-    distinct() %>% 
-    group_by(title) %>% 
-    transmute(
-        title = title %>% str_replace_all(" ", "_"),
-        indicator_names = list(unlist(indicator_name)),
-        indicator_descriptions = list(unlist(indicator_description))
     ) %>% 
-    ungroup() %>% 
-    distinct()
+    group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title) %>% 
+    group_nest(.key = "Indicators", keep = FALSE) %>%
+    ungroup()
 
-nr_indicator_names_json <- 
-    toJSON(
-        nr_indicator_names, 
-        pretty = TRUE, 
-        na = "null", 
-        auto_unbox = TRUE
-    )
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# converting to JSON
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-write_lines(
-    nr_indicator_names_json, 
-    paste0(base_dir, "/neighborhood-reports/data/nr_indicator_names.json")
-)
+comparisons_json <- comparisons_nested %>% toJSON(pretty = FALSE, null = "null", na = "null")
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# saving JSON
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-#=========================================================================================#
-# Cleaning up ----
-#=========================================================================================#
-
-dbDisconnect(EHDP_odbc)
+write_lines(comparisons_json, "indicators/comparisons.json")
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
