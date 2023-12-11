@@ -23,6 +23,7 @@ suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
 suppressWarnings(suppressMessages(library(svDialogs)))
+suppressWarnings(suppressMessages(library(yaml)))
 
 #-----------------------------------------------------------------------------------------#
 # get base_dir for absolute path
@@ -164,7 +165,60 @@ EHDP_odbc <-
 # Pulling data ----
 #=========================================================================================#
 
-adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
+#-----------------------------------------------------------------------------------------#
+# getting NR measures from site repo
+#-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# download NR_content YAML files
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+nr_content_links <- 
+    system("curl --no-progress-meter -L https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=feature-all-site-changes-2023-12", intern = TRUE) %>% 
+    fromJSON() %>% 
+    pull(download_url)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# map over YAML files to get measure_ids
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+nr_indicators <- 
+    nr_content_links %>% 
+    map( 
+        ~ yaml.load_file(.x)$report_topics %>% 
+            map( ~ .x$MeasureID) %>% 
+            list_c()
+    ) %>% 
+    list_c() %>% 
+    unique() %>% 
+    sort() %>% 
+    tibble(indicator_id = .)
+
+
+#-----------------------------------------------------------------------------------------#
+# selecting columns
+#-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# add list of indicators to database
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# overwrite every time this script is run, but persist between runs
+
+dbWriteTable(
+    EHDP_odbc,
+    name = "nr_indicators",
+    value = nr_indicators,
+    append = FALSE,
+    overwrite = TRUE
+)
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# pull from view
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+adult_measures <- c(657, 659, 661, 1175, 1180, 1182)
 
 NR_data_export <- 
     EHDP_odbc %>% 
@@ -174,7 +228,7 @@ NR_data_export <-
     mutate(
         indicator_short_name = 
             case_when(
-                MeasureID %in% adult_indicators ~ str_replace(indicator_short_name, "\\(children\\)", "(adults)"),
+                MeasureID %in% adult_measures ~ str_replace(indicator_short_name, "\\(children\\)", "(adults)"),
                 TRUE ~ indicator_short_name
             ),
         indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
@@ -188,18 +242,18 @@ NR_data_export <-
 
 
 #=========================================================================================#
-# CSV data for Vega Lite viz ----
+# JSON data for Vega Lite viz and data download ----
 #=========================================================================================#
+
+# Hugo will produce the CSVs this is looking for
 
 #-----------------------------------------------------------------------------------------#
 # selecting columns
 #-----------------------------------------------------------------------------------------#
 
-report_data_for_js_0 <- 
+topic_data_for_hugo_0 <- 
     NR_data_export %>% 
     select(
-        report_id,
-        title,
         MeasureID,
         IndicatorID,
         indicator_data_name,
@@ -227,10 +281,10 @@ report_data_for_js_0 <-
 #-----------------------------------------------------------------------------------------#
 
 ind_has_annual <- 
-    report_data_for_js_0 %>% 
+    topic_data_for_hugo_0 %>% 
     filter(time_type %>% str_detect("(?i)Annual Average")) %>% 
     semi_join(
-        report_data_for_js_0,
+        topic_data_for_hugo_0,
         .,
         by = c("indicator_data_name", "neighborhood")
     ) %>% 
@@ -243,9 +297,9 @@ ind_has_annual <-
 # keeping annual average measure if it exists
 #-----------------------------------------------------------------------------------------#
 
-report_data_for_js <- 
+topic_data_for_hugo <- 
     left_join(
-        report_data_for_js_0,
+        topic_data_for_hugo_0,
         ind_has_annual,
         by = "indicator_data_name",
         multiple = "all"
@@ -269,25 +323,23 @@ report_data_for_js <-
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# saving big report data files
+# saving one big data file, which hugo will split into data for each report
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # split by report_id, named using title
 
-report_data_for_js_list <- 
-    report_data_for_js %>% 
-    select(-indicator_description) %>% 
-    group_by(report_id) %>% 
-    group_split() %>% 
-    walk(
-        ~ write_csv(
-            .x,
-            paste0(
-                base_dir, "/neighborhood-reports/data/", 
-                unique(.x$title) %>% str_replace_all(" ", "_") %>% str_replace_all(",", ""), "_data.csv"
-            )
-        )
-    )
+# one big report json file, read by hugo
+
+# write JSON
+
+topic_data_for_hugo %>% 
+    toJSON(
+        dataframe = "rows",
+        pretty = FALSE, 
+        na = "null", 
+        auto_unbox = TRUE
+    ) %>% 
+    write_lines(paste0(base_dir, "/neighborhood-reports/data/topic_data_for_hugo.json"))
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -295,34 +347,28 @@ report_data_for_js_list <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 nr_indicator_names <- 
-    report_data_for_js %>% 
-    select(title, indicator_name, indicator_description) %>% 
+    topic_data_for_hugo %>% 
+    select(indicator_name, indicator_description) %>% 
     distinct() %>% 
-    group_by(title) %>% 
-    transmute(
-        title = title %>% str_replace_all(" ", "_"),
+    summarise(
         indicator_names = list(unlist(indicator_name)),
         indicator_descriptions = list(unlist(indicator_description))
-    ) %>% 
-    ungroup() %>% 
-    distinct()
+    )
 
-nr_indicator_names_json <- 
+# write JSON
+
+nr_indicator_names %>% 
     toJSON(
-        nr_indicator_names, 
+        dataframe = "rows",
         pretty = TRUE, 
         na = "null", 
         auto_unbox = TRUE
-    )
-
-write_lines(
-    nr_indicator_names_json, 
-    paste0(base_dir, "/neighborhood-reports/data/nr_indicator_names.json")
-)
+    ) %>% 
+    write_lines(paste0(base_dir, "/neighborhood-reports/data/nr_indicator_names.json"))
 
 
 #=========================================================================================#
-# JSON for NR page
+# JSON for NR page ----
 #=========================================================================================#
 
 #-----------------------------------------------------------------------------------------#
@@ -414,7 +460,14 @@ report_data_for_hugo <-
 # saving big report data file
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-report_data_for_hugo %>% toJSON() %>% write_lines("neighborhood-reports/data/report_data_for_hugo.json")
+report_data_for_hugo %>% 
+    toJSON(
+        dataframe = "rows",
+        pretty = TRUE, 
+        na = "null", 
+        auto_unbox = TRUE
+    ) %>% 
+    write_lines(paste0(base_dir, "/neighborhood-reports/data/report_data_for_hugo.json"))
 
 
 #=========================================================================================#
