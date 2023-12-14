@@ -300,20 +300,12 @@ Write-Output ">>> EXP_TimePeriods_json"
 Rscript $base_dir\export-scripts\EXP_TimePeriods_json.R
 
 #-----------------------------------------------------------------------------------------#
-# NR viz data (for VegaLite)
+# NR data (for hugo & VegaLite)
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> NR_data_csv"
+Write-Output ">>> NR_data_json"
 
-Rscript $base_dir\export-scripts\NR_data_csv.R
-
-#-----------------------------------------------------------------------------------------#
-# NR JSON data (for report)
-#-----------------------------------------------------------------------------------------#
-
-Write-Output ">>> NR_report_json"
-
-Rscript $base_dir\export-scripts\NR_report_json.R
+Rscript $base_dir\export-scripts\NR_data_json.R
 
 #-----------------------------------------------------------------------------------------#
 # GeoLookup
