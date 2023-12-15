@@ -177,7 +177,7 @@ EHDP_odbc <-
 
 EXP_metadata <- 
     EHDP_odbc %>% 
-    tbl("EXP_metadata_2") %>% 
+    tbl("EXP_metadata") %>% 
     collect() %>% 
     arrange(
         IndicatorID,
