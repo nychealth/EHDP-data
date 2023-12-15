@@ -9,6 +9,8 @@ CREATE OR ALTER VIEW dbo.NR_data_base AS
 
     SELECT DISTINCT
 
+        ind.report,
+        ind.report_topic,
         dt.indicator_id      AS MeasureID,
         ii.internal_id       AS IndicatorID,
         ii.name              AS indicator_name,

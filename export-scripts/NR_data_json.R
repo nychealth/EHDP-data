@@ -24,6 +24,7 @@ suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
 suppressWarnings(suppressMessages(library(svDialogs)))
 suppressWarnings(suppressMessages(library(yaml)))
+suppressWarnings(suppressMessages(library(gert)))
 
 #-----------------------------------------------------------------------------------------#
 # get base_dir for absolute path
@@ -173,8 +174,35 @@ EHDP_odbc <-
 # download NR_content YAML files
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# specify the site repo branch
+
+current_branch <- git_branch()
+
+if (current_branch == "production") {
+    
+    site_branch <- "production"
+    
+} else if (current_branch == "staging") {
+    
+    site_branch <- "staging"
+    
+} else {
+    
+    site_branch <- current_branch
+    
+}
+
+# download yaml file
+
 nr_content_links <- 
-    system("curl --no-progress-meter -L https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=feature-all-site-changes-2023-12", intern = TRUE) %>% 
+    system(
+        paste0(
+            "curl --no-progress-meter -L ", 
+            "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
+            current_branch
+        ), 
+        intern = TRUE
+    ) %>% 
     fromJSON() %>% 
     pull(download_url)
 
@@ -184,15 +212,20 @@ nr_content_links <-
 
 nr_indicators <- 
     nr_content_links %>% 
-    map( 
-        ~ yaml.load_file(.x)$report_topics %>% 
-            map( ~ .x$MeasureID) %>% 
-            list_c()
-    ) %>% 
-    list_c() %>% 
-    unique() %>% 
-    sort() %>% 
-    tibble(indicator_id = .)
+    map_dfr( 
+        
+        \(x) yaml.load_file(x)$report_topics %>% 
+            
+            map_dfr( 
+                \(y) as_tibble(y) %>% 
+                    select(report_topic, MeasureID) %>% 
+                    transmute(
+                        report = x %>% path_file() %>% path_ext_remove() %>% unique(),
+                        report_topic = report_topic %>% str_remove_all(":"),
+                        indicator_id = MeasureID
+                    )
+            )
+    )
 
 
 #-----------------------------------------------------------------------------------------#
@@ -245,15 +278,21 @@ NR_data_export <-
 # JSON data for Vega Lite viz and data download ----
 #=========================================================================================#
 
+#=========================================================================================#
+# JSON data for Vega Lite viz and data download ----
+#=========================================================================================#
+
 # Hugo will produce the CSVs this is looking for
 
 #-----------------------------------------------------------------------------------------#
 # selecting columns
 #-----------------------------------------------------------------------------------------#
 
-topic_data_for_hugo_0 <- 
+viz_data_for_hugo_0 <- 
     NR_data_export %>% 
     select(
+        report,
+        report_topic,
         MeasureID,
         IndicatorID,
         indicator_data_name,
@@ -281,10 +320,10 @@ topic_data_for_hugo_0 <-
 #-----------------------------------------------------------------------------------------#
 
 ind_has_annual <- 
-    topic_data_for_hugo_0 %>% 
+    viz_data_for_hugo_0 %>% 
     filter(time_type %>% str_detect("(?i)Annual Average")) %>% 
     semi_join(
-        topic_data_for_hugo_0,
+        viz_data_for_hugo_0,
         .,
         by = c("indicator_data_name", "neighborhood")
     ) %>% 
@@ -297,13 +336,19 @@ ind_has_annual <-
 # keeping annual average measure if it exists
 #-----------------------------------------------------------------------------------------#
 
-topic_data_for_hugo <- 
+viz_data_for_hugo <- 
     left_join(
-        topic_data_for_hugo_0,
+        viz_data_for_hugo_0,
         ind_has_annual,
         by = "indicator_data_name",
         multiple = "all"
     ) %>% 
+    # left_join(
+    #     .,
+    #     nr_indicators,
+    #     by = c("MeasureID" = "indicator_id"),
+    #     relationship = "many-to-many"
+    # ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
     filter(
         has_annual == FALSE | (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
@@ -326,28 +371,32 @@ topic_data_for_hugo <-
 # saving one big data file, which hugo will split into data for each report
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# split by report_id, named using title
-
-# one big report json file, read by hugo
+# split by report, named using title
 
 # write JSON
 
-topic_data_for_hugo %>% 
-    toJSON(
-        dataframe = "rows",
-        pretty = FALSE, 
-        na = "null", 
-        auto_unbox = TRUE
-    ) %>% 
-    write_lines(paste0(base_dir, "/neighborhood-reports/data/topic_data_for_hugo.json"))
+viz_data_for_hugo %>% 
+    group_by(report) %>% 
+    group_walk(
+        ~ toJSON(
+            .x,
+            dataframe = "rows",
+            pretty = FALSE, 
+            na = "null", 
+            auto_unbox = TRUE
+        ) %>% 
+            write_lines(paste0(base_dir, "/neighborhood-reports/data/viz ", unique(.x$report), ".json")),
+        .keep = TRUE
+    )
+    
 
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+#-----------------------------------------------------------------------------------------#
 # saving indicator names for the reports
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+#-----------------------------------------------------------------------------------------#
 
 nr_indicator_names <- 
-    topic_data_for_hugo %>% 
+    viz_data_for_hugo %>% 
     select(indicator_name, indicator_description) %>% 
     distinct() %>% 
     summarise(
@@ -404,6 +453,8 @@ time_count <-
 report_data_for_hugo <- 
     NR_data_export %>% 
     select(
+        report,
+        report_topic,
         MeasureID,
         rankReverse,
         indicator_name,
@@ -461,13 +512,26 @@ report_data_for_hugo <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 report_data_for_hugo %>% 
-    toJSON(
-        dataframe = "rows",
-        pretty = TRUE, 
-        na = "null", 
-        auto_unbox = TRUE
-    ) %>% 
-    write_lines(paste0(base_dir, "/neighborhood-reports/data/report_data_for_hugo.json"))
+    group_by(report, report_topic) %>% 
+    group_walk(
+        ~ toJSON(
+            .x,
+            dataframe = "rows",
+            pretty = FALSE, 
+            na = "null", 
+            auto_unbox = TRUE
+        ) %>% 
+            write_lines(
+                paste0(
+                    base_dir,
+                    "/neighborhood-reports/data/",
+                    "report ", unique(.x$report),
+                    " ", unique(.x$report_topic),
+                    ".json"
+                )
+            ),
+        .keep = TRUE
+    )
 
 
 #=========================================================================================#
