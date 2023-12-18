@@ -334,7 +334,7 @@ measure_mapping_time <-
         by = c("IndicatorID", "MeasureID")
     ) %>%     
     group_by(IndicatorID, MeasureID, GeoType) %>% 
-    summarise(TimePeriodID = list(unname(unlist(TimePeriodID))),) %>% 
+    summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
 
 # GeoType
