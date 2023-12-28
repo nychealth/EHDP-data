@@ -1,10 +1,10 @@
 Version: 1.0
 
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
+RestoreWorkspace: No
+SaveWorkspace: No
+AlwaysSaveHistory: Yes
 
-EnableCodeIndexing: No
+EnableCodeIndexing: Yes
 UseSpacesForTab: Yes
 NumSpacesForTab: 4
 Encoding: UTF-8

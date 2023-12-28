@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dbo].[ReportPublicList] AS
+CREATE OR ALTER VIEW dbo.NR_list AS
         
     SELECT
         report_id,
@@ -14,5 +14,5 @@ CREATE OR ALTER VIEW [dbo].[ReportPublicList] AS
         dbo.report
     WHERE
         public_flag = 1
-            
+
 GO

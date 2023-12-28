@@ -55,13 +55,22 @@ export-scripts/env_var_test.r
 node_modules/
 export-scripts/SQL-Server-DB-views/EXP_measure_links_rev.sql
 export-scripts/using-vega-lite-cli.py
+
+export-scripts/SQL-Server-DB-views/.vs/
+
+export-scripts/database and branch logic.bash
+export-scripts/database and branch logic.ps1
+export-scripts/download_binary_packages.ps1
+export-scripts/test_cronR.R
+export-scripts/test_cronR.log
+export-scripts/test path.py
+export-scripts/selenium test.py
+export-scripts/pre_post_refactor_size_diff.R
+
+export-scripts/comparisons logic.js
+export-scripts/comparisons logic.r
+
 export-scripts/SQL-Server-DB-views/.vs/SQL-Server-DB-views/v15/.ssms_suo
 export-scripts/SQL-Server-DB-views/.vs/VSWorkspaceState.json
 export-scripts/SQL-Server-DB-views/.vs/slnx.sqlite
-
-export-scripts/cronR_scheduler.R
-export-scripts/test_cronR.R
-export-scripts/test_cronR.log
-
-export-scripts/SQL-Server-DB-views/.vs/
-EHDP-data.Rproj
+chart_json.json

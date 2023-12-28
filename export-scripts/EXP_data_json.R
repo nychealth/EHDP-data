@@ -1,7 +1,7 @@
 ###########################################################################################-
 ###########################################################################################-
 ##
-##  EXP_measure_comparisons
+##  Writing data explorer data
 ##
 ###########################################################################################-
 ###########################################################################################-
@@ -18,9 +18,12 @@ suppressWarnings(suppressMessages(library(tidyverse)))
 suppressWarnings(suppressMessages(library(DBI)))
 suppressWarnings(suppressMessages(library(dbplyr)))
 suppressWarnings(suppressMessages(library(odbc)))
+suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(jsonlite)))
+suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(svDialogs)))
+suppressWarnings(suppressMessages(library(scales)))
 
 #-----------------------------------------------------------------------------------------#
 # get base_dir for absolute path
@@ -53,7 +56,7 @@ if (base_dir == "") {
     # set environment var
     
     Sys.setenv(base_dir = base_dir)
-    
+
 } 
 
 
@@ -102,11 +105,11 @@ if (data_env == "") {
     data_env <-
         dlgInput(
             message = "staging [s] or production [p]?",
-            rstudio = TRUE
+            rstudio = FALSE
         )$res
     
     Sys.setenv(data_env = data_env)
-    
+
 } 
 
 # set DB name
@@ -124,6 +127,7 @@ if (str_to_lower(data_env) == "s") {
     db_name <- "BESP_Indicator"
     
 }
+
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator
@@ -143,7 +147,6 @@ odbc_driver <-
 
 if (length(odbc_driver) == 0) odbc_driver <- "SQL Server"
 
-
 # using Windows auth with no DSN
 
 EHDP_odbc <-
@@ -159,45 +162,87 @@ EHDP_odbc <-
 
 
 #=========================================================================================#
-# Pulling and nesting data ----
+# Pulling data ----
 #=========================================================================================#
 
-#-----------------------------------------------------------------------------------------#
-# Measure comparisons view
-#-----------------------------------------------------------------------------------------#
+# formatting with comma and decimal
 
-EXP_measure_comparisons <- 
+add_comma_dec <- label_comma(accuracy = 0.1, big.mark = ",")
+add_comma_num <- label_comma(accuracy = 1.0, big.mark = ",")
+
+# using existing views
+
+EXP_data <- 
     EHDP_odbc %>% 
-    tbl("EXP_measure_comparisons") %>% 
-    collect()
+    tbl("EXP_data") %>% 
+    collect() %>% 
+    arrange(
+        IndicatorID,
+        MeasureID,
+        GeoTypeID,
+        GeoID,
+        TimePeriodID
+    ) %>%
 
-#-----------------------------------------------------------------------------------------#
-# Nesting
-#-----------------------------------------------------------------------------------------#
+    mutate(
+        across(
+            where(is.character),
+            ~ as_utf8_character(enc2native(.x))
+        ),
+        DisplayValue = 
+            case_when(
+                is.na(flag)  & is.na(Value) ~ "-",
+                is.na(flag)  & number_decimal_ind == "N" ~ add_comma_num(Value),
+                is.na(flag)  & number_decimal_ind == "D" ~ add_comma_dec(Value),
+                is.na(flag)  & is.na(number_decimal_ind) ~ add_comma_dec(Value),
+                !is.na(flag) & is.na(Value) ~ flag,
+                !is.na(flag) & number_decimal_ind == "N" ~ str_c(add_comma_num(Value), flag),
+                !is.na(flag) & number_decimal_ind == "D" ~ str_c(add_comma_dec(Value), flag),
+                !is.na(flag) & is.na(number_decimal_ind) ~ str_c(add_comma_dec(Value), flag)
+            ),
+        CI = CI %>% str_replace(",", ", ") %>% str_replace(",\\s{2,}", ", ")
+    ) %>% 
+    
+    # dropping unneeded columns
+    
+    select(-GeoTypeID, -number_decimal_ind, -flag)
+    
 
-comparisons_nested <- 
-    EXP_measure_comparisons %>% 
-    mutate(ComparisonName = ComparisonName %>% str_remove_all("<.*?>")) %>% # remove HTML tags
-    rename(Measures = MeasureID) %>% 
-    group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title, IndicatorID) %>% 
-    mutate(Measures = list(unlist(Measures))) %>%
-    distinct() %>% 
-    ungroup() %>%
-    group_by(ComparisonID, ComparisonName, LegendTitle, Y_axis_title) %>%
-    group_nest(.key = "Indicators", keep = FALSE) %>%
-    ungroup()
+# closing connection
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# converting to JSON
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+dbDisconnect(EHDP_odbc)
 
-comparisons_json <- comparisons_nested %>% toJSON(pretty = FALSE, null = "null", na = "null")
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# saving JSON
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+#=========================================================================================#
+# Writing JSON ----
+#=========================================================================================#
 
-write_lines(comparisons_json, "indicators/comparisons.json")
+IndicatorIDs <- sort(unique(EXP_data$IndicatorID))
+
+for (i in 1:length(IndicatorIDs)) {
+    
+    this_indicator <- IndicatorIDs[i]
+    
+    # cat(i, "/", length(IndicatorIDs), " [", this_indicator, "]", "\n", sep = "")
+    
+    exp_json <- 
+        EXP_data %>% 
+        filter(IndicatorID == this_indicator) %>% 
+        select(-IndicatorID) %>% 
+        toJSON(
+            dataframe = "columns",
+            pretty = FALSE, 
+            na = "null", 
+            auto_unbox = TRUE
+        )
+    
+    write_lines(
+        exp_json, 
+        str_c(base_dir, "/indicators/data/", this_indicator, ".json")
+    )
+    
+}
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
