@@ -25,6 +25,7 @@ suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.
 suppressWarnings(suppressMessages(library(svDialogs)))
 suppressWarnings(suppressMessages(library(yaml)))
 suppressWarnings(suppressMessages(library(gert)))
+suppressWarnings(suppressMessages(library(httr)))
 
 #-----------------------------------------------------------------------------------------#
 # get base_dir for absolute path
@@ -195,36 +196,42 @@ if (current_branch == "production") {
 # download yaml file
 
 nr_content_links <- 
-    system(
+    GET(
         paste0(
-            "curl --no-progress-meter -L ", 
             "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
             current_branch
-        ), 
-        intern = TRUE
+        )
     ) %>% 
-    fromJSON() %>% 
+    content(as = "text") %>% 
+    fromJSON() %>%
     pull(download_url)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # map over YAML files to get measure_ids
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# using base R short function format to make mapped objects unambiguous and usable inside lower levels
+
 nr_indicators <- 
     nr_content_links %>% 
     map_dfr( 
         
-        \(x) yaml.load_file(x)$report_topics %>% 
-            
-            map_dfr( 
-                \(y) as_tibble(y) %>% 
+        function (x) {
+            read_file(x) %>% 
+            yaml.load() %>% 
+            pluck("report_topics") %>% 
+            map_dfr(
+                function (y) {
+                    as_tibble(y) %>% 
                     select(report_topic, MeasureID) %>% 
                     transmute(
                         report = x %>% path_file() %>% path_ext_remove() %>% unique(),
                         report_topic = report_topic %>% str_remove_all(":"),
                         indicator_id = MeasureID
                     )
+                }
             )
+        }
     )
 
 
