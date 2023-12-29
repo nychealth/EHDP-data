@@ -240,7 +240,10 @@ read -p "Specify site repo branch (default = $current_branch): " site_branch
 # if no value, set to current branch
 
 if [[ -z "$site_branch" ]]; then
+
     site_branch=$current_branch
+    echo "-------------------------------------------------------------"
+    
 fi
 
 # ste env for R
