@@ -263,6 +263,32 @@ Write-Host "-------------------------------------------------------------"
 
 $Env:current_branch = $current_branch
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# set site branch
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# ask user
+
+if ($current_branch -notin "production", "staging") {
+
+    $site_branch = (Read-Host "specify site repo branch (default = $current_branch)")
+    Write-Host "-------------------------------------------------------------"
+
+}
+
+# if no value, set to current branch
+
+if ([string]::IsNullOrWhiteSpace($site_branch)) {
+
+    $site_branch = $current_branch
+
+}
+
+# ste env for R
+
+$Env:site_branch = $site_branch
+
+
 #=========================================================================================#
 # R
 #=========================================================================================#
@@ -319,12 +345,6 @@ Rscript $base_dir\export-scripts\NR_data_json.R
 #=========================================================================================#
 # Python
 #=========================================================================================#
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# Tell conda which environment to load
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# conda activate EHDP-data
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # Tell conda which environment to load

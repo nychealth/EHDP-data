@@ -217,6 +217,16 @@ dbDisconnect(EHDP_odbc)
 # Writing JSON ----
 #=========================================================================================#
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# create data folders if don't exist
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+dir_create(path(base_dir, "indicators/data"))
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# writing
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
 IndicatorIDs <- sort(unique(EXP_data$IndicatorID))
 
 for (i in 1:length(IndicatorIDs)) {

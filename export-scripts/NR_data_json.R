@@ -28,8 +28,12 @@ suppressWarnings(suppressMessages(library(gert)))
 suppressWarnings(suppressMessages(library(httr)))
 
 #-----------------------------------------------------------------------------------------#
-# get base_dir for absolute path
+# get and set env vars
 #-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# base_dir for absolute path
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # get envionment var
 
@@ -62,9 +66,9 @@ if (base_dir == "") {
 } 
 
 
-#-----------------------------------------------------------------------------------------#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # get or set server to use
-#-----------------------------------------------------------------------------------------#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # get envionment var
 
@@ -92,9 +96,9 @@ if (server == "") {
 }
 
 
-#-----------------------------------------------------------------------------------------#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # get or set database to use
-#-----------------------------------------------------------------------------------------#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # get envionment var
 
@@ -129,6 +133,7 @@ if (str_to_lower(data_env) == "s") {
     db_name <- "BESP_Indicator"
     
 }
+
 
 #-----------------------------------------------------------------------------------------#
 # Connecting to BESP_Indicator
@@ -175,36 +180,13 @@ EHDP_odbc <-
 # download NR_content YAML files
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# specify the site repo branch
-
-current_branch <- git_branch()
-
-if (current_branch == "production") {
-    
-    site_branch <- "production"
-    
-} else if (current_branch == "staging") {
-    
-    site_branch <- "staging"
-    
-} else {
-    
-    site_branch <-
-        dlgInput(
-            message = "specify site repo branch",
-            default = current_branch,
-            rstudio = FALSE
-        )$res
-    
-}
-
 # download yaml file
 
 nr_content_links <- 
     GET(
         paste0(
             "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
-            site_branch
+            Sys.getenv("site_branch")
         )
     ) %>% 
     content(as = "text") %>% 
@@ -378,6 +360,13 @@ viz_data_for_hugo <-
 #-----------------------------------------------------------------------------------------#
 # Saving ----
 #-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# create data folders if don't exist
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+dir_create(path(base_dir, "neighborhood-reports/data"))
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # saving one big data file, which hugo will split into data for each report

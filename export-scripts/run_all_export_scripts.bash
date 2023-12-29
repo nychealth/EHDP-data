@@ -224,10 +224,28 @@ fi
 echo "-------------------------------------------------------------"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# Tell conda which environment to load
+# save current branch as an environment variable
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# conda activate EHDP-data
+$Env:current_branch = $current_branch
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# set site branch
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# ask user
+
+read -p "Specify site repo branch (default = $current_branch): " site_branch
+
+# if no value, set to current branch
+
+if [[ -z "$site_branch" ]]; then
+    site_branch=$current_branch
+fi
+
+# ste env for R
+
+export site_branch=$site_branch
 
 #=========================================================================================#
 # R
@@ -286,12 +304,11 @@ Rscript "$base_dir/export-scripts/NR_report_json.R"
 # Python
 #=========================================================================================#
 
-#-----------------------------------------------------------------------------------------#
-# EXP metadata
-#-----------------------------------------------------------------------------------------#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# Tell conda which environment to load
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# echo ">>> EXP_metadata_json"
-# python "$base_dir/export-scripts/EXP_metadata_json.py"
+# conda activate EHDP-data
 
 #-----------------------------------------------------------------------------------------#
 # NR spark bars

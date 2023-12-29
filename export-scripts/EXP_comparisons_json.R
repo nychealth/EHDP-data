@@ -195,11 +195,22 @@ comparisons_nested <-
 
 comparisons_json <- comparisons_nested %>% toJSON(pretty = FALSE, null = "null", na = "null")
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+#-----------------------------------------------------------------------------------------#
 # saving JSON
+#-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# create data folders if don't exist
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-write_lines(comparisons_json, "indicators/comparisons.json")
+dir_create(path(base_dir, "indicators"))
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# write
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+write_lines(comparisons_json, path(base_dir, "indicators/comparisons.json"))
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
