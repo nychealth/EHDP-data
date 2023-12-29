@@ -43,22 +43,31 @@ if [[ -z "$data_env" ]]; then
 
   # if $data_env doesn't exist yet, ask about setting it
   echo "-------------------------------------------------------------"
-  echo ">> 1: 'data_env' does not exist"
+  echo ">> 1: data_env = []"
 
   echo "-------------------------------------------------------------"
   read -p "staging [*s] or production [p]? -- " -n 1 data_env_input
   printf "\n"
 
+  if [[ -z "$data_env" ]]; then
+  
+    echo "-------------------------------------------------------------"
+    echo ">> 2: data_env = [], default to s"
+
+  fi
+  
   export data_env=${data_env_input:-"s"}  # default to staging if nothing entered
+
 
   if [[ "$data_env" == "s" ]] && [[ "$current_branch" != "staging" ]]; then
 
     # ask about switching
-    echo "-------------------------------------------------------------"
-    echo ">> 3: 'data_env = s', not on <staging> branch"
 
     echo "-------------------------------------------------------------"
-    read -p "Switch to <staging>? Yes [y] / No [*n] -- " -n 1 switch
+    echo ">> 3: 'data_env = s', not on < staging > branch"
+
+    echo "-------------------------------------------------------------"
+    read -p "Switch to < staging >? Yes [y] / No [*n] -- " -n 1 switch
     printf "\n"
 
     # switch branch, or not
@@ -66,7 +75,7 @@ if [[ -z "$data_env" ]]; then
     if [[ "$switch" == "y" ]]; then
 
       echo "-------------------------------------------------------------"
-      echo ">> 4: 'switch = y', switching to <staging> branch"
+      echo ">> 4: 'switch = y', switching to < staging > branch"
 
       git checkout staging
       git pull
@@ -75,13 +84,13 @@ if [[ -z "$data_env" ]]; then
 
       # don't switch
       echo "-------------------------------------------------------------"
-      echo ">> 4: 'switch = n', staying on <$current_branch> branch"
+      echo ">> 4: 'switch = n', staying on < $current_branch > branch"
 
     else
 
       # don't switch
       echo "-------------------------------------------------------------"
-      echo ">> 4: 'switch = []', staying on <$current_branch> branch"
+      echo ">> 4: 'switch = []', staying on < $current_branch > branch"
 
     fi
 
@@ -89,10 +98,10 @@ if [[ -z "$data_env" ]]; then
 
     # ask about switching
     echo "-------------------------------------------------------------"
-    echo ">> 3: 'data_env = p', not on <production> branch"
+    echo ">> 3: 'data_env = p', not on < production > branch"
 
     echo "-------------------------------------------------------------"
-    read -p "Switch to <production> ? Yes [y] / No [*n] -- " -n 1 switch
+    read -p "Switch to < production > ? Yes [y] / No [*n] -- " -n 1 switch
     printf "\n"
 
     # switch branch, or not
@@ -100,7 +109,7 @@ if [[ -z "$data_env" ]]; then
     if [[ "$switch" == "y" ]]; then
 
       echo "-------------------------------------------------------------"
-      echo ">> 4: 'switch = y', switching to <production> branch"
+      echo ">> 4: 'switch = y', switching to < production > branch"
 
       git checkout production
       git pull
@@ -109,13 +118,13 @@ if [[ -z "$data_env" ]]; then
 
       # don't switch
       echo "-------------------------------------------------------------"
-      echo ">> 4: 'switch = n', staying on <$current_branch> branch"
+      echo ">> 4: 'switch = n', staying on < $current_branch > branch"
 
     else
 
       # don't switch
       echo "-------------------------------------------------------------"
-      echo ">> 4: 'switch = []', staying on <$current_branch> branch"
+      echo ">> 4: 'switch = []', staying on < $current_branch > branch"
 
     fi
 
@@ -123,7 +132,7 @@ if [[ -z "$data_env" ]]; then
   
     # stay on this branch
     echo "-------------------------------------------------------------"
-    echo ">> 3: on <$current_branch>"
+    echo ">> 3: on < $current_branch >"
 
   fi
 
@@ -173,16 +182,16 @@ else
     elif [[ "$data_env" == "p" ]] && [[ "$current_branch" != "production" ]]; then
 
       echo "-------------------------------------------------------------"
-      echo ">> 4: 'data_env = p', not on <production> branch"
+      echo ">> 4: 'data_env = p', not on < production > branch"
 
       echo "-------------------------------------------------------------"
-      read -p "Switch to <production> ? Yes [y] / No [*n] -- " -n 1 switch
+      read -p "Switch to < production > ? Yes [y] / No [*n] -- " -n 1 switch
       printf "\n"
 
       if [[ "$switch" == "y" ]]; then
 
         echo "-------------------------------------------------------------"
-        echo ">> 5: switching to <production> branch"
+        echo ">> 5: switching to < production > branch"
 
         git checkout production
         git pull
@@ -191,18 +200,18 @@ else
 
         # don't switch
         echo "-------------------------------------------------------------"
-        echo ">> 5: 'switch = n', staying on <$current_branch> branch"
+        echo ">> 5: 'switch = n', staying on < $current_branch > branch"
 
       else
         # don't switch
         echo "-------------------------------------------------------------"
-        echo ">> 5: 'switch = []', staying on <$current_branch> branch"
+        echo ">> 5: 'switch = []', staying on < $current_branch > branch"
 
       fi
 
     else
       echo "-------------------------------------------------------------"
-      echo ">> 4: staying on <$current_branch> branch"
+      echo ">> 4: staying on < $current_branch > branch"
 
     fi
 
@@ -210,18 +219,17 @@ else
 
     # don't switch
     echo "-------------------------------------------------------------"
-    echo ">> 5: 'switch = n', staying on <$current_branch> branch"
+    echo ">> 5: 'switch = n', staying on < $current_branch > branch"
 
   else
 
     # don't switch
     echo "-------------------------------------------------------------"
-    echo ">> 5: 'switch = []', staying on <$current_branch> branch"
+    echo ">> 5: 'switch = []', staying on < $current_branch > branch"
 
   fi
 fi
 
-echo "-------------------------------------------------------------"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # save current branch as an environment variable
@@ -241,14 +249,22 @@ read -p "Specify site repo branch (default = $current_branch): " site_branch
 
 if [[ -z "$site_branch" ]]; then
 
-    site_branch=$current_branch
     echo "-------------------------------------------------------------"
+    site_branch=$current_branch
     
 fi
 
 # ste env for R
 
 export site_branch=$site_branch
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# choose to export spark bars
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+echo "-------------------------------------------------------------"
+read -p "Run 'NR_sparkbars.py'? Yes [y] / No [*n] -- " -n 1 sparkbar
+printf "\n"
 
 #=========================================================================================#
 # R
@@ -283,42 +299,40 @@ echo ">>> EXP_TimePeriods_json"
 Rscript "$base_dir/export-scripts/EXP_TimePeriods_json.R"
 
 #-----------------------------------------------------------------------------------------#
-# NR viz data (for VegaLite)
+# EXP GeoLookup
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> NR_data_csv"
-Rscript "$base_dir/export-scripts/NR_data_csv.R"
+echo ">>> EXP_GeoLookup_csv"
+Rscript "$base_dir/export-scripts/EXP_GeoLookup_csv.R"
 
 #-----------------------------------------------------------------------------------------#
-# NR JSON data (for report)
+# NR data (for hugo & VegaLite)
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> NR_report_json"
-Rscript "$base_dir/export-scripts/NR_report_json.R"
+echo ">>> NR_data_json"
+Rscript "$base_dir/export-scripts/NR_data_json.R"
 
-#-----------------------------------------------------------------------------------------#
-# GeoLookup
-#-----------------------------------------------------------------------------------------#
-
-# echo ">>> EXP_GeoLookup_csv"
-# Rscript "$base_dir/export-scripts/EXP_GeoLookup_csv.R"
 
 #=========================================================================================#
 # Python
 #=========================================================================================#
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# Tell conda which environment to load
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+if [[ "$sparkbar" == "y" ]]; then
 
-# conda activate EHDP-data
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+  # Tell conda which environment to load
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-#-----------------------------------------------------------------------------------------#
-# NR spark bars
-#-----------------------------------------------------------------------------------------#
+  conda activate EHDP-data
 
-# echo ">>> NR_sparkbars"
-# python "$base_dir/export-scripts/NR_sparkbars.py"
+  #-----------------------------------------------------------------------------------------#
+  # NR spark bars
+  #-----------------------------------------------------------------------------------------#
+
+  echo ">>> NR_sparkbars"
+  python "$base_dir/export-scripts/NR_sparkbars.py"
+
+fi
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
