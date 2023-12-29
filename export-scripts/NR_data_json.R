@@ -189,7 +189,12 @@ if (current_branch == "production") {
     
 } else {
     
-    site_branch <- current_branch
+    site_branch <-
+        dlgInput(
+            message = "specify site repo branch",
+            default = current_branch,
+            rstudio = FALSE
+        )$res
     
 }
 
@@ -199,7 +204,7 @@ nr_content_links <-
     GET(
         paste0(
             "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
-            current_branch
+            site_branch
         )
     ) %>% 
     content(as = "text") %>% 
