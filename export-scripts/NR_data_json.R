@@ -67,7 +67,7 @@ if (base_dir == "") {
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# get or set server to use
+# server
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # get envionment var
@@ -97,7 +97,7 @@ if (server == "") {
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# get or set database to use
+# database
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # get envionment var
@@ -136,7 +136,7 @@ if (str_to_lower(data_env) == "s") {
 
 
 #-----------------------------------------------------------------------------------------#
-# Connecting to BESP_Indicator
+# Connect to database
 #-----------------------------------------------------------------------------------------#
 
 # determining driver to use (so script works across machines)
@@ -168,8 +168,21 @@ EHDP_odbc <-
     )
 
 
+#-----------------------------------------------------------------------------------------#
+# create folders if they don't exist
+#-----------------------------------------------------------------------------------------#
+
+dir_create(
+    c(
+        path(base_dir, "neighborhood-reports/metadata"),
+        path(base_dir, "neighborhood-reports/data/report"),
+        path(base_dir, "neighborhood-reports/data/viz")
+    )
+)
+
+
 #=========================================================================================#
-# Pulling data ----
+# data ops ----
 #=========================================================================================#
 
 #-----------------------------------------------------------------------------------------#
@@ -272,10 +285,6 @@ NR_data_export <-
 # JSON data for Vega Lite viz and data download ----
 #=========================================================================================#
 
-#=========================================================================================#
-# JSON data for Vega Lite viz and data download ----
-#=========================================================================================#
-
 # Hugo will produce the CSVs this is looking for
 
 #-----------------------------------------------------------------------------------------#
@@ -358,23 +367,14 @@ viz_data_for_hugo <-
 
 
 #-----------------------------------------------------------------------------------------#
-# Saving ----
+# saving ----
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# create data folders if don't exist
+# one viz dataset for each report
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-dir_create(path(base_dir, "neighborhood-reports/data"))
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# saving one big data file, which hugo will split into data for each report
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# split by report, named using title
-
-# write JSON
+# split by report, named using title, then write JSON
 
 viz_data_for_hugo %>% 
     group_by(report) %>% 
@@ -386,15 +386,17 @@ viz_data_for_hugo %>%
             na = "null", 
             auto_unbox = TRUE
         ) %>% 
-            write_lines(paste0(base_dir, "/neighborhood-reports/data/viz ", unique(.x$report), ".json")),
+            write_file(path(base_dir, "neighborhood-reports/data/viz", unique(.x$report), ext = "json")),
         .keep = TRUE
     )
     
 
 
-#-----------------------------------------------------------------------------------------#
-# saving indicator names for the reports
-#-----------------------------------------------------------------------------------------#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# indicator names for the reports
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# get unique names and descriptions
 
 nr_indicator_names <- 
     viz_data_for_hugo %>% 
@@ -414,7 +416,7 @@ nr_indicator_names %>%
         na = "null", 
         auto_unbox = TRUE
     ) %>% 
-    write_lines(paste0(base_dir, "/neighborhood-reports/data/nr_indicator_names.json"))
+    write_file(path(base_dir, "neighborhood-reports/metadata/nr_indicator_names.json"))
 
 
 #=========================================================================================#
@@ -505,11 +507,11 @@ report_data_for_hugo <-
 
 
 #-----------------------------------------------------------------------------------------#
-# Saving ----
+# saving ----
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# saving big report data file
+# one report dataset for each report x topic section
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 report_data_for_hugo %>% 
@@ -522,13 +524,10 @@ report_data_for_hugo %>%
             na = "null", 
             auto_unbox = TRUE
         ) %>% 
-            write_lines(
-                paste0(
-                    base_dir,
-                    "/neighborhood-reports/data/",
-                    "report ", unique(.x$report),
-                    " ", unique(.x$report_topic),
-                    ".json"
+            write_file(
+                path(
+                    base_dir, "neighborhood-reports/data/report",
+                    paste0(unique(.x$report), " ", unique(.x$report_topic), ".json")
                 )
             ),
         .keep = TRUE
@@ -536,7 +535,7 @@ report_data_for_hugo %>%
 
 
 #=========================================================================================#
-# Cleaning up ----
+# closing database connection ----
 #=========================================================================================#
 
 dbDisconnect(EHDP_odbc)

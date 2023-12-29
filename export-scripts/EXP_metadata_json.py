@@ -25,11 +25,11 @@ import numpy as np
 warnings.simplefilter("ignore")
 
 #-----------------------------------------------------------------------------------------#
-# Connecting to BESP_Indicator database
+# get and set env vars
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# get base_dir for absolute path
+# base_dir for absolute path
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # get environemnt var
@@ -58,7 +58,7 @@ if (base_dir == ""):
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# get or set server to use
+# server
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # get envionment var
@@ -85,7 +85,7 @@ if (server == ""):
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# get or set database to use
+# database
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 # get envionment var
@@ -146,14 +146,20 @@ else:
     driver = "SQL Server"
 
 #-----------------------------------------------------------------------------------------#
-# Connecting to database
+# Connect to database
 #-----------------------------------------------------------------------------------------#
 
 EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=" + server + ";DATABASE=" + db_name + ";Trusted_Connection=yes;trustservercertificate=yes")
 
+#-----------------------------------------------------------------------------------------#
+# create folders if they don't exist
+#-----------------------------------------------------------------------------------------#
+
+os.makedirs(base_dir + "/indicators/metadata/", exist_ok = True)
+
 
 #=========================================================================================#
-# Pulling & writing data
+# data ops
 #=========================================================================================#
 
 EXP_metadata = (
@@ -624,11 +630,11 @@ metadata = (
 
 
 #-----------------------------------------------------------------------------------------#
-# saving file
+# saving files
 #-----------------------------------------------------------------------------------------#
 
-metadata.to_json(base_dir + "/indicators/metadata_pretty.json", orient = "records", indent = 2)
-metadata.to_json(base_dir + "/indicators/metadata.json", orient = "records", indent = 0)
+metadata.to_json(base_dir + "/indicators/metadata/metadata_pretty.json", orient = "records", indent = 2)
+metadata.to_json(base_dir + "/indicators/metadata/metadata.json", orient = "records", indent = 0)
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
