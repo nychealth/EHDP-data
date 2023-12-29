@@ -215,7 +215,7 @@ comparisons_json <- comparisons_nested %>% toJSON(pretty = FALSE, null = "null",
 # write
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-write_file(comparisons_json, path(base_dir, "indicators/comparisons.json"))
+write_file(comparisons_json, path(base_dir, "indicators/metadata/comparisons.json"))
 
 
 #=========================================================================================#
