@@ -20,7 +20,7 @@ suppressWarnings(suppressMessages(library(dbplyr)))
 suppressWarnings(suppressMessages(library(odbc)))
 suppressWarnings(suppressMessages(library(lubridate)))
 suppressWarnings(suppressMessages(library(fs)))
-suppressWarnings(suppressMessages(library(jsonlite)))
+suppressWarnings(suppressMessages(library(jsonlite))) # needs to be version 1.8.4
 suppressWarnings(suppressMessages(library(rlang)))
 suppressWarnings(suppressMessages(library(sf)))
 suppressWarnings(suppressMessages(library(svDialogs)))
@@ -589,11 +589,20 @@ geolookup <-
     select(-roworder)
 
 #-----------------------------------------------------------------------------------------#
-# savcing ----
+# saving ----
 #-----------------------------------------------------------------------------------------#
 
-write_csv(geolookup, "geography/GeoLookup.csv", na = "", progress = FALSE)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# converting to JSON
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+geolookup_json <- geolookup %>% toJSON(dataframe = "columns", pretty = FALSE, null = "null", na = "null")
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# write
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+write_file(geolookup_json, path(base_dir, "geography/GeoLookup.json"))
 
 #=========================================================================================#
 # closing database connection ----
