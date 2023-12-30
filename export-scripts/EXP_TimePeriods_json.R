@@ -202,7 +202,7 @@ TimePeriods <-
 # converting to JSON
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-TimePeriods_json <- TimePeriods %>% toJSON(dataframe = "columns", pretty = FALSE, null = "null", na = "null")
+TimePeriods_json <- TimePeriods %>% toJSON(dataframe = "rows", pretty = FALSE, null = "null", na = "null")
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # writing
