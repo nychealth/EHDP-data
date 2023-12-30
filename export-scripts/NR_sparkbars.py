@@ -57,7 +57,7 @@ def chart_fun(ind, df, base_dir, conda_prefix):
     # - filter by data field name to create dataset
 
     dset = df[df.indicator_data_name == df['indicator_data_name'][ind]]
-    dset = dset.sort_values('data_value')
+    dset = dset.sort_values('unmodified_data_value_geo_entity')
 
     # - use Altair, the python connector to Vega-Lite
     # - https://altair-viz.github.io/getting_started/overview.html
@@ -67,7 +67,7 @@ def chart_fun(ind, df, base_dir, conda_prefix):
             .mark_bar()
             .encode(
                 x = alt.X('neighborhood', sort = 'y', axis = None),
-                y = alt.Y('data_value', axis = None),
+                y = alt.Y('unmodified_data_value_geo_entity', axis = None),
                 
                 # The highlight will be set on the result of a conditional statement
                 
@@ -150,7 +150,7 @@ for file in data_files:
     
     df = pd.DataFrame(
         df, 
-        columns = ['indicator_data_name', 'neighborhood', 'data_value', 'geo_join_id']
+        columns = ['indicator_data_name', 'neighborhood', 'unmodified_data_value_geo_entity', 'geo_join_id']
     )
     
     # - then loop through the list
