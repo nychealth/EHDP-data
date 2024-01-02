@@ -575,15 +575,12 @@ measure_geotypes <-
     select(
         IndicatorID,
         MeasureID,
-        GeoType,
-        GeoTypeDescription
+        AvailableGeoTypes = GeoType
     ) %>% 
     distinct() %>% 
-    group_by(
-        IndicatorID,
-        MeasureID
-    ) %>% 
-    group_nest(.key = "AvailableGeoTypes", keep = FALSE)
+    group_by(IndicatorID, MeasureID) %>% 
+    summarise(AvailableGeoTypes = list(unname(unlist(AvailableGeoTypes)))) %>% 
+    ungroup()
 
 
 #-----------------------------------------------------------------------------------------#
