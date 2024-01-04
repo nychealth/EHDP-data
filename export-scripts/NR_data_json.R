@@ -412,7 +412,7 @@ nr_indicator_names <-
 
 nr_indicator_names %>% 
     toJSON(
-        dataframe = "rows",
+        dataframe = "columns",
         pretty = TRUE, 
         na = "null", 
         auto_unbox = TRUE
