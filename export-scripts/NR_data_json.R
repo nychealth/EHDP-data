@@ -401,12 +401,12 @@ viz_data_for_hugo %>%
 nr_indicator_names <- 
     viz_data_for_hugo %>% 
     select(title = report, indicator_name, indicator_description) %>% 
-    distinct() %>% 
-    summarise(
-        title = list(unlist(title)),
-        indicator_names = list(unlist(indicator_name)),
-        indicator_descriptions = list(unlist(indicator_description))
-    )
+    distinct() # %>% 
+    # summarise(
+    #     title = list(unlist(title)),
+    #     indicator_names = list(unlist(indicator_name)),
+    #     indicator_descriptions = list(unlist(indicator_description))
+    # )
 
 # write JSON
 
