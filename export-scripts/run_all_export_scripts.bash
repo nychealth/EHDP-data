@@ -235,7 +235,7 @@ fi
 # save current branch as an environment variable
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-$Env:current_branch = $current_branch
+export current_branch=$current_branch
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # set site branch
@@ -264,8 +264,8 @@ export site_branch=$site_branch
 
 echo "-------------------------------------------------------------"
 read -p "Run 'NR_sparkbars.py'? Yes [y] / No [*n] -- " -n 1 sparkbar
-echo "-------------------------------------------------------------"
 printf "\n"
+echo "-------------------------------------------------------------"
 
 #=========================================================================================#
 # R
@@ -303,8 +303,8 @@ Rscript "$base_dir/export-scripts/EXP_TimePeriods_json.R"
 # EXP GeoLookup
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_GeoLookup_csv"
-Rscript "$base_dir/export-scripts/EXP_GeoLookup_csv.R"
+echo ">>> EXP_GeoLookup_json"
+Rscript "$base_dir/export-scripts/EXP_GeoLookup_json.R"
 
 #-----------------------------------------------------------------------------------------#
 # NR data (for hugo & VegaLite)

@@ -337,9 +337,9 @@ Rscript $base_dir\export-scripts\EXP_TimePeriods_json.R
 # EXP GeoLookup
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_GeoLookup_csv"
+Write-Output ">>> EXP_GeoLookup_json"
 
-Rscript $base_dir\export-scripts\EXP_GeoLookup_csv.R
+Rscript $base_dir\export-scripts\EXP_GeoLookup_json.R
 
 #-----------------------------------------------------------------------------------------#
 # NR data (for hugo & VegaLite)
