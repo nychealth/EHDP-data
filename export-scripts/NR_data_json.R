@@ -61,7 +61,7 @@ if (base_dir == "") {
     
     # set environment var
     
-    Sys.setenv(base_dir = base_dir)
+    Sys.setenv("base_dir" = base_dir)
 
 } 
 
@@ -84,13 +84,13 @@ if (server == "") {
         
         server <- "SQLIT04A"
         
-        Sys.setenv(server = server)
+        Sys.setenv("server" = server)
 
     } else {
 
         server <- "DESKTOP-PU7DGC1"
         
-        Sys.setenv(server = server)
+        Sys.setenv("server" = server)
 
     }
 }
@@ -114,7 +114,7 @@ if (data_env == "") {
             rstudio = FALSE
         )$res
     
-    Sys.setenv(data_env = data_env)
+    Sys.setenv("data_env" = data_env)
 
 } 
 
@@ -133,6 +133,30 @@ if (str_to_lower(data_env) == "s") {
     db_name <- "BESP_Indicator"
     
 }
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# site branch
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+site_branch <- Sys.getenv("site_branch")
+
+if (site_branch == "") {
+    
+    current_branch <- git_branch()
+    
+    # ask and set
+    
+    site_branch <-
+        dlgInput(
+            message = paste0("specify site repo branch (default = ", current_branch, ")"),
+            default = current_branch,
+            rstudio = FALSE
+        )$res
+    
+    Sys.setenv("site_branch" = site_branch)
+    
+} 
 
 
 #-----------------------------------------------------------------------------------------#
@@ -195,16 +219,43 @@ dir_create(
 
 # download yaml file
 
-nr_content_links <- 
-    GET(
-        paste0(
-            "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
-            Sys.getenv("site_branch")
+# ==== try GitHub API ==== #
+
+api_res <- GET("https://api.github.com")
+
+if (str_detect(api_res$url, "api.github.com")) {
+    
+    # if it works, use API to get list of NR_content directory
+    
+    nr_content_links <- 
+        GET(
+            paste0(
+                "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
+                Sys.getenv("site_branch")
+            )
+        ) %>% 
+        content(as = "text") %>% 
+        fromJSON() %>%
+        pull(download_url)
+    
+} else {
+    
+    # if it doesn't, just loop over the usual list
+
+    nr_content <- c("active_design.yml", "asthma.yml", "climate.yml", "housing.yml", "outdoor.yml")
+    
+    nr_content_links <- 
+        nr_content %>% 
+        map_chr(
+            ~ paste0(
+                "https://raw.githubusercontent.com/nychealth/EH-dataportal/", 
+                Sys.getenv("site_branch"), "/data/globals/NR_content/", .x
+            )
         )
-    ) %>% 
-    content(as = "text") %>% 
-    fromJSON() %>%
-    pull(download_url)
+    
+}
+
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # map over YAML files to get measure_ids
