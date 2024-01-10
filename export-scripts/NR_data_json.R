@@ -73,10 +73,9 @@ if (base_dir == "") {
 # get envionment var
 
 server <- Sys.getenv("server")
+computername <- Sys.getenv("COMPUTERNAME")
 
 if (server == "") {
-
-    computername <- Sys.getenv("COMPUTERNAME")
 
     if (computername != "DESKTOP-PU7DGC1") {
         
@@ -94,6 +93,7 @@ if (server == "") {
 
     }
 }
+
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -178,18 +178,63 @@ odbc_driver <-
 if (length(odbc_driver) == 0) odbc_driver <- "SQL Server"
 
 
-# using Windows auth with no DSN
+# decide how to connect to database based on computer name, necessary because we drop a table
 
-EHDP_odbc <-
-    dbConnect(
-        drv = odbc::odbc(),
-        driver = paste0("{", odbc_driver, "}"),
-        server = server,
-        database = db_name,
-        trusted_connection = "yes",
-        encoding = "utf8",
-        trustservercertificate = "yes"
-    )
+
+if (computername != "DESKTOP-PU7DGC1") {
+    
+    # check for password in env var
+    
+    bespadmin <- Sys.getenv("bespadmin")
+    
+    # if no env var, ask for it
+    
+    if (bespadmin == "") {
+        
+        bespadmin <-
+            dlgInput(
+                message = "Enter password for bespadmin",
+                rstudio = FALSE
+            )$res
+    
+    }
+    
+    # set env var
+    
+    Sys.setenv("bespadmin" = bespadmin)
+    
+    # connect using uid and pwd
+    
+    EHDP_odbc <-
+        dbConnect(
+            drv = odbc::odbc(),
+            driver = paste0("{", odbc_driver, "}"),
+            server = server,
+            database = db_name,
+            uid = "bespadmin",
+            pwd = bespadmin,
+            encoding = "utf8",
+            trustservercertificate = "yes"
+        )
+    
+} else {
+    
+    
+    # using Windows auth with no DSN
+    
+    EHDP_odbc <-
+        dbConnect(
+            drv = odbc::odbc(),
+            driver = paste0("{", odbc_driver, "}"),
+            server = server,
+            database = db_name,
+            trusted_connection = "yes",
+            encoding = "utf8",
+            trustservercertificate = "yes"
+        )
+    
+}
+
 
 
 #-----------------------------------------------------------------------------------------#
@@ -296,11 +341,9 @@ nr_indicators <-
 
 # overwrite every time this script is run, but persist between runs
 
-EHDP_odbc %>% dbExecute("IF object_id('tempdb..#nr_indicators') IS NOT NULL DROP TABLE #nr_indicators")
-
 dbWriteTable(
     EHDP_odbc,
-    name = "#nr_indicators",
+    name = "nr_indicators",
     value = nr_indicators,
     append = FALSE,
     overwrite = TRUE
