@@ -42,13 +42,8 @@ if (base_dir == ""):
     os.environ["base_dir"] = base_dir
 
 
-data_files = [
-    "Housing_and_Health_data.csv",
-    "Outdoor_Air_and_Health_data.csv",
-    "Active_Design_Physical_Activity_and_Health_data.csv",
-    "Asthma_and_the_Environment_data.csv",
-    "Climate_and_Health_data.csv"
-]
+data_files = os.listdir(base_dir + "/neighborhood-reports/data/viz/")
+
 
 # looping through files (run this in parallel)
 
@@ -58,7 +53,7 @@ file = data_files[0]
 
 print("> ", file)
 
-df = pd.read_csv(base_dir + "/neighborhood-reports/data/" + file)
+df = pd.read_json(base_dir + "/neighborhood-reports/data/viz/" + file)
 
 # convert End Date to date data type
 

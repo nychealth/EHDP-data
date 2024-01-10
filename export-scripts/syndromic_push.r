@@ -6,7 +6,7 @@ library(readr)
 library(gert)
 library(fs)
 
-git_config_set("pull.ff", "only")
+# git_config_set("pull.ff", "only")
 
 # make sure R is in the git repo directory
 setwd(path(path_home(), "EHDP-data"))
@@ -20,8 +20,8 @@ git_fetch("origin")
 git_branch_checkout("production")
 
 # pull all changes on production
-# system("git pull --all")
-git_pull("origin")
+system("git pull -X theirs --ff --no-edit")
+# git_pull("origin")
 
 # set long file path in object
 heat_syndrome_dir <- "~/networkDrives/smb-share:server=sasshare01,share=sasshare/EHS/BESP/SecuredFolder/Syndromic/Heat_ED/EH data portal/live_data/EHDP-data/datafeatures/heatsyndrome"

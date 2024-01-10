@@ -50,7 +50,7 @@ if (!$Env:data_env) {
     Write-Host ">> 1: `$Env:data_env = []"
 
     Write-Host "-------------------------------------------------------------"
-    $Env:data_env = (Read-Host "staging [*s] or production [p]? ").ToLower().Trim()[0]
+    $Env:data_env = (Read-Host "staging [*s] or production [p]? -- ").ToLower().Trim()[0]
 
     # if nothing entered, default to staging
 
@@ -70,7 +70,7 @@ if (!$Env:data_env) {
         Write-Host ">> 3: `$Env:data_env = s, not on < staging > branch"
 
         Write-Host "-------------------------------------------------------------"
-        $switch = (Read-Host "Switch to < staging >? Yes [y] / No [*n] ").ToLower().Trim()[0]
+        $switch = (Read-Host "Switch to < staging >? Yes [y] / No [*n] -- ").ToLower().Trim()[0]
 
         # switch branch, or not
 
@@ -107,7 +107,7 @@ if (!$Env:data_env) {
         Write-Host ">> 3: `$Env:data_env = p, not on < production > branch"
 
         Write-Host "-------------------------------------------------------------"
-        $switch = (Read-Host "Switch to < production > ? Yes [y] / No [*n] ").ToLower().Trim()[0]
+        $switch = (Read-Host "Switch to < production > ? Yes [y] / No [*n] -- ").ToLower().Trim()[0]
 
         # switch branch, or not
 
@@ -156,7 +156,7 @@ if (!$Env:data_env) {
     # if the $Env:data_env does exist, ask about chanaging it
 
     Write-Host "-------------------------------------------------------------"
-    $switch = (Read-Host "`$Env:data_env = $Env:data_env ... Switch environment? Yes [y] / No [*n] ").ToLower().Trim()[0]
+    $switch = (Read-Host "`$Env:data_env = $Env:data_env ... Switch environment? Yes [y] / No [*n] -- ").ToLower().Trim()[0]
 
     # change environment by overwriting $Env:data_env
 
@@ -166,7 +166,7 @@ if (!$Env:data_env) {
         Write-Host ">> 2: switch '`$Env:data_env'"
 
         Write-Host "-------------------------------------------------------------"
-        $Env:data_env = (Read-Host "staging [*s] or production [p]? ").ToLower().Trim()[0]
+        $Env:data_env = (Read-Host "staging [*s] or production [p]? -- ").ToLower().Trim()[0]
 
         # if nothing entered, default to staging
 
@@ -185,7 +185,7 @@ if (!$Env:data_env) {
             Write-Host ">> 4: `$Env:data_env = s, not on staging branch"
 
             Write-Host "-------------------------------------------------------------"
-            $switch = (Read-Host "Switch to staging? Yes [y] / No [*n] ").ToLower().Trim()[0]
+            $switch = (Read-Host "Switch to staging? Yes [y] / No [*n] -- ").ToLower().Trim()[0]
 
             if ($switch -eq "y") {
 
@@ -204,7 +204,7 @@ if (!$Env:data_env) {
             Write-Host ">> 4: `$Env:data_env = p, not on < production > branch"
 
             Write-Host "-------------------------------------------------------------"
-            $switch = (Read-Host "Switch to < production > ? Yes [y] / No [*n] ").ToLower().Trim()[0]
+            $switch = (Read-Host "Switch to < production > ? Yes [y] / No [*n] -- ").ToLower().Trim()[0]
 
             if ($switch -eq "y") {
 
@@ -255,6 +255,45 @@ if (!$Env:data_env) {
 
 }
 
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# save current branch as an environment variable
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+$Env:current_branch = $current_branch
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# set site branch
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# ask user
+
+if ($current_branch -notin "production", "staging") {
+
+    Write-Host "-------------------------------------------------------------"
+    $site_branch = (Read-Host "specify site repo branch (default = $current_branch)")
+
+}
+
+# if no value, set to current branch
+
+if ([string]::IsNullOrWhiteSpace($site_branch)) {
+
+    $site_branch = $current_branch
+
+}
+
+# ste env for R
+
+$Env:site_branch = $site_branch
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# choose to export spark bars
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+Write-Host "-------------------------------------------------------------"
+$sparkbar = (Read-Host "Run 'NR_sparkbars.py'? Yes [y] / No [*n] -- ").ToLower().Trim()[0]
 Write-Host "-------------------------------------------------------------"
 
 
@@ -266,77 +305,72 @@ Write-Host "-------------------------------------------------------------"
 # EXP data
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_indicator_data_writer"
+Write-Output ">>> EXP_data_json"
 
-Rscript $base_dir\export-scripts\EXP_indicator_data_writer.R
+Rscript $base_dir\export-scripts\EXP_data_json.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_indicator_metadata_writer"
+Write-Output ">>> EXP_metadata_json"
 
-Rscript $base_dir\export-scripts\EXP_indicator_metadata_writer.R
-
-#-----------------------------------------------------------------------------------------#
-# EXP comparisons metadata
-#-----------------------------------------------------------------------------------------#
-
-Write-Output ">>> EXP_measure_comparisons_writer"
-
-Rscript $base_dir\export-scripts\EXP_measure_comparisons_writer.R
+Rscript $base_dir\export-scripts\EXP_metadata_json.R
 
 #-----------------------------------------------------------------------------------------#
-# NR viz data (for VegaLite)
+# EXP comparisons
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> NR_data_csv_writer"
+Write-Output ">>> EXP_comparisons_json"
 
-Rscript $base_dir\export-scripts\NR_data_csv_writer.R
-
-#-----------------------------------------------------------------------------------------#
-# NR JSON data (for report)
-#-----------------------------------------------------------------------------------------#
-
-Write-Output ">>> NR_data_writer"
-
-Rscript $base_dir\export-scripts\NR_data_writer.R
+Rscript $base_dir\export-scripts\EXP_comparisons_json.R
 
 #-----------------------------------------------------------------------------------------#
-# GeoLookup
+# EXP TimePeriods
 #-----------------------------------------------------------------------------------------#
 
-# Write-Output ">>> create_GeoLookup"
+Write-Output ">>> EXP_TimePeriods_json"
 
-# Rscript $base_dir\export-scripts\create_GeoLookup.R
+Rscript $base_dir\export-scripts\EXP_TimePeriods_json.R
+
+#-----------------------------------------------------------------------------------------#
+# EXP GeoLookup
+#-----------------------------------------------------------------------------------------#
+
+Write-Output ">>> EXP_GeoLookup_json"
+
+Rscript $base_dir\export-scripts\EXP_GeoLookup_json.R
+
+#-----------------------------------------------------------------------------------------#
+# NR data (for hugo & VegaLite)
+#-----------------------------------------------------------------------------------------#
+
+Write-Output ">>> NR_data_json"
+
+Rscript $base_dir\export-scripts\NR_data_json.R
 
 
 #=========================================================================================#
 # Python
 #=========================================================================================#
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# Tell conda which environment to load
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+if ($sparkbar -eq "y") {
 
-# conda activate EHDP-data
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    # Tell conda which environment to load
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-#-----------------------------------------------------------------------------------------#
-# EXP metadata
-#-----------------------------------------------------------------------------------------#
+    conda activate EHDP-data
 
-# Write-Output ">>> EXP_indicator_metadata_writer"
+    #-----------------------------------------------------------------------------------------#
+    # NR spark bars
+    #-----------------------------------------------------------------------------------------#
 
-# python $base_dir\export-scripts\EXP_indicator_metadata_writer.py
+    Write-Output ">>> NR_sparkbars"
 
-#-----------------------------------------------------------------------------------------#
-# NR spark bars
-#-----------------------------------------------------------------------------------------#
+    python $base_dir\export-scripts\NR_sparkbars.py
 
-# Write-Output ">>> NR_SparkBarExport"
-
-# python $base_dir\export-scripts\NR_SparkBarExport.py
-
+}
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
