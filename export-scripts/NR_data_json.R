@@ -296,9 +296,11 @@ nr_indicators <-
 
 # overwrite every time this script is run, but persist between runs
 
+EHDP_odbc %>% dbExecute("IF object_id('tempdb..#nr_indicators') IS NOT NULL DROP TABLE #nr_indicators")
+
 dbWriteTable(
     EHDP_odbc,
-    name = "nr_indicators",
+    name = "#nr_indicators",
     value = nr_indicators,
     append = FALSE,
     overwrite = TRUE
