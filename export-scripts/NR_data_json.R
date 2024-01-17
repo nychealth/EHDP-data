@@ -155,7 +155,7 @@ if (site_branch == "") {
         )$res
     
     Sys.setenv("site_branch" = site_branch)
-    
+        
 } 
 
 
@@ -299,7 +299,6 @@ if (str_detect(api_res$url, "api.github.com")) {
         )
     
 }
-
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
