@@ -582,12 +582,16 @@ report_data_for_hugo <-
         end_date
     ) %>% 
     arrange(
+        report,
+        report_topic,
         geo_type,
         geo_entity_id,
         MeasureID,
         desc(end_date)
     ) %>% 
     distinct(
+        report,
+        report_topic,
         geo_type,
         geo_entity_id,
         MeasureID,
