@@ -266,27 +266,10 @@ $Env:current_branch = $current_branch
 # set site branch
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# if not prod or staging, ask user
+# ask user
 
-if ($current_branch -notin "production", "staging") {
-
-    Write-Host "-------------------------------------------------------------"
-    $site_branch = (Read-Host "specify site repo branch (default = $current_branch)")
-
-} else {
-
-    # if staging, set to development, else production
-
-    if ($current_branch -in "staging") {
-
-        $site_branch = "development"
-
-    } else {
-
-        $site_branch = "production"
-
-    }
-}
+Write-Host "-------------------------------------------------------------"
+$site_branch = (Read-Host "specify site repo branch (default = $current_branch)")
 
 # if no value, set to current branch
 
