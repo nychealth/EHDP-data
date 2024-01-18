@@ -178,63 +178,19 @@ odbc_driver <-
 if (length(odbc_driver) == 0) odbc_driver <- "SQL Server"
 
 
-# decide how to connect to database based on computer name, necessary because we drop a table
+# using Windows auth with no DSN
 
-
-if (computername != "DESKTOP-PU7DGC1") {
+EHDP_odbc <-
+    dbConnect(
+        drv = odbc::odbc(),
+        driver = paste0("{", odbc_driver, "}"),
+        server = server,
+        database = db_name,
+        trusted_connection = "yes",
+        encoding = "utf8",
+        trustservercertificate = "yes"
+    )
     
-    # check for password in env var
-    
-    bespadmin <- Sys.getenv("bespadmin")
-    
-    # if no env var, ask for it
-    
-    if (bespadmin == "") {
-        
-        bespadmin <-
-            dlgInput(
-                message = "Enter password for bespadmin",
-                rstudio = FALSE
-            )$res
-    
-    }
-    
-    # set env var
-    
-    Sys.setenv("bespadmin" = bespadmin)
-    
-    # connect using uid and pwd
-    
-    EHDP_odbc <-
-        dbConnect(
-            drv = odbc::odbc(),
-            driver = paste0("{", odbc_driver, "}"),
-            server = server,
-            database = db_name,
-            uid = "bespadmin",
-            pwd = bespadmin,
-            encoding = "utf8",
-            trustservercertificate = "yes"
-        )
-    
-} else {
-    
-    
-    # using Windows auth with no DSN
-    
-    EHDP_odbc <-
-        dbConnect(
-            drv = odbc::odbc(),
-            driver = paste0("{", odbc_driver, "}"),
-            server = server,
-            database = db_name,
-            trusted_connection = "yes",
-            encoding = "utf8",
-            trustservercertificate = "yes"
-        )
-    
-}
-
 
 
 #-----------------------------------------------------------------------------------------#
