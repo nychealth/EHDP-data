@@ -11598,23 +11598,28 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295],
+                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295],
+                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 252, 259, 279, 283, 295]
+                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 252, 259, 279, 283, 295]
+                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311]
               }
             ],
             "Links": [
@@ -12114,23 +12119,28 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285],
+                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 309],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285],
+                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 309],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 252, 259, 279, 283]
+                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 252, 259, 279, 283]
+                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311]
               }
             ],
             "Links": [
@@ -12606,23 +12616,28 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285],
+                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 310],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285],
+                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 310],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [251, 260, 280, 285, 291, 310],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285]
+                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285]
+                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310]
               }
             ],
             "Links": [
@@ -12848,23 +12863,28 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295],
+                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295],
+                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 252, 259, 279, 283, 295]
+                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 252, 259, 279, 283, 295]
+                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311]
               }
             ],
             "Links": [
@@ -41632,8 +41652,8 @@
     "Measures": [
       {
         "MeasureID": 1300,
-        "MeasureName": "Commuting modes, Number: Bicycle",
-        "MeasurementType": "Number: Bicycle",
+        "MeasureName": "Commuting modes, Bicycle (number)",
+        "MeasurementType": "Bicycle (number)",
         "how_calculated": "Estimated number of workers age 16 years and over who usually rode a bicycle to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
@@ -41729,8 +41749,8 @@
       },
       {
         "MeasureID": 1301,
-        "MeasureName": "Commuting modes, Number: Car, truck, or van",
-        "MeasurementType": "Number: Car, truck, or van",
+        "MeasureName": "Commuting modes, Car, truck, or van (number)",
+        "MeasurementType": "Car, truck, or van (number)",
         "how_calculated": "Estimated number of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources": "American Community Survey",
         "DisplayType": "",
@@ -41826,8 +41846,8 @@
       },
       {
         "MeasureID": 1302,
-        "MeasureName": "Commuting modes, Number: Public transportation",
-        "MeasurementType": "Number: Public transportation",
+        "MeasureName": "Commuting modes, Public transportation (number)",
+        "MeasurementType": "Public transportation (number)",
         "how_calculated": "Estimated number of workers age 16 years and over who usually took public transportation to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
@@ -41931,8 +41951,8 @@
       },
       {
         "MeasureID": 1303,
-        "MeasureName": "Commuting modes, Number: Walked",
-        "MeasurementType": "Number: Walked",
+        "MeasureName": "Commuting modes, Walked (number)",
+        "MeasurementType": "Walked (number)",
         "how_calculated": "Estimated number of workers age 16 years and over who usually walked to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
@@ -42028,8 +42048,8 @@
       },
       {
         "MeasureID": 1304,
-        "MeasureName": "Commuting modes, Percent: Bicycle",
-        "MeasurementType": "Percent: Bicycle",
+        "MeasureName": "Commuting modes, Bicycle (percent)",
+        "MeasurementType": "Bicycle (percent)",
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually rode a bicycle to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
@@ -42125,8 +42145,8 @@
       },
       {
         "MeasureID": 1305,
-        "MeasureName": "Commuting modes, Percent: Car, truck, or van",
-        "MeasurementType": "Percent: Car, truck, or van",
+        "MeasureName": "Commuting modes, Car, truck, or van (percent)",
+        "MeasurementType": "Car, truck, or van (percent)",
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources": "American Community Survey",
         "DisplayType": "",
@@ -42222,8 +42242,8 @@
       },
       {
         "MeasureID": 1306,
-        "MeasureName": "Commuting modes, Percent: Public transportation",
-        "MeasurementType": "Percent: Public transportation",
+        "MeasureName": "Commuting modes, Public transportation (percent)",
+        "MeasurementType": "Public transportation (percent)",
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually took public transportation to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
@@ -42319,8 +42339,8 @@
       },
       {
         "MeasureID": 1307,
-        "MeasureName": "Commuting modes, Percent: Walked",
-        "MeasurementType": "Percent: Walked",
+        "MeasureName": "Commuting modes, Walked (percent)",
+        "MeasurementType": "Walked (percent)",
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually walked to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
