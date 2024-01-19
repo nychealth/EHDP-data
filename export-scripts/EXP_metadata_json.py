@@ -19,7 +19,7 @@ import pandas as pd
 import easygui
 import os
 import warnings
-import re
+import regex
 import numpy as np
 
 warnings.simplefilter("ignore")
@@ -52,7 +52,7 @@ if (base_dir == ""):
         
         # if the current folder is below "EHDP-data", switch it
         
-        base_dir = re.sub(r"(.*EHDP-data)(.*)", r"\1", os.path.abspath("."))
+        base_dir = regex.sub(r"(.*EHDP-data)(.*)", r"\1", os.path.abspath("."))
         
     os.environ["base_dir"] = base_dir
 
