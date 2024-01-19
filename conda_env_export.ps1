@@ -16,7 +16,7 @@ conda activate EHDP-data
 # run export
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-conda env export > EHDP-data-conda-env.yaml
+conda env export --no-builds > EHDP-data-conda-env.yaml
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

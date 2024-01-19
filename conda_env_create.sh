@@ -10,7 +10,7 @@
 # run import
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-conda env create -f EHDP-data-conda-env.yaml -n EHDP-data
+conda env create -f EHDP-data-conda-env.yaml -n EHDP-data --experimental-solver libmamba
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # Tell conda which environment to use
