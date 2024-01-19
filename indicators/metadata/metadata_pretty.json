@@ -21357,21 +21357,17 @@
         "Sources": "New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Krewski D, et al. (2009) HEI Research Report 140. Health Effects Institute, Boston, MA",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -21393,7 +21389,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Links": [
@@ -21418,21 +21414,21 @@
         "Sources": "New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Krewski D, et al. (2009) HEI Research Report 140. Health Effects Institute, Boston, MA",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -21697,7 +21693,7 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "per 100,000 children",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
@@ -21707,11 +21703,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -21733,7 +21725,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Links": [
@@ -21758,7 +21750,7 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
@@ -21768,11 +21760,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -21794,7 +21782,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Links": [
@@ -21819,21 +21807,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -21880,21 +21868,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -21950,7 +21938,7 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75-90; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186/1476-069X-8-58",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
@@ -21960,11 +21948,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -21986,7 +21970,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Links": [
@@ -22011,21 +21995,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Moolgavkar SH (2000) Inhal Toxicol 12(Supp 4):75-90; Zanobetti etal.(2009) Environ Hlth 8:58. doi:10.1186/1476-069X-8-58",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22081,7 +22065,7 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Ito K et al (2011) Environ Hlth Persp, 119(4):467-473",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
@@ -22091,11 +22075,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22117,7 +22097,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Links": [
@@ -22142,21 +22122,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Ito K et al (2011) Environ Hlth Persp, 119(4):467-473",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22212,21 +22192,21 @@
         "Sources": "New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547-562",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22273,21 +22253,21 @@
         "Sources": "New York City Bureau of Vital Statistics; United States Census ; USEPA Air Quality System; Huang Y et al. (2005) Environmetrics 16:547-562",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22343,21 +22323,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "per 100,000 children",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22404,21 +22384,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22465,21 +22445,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22526,21 +22506,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22596,21 +22576,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
         "DisplayType": "per 100,000 children",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22657,21 +22637,21 @@
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22718,21 +22698,21 @@
         "Sources": "Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
@@ -22779,21 +22759,21 @@
         "Sources": "Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "AvailableTimePeriodIDs": [31, 177, 237, 278],
+        "AvailableTimePeriodIDs": [31, 177, 237, 278, 282],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [31, 177, 237, 278]
+                "TimePeriodID": [31, 177, 237, 278, 282]
               }
             ],
             "Map": [
