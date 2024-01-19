@@ -11,6 +11,7 @@ import os
 import warnings
 import subprocess
 import re
+import platform
 
 # prevent other warnings
 
@@ -20,6 +21,10 @@ warnings.simplefilter("ignore")
 
 base_dir = os.environ.get("base_dir", "")
 conda_prefix = os.environ.get("CONDA_PREFIX")
+
+# get system
+
+system = platform.system()
 
 if (base_dir == ""):
     
@@ -133,7 +138,12 @@ image_name = base_dir + '/neighborhood-reports/images/' + df['indicator_data_nam
 
 # use VL CLI program to create SVG
 
-chart_svg = subprocess.run('node ' + conda_prefix + '/Library/share/vega-lite-cli/node_modules/vega-lite/bin/vl2svg', input = chart_json, text = True, capture_output = True).stdout
+if (system == "Windows"):
+    vl2svg = 'node ' + conda_prefix + '/Library/share/vega-lite-cli/node_modules/vega-lite/bin/vl2svg'
+else:
+    vl2svg = "vl2svg"
+
+chart_svg = subprocess.run(vl2svg, input = chart_json, text = True, capture_output = True).stdout
 
 # - viewBox="0 0 310 110" must be removed for ModLab team
 # - also adding in preserveAspectRatio="none" to allow Modlab designers more flexibility
