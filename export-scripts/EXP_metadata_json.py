@@ -19,7 +19,7 @@ import pandas as pd
 import easygui
 import os
 import warnings
-import regex
+import re
 import numpy as np
 
 warnings.simplefilter("ignore")
