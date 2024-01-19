@@ -15,7 +15,7 @@ from joblib import Parallel, delayed
 
 # set cores
 
-cpus = (int(os.cpu_count()/2) - 1) if os.cpu_count() <= 8 else (int(os.cpu_count()/4) - 1)
+cpus = (int(os.cpu_count()/2) - 1) if os.cpu_count() <= 8 else 8
 
 # prevent other warnings
 
@@ -99,7 +99,7 @@ def chart_fun(ind, df, base_dir, conda_prefix):
 
     # use VL CLI program to create SVG
 
-    chart_svg = subprocess.run('node ' + conda_prefix + '/Library/share/vega-lite-cli/node_modules/vega-lite/bin/vl2svg', input = chart_json, text = True, capture_output = True).stdout
+    chart_svg = subprocess.run('vl2svg', input = chart_json, text = True, capture_output = True).stdout
 
     # - viewBox="0 0 310 110" must be removed for ModLab team
     # - also adding in preserveAspectRatio="none" to allow Modlab designers more flexibility
