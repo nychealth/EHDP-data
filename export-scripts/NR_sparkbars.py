@@ -10,7 +10,7 @@ import altair as alt
 import os
 import warnings
 import subprocess
-import regex
+import re
 from joblib import Parallel, delayed
 
 # set cores
