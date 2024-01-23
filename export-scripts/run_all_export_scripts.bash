@@ -324,6 +324,7 @@ if [[ "$sparkbar" == "y" ]]; then
   # Tell conda which environment to load
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+  eval "$(conda shell.bash hook)"
   conda activate EHDP-data
 
   #-----------------------------------------------------------------------------------------#
