@@ -20,6 +20,11 @@
     "indicator_description": "Adults reporting secondhand smoke at home. Secondhand smoke, especially indoors, is bad for health - particularly for the health of children."
   },
   {
+    "title": "climate",
+    "indicator_name": "Secondhand smoke at home",
+    "indicator_description": "Adults reporting secondhand smoke at home. Secondhand smoke, especially indoors, is bad for health - particularly for the health of children."
+  },
+  {
     "title": "asthma",
     "indicator_name": "Homes with cracks or holes",
     "indicator_description": "Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health."
@@ -70,6 +75,11 @@
     "indicator_description": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to items such as health care and good quality housing that are needed to maintain good health."
   },
   {
+    "title": "climate",
+    "indicator_name": "Neighborhood poverty",
+    "indicator_description": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to items such as health care and good quality housing that are needed to maintain good health."
+  },
+  {
     "title": "asthma",
     "indicator_name": "Homes with cockroaches",
     "indicator_description": "The presence of cockroaches in the home is often associated with poor housing maintenance. Cockroaches in the home can contaminate food and worsen asthma."
@@ -115,11 +125,6 @@
     "indicator_description": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions."
   },
   {
-    "title": "climate",
-    "indicator_name": "Ozone (O3)",
-    "indicator_description": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions."
-  },
-  {
     "title": "outdoor",
     "indicator_name": "Ozone (O3)",
     "indicator_description": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions."
@@ -138,11 +143,6 @@
     "title": "active_design",
     "indicator_name": "Overweight or obesity (adults)",
     "indicator_description": "People who are overweight or obese are at increased risk for heart disease and diabetes."
-  },
-  {
-    "title": "climate",
-    "indicator_name": "Heat stress: emergency department visits",
-    "indicator_description": "ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of extreme heat."
   },
   {
     "title": "housing",
@@ -268,11 +268,6 @@
     "title": "climate",
     "indicator_name": "Daytime summer surface temperature",
     "indicator_description": "Surface temperatures vary based on vegetative cover (which promotes cooling), as well as by materials that retain heat (like paved roads, sidewalks, and buildings). Hotter neighborhoods tend to have more heat-exacerbated deaths associated with extreme heat events."
-  },
-  {
-    "title": "climate",
-    "indicator_name": "Neighborhood Poverty (ACS)",
-    "indicator_description": "Neighborhood poverty measures residents' access to economic stability, education, adequate health care, safe housing and freedom from stress. Neighborhoods with higher poverty tend to have less access to these factors and experience worse health outcomes."
   },
   {
     "title": "climate",
