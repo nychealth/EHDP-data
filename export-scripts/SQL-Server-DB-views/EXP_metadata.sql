@@ -46,7 +46,7 @@ CREATE OR ALTER VIEW dbo.EXP_metadata AS
         LEFT JOIN internal_indicator   AS  ii ON ii.internal_id         = id.internal_id
         LEFT JOIN measurement_type     AS  mt ON mt.measurement_type_id = id.measurement_type_id
         LEFT JOIN display_data_type    AS ddt ON ddt.display_type_id    = id.display_type_id
-        LEFT JOIN Consolidated_Sources_by_IndicatorID AS cs ON cs.indicator_id = id.indicator_id
+        LEFT JOIN concat_sources AS cs ON cs.indicator_id = id.indicator_id
 
     WHERE 
         st.public_display_flag = 'Y' AND

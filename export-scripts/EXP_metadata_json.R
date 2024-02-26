@@ -413,25 +413,10 @@ measure_trend_time <-
     summarise(TimePeriodID = list(unname(unlist(TimePeriodID)))) %>% 
     ungroup()
 
-# GeoType
+# set "no compare" year
 
-# measure_trend_geo <- 
-#     EXP_metadata %>% 
-#     filter(Trend == 1) %>% 
-#     select(
-#         IndicatorID,
-#         MeasureID,
-#         GeoType
-#     ) %>% 
-#     distinct() %>% 
-#     left_join(
-#         distinct_measures,
-#         .,
-#         by = c("IndicatorID", "MeasureID")
-#     ) %>%     
-#     group_by(IndicatorID, MeasureID) %>% 
-#     summarise(GeoType = list(unname(unlist(GeoType)))) %>% 
-#     ungroup()
+
+
 
 # combining
 
