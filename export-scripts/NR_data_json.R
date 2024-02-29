@@ -327,9 +327,9 @@ NR_data_export <-
     mutate(
         indicator_short_name = 
             case_when(
-                MeasureID %in% child_measures ~ paste(indicator_short_name, "(children)"),
-                MeasureID %in% adult_measures ~ paste(indicator_short_name, "(adults)"),
-                .default ~ indicator_short_name
+                MeasureID %in% !!child_measures ~ paste(indicator_short_name, "(children)"),
+                MeasureID %in% !!adult_measures ~ paste(indicator_short_name, "(adults)"),
+                .default = indicator_short_name
             ),
         indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
         summary_bar_svg = str_replace(summary_bar_svg, "PM2\\.", "PM2-"),
