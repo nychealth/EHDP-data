@@ -22423,7 +22423,7 @@
     "Measures": [
       {
         "MeasureID": 653,
-        "MeasureName": "Ozone asthma ED visits (children), Estimated annual rate (under age 18)",
+        "MeasureName": "Ozone asthma ED visits, Estimated annual rate (under age 18)",
         "MeasurementType": "Estimated annual rate (under age 18)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents under 18 years of age.",
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
@@ -22484,7 +22484,7 @@
       },
       {
         "MeasureID": 659,
-        "MeasureName": "Ozone asthma ED visits (children), Estimated annual rate (age 18+)",
+        "MeasureName": "Ozone asthma ED visits, Estimated annual rate (age 18+)",
         "MeasurementType": "Estimated annual rate (age 18+)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents over 18 years of Age.",
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
@@ -22545,7 +22545,7 @@
       },
       {
         "MeasureID": 1179,
-        "MeasureName": "Ozone asthma ED visits (children), Estimated annual number (under age 18)",
+        "MeasureName": "Ozone asthma ED visits, Estimated annual number (under age 18)",
         "MeasurementType": "Estimated annual number (under age 18)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
@@ -22606,7 +22606,7 @@
       },
       {
         "MeasureID": 1180,
-        "MeasureName": "Ozone asthma ED visits (children), Estimated annual number (age 18+)",
+        "MeasureName": "Ozone asthma ED visits, Estimated annual number (age 18+)",
         "MeasurementType": "Estimated annual number (age 18+)",
         "how_calculated": "Estimate is based on the number of emergency department (ED) visits for asthma associated with the difference in air quality for indicator years relative to modeled natural background. Estimate is calculated using the acute risk of emergency department visits for asthma from the Ito K et al 2007 study conducted on NYC residents.",
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; USEPA Air Quality System; Ito K et al. (2007) J Expo Sci Environ Epidemiol 17:S45-S60",
@@ -22676,7 +22676,7 @@
     "Measures": [
       {
         "MeasureID": 655,
-        "MeasureName": "Ozone asthma hospitalizations (children), Estimated annual rate (under age 18)",
+        "MeasureName": "Ozone asthma hospitalizations, Estimated annual rate (under age 18)",
         "MeasurementType": "Estimated annual rate (under age 18)",
         "how_calculated": "Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background (modeled air quality levels under no man made air pollution emissions). Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents under 18 years of age.",
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
@@ -22737,7 +22737,7 @@
       },
       {
         "MeasureID": 661,
-        "MeasureName": "Ozone asthma hospitalizations (children), Estimated annual rate (age 18+)",
+        "MeasureName": "Ozone asthma hospitalizations, Estimated annual rate (age 18+)",
         "MeasurementType": "Estimated annual rate (age 18+)",
         "how_calculated": "Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background. Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents. Neighborhood estimates expressed as annual cases per 100,000 residents over 18 years of age.",
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS); US Census; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
@@ -22798,7 +22798,7 @@
       },
       {
         "MeasureID": 1181,
-        "MeasureName": "Ozone asthma hospitalizations (children), Estimated annual number (under age 18)",
+        "MeasureName": "Ozone asthma hospitalizations, Estimated annual number (under age 18)",
         "MeasurementType": "Estimated annual number (under age 18)",
         "how_calculated": "Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background (modeled air quality levels under no man made air pollution emissions). Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents.",
         "Sources": "Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
@@ -22859,7 +22859,7 @@
       },
       {
         "MeasureID": 1182,
-        "MeasureName": "Ozone asthma hospitalizations (children), Estimated annual number (age 18+)",
+        "MeasureName": "Ozone asthma hospitalizations, Estimated annual number (age 18+)",
         "MeasurementType": "Estimated annual number (age 18+)",
         "how_calculated": "Estimate is based on the number of hospitalizations for urgent asthma associated with the difference in air quality for indicator years relative to natural background (modeled air quality levels under no man made air pollution emissions). Estimate is calculated using the acute risk of hospitalization for urgent asthma from the Silverman et al 2010 study conducted on NYC residents.",
         "Sources": "Statewide Planning and Research Cooperative System; US EPA Air Quality System; Silverman RA, Ito K (2010) J Allergy Clin Immun 125(2):367-373",
