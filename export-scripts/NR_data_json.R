@@ -308,6 +308,9 @@ dbWriteTable(
 # pull from view
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# also account for some indicators having different measures for different age groups
+
+child_measures <- c(648, 653, 655, 1174, 1179, 1181)
 adult_measures <- c(657, 659, 661, 1175, 1180, 1182)
 
 NR_data_export <- 
@@ -318,8 +321,9 @@ NR_data_export <-
     mutate(
         indicator_short_name = 
             case_when(
-                MeasureID %in% adult_measures ~ str_replace(indicator_short_name, "\\(children\\)", "(adults)"),
-                TRUE ~ indicator_short_name
+                MeasureID %in% child_measures ~ paste(indicator_short_name, "(children)"),
+                MeasureID %in% adult_measures ~ paste(indicator_short_name, "(adults)"),
+                .default ~ indicator_short_name
             ),
         indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
         summary_bar_svg = str_replace(summary_bar_svg, "PM2\\.", "PM2-"),
