@@ -242,7 +242,13 @@ if (str_detect(api_res$url, "api.github.com")) {
     
     # if it doesn't, just loop over the usual list
 
-    nr_content <- c("active_design.yml", "asthma.yml", "climate.yml", "housing.yml", "outdoor.yml")
+    nr_content <- c(
+        "Active_Design_Physical_Activity_and_Health.yml", 
+        "Asthma_and_the_Environment.yml", 
+        "Climate_and_Health.yml", 
+        "Housing_and_Health.yml", 
+        "Outdoor_Air_and_Health.yml"
+    )
     
     nr_content_links <- 
         nr_content %>% 
@@ -400,12 +406,6 @@ viz_data_for_hugo <-
         by = "indicator_data_name",
         multiple = "all"
     ) %>% 
-    # left_join(
-    #     .,
-    #     nr_indicators,
-    #     by = c("MeasureID" = "indicator_id"),
-    #     relationship = "many-to-many"
-    # ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
     filter(
         has_annual == FALSE | (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
@@ -455,12 +455,7 @@ viz_data_for_hugo %>%
 nr_indicator_names <- 
     viz_data_for_hugo %>% 
     select(title = report, indicator_name, indicator_description) %>% 
-    distinct() # %>% 
-    # summarise(
-    #     title = list(unlist(title)),
-    #     indicator_names = list(unlist(indicator_name)),
-    #     indicator_descriptions = list(unlist(indicator_description))
-    # )
+    distinct()
 
 # write JSON
 
