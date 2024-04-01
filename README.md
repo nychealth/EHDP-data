@@ -36,7 +36,7 @@ This will involve deleting all data files from a copy of feature branch and the 
 2. On `production-merge-2023-12-28`, delete everything but READMEs and folders from `indicators`, `indicators/data`, `neighborhood-reports/data` and `neighborhood-reports/images`
 3. Commit the changes
 4. Create a new "merge" feature branch from the main feature branch, e.g. `feature-whatever` -> `feature-whatever-merge-2023-12-28`
-5. On `feature-whatever-merge-2023-12-28`, delete everything but READMEs and folders from `indicators`, `indicators/data`, `neighborhood-reports/data` and `neighborhood-reports/images`
+5. On `feature-whatever-merge-2023-12-28`, delete everything but READMEs and folders from `indicators/data`, `indicators/metadata`, `neighborhood-reports/data`, `neighborhood-reports/metadata` and `neighborhood-reports/images`
 6. Commit the changes
 7. Merge `feature-whatever-merge-2023-12-28` into `production-merge-2023-12-28`
 8. Run all data export scripts on `production-merge-2023-12-28`
