@@ -54,7 +54,7 @@ data_files = os.listdir(base_dir + "/neighborhood-reports/data/viz/")
 
 # for file in data_files:
 
-file = data_files[0]
+file = data_files[4]
 
 print("> ", file)
 
@@ -90,7 +90,7 @@ df = pd.DataFrame(
 
 # for ind in df.index:
 
-ind = df.index[0]
+ind = df.index[4]
 
 # - filter by data field name to create dataset
 
