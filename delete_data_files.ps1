@@ -1,4 +1,4 @@
-# deleting data files
+# deleting data files for merge
 
 $data_dirs = "indicators/data", "indicators/metadata", "neighborhood-reports/data/report", "neighborhood-reports/data/viz", "neighborhood-reports/metadata", "neighborhood-reports/images"
 
@@ -9,8 +9,4 @@ $svg_to_delete = Get-ChildItem -Path $data_dirs -Filter *.svg
 
 # now delete all the items
 
-Remove-Item $json_to_delete
-Remove-Item $svg_to_delete
-
-
-
+Remove-Item ($json_to_delete + $svg_to_delete)
