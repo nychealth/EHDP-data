@@ -31095,49 +31095,15 @@
             ],
             "Map": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
-                "RankReverse": 1
+                "GeoType": null,
+                "TimePeriodID": [],
+                "RankReverse": null
               }
             ],
             "Trend": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
