@@ -16,7 +16,6 @@ CREATE OR ALTER VIEW dbo.EXP_data AS
         gt.geo_type_name     AS GeoType,
         iy.year_id           AS TimePeriodID,
         un.character_display AS flag,
-        -- si.ban_summary_flag,
         mt.number_decimal_ind,
 
         -- null out value when show data = 0
