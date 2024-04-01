@@ -7,7 +7,7 @@ CREATE OR ALTER VIEW [dbo].[concat_sources] AS
 
     SELECT
         si.indicator_id,
-        STRING_AGG(src.description, '; ') AS source_list
+        STRING_AGG(src.description, '; ') WITHIN GROUP (ORDER BY src.source_id) AS source_list
 
     FROM source AS src
         INNER JOIN source_indicator AS si ON si.source_id = src.source_id
