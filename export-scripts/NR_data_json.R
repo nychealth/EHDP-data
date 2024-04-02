@@ -31,108 +31,19 @@ suppressWarnings(suppressMessages(library(httr)))
 # get and set env vars
 #-----------------------------------------------------------------------------------------#
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# base_dir for absolute path
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# find script
 
-# get envionment var
+set_environment_loc <-
+    list.files(
+        getwd(),
+        pattern = "set_environment.R",
+        full.names = TRUE,
+        recursive = TRUE
+    )
 
-base_dir <- Sys.getenv("base_dir")
+# run script
 
-if (base_dir == "") {
-    
-    # get the current folder
-    
-    this_dir <- last(unlist(path_split(path_abs("."))))
-    
-    # if the current folder is "EHDP-data", use the absolute path to it
-    
-    if (this_dir == "EHDP-data") {
-        
-        base_dir <- path_abs(".")
-        
-    } else {
-        
-        # if the current folder is below "EHDP-data", switch it
-        
-        base_dir <- path(str_replace(path_abs("."), "(.*/EHDP-data)(.*)", "\\1"))
-        
-    }
-    
-    # set environment var
-    
-    Sys.setenv("base_dir" = base_dir)
-
-} 
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# server
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# get envionment var
-
-server <- Sys.getenv("server")
-computername <- Sys.getenv("COMPUTERNAME")
-
-if (server == "") {
-
-    if (computername != "DESKTOP-PU7DGC1") {
-        
-        # default to network server
-        
-        server <- "SQLIT04A"
-        
-        Sys.setenv("server" = server)
-
-    } else {
-
-        server <- "DESKTOP-PU7DGC1"
-        
-        Sys.setenv("server" = server)
-
-    }
-}
-
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# database
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# get envionment var
-
-data_env <- Sys.getenv("data_env")
-
-if (data_env == "") {
-    
-    # ask and set
-    
-    data_env <-
-        dlgInput(
-            message = "staging [s] or production [p]?",
-            rstudio = FALSE
-        )$res
-    
-    Sys.setenv("data_env" = data_env)
-
-} 
-
-# set DB name
-
-if (str_to_lower(data_env) == "s") {
-    
-    # staging
-    
-    db_name <- "BESP_IndicatorAnalysis"
-    
-} else if (str_to_lower(data_env) == "p") {
-    
-    # production
-    
-    db_name <- "BESP_Indicator"
-    
-}
+source(set_environment_loc)
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -242,7 +153,13 @@ if (str_detect(api_res$url, "api.github.com")) {
     
     # if it doesn't, just loop over the usual list
 
-    nr_content <- c("active_design.yml", "asthma.yml", "climate.yml", "housing.yml", "outdoor.yml")
+    nr_content <- c(
+        "Active_Design_Physical_Activity_and_Health.yml", 
+        "Asthma_and_the_Environment.yml", 
+        "Climate_and_Health.yml", 
+        "Housing_and_Health.yml", 
+        "Outdoor_Air_and_Health.yml"
+    )
     
     nr_content_links <- 
         nr_content %>% 
@@ -308,18 +225,22 @@ dbWriteTable(
 # pull from view
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# also account for some indicators having different measures for different age groups
+
+child_measures <- c(648, 653, 655, 1174, 1179, 1181)
 adult_measures <- c(657, 659, 661, 1175, 1180, 1182)
 
 NR_data_export <- 
     EHDP_odbc %>% 
-    tbl("NR_data_base") %>% 
+    tbl("NR_data") %>% 
     arrange(MeasureID, geo_entity_id) %>% 
     collect() %>% 
     mutate(
         indicator_short_name = 
             case_when(
-                MeasureID %in% adult_measures ~ str_replace(indicator_short_name, "\\(children\\)", "(adults)"),
-                TRUE ~ indicator_short_name
+                MeasureID %in% !!child_measures ~ paste(indicator_short_name, "(children)"),
+                MeasureID %in% !!adult_measures ~ paste(indicator_short_name, "(adults)"),
+                .default = indicator_short_name
             ),
         indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
         summary_bar_svg = str_replace(summary_bar_svg, "PM2\\.", "PM2-"),
@@ -396,12 +317,6 @@ viz_data_for_hugo <-
         by = "indicator_data_name",
         multiple = "all"
     ) %>% 
-    # left_join(
-    #     .,
-    #     nr_indicators,
-    #     by = c("MeasureID" = "indicator_id"),
-    #     relationship = "many-to-many"
-    # ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
     filter(
         has_annual == FALSE | (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
@@ -451,12 +366,7 @@ viz_data_for_hugo %>%
 nr_indicator_names <- 
     viz_data_for_hugo %>% 
     select(title = report, indicator_name, indicator_description) %>% 
-    distinct() # %>% 
-    # summarise(
-    #     title = list(unlist(title)),
-    #     indicator_names = list(unlist(indicator_name)),
-    #     indicator_descriptions = list(unlist(indicator_description))
-    # )
+    distinct()
 
 # write JSON
 
