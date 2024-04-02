@@ -926,7 +926,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -2085,43 +2085,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -2147,43 +2147,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -2242,7 +2242,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -2257,43 +2257,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -2348,19 +2348,23 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7],
+                "TimePeriodID": [7, 39],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7],
+                "TimePeriodID": [7, 39],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [7, 39]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [7, 39]
               }
             ],
             "Links": [
@@ -2417,8 +2421,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [7, 39]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [7, 39]
               }
             ],
             "Links": [
@@ -2682,7 +2690,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -2847,7 +2855,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -11300,7 +11308,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -11390,17 +11398,17 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF33", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF33",
@@ -11408,29 +11416,29 @@
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -11456,17 +11464,17 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF33", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF33",
@@ -11474,29 +11482,29 @@
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -11543,7 +11551,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -11684,7 +11692,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -12707,7 +12715,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -12957,7 +12965,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -13438,7 +13446,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -15136,7 +15144,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -15260,7 +15268,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -15397,7 +15405,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -15421,43 +15429,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -15483,43 +15491,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -15530,7 +15538,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -16017,7 +16025,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -16146,7 +16154,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -16170,43 +16178,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -16232,43 +16240,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -16283,7 +16291,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -16307,43 +16315,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -16369,43 +16377,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -16436,7 +16444,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -16460,43 +16468,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -16522,43 +16530,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -16593,7 +16601,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -16732,43 +16740,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -16794,43 +16802,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -16865,7 +16873,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -17253,7 +17261,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -17433,7 +17441,7 @@
         "MeasureName": "Heat ED visits, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "The number of NYC residents treated in a NYC emergency department (ED) during the months of May-September for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of visit and include those with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents. Notes: The coding system used to represent diagnoses changed in October 2015. Cases occuring before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
-        "Sources": "United States Census; New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
@@ -21240,7 +21248,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -21398,15 +21406,24 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [48],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [48],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [48]
               }
             ],
             "Links": [
@@ -21451,15 +21468,24 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [48],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [48],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [48]
               }
             ],
             "Links": [
@@ -21482,7 +21508,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -21537,8 +21563,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [11]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [11]
               }
             ],
             "Links": [
@@ -21595,8 +21625,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [11]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [11]
               }
             ],
             "Links": [
@@ -21611,7 +21645,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -21748,7 +21782,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -23287,43 +23321,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [39, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [39, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -23349,43 +23383,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [39, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [39, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -23416,7 +23450,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -24777,43 +24811,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [40, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -24839,43 +24873,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [40, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -24902,7 +24936,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -25027,7 +25061,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -25308,43 +25342,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -25355,7 +25389,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -25370,43 +25404,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -25432,43 +25466,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -25612,7 +25646,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -25741,7 +25775,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -25761,7 +25795,7 @@
         "MeasureName": "Cold hospitalizations, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "NYC residents admitted to a NYC hospital during the months of October-April for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were admitted with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
-        "Sources": "United States Census; New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
@@ -25929,7 +25963,7 @@
         "MeasureName": "Cold ED visits, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "NYC residents treated in a NYC emergency department (ED) during the months of October-April for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were treated in an ED with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
-        "Sources": "United States Census; New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
@@ -27382,7 +27416,7 @@
         "MeasureName": "Lead testing, Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of children born in New York City to New York City resident mothers tested for lead poisoning before the age of three years. To identify children tested for lead poisoning, birth records for all children born in a given year in New York City to New York City resident mothers were matched to children tested for lead poisoning in the New York City Childhood Lead Registry.",
-        "Sources": "New York City Healthy Homes Program; New York City Bureau of Vital Statistics",
+        "Sources": "New York City Bureau of Vital Statistics; New York City Healthy Homes Program",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
@@ -27439,7 +27473,7 @@
         "MeasureName": "Lead testing, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Number of children born in New York City to New York City resident mothers who were tested for lead poisoning before the age of three years, divided by the number of children born in New York City to New York City resident mothers turning three years old; expressed as percent.",
-        "Sources": "New York City Healthy Homes Program; New York City Bureau of Vital Statistics",
+        "Sources": "New York City Bureau of Vital Statistics; New York City Healthy Homes Program",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
@@ -28949,7 +28983,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -29141,43 +29175,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 14, 45, 46, 47, 48, 49],
+                "TimePeriodID": [6, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [6, 14, 45, 46, 47, 48, 49],
+                "TimePeriodID": [6, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -29203,43 +29237,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -29274,7 +29308,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -29727,7 +29761,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -29864,7 +29898,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -29920,11 +29954,11 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [44, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [44, 48]
               }
             ],
             "Links": [
@@ -29982,11 +30016,11 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [44, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [44, 48]
               }
             ],
             "Links": [
@@ -29997,7 +30031,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -30103,12 +30137,12 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [44, 45],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               }
             ],
@@ -30130,7 +30164,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -34333,7 +34367,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -34929,7 +34963,7 @@
         "MeasureName": "NYC agency use of fungicides, All agency (liquids)",
         "MeasurementType": "All agency (liquids)",
         "how_calculated": "Sum of gallons of liquid pesticide applications made by NYC agencies or their contractors that meet the following qualifications: classified as fungistat, fungicide, fungicide/fungistat, or fungicide/nematicide. Excludes products classified as disinfectant, sanitizer, microbicide, microbicide/microbistat, insect growth regulator, insecticide, miticide, or termiticide.",
-        "Sources": "New York City Pesticide Use Reporting System (NYCPURS); Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set",
+        "Sources": "Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set; New York City Pesticide Use Reporting System (NYCPURS)",
         "DisplayType": "gallons",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
@@ -35019,7 +35053,7 @@
         "MeasureName": "NYC agency use of fungicides, Parks application count",
         "MeasurementType": "Parks application count",
         "how_calculated": "Total count of pesticide applications made by the Departmant of Parks and Recreation (Parks) or its contractors that meet the following qualifications: classified as fungistat, fungicide, fungicide/fungistat, or fungicide/nematicide. Excludes products classified as disinfectant, sanitizer, microbicide, microbicide/microbistat, insect growth regulator, insecticide, miticide, or termiticide. Total excludes all applications made on NYC public golf courses.",
-        "Sources": "New York City Pesticide Use Reporting System (NYCPURS); Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set",
+        "Sources": "Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set; New York City Pesticide Use Reporting System (NYCPURS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
@@ -35109,7 +35143,7 @@
         "MeasureName": "NYC agency use of fungicides, Parks (solids)",
         "MeasurementType": "Parks (solids)",
         "how_calculated": "Sum of pounds of solid pesticide applications made by the Departmant of Parks and Recreation (Parks) or its contractors that meet the following qualifications: classified as fungistat, fungicide, fungicide/fungistat, or fungicide/nematicide. Excludes products classified as disinfectant, sanitizer, microbicide, microbicide/microbistat, insect growth regulator, insecticide, miticide, or termiticide. Total excludes all applications made on NYC public golf courses.",
-        "Sources": "New York City Pesticide Use Reporting System (NYCPURS); Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set",
+        "Sources": "Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set; New York City Pesticide Use Reporting System (NYCPURS)",
         "DisplayType": "pounds",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
@@ -35199,7 +35233,7 @@
         "MeasureName": "NYC agency use of fungicides, Golf course (liquids)",
         "MeasurementType": "Golf course (liquids)",
         "how_calculated": "Sum of gallons of liquid pesticide applications made on NYC public golf courses that meet the following qualifications: classified as fungistat, fungicide, fungicide/fungistat, or fungicide/nematicide. Excludes products classified as disinfectant, sanitizer, microbicide, microbicide/microbistat, insect growth regulator, insecticide, miticide, or termiticide.",
-        "Sources": "New York City Pesticide Use Reporting System (NYCPURS); Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set",
+        "Sources": "Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set; New York City Pesticide Use Reporting System (NYCPURS)",
         "DisplayType": "gallons",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
@@ -35300,27 +35334,35 @@
         "how_calculated": "Count of executed evictions ordered by the New York City Housing Court, including those pending and scheduled as of December 31. Eviction data are reported by New York City Marshals and gathered from NYC Open Data.",
         "Sources": "New York City Department of Investigation",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "NTA2010",
                 "TimePeriodID": [46, 47, 48, 49]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [289, 296]
               },
               {
                 "GeoType": "Subboro",
@@ -35328,29 +35370,44 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 47, 48, 49],
+                "TimePeriodID": [46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [46, 47, 48, 49],
+                "TimePeriodID": [46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -35374,27 +35431,35 @@
         "how_calculated": "Rate of executed evictions ordered by the New York City Housing Court, including those pending and scheduled as of December 31, per 10,000 housing units. Eviction data are reported by New York City Marshals and gathered from NYC Open Data.",
         "Sources": "New York City Department of Investigation",
         "DisplayType": "per 10,000 homes",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "NTA2010",
                 "TimePeriodID": [46, 47, 48, 49]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [289, 296]
               },
               {
                 "GeoType": "Subboro",
@@ -35402,29 +35467,44 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 47, 48, 49],
+                "TimePeriodID": [46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [46, 47, 48, 49],
+                "TimePeriodID": [46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 47, 48, 49]
+                "TimePeriodID": [46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -36049,7 +36129,7 @@
         "MeasureName": "NYC agency use of herbicides, All agency (solids)",
         "MeasurementType": "All agency (solids)",
         "how_calculated": "Sum of pounds of solid pesticide applications made by NYC agencies or their contractors that meet the following qualifications: classified as fertilizer/herbicide, defoliant, herbicide terrestrial, herbicide aquatic, or plant growth regulator.",
-        "Sources": "New York City Pesticide Use Reporting System (NYCPURS); Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set",
+        "Sources": "Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set; New York City Pesticide Use Reporting System (NYCPURS)",
         "DisplayType": "pounds",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
@@ -36229,7 +36309,7 @@
         "MeasureName": "NYC agency use of herbicides, Golf course application count",
         "MeasurementType": "Golf course application count",
         "how_calculated": "Total count of pesticide applications made on NYC public golf courses that meet the following qualifications: classified as fertilizer/herbicide, defoliant, herbicide terrestrial, herbicide aquatic, or plant growth regulator.",
-        "Sources": "New York City Pesticide Use Reporting System (NYCPURS); Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set",
+        "Sources": "Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set; New York City Pesticide Use Reporting System (NYCPURS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
@@ -36319,7 +36399,7 @@
         "MeasureName": "NYC agency use of herbicides, Golf course (solids)",
         "MeasurementType": "Golf course (solids)",
         "how_calculated": "Sum of pounds of solid pesticide applications made on NYC public golf courses that meet the following qualifications: classified as fertilizer/herbicide, defoliant, herbicide terrestrial, herbicide aquatic, or plant growth regulator.",
-        "Sources": "New York City Pesticide Use Reporting System (NYCPURS); Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set",
+        "Sources": "Bureau of Environmental Surveillance and Policy (BESP) Combined Analytic Data Set; New York City Pesticide Use Reporting System (NYCPURS)",
         "DisplayType": "pounds",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
@@ -42223,7 +42303,7 @@
         "MeasureName": "Heat hospitalizations, Average annual age-adjusted rate",
         "MeasurementType": "Average annual age-adjusted rate",
         "how_calculated": "The number of NYC residents admitted to a NYC hospital during the months of May-September summed over a 5-year period for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Numbers are summed by 5-year age groups and divided by the 5-year summed population in each age group, using NYC DOHMH intercensal estimates, to produce Average annualized rates. Quotients are multiplied by the proportion of the 2000 US population in each age group. The Average annual Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents. Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
-        "Sources": "Statewide Planning and Research Cooperative System; New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates",
+        "Sources": "New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates; Statewide Planning and Research Cooperative System",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
         "TrendNoCompare": null,
@@ -42285,7 +42365,7 @@
         "MeasureName": "Heat hospitalizations, Average annual rate",
         "MeasurementType": "Average annual rate",
         "how_calculated": "The number of NYC residents admitted to a NYC hospital during the months of May-September summed over a 5-year period for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Numbers are divided by the 5-year summed population using NYC DOHMH intercensal estimates to produce Average annualized rates and are expressed as cases per 100,000 residents. Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
-        "Sources": "Statewide Planning and Research Cooperative System; New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates",
+        "Sources": "New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates; Statewide Planning and Research Cooperative System",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
         "TrendNoCompare": null,
@@ -42498,8 +42578,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [49]
               }
             ],
             "Links": [
@@ -42510,7 +42594,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -42556,8 +42640,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [49]
               }
             ],
             "Links": [
@@ -42614,8 +42702,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [49]
               }
             ],
             "Links": [
@@ -43978,11 +44070,31 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 690,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 700,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 708,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1058,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -44027,10 +44139,6 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 672,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 690,
                     "SecondaryAxis": "x"
                   },
@@ -44048,14 +44156,6 @@
                   },
                   {
                     "MeasureID": 1058,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1059,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1224,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -44079,7 +44179,7 @@
         "MeasureName": "Psychiatric hospitalizations (adults), Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019",
-        "Sources": "Statewide Planning and Research Cooperative System (SPARCS); New York City Community Health Survey (CHS); New York City Bureau of Vital Statistics",
+        "Sources": "New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": "2021",
@@ -44141,7 +44241,7 @@
         "MeasureName": "Psychiatric hospitalizations (adults), Rate",
         "MeasurementType": "Rate",
         "how_calculated": "Number of adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, divided by the population of adults (18 years and older) using NYC DOHMH intercensal estimates; expressed as cases per 10,000 residents.",
-        "Sources": "New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
@@ -44188,11 +44288,27 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 700,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 708,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1058,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -44254,14 +44370,6 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 672,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 690,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 700,
                     "SecondaryAxis": "x"
                   },
@@ -44274,11 +44382,7 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1059,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1224,
+                    "MeasureID": 1058,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -44302,7 +44406,7 @@
         "MeasureName": "Serious psychological distress (adults), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, pooled years 2019-2020, rounded to the nearest 1,000",
-        "Sources": "New York City Bureau of Vital Statistics; New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS)",
+        "Sources": "New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
         "DisplayType": "",
         "AvailableGeoTypes": ["UHF42"],
         "TrendNoCompare": "2021",
@@ -44377,11 +44481,23 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 672,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1058,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -44422,23 +44538,7 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 86,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 672,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 690,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 700,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 708,
                     "SecondaryAxis": "x"
                   },
                   {
@@ -44451,10 +44551,6 @@
                   },
                   {
                     "MeasureID": 1059,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1224,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -44549,7 +44645,7 @@
         "MeasureName": "Suicide deaths, Rate",
         "MeasurementType": "Rate",
         "how_calculated": "Number of suicide deaths in NYC, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC.",
-        "Sources": "New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.; Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
         "TrendNoCompare": null,
@@ -44605,11 +44701,11 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -44677,34 +44773,6 @@
                 "Measures": [
                   {
                     "MeasureID": 86,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 672,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 690,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 700,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 708,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1029,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1059,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1224,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -44899,7 +44967,7 @@
                     "SecondaryAxis": "y"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
