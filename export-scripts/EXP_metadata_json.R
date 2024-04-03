@@ -245,10 +245,6 @@ measure_mapping <-
         measure_mapping_time,
         by = c("IndicatorID", "MeasureID")
     ) %>% 
-    # left_join(
-    #     measure_mapping_geo,
-    #     by = c("IndicatorID", "MeasureID")
-    # ) %>% 
     left_join(
         measure_mapping_rr,
         by = "MeasureID"
@@ -447,6 +443,33 @@ measure_times <-
 
 
 #-----------------------------------------------------------------------------------------#
+# nesting times
+#-----------------------------------------------------------------------------------------#
+
+trend_no_compare <- 
+    EXP_metadata %>% 
+    select(
+        IndicatorID,
+        MeasureID,
+        Sources
+    ) %>% 
+    distinct() %>% 
+    transmute(
+        IndicatorID,
+        MeasureID,
+        TrendNoCompare = 
+            case_when(
+                # CHS
+                Sources %>% str_detect("New York City Community Health Survey") ~ "2021",
+                # NYC Kids
+                Sources %>% str_detect("NYC KIDS Survey") ~ "2021",
+                .default = NA_character_
+
+            )
+    )
+
+
+#-----------------------------------------------------------------------------------------#
 # combining geotype, times, and vis options, then nesting those under other measure-level info vars
 #-----------------------------------------------------------------------------------------#
 
@@ -454,6 +477,10 @@ metadata <-
     left_join(
         indicator_measure_text,
         measure_geotypes,
+        by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    left_join(
+        trend_no_compare,
         by = c("IndicatorID", "MeasureID")
     ) %>% 
     left_join(
