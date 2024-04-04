@@ -1,6 +1,6 @@
 # Data features: Heat Syndrome Data
 
-This contains data on heat syndrome emergency department visits, and max daily temperature. Data in this repository feed the interface at http://a816-dohbesp.nyc.gov/IndicatorPublic/HeatHub/syndromic.html
+This contains data on heat syndrome emergency department visits, and max daily temperature. Data in this repository feed the interface at [real-time heat-related illness](https://a816-dohbesp.nyc.gov/IndicatorPublic/beta/key-topics/climatehealth/syndromic/)
 
 ## About the data
 Tracking heat-related illness (HRI) in near-real time can help provide situational awareness, supplementing the weather forecast as an indicator of public health risk. HRI detected in emergency department syndromic surveillance data are strongly associated with hot weather and highly correlated with daily counts of HRI hospital discharge data. However, HRI counts detected in the ED syndromic surveillance data represent suspected rather than confirmed illness and is useful to track trends. Some records may be counted as cases when they are not HRI, while other HRI cases may go undetected due to differences in hospital coding practices or because of what patients say when they describe what is bothering them.
@@ -16,7 +16,7 @@ For more syndromes tracked by the Health Department, visit [EpiQuery](https://a8
 
 ### Heat syndrome
 
-The heat syndrome is identified in surveillance data by looking for diagnostic codes for heat-related illness and by searching chief complaints (descriptions of why patients are at the ED) for words related to heat, such as overheating, sunstroke, and similar terms.
+The heat syndrome is identified in surveillance data by looking for diagnostic codes for heat-related illness and by searching chief complaints (descriptions of why patients are at the ED) for words related to heat, such as overheating, sunstroke, and similar terms. In 2023, we revised the case definition, including the exclusion keywords, which results in identification of slightly more suspected cases. The revised definition was applied to all years of data available on the portal.
 
 For more information, see the Council of State and Territorial Epidemiologists' [heat syndrome case definition](https://cdn.ymaws.com/www.cste.org/resource/resmgr/pdfs/pdfs2/CSTE_Heat_Syndrome_Case_Defi.pdf).
 
