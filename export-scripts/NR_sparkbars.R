@@ -105,7 +105,7 @@ data_files <- dir_ls(path(base_dir, "neighborhood-reports/data/viz/"))
 # all metadata
 #-----------------------------------------------------------------------------------------#
 
-chart <- fromJSON("export-scripts/chart_json.json")
+chart <- fromJSON("neighborhood-reports/chart.json")
 
 #-----------------------------------------------------------------------------------------#
 # all metadata
