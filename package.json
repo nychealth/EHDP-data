@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/nychealth/EHDP-data#readme",
   "dependencies": {
+    "node": "^18.20.1",
+    "npm": "^10.5.1",
     "vega-lite": "^5.17.0"
   }
 }
