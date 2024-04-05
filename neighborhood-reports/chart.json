@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json",
+  "config": {
+    "axis": {
+      "grid": false
+    },
+    "background": "transparent",
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300,
+      "strokeWidth": 0
+    }
+  },
+  "data": {
+    "name": "the_data"
+  },
+  "datasets": {
+    "the_data": []
+  },
+  "encoding": {
+    "color": {
+      "condition": {
+        "test": "(datum.neighborhood === 'Kingsbridge - Riverdale')",
+        "value": "#00923E"
+      },
+      "value": "#D2D4CE"
+    },
+    "x": {
+      "axis": null,
+      "field": "neighborhood",
+      "sort": "y",
+      "type": "nominal"
+    },
+    "y": {
+      "axis": null,
+      "field": "unmodified_data_value_geo_entity",
+      "type": "quantitative"
+    }
+  },
+  "height": 100,
+  "mark": {
+    "type": "bar"
+  },
+  "width": 300
+}
