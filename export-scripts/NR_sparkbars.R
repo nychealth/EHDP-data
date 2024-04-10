@@ -187,7 +187,7 @@ for (d in 1:length(data_files)) {
             
             # print neighborhood iter
             
-            cat("[", j, "]", sep = "")
+            # cat("[", j, "]", sep = "")
             
             # get neighborhood goe ID
             
