@@ -7,7 +7,7 @@
 ###########################################################################################
 
 #=========================================================================================#
-# Setting up
+# Setting up ----
 #=========================================================================================#
 
 #-----------------------------------------------------------------------------------------#
@@ -51,169 +51,178 @@ source(set_environment_loc)
 
 
 #-----------------------------------------------------------------------------------------#
-# Connect to database
+# some other things
 #-----------------------------------------------------------------------------------------#
 
-# determining driver to use (so script works across machines)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# get viz data filenames for looping
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-odbc_driver <- 
-    odbcListDrivers() %>% 
-    pull(name) %>% 
-    unique() %>% 
-    str_subset("ODBC Driver") %>% 
-    sort(decreasing = TRUE) %>% 
-    head(1)
-
-# if no "ODBC Driver", use Windows built-in driver
-
-if (length(odbc_driver) == 0) odbc_driver <- "SQL Server"
-
-# using Windows auth with no DSN
-
-EHDP_odbc <-
-    dbConnect(
-        drv = odbc::odbc(),
-        driver = paste0("{", odbc_driver, "}"),
-        server = server,
-        database = db_name,
-        trusted_connection = "yes",
-        encoding = "utf8",
-        trustservercertificate = "yes"
-    )
+data_files <- dir_ls(path(base_dir, "neighborhood-reports/data/viz/"))
 
 
-#-----------------------------------------------------------------------------------------#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# get + parse prepoared bar chart spec
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# working on a way of making this programmatic without needing the python dependency
+
+sparkbar_spec <- fromJSON("neighborhood-reports/sparkbar_spec.json")
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # create folders if they dont exist
-#-----------------------------------------------------------------------------------------#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 dir_create(path(base_dir, "neighborhood-reports/images/json"))
 
 
 #=========================================================================================#
-# Pulling & writing data ----
+# Data ops ----
 #=========================================================================================#
 
 #-----------------------------------------------------------------------------------------#
-# get viz data files
+# looping ----
 #-----------------------------------------------------------------------------------------#
 
-# data_files = os.listdir(base_dir + "/neighborhood-reports/data/viz/")
+# 3 nested loops: data file, indicator name, neighborhod
 
-data_files <- dir_ls(path(base_dir, "neighborhood-reports/data/viz/"))
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# loop through data files (x5)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-#-----------------------------------------------------------------------------------------#
-# all metadata
-#-----------------------------------------------------------------------------------------#
-
-chart <- fromJSON("neighborhood-reports/chart.json")
-
-#-----------------------------------------------------------------------------------------#
-# all metadata
-#-----------------------------------------------------------------------------------------#
-
-one_viz <- 
-    fromJSON(data_files[1]) %>% 
-    as_tibble() %>% 
-    filter(geo_type == "UHF42")
-
-one_viz_latest_time <- 
-    one_viz %>% 
-    mutate(end_date = as_date(end_date)) %>% 
-    arrange(desc(end_date)) %>% 
-    distinct(indicator_data_name, geo_join_id, .keep_all = TRUE) %>% 
-    arrange(geo_join_id) %>% 
-    select(
-        indicator_data_name, 
-        neighborhood, 
-        unmodified_data_value_geo_entity, 
-        geo_join_id
-    )
-
-# indicator_data_names <- unique(sort(one_viz_latest_time$indicator_data_name))
-# 
-# geo_join_ids <- unique(sort(one_viz_latest_time$geo_join_id))
-# 
-# for (i in 1:length(indicator_data_names)) {
-#     
-#     indicator <- indicator_data_names[i]
-#     
-#     one_ind <- 
-#         one_viz_latest_time %>% 
-#         filter(indicator_data_name == indicator) %>% 
-#         arrange(unmodified_data_value_geo_entity) %>% 
-#         mutate(sort_order = 1:nrow(.))
-#     
-#     indicator_plot <- 
-#         one_ind %>% 
-#         ggplot(aes(sort_order, unmodified_data_value_geo_entity)) +
-#         theme_void()
-#     
-#     # going to be 42, but why hard code it?
-#     
-#     for (k in 1:length(geo_join_ids)) {
-#         
-#         geo <- geo_join_ids[k]
-#         
-#         one_geo <- one_ind %>% filter(geo_join_id == geo)
-#         
-#         neighborhood_plot <- 
-#             indicator_plot +
-#             geom_col(aes(fill = geo_join_id == geo, `aria-label` = neighborhood), show.legend = FALSE)
-#         
-#     }
-#     
-# }
-
-
-
-indicator_data_names <- unique(sort(one_viz_latest_time$indicator_data_name))
-
-geo_join_ids <- unique(sort(one_viz_latest_time$geo_join_id))
-
-
-
-for (i in 1:length(indicator_data_names)) {
+for (d in 1:length(data_files)) {
     
-    cat(" <", i, "> ", sep = " ")
+    # get file path
     
-    this_chart <- chart
+    this_file_path <- data_files[d]
     
-    indicator <- indicator_data_names[i]
+    # get filename
     
-    one_ind <- 
-        one_viz_latest_time %>% 
-        filter(indicator_data_name == indicator) %>% 
-        arrange(unmodified_data_value_geo_entity)
+    this_file_name <- path_file(this_file_path)
     
-    this_chart$datasets$the_data <- one_ind
+    # print filename
     
-    # going to be 42, but why hard code it?
+    cat(" ||", this_file_name, "||", sep = " ")
     
-    for (k in 1:length(geo_join_ids)) {
+    # read in report data
+    
+    one_report <- 
+        fromJSON(this_file_path) %>% 
+        as_tibble() %>% 
         
-        cat("[", k, "]", sep = "")
+        # probably unnecessary, but why assume?
         
-        geo_id <- geo_join_ids[k]
+        filter(geo_type == "UHF42")
+    
+    # get latest time for each neighborhood
+    
+    one_viz_latest_time <- 
         
-        this_chart$encoding$color$condition$test <- glue("(datum.geo_join_id == '{geo_id}')")
+        one_report %>% 
+        mutate(end_date = as_date(end_date)) %>% 
         
-        this_chart_json <- toJSON(this_chart, pretty = FALSE, auto_unbox = TRUE, null = "null")
+        # sort latest time first, so distinct will keep that one
         
-        # write_file(this_chart_json, glue("neighborhood-reports/images/json/{indicator}_{geo_id}.json"))
+        arrange(desc(end_date)) %>% 
+        distinct(indicator_data_name, geo_join_id, .keep_all = TRUE) %>% 
         
-        system2(
-            command = "node",
-            args = "node_modules/vega-lite/bin/vl2svg",
-            input = this_chart_json,
-            stdout = glue("neighborhood-reports/images/svg/{indicator}_{geo_id}.svg"),
-            wait = FALSE
+        # keep just the columns we need
+        
+        select(
+            indicator_data_name, 
+            neighborhood, 
+            unmodified_data_value_geo_entity, 
+            geo_join_id
         )
+    
+    
+    # ==== geting arrays for next 2 loops ==== #
+    
+    indicator_data_names <- unique(sort(one_viz_latest_time$indicator_data_name))
+    
+    geo_join_ids <- unique(sort(one_viz_latest_time$geo_join_id))
+    
+    
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    # loop through indicator IDs
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    
+    for (i in 1:length(indicator_data_names)) {
+        
+        # get indicator short name
+        
+        indicator <- indicator_data_names[i]
+        
+        # print indicator iter
+        
+        cat(" <", indicator, "> ", sep = " ")
+        
+        # don't bork the spec
+        
+        this_spec <- sparkbar_spec
+        
+        # filter for this indicator
+        
+        one_ind <- 
+            one_viz_latest_time %>% 
+            filter(indicator_data_name == indicator) %>% 
+            
+            # arrange by value
+            
+            arrange(unmodified_data_value_geo_entity)
+        
+        # insert data frame into data element - will be jsonified into the correct format
+        
+        this_spec$datasets$the_data <- one_ind
+        
+        
+        # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+        # loop through neighborhoods
+        # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+        
+        # going to be 42, but why hard code it?
+        
+        for (j in 1:length(geo_join_ids)) {
+            
+            # print neighborhood iter
+            
+            cat("[", j, "]", sep = "")
+            
+            # get neighborhood goe ID
+            
+            geo_id <- geo_join_ids[j]
+            
+            # insert neighborhood highlight test into spec - will be rendered by Vega-Lite
+            
+            this_spec$encoding$color$condition$test <- glue("datum.geo_join_id == '{geo_id}'")
+            
+            # serialize back into JSON
+            
+            this_spec_json <- toJSON(this_spec, pretty = FALSE, auto_unbox = TRUE, null = "null")
+            
+            # render spec into SVG
+            
+            system2(
+                command = "node",
+                args = "node_modules/vega-lite/bin/vl2svg",
+                input = this_spec_json,
+                stdout = glue("neighborhood-reports/images/svg/{indicator}_{geo_id}.svg"),
+                stderr = NULL,
+                wait = FALSE
+            )
+            
+        }
         
     }
     
 }
 
 
-# node node_modules\vega-lite\bin\vl2svg C:\Users\Chris\Documents\DOHMH\Programming\BESP\EHDP-data\neighborhood-reports\images\json\bikeEDAA_201.json
-
-
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# #
+# #                             ---- THIS IS THE END! ----
+# #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
