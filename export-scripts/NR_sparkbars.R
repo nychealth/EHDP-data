@@ -207,7 +207,7 @@ for (d in 1:length(data_files)) {
                 command = "node",
                 args = "node_modules/vega-lite/bin/vl2svg",
                 input = this_spec_json,
-                stdout = glue("neighborhood-reports/images/svg/{indicator}_{geo_id}.svg"),
+                stdout = glue("neighborhood-reports/images/{indicator}_{geo_id}.svg"),
                 stderr = NULL,
                 wait = FALSE
             )
