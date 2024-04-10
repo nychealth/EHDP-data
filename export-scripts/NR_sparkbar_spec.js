@@ -1,9 +1,21 @@
+// ======================================================================= //
+// setting up
+// ======================================================================= //
+
+// ----------------------------------------------------------------------- //
+// lead required libraries
+// ----------------------------------------------------------------------- //
+
 const fs = require('fs');
-// const vl = require('vega-lite');
 const vl = require('vega-lite-api');
 
+// ======================================================================= //
+// construct spec
+// ======================================================================= //
 
-// Reverse-engineering the spec
+// ----------------------------------------------------------------------- //
+// define chart with API
+// ----------------------------------------------------------------------- //
 
 const chart = vl
 
@@ -55,10 +67,16 @@ const chart = vl
     .width(300); 
 
 
+// ----------------------------------------------------------------------- //
 // convert to spec
+// ----------------------------------------------------------------------- //
 
 const spec = JSON.stringify(chart.toSpec(), null, 4)
 
+
+// ----------------------------------------------------------------------- //
+// save spec as JSON
+// ----------------------------------------------------------------------- //
 
 // File path where JSON file will be saved
 
@@ -69,16 +87,6 @@ const filePath = 'neighborhood-reports/sparkbar_spec.json';
 
 fs.writeFile(filePath, spec, (err) => {
 
-  if (err) {
-
-    console.error('Error writing JSON file:', err);
-
-  } else {
-
-    console.log('JSON file has been saved successfully!');
-
-  }
+  if (err) { console.error('Error writing JSON file:', err) }
 
 });
-
-
