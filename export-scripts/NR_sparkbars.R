@@ -201,16 +201,17 @@ for (d in 1:length(data_files)) {
             
             this_spec_json <- toJSON(this_spec, pretty = FALSE, auto_unbox = TRUE, null = "null")
             
+            write_lines(this_spec_json, path(base_dir, glue("neighborhood-reports/images/json/{indicator}_{geo_id}.json")))
+            
             # render spec into SVG
             
             system2(
                 command = "node",
-                args = path(base_dir, "node_modules/vega-lite/bin/vl2svg"),
-                input = this_spec_json,
-                stdout = path(
-                    base_dir,
-                    glue("neighborhood-reports/images/{indicator}_{geo_id}.svg")
+                args = paste(
+                    path(base_dir, "node_modules/vega-lite/bin/vl2svg"),
+                    path(base_dir, glue("neighborhood-reports/images/json/{indicator}_{geo_id}.json"))
                 ),
+                stdout = path(base_dir, glue("neighborhood-reports/images/{indicator}_{geo_id}.svg")), 
                 stderr = NULL,
                 wait = FALSE
             )
