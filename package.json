@@ -1,0 +1,25 @@
+{
+  "name": "ehdp-data",
+  "version": "1.0.0",
+  "description": "This repository serves data used by [the Environment and Health Data Portal](https://a816-dohbesp.nyc.gov/IndicatorPublic/beta/).",
+  "main": "\"\"",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nychealth/EHDP-data.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nychealth/EHDP-data/issues"
+  },
+  "homepage": "https://github.com/nychealth/EHDP-data#readme",
+  "dependencies": {
+    "node": "^18.20.1",
+    "npm": "^10.5.1",
+    "vega-lite": "^5.17.0",
+    "vega-lite-api": "^5.6.0"
+  }
+}
