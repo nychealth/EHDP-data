@@ -263,7 +263,7 @@ export site_branch=$site_branch
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 echo "-------------------------------------------------------------"
-read -p "Run 'NR_sparkbars.py'? Yes [y] / No [*n] -- " -n 1 sparkbar
+read -p "Run 'NR_sparkbars.R'? Yes [y] / No [*n] -- " -n 1 sparkbar
 printf "\n"
 echo "-------------------------------------------------------------"
 

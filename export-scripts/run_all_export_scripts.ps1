@@ -29,7 +29,7 @@ $Env:base_dir = $base_dir
 #-----------------------------------------------------------------------------------------#
 
 Write-Host "-------------------------------------------------------------"
-$sparkbar = (Read-Host "Run 'NR_sparkbars.py'? Yes [y] / No [*n] -- ").ToLower().Trim()[0]
+$sparkbar = (Read-Host "Run 'NR_sparkbars.R'? Yes [y] / No [*n] -- ").ToLower().Trim()[0]
 Write-Host "-------------------------------------------------------------"
 
 
