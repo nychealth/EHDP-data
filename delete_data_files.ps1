@@ -1,6 +1,6 @@
 # deleting data files for merge
 
-$data_dirs = "indicators/data", "indicators/metadata", "neighborhood-reports/data/report", "neighborhood-reports/data/viz", "neighborhood-reports/metadata", "neighborhood-reports/images"
+$data_dirs = "indicators/data", "indicators/metadata", "neighborhood-reports/data/report", "neighborhood-reports/data/viz", "neighborhood-reports/metadata", "neighborhood-reports/images", "neighborhood-reports/images/json"
 
 # get al the items first (which is necessary for some reason)
 

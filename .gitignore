@@ -79,3 +79,5 @@ Get-ChildItem-help.txt
 Remove-Item-help.txt
 export-scripts/set-env-test.bash
 export-scripts/set-env-test.ps1
+
+export-scripts/download_binary_packages.ps1

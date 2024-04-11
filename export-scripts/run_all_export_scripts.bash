@@ -30,7 +30,7 @@ source "$base_dir/export-scripts/set_environment.bash"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 echo "-------------------------------------------------------------"
-read -p "Run 'NR_sparkbars.py'? Yes [y] / No [*n] -- " -n 1 sparkbar
+read -p "Run 'NR_sparkbars.R'? Yes [y] / No [*n] -- " -n 1 sparkbar
 printf "\n"
 echo "-------------------------------------------------------------"
 
