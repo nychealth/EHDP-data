@@ -85,7 +85,7 @@ dir_create(path(base_dir, "neighborhood-reports/images/json"))
 # looping ----
 #-----------------------------------------------------------------------------------------#
 
-# 3 nested loops: data file, indicator name, neighborhod
+# 3 nested loops: data file, indicator name, neighborhood
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # loop through data files (x5)
@@ -205,9 +205,12 @@ for (d in 1:length(data_files)) {
             
             system2(
                 command = "node",
-                args = "node_modules/vega-lite/bin/vl2svg",
+                args = path(base_dir, "node_modules/vega-lite/bin/vl2svg"),
                 input = this_spec_json,
-                stdout = glue("neighborhood-reports/images/{indicator}_{geo_id}.svg"),
+                stdout = path(
+                    base_dir,
+                    glue("neighborhood-reports/images/{indicator}_{geo_id}.svg")
+                ),
                 stderr = NULL,
                 wait = FALSE
             )
