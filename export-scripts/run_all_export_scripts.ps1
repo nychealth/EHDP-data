@@ -97,7 +97,7 @@ if ($sparkbar -eq "y") {
 
     Write-Output ">>> NR_sparkbar_spec"
 
-    npm install --quiet
+    npm install --silent
 
     node $base_dir\export-scripts\NR_sparkbar_spec.js
 

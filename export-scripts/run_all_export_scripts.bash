@@ -324,7 +324,7 @@ if [[ "$sparkbar" == "y" ]]; then
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
     echo ">>> NR_sparkbar_spec"
-    npm install --quiet
+    npm install --silent
     node "$base_dir/export-scripts/NR_sparkbar_spec.js"
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
