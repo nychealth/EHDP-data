@@ -460,6 +460,23 @@ ny_harbor <-
     arrange(GeoID)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# RMZ
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+rmz <- 
+    read_sf("geography/RMZ.topo.json", crs = st_crs(4326)) %>% 
+    st_transform(st_crs(2263)) %>% 
+    mutate(center = st_centroid(geometry)) %>% 
+    as_tibble() %>% 
+    transmute(
+        GeoType = "RMZ",
+        GeoID = GEOCODE,
+        Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
+        Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
+    ) %>%  
+    arrange(GeoID)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # row-binding
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -479,7 +496,8 @@ all_geos <-
         nyc_kids_2017,
         nyc_kids_2019,
         nyc_kids_2021,
-        ny_harbor
+        ny_harbor,
+        rmz
     ) %>% 
     mutate(roworder = 1:nrow(.))
 

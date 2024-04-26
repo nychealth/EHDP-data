@@ -47170,5 +47170,293 @@
         ]
       }
     ]
+  },
+  {
+    "IndicatorID": 2433,
+    "IndicatorName": "Rat indexing in Rat Mitigation Zones (RMZs)",
+    "IndicatorLabel": "Rat indexing in Rat Mitigation Zones (RMZs)",
+    "IndicatorDescription": "Rat indexing is a comprehensive approach for rat mitigation and means that every single property within a certain boundary is inspected for signs of rats and/or the conditions that attract them. Indexing includes Rat Mitigation Zones, which are inspected every six months due to their higher burden of rat activity.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1378,
+        "MeasureName": "Rat indexing in Rat Mitigation Zones (RMZs), Number of properties inspected",
+        "MeasurementType": "Number of properties inspected",
+        "how_calculated": "Number of properties inspected in an RMZ within a six-month period.",
+        "Sources": "NYC Department of Health and Mental Hygeine",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["RMZ"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [313, 314, 315, 316],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1379,
+        "MeasureName": "Rat indexing in Rat Mitigation Zones (RMZs), Failed (any reason)",
+        "MeasurementType": "Failed (any reason)",
+        "how_calculated": "Percent of inspections that resulted in a failure for any reason, including active rat signs, in a given RMZ.",
+        "Sources": "NYC Department of Health and Mental Hygeine",
+        "DisplayType": "percent",
+        "AvailableGeoTypes": ["RMZ"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [313, 314, 315, 316],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1380,
+        "MeasureName": "Rat indexing in Rat Mitigation Zones (RMZs), Failed (active rat signs)",
+        "MeasurementType": "Failed (active rat signs)",
+        "how_calculated": "Percent of inspections failed for active rat signs (ARS) in a given RMZ.",
+        "Sources": "NYC Department of Health and Mental Hygeine",
+        "DisplayType": "percent",
+        "AvailableGeoTypes": ["RMZ"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [313, 314, 315, 316],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2434,
+    "IndicatorName": "Rat inspections (by Community District)",
+    "IndicatorLabel": "Rat inspections (by Community District)",
+    "IndicatorDescription": "Rat inspections are conducted for signs of rats and/or the conditions that attract them.?",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1381,
+        "MeasureName": "Rat inspections (by Community District), Percent of properties inspected",
+        "MeasurementType": "Percent of properties inspected",
+        "how_calculated": "Percent of properties inspected within a CD.?",
+        "Sources": "NYC Department of Health and Mental Hygeine",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["CD"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1382,
+        "MeasureName": "Rat inspections (by Community District), Failed (any reason)",
+        "MeasurementType": "Failed (any reason)",
+        "how_calculated": "Percent of properties that failed inspections for any reason in a given CD.?",
+        "Sources": "NYC Department of Health and Mental Hygeine",
+        "DisplayType": "percent",
+        "AvailableGeoTypes": ["CD"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1383,
+        "MeasureName": "Rat inspections (by Community District), Failed (active rat signs)",
+        "MeasurementType": "Failed (active rat signs)",
+        "how_calculated": "Percent of inspections failed for active rat signs (ARS) in a given CD.",
+        "Sources": "NYC Department of Health and Mental Hygeine",
+        "DisplayType": "percent",
+        "AvailableGeoTypes": ["CD"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
