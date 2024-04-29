@@ -13684,13 +13684,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -13728,13 +13728,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -13772,13 +13772,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -13816,13 +13816,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -13860,13 +13860,13 @@
         "Sources": "United States Environmental Protection Agency (EPA)",
         "DisplayType": "mg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -13913,13 +13913,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -13957,13 +13957,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -14001,13 +14001,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -14045,7 +14045,7 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
@@ -14089,13 +14089,13 @@
         "Sources": "United States Environmental Protection Agency (EPA)",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -14133,7 +14133,7 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276],
+        "AvailableTimePeriodIDs": [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308],
         "VisOptions": [
           {
             "Table": [
@@ -14177,7 +14177,7 @@
         "Sources": "United States Environmental Protection Agency (EPA)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276],
+        "AvailableTimePeriodIDs": [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308],
         "VisOptions": [
           {
             "Table": [
@@ -14221,7 +14221,7 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276],
+        "AvailableTimePeriodIDs": [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308],
         "VisOptions": [
           {
             "Table": [
@@ -14274,13 +14274,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -14318,13 +14318,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -14362,13 +14362,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -14406,13 +14406,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -14450,13 +14450,13 @@
         "Sources": "United States Environmental Protection Agency (EPA)",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -26980,7 +26980,7 @@
         "Sources": "United States Environmental Protection Agency (EPA)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [120, 121, 122, 123, 124, 125, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 223, 224, 225, 226, 227, 228, 229, 230, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276],
+        "AvailableTimePeriodIDs": [120, 121, 122, 123, 124, 125, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 223, 224, 225, 226, 227, 228, 229, 230, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308],
         "VisOptions": [
           {
             "Table": [
@@ -27024,7 +27024,7 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [120, 121, 122, 123, 124, 125, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 223, 224, 225, 226, 227, 228, 229, 230, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276],
+        "AvailableTimePeriodIDs": [120, 121, 122, 123, 124, 125, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 223, 224, 225, 226, 227, 228, 229, 230, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308],
         "VisOptions": [
           {
             "Table": [
@@ -27068,7 +27068,7 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [120, 121, 122, 123, 124, 125, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 223, 224, 225, 226, 227, 228, 229, 230, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276],
+        "AvailableTimePeriodIDs": [120, 121, 122, 123, 124, 125, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 223, 224, 225, 226, 227, 228, 229, 230, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308],
         "VisOptions": [
           {
             "Table": [
@@ -27112,13 +27112,13 @@
         "Sources": "United States Environmental Protection Agency (EPA)",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -27156,13 +27156,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -27200,13 +27200,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -27244,13 +27244,13 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "mcg/L",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -27288,7 +27288,7 @@
         "Sources": "New York State Safe Drinking Water Information System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
-        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48],
+        "AvailableTimePeriodIDs": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
