@@ -73,12 +73,11 @@ export-scripts/comparisons logic.r
 export-scripts/SQL-Server-DB-views/.vs/SQL-Server-DB-views/v15/.ssms_suo
 export-scripts/SQL-Server-DB-views/.vs/VSWorkspaceState.json
 export-scripts/SQL-Server-DB-views/.vs/slnx.sqlite
-chart_json.json
 Invoke-Sqlcmd.txt
 Get-ChildItem-help.txt
 Remove-Item-help.txt
 export-scripts/set-env-test.bash
 export-scripts/set-env-test.ps1
+export-scripts/reverse engineer test.html
 
 export-scripts/download_binary_packages.ps1
-export-scripts/reverse engineer test.html

@@ -11,7 +11,6 @@ import os
 import warnings
 import subprocess
 import re
-import platform
 
 # prevent other warnings
 
@@ -21,10 +20,6 @@ warnings.simplefilter("ignore")
 
 base_dir = os.environ.get("base_dir", "")
 conda_prefix = os.environ.get("CONDA_PREFIX")
-
-# get system
-
-system = platform.system()
 
 if (base_dir == ""):
     
@@ -47,8 +42,13 @@ if (base_dir == ""):
     os.environ["base_dir"] = base_dir
 
 
-data_files = os.listdir(base_dir + "/neighborhood-reports/data/viz/")
-
+data_files = [
+    "Housing_and_Health_data.csv",
+    "Outdoor_Air_and_Health_data.csv",
+    "Active_Design_Physical_Activity_and_Health_data.csv",
+    "Asthma_and_the_Environment_data.csv",
+    "Climate_and_Health_data.csv"
+]
 
 # looping through files (run this in parallel)
 
@@ -58,7 +58,7 @@ file = data_files[0]
 
 print("> ", file)
 
-df = pd.read_json(base_dir + "/neighborhood-reports/data/viz/" + file)
+df = pd.read_csv(base_dir + "/neighborhood-reports/data/" + file)
 
 # convert End Date to date data type
 
@@ -136,14 +136,15 @@ chart_json = chart.to_json()
 
 image_name = base_dir + '/neighborhood-reports/images/' + df['indicator_data_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg'
 
+# save chart spec
+
+spec_file = open(base_dir + "/neighborhood-reports/images/chart_json.json", "wt")
+spec_file.write(chart_json)
+spec_file.close()
+
 # use VL CLI program to create SVG
 
-if (system == "Windows"):
-    vl2svg = 'node ' + conda_prefix + '/Library/share/vega-lite-cli/node_modules/vega-lite/bin/vl2svg'
-else:
-    vl2svg = "vl2svg"
-
-chart_svg = subprocess.run(vl2svg, input = chart_json, text = True, capture_output = True).stdout
+chart_svg = subprocess.run('node ' + conda_prefix + '/Library/share/vega-lite-cli/node_modules/vega-lite/bin/vl2svg', input = chart_json, text = True, capture_output = True).stdout
 
 # - viewBox="0 0 310 110" must be removed for ModLab team
 # - also adding in preserveAspectRatio="none" to allow Modlab designers more flexibility
