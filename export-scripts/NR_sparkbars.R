@@ -14,6 +14,7 @@
 # Loading libraries
 #-----------------------------------------------------------------------------------------#
 
+suppressWarnings(suppressMessages(library(xfun)))
 suppressWarnings(suppressMessages(library(tidyverse)))
 suppressWarnings(suppressMessages(library(DBI)))
 suppressWarnings(suppressMessages(library(dbplyr)))
@@ -222,6 +223,19 @@ for (d in 1:length(data_files)) {
     
 }
 
+
+#-----------------------------------------------------------------------------------------#
+# replacing viewbox ----
+#-----------------------------------------------------------------------------------------#
+
+gsub_dir(
+    dir = "neighborhood-reports/images",
+    recursive = FALSE,
+    ext = "svg",
+    pattern = ' viewBox="0 0 310 110"',
+    replacement = '',
+    fixed = TRUE
+)
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
