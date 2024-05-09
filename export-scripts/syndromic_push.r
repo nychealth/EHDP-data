@@ -1,5 +1,4 @@
 # This script should run on RStudio Server, from the folder "export-scripts"
-setwd("/home/health.dohmh.nycnet/klane1/EHDP-data")
 
 # load reader, for better file reading
 library(readr)
@@ -12,12 +11,12 @@ library(fs)
 setwd(path(path_home(), "EHDP-data"))
 
 # fetch info on all changes in remote repo
-# system("git fetch origin")
-git_fetch("origin")
+system("git fetch -v origin")
+# git_fetch("origin")
 
 # make sure you're on the production branch
-# system("git checkout production")
-git_branch_checkout("production")
+system("git checkout production")
+# git_branch_checkout("production")
 
 # pull all changes on production
 system("git pull -X theirs --ff --no-edit")
@@ -40,13 +39,13 @@ edheat_live2 <- edheat_live[edheat_live$END_DATE > start & edheat_live$END_DATE 
 write_csv(edheat_live2, "~/EHDP-data/key-topics/heat-syndrome/edheat2024_live.csv")
 
 # add all file changes
-# system("git add .")
-git_add("~/EHDP-data/key-topics/heat-syndrome/edheat2024_live.csv")
+system("git add ~/EHDP-data/key-topics/heat-syndrome/edheat2024_live.csv")
+# git_add("~/EHDP-data/key-topics/heat-syndrome/edheat2024_live.csv")
 
 # commit with message
-# system("git commit --all --message 'Regular auto-commit'")
-git_commit_all("Regular auto-commit")
+system("git commit --message 'Regular auto-commit'")
+# git_commit_all("Regular auto-commit")
 
 # push changes to production
-# system("git push origin")
-git_push("origin")
+system("git push origin")
+# git_push("origin")
