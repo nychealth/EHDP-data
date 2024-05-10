@@ -37483,8 +37483,8 @@
   },
   {
     "IndicatorID": 2375,
-    "IndicatorName": "Assault hospitalizations (non-fatal)",
-    "IndicatorLabel": "Assault hospitalizations (non-fatal)",
+    "IndicatorName": "Assault hospitalizations (all ages)",
+    "IndicatorLabel": "Assault hospitalizations (all ages)",
     "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
     "Comparisons": null,
     "Measures": [
@@ -37497,21 +37497,21 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [45],
+        "AvailableTimePeriodIDs": [45, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -37555,21 +37555,21 @@
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [45],
+        "AvailableTimePeriodIDs": [45, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -41019,8 +41019,8 @@
   },
   {
     "IndicatorID": 2400,
-    "IndicatorName": "Assault emergency department visits (non-fatal)",
-    "IndicatorLabel": "Assault emergency department visits (non-fatal)",
+    "IndicatorName": "Assault emergency department visits (all ages)",
+    "IndicatorLabel": "Assault emergency department visits (all ages)",
     "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
     "Comparisons": null,
     "Measures": [
@@ -41033,21 +41033,21 @@
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [45],
+        "AvailableTimePeriodIDs": [45, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -41091,21 +41091,21 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [45],
+        "AvailableTimePeriodIDs": [45, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "TimePeriodID": [45, 47, 48, 49, 289]
               }
             ],
             "Map": [
@@ -47183,7 +47183,7 @@
         "MeasureName": "Rat indexing in Rat Mitigation Zones (RMZs), Number of properties inspected",
         "MeasurementType": "Number of properties inspected",
         "how_calculated": "Number of properties inspected in an RMZ within a six-month period.",
-        "Sources": "NYC Department of Health and Mental Hygeine",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
         "DisplayType": "",
         "AvailableGeoTypes": ["RMZ"],
         "TrendNoCompare": null,
@@ -47228,7 +47228,7 @@
         "MeasureName": "Rat indexing in Rat Mitigation Zones (RMZs), Failed (any reason)",
         "MeasurementType": "Failed (any reason)",
         "how_calculated": "Percent of inspections that resulted in a failure for any reason, including active rat signs, in a given RMZ.",
-        "Sources": "NYC Department of Health and Mental Hygeine",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
         "DisplayType": "percent",
         "AvailableGeoTypes": ["RMZ"],
         "TrendNoCompare": null,
@@ -47273,7 +47273,7 @@
         "MeasureName": "Rat indexing in Rat Mitigation Zones (RMZs), Failed (active rat signs)",
         "MeasurementType": "Failed (active rat signs)",
         "how_calculated": "Percent of inspections failed for active rat signs (ARS) in a given RMZ.",
-        "Sources": "NYC Department of Health and Mental Hygeine",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
         "DisplayType": "percent",
         "AvailableGeoTypes": ["RMZ"],
         "TrendNoCompare": null,
@@ -47317,26 +47317,34 @@
   },
   {
     "IndicatorID": 2434,
-    "IndicatorName": "Rat inspections (by Community District)",
-    "IndicatorLabel": "Rat inspections (by Community District)",
+    "IndicatorName": "Rat inspections",
+    "IndicatorLabel": "Rat inspections",
     "IndicatorDescription": "Rat inspections are conducted for signs of rats and/or the conditions that attract them.?",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1381,
-        "MeasureName": "Rat inspections (by Community District), Percent of properties inspected",
+        "MeasureName": "Rat inspections, Percent of properties inspected",
         "MeasurementType": "Percent of properties inspected",
-        "how_calculated": "Percent of properties inspected within a CD.?",
-        "Sources": "NYC Department of Health and Mental Hygeine",
+        "how_calculated": "Percent of properties inspected within a CD.",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
         "DisplayType": "",
-        "AvailableGeoTypes": ["CD"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [296, 298],
         "VisOptions": [
           {
             "Table": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298]
+              },
+              {
                 "GeoType": "CD",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "Citywide",
                 "TimePeriodID": [296, 298]
               }
             ],
@@ -47369,19 +47377,27 @@
       },
       {
         "MeasureID": 1382,
-        "MeasureName": "Rat inspections (by Community District), Failed (any reason)",
+        "MeasureName": "Rat inspections, Failed (any reason)",
         "MeasurementType": "Failed (any reason)",
-        "how_calculated": "Percent of properties that failed inspections for any reason in a given CD.?",
-        "Sources": "NYC Department of Health and Mental Hygeine",
+        "how_calculated": "Percent of properties that failed inspections for any reason, including active rat signs, garbage, or conditions that harbor rats, in a given CD.",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
         "DisplayType": "percent",
-        "AvailableGeoTypes": ["CD"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [296, 298],
         "VisOptions": [
           {
             "Table": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298]
+              },
+              {
                 "GeoType": "CD",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "Citywide",
                 "TimePeriodID": [296, 298]
               }
             ],
@@ -47414,19 +47430,27 @@
       },
       {
         "MeasureID": 1383,
-        "MeasureName": "Rat inspections (by Community District), Failed (active rat signs)",
+        "MeasureName": "Rat inspections, Failed (active rat signs)",
         "MeasurementType": "Failed (active rat signs)",
         "how_calculated": "Percent of inspections failed for active rat signs (ARS) in a given CD.",
-        "Sources": "NYC Department of Health and Mental Hygeine",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
         "DisplayType": "percent",
-        "AvailableGeoTypes": ["CD"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [296, 298],
         "VisOptions": [
           {
             "Table": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298]
+              },
+              {
                 "GeoType": "CD",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "Citywide",
                 "TimePeriodID": [296, 298]
               }
             ],
@@ -47441,6 +47465,804 @@
               {
                 "GeoType": null,
                 "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2435,
+    "IndicatorName": "Assault emergency department visits (age 15 to 34)",
+    "IndicatorLabel": "Assault emergency department visits (age 15 to 34)",
+    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1384,
+        "MeasureName": "Assault emergency department visits (age 15 to 34), Number",
+        "MeasurementType": "Number",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1385,
+        "MeasureName": "Assault emergency department visits (age 15 to 34), Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2436,
+    "IndicatorName": "Firearm emergency department visits (age 15 to 34)",
+    "IndicatorLabel": "Firearm emergency department visits (age 15 to 34)",
+    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal firearm-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1386,
+        "MeasureName": "Firearm emergency department visits (age 15 to 34), Number",
+        "MeasurementType": "Number",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1387,
+        "MeasureName": "Firearm emergency department visits (age 15 to 34), Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2437,
+    "IndicatorName": "Firearm emergency department visits (all ages)",
+    "IndicatorLabel": "Firearm emergency department visits (all ages)",
+    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal firearm-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1388,
+        "MeasureName": "Firearm emergency department visits (all ages), Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1389,
+        "MeasureName": "Firearm emergency department visits (all ages), Number",
+        "MeasurementType": "Number",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2438,
+    "IndicatorName": "Assault hospitalizations (age 15 to 34)",
+    "IndicatorLabel": "Assault hospitalizations (age 15 to 34)",
+    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1390,
+        "MeasureName": "Assault hospitalizations (age 15 to 34), Number",
+        "MeasurementType": "Number",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1391,
+        "MeasureName": "Assault hospitalizations (age 15 to 34), Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2439,
+    "IndicatorName": "Firearm hospitalizations (age 15 to 34)",
+    "IndicatorLabel": "Firearm hospitalizations (age 15 to 34)",
+    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal firearm-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1392,
+        "MeasureName": "Firearm hospitalizations (age 15 to 34), Number",
+        "MeasurementType": "Number",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1393,
+        "MeasureName": "Firearm hospitalizations (age 15 to 34), Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2440,
+    "IndicatorName": "Firearm hospitalizations (all ages)",
+    "IndicatorLabel": "Firearm hospitalizations (all ages)",
+    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal firearm-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1394,
+        "MeasureName": "Firearm hospitalizations (all ages), Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1395,
+        "MeasureName": "Firearm hospitalizations (all ages), Number",
+        "MeasurementType": "Number",
+        "how_calculated": null,
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [47, 48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [47, 48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [47, 48, 49, 289]
               }
             ],
             "Links": [
