@@ -37483,14 +37483,14 @@
   },
   {
     "IndicatorID": 2375,
-    "IndicatorName": "Assault hospitalizations (all ages)",
+    "IndicatorName": "Violence-related hospitalizations (all ages)",
     "IndicatorLabel": "Assault hospitalizations (all ages)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorDescription": "Non-fatal, violence-related injuries that result in hospitalizations. These are more common than homicides and help paint the larger picture of the burden of violence on communities.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1187,
-        "MeasureName": "Assault hospitalizations, Number",
+        "MeasureName": "Violence-related hospitalizations (all ages), Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only.",
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -37552,7 +37552,7 @@
       },
       {
         "MeasureID": 1249,
-        "MeasureName": "Assault hospitalizations, Age-adjusted rate",
+        "MeasureName": "Violence-related hospitalizations (all ages), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "Number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are the number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -41039,14 +41039,14 @@
   },
   {
     "IndicatorID": 2400,
-    "IndicatorName": "Assault emergency department visits (all ages)",
+    "IndicatorName": "Violence-related emergency department visits (all ages)",
     "IndicatorLabel": "Assault emergency department visits (all ages)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorDescription": "Non-fatal, violence-related injuries that result in emergency department visits. These are more common than homicides and help paint the larger picture of the burden of violence on communities. ",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1250,
-        "MeasureName": "Assault ED visits, Age-adjusted rate",
+        "MeasureName": "Violence-related ED visits (all ages), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "Number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are the number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -41120,7 +41120,7 @@
       },
       {
         "MeasureID": 1251,
-        "MeasureName": "Assault ED visits, Number",
+        "MeasureName": "Violence-related ED visits (all ages), Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only.",
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -47525,14 +47525,14 @@
   },
   {
     "IndicatorID": 2435,
-    "IndicatorName": "Assault emergency department visits (age 15 to 34)",
+    "IndicatorName": "Violence-related emergency department visits (ages 15-34)",
     "IndicatorLabel": "Assault emergency department visits (age 15 to 34)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorDescription": "Non-fatal, violence-related injuries that result in emergency department visits. These are more common than homicides and help paint the larger picture of the burden of violence on communities.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1384,
-        "MeasureName": "Assault emergency department visits (age 15 to 34), Number",
+        "MeasureName": "Violence-related ED visits (15-34), Number",
         "MeasurementType": "Number",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -47594,11 +47594,11 @@
       },
       {
         "MeasureID": 1385,
-        "MeasureName": "Assault emergency department visits (age 15 to 34), Rate",
+        "MeasureName": "Violence-related ED visits (15-34), Rate",
         "MeasurementType": "Rate",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
-        "DisplayType": "",
+        "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [47, 48, 49, 289],
@@ -47660,7 +47660,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -47670,14 +47670,14 @@
   },
   {
     "IndicatorID": 2436,
-    "IndicatorName": "Firearm emergency department visits (age 15 to 34)",
+    "IndicatorName": "Firearm emergency department visits (ages 15-34)",
     "IndicatorLabel": "Firearm emergency department visits (age 15 to 34)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal firearm-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorDescription": "Non-fatal injuries from firearms that result in emergency department visits. Violence from firearms causes physical and emotional harm, and trauma to both individuals and communities.  ",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1386,
-        "MeasureName": "Firearm emergency department visits (age 15 to 34), Number",
+        "MeasureName": "Firearm ED visits (15-34), Number",
         "MeasurementType": "Number",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -47739,11 +47739,11 @@
       },
       {
         "MeasureID": 1387,
-        "MeasureName": "Firearm emergency department visits (age 15 to 34), Rate",
+        "MeasureName": "Firearm ED visits (15-34), Rate",
         "MeasurementType": "Rate",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
-        "DisplayType": "",
+        "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [47, 48, 49, 289],
@@ -47805,7 +47805,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -47817,16 +47817,16 @@
     "IndicatorID": 2437,
     "IndicatorName": "Firearm emergency department visits (all ages)",
     "IndicatorLabel": "Firearm emergency department visits (all ages)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal firearm-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorDescription": "Non-fatal injuries from firearms that result in emergency department visits. Violence from firearms causes physical and emotional harm, and trauma to both individuals and communities.  ",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1388,
-        "MeasureName": "Firearm emergency department visits (all ages), Age-adjusted rate",
+        "MeasureName": "Firearm ED visits (all ages), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
-        "DisplayType": "",
+        "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [47, 48, 49, 289],
@@ -47888,7 +47888,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -47896,7 +47896,7 @@
       },
       {
         "MeasureID": 1389,
-        "MeasureName": "Firearm emergency department visits (all ages), Number",
+        "MeasureName": "Firearm ED visits (all ages), Number",
         "MeasurementType": "Number",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -47960,14 +47960,14 @@
   },
   {
     "IndicatorID": 2438,
-    "IndicatorName": "Assault hospitalizations (age 15 to 34)",
+    "IndicatorName": "Violence-related hospitalizations (ages 15-34)",
     "IndicatorLabel": "Assault hospitalizations (age 15 to 34)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorDescription": "Non-fatal, violence-related injuries that result in hospitalizations. These are more common than homicides and help paint the larger picture of the burden of violence on communities.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1390,
-        "MeasureName": "Assault hospitalizations (age 15 to 34), Number",
+        "MeasureName": "Violence-related hospitalizations (ages 15-34), Number",
         "MeasurementType": "Number",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -48029,11 +48029,11 @@
       },
       {
         "MeasureID": 1391,
-        "MeasureName": "Assault hospitalizations (age 15 to 34), Rate",
+        "MeasureName": "Violence-related hospitalizations (ages 15-34), Rate",
         "MeasurementType": "Rate",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
-        "DisplayType": "",
+        "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [47, 48, 49, 289],
@@ -48095,7 +48095,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -48105,14 +48105,14 @@
   },
   {
     "IndicatorID": 2439,
-    "IndicatorName": "Firearm hospitalizations (age 15 to 34)",
+    "IndicatorName": "Firearm hospitalizations (ages 15-34)",
     "IndicatorLabel": "Firearm hospitalizations (age 15 to 34)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal firearm-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorDescription": "Non-fatal injuries from firearms that result in hospitalizations. Violence from firearms causes physical and emotional harm, and trauma to both individuals and communities. ",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1392,
-        "MeasureName": "Firearm hospitalizations (age 15 to 34), Number",
+        "MeasureName": "Firearm hospitalizations (ages 15-34), Number",
         "MeasurementType": "Number",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -48174,11 +48174,11 @@
       },
       {
         "MeasureID": 1393,
-        "MeasureName": "Firearm hospitalizations (age 15 to 34), Rate",
+        "MeasureName": "Firearm hospitalizations (ages 15-34), Rate",
         "MeasurementType": "Rate",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
-        "DisplayType": "",
+        "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [47, 48, 49, 289],
@@ -48240,7 +48240,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -48252,7 +48252,7 @@
     "IndicatorID": 2440,
     "IndicatorName": "Firearm hospitalizations (all ages)",
     "IndicatorLabel": "Firearm hospitalizations (all ages)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal firearm-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorDescription": "Non-fatal injuries from firearms that result in hospitalizations. Violence from firearms causes physical and emotional harm, and trauma to both individuals and communities. ",
     "Comparisons": null,
     "Measures": [
       {
@@ -48261,7 +48261,7 @@
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": null,
         "Sources": "Statewide Planning and Research Cooperative System",
-        "DisplayType": "",
+        "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [47, 48, 49, 289],
@@ -48323,7 +48323,7 @@
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
