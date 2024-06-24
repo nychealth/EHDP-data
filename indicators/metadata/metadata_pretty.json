@@ -35398,14 +35398,14 @@
   },
   {
     "IndicatorID": 2375,
-    "IndicatorName": "Assault hospitalizations (non-fatal)",
-    "IndicatorLabel": "Assault hospitalizations (non-fatal)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in hospitalizations are more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorName": "Violence-related hospitalizations (all ages)",
+    "IndicatorLabel": "Assault hospitalizations (all ages)",
+    "IndicatorDescription": "Non-fatal, violence-related injuries that result in hospitalizations. These are more common than homicides and help paint the larger picture of the burden of violence on communities.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1187,
-        "MeasureName": "Assault hospitalizations, Number",
+        "MeasureName": "Violence-related hospitalizations (all ages), Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only.",
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -35443,8 +35443,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Links": [
@@ -35463,7 +35467,7 @@
       },
       {
         "MeasureID": 1249,
-        "MeasureName": "Assault hospitalizations, Age-adjusted rate",
+        "MeasureName": "Violence-related hospitalizations (all ages), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "Number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are the number of NYC non-fatal assault hospitalizations among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -35501,8 +35505,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Links": [
@@ -37766,12 +37774,24 @@
         "how_calculated": "Percentage of street mileage with conventional and protected bicycle lanes, not including sharrows, dirt trails, boardwalks, and velodromes.",
         "Sources": "New York City Department of Transportation ",
         "DisplayType": "",
-        "AvailableGeoTypes": ["UHF42"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [46],
         "VisOptions": [
           {
             "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [46]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [46]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [46]
+              },
               {
                 "GeoType": "UHF42",
                 "TimePeriodID": [46]
@@ -37779,9 +37799,14 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [46],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [46],
+                "RankReverse": 1
               }
             ],
             "Trend": [
@@ -38846,14 +38871,14 @@
   },
   {
     "IndicatorID": 2400,
-    "IndicatorName": "Assault emergency department visits (non-fatal)",
-    "IndicatorLabel": "Assault emergency department visits (non-fatal)",
-    "IndicatorDescription": "Violence is frequently described through homicide statistics, but non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.",
+    "IndicatorName": "Violence-related emergency department visits (all ages)",
+    "IndicatorLabel": "Assault emergency department visits (all ages)",
+    "IndicatorDescription": "Non-fatal, violence-related injuries that result in emergency department visits. These are more common than homicides and help paint the larger picture of the burden of violence on communities. ",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1250,
-        "MeasureName": "Assault ED visits, Age-adjusted rate",
+        "MeasureName": "Violence-related ED visits (all ages), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "Number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are the number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -38891,8 +38916,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Links": [
@@ -38911,7 +38940,7 @@
       },
       {
         "MeasureID": 1251,
-        "MeasureName": "Assault ED visits, Number",
+        "MeasureName": "Violence-related ED visits (all ages), Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of NYC nonfatal assault emergency department visits among all ages was identified using the following ICD10-CM codes: X92-X99, Y00-Y04, Y07-Y09, T(36-65).x3, T(36-65).xx3, T71.xx3, T74, T76. Only live discharges and initial encounters are included. Assaults classified as terrorism, legal intervention, or operations of war are excluded. All figures include NYC residents only.",
         "Sources": "Statewide Planning and Research Cooperative System",
@@ -38949,8 +38978,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Links": [
