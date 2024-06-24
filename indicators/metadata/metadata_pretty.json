@@ -39887,12 +39887,24 @@
         "how_calculated": "Percentage of street mileage with conventional and protected bicycle lanes, not including sharrows, dirt trails, boardwalks, and velodromes.",
         "Sources": "New York City Department of Transportation ",
         "DisplayType": "",
-        "AvailableGeoTypes": ["UHF42"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [46],
         "VisOptions": [
           {
             "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [46]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [46]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [46]
+              },
               {
                 "GeoType": "UHF42",
                 "TimePeriodID": [46]
@@ -39900,9 +39912,14 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [46],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [46],
+                "RankReverse": 1
               }
             ],
             "Trend": [
