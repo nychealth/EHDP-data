@@ -2199,7 +2199,7 @@
         "how_calculated": "Estimated number of adults aged 18 years and older who reported medically diagnosed asthma and symptoms in the last 12 months, rounded to the nearest 1,000. Beginning in 2017, indicator includes data imputed for missing responses.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
@@ -2683,7 +2683,7 @@
         "how_calculated": "Estimated number of adults reporting mice or rats outside their building in the past 90 days, rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [8, 14, 49],
         "VisOptions": [
@@ -11512,7 +11512,7 @@
         "how_calculated": "Estimated number of adults who report current, active smoking, rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF33", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF33", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
@@ -15406,7 +15406,7 @@
         "how_calculated": "Estimated number of adult males who reported having more than 2 alcoholic beverages per day and adult woman having more than 1 drink per day, rounded to the nearest 1,000. Adults are age 18 years and older.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [7, 8, 9, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
@@ -15543,7 +15543,7 @@
         "how_calculated": "Estimated number of adults who reported having 5 or more alcoholic beverages on one occasion in the past 30 days, rounded to the nearest 1,000. Note that as of 2011, quantity for women was changed to 4 or more beverages. ",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
@@ -16429,7 +16429,7 @@
         "how_calculated": "Estimated number of adults who reported participating in any physical activities or exercises, such as running, calisthenics, golf, gardening, or walking for exercise, in the past 30 days, rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
@@ -16582,7 +16582,7 @@
         "how_calculated": "Estimated number of adults classified as overweight or obese; based on the Body Mass Index (BMI) calculated from self-reported weight and height, rounded to the nearest 1,000. A BMI between 25 and 29.9 is classified as overweight, and a BMI of 30 or greater is classified as obese.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
@@ -16854,7 +16854,7 @@
         "how_calculated": "Estimated number of adults classified as obese; based on the Body Mass Index (BMI) calculated from self-reported weight and height, rounded to the nearest 1,000. A BMI of 30 or greater is classified as obese.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
@@ -21249,7 +21249,7 @@
         "how_calculated": "Estimated number of adults who, on average reported having consumed one or more sugary drinks per day. Sugary drinks include soda, sweetened iced tea, sports drinks, fruit punch, and other fruit flavored drinks. (One drink equals 12-ounces.) Diet soda, sugar free drinks, 100% juice, and seltzer are not included.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
@@ -23435,7 +23435,7 @@
         "how_calculated": "Estimated number of adults who reported having any kind of health insurance coverage, including private health insurance, prepaid plans such as H-M-Os or government plans such as Medicare or Medicaid, rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
@@ -24925,7 +24925,7 @@
         "how_calculated": "Estimated number of adults (aged 18 and over) who reported having a personal doctor or health care provider rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
@@ -25518,7 +25518,7 @@
         "how_calculated": "Estimated number of adults aged 18 years and older who have ever been told by a doctor, nurse or other health professional that they have diabetes rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
@@ -29289,7 +29289,7 @@
         "how_calculated": "Estimated number of adults who report their overall health as \"excellent,\" \"very good\" or \"good\" on a scale of one to five (excellent, very good, good, fair or poor), rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "AvailableTimePeriodIDs": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
