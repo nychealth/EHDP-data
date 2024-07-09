@@ -98,9 +98,9 @@ add_comma_num <- label_comma(accuracy = 1.0, big.mark = ",")
 
 # using existing views
 
-EXP_data <- 
+DE_data <- 
     EHDP_odbc %>% 
-    tbl("EXP_data") %>% 
+    tbl("DE_data") %>% 
     collect() %>% 
     arrange(
         IndicatorID,
@@ -142,7 +142,7 @@ EXP_data <-
 # get unique indicator IDs in data
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-IndicatorIDs <- sort(unique(EXP_data$IndicatorID))
+IndicatorIDs <- sort(unique(DE_data$IndicatorID))
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # loop through indicator IDs
@@ -155,7 +155,7 @@ for (i in 1:length(IndicatorIDs)) {
     # convert to JSON
     
     exp_json <- 
-        EXP_data %>% 
+        DE_data %>% 
         filter(IndicatorID == this_indicator) %>% 
         select(-IndicatorID) %>% 
         toJSON(
