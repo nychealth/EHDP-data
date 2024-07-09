@@ -97,9 +97,9 @@ dir_create(path(base_dir, "indicators/metadata"))
 # all metadata
 #-----------------------------------------------------------------------------------------#
 
-EXP_metadata <- 
+DE_metadata <- 
     EHDP_odbc %>% 
-    tbl("EXP_metadata") %>% 
+    tbl("DE_metadata") %>% 
     collect() %>% 
     arrange(
         IndicatorID,
@@ -122,7 +122,7 @@ EXP_metadata <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 distinct_measures <-
-    EXP_metadata %>%
+    DE_metadata %>%
     select(
         IndicatorID,
         MeasureID
@@ -135,7 +135,7 @@ distinct_measures <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 indicator_measure_text <-
-    EXP_metadata %>%
+    DE_metadata %>%
     select(
         IndicatorID,
         IndicatorName,
@@ -162,7 +162,7 @@ indicator_measure_text <-
 # TimePeriodID
 
 measure_table_time <- 
-    EXP_metadata %>% 
+    DE_metadata %>% 
     filter(Table == 1) %>%
     select(
         IndicatorID,
@@ -200,7 +200,7 @@ measure_table <-
 # RankReverse: 0/1
 
 measure_mapping_rr <- 
-    EXP_metadata %>% 
+    DE_metadata %>% 
     filter(Map == 1) %>% 
     select(
         IndicatorID,
@@ -218,7 +218,7 @@ measure_mapping_rr <-
 # TimePeriodID
 
 measure_mapping_time <- 
-    EXP_metadata %>% 
+    DE_metadata %>% 
     filter(Map == 1) %>% 
     select(
         IndicatorID,
@@ -260,7 +260,7 @@ measure_mapping <-
 # TimePeriodID
 
 measure_trend_time <- 
-    EXP_metadata %>% 
+    DE_metadata %>% 
     filter(Trend == 1) %>% 
     select(
         IndicatorID,
@@ -297,9 +297,9 @@ measure_trend <-
 
 # ==== specific comparisons view ==== #
 
-EXP_comparisons <- 
+DE_comparisons <- 
     EHDP_odbc %>% 
-    tbl("EXP_comparisons") %>% 
+    tbl("DE_comparisons") %>% 
     collect() %>% 
     arrange(
         IndicatorID,
@@ -310,7 +310,7 @@ EXP_comparisons <-
 # ==== nesting ComparisonIDs ==== #
 
 indicator_comparisons <- 
-    EXP_comparisons %>% 
+    DE_comparisons %>% 
     select(
         IndicatorID,
         Comparisons = ComparisonID
@@ -331,7 +331,7 @@ indicator_comparisons <-
 
 MeasureID_links <- 
     EHDP_odbc %>% 
-    tbl("EXP_links") %>% 
+    tbl("DE_links") %>% 
     collect() %>% 
     arrange(
         BaseMeasureID,
@@ -413,7 +413,7 @@ measure_vis_options <-
 #-----------------------------------------------------------------------------------------#
 
 measure_geotypes <- 
-    EXP_metadata %>% 
+    DE_metadata %>% 
     select(
         IndicatorID,
         MeasureID,
@@ -430,7 +430,7 @@ measure_geotypes <-
 #-----------------------------------------------------------------------------------------#
 
 measure_times <- 
-    EXP_metadata %>% 
+    DE_metadata %>% 
     select(
         IndicatorID,
         MeasureID,
@@ -447,7 +447,7 @@ measure_times <-
 #-----------------------------------------------------------------------------------------#
 
 trend_no_compare <- 
-    EXP_metadata %>% 
+    DE_metadata %>% 
     select(
         IndicatorID,
         MeasureID,

@@ -41,41 +41,41 @@ Write-Host "-------------------------------------------------------------"
 # EXP data
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_data_json"
+Write-Output ">>> DE_data_json"
 
-Rscript $base_dir\export-scripts\EXP_data_json.R
+Rscript $base_dir\export-scripts\DE_data_json.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_metadata_json"
+Write-Output ">>> DE_metadata_json"
 
-Rscript $base_dir\export-scripts\EXP_metadata_json.R
+Rscript $base_dir\export-scripts\DE_metadata_json.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP comparisons
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_comparisons_json"
+Write-Output ">>> DE_comparisons_json"
 
-Rscript $base_dir\export-scripts\EXP_comparisons_json.R
+Rscript $base_dir\export-scripts\DE_comparisons_json.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP TimePeriods
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_TimePeriods_json"
+Write-Output ">>> DE_TimePeriods_json"
 
-Rscript $base_dir\export-scripts\EXP_TimePeriods_json.R
+Rscript $base_dir\export-scripts\DE_TimePeriods_json.R
 
 #-----------------------------------------------------------------------------------------#
 # EXP GeoLookup
 #-----------------------------------------------------------------------------------------#
 
-Write-Output ">>> EXP_GeoLookup_json"
+Write-Output ">>> DE_GeoLookup_json"
 
-Rscript $base_dir\export-scripts\EXP_GeoLookup_json.R
+Rscript $base_dir\export-scripts\DE_GeoLookup_json.R
 
 #-----------------------------------------------------------------------------------------#
 # NR data (for hugo & VegaLite)
