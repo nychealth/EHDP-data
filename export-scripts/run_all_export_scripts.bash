@@ -275,36 +275,36 @@ echo "-------------------------------------------------------------"
 # EXP data
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_data_json"
-Rscript "$base_dir/export-scripts/EXP_data_json.R"
+echo ">>> DE_data_json"
+Rscript "$base_dir/export-scripts/DE_data_json.R"
 
 #-----------------------------------------------------------------------------------------#
 # EXP metadata
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_metadata_json"
-Rscript $base_dir/export-scripts/EXP_metadata_json.R
+echo ">>> DE_metadata_json"
+Rscript "$base_dir/export-scripts/DE_metadata_json.R"
 
 #-----------------------------------------------------------------------------------------#
 # EXP comparisons
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_comparisons_json"
-Rscript "$base_dir/export-scripts/EXP_comparisons_json.R"
+echo ">>> DE_comparisons_json"
+Rscript "$base_dir/export-scripts/DE_comparisons_json.R"
 
 #-----------------------------------------------------------------------------------------#
 # EXP TimePeriods
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_TimePeriods_json"
-Rscript "$base_dir/export-scripts/EXP_TimePeriods_json.R"
+echo ">>> DE_TimePeriods_json"
+Rscript "$base_dir/export-scripts/DE_TimePeriods_json.R"
 
 #-----------------------------------------------------------------------------------------#
 # EXP GeoLookup
 #-----------------------------------------------------------------------------------------#
 
-echo ">>> EXP_GeoLookup_json"
-Rscript "$base_dir/export-scripts/EXP_GeoLookup_json.R"
+echo ">>> DE_GeoLookup_json"
+Rscript "$base_dir/export-scripts/DE_GeoLookup_json.R"
 
 #-----------------------------------------------------------------------------------------#
 # NR data (for hugo & VegaLite)
