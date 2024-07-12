@@ -44217,31 +44217,48 @@
         "MeasureID": 1323,
         "MeasureName": "Depression (adults), Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number if adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled years 2016-2018, divided by all adults; expressed as percent.",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years, divided by all adults; expressed as percent.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [277],
+        "AvailableTimePeriodIDs": [317, 318],
         "VisOptions": [
           {
             "Table": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              },
+              {
                 "GeoType": "UHF42",
-                "TimePeriodID": [277]
+                "TimePeriodID": [317, 318]
               }
             ],
             "Map": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              },
+              {
                 "GeoType": "UHF42",
-                "TimePeriodID": [277],
+                "TimePeriodID": [317, 318],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
               }
             ],
             "Links": [
@@ -44282,31 +44299,48 @@
         "MeasureID": 1324,
         "MeasureName": "Depression (adults), Age-adjusted percent",
         "MeasurementType": "Age-adjusted percent",
-        "how_calculated": "Estimated number if adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled years 2016-2018, divided by all adults; expressed as percent.",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years, divided by all adults; expressed as percent.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [277],
+        "AvailableTimePeriodIDs": [317, 318],
         "VisOptions": [
           {
             "Table": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              },
+              {
                 "GeoType": "UHF42",
-                "TimePeriodID": [277]
+                "TimePeriodID": [317, 318]
               }
             ],
             "Map": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              },
+              {
                 "GeoType": "UHF42",
-                "TimePeriodID": [277],
+                "TimePeriodID": [317, 318],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
               }
             ],
             "Links": [
@@ -44338,6 +44372,68 @@
                   }
                 ],
                 "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1396,
+        "MeasureName": "Depression (adults), Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years, divided by all adults.",
+        "Sources": "New York City Community Health Survey (CHS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": "2021",
+        "AvailableTimePeriodIDs": [317, 318],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [317, 318]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
               }
             ]
           }
@@ -44588,34 +44684,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [297],
+        "AvailableTimePeriodIDs": [297, 319, 320],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [297]
+                "TimePeriodID": [297, 319, 320]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [297]
+                "TimePeriodID": [297, 319, 320]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [297]
+                "TimePeriodID": [297, 319, 320]
               }
             ],
             "Map": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320],
+                "RankReverse": 0
+              },
+              {
                 "GeoType": "UHF42",
-                "TimePeriodID": [297],
+                "TimePeriodID": [297, 319, 320],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [297, 319, 320]
               }
             ],
             "Links": [
@@ -44641,34 +44746,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [297],
+        "AvailableTimePeriodIDs": [297, 319, 320],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [297]
+                "TimePeriodID": [297, 319, 320]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [297]
+                "TimePeriodID": [297, 319, 320]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [297]
+                "TimePeriodID": [297, 319, 320]
               }
             ],
             "Map": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320],
+                "RankReverse": 0
+              },
+              {
                 "GeoType": "UHF42",
-                "TimePeriodID": [297],
+                "TimePeriodID": [297, 319, 320],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [297, 319, 320]
               }
             ],
             "Links": [
@@ -44706,34 +44820,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [297],
+        "AvailableTimePeriodIDs": [297, 319, 320],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [297]
+                "TimePeriodID": [297, 319, 320]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [297]
+                "TimePeriodID": [297, 319, 320]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [297]
+                "TimePeriodID": [297, 319, 320]
               }
             ],
             "Map": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320],
+                "RankReverse": 0
+              },
+              {
                 "GeoType": "UHF42",
-                "TimePeriodID": [297],
+                "TimePeriodID": [297, 319, 320],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [297, 319, 320]
               }
             ],
             "Links": [
