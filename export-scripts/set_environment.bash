@@ -236,6 +236,7 @@ export current_branch=$current_branch
 
 # ask user
 
+echo "-------------------------------------------------------------"
 # read -p "Specify site repo branch (default = $current_branch): " site_branch
 read -p "Specify site repo branch (default = production): " site_branch
 
@@ -243,7 +244,6 @@ read -p "Specify site repo branch (default = production): " site_branch
 
 if [[ -z "$site_branch" ]]; then
 
-    echo "-------------------------------------------------------------"
     # site_branch=$current_branch
     site_branch='production'
     
