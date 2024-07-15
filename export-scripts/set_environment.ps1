@@ -261,14 +261,12 @@ $Env:current_branch = $current_branch
 # ask user
 
 Write-Host "-------------------------------------------------------------"
-# $site_branch = (Read-Host "specify site repo branch (default = $current_branch)")
 $site_branch = (Read-Host "specify site repo branch (default = production)")
 
 # if no value, set to current branch
 
 if ([string]::IsNullOrWhiteSpace($site_branch)) {
 
-    # $site_branch = $current_branch
     $site_branch = 'production'
 
 }
