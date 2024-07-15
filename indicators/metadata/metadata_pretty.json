@@ -2605,10 +2605,6 @@
                     "SecondaryAxis": "y"
                   },
                   {
-                    "MeasureID": 784,
-                    "SecondaryAxis": "y"
-                  },
-                  {
                     "MeasureID": 934,
                     "SecondaryAxis": "y"
                   },
@@ -2792,10 +2788,6 @@
                   {
                     "MeasureID": 88,
                     "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 784,
-                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -2936,10 +2928,6 @@
                   },
                   {
                     "MeasureID": 460,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 784,
                     "SecondaryAxis": "y"
                   },
                   {
@@ -5144,10 +5132,6 @@
                   },
                   {
                     "MeasureID": 777,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 784,
                     "SecondaryAxis": "y"
                   },
                   {
@@ -10485,10 +10469,6 @@
                     "SecondaryAxis": "y"
                   },
                   {
-                    "MeasureID": 784,
-                    "SecondaryAxis": "y"
-                  },
-                  {
                     "MeasureID": 934,
                     "SecondaryAxis": "y"
                   },
@@ -11611,10 +11591,6 @@
                     "SecondaryAxis": "y"
                   },
                   {
-                    "MeasureID": 784,
-                    "SecondaryAxis": "y"
-                  },
-                  {
                     "MeasureID": 1199,
                     "SecondaryAxis": "y"
                   },
@@ -12001,10 +11977,6 @@
                   {
                     "MeasureID": 645,
                     "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 784,
-                    "SecondaryAxis": "y"
                   },
                   {
                     "MeasureID": 1196,
@@ -12510,10 +12482,6 @@
                     "SecondaryAxis": "y"
                   },
                   {
-                    "MeasureID": 784,
-                    "SecondaryAxis": "y"
-                  },
-                  {
                     "MeasureID": 1196,
                     "SecondaryAxis": "y"
                   },
@@ -12752,10 +12720,6 @@
                   },
                   {
                     "MeasureID": 460,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 784,
                     "SecondaryAxis": "y"
                   },
                   {
@@ -13227,8 +13191,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 784,
-                    "SecondaryAxis": "y"
+                    "MeasureID": null,
+                    "SecondaryAxis": null
                   }
                 ],
                 "Disparities": 1
@@ -24482,175 +24446,6 @@
                   }
                 ],
                 "Disparities": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID": 2149,
-    "IndicatorName": "Persistent asthma in public school children (age 5 to 14)",
-    "IndicatorLabel": "Persistent asthma in public school children (age 5 to 14)",
-    "IndicatorDescription": "Persistent asthma is when symptom occur more than twice per week.",
-    "Comparisons": null,
-    "Measures": [
-      {
-        "MeasureID": 698,
-        "MeasureName": "Persistent asthma (public school children), Number",
-        "MeasurementType": "Number",
-        "how_calculated": "Number of public school children, age 5-14 years, with a most recent asthma diagnosis reported to NYC DOHMH from the previous or current school year that describes symptoms occurring more than twice per week. Number is calculated by residence of the child.",
-        "Sources": "New York City Automated School Health Records",
-        "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [317, 321, 322, 323, 324, 325, 326, 327, 328],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 784,
-        "MeasureName": "Persistent asthma (public school children), Estimated annual rate",
-        "MeasurementType": "Estimated annual rate",
-        "how_calculated": "Number of public school children, age 5-14 years, with a most recent asthma diagnosis reported to NYC DOHMH from the previous or current school year that describes symptoms occurring more than twice per week, divided by the 5-14 year old population, expressed per 1,000. Rates are calculated by residence of the child. Note: Use of a denominator consisting of all 5-14 year olds results in an underestimate of the true asthma prevalence, since the numerator represents only children enrolled in public schools that report to NYC DOHMH.",
-        "Sources": "New York City Automated School Health Records",
-        "DisplayType": "per 1,000",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [317, 321, 322, 323, 324, 325, 326, 327, 328],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [317, 321, 322, 323, 324, 325, 326, 327, 328]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": 41,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 45,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 47,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 86,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 245,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 307,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 365,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 375,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 383,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 391,
-                    "SecondaryAxis": "x"
-                  }
-                ],
-                "Disparities": 1
               }
             ]
           }
