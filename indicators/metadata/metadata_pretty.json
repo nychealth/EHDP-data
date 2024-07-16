@@ -47945,5 +47945,341 @@
         ]
       }
     ]
+  },
+  {
+    "IndicatorID": 2441,
+    "IndicatorName": "Anaplasmosis",
+    "IndicatorLabel": "Anaplasmosis",
+    "IndicatorDescription": "Anaplasmosis",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1397,
+        "MeasureName": "Anaplasmosis, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of cases meeting the?national case definition.",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1398,
+        "MeasureName": "Anaplasmosis, Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": "Crude Rate per 100,000 Population",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1399,
+        "MeasureName": "Anaplasmosis, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "Age-adjusted rates were calculated per 100,000 population using NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal estimates, updated April 2017.",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2442,
+    "IndicatorName": "Lyme disease",
+    "IndicatorLabel": "Lyme disease",
+    "IndicatorDescription": "Lyme disease",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1400,
+        "MeasureName": "Lyme disease, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of cases meeting the?national case definition.",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1401,
+        "MeasureName": "Lyme disease, Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": "Crude Rate per 100,000 Population",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1402,
+        "MeasureName": "Lyme disease, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "Age-adjusted rates were calculated per 100,000 population using NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal estimates, updated April 2017.",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
