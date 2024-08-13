@@ -17345,7 +17345,7 @@
   },
   {
     "IndicatorID": 2075,
-    "IndicatorName": "Heat stress: emergency department visits",
+    "IndicatorName": "Heat stress: yearly emergency department visits",
     "IndicatorLabel": "Heat stress: emergency department visits",
     "IndicatorDescription": "ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of extreme heat.",
     "Comparisons": null,
@@ -48552,7 +48552,7 @@
   {
     "IndicatorID": 2443,
     "IndicatorName": "Heat stress: 5-year emergency department visits",
-    "IndicatorLabel": "Heat stress: 5-year emergency department visits",
+    "IndicatorLabel": "Heat stress: emergency department visits",
     "IndicatorDescription": "ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of extreme heat.",
     "Comparisons": null,
     "Measures": [
