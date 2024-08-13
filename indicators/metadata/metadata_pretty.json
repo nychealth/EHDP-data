@@ -5849,13 +5849,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -5894,13 +5894,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -5948,13 +5948,13 @@
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -5967,7 +5967,7 @@
             "Trend": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -6076,20 +6076,20 @@
       },
       {
         "MeasureID": 788,
-        "MeasureName": "PM2.5 (Fine particles) action days, PM2.5 98% percentile",
-        "MeasurementType": "PM2.5 98% percentile",
+        "MeasureName": "PM2.5 (Fine particles) action days, PM2.5 98th percentile",
+        "MeasurementType": "PM2.5 98th percentile",
         "how_calculated": "98% of PM2.5 measurements taken at New York City's EPA Air Quality Stations are below this value over the past three years. This value is one of the PM2.5 Federal Air Quality Standards. The standard is 65 mcg per cubic meter.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -8828,13 +8828,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -8873,13 +8873,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
