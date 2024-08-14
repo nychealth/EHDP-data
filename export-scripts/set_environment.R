@@ -83,7 +83,7 @@ if (server == "") {
 
 data_env <- Sys.getenv("data_env")
 
-if (data_env == "") {
+if (data_env == "" & interactive()) {
     
     # ask and set
     
@@ -95,7 +95,11 @@ if (data_env == "") {
     
     Sys.setenv(data_env = data_env)
     
-} 
+} else {
+    # default to staging
+    data_env <- "s"
+    Sys.setenv(data_env = data_env)
+}
 
 # set DB name
 
