@@ -5623,13 +5623,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -5668,13 +5668,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -5850,8 +5850,8 @@
       },
       {
         "MeasureID": 788,
-        "MeasureName": "PM2.5 (Fine particles) action days, PM2.5 98% percentile",
-        "MeasurementType": "PM2.5 98% percentile",
+        "MeasureName": "PM2.5 (Fine particles) action days, PM2.5 98th percentile",
+        "MeasurementType": "PM2.5 98th percentile",
         "how_calculated": "98% of PM2.5 measurements taken at New York City's EPA Air Quality Stations are below this value over the past three years. This value is one of the PM2.5 Federal Air Quality Standards. The standard is 65 mcg per cubic meter.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "mcg/m3",
@@ -8602,13 +8602,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Map": [
@@ -8620,8 +8620,8 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Citywide",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -8665,8 +8665,8 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Citywide",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -17087,7 +17087,7 @@
   },
   {
     "IndicatorID": 2075,
-    "IndicatorName": "Heat stress: emergency department visits",
+    "IndicatorName": "Heat stress: yearly emergency department visits",
     "IndicatorLabel": "Heat stress: emergency department visits",
     "IndicatorDescription": "ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of extreme heat.",
     "Comparisons": null,
@@ -17255,9 +17255,9 @@
   },
   {
     "IndicatorID": 2076,
-    "IndicatorName": "Heat stress: hospitalizations",
+    "IndicatorName": "Heat stress: yearly hospitalizations",
     "IndicatorLabel": "Heat stress: hospitalizations",
-    "IndicatorDescription": "Heat stress hospitalizations due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of hot weather. Data aggregated over five years provides enough stability to display neighborhood impacts.\r\n",
+    "IndicatorDescription": "Heat stress hospitalizations weather are part of the public health burden due to hot weather.",
     "Comparisons": null,
     "Measures": [
       {
@@ -17278,15 +17278,38 @@
                 "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45]
+              },
+              {
                 "GeoType": "Citywide",
                 "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [4, 5, 44, 45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [14, 45, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [44],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [4, 5, 41, 44, 45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -17331,15 +17354,33 @@
                 "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45]
+              },
+              {
                 "GeoType": "Citywide",
                 "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [4, 5, 45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [14, 44, 45, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [4, 5, 6, 41, 44, 45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -17370,7 +17411,7 @@
         "MeasureID": 540,
         "MeasureName": "Heat hospitalizations, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "The number of NYC residents admitted to a NYC hospital during the months of May-September for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Numbers are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates. Quotients are multiplied by the proportion of the 2000 US population in each age group. The Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents. Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
+        "how_calculated": "The number of NYC residents admitted to a NYC hospital during the months of May-September for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Numbers are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates, to produce an age-adjusted rate. Quotients are multiplied by the proportion of the 2000 US population in each age group. Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
         "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
@@ -17384,15 +17425,33 @@
                 "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 45]
+              },
+              {
                 "GeoType": "Citywide",
                 "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [4, 45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 14, 38, 39, 41, 44, 45, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [4, 5, 38, 39, 41, 44, 45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -43461,6 +43520,333 @@
               {
                 "GeoType": "Citywide",
                 "TimePeriodID": [298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2433,
+    "IndicatorName": "Rat indexing in Rat Mitigation Zones (RMZs)",
+    "IndicatorLabel": "Rat indexing in Rat Mitigation Zones (RMZs)",
+    "IndicatorDescription": "Rat indexing is a comprehensive approach for rat mitigation. In certain zones, every property is inspected every six months for signs of rats and the conditions that attract them.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1378,
+        "MeasureName": "Rat indexing in Rat Mitigation Zones (RMZs), Number of properties inspected",
+        "MeasurementType": "Number of properties inspected",
+        "how_calculated": "Number of properties inspected in an RMZ within a six-month period. Inspections are of all properties that have a tax lot, including privately-owned property, public property, parks, schools, and vacant lots.",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["RMZ"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [313, 314, 315, 316],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1379,
+        "MeasureName": "Rat indexing in Rat Mitigation Zones (RMZs), Failed (any reason)",
+        "MeasurementType": "Failed (any reason)",
+        "how_calculated": "Percent of inspections that resulted in a failure for any reason, including active rat signs, in a given RMZ. Inspections are of all properties that have a tax lot, including privately-owned property, public property, parks, schools, and vacant lots.",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
+        "DisplayType": "percent",
+        "AvailableGeoTypes": ["RMZ"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [313, 314, 315, 316],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1380,
+        "MeasureName": "Rat indexing in Rat Mitigation Zones (RMZs), Failed (active rat signs)",
+        "MeasurementType": "Failed (active rat signs)",
+        "how_calculated": "Percent of inspections failed for active rat signs (ARS) in a given RMZ. Inspections are of all properties that have a tax lot, including privately-owned property, public property, parks, schools, and vacant lots.",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
+        "DisplayType": "percent",
+        "AvailableGeoTypes": ["RMZ"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [313, 314, 315, 316],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "RMZ",
+                "TimePeriodID": [313, 314, 315, 316],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2434,
+    "IndicatorName": "Rat inspections",
+    "IndicatorLabel": "Rat inspections",
+    "IndicatorDescription": "Rat inspections are conducted for signs of rats and the conditions that attract them.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1381,
+        "MeasureName": "Rat inspections, Percent of properties inspected",
+        "MeasurementType": "Percent of properties inspected",
+        "how_calculated": "Percent of properties inspected within a CD. Inspections are of all properties that have a tax lot, including privately-owned property, public property, parks, schools, and vacant lots.",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1382,
+        "MeasureName": "Rat inspections, Failed (any reason)",
+        "MeasurementType": "Failed (any reason)",
+        "how_calculated": "Percent of properties that failed inspections for any reason, including active rat signs, garbage, or conditions that harbor rats, in a given CD. Inspections are of all properties that have a tax lot, including privately-owned property, public property, parks, schools, and vacant lots.",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
+        "DisplayType": "percent",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1383,
+        "MeasureName": "Rat inspections, Failed (active rat signs)",
+        "MeasurementType": "Failed (active rat signs)",
+        "how_calculated": "Percent of inspections failed for active rat signs (ARS) in a given CD. Inspections are of all properties that have a tax lot, including privately-owned property, public property, parks, schools, and vacant lots.",
+        "Sources": "Veterinary, Rodent, and Vector Surveillance System",
+        "DisplayType": "percent",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
