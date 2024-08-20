@@ -83,22 +83,30 @@ if (server == "") {
 
 data_env <- Sys.getenv("data_env")
 
-if (data_env == "" & interactive()) {
-    
-    # ask and set
-    
-    data_env <-
-        dlgInput(
-            message = "staging [s] or production [p]?",
-            rstudio = FALSE
-        )$res
-    
-    Sys.setenv(data_env = data_env)
-    
-} else {
-    # default to staging
-    data_env <- "s"
-    Sys.setenv(data_env = data_env)
+# if not env var set, ask user
+
+if (data_env == "") {
+
+    if (interactive()) {
+
+        # only ask user if it's an interactive session
+        
+        data_env <-
+            dlgInput(
+                message = "staging [s] or production [p]?",
+                rstudio = FALSE
+            )$res
+        
+        Sys.setenv(data_env = data_env)
+
+    } else {
+
+        # if not interactive, default to staging
+
+        data_env <- "s"
+        Sys.setenv(data_env = data_env)
+
+    }
 }
 
 # set DB name
