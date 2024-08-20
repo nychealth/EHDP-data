@@ -47213,6 +47213,11 @@
             ],
             "Map": [
               {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              },
+              {
                 "GeoType": "CD",
                 "TimePeriodID": [296, 298],
                 "RankReverse": 0
@@ -47265,6 +47270,11 @@
               }
             ],
             "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              },
               {
                 "GeoType": "CD",
                 "TimePeriodID": [296, 298],
@@ -47330,6 +47340,11 @@
               }
             ],
             "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              },
               {
                 "GeoType": "CD",
                 "TimePeriodID": [296, 298],
