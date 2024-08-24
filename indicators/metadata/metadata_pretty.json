@@ -39909,6 +39909,201 @@
     ]
   },
   {
+    "IndicatorID": 2410,
+    "IndicatorName": "Heat stress: 10-year hospitalizations",
+    "IndicatorLabel": "Heat stress: hospitalizations",
+    "IndicatorDescription": "Heat stress hospitalizations weather are part of the public health burden due to hot weather. Data aggregated over 10 years provides enough stablility to display neighborhood impacts.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1283,
+        "MeasureName": "Heat hospitalizations, Average annual age-adjusted rate",
+        "MeasurementType": "Average annual age-adjusted rate",
+        "how_calculated": "The number of NYC residents admitted to a NYC hospital during the months of May-September summed over a 10-year period for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Numbers are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates. Quotients are multiplied by the proportion of the 2000 US population in each age group. The Average annual age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents. Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
+        "Sources": "New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates; Statewide Planning and Research Cooperative System",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [330],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [330]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [330]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [330]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [330],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [330],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [330]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [330]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1284,
+        "MeasureName": "Heat hospitalizations, Average annual rate",
+        "MeasurementType": "Average annual rate",
+        "how_calculated": "The number of NYC residents admitted to a NYC hospital during the months of May-September summed over a 10-year period for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. The numbers are divided by the population using NYC DOHMH intercensal estimates and expressed as cases per 100,000 residents. Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
+        "Sources": "New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates; Statewide Planning and Research Cooperative System",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [330],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [330]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [330]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [330]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [330],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [330],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [330]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [330]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1285,
+        "MeasureName": "Heat hospitalizations, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "The number of NYC residents admitted to a NYC hospital during the months of May-September summed over a 10-year period for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of admission and include those who were admitted with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Notes: The coding system used to represent diagnoses changed in October 2015. Cases admitted before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [330],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [330]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [330]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [330]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [330],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [330],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [330]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [330]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID": 2411,
     "IndicatorName": "Heat vulnerability index (NTA)",
     "IndicatorLabel": "Heat vulnerability index (NTA)",
@@ -43847,6 +44042,201 @@
               {
                 "GeoType": null,
                 "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2443,
+    "IndicatorName": "Heat stress: 5-year emergency department visits",
+    "IndicatorLabel": "Heat stress: emergency department visits",
+    "IndicatorDescription": "ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of extreme heat.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1403,
+        "MeasureName": "Heat stress: 5-year emergency department visits, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "The number of NYC residents treated in a NYC emergency department (ED) over 5 years during the months of May-September for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of visit and include those with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Notes: The coding system used to represent diagnoses changed in October 2015. Cases occuring before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1404,
+        "MeasureName": "Heat stress: 5-year emergency department visits, Estimated annual rate",
+        "MeasurementType": "Estimated annual rate",
+        "how_calculated": "The number of NYC residents treated in a NYC emergency department (ED) over 5 years during the months of May-September for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of visit and include those with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are divided by the population using NYC DOHMH intercensal estimates and expressed as cases per 100,000 residents. Notes: The coding system used to represent diagnoses changed in October 2015. Cases occuring before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1405,
+        "MeasureName": "Heat stress: 5-year emergency department visits, Average annual age-adjusted rate",
+        "MeasurementType": "Average annual age-adjusted rate",
+        "how_calculated": "The number of NYC residents treated in a NYC emergency department (ED) over 5 years during the months of May-September for the effects of heat and light due to weather conditions or undetermined cause. Residents with a diagnosis of excessive heat due to non-environmental conditions were excluded. Data are based on date of visit and include those with a diagnosis of heat-related illness, even if that was not the principal diagnosis. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents. Notes: The coding system used to represent diagnoses changed in October 2015. Cases occuring before October 1, 2015 are represented by International Classification of Diseases (ICD), 9th Edition, Clinical Modification (ICD-9-CM) codes 992.0-992.9, E900.0 or E900.9. Cases admitted on or after October 1, 2015, are represented by the ICD, 10th Edition, Clinical Modification (ICD-10-CM) codes T67, X30, X32. Cases with diagnoses represented by ICD-9-CM code E900.1 (if admitted before October 1, 2015) or ICD-10-CM code W92 (if admitted on or after October 1, 2015) were excluded. Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
               }
             ],
             "Links": [
