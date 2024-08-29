@@ -21,24 +21,6 @@ suppressWarnings(suppressMessages(library(fs)))
 suppressWarnings(suppressMessages(library(stringr)))
 
 #-----------------------------------------------------------------------------------------#
-# get and set env vars
-#-----------------------------------------------------------------------------------------#
-
-# find script
-
-set_environment_loc <-
-    list.files(
-        getwd(),
-        pattern = "set_environment.R",
-        full.names = TRUE,
-        recursive = TRUE
-    )
-
-# run script
-
-source(set_environment_loc)
-
-#-----------------------------------------------------------------------------------------#
 # set geo file params
 #-----------------------------------------------------------------------------------------#
 
