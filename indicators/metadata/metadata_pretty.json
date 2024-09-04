@@ -4225,7 +4225,7 @@
         "MeasureName": "Cracks, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households that reported cracks or holes in the home.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -4287,7 +4287,7 @@
         "MeasureName": "Cracks, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households in an area that reported cracks or holes in the home, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -4442,7 +4442,7 @@
         "MeasureName": "Peeling paint, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households in an area that were built before 1960 and had peeling paint in areas greater than 8.5\" x 11\".",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -4504,7 +4504,7 @@
         "MeasureName": "Peeling paint, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households in an area that were built before 1960 and had peeling paint n areas greater than 8.5\" x 11\", divided by the total number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -4579,7 +4579,7 @@
         "MeasureName": "Leaks, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households in an area that reported leaks coming from outside the unit, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -4641,7 +4641,7 @@
         "MeasureName": "Leaks, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households in an area that reported leaks coming from outside the unit, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -4766,17 +4766,17 @@
   },
   {
     "IndicatorID": 45,
-    "IndicatorName": "Homes with 3+ maintenance deficiencies",
-    "IndicatorLabel": "Homes with 3 or more maintenance deficiencies",
-    "IndicatorDescription": "Homes with maintenance deficiencies can threaten the health of the people who live there.",
+    "IndicatorName": "Homes with 3+ housing problems",
+    "IndicatorLabel": "Homes with 3 or more housing problems",
+    "IndicatorDescription": "Homes with housing problems can threaten the health of the people who live there.",
     "Comparisons": [571],
     "Measures": [
       {
         "MeasureID": 85,
-        "MeasureName": "Homes with 3+ maintenance deficiencies, Number",
+        "MeasureName": "Homes with 3+ housing problems, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households reporting three or more maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -4835,10 +4835,10 @@
       },
       {
         "MeasureID": 86,
-        "MeasureName": "Homes with 3+ maintenance deficiencies, Percent",
+        "MeasureName": "Homes with 3+ housing problems, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households in an area reporting three or more maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -5029,7 +5029,7 @@
         "MeasureName": "Neighborhood building quality, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households that rated their neighborhood structures as good or excellent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -5091,7 +5091,7 @@
         "MeasureName": "Neighborhood building quality, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households in an area that rated their neighborhood structures as good or excellent, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -5270,7 +5270,7 @@
         "MeasureName": "Supplemental heat, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households that needed to use a secondary source of heat in addition to their primary source.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -5332,7 +5332,7 @@
         "MeasureName": "Supplemental heat, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households in an area that needed to use a secondary source of heat in addition to their primary source, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -5451,7 +5451,7 @@
         "MeasureName": "Mice or rats (in the building), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households that reported mice or rats in their building in the past 90 days.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -5508,7 +5508,7 @@
         "MeasureName": "Mice or rats (in the building), Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households in an area that reported mice or rats in their building in the past 90 days, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -5722,13 +5722,13 @@
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -5741,7 +5741,7 @@
             "Trend": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -5767,13 +5767,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -5812,13 +5812,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -5857,13 +5857,13 @@
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -8429,7 +8429,7 @@
         "MeasureName": "Regular exterminator service, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households that reported regular exterminator service.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -8491,7 +8491,7 @@
         "MeasureName": "Regular exterminator service, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households in an area that reported regular exterminator service, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -8602,13 +8602,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -8621,7 +8621,7 @@
             "Trend": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -8647,13 +8647,13 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -8666,7 +8666,7 @@
             "Trend": [
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -10140,7 +10140,7 @@
         "MeasureName": "Cockroaches, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households in an area that reported seeing at least one cockroach daily over the last month, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -10294,7 +10294,7 @@
         "MeasureName": "Cockroaches, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households that reported seeing at least one cockroach daily over the last month.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -25800,17 +25800,17 @@
   },
   {
     "IndicatorID": 2179,
-    "IndicatorName": "Renter-occupied homes with no maintenance deficiencies",
-    "IndicatorLabel": "Renter-occupied homes with no maintenance deficiencies",
-    "IndicatorDescription": "Healthy homes are free of maintenance deficiencies.",
+    "IndicatorName": "Renter-occupied homes with no housing problems",
+    "IndicatorLabel": "Renter-occupied homes with no housing problems",
+    "IndicatorDescription": "Healthy homes are free of housing problems.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 758,
-        "MeasureName": "Renter-occupied homes with no maintenance deficiencies, Number",
+        "MeasureName": "Renter-occupied homes with no housing problems, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -25864,10 +25864,10 @@
       },
       {
         "MeasureID": 759,
-        "MeasureName": "Renter-occupied homes with no maintenance deficiencies, Percent",
+        "MeasureName": "Renter-occupied homes with no housing problems, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of renter-occupied households in an area reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of renter-occupied households in the area; expressed as percent..",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -26466,7 +26466,7 @@
         "MeasureName": "Households with AC, Percent (with AC)",
         "MeasurementType": "Percent (with AC)",
         "how_calculated": "Estimated number of households in an area reporting having functioning air conditioning, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -26532,7 +26532,7 @@
         "MeasureName": "Households with AC, Number (with AC)",
         "MeasurementType": "Number (with AC)",
         "how_calculated": "Estimated number of households reporting having functioning air conditioning",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -26589,7 +26589,7 @@
         "MeasureName": "Households with AC, Percent (without AC)",
         "MeasurementType": "Percent (without AC)",
         "how_calculated": "Estimated number of households in an area reporting not having functioning air conditioning, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -26655,7 +26655,7 @@
         "MeasureName": "Homes with grab bars in bathroom (among older adult households), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older. ",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -26712,7 +26712,7 @@
         "MeasureName": "Homes with grab bars in bathroom (among older adult households), Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older, divided by the estimated number of households with adults aged 65 years or older; expressed as a percent. ",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -35265,7 +35265,7 @@
         "MeasureName": "Households using electric medical equipment, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households reporting someone using electric medical equipment, rounded to the nearest 1,000.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -35327,7 +35327,7 @@
         "MeasureName": "Households using electric medical equipment, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households reporting someone using electric medical equipment; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -38400,17 +38400,17 @@
   },
   {
     "IndicatorID": 2399,
-    "IndicatorName": "Renter-occupied homes with any health-related maintenance problems",
-    "IndicatorLabel": "Renter-occupied homes with any health-related maintenance problems",
-    "IndicatorDescription": "Homes with maintenance deficiencies can threaten the health of the people who live there.",
+    "IndicatorName": "Renter-occupied homes with any health-related housing problems",
+    "IndicatorLabel": "Renter-occupied homes with any health-related housing problems",
+    "IndicatorDescription": "Homes with housing problems can threaten the health of the people who live there.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1247,
-        "MeasureName": "Maintenance problems, Number",
+        "MeasureName": "Housing problems, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of renter-occupied households reporting any health-related maintenance problems (cockroaches, mice or rats in the building, cracks or holes in walls, ceilings or floors, leaks from outside, toilet breakdowns, lack of air conditioning, heating equipment breakdown, additional heating required, or broken plaster or peeling paint larger than 8&frac12; x 11 inches).",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -38469,10 +38469,10 @@
       },
       {
         "MeasureID": 1248,
-        "MeasureName": "Maintenance problems, Percent",
+        "MeasureName": "Housing problems, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of renter-occupied households reporting any health-related maintenance problems (cockroaches, mice or rats in the building, cracks or holes in walls, ceilings or floors, leaks from outside, toilet breakdowns, lack of air conditioning, heating equipment breakdown, additional heating required, or broken plaster or peeling paint larger than 8&frac12; x 11 inches),divided by the number of renter-occupied households in the area; expressed as percent..",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -38676,7 +38676,7 @@
         "MeasureName": "Postponing health care, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households that postponed health care for financial reasons, rounded to the nearest 1,000. Health care includes dental, preventive care or check-up, mental health, treatment or diagnosis of illness or health condition, and prescription drugs.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -38738,7 +38738,7 @@
         "MeasureName": "Postponing health care, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households that postponed health care for financial reasons, rounded to the nearest 1,000. Health care includes dental, preventive care or check-up, mental health, treatment or diagnosis of illness or health condition, and prescription drugs; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -38809,7 +38809,7 @@
         "MeasureName": "Homes with reported falls, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of households that reported anyone 65 or older having fallen in the home.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
         "TrendNoCompare": null,
@@ -38866,7 +38866,7 @@
         "MeasureName": "Homes with reported falls, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of households that reported anyone 65 or older having fallen in the home, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (HVS)",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
         "TrendNoCompare": null,
