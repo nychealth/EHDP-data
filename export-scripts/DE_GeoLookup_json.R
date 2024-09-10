@@ -1,10 +1,15 @@
 ###########################################################################################-
 ###########################################################################################-
 ##
-##  Creating GeoLookup.csv
+##  Creating GeoLookup.json
 ##
 ###########################################################################################-
 ###########################################################################################-
+
+# turning source geo files into our geo metadata reference file. source files are mostly 
+#   shapefiles, downloaded from the NYC Department of City Planning's BYTES of the BIG APPLE™
+#   page (https://www.nyc.gov/site/planning/data-maps/open-data.page), using the script
+#   at "geography/download_shapefiles.R".
 
 #=========================================================================================#
 # Setting up ----
@@ -45,6 +50,12 @@ source(set_environment_loc)
 
 
 #-----------------------------------------------------------------------------------------#
+# download shapefiles if needed
+#-----------------------------------------------------------------------------------------#
+
+source(path(base_dir, "geography/download_geo_files.R"))
+
+#-----------------------------------------------------------------------------------------#
 # Connect to database
 #-----------------------------------------------------------------------------------------#
 
@@ -82,6 +93,11 @@ EHDP_odbc <-
 
 dir_create(path(base_dir, "geography"))
 
+#-----------------------------------------------------------------------------------------#
+# get geo file version
+#-----------------------------------------------------------------------------------------#
+
+release <- read_file(path(base_dir, "geography/release"))
 
 #=========================================================================================#
 # data ops ----
@@ -168,7 +184,7 @@ geo_type_entity <-
 
 
 #-----------------------------------------------------------------------------------------#
-# shapefile data ----
+# geography data ----
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -185,8 +201,10 @@ citywide <-
 # Borough Boundaries
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nybb_24c.zip
+
 boro <- 
-    read_sf("geography/nybb_22c") %>% 
+    read_sf(path(base_dir, glue("geography/nybb_{release}"))) %>% 
     as_tibble() %>% 
     mutate(center = st_centroid(geometry)) %>% 
     transmute(
@@ -210,7 +228,7 @@ boro <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 uhf_34 <- 
-    read_sf("geography/UHF 34") %>% 
+    read_sf(path(base_dir, "geography/UHF 34")) %>% 
     as_tibble() %>% 
     filter(UHF34_CODE != 0) %>% 
     mutate(center = st_centroid(geometry)) %>% 
@@ -228,7 +246,7 @@ uhf_34 <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 uhf_42 <- 
-    read_sf("geography/UHF 42") %>% 
+    read_sf(path(base_dir, "geography/UHF 42")) %>% 
     as_tibble() %>% 
     filter(UHFCODE != 0) %>% 
     mutate(center = st_centroid(geometry)) %>% 
@@ -244,10 +262,12 @@ uhf_42 <-
 # PUMA/Subboro
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-puma_to_subboro <- read_csv("geography/puma_to_subboro.csv", show_col_types = FALSE)
+# https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nypuma2010_24c.zip
+
+puma_to_subboro <- read_csv(path(base_dir, "geography/puma_to_subboro.csv"), show_col_types = FALSE)
 
 subboro <- 
-    read_sf("geography/nypuma2010_22c") %>% 
+    read_sf(path(base_dir, glue("geography/nypuma2010_{release}"))) %>% 
     as_tibble() %>% 
     mutate(
         PUMA = as.integer(PUMA),
@@ -261,19 +281,56 @@ subboro <-
     ) %>% 
     transmute(
         GeoType = "Subboro",
-        GeoID = Subboro,
+        GeoID = as.integer(Subboro),
         Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
         Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
     ) %>%  
     arrange(GeoID)
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# PUMA 2010
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nypuma2010_24c.zip
+
+puma2010 <- 
+    read_sf(path(base_dir, glue("geography/nypuma2010_{release}"))) %>% 
+    as_tibble() %>% 
+    mutate(center = st_centroid(geometry)) %>% 
+    transmute(
+        GeoType = "PUMA2010",
+        GeoID = as.integer(PUMA),
+        Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
+        Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
+    ) %>%  
+    arrange(GeoID)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# PUMA 2020
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nypuma2020_24c.zip
+
+puma2020 <- 
+    read_sf(path(base_dir, glue("geography/nypuma2020_{release}"))) %>% 
+    as_tibble() %>% 
+    mutate(center = st_centroid(geometry)) %>% 
+    transmute(
+        GeoType = "PUMA2020",
+        GeoID = as.integer(PUMA),
+        Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
+        Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
+    ) %>%  
+    arrange(GeoID)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # CD
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nycd_24c.zip
+
 cd <- 
-    read_sf("geography/nycd_22c") %>% 
+    read_sf(path(base_dir, glue("geography/nycd_{release}"))) %>% 
     as_tibble() %>% 
     mutate(center = st_centroid(geometry)) %>% 
     transmute(
@@ -285,11 +342,13 @@ cd <-
     arrange(GeoID)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# CDTA
+# CDTA (2020 only)
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nycdta2020_24c.zip
+
 cdta <- 
-    read_sf("geography/nycdta2020_22c") %>% 
+    read_sf(path(base_dir, glue("geography/nycdta2020_{release}"))) %>% 
     as_tibble() %>% 
     filter(CDTAType == "0") %>% 
     mutate(center = st_centroid(geometry)) %>% 
@@ -309,8 +368,10 @@ cdta <-
 # NTA (date not specified - same as 2010)
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nynta2010_24c.zip
+
 nta_nodate <- 
-    read_sf("geography/nynta2010_22c") %>% 
+    read_sf(path(base_dir, glue("geography/nynta2010_{release}"))) %>% 
     as_tibble() %>% 
     mutate(center = st_centroid(geometry)) %>% 
     transmute(
@@ -329,8 +390,10 @@ nta_nodate <-
 # NTA 2010
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nynta2010_24c.zip
+
 nta2010 <- 
-    read_sf("geography/nynta2010_22c") %>% 
+    read_sf(path(base_dir, glue("geography/nynta2010_{release}"))) %>% 
     as_tibble() %>% 
     mutate(center = st_centroid(geometry)) %>% 
     transmute(
@@ -349,8 +412,10 @@ nta2010 <-
 # NTA 2020
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+# https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nynta2020_24c.zip
+
 nta2020 <- 
-    read_sf("geography/nynta2020_22c") %>% 
+    read_sf(path(base_dir, glue("geography/nynta2020_{release}"))) %>% 
     as_tibble() %>% 
     filter(NTAType == "0") %>% 
     mutate(center = st_centroid(geometry)) %>% 
@@ -373,7 +438,7 @@ nta2020 <-
 # only have our own topojson file, no official shapefile
 
 nyc_kids_nodate <- 
-    read_sf("geography/NYCKids.topo.json", crs = st_crs(4326)) %>% 
+    read_sf(path(base_dir, "geography/NYCKids.topo.json"), crs = st_crs(4326)) %>% 
     st_transform(st_crs(2263)) %>% # planar coords for centroid
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
@@ -392,7 +457,7 @@ nyc_kids_nodate <-
 # only have our own topojson file, no official shapefile
 
 nyc_kids_2017 <- 
-    read_sf("geography/NYCKids_2017.topo.json", crs = st_crs(4326)) %>% 
+    read_sf(path(base_dir, "geography/NYCKids_2017.topo.json"), crs = st_crs(4326)) %>% 
     st_transform(st_crs(2263)) %>% 
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
@@ -411,7 +476,7 @@ nyc_kids_2017 <-
 # only have our own topojson file, no official shapefile
 
 nyc_kids_2019 <- 
-    read_sf("geography/NYCKids_2019.topo.json", crs = st_crs(4326)) %>% 
+    read_sf(path(base_dir, "geography/NYCKids_2019.topo.json"), crs = st_crs(4326)) %>% 
     st_transform(st_crs(2263)) %>% 
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
@@ -430,7 +495,7 @@ nyc_kids_2019 <-
 # only have our own topojson file, no official shapefile
 
 nyc_kids_2021 <- 
-    read_sf("geography/NYCKids_2021.topo.json", crs = st_crs(4326)) %>% 
+    read_sf(path(base_dir, "geography/NYCKids_2021.topo.json"), crs = st_crs(4326)) %>% 
     st_transform(st_crs(2263)) %>% 
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
@@ -447,7 +512,7 @@ nyc_kids_2021 <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 ny_harbor <- 
-    read_sf("geography/ny_harbor.topo.json", crs = st_crs(4326)) %>% 
+    read_sf(path(base_dir, "geography/ny_harbor.topo.json"), crs = st_crs(4326)) %>% 
     st_transform(st_crs(2263)) %>% 
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
@@ -464,7 +529,7 @@ ny_harbor <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 rmz <- 
-    read_sf("geography/RMZ.topo.json", crs = st_crs(4326)) %>% 
+    read_sf(path(base_dir, "geography/RMZ.topo.json"), crs = st_crs(4326)) %>% 
     st_transform(st_crs(2263)) %>% 
     mutate(center = st_centroid(geometry)) %>% 
     as_tibble() %>% 
@@ -487,6 +552,8 @@ all_geos <-
         uhf_34,
         uhf_42,
         subboro,
+        puma2010,
+        puma2020,
         cd,
         cdta,
         nta_nodate,
