@@ -53,7 +53,7 @@ source(set_environment_loc)
 # download shapefiles if needed
 #-----------------------------------------------------------------------------------------#
 
-source(path(base_dir, "geography/download_shapefiles.R"))
+source(path(base_dir, "geography/download_geo_files.R"))
 
 #-----------------------------------------------------------------------------------------#
 # Connect to database

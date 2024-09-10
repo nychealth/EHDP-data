@@ -17,11 +17,29 @@
 # Loading libraries
 #-----------------------------------------------------------------------------------------#
 
+suppressWarnings(suppressMessages(library(tidyverse)))
 suppressWarnings(suppressMessages(library(glue)))
-suppressWarnings(suppressMessages(library(readr)))
-suppressWarnings(suppressMessages(library(purrr)))
 suppressWarnings(suppressMessages(library(fs)))
-suppressWarnings(suppressMessages(library(stringr)))
+suppressWarnings(suppressMessages(library(sf)))
+
+#-----------------------------------------------------------------------------------------#
+# get and set env vars
+#-----------------------------------------------------------------------------------------#
+
+# find script
+
+set_environment_loc <-
+    list.files(
+        getwd(),
+        pattern = "set_environment.R",
+        full.names = TRUE,
+        recursive = TRUE
+    )
+
+# run script
+
+source(set_environment_loc)
+
 
 #-----------------------------------------------------------------------------------------#
 # set geo file params
@@ -38,7 +56,7 @@ base_url <- "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/by
 # file names and version
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-geos    <- read_file(path(base_dir, "geography/geos"))
+geos    <- read_lines(path(base_dir, "geography/geos"))
 release <- read_file(path(base_dir, "geography/release"))
 
 
@@ -183,7 +201,7 @@ write_csv(nyc_puma2010_names, path(base_dir, "geography/puma2010_names.csv"))
 # download and clean
 
  nyc_puma2020_names <- 
-    read_sf(glue("{tigerweb_url}/tigerWMS_Census2020/MapServer/0/query?{tigerweb_query}")) %>% 
+    read_sf(glue("{tigerweb_url}/tigerWMS_Census2020/MapServer/86/query?{tigerweb_query}")) %>% 
     as_tibble() %>% 
     filter(BASENAME %>% str_starts("NYC")) %>% 
     mutate(
@@ -196,25 +214,6 @@ write_csv(nyc_puma2010_names, path(base_dir, "geography/puma2010_names.csv"))
 
 write_csv(nyc_puma2020_names, path(base_dir, "geography/puma2020_names.csv"))
  
-
-#-----------------------------------------------------------------------------------------#
-# UHF 42 & UHF 34
-#-----------------------------------------------------------------------------------------#
-
-# UHFs are made from ZCTAs, with a crosswalk mapping one to other
-
-
-
-"https://data.cityofnewyork.us/resource/pri4-ifjk.geojson"
-
-
-
-download.file(
-    "https://data.cityofnewyork.us/api/geospatial/pri4-ifjk?accessType=DOWNLOAD&method=export&format=Shapefile", 
-    path(base_dir, "geography", "modzcta.zip"), 
-    method = "libcurl"
-)
-
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
