@@ -29,6 +29,24 @@ suppressWarnings(suppressMessages(library(glue)))
 suppressWarnings(suppressMessages(library(fs)))
 
 #-----------------------------------------------------------------------------------------#
+# get and set env vars
+#-----------------------------------------------------------------------------------------#
+
+# find script
+
+set_environment_loc <-
+    list.files(
+        getwd(),
+        pattern = "set_environment.R",
+        full.names = TRUE,
+        recursive = TRUE
+    )
+
+# run script
+
+source(set_environment_loc)
+
+#-----------------------------------------------------------------------------------------#
 # set geo file params
 #-----------------------------------------------------------------------------------------#
 
@@ -90,6 +108,10 @@ boro_topojson <-
 
 write_lines(boro_topojson, "geography/borough.topo.json")
 
+# fix with mapshaper
+
+system("mapshaper -i geography/borough.topo.json -o quantization=1e4 geography/borough.topo.json")
+
 
 #-----------------------------------------------------------------------------------------#
 # PUMA 2010 ----
@@ -99,7 +121,7 @@ write_lines(boro_topojson, "geography/borough.topo.json")
 # reading in original data
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-names <- read_csv("geography/puma2010_names.csv")
+names <- read_csv("geography/puma2010_names.csv", show_col_types = FALSE)
 
 PUMA2010 <- 
     read_sf(path(base_dir, glue("geography/nypuma2010_{release}"))) %>% 
@@ -137,6 +159,9 @@ PUMA2010_topojson <-
 
 write_lines(PUMA2010_topojson, "geography/PUMA2010.topo.json")
 
+# fix with mapshaper
+
+system("mapshaper -i geography/PUMA2010.topo.json -o quantization=1e4 geography/PUMA2010.topo.json")
 
 #-----------------------------------------------------------------------------------------#
 # PUMA 2020 ----
@@ -146,7 +171,7 @@ write_lines(PUMA2010_topojson, "geography/PUMA2010.topo.json")
 # reading in original data
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-names <- read_csv("geography/puma2020_names.csv")
+names <- read_csv("geography/puma2020_names.csv", show_col_types = FALSE)
 
 PUMA2020 <- 
     read_sf(path(base_dir, glue("geography/nypuma2020_{release}"))) %>% 
@@ -184,6 +209,9 @@ PUMA2020_topojson <-
 
 write_lines(PUMA2020_topojson, "geography/PUMA2020.topo.json")
 
+# fix with mapshaper
+
+system("mapshaper -i geography/PUMA2020.topo.json -o quantization=1e4 geography/PUMA2020.topo.json")
 
 #-----------------------------------------------------------------------------------------#
 # CD ----
@@ -231,6 +259,9 @@ CD_topojson <-
 
 write_lines(CD_topojson, "geography/CD.topo.json")
 
+# fix with mapshaper
+
+system("mapshaper -i geography/CD.topo.json -o quantization=1e4 geography/CD.topo.json")
 
 #-----------------------------------------------------------------------------------------#
 # CDTA 2020 ----
@@ -279,6 +310,9 @@ CDTA2020_topojson <-
 
 write_lines(CDTA2020_topojson, "geography/CDTA2020.topo.json")
 
+# fix with mapshaper
+
+system("mapshaper -i geography/CDTA2020.topo.json -o quantization=1e4 geography/CDTA2020.topo.json")
 
 #-----------------------------------------------------------------------------------------#
 # NTA 2010 ----
@@ -327,6 +361,10 @@ NTA2010_topojson <-
 write_lines(NTA2010_topojson, "geography/NTA2010.topo.json")
 write_lines(NTA2010_topojson, "geography/NTA.topo.json") # pre-2020 name
 
+# fix with mapshaper
+
+system("mapshaper -i geography/NTA2010.topo.json -o quantization=1e4 geography/NTA2010.topo.json")
+system("mapshaper -i geography/NTA.topo.json -o quantization=1e4 geography/NTA.topo.json")
 
 #-----------------------------------------------------------------------------------------#
 # NTA 2020 ----
@@ -374,6 +412,9 @@ NTA2020_topojson <-
 
 write_lines(NTA2020_topojson, "geography/NTA2020.topo.json")
 
+# fix with mapshaper
+
+system("mapshaper -i geography/NTA2020.topo.json -o quantization=1e4 geography/NTA2020.topo.json")
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
