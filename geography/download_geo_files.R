@@ -1,10 +1,13 @@
 ###########################################################################################-
 ###########################################################################################-
 ##
-##  download geo shapefiles
+##  download geo files
 ##
 ###########################################################################################-
 ###########################################################################################-
+
+# download the geography source files needed to construct the portal's TopoJSON and GeoLookup
+#   files from scratch (more or less).
 
 #=========================================================================================#
 # Setting up ----
@@ -40,7 +43,7 @@ release <- read_file(path(base_dir, "geography/release"))
 
 
 #=========================================================================================#
-# data ops ----
+# versioned shapefiles ----
 #=========================================================================================#
 
 #-----------------------------------------------------------------------------------------#
@@ -133,6 +136,85 @@ if (!up_to_date) {
     zip_files %>% walk( ~ file_delete(.x))
 
 }
+
+
+
+#=========================================================================================#
+# other geo files ----
+#=========================================================================================#
+
+#-----------------------------------------------------------------------------------------#
+# PUMA names
+#-----------------------------------------------------------------------------------------#
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# set url params
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    
+tigerweb_url <- "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb"
+
+# where=STATE='36'&outFields=BASENAME,+PUMA&returnGeometry=false&f=geojson
+tigerweb_query <- "where=STATE%3D%2736%27&outFields=BASENAME%2C+PUMA&returnGeometry=false&f=geojson"
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# 2010
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# download and clean
+
+ nyc_puma2010_names <- 
+    read_sf(glue("{tigerweb_url}/tigerWMS_Census2010/MapServer/0/query?{tigerweb_query}")) %>% 
+    as_tibble() %>% 
+    filter(BASENAME %>% str_starts("NYC")) %>% 
+    mutate(
+        PUMA = as.integer(PUMA),
+        GEONAME = str_split_i(BASENAME, "--", 2)
+    ) %>% 
+    select(PUMA2010 = PUMA, GEONAME)
+
+# save 
+
+write_csv(nyc_puma2010_names, path(base_dir, "geography/puma2010_names.csv"))
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# 2020
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# download and clean
+
+ nyc_puma2020_names <- 
+    read_sf(glue("{tigerweb_url}/tigerWMS_Census2020/MapServer/0/query?{tigerweb_query}")) %>% 
+    as_tibble() %>% 
+    filter(BASENAME %>% str_starts("NYC")) %>% 
+    mutate(
+        PUMA = as.integer(PUMA),
+        GEONAME = str_split_i(BASENAME, "--", 2)
+    ) %>% 
+    select(PUMA2020 = PUMA, GEONAME)
+
+# save 
+
+write_csv(nyc_puma2020_names, path(base_dir, "geography/puma2020_names.csv"))
+ 
+
+#-----------------------------------------------------------------------------------------#
+# UHF 42 & UHF 34
+#-----------------------------------------------------------------------------------------#
+
+# UHFs are made from ZCTAs, with a crosswalk mapping one to other
+
+
+
+"https://data.cityofnewyork.us/resource/pri4-ifjk.geojson"
+
+
+
+download.file(
+    "https://data.cityofnewyork.us/api/geospatial/pri4-ifjk?accessType=DOWNLOAD&method=export&format=Shapefile", 
+    path(base_dir, "geography", "modzcta.zip"), 
+    method = "libcurl"
+)
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
