@@ -270,7 +270,7 @@ subboro <-
     read_sf(path(base_dir, glue("geography/nypuma2010_{release}"))) %>% 
     as_tibble() %>% 
     mutate(
-        PUMA = as.integer(PUMA2010),
+        PUMA = as.integer(PUMA),
         center = st_centroid(geometry)
     ) %>% 
     inner_join(
@@ -281,7 +281,7 @@ subboro <-
     ) %>% 
     transmute(
         GeoType = "Subboro",
-        GeoID = Subboro,
+        GeoID = as.integer(Subboro),
         Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
         Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
     ) %>%  
@@ -299,7 +299,7 @@ puma2010 <-
     mutate(center = st_centroid(geometry)) %>% 
     transmute(
         GeoType = "PUMA2010",
-        GeoID = PUMA2010,
+        GeoID = as.integer(PUMA),
         Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
         Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
     ) %>%  
@@ -317,7 +317,7 @@ puma2020 <-
     mutate(center = st_centroid(geometry)) %>% 
     transmute(
         GeoType = "PUMA2020",
-        GeoID = PUMA2020,
+        GeoID = as.integer(PUMA),
         Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
         Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
     ) %>%  
@@ -552,6 +552,8 @@ all_geos <-
         uhf_34,
         uhf_42,
         subboro,
+        puma2010,
+        puma2020,
         cd,
         cdta,
         nta_nodate,
