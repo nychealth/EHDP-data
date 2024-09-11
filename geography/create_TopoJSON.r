@@ -221,18 +221,18 @@ system("mapshaper -i geography/PUMA2020.topo.json -o quantization=1e4 geography/
 # reading in original data
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
+names <- read_csv("geography/cd_names.csv", show_col_types = FALSE)
+
 CD <- 
-    read_sf(path(base_dir, glue("geography/nynta2010_{release}"))) %>% 
+    read_sf(path(base_dir, glue("geography/nycd_{release}"))) %>% 
     st_transform(4326) %>% 
-    mutate(
-        GEOCODE =
-            NTACode %>% 
-            str_remove("^\\w{2}") %>% 
-            str_c(CountyFIPS, .) %>% 
-            as.integer(),
-        .after = NTAName
+    left_join(
+        .,
+        names,
+        by = c("BoroCD" = "geo_entity_id")
     ) %>% 
-    select(NTACode, GEOCODE, GEONAME = NTAName, geometry) %>%
+    select(GEOCODE = BoroCD, GEONAME = name, geometry) %>%
+    drop_na(GEONAME) %>% 
     arrange(GEOCODE) %>% 
     mutate(id = as.character(1:nrow(.)), .before = 1)
 
