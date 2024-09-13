@@ -4315,6 +4315,11 @@
                 "RankReverse": 0
               },
               {
+                "GeoType": "Subboro",
+                "TimePeriodID": [9, 12, 38],
+                "RankReverse": 0
+              },
+              {
                 "GeoType": "UHF42",
                 "TimePeriodID": [6, 9, 12, 38, 41, 46],
                 "RankReverse": 0
