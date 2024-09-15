@@ -121,7 +121,7 @@ system("mapshaper -i geography/borough.topo.json -o quantization=1e4 geography/b
 # reading in original data
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-names <- read_csv("geography/puma2010_names.csv", show_col_types = FALSE)
+names <- read_csv("geography/puma_2010_names.csv", show_col_types = FALSE)
 
 PUMA2010 <- 
     read_sf(path(base_dir, glue("geography/nypuma2010_{release}"))) %>% 
@@ -171,7 +171,7 @@ system("mapshaper -i geography/PUMA2010.topo.json -o quantization=1e4 geography/
 # reading in original data
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-names <- read_csv("geography/puma2020_names.csv", show_col_types = FALSE)
+names <- read_csv("geography/puma_2020_names.csv", show_col_types = FALSE)
 
 PUMA2020 <- 
     read_sf(path(base_dir, glue("geography/nypuma2020_{release}"))) %>% 
