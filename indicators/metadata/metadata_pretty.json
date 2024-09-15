@@ -4451,7 +4451,7 @@
         "how_calculated": "Estimated number of households in an area that reported cracks or holes in the home, divided by the number of households in the area; expressed as percent.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2020"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [3, 6, 9, 12, 38, 41, 46, 289, 298],
         "VisOptions": [
@@ -4466,6 +4466,10 @@
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298]
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
               }
@@ -4474,6 +4478,11 @@
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [6, 9, 12, 38, 41, 46, 289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298],
                 "RankReverse": 0
               },
               {
@@ -4814,7 +4823,7 @@
         "how_calculated": "Estimated number of households in an area that reported leaks coming from outside the unit, divided by the number of households in the area; expressed as percent.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2020"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [3, 6, 9, 12, 38, 41, 46, 289, 298],
         "VisOptions": [
@@ -4829,6 +4838,10 @@
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298]
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
               }
@@ -4837,6 +4850,11 @@
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [9, 12, 38, 41, 46, 289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298],
                 "RankReverse": 0
               },
               {
@@ -5015,7 +5033,7 @@
         "how_calculated": "Estimated number of households in an area reporting three or more maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of households in the area; expressed as percent.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2020"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [3, 6, 9, 12, 38, 41, 46, 289],
         "VisOptions": [
@@ -5030,6 +5048,10 @@
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289]
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289]
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289]
               }
@@ -5038,6 +5060,11 @@
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [9, 12, 38, 41, 46, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289],
                 "RankReverse": 0
               },
               {
@@ -5549,7 +5576,7 @@
         "how_calculated": "Estimated number of households in an area that needed to use a secondary source of heat in addition to their primary source, divided by the number of households in the area; expressed as percent.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2020"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [3, 6, 9, 12, 38, 41, 46, 289, 298],
         "VisOptions": [
@@ -5564,6 +5591,10 @@
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298]
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
               }
@@ -5572,6 +5603,11 @@
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [9, 12, 38, 41, 46, 289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298],
                 "RankReverse": 0
               },
               {
@@ -5725,7 +5761,7 @@
         "how_calculated": "Estimated number of households in an area that reported mice or rats in their building in the past 90 days, divided by the number of households in the area; expressed as percent.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2020"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [3, 6, 9, 12, 38, 41, 46, 289, 298],
         "VisOptions": [
@@ -5740,6 +5776,10 @@
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298]
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
               }
@@ -5748,6 +5788,11 @@
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [9, 12, 38, 41, 46, 289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298],
                 "RankReverse": 0
               },
               {
@@ -10373,7 +10418,7 @@
         "how_calculated": "Estimated number of households in an area that reported seeing at least one cockroach daily over the last month, divided by the number of households in the area; expressed as percent.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2020"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [12, 38, 41, 46, 289, 298],
         "VisOptions": [
@@ -10388,6 +10433,10 @@
                 "TimePeriodID": [12, 38, 41, 46, 289, 298]
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298]
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [12, 38, 41, 46, 289, 298]
               }
@@ -10399,6 +10448,11 @@
                 "RankReverse": 0
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298],
+                "RankReverse": 0
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [12, 38, 41, 46, 289, 298],
                 "RankReverse": 0
@@ -10407,7 +10461,7 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 38, 41, 46, 289]
+                "TimePeriodID": [12, 38, 41, 46, 289, 298]
               },
               {
                 "GeoType": "Citywide",
@@ -26220,7 +26274,7 @@
         "how_calculated": "Estimated number of renter-occupied households in an area reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of renter-occupied households in the area; expressed as percent..",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2020"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [6, 9, 12, 38, 41, 46, 289, 298],
         "VisOptions": [
@@ -26235,6 +26289,10 @@
                 "TimePeriodID": [6, 9, 12, 38, 41, 46, 289, 298]
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298]
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [6, 9, 12, 38, 41, 46, 289, 298]
               }
@@ -26243,6 +26301,11 @@
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [6, 9, 12, 38, 41, 46, 289, 298],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298],
                 "RankReverse": 1
               },
               {
@@ -26938,7 +27001,7 @@
         "how_calculated": "Estimated number of households in an area reporting having functioning air conditioning, divided by the number of households in the area; expressed as percent.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2020"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [41, 46, 298],
         "VisOptions": [
@@ -26953,6 +27016,10 @@
                 "TimePeriodID": [41, 46, 298]
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [298]
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [41, 46, 298]
               }
@@ -26961,6 +27028,11 @@
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [41, 46, 298],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [298],
                 "RankReverse": 1
               },
               {
@@ -40781,7 +40853,7 @@
         "how_calculated": "Estimated number of renter-occupied households reporting any health-related maintenance problems (cockroaches, mice or rats in the building, cracks or holes in walls, ceilings or floors, leaks from outside, toilet breakdowns, lack of air conditioning, heating equipment breakdown, additional heating required, or broken plaster or peeling paint larger than 8&frac12; x 11 inches),divided by the number of renter-occupied households in the area; expressed as percent..",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2020"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [41, 46, 289, 298],
         "VisOptions": [
@@ -40796,6 +40868,10 @@
                 "TimePeriodID": [41, 46, 289, 298]
               },
               {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298]
+              },
+              {
                 "GeoType": "Subboro",
                 "TimePeriodID": [41, 46, 289, 298]
               }
@@ -40804,6 +40880,11 @@
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [41, 46, 289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298],
                 "RankReverse": 0
               },
               {
