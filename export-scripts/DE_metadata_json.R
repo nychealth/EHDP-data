@@ -104,7 +104,8 @@ DE_metadata <-
     arrange(
         IndicatorID,
         MeasureID,
-        TimePeriodID
+        TimePeriodID,
+        GeoType
     ) %>% 
     mutate(
         across(
