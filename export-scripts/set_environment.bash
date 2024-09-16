@@ -40,7 +40,6 @@ if [[ -z "$data_env" ]]; then
 
   echo "-------------------------------------------------------------"
   read -p "staging [*s] or production [p]? -- " -n 1 data_env_input
-  printf "\n"
 
   if [[ -z "$data_env" ]]; then
   
@@ -149,7 +148,6 @@ else
 
     echo "-------------------------------------------------------------"
     read -p "staging [*s] or production [p]? -- " -n 1 data_env_input
-    printf "\n"
 
     export data_env=${data_env_input:-"s"}  # default to staging if nothing entered
 
@@ -160,7 +158,7 @@ else
 
       echo "-------------------------------------------------------------"
       read -p "Switch to staging? Yes [y] / No [*n] -- " -n 1 switch
-      printf "\n"
+      # printf "\n"
 
       if [[ "$switch" == "y" ]]; then
 
