@@ -60,7 +60,6 @@ if [[ -z "$data_env" ]]; then
 
     echo "-------------------------------------------------------------"
     read -p "Switch to < staging >? Yes [y] / No [*n] -- " -n 1 switch
-    printf "\n"
 
     # switch branch, or not
 
@@ -94,7 +93,6 @@ if [[ -z "$data_env" ]]; then
 
     echo "-------------------------------------------------------------"
     read -p "Switch to < production > ? Yes [y] / No [*n] -- " -n 1 switch
-    printf "\n"
 
     # switch branch, or not
 
@@ -137,7 +135,6 @@ else
   # if the $data_env does exist, ask about changing it
   echo "-------------------------------------------------------------"
   read -p "'data_env = $data_env' ... Switch environment? Yes [y] / No [*n] -- " -n 1 switch
-  printf "\n"
 
   # change environment by overwriting $data_env
 
@@ -158,7 +155,6 @@ else
 
       echo "-------------------------------------------------------------"
       read -p "Switch to staging? Yes [y] / No [*n] -- " -n 1 switch
-      # printf "\n"
 
       if [[ "$switch" == "y" ]]; then
 
@@ -177,7 +173,6 @@ else
 
       echo "-------------------------------------------------------------"
       read -p "Switch to < production > ? Yes [y] / No [*n] -- " -n 1 switch
-      printf "\n"
 
       if [[ "$switch" == "y" ]]; then
 
