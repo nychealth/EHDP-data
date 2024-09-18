@@ -39808,7 +39808,7 @@
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [46, 298]
+                "TimePeriodID": [46]
               },
               {
                 "GeoType": "NTA2020",
@@ -39848,8 +39848,12 @@
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [46, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [46, 298]
               }
             ],
             "Links": [
