@@ -41,10 +41,13 @@ if [[ -z "$data_env" ]]; then
   echo "-------------------------------------------------------------"
   read -p "staging [*s] or production [p]? -- " -n 1 data_env_input
 
-  if [[ -z "$data_env" ]]; then
+  if [[ -z "$data_env_input" ]]; then
   
     echo "-------------------------------------------------------------"
     echo ">> 2: data_env = [], default to s"
+
+  else
+    printf "\n"
 
   fi
   
@@ -60,6 +63,10 @@ if [[ -z "$data_env" ]]; then
 
     echo "-------------------------------------------------------------"
     read -p "Switch to < staging >? Yes [y] / No [*n] -- " -n 1 switch
+
+    if [[ "$switch" ]]; then
+      printf "\n"
+    fi
 
     # switch branch, or not
 
@@ -93,6 +100,10 @@ if [[ -z "$data_env" ]]; then
 
     echo "-------------------------------------------------------------"
     read -p "Switch to < production > ? Yes [y] / No [*n] -- " -n 1 switch
+
+    if [[ "$switch" ]]; then
+      printf "\n"
+    fi
 
     # switch branch, or not
 
@@ -136,6 +147,10 @@ else
   echo "-------------------------------------------------------------"
   read -p "'data_env = $data_env' ... Switch environment? Yes [y] / No [*n] -- " -n 1 switch
 
+  if [[ "$switch" ]]; then
+    printf "\n"
+  fi
+
   # change environment by overwriting $data_env
 
   if [[ "$switch" == "y" ]]; then
@@ -146,6 +161,10 @@ else
     echo "-------------------------------------------------------------"
     read -p "staging [*s] or production [p]? -- " -n 1 data_env_input
 
+    if [[ "$data_env_input" ]]; then
+      printf "\n"
+    fi
+
     export data_env=${data_env_input:-"s"}  # default to staging if nothing entered
 
     if [[ "$data_env" == "s" ]] && [[ "$current_branch" != "staging" ]]; then
@@ -155,6 +174,10 @@ else
 
       echo "-------------------------------------------------------------"
       read -p "Switch to staging? Yes [y] / No [*n] -- " -n 1 switch
+
+      if [[ "$switch" ]]; then
+        printf "\n"
+      fi
 
       if [[ "$switch" == "y" ]]; then
 
@@ -174,8 +197,13 @@ else
       echo "-------------------------------------------------------------"
       read -p "Switch to < production > ? Yes [y] / No [*n] -- " -n 1 switch
 
+      if [[ "$switch" ]]; then
+        printf "\n"
+      fi
+
       if [[ "$switch" == "y" ]]; then
 
+        printf "\n"
         echo "-------------------------------------------------------------"
         echo ">> 5: switching to < production > branch"
 
@@ -185,6 +213,7 @@ else
       elif [[ "$switch" == "n" ]]; then
 
         # don't switch
+        printf "\n"
         echo "-------------------------------------------------------------"
         echo ">> 5: 'switch = n', staying on < $current_branch > branch"
 
@@ -231,6 +260,10 @@ export current_branch=$current_branch
 
 echo "-------------------------------------------------------------"
 read -p "Specify site repo branch (default = production): " site_branch
+
+# if [[ "$site_branch" ]]; then
+#   printf "\n"
+# fi
 
 # if no value, set to current branch
 
