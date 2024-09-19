@@ -104,7 +104,7 @@ for (d in 1:length(data_files)) {
     
     # print filename
     
-    cat(" ||", this_file_name, "||", sep = " ")
+    cat(">>>", this_file_name, "||", sep = " ")
     
     # read in report data
     
@@ -220,6 +220,8 @@ for (d in 1:length(data_files)) {
         }
         
     }
+
+    cat("\n")
     
 }
 
