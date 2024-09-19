@@ -24121,6 +24121,175 @@
     ]
   },
   {
+    "IndicatorID": 2140,
+    "IndicatorName": "Residents living in a hurricane evacuation zone",
+    "IndicatorLabel": "Residents living in a hurricane evacuation zone",
+    "IndicatorDescription": "Hurricane Evacuation Zones are determined by New York City Emergency Management and indicate varying threat levels of coastal flooding from storm surge. Evacuation orders may be given during hurricanes or coastal flooding events. There are six zones, ranked by storm surge risk. Zone 1 is the highest risk for flooding. Residents in these zones may receive evacuation orders during hurricanes or tropical storms.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 687,
+        "MeasureName": "Coastal flood risk, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Percent of neighborhood residents living within 2024 NYC Emergency Management hurricane evacuation zones 1-6",
+        "Sources": "New York City Office of Emergency Management",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CDTA2020", "NTA2020"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [40, 334],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [40, 334]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [334]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [40, 334]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [334]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [40, 334]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [40, 334],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [334],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [334],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [40, 334],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [40, 334]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [40, 334]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1410,
+        "MeasureName": "Coastal flood risk, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of neighborhood residents living within 2024 NYC Emergency Management hurricane evacuation zones 1-6",
+        "Sources": null,
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [334],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [334]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [334]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [334]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [334]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [334]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [334],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [334],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [334],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [334],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [334]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [334]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID": 2141,
     "IndicatorName": "Daytime summer surface temperature",
     "IndicatorLabel": "Daytime summer surface temperature",
