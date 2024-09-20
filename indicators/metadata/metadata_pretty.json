@@ -24134,15 +24134,15 @@
         "how_calculated": "Percent of neighborhood residents living within 2024 NYC Emergency Management hurricane evacuation zones 1-6",
         "Sources": "New York City Office of Emergency Management",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [40, 334],
+        "AvailableTimePeriodIDs": [334],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 334]
+                "TimePeriodID": [334]
               },
               {
                 "GeoType": "CDTA2020",
@@ -24150,7 +24150,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [40, 334]
+                "TimePeriodID": [334]
               },
               {
                 "GeoType": "NTA2020",
@@ -24158,13 +24158,13 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [40, 334]
+                "TimePeriodID": [334]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 334],
+                "TimePeriodID": [334],
                 "RankReverse": 0
               },
               {
@@ -24179,18 +24179,18 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [40, 334],
+                "TimePeriodID": [334],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 334]
+                "TimePeriodID": [334]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [40, 334]
+                "TimePeriodID": [334]
               }
             ],
             "Links": [
