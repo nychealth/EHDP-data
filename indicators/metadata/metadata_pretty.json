@@ -44108,65 +44108,70 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [296],
+        "AvailableTimePeriodIDs": [296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Links": [
@@ -44192,65 +44197,70 @@
         "DisplayType": "per square mile",
         "AvailableGeoTypes": ["Borough", "CD", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [296],
+        "AvailableTimePeriodIDs": [296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Links": [
@@ -44276,65 +44286,70 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [296],
+        "AvailableTimePeriodIDs": [296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Links": [
@@ -44360,65 +44375,70 @@
         "DisplayType": "per square mile",
         "AvailableGeoTypes": ["Borough", "CD", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [296],
+        "AvailableTimePeriodIDs": [296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Links": [
@@ -44444,65 +44464,70 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [296],
+        "AvailableTimePeriodIDs": [296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [296],
+                "TimePeriodID": [296, 298],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Links": [
