@@ -261,11 +261,6 @@
   },
   {
     "title": "Climate_and_Health",
-    "indicator_name": "Land percentage in hurricane evacuation zone",
-    "indicator_description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and indicate varying threat levels of coastal flooding from storm surge. Evacuation orders may be given during hurricanes or coastal flooding events. There are six zones, ranked by storm surge risk. Zone 1 is the highest risk for flooding. Residents in these zones may receive evacuation orders during hurricanes or tropical storms."
-  },
-  {
-    "title": "Climate_and_Health",
     "indicator_name": "Daytime summer surface temperature",
     "indicator_description": "Surface temperatures vary based on vegetative cover (which promotes cooling), as well as by materials that retain heat (like paved roads, sidewalks, and buildings). Hotter neighborhoods tend to have more heat-exacerbated deaths associated with extreme heat events."
   },
@@ -311,7 +306,7 @@
   },
   {
     "title": "Housing_and_Health",
-    "indicator_name": "Elevated blood levels (under age 6)",
+    "indicator_name": "Elevated blood lead levels (under age 6)",
     "indicator_description": "Elevated blood lead levels are 5+ mcg/dL. There is no safe level of lead in the blood. Lead poisoning can cause learning and behavior problems, and delay growth and mental development."
   },
   {
