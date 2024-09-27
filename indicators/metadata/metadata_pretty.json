@@ -21344,45 +21344,45 @@
         "how_calculated": "Estimated number of adults who reported having a functioning air conditioner in any room in their home, rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [11, 49, 296],
+        "AvailableTimePeriodIDs": [11],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 49, 296],
+                "TimePeriodID": [11],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 49, 296],
+                "TimePeriodID": [11],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               }
             ],
             "Links": [
@@ -21408,43 +21408,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [11, 49, 296],
+        "AvailableTimePeriodIDs": [11],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 49, 296],
+                "TimePeriodID": [11],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11, 49, 296],
+                "TimePeriodID": [11],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11, 49, 296]
+                "TimePeriodID": [11]
               }
             ],
             "Links": [
