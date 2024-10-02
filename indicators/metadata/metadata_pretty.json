@@ -47229,54 +47229,45 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported still having asthma. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [48, 289],
+        "AvailableTimePeriodIDs": [48],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48]
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48]
-              },
-              {
-                "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289],
+                "TimePeriodID": [48],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48],
                 "RankReverse": 0
-              },
-              {
-                "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289],
-                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48]
               }
             ],
             "Links": [
@@ -47300,54 +47291,45 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported still having asthma, divided by all children of the same ages, expressed as a percent. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [48, 289],
+        "AvailableTimePeriodIDs": [48],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48]
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48]
-              },
-              {
-                "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289],
+                "TimePeriodID": [48],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48],
                 "RankReverse": 0
-              },
-              {
-                "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289],
-                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48]
               }
             ],
             "Links": [
