@@ -6013,11 +6013,11 @@
     "Measures": [
       {
         "MeasureID": 107,
-        "MeasureName": "Ozone action days, General population",
-        "MeasurementType": "General population",
+        "MeasureName": "Ozone action days, Action days",
+        "MeasurementType": "Action days",
         "how_calculated": "When the daily average ozone levels are above 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for the General Population\".",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType": "",
+        "DisplayType": "for general population",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
@@ -6058,11 +6058,11 @@
       },
       {
         "MeasureID": 787,
-        "MeasureName": "Ozone action days, Sensitive groups",
-        "MeasurementType": "Sensitive groups",
+        "MeasureName": "Ozone action days, Action days",
+        "MeasurementType": "Action days",
         "how_calculated": "When the daily average ozone levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with lung disease, children, older adults, people who are active outdoors or have certain genetic variants).",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data; United States Environmental Protection Agency (EPA)",
-        "DisplayType": "",
+        "DisplayType": "for sensitive groups",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
@@ -6157,11 +6157,11 @@
       },
       {
         "MeasureID": 785,
-        "MeasureName": "PM2.5 (Fine particles) action days, Sensitive groups",
-        "MeasurementType": "Sensitive groups",
+        "MeasureName": "PM2.5 (Fine particles) action days, Action days",
+        "MeasurementType": "Action days",
         "how_calculated": "When the daily average PM2.5 levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with heart or lung disease, children, older adults and people of lower socieconomic status). Folks in these groups may need to take action to protect their health on these days. An AQI value of 100 generally corresponds to a pollution level that is equal to the daily federal air quality standard.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType": "",
+        "DisplayType": "for sensitive groups",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
@@ -6202,11 +6202,11 @@
       },
       {
         "MeasureID": 786,
-        "MeasureName": "PM2.5 (Fine particles) action days, General population",
-        "MeasurementType": "General population",
+        "MeasureName": "PM2.5 (Fine particles) action days, Action days",
+        "MeasurementType": "Action days",
         "how_calculated": "When the daily average PM2.5 levels are above 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for the General Population\".",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType": "",
+        "DisplayType": "for general population",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
@@ -9010,11 +9010,11 @@
     "Measures": [
       {
         "MeasureID": 200,
-        "MeasureName": "Air quality action days, General population",
-        "MeasurementType": "General population",
+        "MeasureName": "Air quality action days, Action days",
+        "MeasurementType": "Action days",
         "how_calculated": "An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for the general public are counted when either ozone or PM2.5 levels are above 150.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType": "",
+        "DisplayType": "for general population",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
@@ -9055,11 +9055,11 @@
       },
       {
         "MeasureID": 201,
-        "MeasureName": "Air quality action days, Sensitive groups",
-        "MeasurementType": "Sensitive groups",
+        "MeasureName": "Air quality action days, Action days",
+        "MeasurementType": "Action days",
         "how_calculated": "An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for sensitive groups are counted when either ozone or PM2.5 levels are above 100.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType": "",
+        "DisplayType": "for sensitive groups",
         "AvailableGeoTypes": ["Citywide"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
@@ -24134,15 +24134,15 @@
         "how_calculated": "Percent of neighborhood residents living within 2024 NYC Emergency Management hurricane evacuation zones 1-6",
         "Sources": "New York City Office of Emergency Management",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [334],
+        "AvailableTimePeriodIDs": [40, 334],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [334]
+                "TimePeriodID": [40, 334]
               },
               {
                 "GeoType": "CDTA2020",
@@ -24150,7 +24150,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [334]
+                "TimePeriodID": [40, 334]
               },
               {
                 "GeoType": "NTA2020",
@@ -24158,13 +24158,13 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [334]
+                "TimePeriodID": [40, 334]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [334],
+                "TimePeriodID": [40, 334],
                 "RankReverse": 0
               },
               {
@@ -24179,18 +24179,18 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [334],
+                "TimePeriodID": [40, 334],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [334]
+                "TimePeriodID": [40, 334]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [334]
+                "TimePeriodID": [40, 334]
               }
             ],
             "Links": [
@@ -47229,45 +47229,54 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported still having asthma. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [48],
+        "AvailableTimePeriodIDs": [48, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48],
+                "TimePeriodID": [48, 289],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               }
             ],
             "Links": [
@@ -47291,45 +47300,54 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported still having asthma, divided by all children of the same ages, expressed as a percent. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [48],
+        "AvailableTimePeriodIDs": [48, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48],
+                "TimePeriodID": [48, 289],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               }
             ],
             "Links": [
@@ -48938,7 +48956,7 @@
     "IndicatorID": 2441,
     "IndicatorName": "Anaplasmosis",
     "IndicatorLabel": "Anaplasmosis",
-    "IndicatorDescription": "Anaplasmosis is a tick-borne disease transmitted through the bite of an infected blacklegged tick. Symptoms include fever, chills, headache, muscle aches, and fatigue. The majority of cases report a history of travel and outdoor exposures outside of NYC.",
+    "IndicatorDescription": "Anaplasmosis is a tick-borne disease transmitted through the bite of an infected blacklegged tick. Symptoms include fever, chills, headache, muscle aches, and fatigue. The majority of cases report a history of travel and outdoor exposures outside of New York City.",
     "Comparisons": null,
     "Measures": [
       {
@@ -49106,7 +49124,7 @@
     "IndicatorID": 2442,
     "IndicatorName": "Lyme disease",
     "IndicatorLabel": "Lyme disease",
-    "IndicatorDescription": "Lyme disease is transmitted through the bite of an infected blacklegged tick and is the most common tick-borne disease among New Yorkers. Symptoms can include rashes that look like a bull’s-eye, fever, fatigue and headache. If left untreated, infection can spread to joints, the heart, and the nervous system. Most people acquire this disease while traveling outside NYC. However, local cases are often reported in Staten Island. In 2022, an expected increase in cases was observed due to changes in the case definition.",
+    "IndicatorDescription": "Lyme disease is transmitted through the bite of an infected blacklegged tick and is the most common tick-borne disease among New Yorkers. Symptoms can include rashes that look like a bull’s-eye and fever, fatigue, headache, and muscle or joint pain. Most patients acquire this disease while traveling outside NYC. However, local cases are often reported in Staten Island. In 2022, an expected increase in cases was observed due to changes in the case definition.",
     "Comparisons": null,
     "Measures": [
       {
