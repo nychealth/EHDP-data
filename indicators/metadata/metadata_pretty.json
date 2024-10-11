@@ -25948,9 +25948,9 @@
             ],
             "Map": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
-                "RankReverse": 0
+                "GeoType": null,
+                "TimePeriodID": [],
+                "RankReverse": null
               }
             ],
             "Trend": [
@@ -26001,9 +26001,9 @@
             ],
             "Map": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
-                "RankReverse": 0
+                "GeoType": null,
+                "TimePeriodID": [],
+                "RankReverse": null
               }
             ],
             "Trend": [
@@ -26054,9 +26054,9 @@
             ],
             "Map": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [9, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
-                "RankReverse": 0
+                "GeoType": null,
+                "TimePeriodID": [],
+                "RankReverse": null
               }
             ],
             "Trend": [
@@ -26117,7 +26117,7 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
@@ -26170,7 +26170,7 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
@@ -26223,7 +26223,7 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
