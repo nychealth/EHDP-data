@@ -44565,7 +44565,7 @@
         "MeasureID": 1323,
         "MeasureName": "Depression (adults), Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years, divided by all adults; expressed as percent.",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years, divided by all adults; expressed as percent. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -44617,15 +44617,7 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 690,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 700,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 708,
+                    "MeasureID": 672,
                     "SecondaryAxis": "x"
                   },
                   {
@@ -44633,7 +44625,7 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1058,
+                    "MeasureID": 1059,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -44647,7 +44639,7 @@
         "MeasureID": 1324,
         "MeasureName": "Depression (adults), Age-adjusted percent",
         "MeasurementType": "Age-adjusted percent",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years, divided by all adults; expressed as percent.",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years, divided by all adults; expressed as percent. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -44695,31 +44687,11 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 86,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 690,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 700,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 708,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1029,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1058,
-                    "SecondaryAxis": "x"
+                    "MeasureID": null,
+                    "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 1
+                "Disparities": 0
               }
             ]
           }
@@ -44729,7 +44701,7 @@
         "MeasureID": 1396,
         "MeasureName": "Depression (adults), Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years, divided by all adults.",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years, divided by all adults. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -44800,7 +44772,7 @@
         "MeasureID": 1325,
         "MeasureName": "Psychiatric hospitalizations (adults), Number",
         "MeasurementType": "Number",
-        "how_calculated": "Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019",
+        "how_calculated": "Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -44862,9 +44834,9 @@
         "MeasureID": 1326,
         "MeasureName": "Psychiatric hospitalizations (adults), Rate",
         "MeasurementType": "Rate",
-        "how_calculated": "Number of adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, divided by the population of adults (18 years and older) using NYC DOHMH intercensal estimates; expressed as cases per 10,000 residents.",
+        "how_calculated": "Number of adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, divided by the population of adults (18 years and older) using NYC DOHMH intercensal estimates; expressed as cases per 100,000 residents. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
-        "DisplayType": "",
+        "DisplayType": "per 100,000 residents",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [48, 49, 289],
@@ -44914,11 +44886,7 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 700,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 708,
+                    "MeasureID": 672,
                     "SecondaryAxis": "x"
                   },
                   {
@@ -44926,7 +44894,7 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1058,
+                    "MeasureID": 1059,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -44940,9 +44908,9 @@
         "MeasureID": 1327,
         "MeasureName": "Psychiatric hospitalizations (adults), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, summed within six age groups (18-24, 25-34, 35-44, 45-54, 55-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "how_calculated": "Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, summed within six age groups (18-24, 25-34, 35-44, 45-54, 55-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
-        "DisplayType": "",
+        "DisplayType": "per 100,000 residents",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [48, 49, 289],
@@ -44988,27 +44956,11 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 86,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 700,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 708,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1029,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1058,
-                    "SecondaryAxis": "x"
+                    "MeasureID": null,
+                    "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 1
+                "Disparities": 0
               }
             ]
           }
@@ -45027,7 +44979,7 @@
         "MeasureID": 1328,
         "MeasureName": "Serious psychological distress (adults), Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, pooled years 2019-2020, rounded to the nearest 1,000",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, pooled years 2019-2020, rounded to the nearest 1,000. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -45089,7 +45041,7 @@
         "MeasureID": 1329,
         "MeasureName": "Serious psychological distress (adults), Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, divided by all adults; expressed as percent",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, divided by all adults; expressed as percent. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -45137,15 +45089,15 @@
               {
                 "Measures": [
                   {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
                     "MeasureID": 672,
                     "SecondaryAxis": "x"
                   },
                   {
                     "MeasureID": 1029,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1058,
                     "SecondaryAxis": "x"
                   },
                   {
@@ -45163,7 +45115,7 @@
         "MeasureID": 1330,
         "MeasureName": "Serious psychological distress (adults), Age-adjusted percent",
         "MeasurementType": "Age-adjusted percent",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, divided by all adults and age adjusted, pooled years 2019-2020, expressed as percent",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, divided by all adults and age adjusted, pooled years 2019-2020, expressed as percent. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -45211,23 +45163,11 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 672,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1029,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1058,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1059,
-                    "SecondaryAxis": "x"
+                    "MeasureID": null,
+                    "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 1
+                "Disparities": 0
               }
             ]
           }
@@ -45246,7 +45186,7 @@
         "MeasureID": 1331,
         "MeasureName": "Suicide deaths, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Number of suicide deaths, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC.",
+        "how_calculated": "Number of suicide deaths, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC. UHF42 data are based on UHF34 data. The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
         "Sources": "New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
@@ -45317,9 +45257,9 @@
         "MeasureID": 1332,
         "MeasureName": "Suicide deaths, Rate",
         "MeasurementType": "Rate",
-        "how_calculated": "Number of suicide deaths in NYC, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC.",
+        "how_calculated": "<p>Number of suicide deaths in NYC, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019.<\/p>\r\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC. UHF42 data are based on UHF34 data.<\/p>\r\n<p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
-        "DisplayType": "",
+        "DisplayType": "per 100,000 residents",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [48, 49, 287],
@@ -45375,6 +45315,18 @@
                 "Measures": [
                   {
                     "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 672,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -45388,9 +45340,9 @@
         "MeasureID": 1333,
         "MeasureName": "Suicide deaths, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Number of suicide deaths, pooled years 2015-2019, summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p>\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC.",
+        "how_calculated": "<p>Number of suicide deaths, pooled years 2015-2019, summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p>\r\n<p>Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC. UHF42 data are based on UHF34 data.<\/p>\r\n<p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
-        "DisplayType": "",
+        "DisplayType": "per 100,000 residents",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [48, 49, 287],
@@ -45445,11 +45397,11 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 86,
-                    "SecondaryAxis": "x"
+                    "MeasureID": null,
+                    "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 1
+                "Disparities": 0
               }
             ]
           }
