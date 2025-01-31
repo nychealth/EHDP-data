@@ -44900,7 +44900,7 @@
         "MeasureName": "Serious psychological distress (adults), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, pooled over two years, rounded to the nearest 1,000. SPD is defined as having a score greater than or equal to 13 on the Kessler 6 (k6) scale, a six-item scale developed to identify people highly likely to have a diagnosable mental illness as associated functional limitations. UHF42 data for correlates are based on UHF34 data.",
-        "Sources": "New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
+        "Sources": "New York City Community Health Survey (CHS); New York City Bureau of Vital Statistics",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": "2021",
