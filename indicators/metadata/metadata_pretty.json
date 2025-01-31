@@ -44693,10 +44693,10 @@
         "MeasureName": "Psychiatric hospitalizations (adults), Number",
         "MeasurementType": "Number",
         "how_calculated": "<p>Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019.<\/p><p>Statewide Planning and Research Collaborative System (SPARCS, 2016-2021) is an administrative database of all hospital discharges reported by New York State (NYS) hospitals to the NYS Department of Health. Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework. (ICD-10 codes: F060-F064,F068,F09,F200-F531,F600-F609,F6381,F6389,F639-F641,F648-49,F6810,F6812,F6813,F688,F69,F900-F902, F909, F911, F913, F918-F919,F940,F951-F952,F959, F984- F985,F988,F99, L981, N943,O906, O99340- O99345, R45851, T1491,T3-T7). All data presented in this report are limited to NYC residents hospitalized within NYC, 18 years old or older, with at least one hospitalization for a psychiatric condition. For more details visit https://www.health.ny.gov/statistics/sparcs/.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
-        "Sources": "New York City Community Health Survey (CHS); Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
-        "TrendNoCompare": "2021",
+        "TrendNoCompare": null,
         "AvailableTimePeriodIDs": [48, 49, 289],
         "VisOptions": [
           {
@@ -44755,7 +44755,7 @@
         "MeasureName": "Psychiatric hospitalizations (adults), Rate",
         "MeasurementType": "Rate",
         "how_calculated": "<p>Number of adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, divided by the population of adults (18 years and older) using NYC DOHMH intercensal estimates; expressed as cases per 100,000 residents.<\/p><p>Statewide Planning and Research Collaborative System (SPARCS, 2016-2021) is an administrative database of all hospital discharges reported by New York State (NYS) hospitals to the NYS Department of Health. Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework. (ICD-10 codes: F060-F064,F068,F09,F200-F531,F600-F609,F6381,F6389,F639-F641,F648-49,F6810,F6812,F6813,F688,F69,F900-F902, F909, F911, F913, F918-F919,F940,F951-F952,F959, F984- F985,F988,F99, L981, N943,O906, O99340- O99345, R45851, T1491,T3-T7). All data presented in this report are limited to NYC residents hospitalized within NYC, 18 years old or older, with at least one hospitalization for a psychiatric condition. For more details visit https://www.health.ny.gov/statistics/sparcs/.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
-        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics",
         "DisplayType": "per 100,000 residents",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
@@ -44829,7 +44829,7 @@
         "MeasureName": "Psychiatric hospitalizations (adults), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "<p>Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, summed within six age groups (18-24, 25-34, 35-44, 45-54, 55-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p><p>Statewide Planning and Research Collaborative System (SPARCS, 2016-2021) is an administrative database of all hospital discharges reported by New York State (NYS) hospitals to the NYS Department of Health. Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework. (ICD-10 codes: F060-F064,F068,F09,F200-F531,F600-F609,F6381,F6389,F639-F641,F648-49,F6810,F6812,F6813,F688,F69,F900-F902, F909, F911, F913, F918-F919,F940,F951-F952,F959, F984- F985,F988,F99, L981, N943,O906, O99340- O99345, R45851, T1491,T3-T7). All data presented in this report are limited to NYC residents hospitalized within NYC, 18 years old or older, with at least one hospitalization for a psychiatric condition. For more details visit https://www.health.ny.gov/statistics/sparcs/.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
-        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics",
         "DisplayType": "per 100,000 residents",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
@@ -47367,19 +47367,19 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["RMZ"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [313, 314, 315, 316],
+        "AvailableTimePeriodIDs": [313, 314, 315, 316, 336, 337],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "RMZ",
-                "TimePeriodID": [313, 314, 315, 316]
+                "TimePeriodID": [313, 314, 315, 316, 336, 337]
               }
             ],
             "Map": [
               {
                 "GeoType": "RMZ",
-                "TimePeriodID": [313, 314, 315, 316],
+                "TimePeriodID": [313, 314, 315, 316, 336, 337],
                 "RankReverse": 0
               }
             ],
@@ -47412,19 +47412,19 @@
         "DisplayType": "percent",
         "AvailableGeoTypes": ["RMZ"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [313, 314, 315, 316],
+        "AvailableTimePeriodIDs": [313, 314, 315, 316, 336, 337],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "RMZ",
-                "TimePeriodID": [313, 314, 315, 316]
+                "TimePeriodID": [313, 314, 315, 316, 336, 337]
               }
             ],
             "Map": [
               {
                 "GeoType": "RMZ",
-                "TimePeriodID": [313, 314, 315, 316],
+                "TimePeriodID": [313, 314, 315, 316, 336, 337],
                 "RankReverse": 0
               }
             ],
@@ -47457,19 +47457,19 @@
         "DisplayType": "percent",
         "AvailableGeoTypes": ["RMZ"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [313, 314, 315, 316],
+        "AvailableTimePeriodIDs": [313, 314, 315, 316, 336, 337],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "RMZ",
-                "TimePeriodID": [313, 314, 315, 316]
+                "TimePeriodID": [313, 314, 315, 316, 336, 337]
               }
             ],
             "Map": [
               {
                 "GeoType": "RMZ",
-                "TimePeriodID": [313, 314, 315, 316],
+                "TimePeriodID": [313, 314, 315, 316, 336, 337],
                 "RankReverse": 0
               }
             ],
@@ -47517,7 +47517,7 @@
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296, 298]
+                "TimePeriodID": [296, 298, 334]
               },
               {
                 "GeoType": "CD",
@@ -47525,13 +47525,13 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296, 298]
+                "TimePeriodID": [296, 298, 334]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296, 298],
+                "TimePeriodID": [296, 298, 334],
                 "RankReverse": 0
               },
               {
@@ -47575,7 +47575,7 @@
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296, 298]
+                "TimePeriodID": [296, 298, 334]
               },
               {
                 "GeoType": "CD",
@@ -47583,13 +47583,13 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296, 298]
+                "TimePeriodID": [296, 298, 334]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296, 298],
+                "TimePeriodID": [296, 298, 334],
                 "RankReverse": 0
               },
               {
@@ -47645,7 +47645,7 @@
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296, 298]
+                "TimePeriodID": [296, 298, 334]
               },
               {
                 "GeoType": "CD",
@@ -47653,13 +47653,13 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [296, 298]
+                "TimePeriodID": [296, 298, 334]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [296, 298],
+                "TimePeriodID": [296, 298, 334],
                 "RankReverse": 0
               },
               {
