@@ -49102,5 +49102,603 @@
         ]
       }
     ]
+  },
+  {
+    "IndicatorID": 2444,
+    "IndicatorName": "Cold stress: 5-year emergency department visits",
+    "IndicatorLabel": "Cold stress: 5-year emergency department visits",
+    "IndicatorDescription": "ED visits for cold-related illnesses, such as hypothermia and frostbite, represent part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1411,
+        "MeasureName": "Cold stress: 5-year emergency department visits, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "The number of NYC residents treated in a NYC emergency department (ED) during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were treated in an ED with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1412,
+        "MeasureName": "Cold stress: 5-year emergency department visits, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "The number of NYC residents treated in a NYC emergency department (ED) during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were treated in an ED with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1413,
+        "MeasureName": "Cold stress: 5-year emergency department visits, Estimated annual rate",
+        "MeasurementType": "Estimated annual rate",
+        "how_calculated": "The number of NYC residents treated in a NYC emergency department (ED) during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were treated in an ED with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are divided by the population using NYC DOHMH intercensal estimates and expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1414,
+        "MeasureName": "Cold stress: 5-year emergency department visits, Estimated annual rate",
+        "MeasurementType": "Estimated annual rate",
+        "how_calculated": "The number of NYC residents treated in a NYC emergency department (ED) during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were treated in an ED with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are divided by the population using NYC DOHMH intercensal estimates and expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1415,
+        "MeasureName": "Cold stress: 5-year emergency department visits, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "The number of NYC residents treated in a NYC emergency department (ED) during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were treated in an ED with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Note: Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2445,
+    "IndicatorName": "Cold stress: 5-year hospitalizations",
+    "IndicatorLabel": "Cold stress: 5-year hospitalizations",
+    "IndicatorDescription": "Hospitalizations for cold-related illnesses, such as hypothermia and frostbite, represent part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1416,
+        "MeasureName": "Cold stress: 5-year hospitalizations, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "The number of NYC residents treated in a NYC hospital during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were admitted with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1417,
+        "MeasureName": "Cold stress: 5-year hospitalizations, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "The number of NYC residents treated in a NYC hospital during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were admitted with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are summed by 5-year age groups and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates; expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1418,
+        "MeasureName": "Cold stress: 5-year hospitalizations, Estimated annual rate",
+        "MeasurementType": "Estimated annual rate",
+        "how_calculated": "The number of NYC residents treated in a NYC hospital during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were admitted with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are divided by the population using NYC DOHMH intercensal estimates and expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1419,
+        "MeasureName": "Cold stress: 5-year hospitalizations, Estimated annual rate",
+        "MeasurementType": "Estimated annual rate",
+        "how_calculated": "The number of NYC residents treated in a NYC hospital during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were admitted with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Counts are divided by the population using NYC DOHMH intercensal estimates and expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data; United States Census",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1420,
+        "MeasureName": "Cold stress: 5-year hospitalizations, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "The number of NYC residents treated in a NYC hospital during the months of October-April summed over a 5-year period for the effects of reduced temperature or excessive or extreme cold due to weather conditions or undetermined cause (International Classification of Diseases, 9th Edition, Clinical Modification (ICD-9-CM) codes 991, E901.0, E901.8, E901.9, or E988.3 if admitted before October 1, 2015; International Classification of Diseases, 10th Edition, Clinical Modification (ICD-10-CM) codes X31, T68, T69, T33, T34 if admitted on or after October 1, 2015). Residents with a diagnostic code for excessive cold due to man-made conditions were excluded (ICD-9-CM code E901.1 if admitted before October 1, 2015; ICD-10-CM code W93 if admitted on or after October 1, 2015). Annual data is based on date of admission, and include those who were admitted with a diagnosis of cold-related illness in any principal or other diagnostic field. The data also include patients admitted to the hospital after being treated in an emergency department. Note: Because of the October 1, 2015 change in diagnostic codes from ICD-9-CM to ICD-10-CM, changes in numbers and rates over time should be interpreted with caution because they may be in part due to changes in the coding system.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [312],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [312]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [312],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
