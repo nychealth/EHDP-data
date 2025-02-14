@@ -1187,6 +1187,18 @@
                   {
                     "MeasureID": 1322,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -1421,6 +1433,18 @@
                   },
                   {
                     "MeasureID": 1248,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -5012,6 +5036,18 @@
                   {
                     "MeasureID": 1204,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -5252,6 +5288,18 @@
                   },
                   {
                     "MeasureID": 1322,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -5601,6 +5649,18 @@
                   },
                   {
                     "MeasureID": 1322,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -12013,6 +12073,18 @@
                   {
                     "MeasureID": 1204,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -17025,6 +17097,18 @@
                 "Measures": [
                   {
                     "MeasureID": 500,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -23274,6 +23358,18 @@
                   {
                     "MeasureID": 1059,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -23686,8 +23782,12 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -23765,8 +23865,16 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -24112,8 +24220,16 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -24354,6 +24470,18 @@
                   {
                     "MeasureID": 1059,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -24544,8 +24672,16 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -25814,7 +25950,7 @@
         "MeasureID": 758,
         "MeasureName": "Renter-occupied homes with no housing problems, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
+        "how_calculated": "Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro"],
@@ -25871,7 +26007,7 @@
         "MeasureID": 759,
         "MeasureName": "Renter-occupied homes with no housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of renter-occupied households in an area reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of renter-occupied households in the area; expressed as percent..",
+        "how_calculated": "Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
@@ -26524,6 +26660,18 @@
                   {
                     "MeasureID": 1029,
                     "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -28665,6 +28813,18 @@
                   {
                     "MeasureID": 700,
                     "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -31318,8 +31478,16 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -31770,6 +31938,18 @@
                   {
                     "MeasureID": 1248,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -31991,8 +32171,16 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -33226,8 +33414,16 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -37408,6 +37604,18 @@
                   },
                   {
                     "MeasureID": 502,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -41745,6 +41953,627 @@
                   {
                     "MeasureID": 1192,
                     "SecondaryAxis": "x"
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2417,
+    "IndicatorName": "Depression (adults)",
+    "IndicatorLabel": "Depression (adults)",
+    "IndicatorDescription": "Depression is a common mental health condition that is characterized by feelings of sadness, difficulty concentrating, tiredness or reduced energy, and loss of interest in activities that used to bring enjoyment.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1323,
+        "MeasureName": "Depression (adults), Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks, pooled over 2 years, divided by all adults; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), an eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 data for correlates are based on UHF34 data.",
+        "Sources": "New York City Community Health Survey (CHS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": "2021",
+        "AvailableTimePeriodIDs": [317, 318],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [317, 318]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 672,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
+                  }
+                ],
+                "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1324,
+        "MeasureName": "Depression (adults), Age-adjusted percent",
+        "MeasurementType": "Age-adjusted percent",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based, pooled over 2 years, divided by all adults and age adjusted; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), and eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 for correlates data are based on UHF34 data.",
+        "Sources": "New York City Community Health Survey (CHS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": "2021",
+        "AvailableTimePeriodIDs": [317, 318],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [317, 318]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1396,
+        "MeasureName": "Depression (adults), Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Weighted and rounded estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years. UHF42 data for correlates are based on UHF34 data.",
+        "Sources": "New York City Community Health Survey (CHS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": "2021",
+        "AvailableTimePeriodIDs": [317, 318],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [317, 318]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [317, 318],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [317, 318]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [317, 318]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2418,
+    "IndicatorName": "Psychiatric hospitalizations (adults)",
+    "IndicatorLabel": "Psychiatric hospitalizations (adults)",
+    "IndicatorDescription": "A psychiatric hospitalization is defined as an overnight stay or longer in a psychiatric inpatient unit (excluding emergency room visits without an inpatient admission) for individuals with behaviors or symptoms that are likely to result in harm to themselves or others.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1325,
+        "MeasureName": "Psychiatric hospitalizations (adults), Number",
+        "MeasurementType": "Number",
+        "how_calculated": "<p>Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019.<\/p><p>Statewide Planning and Research Collaborative System (SPARCS, 2016-2021) is an administrative database of all hospital discharges reported by New York State (NYS) hospitals to the NYS Department of Health. Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework. (ICD-10 codes: F060-F064,F068,F09,F200-F531,F600-F609,F6381,F6389,F639-F641,F648-49,F6810,F6812,F6813,F688,F69,F900-F902, F909, F911, F913, F918-F919,F940,F951-F952,F959, F984- F985,F988,F99, L981, N943,O906, O99340- O99345, R45851, T1491,T3-T7). All data presented in this report are limited to NYC residents hospitalized within NYC, 18 years old or older, with at least one hospitalization for a psychiatric condition. For more details visit https://www.health.ny.gov/statistics/sparcs/.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [48, 49, 289]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1326,
+        "MeasureName": "Psychiatric hospitalizations (adults), Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": "<p>Number of adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, divided by the population of adults (18 years and older) using NYC DOHMH intercensal estimates; expressed as cases per 100,000 residents.<\/p><p>Statewide Planning and Research Collaborative System (SPARCS, 2016-2021) is an administrative database of all hospital discharges reported by New York State (NYS) hospitals to the NYS Department of Health. Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework. (ICD-10 codes: F060-F064,F068,F09,F200-F531,F600-F609,F6381,F6389,F639-F641,F648-49,F6810,F6812,F6813,F688,F69,F900-F902, F909, F911, F913, F918-F919,F940,F951-F952,F959, F984- F985,F988,F99, L981, N943,O906, O99340- O99345, R45851, T1491,T3-T7). All data presented in this report are limited to NYC residents hospitalized within NYC, 18 years old or older, with at least one hospitalization for a psychiatric condition. For more details visit https://www.health.ny.gov/statistics/sparcs/.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics",
+        "DisplayType": "per 100,000 residents",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [48, 49, 289]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 672,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
+                  }
+                ],
+                "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1327,
+        "MeasureName": "Psychiatric hospitalizations (adults), Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "<p>Number of NYC adults aged 18 years and older who visited an NYC hospital for a mental health related reason in 2019, summed within six age groups (18-24, 25-34, 35-44, 45-54, 55-64, 65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.<\/p><p>Statewide Planning and Research Collaborative System (SPARCS, 2016-2021) is an administrative database of all hospital discharges reported by New York State (NYS) hospitals to the NYS Department of Health. Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework. (ICD-10 codes: F060-F064,F068,F09,F200-F531,F600-F609,F6381,F6389,F639-F641,F648-49,F6810,F6812,F6813,F688,F69,F900-F902, F909, F911, F913, F918-F919,F940,F951-F952,F959, F984- F985,F988,F99, L981, N943,O906, O99340- O99345, R45851, T1491,T3-T7). All data presented in this report are limited to NYC residents hospitalized within NYC, 18 years old or older, with at least one hospitalization for a psychiatric condition. For more details visit https://www.health.ny.gov/statistics/sparcs/.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics",
+        "DisplayType": "per 100,000 residents",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [48, 49, 289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [48, 49, 289]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [48, 49, 289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [48, 49, 289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [48, 49, 289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [48, 49, 289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [48, 49, 289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2419,
+    "IndicatorName": "Serious psychological distress (adults)",
+    "IndicatorLabel": "Serious psychological distress (adults)",
+    "IndicatorDescription": "Serious psychological distress (SPD) is a term used to describe the feelings of people who have recently been having problems functioning due to negative emotional or mental experiences.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1328,
+        "MeasureName": "Serious psychological distress (adults), Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days based on the Kessler 6 scale, pooled over two years, rounded to the nearest 1,000. SPD is defined as having a score greater than or equal to 13 on the Kessler 6 (k6) scale, a six-item scale developed to identify people highly likely to have a diagnosable mental illness as associated functional limitations. UHF42 data for correlates are based on UHF34 data.",
+        "Sources": "New York City Community Health Survey (CHS); New York City Bureau of Vital Statistics",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": "2021",
+        "AvailableTimePeriodIDs": [297, 319, 320, 335],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320, 335]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [297, 319, 320, 335]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [297, 319, 320, 335]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320, 335],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [297, 319, 320, 335],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320, 335]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [297, 319, 320, 335]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1329,
+        "MeasureName": "Serious psychological distress (adults), Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days, divided by all adults; expressed as percent. SPD is defined as having a score greater than or equal to 13 on the Kessler 6 (k6) scale, a six-item scale developed to identify people highly likely to have a diagnosable mental illness as associated functional limitations. UHF42 data for correlates are based on UHF34 data.",
+        "Sources": "New York City Community Health Survey (CHS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": "2021",
+        "AvailableTimePeriodIDs": [297, 319, 320, 335],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320, 335]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [297, 319, 320, 335]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [297, 319, 320, 335]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320, 335],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [297, 319, 320, 335],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320, 335]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [297, 319, 320, 335]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 672,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
+                  }
+                ],
+                "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1330,
+        "MeasureName": "Serious psychological distress (adults), Age-adjusted percent",
+        "MeasurementType": "Age-adjusted percent",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable serious psychological distress in the past 30 days, divided by all adults and age adjusted, pooled over two years, expressed as percent. SPD is defined as having a score greater than or equal to 13 on the Kessler 6 (k6) scale, a six-item scale developed to identify people highly likely to have a diagnosable mental illness as associated functional limitations. UHF42 data for correlates are based on UHF34 data.",
+        "Sources": "New York City Community Health Survey (CHS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": "2021",
+        "AvailableTimePeriodIDs": [297, 319, 320, 335],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320, 335]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [297, 319, 320, 335]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [297, 319, 320, 335]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320, 335],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [297, 319, 320, 335],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [297, 319, 320, 335]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [297, 319, 320, 335]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
                   }
                 ],
                 "Disparities": 0
