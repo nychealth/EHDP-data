@@ -42776,6 +42776,139 @@
     ]
   },
   {
+    "IndicatorID": 2422,
+    "IndicatorName": "E-cigarette vapor exposure at home (children)",
+    "IndicatorLabel": "Children exposed to e-cigarette smoke in home",
+    "IndicatorDescription": "E-cigarette smoke: The number of children aged 1-13 years exposed to e-cigarette smoke at home all of the time, most of the time, or occasionally. Chemicals in the vapor from e-cigarettes can be harmful to kids.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1336,
+        "MeasureName": "E-cigarette vapor exposure at home (children), Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Estimated number of children aged 1-13 years living in a home reporting e-cigarette smoking all of the time, most of the time, or occasionally.",
+        "Sources": "NYC KIDS Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2021"],
+        "TrendNoCompare": "2021",
+        "AvailableTimePeriodIDs": [289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1337,
+        "MeasureName": "E-cigarette vapor exposure at home (children), Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Estimated number of children aged 1-13 years living in a home reporting e-cigarette smoking all of the time, most of the time, or occasionally, divided by the number of children in the area as per the 2015-19 American Community Survey, expressed as a percent.",
+        "Sources": "NYC KIDS Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2021"],
+        "TrendNoCompare": "2021",
+        "AvailableTimePeriodIDs": [289],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID": 2425,
     "IndicatorName": "Average Citi Bike availability",
     "IndicatorLabel": "Average Citi Bike availability",
