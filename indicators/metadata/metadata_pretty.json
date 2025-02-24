@@ -46064,6 +46064,342 @@
     ]
   },
   {
+    "IndicatorID": 2441,
+    "IndicatorName": "Anaplasmosis",
+    "IndicatorLabel": "Anaplasmosis",
+    "IndicatorDescription": "Anaplasmosis is a tick-borne disease transmitted through the bite of an infected blacklegged tick. Symptoms include fever, chills, headache, muscle aches, and fatigue. The majority of cases report a history of travel and outdoor exposures outside of NYC.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1397,
+        "MeasureName": "Anaplasmosis, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of cases meeting the?national case definition.",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1398,
+        "MeasureName": "Anaplasmosis, Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": "Crude Rate per 100,000 Population",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1399,
+        "MeasureName": "Anaplasmosis, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "Age-adjusted rates were calculated per 100,000 population using NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal estimates, updated April 2017.",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2442,
+    "IndicatorName": "Lyme disease",
+    "IndicatorLabel": "Lyme disease",
+    "IndicatorDescription": "Lyme disease is transmitted through the bite of an infected blacklegged tick and is the most common tick-borne disease among New Yorkers. Symptoms can include rashes that look like a bull’s-eye, fever, fatigue and headache. If left untreated, infection can spread to joints, the heart, and the nervous system. Most people acquire this disease while traveling outside NYC. However, local cases are often reported in Staten Island. In 2022, an expected increase in cases was observed due to changes in the case definition.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1400,
+        "MeasureName": "Lyme disease, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of cases meeting the?national case definition.",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1401,
+        "MeasureName": "Lyme disease, Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": "Crude Rate per 100,000 Population",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1402,
+        "MeasureName": "Lyme disease, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "Age-adjusted rates were calculated per 100,000 population using NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal estimates, updated April 2017.",
+        "Sources": "NYC DOHMH Bureau of Communicable Disease",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "IndicatorID": 2443,
     "IndicatorName": "Heat stress: 5-year emergency department visits",
     "IndicatorLabel": "Heat stress: emergency department visits",
