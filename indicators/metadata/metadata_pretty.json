@@ -5857,37 +5857,33 @@
         "how_calculated": "Estimated number of households in an area that reported mice or rats in their building in the past 90 days, divided by the number of households in the area; expressed as percent.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [3, 6, 9, 12, 38, 41, 46, 289, 298],
+        "AvailableTimePeriodIDs": [3, 6, 9, 12, 38, 41, 46],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
+                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
+                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46]
               },
               {
                 "GeoType": "PUMA2010",
                 "TimePeriodID": [38, 41, 46]
               },
               {
-                "GeoType": "PUMA2020",
-                "TimePeriodID": [289, 298]
-              },
-              {
                 "GeoType": "Subboro",
-                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
+                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 12, 38, 41, 46, 289, 298],
+                "TimePeriodID": [9, 12, 38, 41, 46],
                 "RankReverse": 0
               },
               {
@@ -5896,24 +5892,19 @@
                 "RankReverse": 0
               },
               {
-                "GeoType": "PUMA2020",
-                "TimePeriodID": [289, 298],
-                "RankReverse": 0
-              },
-              {
                 "GeoType": "Subboro",
-                "TimePeriodID": [9, 12, 38, 41, 46, 289, 298],
+                "TimePeriodID": [9, 12, 38, 41, 46],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
+                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298]
+                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46]
               }
             ],
             "Links": [
@@ -49451,6 +49442,148 @@
               {
                 "GeoType": null,
                 "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2446,
+    "IndicatorName": "Homes with visible mold",
+    "IndicatorLabel": "Homes with visible mold",
+    "IndicatorDescription": "Adults reporting visible mold in the home. Mold can worsen respiratory conditions like asthma, and indicate maintenance problems in a building.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1422,
+        "MeasureName": "Homes with visible mold, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Estimated number of households that reported visible mold in the home, divided by the number of households in the area; expressed as percent.",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2020"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [289, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289, 298]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2447,
+    "IndicatorName": "Homes with mice or rats in the unit or building",
+    "IndicatorLabel": "Homes with mice or rats in the unit or building",
+    "IndicatorDescription": "The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1424,
+        "MeasureName": "Homes with mice or rats in the unit or building, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Estimated number of households that reported mice or rats in their unit or building in the past 90 days, divided by the number of households in the area; expressed as percent.",
+        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2020"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [289, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289, 298]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [289, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [289, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289, 298]
               }
             ],
             "Links": [
