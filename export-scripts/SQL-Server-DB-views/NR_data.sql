@@ -33,8 +33,8 @@ CREATE OR ALTER VIEW dbo.NR_data AS
         src.source_list      AS data_source_list,
         uz.Zipcodes          AS zip_code,
         id.rankReverse,
-        rr.RankByValue       AS indicator_neighborhood_rank,
-        rr.reportRank        AS data_value_rank,
+        rnk.RankByValue       AS indicator_neighborhood_rank,
+        rnk.reportRank        AS data_value_rank,
 
         -- bar chart filename
 
@@ -149,16 +149,16 @@ CREATE OR ALTER VIEW dbo.NR_data AS
 
         -- getting UHF ranks for this indicator
 
-        INNER JOIN Report_UHF_indicator_Rank AS rr ON (
-            rr.indicator_data_id = dt.indicator_data_id
+        INNER JOIN NR_ranks AS rnk ON (
+            rnk.indicator_data_id = dt.indicator_data_id
         )
 
         -- getting indicator sources
         
-        INNER JOIN Consolidated_Sources_by_IndicatorID AS src ON ind.indicator_id = src.indicator_id
+        INNER JOIN concat_sources AS src ON ind.indicator_id = src.indicator_id
 
     WHERE
-        dt.geo_type_id  = 3 AND
-        si.creator_id   = 1      -- repurpose as stage_flag: 0 = don't stage, 1 = stage
+        dt.geo_type_id = 3 AND
+        si.creator_id  = 1      -- repurpose as stage_flag: 0 = don't stage, 1 = stage
 
 GO
