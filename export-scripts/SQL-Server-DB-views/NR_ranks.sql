@@ -3,7 +3,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER OR CREATE VIEW [dbo].[NR_ranks] AS
+CREATE OR ALTER VIEW [dbo].[NR_ranks] AS
     SELECT
         dt.indicator_data_id,
         dt.indicator_id,
