@@ -2330,23 +2330,23 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 365,
+                    "MeasureID": 1425,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 370,
+                    "MeasureID": 1428,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 375,
+                    "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 383,
+                    "MeasureID": 1434,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 386,
+                    "MeasureID": 1435,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -8757,23 +8757,23 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 365,
+                    "MeasureID": 1425,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 370,
+                    "MeasureID": 1428,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 375,
+                    "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 383,
+                    "MeasureID": 1434,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 386,
+                    "MeasureID": 1435,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -12062,64 +12062,64 @@
     "Comparisons": null,
     "Measures": [
       {
-        "MeasureID": 365,
-        "MeasureName": "PM2.5 (Fine particles), Mean",
-        "MeasurementType": "Mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1425,
+        "MeasureName": "PM2.5 (Fine particles), Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -12189,50 +12189,64 @@
         ]
       },
       {
-        "MeasureID": 368,
-        "MeasureName": "PM2.5 (Fine particles), 10th percentile",
-        "MeasurementType": "10th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood and the 10th percentile identified. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1426,
+        "MeasureName": "PM2.5 (Fine particles), Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -12243,57 +12257,71 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
         ]
       },
       {
-        "MeasureID": 369,
-        "MeasureName": "PM2.5 (Fine particles), 90th percentile",
-        "MeasurementType": "90th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood and the 90th percentile identified. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1427,
+        "MeasureName": "PM2.5 (Fine particles), Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -12304,7 +12332,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -12320,59 +12348,59 @@
     "Comparisons": null,
     "Measures": [
       {
-        "MeasureID": 370,
-        "MeasureName": "Black carbon, Mean",
-        "MeasurementType": "Mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1428,
+        "MeasureName": "Black carbon, Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [189, 190, 191, 192, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [189, 190, 191, 192, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 310, 311, 331, 333],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 310, 311, 331, 332, 333],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 252, 259, 279, 283, 295, 311, 331]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [198, 199, 200, 201, 202, 219, 232, 241, 252, 259, 279, 283, 295, 311, 331]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -12442,44 +12470,49 @@
         ]
       },
       {
-        "MeasureID": 373,
-        "MeasureName": "Black carbon, 10th percentile",
-        "MeasurementType": "10th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood, and the 10th percentile identified. Black carbon levels are estimated using a method that measures absorbance.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1429,
+        "MeasureName": "Black carbon, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [189, 190, 191, 192, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [189, 190, 191, 192, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -12496,51 +12529,56 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
         ]
       },
       {
-        "MeasureID": 374,
-        "MeasureName": "Black carbon, 90th percentile",
-        "MeasurementType": "90th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood and the 90th percentile identified. Black carbon levels are estimated using a method that measures absorbance.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1430,
+        "MeasureName": "Black carbon, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [189, 190, 191, 192, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [189, 190, 191, 192, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -12557,7 +12595,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -12573,64 +12611,64 @@
     "Comparisons": null,
     "Measures": [
       {
-        "MeasureID": 375,
-        "MeasureName": "Nitrogen dioxide, Mean",
-        "MeasurementType": "Mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1431,
+        "MeasureName": "Nitrogen dioxide, Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -12688,50 +12726,64 @@
         ]
       },
       {
-        "MeasureID": 378,
-        "MeasureName": "Nitrogen dioxide, 10th percentile",
-        "MeasurementType": "10th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood and the 10th percentile identified. The gaseous pollutants in NYC are measured in units of parts per billion.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1432,
+        "MeasureName": "Nitrogen dioxide, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -12742,57 +12794,71 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
         ]
       },
       {
-        "MeasureID": 379,
-        "MeasureName": "Nitrogen dioxide, 90th percentile",
-        "MeasurementType": "90th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood and the 90th percentile identified. The gaseous pollutants in NYC are measured in units of parts per billion.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1433,
+        "MeasureName": "Nitrogen dioxide, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -12803,7 +12869,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -12819,59 +12885,59 @@
     "Comparisons": null,
     "Measures": [
       {
-        "MeasureID": 383,
-        "MeasureName": "Sulfur dioxide, Mean",
-        "MeasurementType": "Mean",
-        "how_calculated": "Data collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then smoothed using GIS, assigned to the appropriate NYC neighborhood, and averaged. The gaseous pollutants in NYC are measured in units of parts per billion.",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1434,
+        "MeasureName": "Sulfur dioxide, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [193, 194, 195, 196, 197, 218, 234, 239],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [234, 239]
+                "TimePeriodID": [44, 45]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [234, 239]
+                "TimePeriodID": [44, 45]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
               }
             ],
             "Links": [
@@ -12923,128 +12989,6 @@
                   }
                 ],
                 "Disparities": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 384,
-        "MeasureName": "Sulfur dioxide, 10th percentile",
-        "MeasurementType": "10th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood and the 10th percentile identified. The gaseous pollutants in NYC are measured in units of parts per billion.",
-        "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [193, 194, 195, 196, 197, 218, 234, 239],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [234, 239]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [234, 239]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 385,
-        "MeasureName": "Sulfur dioxide, 90th percentile",
-        "MeasurementType": "90th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood and the 90th percentile identified. The gaseous pollutants in NYC are measured in units of parts per billion.",
-        "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [193, 194, 195, 196, 197, 218, 234, 239],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [234, 239]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [234, 239]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
               }
             ]
           }
@@ -13060,64 +13004,64 @@
     "Comparisons": null,
     "Measures": [
       {
-        "MeasureID": 386,
-        "MeasureName": "Ozone, Mean",
-        "MeasurementType": "Mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, ozone is measured in units of parts per billion (ppb).",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1435,
+        "MeasureName": "Ozone, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -13177,128 +13121,6 @@
             ]
           }
         ]
-      },
-      {
-        "MeasureID": 389,
-        "MeasureName": "Ozone, 10th percentile",
-        "MeasurementType": "10th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and the 10th percentile determined. In NYC, ozone is measured in units of parts per billion (ppb).",
-        "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 390,
-        "MeasureName": "Ozone, 90th percentile",
-        "MeasurementType": "90th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and the 90th percentile determined. In NYC, ozone is measured in units of parts per billion (ppb).",
-        "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": 539,
-                    "SecondaryAxis": "y"
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
       }
     ]
   },
@@ -13310,64 +13132,64 @@
     "Comparisons": null,
     "Measures": [
       {
-        "MeasureID": 391,
-        "MeasureName": "Nitric oxide, Mean",
-        "MeasurementType": "Mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1436,
+        "MeasureName": "Nitric oxide, Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 333],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 333],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 333],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -13385,50 +13207,64 @@
         ]
       },
       {
-        "MeasureID": 394,
-        "MeasureName": "Nitric oxide, 10th percentile",
-        "MeasurementType": "10th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and the 10th percentile determined. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1437,
+        "MeasureName": "Nitric oxide, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -13439,57 +13275,71 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
         ]
       },
       {
-        "MeasureID": 395,
-        "MeasureName": "Nitric oxide, 90th percentile",
-        "MeasurementType": "90th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and the 90th percentile determined. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
-        "Sources": "New York City Community Air Survey",
+        "MeasureID": 1438,
+        "MeasureName": "Nitric oxide, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": null,
+        "Sources": null,
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -13500,7 +13350,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -15194,23 +15044,23 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 365,
+                    "MeasureID": 1425,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 370,
+                    "MeasureID": 1428,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 375,
+                    "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 383,
+                    "MeasureID": 1434,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 386,
+                    "MeasureID": 1435,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -22249,11 +22099,11 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 365,
+                    "MeasureID": 676,
                     "SecondaryAxis": "y"
                   },
                   {
-                    "MeasureID": 676,
+                    "MeasureID": 1425,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -22333,7 +22183,7 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 365,
+                    "MeasureID": 1425,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -22413,7 +22263,7 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 365,
+                    "MeasureID": 1425,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -38236,23 +38086,23 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 365,
+                    "MeasureID": 1425,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 370,
+                    "MeasureID": 1428,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 375,
+                    "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 383,
+                    "MeasureID": 1434,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 386,
+                    "MeasureID": 1435,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -38498,27 +38348,27 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 365,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 370,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 375,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 383,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 386,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 1335,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1425,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1428,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1431,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1434,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1435,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -38697,27 +38547,27 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 365,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 370,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 375,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 383,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 386,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 759,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1425,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1428,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1431,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1434,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1435,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -38975,23 +38825,23 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 365,
+                    "MeasureID": 1425,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 370,
+                    "MeasureID": 1428,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 375,
+                    "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 383,
+                    "MeasureID": 1434,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 386,
+                    "MeasureID": 1435,
                     "SecondaryAxis": "x"
                   }
                 ],
