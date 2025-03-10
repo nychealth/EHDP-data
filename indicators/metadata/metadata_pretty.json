@@ -4310,7 +4310,7 @@
         "MeasureID": 76,
         "MeasureName": "Cracks, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of households in an area that reported cracks or holes in the home, divided by the number of households in the area; expressed as percent.",
+        "how_calculated": "<p>Estimated number of households in an area that reported cracks or holes in the home, divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
@@ -4669,7 +4669,7 @@
         "MeasureID": 80,
         "MeasureName": "Leaks, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of households in an area that reported leaks coming from outside the unit, divided by the number of households in the area; expressed as percent.",
+        "how_calculated": "<p>Estimated number of households in an area that reported leaks coming from outside the unit, divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
@@ -4866,7 +4866,7 @@
         "MeasureID": 86,
         "MeasureName": "Homes with 3+ housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of households in an area reporting three or more maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of households in the area; expressed as percent.",
+        "how_calculated": "<p>Estimated number of households in an area reporting three or more maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
@@ -5384,7 +5384,7 @@
         "MeasureID": 90,
         "MeasureName": "Supplemental heat, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of households in an area that needed to use a secondary source of heat in addition to their primary source, divided by the number of households in the area; expressed as percent.",
+        "how_calculated": "<p>Estimated number of households in an area that needed to use a secondary source of heat in addition to their primary source, divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
@@ -10204,7 +10204,7 @@
         "MeasureID": 245,
         "MeasureName": "Cockroaches, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of households in an area that reported seeing at least one cockroach daily over the last month, divided by the number of households in the area; expressed as percent.",
+        "how_calculated": "<p>Estimated number of households in an area that reported seeing at least one cockroach daily over the last month, divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
@@ -26007,7 +26007,7 @@
         "MeasureID": 759,
         "MeasureName": "Renter-occupied homes with no housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit).",
+        "how_calculated": "<p>Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit).<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
@@ -26606,7 +26606,7 @@
         "MeasureID": 781,
         "MeasureName": "Households with AC, Percent (with AC)",
         "MeasurementType": "Percent (with AC)",
-        "how_calculated": "Estimated number of households in an area reporting having functioning air conditioning, divided by the number of households in the area; expressed as percent.",
+        "how_calculated": "<p>Estimated number of households in an area reporting having functioning air conditioning, divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
@@ -29572,45 +29572,45 @@
         "how_calculated": "Estimated number of adult drivers (drove in the last 30 days) who responded \"often\", \"sometimes\" or \"rarely\" to the question: \"In the past 30 days, when you drove in New York City, how often did you drive 10 miles per hour or more over the posted speed limit?\"",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [44, 45, 48, 289],
+        "AvailableTimePeriodIDs": [44, 45, 48],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [44, 45, 48, 289],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               }
             ],
             "Links": [
@@ -29636,43 +29636,43 @@
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
-        "AvailableTimePeriodIDs": [44, 45, 48, 289],
+        "AvailableTimePeriodIDs": [44, 45, 48],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [44, 45, 48, 289],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               }
             ],
             "Links": [
@@ -38781,7 +38781,7 @@
         "MeasureID": 1248,
         "MeasureName": "Housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of renter-occupied households reporting any health-related maintenance problems (cockroaches, mice or rats in the building, cracks or holes in walls, ceilings or floors, leaks from outside, toilet breakdowns, lack of air conditioning, heating equipment breakdown, additional heating required, or broken plaster or peeling paint larger than 8&frac12; x 11 inches),divided by the number of renter-occupied households in the area; expressed as percent..",
+        "how_calculated": "<p>Estimated number of renter-occupied households reporting any health-related maintenance problems (cockroaches, mice or rats in the building, cracks or holes in walls, ceilings or floors, leaks from outside, toilet breakdowns, lack of air conditioning, heating equipment breakdown, additional heating required, or broken plaster or peeling paint larger than 8&frac12; x 11 inches),divided by the number of renter-occupied households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42"],
