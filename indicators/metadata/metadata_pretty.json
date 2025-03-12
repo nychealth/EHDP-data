@@ -1325,6 +1325,10 @@
                   {
                     "MeasureID": 1330,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -1571,6 +1575,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -5289,6 +5297,10 @@
                   {
                     "MeasureID": 1330,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -5563,6 +5575,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -5964,6 +5980,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -12433,6 +12453,10 @@
                   {
                     "MeasureID": 1330,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -17457,6 +17481,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -23730,6 +23758,10 @@
                   {
                     "MeasureID": 1330,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -24317,6 +24349,10 @@
                   {
                     "MeasureID": 1330,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -24403,6 +24439,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -24759,6 +24799,10 @@
                   {
                     "MeasureID": 1330,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -25011,6 +25055,10 @@
                   {
                     "MeasureID": 1330,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -25210,6 +25258,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -27367,6 +27419,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -29550,6 +29606,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -33769,6 +33829,10 @@
                   {
                     "MeasureID": 1330,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -34231,6 +34295,10 @@
                   {
                     "MeasureID": 1330,
                     "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -34461,6 +34529,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -35750,6 +35822,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -39961,6 +40037,10 @@
                   },
                   {
                     "MeasureID": 1330,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1333,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -45068,6 +45148,198 @@
               {
                 "GeoType": "Citywide",
                 "TimePeriodID": [297, 319, 320, 335]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2420,
+    "IndicatorName": "Suicide deaths",
+    "IndicatorLabel": "Suicide deaths",
+    "IndicatorDescription": "An intentional injury death that results from self-harm.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1331,
+        "MeasureName": "Suicide deaths, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of suicide deaths, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC. UHF42 data are based on UHF34 data.",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS); New York City Bureau of Vital Statistics",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [338],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [338]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [338]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [338]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [338],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [338]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [338]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1332,
+        "MeasureName": "Suicide deaths, Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": "Number of suicide deaths in NYC, pooled years 2015-2019, divided by total NYC population using NYC DOHMH intercensal estimates, expressed as cases per 100,000 residents, pooled years 2015-2019. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC. UHF42 data are based on UHF34 data.",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
+        "DisplayType": "per 100,000 residents",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [338],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [338]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [338]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [338]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [338],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [338]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [338]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 672,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
+                  }
+                ],
+                "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1333,
+        "MeasureName": "Suicide deaths, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "Number of suicide deaths, pooled years 2015-2019, summed within five age groups (0-17, 18-24, 25-44, 45-64,65+) and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents. Suicide deaths are identified using the ICD codes U03, X60-X84, and Y87.0. Note that identified deaths include non-residents who died by suicide in NYC, and does not include NYC residents who died by suicide outside of NYC. UHF42 data are based on UHF34 data.",
+        "Sources": "Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2019, updated January 2022. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2019, updated March 2021.; New York City Bureau of Vital Statistics. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019.",
+        "DisplayType": "per 100,000 residents",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "AvailableTimePeriodIDs": [338],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [338]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [338]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [338]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [338],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [338]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [338]
               }
             ],
             "Links": [
