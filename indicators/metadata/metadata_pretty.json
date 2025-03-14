@@ -9822,14 +9822,14 @@
   },
   {
     "IndicatorID": 99,
-    "IndicatorName": "Insecticides (carbamate)",
-    "IndicatorLabel": "Insecticides (Carbamate)",
+    "IndicatorName": "Commercial use of insecticides (Carbamate)",
+    "IndicatorLabel": "Insecticides (carbamate)",
     "IndicatorDescription": "Carbamates are acutely toxic and present a significant health risk from human exposure.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 216,
-        "MeasureName": "Insecticides (carbamate), Liquid products",
+        "MeasureName": "Commercial use of insecticides (Carbamate), Liquid products",
         "MeasurementType": "Liquid products",
         "how_calculated": "Sum of gallons of liquid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, or termiticide; and containing active ingredient of the chemical class N-methyl carbamate",
         "Sources": "New York State Pesticide Sales and Use Registry (PSUR)",
@@ -9891,7 +9891,7 @@
       },
       {
         "MeasureID": 217,
-        "MeasureName": "Insecticides (carbamate), Solid products",
+        "MeasureName": "Commercial use of insecticides (Carbamate), Solid products",
         "MeasurementType": "Solid products",
         "how_calculated": "Sum of pounds of solid pesticide applications that meet the following qualifications: classified as insect growth regulator, insecticide, miticide, or termiticide; and containing active ingredients of the chemical class N-methyl carbamate",
         "Sources": "New York State Pesticide Sales and Use Registry (PSUR)",
