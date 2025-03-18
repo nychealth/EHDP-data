@@ -10218,7 +10218,7 @@
         "MeasureID": 208,
         "MeasureName": "Commercial use of rodenticides, Solid products",
         "MeasurementType": "Solid products",
-        "how_calculated": "Sum of pounds of solid pesticide applications that are classified as rodenticide.",
+        "how_calculated": "Sum of pounds of solid pesticide applications that are classified as rodenticide. Note: some products reported with incorrect units have been excluded.",
         "Sources": "New York State Pesticide Sales and Use Registry (PSUR)",
         "DisplayType": "pounds",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
