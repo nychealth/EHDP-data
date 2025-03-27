@@ -2368,19 +2368,19 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1428,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1434,
+                    "MeasureID": 1437,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1435,
+                    "MeasureID": 1443,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1445,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -8902,19 +8902,19 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1428,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1434,
+                    "MeasureID": 1437,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1435,
+                    "MeasureID": 1443,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1445,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -12251,12 +12251,13 @@
         "MeasureID": 1425,
         "MeasureName": "PM2.5 (Fine particles), Annual mean",
         "MeasurementType": "Annual mean",
-        "how_calculated": null,
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -12376,14 +12377,91 @@
       },
       {
         "MeasureID": 1426,
-        "MeasureName": "PM2.5 (Fine particles), Summer mean",
-        "MeasurementType": "Summer mean",
-        "how_calculated": null,
+        "MeasureName": "PM2.5 (Fine particles), Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1427,
+        "MeasureName": "PM2.5 (Fine particles), Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "mcg/m3",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -12450,15 +12528,92 @@
         ]
       },
       {
-        "MeasureID": 1427,
-        "MeasureName": "PM2.5 (Fine particles), Winter mean",
-        "MeasurementType": "Winter mean",
-        "how_calculated": null,
+        "MeasureID": 1428,
+        "MeasureName": "PM2.5 (Fine particles), Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1429,
+        "MeasureName": "PM2.5 (Fine particles), Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air. Winter time periods are labeled with the year the season ended.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "mcg/m3",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -12523,6 +12678,82 @@
             ]
           }
         ]
+      },
+      {
+        "MeasureID": 1430,
+        "MeasureName": "PM2.5 (Fine particles), Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air. Winter time periods are labeled with the year the season ended.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "mcg/m3",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -12534,15 +12765,16 @@
     "Comparisons": null,
     "Measures": [
       {
-        "MeasureID": 1428,
+        "MeasureID": 1431,
         "MeasureName": "Black carbon, Annual mean",
         "MeasurementType": "Annual mean",
-        "how_calculated": null,
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -12660,271 +12892,16 @@
         ]
       },
       {
-        "MeasureID": 1429,
-        "MeasureName": "Black carbon, Summer mean",
-        "MeasurementType": "Summer mean",
-        "how_calculated": null,
-        "Sources": "New York City Community Air Survey",
-        "DisplayType": "absorbance units",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 1430,
-        "MeasureName": "Black carbon, Winter mean",
-        "MeasurementType": "Winter mean",
-        "how_calculated": null,
-        "Sources": "New York City Community Air Survey",
-        "DisplayType": "absorbance units",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 1
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID": 2025,
-    "IndicatorName": "Nitrogen dioxide (NO2)",
-    "IndicatorLabel": "Nitrogen dioxide (NO2)",
-    "IndicatorDescription": "Nitrogen dioxide is a pollutant formed by combusion that damage lung tissue, cause breathing problems, and contribute to smog and acid rain.",
-    "Comparisons": null,
-    "Measures": [
-      {
-        "MeasureID": 1431,
-        "MeasureName": "Nitrogen dioxide, Annual mean",
-        "MeasurementType": "Annual mean",
-        "how_calculated": null,
-        "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": 2,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 4,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 6,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 8,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 31,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 155,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 460,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1196,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1199,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1201,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1204,
-                    "SecondaryAxis": "y"
-                  }
-                ],
-                "Disparities": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
         "MeasureID": 1432,
-        "MeasureName": "Nitrogen dioxide, Summer mean",
-        "MeasurementType": "Summer mean",
-        "how_calculated": null,
+        "MeasureName": "Black carbon, Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance.",
         "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
+        "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -12946,7 +12923,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -12959,21 +12936,16 @@
                 "GeoType": "CD",
                 "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
-                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -12984,7 +12956,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 1
+                "Disparities": 0
               }
             ]
           }
@@ -12992,14 +12964,15 @@
       },
       {
         "MeasureID": 1433,
-        "MeasureName": "Nitrogen dioxide, Winter mean",
-        "MeasurementType": "Winter mean",
-        "how_calculated": null,
+        "MeasureName": "Black carbon, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance.",
         "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
+        "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -13017,11 +12990,11 @@
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -13032,23 +13005,14 @@
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -13064,165 +13028,52 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "IndicatorID": 2026,
-    "IndicatorName": "Sulfur dioxide (SO2)",
-    "IndicatorLabel": "Sulfur dioxide (SO2)",
-    "IndicatorDescription": "Sulfur dioxide comes from burning some kinds of fuel oil. As an air pollutant, it can can worsen lung diseases.",
-    "Comparisons": null,
-    "Measures": [
-      {
-        "MeasureID": 1434,
-        "MeasureName": "Sulfur dioxide, Winter mean",
-        "MeasurementType": "Winter mean",
-        "how_calculated": null,
-        "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [193, 194, 195, 196, 197, 218, 234, 239],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
-              },
-              {
-                "GeoType": "UHF34",
-                "TimePeriodID": [44, 45]
-              },
-              {
-                "GeoType": "UHF42",
-                "TimePeriodID": [44, 45]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": 2,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 4,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 6,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 8,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 31,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 155,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 460,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1196,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1199,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1201,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1204,
-                    "SecondaryAxis": "y"
-                  }
-                ],
-                "Disparities": 1
-              }
-            ]
-          }
-        ]
       },
       {
-        "MeasureID": 384,
-        "MeasureName": "Sulfur dioxide, 10th percentile",
-        "MeasurementType": "10th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood and the 10th percentile identified. The gaseous pollutants in NYC are measured in units of parts per billion.",
+        "MeasureID": 1434,
+        "MeasureName": "Black carbon, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance.",
         "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
+        "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [193, 194, 195, 196, 197, 218, 234, 239],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [234, 239]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [234, 239]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -13246,50 +13097,819 @@
         ]
       },
       {
-        "MeasureID": 385,
-        "MeasureName": "Sulfur dioxide, 90th percentile",
-        "MeasurementType": "90th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specific time period. The results were then assigned to the appropriate NYC neighborhood and the 90th percentile identified. The gaseous pollutants in NYC are measured in units of parts per billion.",
+        "MeasureID": 1435,
+        "MeasureName": "Black carbon, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance. Winter time periods are labeled with the year the season ended.",
         "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
+        "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [193, 194, 195, 196, 197, 218, 234, 239],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [193, 194, 195, 196, 197, 218, 234, 239]
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [234, 239]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [234, 239]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": null,
                 "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1436,
+        "MeasureName": "Black carbon, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance. Winter time periods are labeled with the year the season ended.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "absorbance units",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2025,
+    "IndicatorName": "Nitrogen dioxide (NO2)",
+    "IndicatorLabel": "Nitrogen dioxide (NO2)",
+    "IndicatorDescription": "Nitrogen dioxide is a pollutant formed by combusion that damage lung tissue, cause breathing problems, and contribute to smog and acid rain.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1437,
+        "MeasureName": "Nitrogen dioxide, Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": 2,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 4,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 6,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 8,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 31,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 155,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 460,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1196,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1199,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1201,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1204,
+                    "SecondaryAxis": "y"
+                  }
+                ],
+                "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1438,
+        "MeasureName": "Nitrogen dioxide, Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1439,
+        "MeasureName": "Nitrogen dioxide, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1440,
+        "MeasureName": "Nitrogen dioxide, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1441,
+        "MeasureName": "Nitrogen dioxide, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Winter time periods are labeled with the year the season ended.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1442,
+        "MeasureName": "Nitrogen dioxide, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Winter time periods are labeled with the year the season ended.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2026,
+    "IndicatorName": "Sulfur dioxide (SO2)",
+    "IndicatorLabel": "Sulfur dioxide (SO2)",
+    "IndicatorDescription": "Sulfur dioxide comes from burning some kinds of fuel oil. As an air pollutant, it can can worsen lung diseases.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1443,
+        "MeasureName": "Sulfur dioxide, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Data collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then smoothed using GIS, assigned to the appropriate NYC neighborhood, and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Winter time periods are labeled with the year the season ended.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [44, 45]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": 2,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 4,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 6,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 8,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 31,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 155,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 460,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1196,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1199,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1201,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1204,
+                    "SecondaryAxis": "y"
+                  }
+                ],
+                "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1444,
+        "MeasureName": "Sulfur dioxide, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Data collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then smoothed using GIS, assigned to the appropriate NYC neighborhood, and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Winter time periods are labeled with the year the season ended.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [44, 45]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45]
               }
             ],
             "Links": [
@@ -13316,15 +13936,16 @@
     "Comparisons": null,
     "Measures": [
       {
-        "MeasureID": 1435,
+        "MeasureID": 1445,
         "MeasureName": "Ozone, Summer mean",
         "MeasurementType": "Summer mean",
-        "how_calculated": null,
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, ozone is measured in units of parts per billion (ppb).",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -13433,26 +14054,18 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "IndicatorID": 2028,
-    "IndicatorName": "Nitric oxide (NO)",
-    "IndicatorLabel": "Nitric oxide (NO)",
-    "IndicatorDescription": "Nitric oxide (NO) is formed by combustion, especially in vehicles, that damages lung tissue, causes breathing problems, and contributes to smog and acid rain.",
-    "Comparisons": null,
-    "Measures": [
+      },
       {
-        "MeasureID": 1436,
-        "MeasureName": "Nitric oxide, Annual mean",
-        "MeasurementType": "Annual mean",
-        "how_calculated": null,
+        "MeasureID": 1446,
+        "MeasureName": "Ozone, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, ozone is measured in units of parts per billion (ppb).",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -13479,15 +14092,29 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -13503,20 +14130,52 @@
             ]
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2028,
+    "IndicatorName": "Nitric oxide (NO)",
+    "IndicatorLabel": "Nitric oxide (NO)",
+    "IndicatorDescription": "Nitric oxide (NO) is formed by combustion, especially in vehicles, that damages lung tissue, causes breathing problems, and contributes to smog and acid rain.",
+    "Comparisons": null,
+    "Measures": [
       {
-        "MeasureID": 390,
-        "MeasureName": "Ozone, 90th percentile",
-        "MeasurementType": "90th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and the 90th percentile determined. In NYC, ozone is measured in units of parts per billion (ppb).",
+        "MeasureID": 1447,
+        "MeasureName": "Nitric oxide, Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [126, 188, 189, 190, 191, 192, 217, 233, 240, 251, 260, 280, 285, 291, 310, 332],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
@@ -13558,15 +14217,92 @@
         ]
       },
       {
-        "MeasureID": 1437,
-        "MeasureName": "Nitric oxide, Summer mean",
-        "MeasurementType": "Summer mean",
-        "how_calculated": null,
+        "MeasureID": 1448,
+        "MeasureName": "Nitric oxide, Annual mean",
+        "MeasurementType": "Annual mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1449,
+        "MeasureName": "Nitric oxide, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -13633,15 +14369,92 @@
         ]
       },
       {
-        "MeasureID": 1438,
-        "MeasureName": "Nitric oxide, Winter mean",
-        "MeasurementType": "Winter mean",
-        "how_calculated": null,
+        "MeasureID": 1450,
+        "MeasureName": "Nitric oxide, Summer mean",
+        "MeasurementType": "Summer mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1451,
+        "MeasureName": "Nitric oxide, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb). Winter time periods are labeled with the year the season ended.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
@@ -13667,45 +14480,6 @@
               }
             ],
             "Map": [
-              {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 395,
-        "MeasureName": "Nitric oxide, 90th percentile",
-        "MeasurementType": "90th percentile",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and the 90th percentile determined. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
-        "Sources": "New York City Community Air Survey",
-        "DisplayType": "ppb",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
-        "TrendNoCompare": null,
-        "AvailableTimePeriodIDs": [115, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 217, 218, 219, 232, 233, 234, 239, 240, 241, 251, 252, 253, 259, 260, 261, 279, 280, 281, 283, 284, 285, 290, 291, 295, 309, 310, 311, 331, 332, 333],
-        "VisOptions": [
-          {
-            "Table": [
               {
                 "GeoType": "Borough",
                 "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
@@ -13741,6 +14515,82 @@
                   }
                 ],
                 "Disparities": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1452,
+        "MeasureName": "Nitric oxide, Winter mean",
+        "MeasurementType": "Winter mean",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb). Winter time periods are labeled with the year the season ended.",
+        "Sources": "New York City Community Air Survey",
+        "DisplayType": "ppb",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
               }
             ]
           }
@@ -15505,19 +16355,19 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1428,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1434,
+                    "MeasureID": 1437,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1435,
+                    "MeasureID": 1443,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1445,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -29622,8 +30472,8 @@
     "Measures": [
       {
         "MeasureID": 886,
-        "MeasureName": "Child lead poisoning, by NTA, Average Annual Number BLL >=5 µg/dL",
-        "MeasurementType": "Average Annual Number BLL >=5 µg/dL",
+        "MeasureName": "Child lead poisoning, by NTA, Average annual number (5+ mcg/dL)",
+        "MeasurementType": "Average annual number (5+ mcg/dL)",
         "how_calculated": "Sum of the number of children under 6 years of age with blood lead levels (BLL) 5 mcg/dL or greater over the time period, divided by the number of years in the time period. While children can receive more than one test during the calendar year, for this measure children are only counted once per year using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child&rsquo;s blood lead level is based on the highest capillary or unknown test type.&nbsp;<a href=\"http://a816-dohbesp.nyc.gov/IndicatorPublic/EPHTPDF/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">Read more&nbsp;<\/a>about different measures used by the Health Department for surveillance of childhood lead poisoning.<\/p>\n<ul>\n<li>For the purpose of providing data for small geographic areas, multiple years of data were combined to get sufficient numbers of observations to make more reliable estimates for a greater number of neighborhood tabulation areas (NTAs).<\/li>\n<li>Annual numbers and rates of children under 6 years of age with elevated blood lead levels at the citywide, borough, and United Hospital Fund neighborhood level are available <a href=\"http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2184,4466a0,14,Summarize\">here<\/a>. &nbsp;&nbsp;<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>&nbsp;",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "",
@@ -29681,8 +30531,8 @@
       },
       {
         "MeasureID": 887,
-        "MeasureName": "Child lead poisoning, by NTA, Average Annual Number Tested",
-        "MeasurementType": "Average Annual Number Tested",
+        "MeasureName": "Child lead poisoning, by NTA, Average annual number tested",
+        "MeasurementType": "Average annual number tested",
         "how_calculated": "Average annual number of children under 6 years of age tested for lead poisoning. Children may be tested multiple times in a given year but for this measure are only counted once per year. All children are counted regardless of blood specimen type (confirmed or unconfirmed). Numbers are rounded to nearest 10. <a href=\"http://a816-dohbesp.nyc.gov/IndicatorPublic/EPHTPDF/Childhood_Lead_Exposure_Definitions_June_2016.pdf\">Read more<\/a> about definitions and measures used by the Health Department for surveillance of childhood lead poisoning.&nbsp;",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "",
@@ -38959,19 +39809,19 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1428,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1434,
+                    "MeasureID": 1437,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1435,
+                    "MeasureID": 1443,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1445,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -39228,19 +40078,19 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1428,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1434,
+                    "MeasureID": 1437,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1435,
+                    "MeasureID": 1443,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1445,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -39429,19 +40279,19 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1428,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1434,
+                    "MeasureID": 1437,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1435,
+                    "MeasureID": 1443,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1445,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -39706,19 +40556,19 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1428,
-                    "SecondaryAxis": "x"
-                  },
-                  {
                     "MeasureID": 1431,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1434,
+                    "MeasureID": 1437,
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 1435,
+                    "MeasureID": 1443,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1445,
                     "SecondaryAxis": "x"
                   }
                 ],
