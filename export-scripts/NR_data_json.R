@@ -130,95 +130,118 @@ dir_create(
 
 # download yaml file
 
+possibly_GET <- possibly(function(x) GET(x, timeout(5)), otherwise = list(url = FALSE))
+
+# ==== try generic web link ==== #
+
+example_res <- possibly_GET("example.com")
+
 # ==== try GitHub API ==== #
 
-api_res <- GET("https://api.github.com")
+api_res <- possibly_GET("https://api.github.com")
 
-if (str_detect(api_res$url, "api.github.com")) {
-    
-    # if it works, use API to get list of NR_content directory
-    
-    nr_content_links <- 
-        GET(
-            paste0(
-                "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
-                Sys.getenv("site_branch")
-            )
-        ) %>% 
-        content(as = "text") %>% 
-        fromJSON() %>%
-        pull(download_url)
-    
-} else {
-    
-    # if it doesn't, just loop over the usual list
 
-    nr_content <- c(
-        "Active_Design_Physical_Activity_and_Health.yml", 
-        "Asthma_and_the_Environment.yml", 
-        "Climate_and_Health.yml", 
-        "Housing_and_Health.yml", 
-        "Outdoor_Air_and_Health.yml"
-    )
+# deciding what to do
+
+if (example_res$url != FALSE) {
     
-    nr_content_links <- 
-        nr_content %>% 
-        map_chr(
-            ~ paste0(
-                "https://raw.githubusercontent.com/nychealth/EH-dataportal/", 
-                Sys.getenv("site_branch"), "/data/globals/NR_content/", .x
+    
+    if (str_detect(api_res$url, "api.github.com")) {
+        
+        # if it works, use API to get list of NR_content directory
+        
+        nr_content_res <- 
+            possibly_GET(
+                paste0(
+                    "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
+                    Sys.getenv("site_branch")
+                )
             )
+        
+        # if  web requests work
+        
+        if (nr_content_res$url != FALSE) {
+            
+            nr_content_links <- 
+                nr_content_res %>% 
+                content(as = "text") %>% 
+                fromJSON() %>%
+                pull(download_url)
+            
+        }
+        
+    } else {
+        
+        # if it doesn't, just loop over the usual list
+        
+        nr_content <- c(
+            "Active_Design_Physical_Activity_and_Health.yml", 
+            "Asthma_and_the_Environment.yml", 
+            "Climate_and_Health.yml", 
+            "Housing_and_Health.yml", 
+            "Outdoor_Air_and_Health.yml"
+        )
+        
+        nr_content_links <- 
+            nr_content %>% 
+            map_chr(
+                ~ paste0(
+                    "https://raw.githubusercontent.com/nychealth/EH-dataportal/", 
+                    Sys.getenv("site_branch"), "/data/globals/NR_content/", .x
+                )
+            )
+        
+    }
+    
+    
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    # map over YAML files (on GitHub) to get measure_ids
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    
+    # using base R short function format to make mapped objects unambiguous and usable inside lower levels
+    
+    nr_indicators <- 
+        nr_content_links %>% 
+        map_dfr( 
+            
+            function (x) {
+                read_file(x) %>% 
+                    yaml.load() %>% 
+                    pluck("report_topics") %>% 
+                    map_dfr(
+                        function (y) {
+                            as_tibble(y) %>% 
+                                select(report_topic, MeasureID) %>% 
+                                transmute(
+                                    report = x %>% path_file() %>% path_ext_remove() %>% unique(),
+                                    report_topic = report_topic %>% str_remove_all(":"),
+                                    indicator_id = MeasureID
+                                )
+                        }
+                    )
+            }
         )
     
-}
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# map over YAML files to get measure_ids
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# using base R short function format to make mapped objects unambiguous and usable inside lower levels
-
-nr_indicators <- 
-    nr_content_links %>% 
-    map_dfr( 
-        
-        function (x) {
-            read_file(x) %>% 
-            yaml.load() %>% 
-            pluck("report_topics") %>% 
-            map_dfr(
-                function (y) {
-                    as_tibble(y) %>% 
-                    select(report_topic, MeasureID) %>% 
-                    transmute(
-                        report = x %>% path_file() %>% path_ext_remove() %>% unique(),
-                        report_topic = report_topic %>% str_remove_all(":"),
-                        indicator_id = MeasureID
-                    )
-                }
-            )
-        }
+    
+    #-----------------------------------------------------------------------------------------#
+    # selecting columns
+    #-----------------------------------------------------------------------------------------#
+    
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    # add list of indicators to database
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    
+    # overwrite every time this script is run, but persist between runs
+    
+    dbWriteTable(
+        EHDP_odbc,
+        name = "nr_indicators",
+        value = nr_indicators,
+        append = FALSE,
+        overwrite = TRUE
     )
-
-
-#-----------------------------------------------------------------------------------------#
-# selecting columns
-#-----------------------------------------------------------------------------------------#
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# add list of indicators to database
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# overwrite every time this script is run, but persist between runs
-
-dbWriteTable(
-    EHDP_odbc,
-    name = "nr_indicators",
-    value = nr_indicators,
-    append = FALSE,
-    overwrite = TRUE
-)
+    
+}
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
