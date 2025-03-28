@@ -373,5 +373,15 @@
     "title": "Housing_and_Health",
     "indicator_name": "Renter-occupied homes with any health-related housing problems",
     "indicator_description": "Homes with housing problems can threaten the health of the people who live there."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Fine particles (PM 2.5)",
+    "indicator_description": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Black carbon",
+    "indicator_description": "Black carbon is a major component of fine particles in the air. Fine particles are easily inhaled and contribute to both short-term acute health effects, as well as long-term chronic illness."
   }
 ]
