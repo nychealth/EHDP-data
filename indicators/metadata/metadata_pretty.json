@@ -9965,7 +9965,7 @@
         "MeasureID": 208,
         "MeasureName": "Commercial use of rodenticides, Solid products",
         "MeasurementType": "Solid products",
-        "how_calculated": "Sum of pounds of solid pesticide applications that are classified as rodenticide.",
+        "how_calculated": "Sum of pounds of solid pesticide applications that are classified as rodenticide. Note: some products reported with incorrect units have been excluded.",
         "Sources": "New York State Pesticide Sales and Use Registry (PSUR)",
         "DisplayType": "pounds",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
@@ -28804,8 +28804,8 @@
     "Measures": [
       {
         "MeasureID": 886,
-        "MeasureName": "Child lead poisoning, by NTA, Average Annual Number BLL >=5 µg/dL",
-        "MeasurementType": "Average Annual Number BLL >=5 µg/dL",
+        "MeasureName": "Child lead poisoning, by NTA, Average annual number (5+ mcg/dL)",
+        "MeasurementType": "Average annual number (5+ mcg/dL)",
         "how_calculated": "Sum of the number of children under 6 years of age with blood lead levels (BLL) 5 mcg/dL or greater over the time period, divided by the number of years in the time period. While children can receive more than one test during the calendar year, for this measure children are only counted once per year using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child&rsquo;s blood lead level is based on the highest capillary or unknown test type.&nbsp;<a href=\"http://a816-dohbesp.nyc.gov/IndicatorPublic/EPHTPDF/Childhood_Lead_Exposure_Definitions_June_2016.pdf\" target=\"_blank\">Read more&nbsp;<\/a>about different measures used by the Health Department for surveillance of childhood lead poisoning.<\/p>\n<ul>\n<li>For the purpose of providing data for small geographic areas, multiple years of data were combined to get sufficient numbers of observations to make more reliable estimates for a greater number of neighborhood tabulation areas (NTAs).<\/li>\n<li>Annual numbers and rates of children under 6 years of age with elevated blood lead levels at the citywide, borough, and United Hospital Fund neighborhood level are available <a href=\"http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2184,4466a0,14,Summarize\">here<\/a>. &nbsp;&nbsp;<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>&nbsp;",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "",
@@ -28863,8 +28863,8 @@
       },
       {
         "MeasureID": 887,
-        "MeasureName": "Child lead poisoning, by NTA, Average Annual Number Tested",
-        "MeasurementType": "Average Annual Number Tested",
+        "MeasureName": "Child lead poisoning, by NTA, Average annual number tested",
+        "MeasurementType": "Average annual number tested",
         "how_calculated": "Average annual number of children under 6 years of age tested for lead poisoning. Children may be tested multiple times in a given year but for this measure are only counted once per year. All children are counted regardless of blood specimen type (confirmed or unconfirmed). Numbers are rounded to nearest 10. <a href=\"http://a816-dohbesp.nyc.gov/IndicatorPublic/EPHTPDF/Childhood_Lead_Exposure_Definitions_June_2016.pdf\">Read more<\/a> about definitions and measures used by the Health Department for surveillance of childhood lead poisoning.&nbsp;",
         "Sources": "New York City Healthy Homes Program",
         "DisplayType": "",
@@ -30461,23 +30461,23 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               }
             ],
             "Links": [
@@ -30524,23 +30524,23 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               }
             ],
             "Links": [
@@ -30587,23 +30587,23 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               }
             ],
             "Links": [
@@ -30650,23 +30650,23 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               }
             ],
             "Links": [
@@ -30713,23 +30713,23 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               }
             ],
             "Links": [
@@ -30780,23 +30780,23 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               }
             ],
             "Links": [
@@ -30843,23 +30843,23 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46]
               }
             ],
             "Links": [
@@ -33433,8 +33433,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -33479,8 +33479,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -33525,8 +33525,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -33571,8 +33571,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -33617,8 +33617,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -33663,8 +33663,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -33709,8 +33709,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -33755,8 +33755,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -33801,8 +33801,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34069,8 +34069,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34115,8 +34115,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34161,8 +34161,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34207,8 +34207,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34253,8 +34253,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34299,8 +34299,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34358,12 +34358,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [48, 49, 289]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34412,12 +34408,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34466,12 +34458,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [48, 49, 289]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34520,12 +34508,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34579,8 +34563,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34625,8 +34609,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34671,8 +34655,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34717,8 +34701,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34763,8 +34747,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34809,8 +34793,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34855,8 +34839,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34901,8 +34885,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -34947,8 +34931,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35002,8 +34986,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35048,8 +35032,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35094,8 +35078,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35140,8 +35124,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35186,8 +35170,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35232,8 +35216,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35278,8 +35262,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35324,8 +35308,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35370,8 +35354,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35425,8 +35409,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35471,8 +35455,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35517,8 +35501,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35563,8 +35547,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35609,8 +35593,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -35655,8 +35639,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [48, 49, 289]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
