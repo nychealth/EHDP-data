@@ -29,7 +29,10 @@ suppressWarnings(suppressMessages(library(scales)))
 # set summarise options
 #-----------------------------------------------------------------------------------------#
 
-options(dplyr.summarise.inform = FALSE)
+options(
+    dplyr.summarise.inform = FALSE,
+    readr.show_col_types = FALSE
+)
 
 #-----------------------------------------------------------------------------------------#
 # get and set env vars
@@ -444,7 +447,7 @@ measure_times <-
 
 
 #-----------------------------------------------------------------------------------------#
-# nesting times
+# "no-comparison" vertical line for trend chart
 #-----------------------------------------------------------------------------------------#
 
 trend_no_compare <- 
@@ -469,6 +472,17 @@ trend_no_compare <-
             )
     )
 
+#-----------------------------------------------------------------------------------------#
+# threshold horizontal line for trend chart
+#-----------------------------------------------------------------------------------------#
+
+# hard-coding indicators, because there aren't many. This is where thresholds info lives now.
+
+threshold_measures <- 
+    read_csv("indicators/metadata/threshold_measures.csv") %>% 
+    group_by(MeasureID) %>% 
+    group_nest(.key = "TrendThreshold", keep = FALSE)
+
 
 #-----------------------------------------------------------------------------------------#
 # combining geotype, times, and vis options, then nesting those under other measure-level info vars
@@ -483,6 +497,10 @@ metadata <-
     left_join(
         trend_no_compare,
         by = c("IndicatorID", "MeasureID")
+    ) %>% 
+    left_join(
+        threshold_measures,
+        by = c("MeasureID")
     ) %>% 
     left_join(
         measure_times,
