@@ -6191,8 +6191,8 @@
           {
             "Table": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Map": [
@@ -6204,8 +6204,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -6329,8 +6329,8 @@
           {
             "Table": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Map": [
@@ -12251,7 +12251,7 @@
         "MeasureID": 1425,
         "MeasureName": "PM2.5 (Fine particles), Annual mean",
         "MeasurementType": "Annual mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air.",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air. Annual average includes all 12 months.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -12379,7 +12379,7 @@
         "MeasureID": 1426,
         "MeasureName": "PM2.5 (Fine particles), Summer mean",
         "MeasurementType": "Summer mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air.",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air. Summer average includes June, July, and August.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -12455,7 +12455,7 @@
         "MeasureID": 1427,
         "MeasureName": "PM2.5 (Fine particles), Winter mean",
         "MeasurementType": "Winter mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air. Winter time periods are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, fine particulate matter is measured in units of micrograms per cubic meter of air. Winter average includes December, January and February. Time periods for winter averages are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "mcg/m3",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -12540,7 +12540,7 @@
         "MeasureID": 1428,
         "MeasureName": "Black carbon, Annual mean",
         "MeasurementType": "Annual mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance.",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance. Annual average includes all 12 months.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -12667,7 +12667,7 @@
         "MeasureID": 1429,
         "MeasureName": "Black carbon, Summer mean",
         "MeasurementType": "Summer mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance.",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance. Summer average includes June, July, and August.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -12734,7 +12734,7 @@
         "MeasureID": 1430,
         "MeasureName": "Black carbon, Winter mean",
         "MeasurementType": "Winter mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance. Winter time periods are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. Black carbon levels are estimated using a method that measures absorbance. Winter average includes December, January and February. Time periods for winter averages are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "absorbance units",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -12810,7 +12810,7 @@
         "MeasureID": 1431,
         "MeasureName": "Nitrogen dioxide, Annual mean",
         "MeasurementType": "Annual mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion.",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Annual average includes all 12 months.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -12926,7 +12926,7 @@
         "MeasureID": 1432,
         "MeasureName": "Nitrogen dioxide, Summer mean",
         "MeasurementType": "Summer mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion.",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Summer average includes June, July, and August.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -13002,7 +13002,7 @@
         "MeasureID": 1433,
         "MeasureName": "Nitrogen dioxide, Winter mean",
         "MeasurementType": "Winter mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Winter time periods are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Winter average includes December, January and February. Time periods for winter averages are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -13087,7 +13087,7 @@
         "MeasureID": 1434,
         "MeasureName": "Sulfur dioxide, Winter mean",
         "MeasurementType": "Winter mean",
-        "how_calculated": "Data collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then smoothed using GIS, assigned to the appropriate NYC neighborhood, and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Winter time periods are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
+        "how_calculated": "Data collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then smoothed using GIS, assigned to the appropriate NYC neighborhood, and averaged. The gaseous pollutants in NYC are measured in units of parts per billion. Winter average includes December, January and February. Time periods for winter averages are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -13207,7 +13207,7 @@
         "MeasureID": 1435,
         "MeasureName": "Ozone, Summer mean",
         "MeasurementType": "Summer mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, ozone is measured in units of parts per billion (ppb).",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYC, ozone is measured in units of parts per billion (ppb). Summer average includes June, July, and August.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -13336,7 +13336,7 @@
         "MeasureID": 1436,
         "MeasureName": "Nitric oxide, Annual mean",
         "MeasurementType": "Annual mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb). Annual average includes all 12 months.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -13412,7 +13412,7 @@
         "MeasureID": 1437,
         "MeasureName": "Nitric oxide, Summer mean",
         "MeasurementType": "Summer mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb).",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb). Summer average includes June, July, and August.",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -13488,7 +13488,7 @@
         "MeasureID": 1438,
         "MeasureName": "Nitric oxide, Winter mean",
         "MeasurementType": "Winter mean",
-        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb). Winter time periods are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
+        "how_calculated": "Air samples collected at specific NYCCAS monitoring sites along with information about emissions sources were incorporated into a statistical model that predicted pollutant concentrations at all locations in NYC for the specified time period. The results were then assigned to the appropriate NYC neighborhood and averaged. In NYCCAS, nitric oxide is measured in units of parts per billion (ppb). Winter average includes December, January and February. Time periods for winter averages are labeled with the year the season ended (e.g., Winter 2020-21 is labeled '2021').",
         "Sources": "New York City Community Air Survey",
         "DisplayType": "ppb",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
@@ -36564,23 +36564,23 @@
         "AvailableGeoTypes": ["Borough", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
@@ -36614,23 +36614,23 @@
         "AvailableGeoTypes": ["Borough", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
@@ -36664,23 +36664,23 @@
         "AvailableGeoTypes": ["Borough", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
@@ -36714,23 +36714,23 @@
         "AvailableGeoTypes": ["Borough", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
