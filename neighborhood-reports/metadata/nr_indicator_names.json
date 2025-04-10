@@ -100,36 +100,6 @@
     "indicator_description": "Adults without a smoke-free home policy. A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children."
   },
   {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Fine particles (PM 2.5)",
-    "indicator_description": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Fine particles (PM 2.5)",
-    "indicator_description": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Black carbon",
-    "indicator_description": "Black carbon is a major component of fine particles in the air. Fine particles are easily inhaled and contribute to both short-term acute health effects, as well as long-term chronic illness."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Nitrogen dioxide (NO2)",
-    "indicator_description": "Nitrogen dioxide is a pollutant formed by combusion that damage lung tissue, cause breathing problems, and contribute to smog and acid rain."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Ozone (O3)",
-    "indicator_description": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Ozone (O3)",
-    "indicator_description": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions."
-  },
-  {
     "title": "Active_Design_Physical_Activity_and_Health",
     "indicator_name": "Monthly bicycle use",
     "indicator_description": "Adults reporting having ridden a bicycle at least once a month in the past year."
@@ -398,5 +368,25 @@
     "title": "Housing_and_Health",
     "indicator_name": "Renter-occupied homes with any health-related housing problems",
     "indicator_description": "Homes with housing problems can threaten the health of the people who live there."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Fine particles (PM 2.5)",
+    "indicator_description": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Black carbon",
+    "indicator_description": "Black carbon is a major component of fine particles in the air. Fine particles are easily inhaled and contribute to both short-term acute health effects, as well as long-term chronic illness."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Nitrogen dioxide (NO2)",
+    "indicator_description": "Nitrogen dioxide is a pollutant formed by combusion that damage lung tissue, cause breathing problems, and contribute to smog and acid rain."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Ozone (O3)",
+    "indicator_description": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions."
   }
 ]
