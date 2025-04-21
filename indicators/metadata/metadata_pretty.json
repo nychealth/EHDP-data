@@ -29600,46 +29600,46 @@
         "how_calculated": "Estimated number of adults who reported driving in NYC in the last 30 days, rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [44, 45, 48, 289],
+        "AvailableTimePeriodIDs": [44, 45, 48],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [44, 45, 48, 289],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               }
             ],
             "Links": [
@@ -29666,43 +29666,43 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [44, 45, 48, 289],
+        "AvailableTimePeriodIDs": [44, 45, 48],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [44, 45, 48, 289],
+                "TimePeriodID": [44, 45, 48],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [44, 45, 48, 289]
+                "TimePeriodID": [44, 45, 48]
               }
             ],
             "Links": [
