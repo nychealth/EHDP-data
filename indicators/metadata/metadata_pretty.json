@@ -27637,10 +27637,6 @@
               {
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [298]
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [41, 46, 298]
               }
             ],
             "Map": [
@@ -27657,11 +27653,6 @@
               {
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [298],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [41, 46, 298],
                 "RankReverse": 1
               }
             ],
@@ -27742,17 +27733,18 @@
               {
                 "GeoType": "PUMA2010",
                 "TimePeriodID": [41, 46]
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [41, 46]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [41, 46],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [41, 46],
+                "RankReverse": 1
               }
             ],
             "Trend": [
@@ -27808,16 +27800,17 @@
               {
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [298]
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [41, 46]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [298],
+                "TimePeriodID": [41, 46, 298],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [41, 46],
                 "RankReverse": 1
               },
               {
@@ -27829,7 +27822,7 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [41, 46]
+                "TimePeriodID": [41, 46, 298]
               },
               {
                 "GeoType": "Citywide",
