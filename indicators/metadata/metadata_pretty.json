@@ -4482,11 +4482,6 @@
                 "GeoType": "PUMA2010",
                 "TimePeriodID": [38, 41, 46],
                 "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [6, 9, 38, 41, 46],
-                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -4551,22 +4546,17 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 9, 12, 38, 41, 46, 289, 298],
+                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [38],
+                "TimePeriodID": [38, 41, 46],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [289, 298],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [9, 12, 38, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -4894,11 +4884,6 @@
                 "GeoType": "PUMA2010",
                 "TimePeriodID": [38, 41, 46],
                 "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [6, 9, 38, 41, 46],
-                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -4963,7 +4948,7 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 12, 38, 41, 46, 289, 298],
+                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -4974,11 +4959,6 @@
               {
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [289, 298],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [9, 12, 38, 41, 46, 289, 298],
                 "RankReverse": 0
               }
             ],
@@ -5124,11 +5104,6 @@
                 "GeoType": "PUMA2010",
                 "TimePeriodID": [38, 41, 46],
                 "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [6, 9, 38, 41, 46],
-                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -5193,7 +5168,7 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 12, 38, 41, 46, 289],
+                "TimePeriodID": [3, 6, 9, 12, 38, 41, 46, 289],
                 "RankReverse": 0
               },
               {
@@ -5204,11 +5179,6 @@
               {
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [289],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [9, 12, 38, 41, 46, 289],
                 "RankReverse": 0
               }
             ],
@@ -5707,11 +5677,6 @@
                 "GeoType": "PUMA2010",
                 "TimePeriodID": [38, 41, 46],
                 "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [6, 9, 38, 41, 46],
-                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -5787,11 +5752,6 @@
               {
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [289, 298],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [9, 12, 38, 41, 46, 289, 298],
                 "RankReverse": 0
               }
             ],
@@ -10735,11 +10695,6 @@
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [289, 298],
                 "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [12, 38, 41, 46, 289, 298],
-                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -10897,11 +10852,6 @@
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [38, 41, 46],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
                 "TimePeriodID": [38, 41, 46],
                 "RankReverse": 0
               }
@@ -26832,9 +26782,14 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [6, 9, 12, 38, 41, 46],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [38, 41, 46],
+                "RankReverse": 1
               }
             ],
             "Trend": [
@@ -26910,11 +26865,6 @@
               {
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [289, 298],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [6, 9, 12, 38, 41, 46, 289, 298],
                 "RankReverse": 1
               }
             ],
@@ -41705,11 +41655,6 @@
                 "GeoType": "PUMA2010",
                 "TimePeriodID": [41, 46],
                 "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [41, 46],
-                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -41785,11 +41730,6 @@
               {
                 "GeoType": "PUMA2020",
                 "TimePeriodID": [289, 298],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "Subboro",
-                "TimePeriodID": [41, 46, 289, 298],
                 "RankReverse": 0
               }
             ],
