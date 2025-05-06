@@ -2211,9 +2211,9 @@
   },
   {
     "IndicatorID": 18,
-    "IndicatorName": "Adults with asthma (past 12 months)",
+    "IndicatorName": "Adults with a recent asthma attack",
     "IndicatorLabel": "Adults with asthma (past 12 months)",
-    "IndicatorDescription": "Asthma is a common disease characterized by breathing difficulty. Poor air quality and housing issues increase risk of developing and triggering asthma.",
+    "IndicatorDescription": "Adults who reported having an asthma attack in the past 12 months from when they were surveyed.",
     "Comparisons": [537],
     "Measures": [
       {
@@ -6173,8 +6173,8 @@
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -6311,8 +6311,8 @@
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -35313,9 +35313,9 @@
   },
   {
     "IndicatorID": 2339,
-    "IndicatorName": "Youth asthma (past 12 months)",
+    "IndicatorName": "Youth with a recent asthma attack",
     "IndicatorLabel": "Youth asthma (past 12 months)",
-    "IndicatorDescription": "Public high school students who reported having an asthma attack in the past 12 months.",
+    "IndicatorDescription": "Public high school students who reported having an asthma attack in the past 12 months from when they were surveyed.",
     "Comparisons": [537],
     "Measures": [
       {
@@ -47329,14 +47329,14 @@
   },
   {
     "IndicatorID": 2429,
-    "IndicatorName": "Children with an asthma attack (past 12 months)",
+    "IndicatorName": "Children with a recent asthma attack",
     "IndicatorLabel": "Children with an asthma attack (past 12 months)",
-    "IndicatorDescription": "Children ages 1 to 13 who have had an asthma attack in the past year. Asthma attacks are a measureable adverse health outcome of asthma.",
+    "IndicatorDescription": "Children ages 1 to 13 who have had an asthma attack in the past 12 months from when they were surveyed. Asthma attacks are a measurable adverse health outcome of asthma.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1366,
-        "MeasureName": "Children with an asthma attack (past 12 months), Number",
+        "MeasureName": "Children with a recent asthma attack, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months.",
         "Sources": "NYC KIDS Survey",
@@ -47417,7 +47417,7 @@
       },
       {
         "MeasureID": 1367,
-        "MeasureName": "Children with an asthma attack (past 12 months), Percent",
+        "MeasureName": "Children with a recent asthma attack, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months, divided by all children of the same ages, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
