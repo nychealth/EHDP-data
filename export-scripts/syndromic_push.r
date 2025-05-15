@@ -1,6 +1,7 @@
 # This script should run on RStudio Server, from the folder "export-scripts"
 
-# credentials: git config --global credential.helper "store --file ~/.git-credentials" 
+# credentials: git config --global credential.helper "store --file ~/.git-credentials"
+# .git-credentials contents: https://user:PAT@github.com
 
 # load reader, for better file reading
 library(readr)
