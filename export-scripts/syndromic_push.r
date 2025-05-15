@@ -1,5 +1,7 @@
 # This script should run on RStudio Server, from the folder "export-scripts"
 
+# credentials: git config --global credential.helper "store --file ~/.git-credentials"
+
 # load reader, for better file reading
 library(readr)
 library(gert)
@@ -26,20 +28,20 @@ system("git pull -X theirs --ff --no-edit")
 heat_syndrome_dir <- "~/networkDrives/smb-share:server=sasshare01,share=sasshare/EHS/BESP/SecuredFolder/Syndromic/Heat_ED/EH data portal/live_data/EHDP-data/datafeatures/heatsyndrome"
 
 # read the updated data
-edheat_live <- read_csv(paste0(heat_syndrome_dir, "/edheat2024_live.csv"))
+edheat_live <- read_csv(paste0(heat_syndrome_dir, "/edheat2025_live.csv"))
 
 #set surveillance window
-start <- as.Date("2024-04-30")
-end   <- as.Date("2024-10-01")
+start <- as.Date("2025-04-30")
+end   <- as.Date("2025-10-01")
 
 # restrict to the surveillance window
 edheat_live2 <- edheat_live[edheat_live$END_DATE > start & edheat_live$END_DATE < end, ]
 
 # save updated data to repo
-write_csv(edheat_live2, "~/EHDP-data/key-topics/heat-syndrome/edheat2024_live.csv")
+write_csv(edheat_live2, "~/EHDP-data/key-topics/heat-syndrome/edheat2025_live.csv")
 
 # add all file changes
-system("git add ~/EHDP-data/key-topics/heat-syndrome/edheat2024_live.csv")
+system("git add ~/EHDP-data/key-topics/heat-syndrome/edheat2025_live.csv")
 # git_add("~/EHDP-data/key-topics/heat-syndrome/edheat2024_live.csv")
 
 # commit with message
