@@ -6159,52 +6159,6 @@
     "Comparisons": [564],
     "Measures": [
       {
-        "MeasureID": 111,
-        "MeasureName": "PM2.5 (Fine particles) action days, PM2.5 annual average",
-        "MeasurementType": "PM2.5 annual average",
-        "how_calculated": "This measure is calculated by averaging PM2.5 levels at each monitor, weighted by the number of samples in each quarter, then taking the weighted average of all monitors in the geographic area.",
-        "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType": "mcg/m3",
-        "AvailableGeoTypes": ["Citywide"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
         "MeasureID": 785,
         "MeasureName": "PM2.5 (Fine particles) action days, Sensitive groups",
         "MeasurementType": "Sensitive groups",
@@ -6267,52 +6221,6 @@
               {
                 "GeoType": "Citywide",
                 "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 788,
-        "MeasureName": "PM2.5 (Fine particles) action days, PM2.5 98th percentile",
-        "MeasurementType": "PM2.5 98th percentile",
-        "how_calculated": "98% of PM2.5 measurements taken at New York City's EPA Air Quality Stations are below this value over the past three years. This value is one of the PM2.5 Federal Air Quality Standards. The standard is 65 mcg per cubic meter.",
-        "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType": "mcg/m3",
-        "AvailableGeoTypes": ["Citywide"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334]
               }
             ],
             "Map": [
@@ -50422,6 +50330,107 @@
               {
                 "GeoType": "Citywide",
                 "TimePeriodID": [289, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2449,
+    "IndicatorName": "Fine particles (PM 2.5) [DEC monitors]",
+    "IndicatorLabel": "Fine particles (PM 2.5) [DEC monitors]",
+    "IndicatorDescription": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 111,
+        "MeasureName": "PM2.5 (Fine particles) [DEC], PM2.5 annual average",
+        "MeasurementType": "PM2.5 annual average",
+        "how_calculated": "This measure is calculated by averaging PM2.5 levels at each monitor, weighted by the number of samples in each quarter, then taking the weighted average of all monitors in the geographic area.",
+        "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
+        "DisplayType": "mcg/m3",
+        "AvailableGeoTypes": ["Citywide"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": null,
+                "TimePeriodID": [],
+                "RankReverse": null
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 788,
+        "MeasureName": "PM2.5 (Fine particles) [DEC], PM2.5 98th percentile",
+        "MeasurementType": "PM2.5 98th percentile",
+        "how_calculated": "98% of PM2.5 measurements taken at New York City's EPA Air Quality Stations are below this value over the past three years. This value is one of the PM2.5 Federal Air Quality Standards. The standard is 65 mcg per cubic meter.",
+        "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
+        "DisplayType": "mcg/m3",
+        "AvailableGeoTypes": ["Citywide"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": null,
+                "TimePeriodID": [],
+                "RankReverse": null
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
