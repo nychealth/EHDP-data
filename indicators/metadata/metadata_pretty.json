@@ -4438,7 +4438,7 @@
     "IndicatorID": 40,
     "IndicatorName": "Homes with cracks or holes",
     "IndicatorLabel": "Homes with cracks or holes",
-    "IndicatorDescription": "Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
+    "IndicatorDescription": "Cracks or holes are a housing problem linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
     "Comparisons": [571],
     "Measures": [
       {
@@ -4517,7 +4517,7 @@
         "MeasureID": 76,
         "MeasureName": "Cracks, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area that reported cracks or holes in the home, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area that reported cracks or holes in the home, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -4832,7 +4832,7 @@
     "IndicatorID": 42,
     "IndicatorName": "Homes with leaks",
     "IndicatorLabel": "Homes with leaks",
-    "IndicatorDescription": "Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
+    "IndicatorDescription": "Leaks are a housing problem that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
     "Comparisons": [571],
     "Measures": [
       {
@@ -4911,7 +4911,7 @@
         "MeasureID": 80,
         "MeasureName": "Leaks, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area that reported leaks coming from outside the unit, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area that reported leaks coming from outside the unit, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -5069,7 +5069,7 @@
         "MeasureID": 85,
         "MeasureName": "Homes with 3+ housing problems, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of households reporting three or more maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit). Counts not available for all years.",
+        "how_calculated": "Estimated number of households reporting three or more housing problems (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit). Counts not available for all years.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "PUMA2010"],
@@ -5141,7 +5141,7 @@
         "MeasureID": 86,
         "MeasureName": "Homes with 3+ housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area reporting three or more maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area reporting three or more housing problems (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -5364,7 +5364,7 @@
     "IndicatorID": 46,
     "IndicatorName": "Homes near structures rated good or excellent",
     "IndicatorLabel": "Homes near structures rated good or excellent",
-    "IndicatorDescription": "Building quality predicts the number of housing maintenance deficiencies in a residence that place residents at increased risk of acute or chronic health problems.",
+    "IndicatorDescription": "Building quality predicts the number of housing problems in a residence that place residents at increased risk of acute or chronic health problems.",
     "Comparisons": null,
     "Measures": [
       {
@@ -5645,7 +5645,7 @@
     "IndicatorID": 47,
     "IndicatorName": "Homes using supplemental heat",
     "IndicatorLabel": "Homes using supplemental heat",
-    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies.",
+    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening housing problems.",
     "Comparisons": null,
     "Measures": [
       {
@@ -5724,7 +5724,7 @@
         "MeasureID": 90,
         "MeasureName": "Supplemental heat, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area that needed to use a secondary source of heat in addition to their primary source, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area that needed to use a secondary source of heat in addition to their primary source, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -10189,7 +10189,7 @@
     "IndicatorID": 102,
     "IndicatorName": "Commercial use of rodenticides",
     "IndicatorLabel": "Rodenticides",
-    "IndicatorDescription": "Pesticides targeting rats and mice, applied by professional exterminators or licensed maintenance staff. These products are frequently added to tamper proof containers or applied directly to rodent burrows",
+    "IndicatorDescription": "Pesticides targeting rats and mice, applied by professional exterminators or licensed maintenance staff. These products are frequently added to tamper proof containers or applied directly to rodent burrows.",
     "Comparisons": null,
     "Measures": [
       {
@@ -10579,7 +10579,7 @@
         "MeasureID": 245,
         "MeasureName": "Cockroaches, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area that reported seeing at least one cockroach daily over the last month, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area that reported seeing at least one cockroach daily over the last month, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -21745,7 +21745,7 @@
     "IndicatorID": 2101,
     "IndicatorName": "Mold in homes",
     "IndicatorLabel": "Mold in homes",
-    "IndicatorDescription": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate maintenance deficiencies in a building.",
+    "IndicatorDescription": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building.",
     "Comparisons": null,
     "Measures": [
       {
@@ -26684,7 +26684,7 @@
         "MeasureID": 758,
         "MeasureName": "Renter-occupied homes with no housing problems, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit). Counts not available for all years.",
+        "how_calculated": "Estimated number of renter-occupied households reporting no housing problems (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit). Counts not available for all years.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "PUMA2010"],
@@ -26756,7 +26756,7 @@
         "MeasureID": 759,
         "MeasureName": "Renter-occupied homes with no housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit). Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of renter-occupied households reporting no housing problems (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit). Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "PUMA2010", "UHF42", "PUMA2020"],
@@ -27503,7 +27503,7 @@
         "MeasureID": 781,
         "MeasureName": "Households with AC, Percent (with AC)",
         "MeasurementType": "Percent (with AC)",
-        "how_calculated": "<p>Estimated number of households in an area reporting having functioning air conditioning, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area reporting having functioning air conditioning, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "UHF42", "PUMA2020"],
@@ -27666,7 +27666,7 @@
         "MeasureID": 1045,
         "MeasureName": "Households with AC, Percent (without AC)",
         "MeasurementType": "Percent (without AC)",
-        "how_calculated": "Estimated number of households in an area reporting not having functioning air conditioning, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "Estimated number of households in an area reporting not having functioning air conditioning, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "PUMA2020"],
@@ -30781,7 +30781,7 @@
   },
   {
     "IndicatorID": 2312,
-    "IndicatorName": "Commercial insecticide use",
+    "IndicatorName": "Commercial insecticide use (by chemical type)",
     "IndicatorLabel": "Combined Insecticides",
     "IndicatorDescription": "Pest control services provided by a professional exterminator in the individual's home.",
     "Comparisons": null,
@@ -41104,7 +41104,7 @@
     "IndicatorID": 2395,
     "IndicatorName": "Children in homes with cracks or holes (age 1-13)",
     "IndicatorLabel": "Children in homes with cracks or holes (age 1-13)",
-    "IndicatorDescription": "Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches. Pests in the home can contaminate food and worsen asthma.",
+    "IndicatorDescription": "Cracks or holes are a housing problem linked to the presence of mice, rats, and cockroaches. Pests in the home can contaminate food and worsen asthma.",
     "Comparisons": null,
     "Measures": [
       {
@@ -41257,7 +41257,7 @@
     "IndicatorID": 2396,
     "IndicatorName": "Children in homes with supplemental heat (age 13 and under)",
     "IndicatorLabel": "Children in homes with supplemental heat (age 13 and under)",
-    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies, which can harm children's health.",
+    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening housing problems, which can harm children's health.",
     "Comparisons": null,
     "Measures": [
       {
@@ -41596,7 +41596,7 @@
         "MeasureID": 1248,
         "MeasureName": "Housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of renter-occupied households reporting any health-related maintenance problems (cockroaches, mice or rats in the building, cracks or holes in walls, ceilings or floors, leaks from outside, toilet breakdowns, lack of air conditioning, heating equipment breakdown, additional heating required, or broken plaster or peeling paint larger than 8&frac12; x 11 inches),divided by the number of renter-occupied households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of renter-occupied households reporting any health-related maintenance problems (cockroaches, mice or rats in the building, cracks or holes in walls, ceilings or floors, leaks from outside, toilet breakdowns, lack of air conditioning, heating equipment breakdown, additional heating required, or broken plaster or peeling paint larger than 8&frac12; x 11 inches),divided by the number of renter-occupied households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "UHF42", "PUMA2020"],
@@ -50206,16 +50206,16 @@
   },
   {
     "IndicatorID": 2446,
-    "IndicatorName": "Homes with visible mold",
-    "IndicatorLabel": "Homes with visible mold",
+    "IndicatorName": "Homes with mold",
+    "IndicatorLabel": "Homes with mold",
     "IndicatorDescription": "Adults reporting visible mold in the home. Mold can worsen respiratory conditions like asthma, and indicate maintenance problems in a building.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1422,
-        "MeasureName": "Homes with visible mold, Percent",
+        "MeasureName": "Homes with mold, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households that reported visible mold in the home, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households that reported visible mold in the home, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2020"],
@@ -50287,7 +50287,7 @@
         "MeasureID": 1424,
         "MeasureName": "Homes with mice or rats in the unit or building, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households that reported mice or rats in their unit or building in the past 90 days, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households that reported mice or rats in their unit or building in the past 90 days, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2020"],
