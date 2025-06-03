@@ -154,7 +154,7 @@ for (i in 1:length(IndicatorIDs)) {
     
     # convert to JSON
     
-    exp_json <- 
+    de_json <- 
         DE_data %>% 
         filter(IndicatorID == this_indicator) %>% 
         select(-IndicatorID) %>% 
@@ -168,7 +168,7 @@ for (i in 1:length(IndicatorIDs)) {
     # write
 
     write_file(
-        exp_json, 
+        de_json, 
         path(base_dir, "indicators/data", this_indicator, ext = "json")
     )
     
