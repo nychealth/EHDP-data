@@ -1,7 +1,7 @@
 ###########################################################################################-
 ###########################################################################################-
 ##
-##  NR_data_writer
+##  NR_data_json
 ##
 ###########################################################################################-
 ###########################################################################################-
@@ -230,7 +230,7 @@ dbWriteTable(
 child_measures <- c(648, 653, 655, 1174, 1179, 1181)
 adult_measures <- c(657, 659, 661, 1175, 1180, 1182)
 
-NR_data_export <- 
+NR_data <- 
     EHDP_odbc %>% 
     tbl("NR_data") %>% 
     arrange(MeasureID, geo_entity_id) %>% 
@@ -263,7 +263,7 @@ NR_data_export <-
 #-----------------------------------------------------------------------------------------#
 
 viz_data_for_hugo_0 <- 
-    NR_data_export %>% 
+    NR_data %>% 
     select(
         report,
         report_topic,
@@ -393,7 +393,7 @@ nr_indicator_names %>%
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 time_count <- 
-    NR_data_export %>% 
+    NR_data %>% 
     distinct(
         geo_type,
         geo_entity_id,
@@ -412,10 +412,10 @@ time_count <-
 # keeping only most recent
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-# `NR_data_export` won't be the right length, but `report_data_for_hugo` will be
+# `NR_data` won't be the right length, but `report_data_for_hugo` will be
 
 report_data_for_hugo <- 
-    NR_data_export %>% 
+    NR_data %>% 
     select(
         report,
         report_topic,
