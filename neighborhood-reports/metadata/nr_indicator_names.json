@@ -131,6 +131,16 @@
   },
   {
     "title": "Asthma_and_the_Environment",
+    "indicator_name": "Mold in homes",
+    "indicator_description": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Mold in homes",
+    "indicator_description": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
     "indicator_name": "Adults reporting mice or rats inside",
     "indicator_description": "Mice and rats are a source of household allergens connected to developing or worsening asthma."
   },
@@ -266,7 +276,7 @@
   },
   {
     "title": "Climate_and_Health",
-    "indicator_name": "Older adults living alone",
+    "indicator_name": "Older adults living alone (65+)",
     "indicator_description": "Older adults are more vulnerable to extreme weather. Those living alone may have more difficulty getting resources they need in an emergency, and are at higher risk of weather-related illnesses like heat stroke and hypothermia."
   },
   {

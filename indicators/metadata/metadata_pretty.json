@@ -2212,7 +2212,7 @@
   {
     "IndicatorID": 18,
     "IndicatorName": "Adults with a recent asthma attack",
-    "IndicatorLabel": "Adults with asthma (past 12 months)",
+    "IndicatorLabel": "Adults with a recent asthma attack",
     "IndicatorDescription": "Adults who reported having an asthma attack in the past 12 months from when they were surveyed.",
     "Comparisons": [537],
     "Measures": [
@@ -2241,6 +2241,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [7, 8, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -2469,24 +2473,28 @@
         "how_calculated": "Estimated number of respondents in an area that reported cockroaches in the past 30 days, rounded to the nearest 1,000.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [7, 39],
+        "AvailableTimePeriodIDs": [7, 39, 48],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 39]
+                "TimePeriodID": [7, 39, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 39]
+                "TimePeriodID": [7, 39, 48]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 39]
+                "TimePeriodID": [7, 39, 48]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [48]
               }
             ],
             "Map": [
@@ -2535,21 +2543,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [7, 39],
+        "AvailableTimePeriodIDs": [7, 39, 48],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [7, 39]
+                "TimePeriodID": [7, 39, 48]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [7, 39]
+                "TimePeriodID": [7, 39, 48]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [7, 39]
+                "TimePeriodID": [7, 39, 48]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [48]
               }
             ],
             "Map": [
@@ -2722,6 +2734,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [8, 14, 49]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14]
               }
             ],
             "Map": [
@@ -11726,6 +11742,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -15517,6 +15537,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [7, 8, 9, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -15656,6 +15680,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -16417,6 +16445,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -16480,6 +16512,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [11, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41]
               }
             ],
             "Map": [
@@ -16556,6 +16592,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [7, 8, 9, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -16711,6 +16751,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -16987,6 +17031,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -21502,21 +21550,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 40, 41, 289]
               }
             ],
             "Map": [
@@ -21565,21 +21617,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [289]
               }
             ],
             "Map": [
@@ -21755,7 +21811,7 @@
         "how_calculated": "Estimated number of adults reporting mold or mildew on their walls or ceilings in the past 12 months.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [48],
@@ -21772,6 +21828,10 @@
               },
               {
                 "GeoType": "UHF34",
+                "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "UHF42",
                 "TimePeriodID": [48]
               }
             ],
@@ -21818,7 +21878,7 @@
         "how_calculated": "Estimated number of adults reporting mold or mildew on their walls or ceilings in the past 12 months, expressed as a percent.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [48],
@@ -21835,6 +21895,10 @@
               },
               {
                 "GeoType": "UHF34",
+                "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "UHF42",
                 "TimePeriodID": [48]
               }
             ],
@@ -23753,21 +23817,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -23816,21 +23884,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41]
               }
             ],
             "Map": [
@@ -24814,14 +24886,14 @@
   },
   {
     "IndicatorID": 2146,
-    "IndicatorName": "Older adults living alone",
-    "IndicatorLabel": "Older adults living alone",
+    "IndicatorName": "Older adults living alone (65+)",
+    "IndicatorLabel": "Older adults living alone (65+)",
     "IndicatorDescription": "Older adults are more vulnerable to extreme weather. Those living alone may have more difficulty getting resources they need in an emergency, and are at higher risk of weather-related illnesses like heat stroke and hypothermia.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 693,
-        "MeasureName": "Older adults living alone, Percent",
+        "MeasureName": "Older adults living alone (65+), Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Percent of people aged 65 and older living alone",
         "Sources": "American Community Survey",
@@ -24941,7 +25013,7 @@
       },
       {
         "MeasureID": 1060,
-        "MeasureName": "Older adults living alone, Number",
+        "MeasureName": "Older adults living alone (65+), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people aged 65 and older living alone.",
         "Sources": "American Community Survey",
@@ -25066,21 +25138,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -25129,21 +25205,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41]
               }
             ],
             "Map": [
@@ -25620,6 +25700,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -25683,6 +25767,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -25746,6 +25834,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -27738,14 +27830,14 @@
   },
   {
     "IndicatorID": 2188,
-    "IndicatorName": "Homes with grab bars in bathroom (among older adult households)",
-    "IndicatorLabel": "Homes with grab bars in bathroom (among older adult households)",
+    "IndicatorName": "Homes with grab bars in bathroom (age 65+)",
+    "IndicatorLabel": "Homes with grab bars in bathroom (age 65+)",
     "IndicatorDescription": "Grab bars in bathrooms can help prevent falls among older adults.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 789,
-        "MeasureName": "Homes with grab bars in bathroom (among older adult households), Number",
+        "MeasureName": "Homes with grab bars in bathroom (age 65+), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older. Counts not available for all years.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
@@ -27808,7 +27900,7 @@
       },
       {
         "MeasureID": 790,
-        "MeasureName": "Homes with grab bars in bathroom (among older adult households), Percent",
+        "MeasureName": "Homes with grab bars in bathroom (age 65+), Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older, divided by the estimated number of households with adults aged 65 years or older; expressed as a percent. ",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
@@ -29721,6 +29813,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41, 44, 45, 46, 47, 48]
               }
             ],
             "Map": [
@@ -29784,6 +29880,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [14, 38, 39, 40, 41]
               }
             ],
             "Map": [
@@ -30339,6 +30439,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [44, 45, 48, 289]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45, 48]
               }
             ],
             "Map": [
@@ -30402,6 +30506,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [44, 45, 48, 289]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45]
               }
             ],
             "Map": [
@@ -30460,7 +30568,7 @@
         "how_calculated": "Estimated number of adult drivers (drove in the last 30 days) who responded \"often\", \"sometimes\" or \"rarely\" to the question: \"In the past 30 days, when you drove in New York City, how often have you read or sent a text message or email while you were driving?\"",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [44, 48],
@@ -30477,6 +30585,10 @@
               },
               {
                 "GeoType": "UHF34",
+                "TimePeriodID": [44, 48]
+              },
+              {
+                "GeoType": "UHF42",
                 "TimePeriodID": [44, 48]
               }
             ],
@@ -30541,6 +30653,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [44, 48]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44]
               }
             ],
             "Map": [
@@ -30613,6 +30729,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [44, 45, 48, 289]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45]
               }
             ],
             "Map": [
@@ -30676,6 +30796,10 @@
               {
                 "GeoType": "UHF34",
                 "TimePeriodID": [44, 45, 48, 289]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [44, 45]
               }
             ],
             "Map": [
@@ -34129,7 +34253,7 @@
     "IndicatorID": 2335,
     "IndicatorName": "Limited English",
     "IndicatorLabel": "Limited English",
-    "IndicatorDescription": null,
+    "IndicatorDescription": "People who do not speak English at home and/or are not English proficient.",
     "Comparisons": null,
     "Measures": [
       {
