@@ -2077,9 +2077,9 @@
   },
   {
     "IndicatorID": 18,
-    "IndicatorName": "Adults with asthma (past 12 months)",
-    "IndicatorLabel": "Adults with asthma (past 12 months)",
-    "IndicatorDescription": "Asthma is a common disease characterized by breathing difficulty. Poor air quality and housing issues increase risk of developing and triggering asthma.",
+    "IndicatorName": "Adults with a recent asthma attack",
+    "IndicatorLabel": "Adults with a recent asthma attack",
+    "IndicatorDescription": "Adults who reported having an asthma attack in the past 12 months from when they were surveyed.",
     "Comparisons": [537],
     "Measures": [
       {
@@ -4300,7 +4300,7 @@
     "IndicatorID": 40,
     "IndicatorName": "Homes with cracks or holes",
     "IndicatorLabel": "Homes with cracks or holes",
-    "IndicatorDescription": "Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
+    "IndicatorDescription": "Cracks or holes are a housing problem linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
     "Comparisons": [571],
     "Measures": [
       {
@@ -4379,7 +4379,7 @@
         "MeasureID": 76,
         "MeasureName": "Cracks, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area that reported cracks or holes in the home, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area that reported cracks or holes in the home, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -4690,7 +4690,7 @@
     "IndicatorID": 42,
     "IndicatorName": "Homes with leaks",
     "IndicatorLabel": "Homes with leaks",
-    "IndicatorDescription": "Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
+    "IndicatorDescription": "Leaks are a housing problem that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
     "Comparisons": [571],
     "Measures": [
       {
@@ -4769,7 +4769,7 @@
         "MeasureID": 80,
         "MeasureName": "Leaks, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area that reported leaks coming from outside the unit, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area that reported leaks coming from outside the unit, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -4923,7 +4923,7 @@
         "MeasureID": 85,
         "MeasureName": "Homes with 3+ housing problems, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of households reporting three or more maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit). Counts not available for all years.",
+        "how_calculated": "Estimated number of households reporting three or more housing problems (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit). Counts not available for all years.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "PUMA2010"],
@@ -4995,7 +4995,7 @@
         "MeasureID": 86,
         "MeasureName": "Homes with 3+ housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area reporting three or more maintenance deficiencies (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area reporting three or more housing problems (heating equipment breakdown, additional heating required, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8&frac12; x 11 inches, toilet breakdowns, or water leaks from outside the unit), divided by the number of households in the area; expressed as percent.<\/p><br><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -5210,7 +5210,7 @@
     "IndicatorID": 46,
     "IndicatorName": "Homes near structures rated good or excellent",
     "IndicatorLabel": "Homes near structures rated good or excellent",
-    "IndicatorDescription": "Building quality predicts the number of housing maintenance deficiencies in a residence that place residents at increased risk of acute or chronic health problems.",
+    "IndicatorDescription": "Building quality predicts the number of housing problems in a residence that place residents at increased risk of acute or chronic health problems.",
     "Comparisons": null,
     "Measures": [
       {
@@ -5483,7 +5483,7 @@
     "IndicatorID": 47,
     "IndicatorName": "Homes using supplemental heat",
     "IndicatorLabel": "Homes using supplemental heat",
-    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies.",
+    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening housing problems.",
     "Comparisons": null,
     "Measures": [
       {
@@ -5562,7 +5562,7 @@
         "MeasureID": 90,
         "MeasureName": "Supplemental heat, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area that needed to use a secondary source of heat in addition to their primary source, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area that needed to use a secondary source of heat in addition to their primary source, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -5992,52 +5992,6 @@
     "IndicatorDescription": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
     "Comparisons": [564],
     "Measures": [
-      {
-        "MeasureID": 111,
-        "MeasureName": "PM2.5 (Fine particles) action days, PM2.5 annual average",
-        "MeasurementType": "PM2.5 annual average",
-        "how_calculated": "This measure is calculated by averaging PM2.5 levels at each monitor, weighted by the number of samples in each quarter, then taking the weighted average of all monitors in the geographic area.",
-        "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
-        "DisplayType": "mcg/m3",
-        "AvailableGeoTypes": ["Citywide"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
       {
         "MeasureID": 785,
         "MeasureName": "PM2.5 (Fine particles) action days, Sensitive groups",
@@ -10069,7 +10023,7 @@
     "IndicatorID": 102,
     "IndicatorName": "Commercial use of rodenticides",
     "IndicatorLabel": "Rodenticides",
-    "IndicatorDescription": "Pesticides targeting rats and mice, applied by professional exterminators or licensed maintenance staff. These products are frequently added to tamper proof containers or applied directly to rodent burrows",
+    "IndicatorDescription": "Pesticides targeting rats and mice, applied by professional exterminators or licensed maintenance staff. These products are frequently added to tamper proof containers or applied directly to rodent burrows.",
     "Comparisons": null,
     "Measures": [
       {
@@ -10459,7 +10413,7 @@
         "MeasureID": 245,
         "MeasureName": "Cockroaches, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households in an area that reported seeing at least one cockroach daily over the last month, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area that reported seeing at least one cockroach daily over the last month, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF42", "PUMA2010", "PUMA2020"],
@@ -21617,7 +21571,7 @@
     "IndicatorID": 2101,
     "IndicatorName": "Mold in homes",
     "IndicatorLabel": "Mold in homes",
-    "IndicatorDescription": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate maintenance deficiencies in a building.",
+    "IndicatorDescription": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building.",
     "Comparisons": null,
     "Measures": [
       {
@@ -24491,14 +24445,14 @@
   },
   {
     "IndicatorID": 2146,
-    "IndicatorName": "Older adults living alone",
-    "IndicatorLabel": "Older adults living alone",
+    "IndicatorName": "Older adults living alone (65+)",
+    "IndicatorLabel": "Older adults living alone (65+)",
     "IndicatorDescription": "Older adults are more vulnerable to extreme weather. Those living alone may have more difficulty getting resources they need in an emergency, and are at higher risk of weather-related illnesses like heat stroke and hypothermia.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 693,
-        "MeasureName": "Older adults living alone, Percent",
+        "MeasureName": "Older adults living alone (65+), Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Percent of people aged 65 and older living alone",
         "Sources": "American Community Survey",
@@ -24614,7 +24568,7 @@
       },
       {
         "MeasureID": 1060,
-        "MeasureName": "Older adults living alone, Number",
+        "MeasureName": "Older adults living alone (65+), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people aged 65 and older living alone.",
         "Sources": "American Community Survey",
@@ -26349,7 +26303,7 @@
         "MeasureID": 758,
         "MeasureName": "Renter-occupied homes with no housing problems, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit). Counts not available for all years.",
+        "how_calculated": "Estimated number of renter-occupied households reporting no housing problems (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit). Counts not available for all years.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "PUMA2010"],
@@ -26421,7 +26375,7 @@
         "MeasureID": 759,
         "MeasureName": "Renter-occupied homes with no housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of renter-occupied households reporting no maintenance deficiencies (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit). Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of renter-occupied households reporting no housing problems (heating equipment breakdown, additional heating required, cockroaches, rodent infestation, cracks/holes in the walls, ceilings or floors, broken plaster/peeling paint larger than 8.5 x 11 inches, toilet breakdowns, or water leaks from outside the unit). Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "PUMA2010", "UHF42", "PUMA2020"],
@@ -26601,21 +26555,21 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -26628,11 +26582,11 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298]
               }
             ],
             "Links": [
@@ -26659,21 +26613,21 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -26686,11 +26640,11 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298]
               }
             ],
             "Links": [
@@ -26717,21 +26671,21 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -26744,11 +26698,11 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298]
               }
             ],
             "Links": [
@@ -26775,43 +26729,43 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -26870,21 +26824,21 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -26897,11 +26851,11 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298]
               }
             ],
             "Links": [
@@ -26928,21 +26882,79 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": null,
+                "TimePeriodID": [],
+                "RankReverse": null
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 795,
+        "MeasureName": "Child lead poisoning, Number tested",
+        "MeasurementType": "Number tested",
+        "how_calculated": "Children under 6 years of age tested for lead poisoning in a given year. Children may be tested multiple times in a given year but are only counted once. All children are counted regardless of blood specimen type (confirmed or unconfirmed); the number is rounded to the nearest 100.",
+        "Sources": "New York City Healthy Homes Program",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -26977,30 +26989,30 @@
         ]
       },
       {
-        "MeasureID": 795,
-        "MeasureName": "Child lead poisoning, Number tested",
-        "MeasurementType": "Number tested",
-        "how_calculated": "Children under 6 years of age tested for lead poisoning in a given year. Children may be tested multiple times in a given year but are only counted once. All children are counted regardless of blood specimen type (confirmed or unconfirmed); the number is rounded to the nearest 100.",
-        "Sources": "New York City Healthy Homes Program",
+        "MeasureID": 1408,
+        "MeasureName": "Child lead poisoning, Number (3.5+ mcg/dL)",
+        "MeasurementType": "Number (3.5+ mcg/dL)",
+        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 3.5 mcg/dL or greater. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child's blood lead level is based on the highest capillary or unknown test type. This measure differs from the number of children newly identified with blood lead levels of 3.5 mcg/dL or greater reported by the Health Department in other publications.",
+        "Sources": null,
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [296, 298]
               }
             ],
             "Map": [
@@ -27013,11 +27025,74 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289]
+                "TimePeriodID": [296, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1409,
+        "MeasureName": "Child lead poisoning, Rate (3.5+ mcg/dL)",
+        "MeasurementType": "Rate (3.5+ mcg/dL)",
+        "how_calculated": "Number of children less than 6 years old tested in a given year with blood lead levels of 3.5 mcg/dL or greater, divided by the number of children less than 6 years old who were tested for lead poisoning in a given year; expressed as cases per 1,000 tested. The numbers in this table include all children tested within a given calendar year, regardless of whether they were tested in previous years with the same or different blood lead levels. While children can receive more than one test during the calendar year, children are only counted once using the highest confirmed blood lead level during the calendar year. If the child does not have a confirmed test in a given year, the child's blood lead level is based on the highest capillary or unknown test type. This measure differs from the rate of children newly identified with blood lead levels at or above 3.5 mcg/dL reported by the Health Department in other publications.",
+        "Sources": null,
+        "DisplayType": "per 1,000 tested",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [296, 298],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296, 298]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296, 298],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296, 298]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296, 298]
               }
             ],
             "Links": [
@@ -27047,7 +27122,7 @@
         "MeasureID": 781,
         "MeasureName": "Households with AC, Percent (with AC)",
         "MeasurementType": "Percent (with AC)",
-        "how_calculated": "<p>Estimated number of households in an area reporting having functioning air conditioning, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households in an area reporting having functioning air conditioning, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "UHF42", "PUMA2020"],
@@ -27198,7 +27273,7 @@
         "MeasureID": 1045,
         "MeasureName": "Households with AC, Percent (without AC)",
         "MeasurementType": "Percent (without AC)",
-        "how_calculated": "Estimated number of households in an area reporting not having functioning air conditioning, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "Estimated number of households in an area reporting not having functioning air conditioning, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "PUMA2020"],
@@ -27270,14 +27345,14 @@
   },
   {
     "IndicatorID": 2188,
-    "IndicatorName": "Homes with grab bars in bathroom (among older adult households)",
-    "IndicatorLabel": "Homes with grab bars in bathroom (among older adult households)",
+    "IndicatorName": "Homes with grab bars in bathroom (age 65+)",
+    "IndicatorLabel": "Homes with grab bars in bathroom (age 65+)",
     "IndicatorDescription": "Grab bars in bathrooms can help prevent falls among older adults.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 789,
-        "MeasureName": "Homes with grab bars in bathroom (among older adult households), Number",
+        "MeasureName": "Homes with grab bars in bathroom (age 65+), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older. Counts not available for all years.",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
@@ -27340,7 +27415,7 @@
       },
       {
         "MeasureID": 790,
-        "MeasureName": "Homes with grab bars in bathroom (among older adult households), Percent",
+        "MeasureName": "Homes with grab bars in bathroom (age 65+), Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older, divided by the estimated number of households with adults aged 65 years or older; expressed as a percent. ",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
@@ -30300,7 +30375,7 @@
   },
   {
     "IndicatorID": 2312,
-    "IndicatorName": "Commercial insecticide use",
+    "IndicatorName": "Commercial insecticide use (by chemical type)",
     "IndicatorLabel": "Combined Insecticides",
     "IndicatorDescription": "Pest control services provided by a professional exterminator in the individual's home.",
     "Comparisons": null,
@@ -32068,7 +32143,7 @@
     "IndicatorID": 2335,
     "IndicatorName": "Limited English",
     "IndicatorLabel": "Limited English",
-    "IndicatorDescription": null,
+    "IndicatorDescription": "People who do not speak English at home and/or are not English proficient.",
     "Comparisons": null,
     "Measures": [
       {
@@ -33152,9 +33227,9 @@
   },
   {
     "IndicatorID": 2339,
-    "IndicatorName": "Youth asthma (past 12 months)",
+    "IndicatorName": "Youth with a recent asthma attack",
     "IndicatorLabel": "Youth asthma (past 12 months)",
-    "IndicatorDescription": "Public high school students who reported having an asthma attack in the past 12 months.",
+    "IndicatorDescription": "Public high school students who reported having an asthma attack in the past 12 months from when they were surveyed.",
     "Comparisons": [537],
     "Measures": [
       {
@@ -38973,7 +39048,7 @@
     "IndicatorID": 2395,
     "IndicatorName": "Children in homes with cracks or holes (age 1-13)",
     "IndicatorLabel": "Children in homes with cracks or holes (age 1-13)",
-    "IndicatorDescription": "Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches. Pests in the home can contaminate food and worsen asthma.",
+    "IndicatorDescription": "Cracks or holes are a housing problem linked to the presence of mice, rats, and cockroaches. Pests in the home can contaminate food and worsen asthma.",
     "Comparisons": null,
     "Measures": [
       {
@@ -39108,7 +39183,7 @@
     "IndicatorID": 2396,
     "IndicatorName": "Children in homes with supplemental heat (age 13 and under)",
     "IndicatorLabel": "Children in homes with supplemental heat (age 13 and under)",
-    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies, which can harm children's health.",
+    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening housing problems, which can harm children's health.",
     "Comparisons": null,
     "Measures": [
       {
@@ -39447,7 +39522,7 @@
         "MeasureID": 1248,
         "MeasureName": "Housing problems, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of renter-occupied households reporting any health-related maintenance problems (cockroaches, mice or rats in the building, cracks or holes in walls, ceilings or floors, leaks from outside, toilet breakdowns, lack of air conditioning, heating equipment breakdown, additional heating required, or broken plaster or peeling paint larger than 8&frac12; x 11 inches),divided by the number of renter-occupied households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of renter-occupied households reporting any health-related maintenance problems (cockroaches, mice or rats in the building, cracks or holes in walls, ceilings or floors, leaks from outside, toilet breakdowns, lack of air conditioning, heating equipment breakdown, additional heating required, or broken plaster or peeling paint larger than 8&frac12; x 11 inches),divided by the number of renter-occupied households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "UHF42", "PUMA2020"],
@@ -44866,14 +44941,14 @@
   },
   {
     "IndicatorID": 2429,
-    "IndicatorName": "Children with an asthma attack (past 12 months)",
+    "IndicatorName": "Children with a recent asthma attack",
     "IndicatorLabel": "Children with an asthma attack (past 12 months)",
-    "IndicatorDescription": "Children ages 1 to 13 who have had an asthma attack in the past year. Asthma attacks are a measureable adverse health outcome of asthma.",
+    "IndicatorDescription": "Children ages 1 to 13 who have had an asthma attack in the past 12 months from when they were surveyed. Asthma attacks are a measurable adverse health outcome of asthma.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1366,
-        "MeasureName": "Children with an asthma attack (past 12 months), Number",
+        "MeasureName": "Children with a recent asthma attack, Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months.",
         "Sources": "NYC KIDS Survey",
@@ -44945,7 +45020,7 @@
       },
       {
         "MeasureID": 1367,
-        "MeasureName": "Children with an asthma attack (past 12 months), Percent",
+        "MeasureName": "Children with a recent asthma attack, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months, divided by all children of the same ages, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
@@ -47791,16 +47866,16 @@
   },
   {
     "IndicatorID": 2446,
-    "IndicatorName": "Homes with visible mold",
-    "IndicatorLabel": "Homes with visible mold",
-    "IndicatorDescription": "Adults reporting visible mold in the home. Mold can worsen respiratory conditions like asthma, and indicate maintenance problems in a building.",
+    "IndicatorName": "Homes with mold",
+    "IndicatorLabel": "Homes with mold",
+    "IndicatorDescription": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate maintenance problems in a building.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1422,
-        "MeasureName": "Homes with visible mold, Percent",
+        "MeasureName": "Homes with mold, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households that reported visible mold in the home, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households that reported visible mold in the home, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2020"],
@@ -47872,7 +47947,7 @@
         "MeasureID": 1424,
         "MeasureName": "Homes with mice or rats in the unit or building, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "<p>Estimated number of households that reported mice or rats in their unit or building in the past 90 days, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available in NYC HPD's <a href=\"https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf\">Sample Design, Weighting, and Error Estimation<\/a> guidance.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
+        "how_calculated": "<p>Estimated number of households that reported mice or rats in their unit or building in the past 90 days, divided by the number of households in the area; expressed as percent. Changes in survey methodology in 2021 may account for some of the differences with earlier time periods. More details available on NYC HPD's <a href=\"https://www.nyc.gov/site/hpd/about/research.page\">research page<\/a>.<\/p><p><i>The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure limitation practices applied. (Disclosure Review Board (DRB) approval numbers: CBDRB-FY23-POP001-0073 and CBDRB FY24 0145)<\/i><\/p>",
         "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2020"],
