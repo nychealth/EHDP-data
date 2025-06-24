@@ -6,8 +6,8 @@
   },
   {
     "title": "Asthma_and_the_Environment",
-    "indicator_name": "Adults with asthma (past 12 months)",
-    "indicator_description": "Asthma is a common disease characterized by breathing difficulty. Poor air quality and housing issues increase risk of developing and triggering asthma."
+    "indicator_name": "Adults with a recent asthma attack",
+    "indicator_description": "Adults who reported having an asthma attack in the past 12 months from when they were surveyed."
   },
   {
     "title": "Active_Design_Physical_Activity_and_Health",
@@ -27,12 +27,12 @@
   {
     "title": "Asthma_and_the_Environment",
     "indicator_name": "Homes with cracks or holes",
-    "indicator_description": "Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health."
+    "indicator_description": "Cracks or holes are a housing problem linked to the presence of mice, rats, and cockroaches - which can harm residents' health."
   },
   {
     "title": "Housing_and_Health",
     "indicator_name": "Homes with cracks or holes",
-    "indicator_description": "Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health."
+    "indicator_description": "Cracks or holes are a housing problem linked to the presence of mice, rats, and cockroaches - which can harm residents' health."
   },
   {
     "title": "Housing_and_Health",
@@ -42,22 +42,22 @@
   {
     "title": "Asthma_and_the_Environment",
     "indicator_name": "Homes with leaks",
-    "indicator_description": "Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma."
+    "indicator_description": "Leaks are a housing problem that can harm health by introducing mold, which can worsen respiratory conditions like asthma."
   },
   {
     "title": "Housing_and_Health",
     "indicator_name": "Homes with leaks",
-    "indicator_description": "Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma."
+    "indicator_description": "Leaks are a housing problem that can harm health by introducing mold, which can worsen respiratory conditions like asthma."
   },
   {
     "title": "Climate_and_Health",
     "indicator_name": "Homes near structures rated good or excellent",
-    "indicator_description": "Building quality predicts the number of housing maintenance deficiencies in a residence that place residents at increased risk of acute or chronic health problems."
+    "indicator_description": "Building quality predicts the number of housing problems in a residence that place residents at increased risk of acute or chronic health problems."
   },
   {
     "title": "Housing_and_Health",
     "indicator_name": "Homes using supplemental heat",
-    "indicator_description": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies."
+    "indicator_description": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening housing problems."
   },
   {
     "title": "Housing_and_Health",
@@ -261,7 +261,7 @@
   },
   {
     "title": "Climate_and_Health",
-    "indicator_name": "Older adults living alone",
+    "indicator_name": "Older adults living alone (65+)",
     "indicator_description": "Older adults are more vulnerable to extreme weather. Those living alone may have more difficulty getting resources they need in an emergency, and are at higher risk of weather-related illnesses like heat stroke and hypothermia."
   },
   {
