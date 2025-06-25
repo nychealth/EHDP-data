@@ -1213,16 +1213,16 @@
         "how_calculated": "Estimated number of people born outside the US or its territories (which includes Puerto Rico), divided by the total population; expressed as a percent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -1230,11 +1230,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -1242,7 +1242,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -1250,7 +1254,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -1361,16 +1365,16 @@
         "how_calculated": "Estimated number of people born outside the US or its territories including Puerto Rico.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -1378,11 +1382,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -1390,7 +1394,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -1398,7 +1406,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -1478,16 +1486,16 @@
         "how_calculated": "Estimated number of housing units with more than 1 occupant per room, divided by the number of occupied housing units; expressed as percent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -1495,11 +1503,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -1507,7 +1515,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -1515,7 +1527,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -1614,16 +1626,16 @@
         "how_calculated": "Estimated number of housing units with more than 1 occupant per room.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -1631,11 +1643,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -1643,7 +1655,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -1651,7 +1667,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -1731,16 +1747,16 @@
         "how_calculated": "Number of housing units built before 1950.",
         "Sources": "United States Census; American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -1748,11 +1764,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -1760,7 +1776,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -1772,7 +1792,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -1848,16 +1868,16 @@
         "how_calculated": "Number of housing units built before 1950, divided by all housing units; expressed as percent.    ",
         "Sources": "United States Census; American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -1865,11 +1885,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -1877,7 +1897,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -1889,7 +1913,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -1986,16 +2010,16 @@
         "how_calculated": "Estimated number of housing units occupied by the owner, divided by all occupied housing units; expressed as percent.    ",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -2003,11 +2027,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -2015,7 +2039,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -2023,7 +2051,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -2106,16 +2134,16 @@
         "how_calculated": "Estimated number of housing units occupied by the owner.    ",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -2123,11 +2151,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -2135,7 +2163,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -2143,7 +2175,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -10303,16 +10335,16 @@
         "how_calculated": "Estimated number of people for whom poverty status is determined, whose annual income falls below 100% of the federal poverty level, divided by the number of people for whom poverty status is determined; expressed as percent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -10320,11 +10352,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -10332,7 +10364,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -10340,7 +10376,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -10435,16 +10471,16 @@
         "how_calculated": "Estimated number of people for whom poverty status is determined, whose annual income falls below 100% of the federal poverty level.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -10452,11 +10488,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -10464,7 +10500,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -10472,7 +10512,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -24665,16 +24705,16 @@
         "how_calculated": "Estimated number of adults in the civilian noninstitutionalized population (18 years and older) who report independent living difficulty because of a physical, mental, or emotional problem, or having difficulty doing errands alone such as visiting a doctor's office or shopping, divided by the total civilian noninstitutionalized population (18 years and older); expressed as percent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD", "NTA2010", "Subboro", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD", "NTA2010", "Subboro", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300],
+        "AvailableTimePeriodIDs": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -24682,11 +24722,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -24694,7 +24734,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -24702,7 +24746,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -24781,16 +24825,16 @@
         "how_calculated": "Estimated number of adults in the civilian noninstitutionalized population (18 years and older) who report independent living difficulty because of a physical, mental, or emotional problem, or having difficulty doing errands alone such as visiting a doctor's office or shopping.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -24798,11 +24842,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -24810,7 +24854,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -24818,7 +24866,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -24898,16 +24946,16 @@
         "how_calculated": "Percent of people aged 65 and older living alone",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -24915,11 +24963,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -24927,7 +24975,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -24935,7 +24987,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -25018,16 +25070,16 @@
         "how_calculated": "Estimated number of people aged 65 and older living alone.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -25035,11 +25087,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -25047,7 +25099,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -25055,7 +25111,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -26500,16 +26556,16 @@
         "how_calculated": "Estimated number of children who live in a household for whom poverty status is determined, whose annual income falls below twice the federal poverty.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -26517,11 +26573,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -26529,7 +26585,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -26537,7 +26597,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -26608,16 +26668,16 @@
         "how_calculated": "Estimated number of children in a household whose annual income falls below twice the federal poverty level, divided by the number of children in households for whom poverty status is determined; expressed as percent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -26625,11 +26685,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -26637,7 +26697,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -26645,7 +26709,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -31845,16 +31909,16 @@
         "how_calculated": "Estimated percent of people who are only Asian.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -31862,11 +31926,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -31874,7 +31938,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -31882,7 +31950,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -31953,16 +32021,16 @@
         "how_calculated": "Estimated percent of people who are only Black.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -31970,11 +32038,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -31982,7 +32050,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -31990,7 +32062,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -32061,16 +32133,16 @@
         "how_calculated": "Estimated Percent Hispanic",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -32078,11 +32150,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -32090,7 +32162,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -32098,7 +32174,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -32169,16 +32245,16 @@
         "how_calculated": "Estimated Percent White",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -32186,11 +32262,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -32198,7 +32274,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -32206,7 +32286,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -32351,16 +32431,16 @@
         "how_calculated": "Estiamted percent of people who are not White.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -32368,11 +32448,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -32380,7 +32460,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -32388,7 +32472,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -34026,16 +34110,16 @@
         "how_calculated": "Estimated number of people 25 years and over who have completed High School (Includes Equivalency).",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -34043,11 +34127,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -34055,7 +34139,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -34063,7 +34151,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -34134,16 +34222,16 @@
         "how_calculated": "Estimated number of people 25 years and over who have completed High School (Includes Equivalency), divided by the total number of people 25 years and over; expressed as percent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -34151,11 +34239,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -34163,7 +34251,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -34171,7 +34263,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -34263,16 +34355,16 @@
         "how_calculated": "Estimated number of people who do not speak English at home and are not English Proficent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -34280,11 +34372,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -34292,7 +34384,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -34300,7 +34396,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -34371,16 +34467,16 @@
         "how_calculated": "Estimated number of people who do not speak English at home and are not English Proficent, divided by the total population; expressed as percent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -34388,11 +34484,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -34400,7 +34496,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -34408,7 +34508,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -34488,16 +34588,16 @@
         "how_calculated": "Estimated number of renter households whose gross rent (rent plus electricity and heating fuel costs) equals at least 30 percent of their income.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -34505,11 +34605,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -34517,7 +34617,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -34525,7 +34629,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -34596,16 +34700,16 @@
         "how_calculated": "Estimated number of renter households whose gross rent (rent plus electricity and heating fuel costs) equals at least 30 percent of their income, divided by the total number of households; expressed as percent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -34613,11 +34717,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -34625,7 +34729,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -34633,7 +34741,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -34733,16 +34841,16 @@
         "how_calculated": "Estimated number of people in the civilian labor force (16 years and older) who are unemployed. All civilians 16 years old and over are classified as unemployed if they (1) were neither \"at work\" nor \"with a job but not at work\" during the reference week, and (2) were looking for work during the last 4 weeks, and (3) were available to accept a job. Also included as unemployed are civilians who did not work at all during the reference week, were waiting to be called back to a job from which they had been laid off, and were available for work except for temporary illness.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -34750,11 +34858,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -34762,7 +34870,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -34770,7 +34882,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -34841,16 +34953,16 @@
         "how_calculated": "Estimated number of people in the civilian labor force (16 years and older) who are unemployed, divided by the total civilian labor force; expressed as percent.All civilians 16 years old and over are classified as unemployed if they (1) were neither \"at work\" nor \"with a job but not at work\" during the reference week, and (2) were looking for work during the last 4 weeks, and (3) were available to accept a job. Also included as unemployed are civilians who did not work at all during the reference week, were waiting to be called back to a job from which they had been laid off, and were available for work except for temporary illness.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -34858,11 +34970,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -34870,7 +34982,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -34878,7 +34994,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -43708,16 +43824,16 @@
         "how_calculated": "Estimated number of workers age 16 years and over who usually rode a bicycle to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -43725,11 +43841,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -43737,7 +43853,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -43745,7 +43865,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -43816,16 +43936,16 @@
         "how_calculated": "Estimated number of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -43833,11 +43953,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -43845,7 +43965,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -43853,7 +43977,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -43924,16 +44048,16 @@
         "how_calculated": "Estimated number of workers age 16 years and over who usually took public transportation to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -43941,11 +44065,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -43953,7 +44077,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -43961,7 +44089,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -44032,16 +44160,16 @@
         "how_calculated": "Estimated number of workers age 16 years and over who usually walked to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -44049,11 +44177,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -44061,7 +44189,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -44069,7 +44201,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -44140,16 +44272,16 @@
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually rode a bicycle to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -44157,11 +44289,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -44169,7 +44301,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -44177,7 +44313,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -44248,16 +44384,16 @@
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -44265,11 +44401,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -44277,7 +44413,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -44285,7 +44425,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -44356,16 +44496,16 @@
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually took public transportation to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -44373,11 +44513,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -44385,7 +44525,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -44393,7 +44537,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
@@ -44464,16 +44608,16 @@
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually walked to work",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "CD",
@@ -44481,11 +44625,11 @@
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               },
               {
                 "GeoType": "NTA2010",
@@ -44493,7 +44637,11 @@
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300]
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [312, 348]
               },
               {
                 "GeoType": "Subboro",
@@ -44501,7 +44649,7 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
               }
             ],
             "Map": [
