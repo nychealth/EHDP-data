@@ -12,6 +12,7 @@ CREATE OR ALTER VIEW dbo.NR_data AS
         ind.report,
         ind.report_topic,
         dt.indicator_id      AS MeasureID,
+        dt.indicator_data_id,
         ii.internal_id       AS IndicatorID,
         ii.name              AS indicator_name,
         ii.description       AS indicator_description,
@@ -31,10 +32,9 @@ CREATE OR ALTER VIEW dbo.NR_data AS
         ge.name              AS neighborhood,
         geb.name             AS borough_name,
         src.source_list      AS data_source_list,
+        un.show_data_flag,
         uz.Zipcodes          AS zip_code,
         id.rankReverse,
-        rnk.RankByValue       AS indicator_neighborhood_rank,
-        rnk.reportRank        AS data_value_rank,
 
         -- bar chart filename
 
@@ -145,12 +145,6 @@ CREATE OR ALTER VIEW dbo.NR_data AS
             boro.indicator_id  = ind.indicator_id AND
             boro.geo_entity_id = ge.borough_id AND
             boro.year_id = dt.year_id
-        )
-
-        -- getting UHF ranks for this indicator
-
-        INNER JOIN NR_ranks AS rnk ON (
-            rnk.indicator_data_id = dt.indicator_data_id
         )
 
         -- getting indicator sources

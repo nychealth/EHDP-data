@@ -132,93 +132,103 @@ dir_create(
 
 # ==== try GitHub API ==== #
 
-api_res <- GET("https://api.github.com")
+possibly_GET <- possibly(GET, FALSE)
 
-if (str_detect(api_res$url, "api.github.com")) {
-    
-    # if it works, use API to get list of NR_content directory
-    
-    nr_content_links <- 
-        GET(
-            paste0(
-                "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
-                Sys.getenv("site_branch")
-            )
-        ) %>% 
-        content(as = "text") %>% 
-        fromJSON() %>%
-        pull(download_url)
-    
-} else {
-    
-    # if it doesn't, just loop over the usual list
+api_res <- possibly_GET("https://api.github.com")
 
-    nr_content <- c(
-        "Active_Design_Physical_Activity_and_Health.yml", 
-        "Asthma_and_the_Environment.yml", 
-        "Climate_and_Health.yml", 
-        "Housing_and_Health.yml", 
-        "Outdoor_Air_and_Health.yml"
-    )
+# check if GET errored (i.e., returned FALSE)
+
+if (!is_logical(api_res)) {
     
-    nr_content_links <- 
-        nr_content %>% 
-        map_chr(
-            ~ paste0(
-                "https://raw.githubusercontent.com/nychealth/EH-dataportal/", 
-                Sys.getenv("site_branch"), "/data/globals/NR_content/", .x
+    # check if API accessible
+
+    if (str_detect(api_res$url, "api.github.com")) {
+        
+        # if it works, use API to get list of NR_content directory
+        
+        nr_content_links <- 
+            GET(
+                paste0(
+                    "https://api.github.com/repos/nychealth/EH-dataportal/contents/data/globals/NR_content?ref=",
+                    Sys.getenv("site_branch")
+                )
+            ) %>% 
+            content(as = "text") %>% 
+            fromJSON() %>%
+            pull(download_url)
+        
+    } else {
+        
+        # if it doesn't, just loop over the usual list
+    
+        nr_content <- c(
+            "Active_Design_Physical_Activity_and_Health.yml", 
+            "Asthma_and_the_Environment.yml", 
+            "Climate_and_Health.yml", 
+            "Housing_and_Health.yml", 
+            "Outdoor_Air_and_Health.yml"
+        )
+        
+        nr_content_links <- 
+            nr_content %>% 
+            map_chr(
+                ~ paste0(
+                    "https://raw.githubusercontent.com/nychealth/EH-dataportal/", 
+                    Sys.getenv("site_branch"), "/data/globals/NR_content/", .x
+                )
             )
+        
+    }
+    
+    
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    # map over YAML files to get measure_ids
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    
+    # using base R short function format to make mapped objects unambiguous and usable inside lower levels
+    
+    nr_indicators <- 
+        nr_content_links %>% 
+        map_dfr( 
+            
+            function (x) {
+                read_file(x) %>% 
+                yaml.load() %>% 
+                pluck("report_topics") %>% 
+                map_dfr(
+                    function (y) {
+                        as_tibble(y) %>% 
+                        select(report_topic, MeasureID) %>% 
+                        transmute(
+                            report = x %>% path_file() %>% path_ext_remove() %>% unique(),
+                            report_topic = report_topic %>% str_remove_all(":"),
+                            indicator_id = MeasureID
+                        )
+                    }
+                )
+            }
         )
     
-}
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# map over YAML files to get measure_ids
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# using base R short function format to make mapped objects unambiguous and usable inside lower levels
-
-nr_indicators <- 
-    nr_content_links %>% 
-    map_dfr( 
-        
-        function (x) {
-            read_file(x) %>% 
-            yaml.load() %>% 
-            pluck("report_topics") %>% 
-            map_dfr(
-                function (y) {
-                    as_tibble(y) %>% 
-                    select(report_topic, MeasureID) %>% 
-                    transmute(
-                        report = x %>% path_file() %>% path_ext_remove() %>% unique(),
-                        report_topic = report_topic %>% str_remove_all(":"),
-                        indicator_id = MeasureID
-                    )
-                }
-            )
-        }
+    
+    #-----------------------------------------------------------------------------------------#
+    # selecting columns
+    #-----------------------------------------------------------------------------------------#
+    
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    # add list of indicators to database
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+    
+    # overwrite every time this script is run, but persist between runs
+    
+    dbWriteTable(
+        EHDP_odbc,
+        name = "nr_indicators",
+        value = nr_indicators,
+        append = FALSE,
+        overwrite = TRUE
     )
 
-
-#-----------------------------------------------------------------------------------------#
-# selecting columns
-#-----------------------------------------------------------------------------------------#
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-# add list of indicators to database
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# overwrite every time this script is run, but persist between runs
-
-dbWriteTable(
-    EHDP_odbc,
-    name = "nr_indicators",
-    value = nr_indicators,
-    append = FALSE,
-    overwrite = TRUE
-)
+}
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -409,6 +419,72 @@ time_count <-
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# ranking neighborhoods
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+NR_ranks <- 
+    NR_data %>% 
+    select(
+        geo_type,
+        geo_entity_id,
+        indicator_data_id,
+        MeasureID,
+        unmodified_data_value_geo_entity,
+        show_data_flag,
+        rankReverse,
+        end_date
+    ) %>% 
+    arrange(
+        geo_type,
+        geo_entity_id,
+        MeasureID,
+        desc(end_date)
+    ) %>% 
+    distinct(
+        geo_type,
+        geo_entity_id,
+        MeasureID,
+        .keep_all = TRUE
+    ) %>% 
+    mutate(unmodified_data_value_geo_entity = if_else(show_data_flag == 0, NA_real_, unmodified_data_value_geo_entity)) %>% 
+    arrange(
+        geo_type,
+        MeasureID,
+        desc(unmodified_data_value_geo_entity),
+        
+        # # arbitrarily breaking ties, but it'll be consistent at least
+        indicator_data_id
+    ) %>% 
+    group_by(MeasureID) %>% 
+    
+    # rank the neighborhoods, ignoring missing values
+    
+    mutate(
+        
+        # raw tertile
+        nbr_tert = ntile(unmodified_data_value_geo_entity, 3),
+        
+        # tertile with rankReverse
+        data_value_rank = if_else(rankReverse == 0, nbr_tert, 4 - nbr_tert),
+        
+        # raw rank
+        nbr_min_rank = min_rank(unmodified_data_value_geo_entity),
+        
+        # rank with rankReverse
+        nbr_rank = if_else(rankReverse == 0, nbr_min_rank, (max(nbr_min_rank) + 1) - nbr_min_rank)
+        
+    ) %>% 
+    ungroup() %>% 
+    select(
+        geo_type,
+        geo_entity_id,
+        MeasureID,
+        nbr_rank,
+        data_value_rank
+    )
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # keeping only most recent
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -429,12 +505,10 @@ report_data_for_hugo <-
         indicator_description,
         units,
         measurement_type,
-        indicator_neighborhood_rank,
         data_value_geo_entity,
         unmodified_data_value_geo_entity,
         data_value_boro,
         data_value_nyc,
-        data_value_rank,
         nbr_data_note,
         data_source_list,
         geo_type,
@@ -465,6 +539,11 @@ report_data_for_hugo <-
     left_join(
         .,
         time_count,
+        c("geo_type", "geo_entity_id", "MeasureID")
+    ) %>% 
+    left_join(
+        .,
+        NR_ranks,
         c("geo_type", "geo_entity_id", "MeasureID")
     ) %>% 
     mutate(trend_flag = if_else(TimeCount > 1, 1L, 0L)) %>% 
