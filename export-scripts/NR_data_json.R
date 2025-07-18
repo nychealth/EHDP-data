@@ -465,13 +465,13 @@ NR_ranks <-
         nbr_tert = ntile(desc(unmodified_data_value_geo_entity), 3),
         
         # tertile with rankReverse
-        data_value_rank = if_else(rankReverse == 1, 4 - nbr_tert, nbr_tert),
+        data_value_rank = if_else(rankReverse == TRUE, 4 - nbr_tert, nbr_tert),
         
         # raw rank
         nbr_min_rank = min_rank(desc(unmodified_data_value_geo_entity)),
         
         # rank with rankReverse
-        nbr_rank = if_else(rankReverse == 1, (max(nbr_min_rank) + 1) - nbr_min_rank, nbr_min_rank)
+        nbr_rank = if_else(rankReverse == TRUE, (max(nbr_min_rank) + 1) - nbr_min_rank, nbr_min_rank)
         
     ) %>% 
     ungroup() %>% 
