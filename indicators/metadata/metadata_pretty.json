@@ -25614,7 +25614,7 @@
         "MeasurementType": "Density",
         "how_calculated": "Subway station density measure takes into account multiple route-transfer opportunities at one subway station and each stop is counted only once regardless of how many route-transfer opportunities are available at any given subway station. Density is calculated by dividing the count of MTA subways stations as of 2012 by the total land area in km2 of the UHF neighborhood (excluding inland water bodies).",
         "Sources": "The Built Environment & Health Project (BEH), Columbia University",
-        "DisplayType": "",
+        "DisplayType": "per square kilometer",
         "AvailableGeoTypes": ["UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
