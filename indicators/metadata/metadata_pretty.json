@@ -8470,52 +8470,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49],
+                "TimePeriodID": [48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -8542,52 +8542,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49],
+                "TimePeriodID": [48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -14878,52 +14878,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49],
+                "TimePeriodID": [48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -14950,52 +14950,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49],
+                "TimePeriodID": [48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -25039,7 +25039,7 @@
         "MeasurementType": "Density",
         "how_calculated": "Subway station density measure takes into account multiple route-transfer opportunities at one subway station and each stop is counted only once regardless of how many route-transfer opportunities are available at any given subway station. Density is calculated by dividing the count of MTA subways stations as of 2012 by the total land area in km2 of the UHF neighborhood (excluding inland water bodies).",
         "Sources": "The Built Environment & Health Project (BEH), Columbia University",
-        "DisplayType": "",
+        "DisplayType": "per square kilometer",
         "AvailableGeoTypes": ["UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
@@ -36494,52 +36494,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296],
+                "TimePeriodID": [48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -36566,52 +36566,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296],
+                "TimePeriodID": [48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -36683,52 +36683,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296],
+                "TimePeriodID": [48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -36755,52 +36755,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296],
+                "TimePeriodID": [48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -36827,52 +36827,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296],
+                "TimePeriodID": [48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296],
+                "TimePeriodID": [38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -36952,52 +36952,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49],
+                "TimePeriodID": [48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -37024,52 +37024,52 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49],
+                "TimePeriodID": [48, 49, 289, 296],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
               }
             ],
             "Links": [
@@ -37153,25 +37153,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -37225,25 +37225,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
@@ -37297,25 +37297,25 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [48, 49, 289, 296]
+                "TimePeriodID": [48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296]
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
