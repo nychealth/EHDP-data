@@ -50804,5 +50804,761 @@
         ]
       }
     ]
+  },
+  {
+    "IndicatorID": 2455,
+    "IndicatorName": "Accessible subway stops",
+    "IndicatorLabel": "Accessible subway stops",
+    "IndicatorDescription": "Accessible subway stops may include ramps, elevators, audio and visual information, or other access improvements, which can help New Yorkers with disabilities, those traveling with strollers, and older people use public transit more safely and reliably. Accessible infrastructure ensures that subway stops follow American Disabilities Act (ADA) guidelines.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1446,
+        "MeasureName": "Accessible subway stops, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of accessible subway stops. A subway stop is considered accessible if at least 1 platform direction is ADA compliant",
+        "Sources": "Metropolitan Transportation Authority ",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1447,
+        "MeasureName": "Accessible subway stops, Density",
+        "MeasurementType": "Density",
+        "how_calculated": "Number of accessible subway stops per square mile. A subway stop is considered accessible if at least 1 platform direction is ADA compliant.",
+        "Sources": "Metropolitan Transportation Authority ",
+        "DisplayType": "per square mile",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1448,
+        "MeasureName": "Accessible subway stops, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Number of accessible subway stops, expressed as a percent of the total subway stops.",
+        "Sources": "Metropolitan Transportation Authority ",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2456,
+    "IndicatorName": "Bus stops with audio announcements",
+    "IndicatorLabel": "Bus stops with audio announcements",
+    "IndicatorDescription": "Bus stops equipped with button-activated audio announcements provide real-time bus arrival information for people who are blind or visually impaired.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1449,
+        "MeasureName": "Bus stops with audio announcements, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of Real Time Passenger Information (RTPI) bus signs. These signs include a push-button activated audio announcement of the real-time bus arrival information.",
+        "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1450,
+        "MeasureName": "Bus stops with audio announcements, Density",
+        "MeasurementType": "Density",
+        "how_calculated": "Number of Real Time Passenger Information (RTPI) bus signs; expressed proportionally to the square miles.",
+        "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ",
+        "DisplayType": "per square mile",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1451,
+        "MeasureName": "Bus stops with audio announcements, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Number of Real Time Passenger Information (RTPI) bus signs; expressed as a percent of the total number of bus stops.",
+        "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2457,
+    "IndicatorName": "Public bathroom availability",
+    "IndicatorLabel": "Public bathroom availability",
+    "IndicatorDescription": "Public bathrooms that are in service and open during scheduled hours. Public bathrooms help everyone take part in public life and make the city more livable for all New Yorkers.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1452,
+        "MeasureName": "Public bathroom availability, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of operational public restrooms",
+        "Sources": "New York City Department of Transportation ; New York City Department of Parks and Recreation; Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; Mayor's Office of Operations; New York Public Library; Brooklyn Public Library; Queens Public Library",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1454,
+        "MeasureName": "Public bathroom availability, Density",
+        "MeasurementType": "Density",
+        "how_calculated": "Number of operational public restrooms per square mile",
+        "Sources": "New York City Department of Transportation ; New York City Department of Parks and Recreation; Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; Mayor's Office of Operations; New York Public Library; Brooklyn Public Library; Queens Public Library",
+        "DisplayType": "per square mile",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1455,
+        "MeasureName": "Public bathroom availability, Percent accessible",
+        "MeasurementType": "Percent accessible",
+        "how_calculated": "Accessible operational public restrooms expressed as a percent of the total number of operational public restrooms",
+        "Sources": "New York City Department of Transportation ; New York City Department of Parks and Recreation; Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; Mayor's Office of Operations; New York Public Library; Brooklyn Public Library; Queens Public Library",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
