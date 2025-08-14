@@ -12189,7 +12189,7 @@
     "IndicatorID": 2023,
     "IndicatorName": "Fine particles (PM 2.5)",
     "IndicatorLabel": "Fine particles (PM 2.5)",
-    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by combustion, and are a major form of air pollution that harms health.",
+    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion — and are a major form of air pollution that harms health. Neighborhood sensors measure PM2.5 at the street-level, where people are most active. These sensors are designed to let us measure differences in air pollution over time and locations within New York City.",
     "Comparisons": null,
     "Measures": [
       {
@@ -50795,14 +50795,14 @@
   },
   {
     "IndicatorID": 2449,
-    "IndicatorName": "Fine particles (PM 2.5) [DEC monitors]",
-    "IndicatorLabel": "Fine particles (PM 2.5) [DEC monitors]",
-    "IndicatorDescription": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+    "IndicatorName": "Regulatory PM2.5 monitoring",
+    "IndicatorLabel": "Regulatory PM2.5 monitoring",
+    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health. Regulatory PM2.5 sensors collect readings on the tops of buildings that measure regional changes in air quality for the federal Clean Air Act. This indicator is one of the federal standards for PM2.5 (9.0 µg/m3).",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 111,
-        "MeasureName": "PM2.5 (Fine particles) [DEC], PM2.5 annual average",
+        "MeasureName": "Citywide PM2.5, PM2.5 annual average",
         "MeasurementType": "PM2.5 annual average",
         "how_calculated": "This measure is calculated by averaging PM2.5 levels at each monitor, weighted by the number of samples in each quarter, then taking the weighted average of all monitors in the geographic area.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
@@ -50848,7 +50848,7 @@
       },
       {
         "MeasureID": 788,
-        "MeasureName": "PM2.5 (Fine particles) [DEC], PM2.5 98th percentile",
+        "MeasureName": "Citywide PM2.5, PM2.5 98th percentile",
         "MeasurementType": "PM2.5 98th percentile",
         "how_calculated": "98% of PM2.5 measurements taken at New York City's EPA Air Quality Stations are below this value over the past three years. This value is one of the PM2.5 Federal Air Quality Standards. The standard is 65 mcg per cubic meter.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
