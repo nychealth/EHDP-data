@@ -21713,49 +21713,49 @@
         "MeasureID": 635,
         "MeasureName": "Adults with air conditioners, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of adults who reported having a functioning air conditioner in any room in their home, rounded to the nearest 1,000.",
+        "how_calculated": "Estimated number of adults who reported having a functioning air conditioner in any room in their home, rounded to the nearest 1,000. Note: A change in sampling methods in 2021 may explain some differences in estimates from earlier years.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [11],
+        "AvailableTimePeriodIDs": [11, 49, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11],
+                "TimePeriodID": [11, 49, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11],
+                "TimePeriodID": [11, 49, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               }
             ],
             "Links": [
@@ -21776,49 +21776,49 @@
         "MeasureID": 636,
         "MeasureName": "Adults with air conditioners, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of adults who reported having a functioning air conditioner in any room in their home, divided by the number of adults in the area; expressed as percent.",
+        "how_calculated": "Estimated number of adults who reported having a functioning air conditioner in any room in their home, divided by the number of adults in the area; expressed as percent. Note: A change in sampling methods in 2021 may explain some differences in estimates from earlier years",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [11],
+        "AvailableTimePeriodIDs": [11, 49, 296],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11],
+                "TimePeriodID": [11, 49, 296],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [11],
+                "TimePeriodID": [11, 49, 296],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [11]
+                "TimePeriodID": [11, 49, 296]
               }
             ],
             "Links": [
