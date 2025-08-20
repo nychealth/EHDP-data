@@ -22062,7 +22062,7 @@
         "MeasureID": 635,
         "MeasureName": "Adults with air conditioners, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of adults who reported having a functioning air conditioner in any room in their home, rounded to the nearest 1,000.",
+        "how_calculated": "Estimated number of adults who reported having a functioning air conditioner in any room in their home, rounded to the nearest 1,000. Note: A change in sampling methods in 2021 may explain some differences in estimates from earlier years.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
@@ -22125,7 +22125,7 @@
         "MeasureID": 636,
         "MeasureName": "Adults with air conditioners, Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of adults who reported having a functioning air conditioner in any room in their home, divided by the number of adults in the area; expressed as percent.",
+        "how_calculated": "Estimated number of adults who reported having a functioning air conditioner in any room in their home, divided by the number of adults in the area; expressed as percent. Note: A change in sampling methods in 2021 may explain some differences in estimates from earlier years",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34", "UHF42"],
@@ -23904,7 +23904,7 @@
     "IndicatorName": "Health insurance (adults)",
     "IndicatorLabel": "Health insurance (adults)",
     "IndicatorDescription": "Adults with any kind of health insurance. People with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
-    "Comparisons": [732, 733],
+    "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 671,
@@ -34975,7 +34975,7 @@
     "IndicatorName": "Unemployment",
     "IndicatorLabel": "Unemployment",
     "IndicatorDescription": "Adults age 16+ who are unemployed.",
-    "Comparisons": [732, 733],
+    "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1030,
