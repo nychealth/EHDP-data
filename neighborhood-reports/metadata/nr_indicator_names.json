@@ -20,11 +20,6 @@
     "indicator_description": "Adults reporting secondhand smoke at home. Secondhand smoke, especially indoors, is bad for health - particularly for the health of children."
   },
   {
-    "title": "Climate_and_Health",
-    "indicator_name": "Secondhand smoke at home",
-    "indicator_description": "Adults reporting secondhand smoke at home. Secondhand smoke, especially indoors, is bad for health - particularly for the health of children."
-  },
-  {
     "title": "Asthma_and_the_Environment",
     "indicator_name": "Homes with cracks or holes",
     "indicator_description": "Households reporting cracks or holes in the home. This maintenance problem is linked to mice, rats, and cockroaches - which can harm residents' health."
@@ -113,16 +108,6 @@
     "title": "Active_Design_Physical_Activity_and_Health",
     "indicator_name": "Overweight or obesity (adults)",
     "indicator_description": "Adults reporting a Body Mass Index over 25. People who are overweight or obese are at increased risk for heart disease and diabetes.  Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Obesity (adults)",
-    "indicator_description": "Adults reporting a Body Mass Index over 30. People who are overweight or obese are at increased risk for heart disease and diabetes.  Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Heat stress: yearly hospitalizations",
-    "indicator_description": "Hospitalizations due to heat stress. These are part of the public health burden of hot weather."
   },
   {
     "title": "Housing_and_Health",
@@ -313,6 +298,11 @@
     "title": "Active_Design_Physical_Activity_and_Health",
     "indicator_name": "Premature mortality",
     "indicator_description": "Deaths before age 65. This can indicate the overall health of a population."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Rent-burdened households",
+    "indicator_description": "Renter households spending 30% of their income or more on rent."
   },
   {
     "title": "Active_Design_Physical_Activity_and_Health",
