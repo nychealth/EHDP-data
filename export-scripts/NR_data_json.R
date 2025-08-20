@@ -132,7 +132,7 @@ dir_create(
 
 # ==== try GitHub API ==== #
 
-possibly_GET <- possibly(GET, FALSE)
+possibly_GET <- possibly(\(x) GET(x, timeout(10)), FALSE)
 
 api_res <- possibly_GET("https://api.github.com")
 
