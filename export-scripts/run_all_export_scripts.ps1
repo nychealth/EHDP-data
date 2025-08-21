@@ -85,31 +85,6 @@ Write-Output ">>> NR_data_json"
 
 Rscript $base_dir\export-scripts\NR_data_json.R
 
-#-----------------------------------------------------------------------------------------#
-# NR spark bars
-#-----------------------------------------------------------------------------------------#
-
-if ($sparkbar -eq "y") {
-    
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-    # run script to construct the spec
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-    Write-Output ">>> NR_sparkbar_spec"
-
-    npm install --silent
-
-    node $base_dir\export-scripts\NR_sparkbar_spec.js
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-    # run the SVG export script
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-    Write-Output ">>> NR_sparkbars"
-
-    Rscript $base_dir\export-scripts\NR_sparkbars.R
-
-}
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
