@@ -1,9 +1,9 @@
 [
   {
     "IndicatorID": 1,
-    "IndicatorName": "Preterm birth",
+    "IndicatorName": "Preterm births",
     "IndicatorLabel": "Preterm birth",
-    "IndicatorDescription": "Birth at fewer than 37 weeks gestational age.",
+    "IndicatorDescription": "Births before 37 weeks gestational age.",
     "Comparisons": null,
     "Measures": [
       {
@@ -136,9 +136,9 @@
   },
   {
     "IndicatorID": 2,
-    "IndicatorName": "Very preterm birth",
+    "IndicatorName": "Very preterm births",
     "IndicatorLabel": "Very preterm birth",
-    "IndicatorDescription": "Birth at fewer than 32 weeks gestational age.",
+    "IndicatorDescription": "Births before 32 weeks gestational age.",
     "Comparisons": null,
     "Measures": [
       {
@@ -273,7 +273,7 @@
     "IndicatorID": 3,
     "IndicatorName": "Very low birthweight",
     "IndicatorLabel": "Very low birthweight",
-    "IndicatorDescription": "Very low birth weight is when a baby weighs less than 3 lbs, 5 oz.",
+    "IndicatorDescription": "Birth weight under 3 pounds, 5 ounces.",
     "Comparisons": null,
     "Measures": [
       {
@@ -408,7 +408,7 @@
     "IndicatorID": 4,
     "IndicatorName": "Low birthweight at full term",
     "IndicatorLabel": "Low birthweight at full term",
-    "IndicatorDescription": "Low birth weight is when a baby weighs less than 5 lbs, 8 oz at full term.",
+    "IndicatorDescription": "Birth weight under 5 pounds, 8 ounces at full term.",
     "Comparisons": null,
     "Measures": [
       {
@@ -1075,7 +1075,7 @@
   },
   {
     "IndicatorID": 14,
-    "IndicatorName": "Foreign-born",
+    "IndicatorName": "Foreign-born population",
     "IndicatorLabel": "Foreign born",
     "IndicatorDescription": "People born outside the USA or its territories (including Puerto Rico).",
     "Comparisons": null,
@@ -1338,7 +1338,7 @@
     "IndicatorID": 15,
     "IndicatorName": "Household crowding",
     "IndicatorLabel": "Household crowding",
-    "IndicatorDescription": "Households with more than one person per room are considered crowded.",
+    "IndicatorDescription": "Households with more than one person per room.",
     "Comparisons": null,
     "Measures": [
       {
@@ -2079,7 +2079,7 @@
     "IndicatorID": 18,
     "IndicatorName": "Adults with a recent asthma attack",
     "IndicatorLabel": "Adults with a recent asthma attack",
-    "IndicatorDescription": "Adults who reported having an asthma attack in the past 12 months from when they were surveyed.",
+    "IndicatorDescription": "Adults reporting an asthma diagnosis, and symptoms, in the last 12 months (from when they were surveyed). Poor air quality and housing issues increase risk of developing and triggering asthma.",
     "Comparisons": [537],
     "Measures": [
       {
@@ -2325,7 +2325,7 @@
     "IndicatorID": 22,
     "IndicatorName": "Adults reporting cockroaches",
     "IndicatorLabel": "Adults reporting cockroaches",
-    "IndicatorDescription": "The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
+    "IndicatorDescription": "Adults reporting cockroaches in the past 30 days (from when they were surveyed). Cockroaches are an allergen and can trigger asthma.",
     "Comparisons": null,
     "Measures": [
       {
@@ -2854,7 +2854,7 @@
     "IndicatorID": 26,
     "IndicatorName": "Anencephaly",
     "IndicatorLabel": "Anencephaly",
-    "IndicatorDescription": "Anencephaly is a serious birth defect in which a baby is born without parts of the brain and skull.",
+    "IndicatorDescription": "A serious birth defect in which a baby is born without parts of the brain and skull.",
     "Comparisons": null,
     "Measures": [
       {
@@ -2963,7 +2963,7 @@
     "IndicatorID": 27,
     "IndicatorName": "Spina bifida (without anencephaly)",
     "IndicatorLabel": "Spina bifida (without anencephaly)",
-    "IndicatorDescription": "Spina bifida is a neural tube defect that can cause cause physical and intellectual disabilities.",
+    "IndicatorDescription": "A neural tube defect that can cause cause physical and intellectual disabilities.",
     "Comparisons": null,
     "Measures": [
       {
@@ -3181,7 +3181,7 @@
     "IndicatorID": 29,
     "IndicatorName": "Transposition of the great arteries (vessels)",
     "IndicatorLabel": "Transposition of the great arteries (vessels)",
-    "IndicatorDescription": "Transposition of the great arteries or vessels is a congenital heart defect that involves abnormal arrangement of parts of the heart.",
+    "IndicatorDescription": "A congenital heart defect that involves abnormal arrangement of parts of the heart.",
     "Comparisons": null,
     "Measures": [
       {
@@ -3290,7 +3290,7 @@
     "IndicatorID": 30,
     "IndicatorName": "Cleft lip (with or without cleft palate)",
     "IndicatorLabel": "Cleft lip (with or without cleft palate)",
-    "IndicatorDescription": "Cleft lip is a birth defect that occurs when a baby's lip does not form properly during pregnancy.",
+    "IndicatorDescription": "A birth defect that occurs when a baby's lip does not form properly during pregnancy.",
     "Comparisons": null,
     "Measures": [
       {
@@ -3399,7 +3399,7 @@
     "IndicatorID": 31,
     "IndicatorName": "Cleft palate (without cleft lip)",
     "IndicatorLabel": "Cleft palate (without cleft lip)",
-    "IndicatorDescription": "Cleft palate is a birth defect that occurs when a baby's mouth does not form properly during pregnancy.",
+    "IndicatorDescription": "A birth defect that occurs when a baby's mouth does not form properly during pregnancy.",
     "Comparisons": null,
     "Measures": [
       {
@@ -3726,7 +3726,7 @@
     "IndicatorID": 34,
     "IndicatorName": "Upper limb deficiencies",
     "IndicatorLabel": "Upper limb deficiencies",
-    "IndicatorDescription": "Upper limb deficiencies include undergrowth, overgrowth, failure of formation, and other variations or deficiencies in the upper limbs.",
+    "IndicatorDescription": "Undergrowth, overgrowth, failure of formation, and other variations or deficiencies in the upper limbs.",
     "Comparisons": null,
     "Measures": [
       {
@@ -3835,7 +3835,7 @@
     "IndicatorID": 35,
     "IndicatorName": "Lower limb Deficiencies",
     "IndicatorLabel": "Lower limb Deficiencies",
-    "IndicatorDescription": "Lower limb deficiencies include undergrowth, overgrowth, failure of formation, and other variations or deficiencies in the lower limbs.",
+    "IndicatorDescription": "Undergrowth, overgrowth, failure of formation, and other variations or deficiencies in the lower limbs.",
     "Comparisons": null,
     "Measures": [
       {
@@ -3942,9 +3942,9 @@
   },
   {
     "IndicatorID": 36,
-    "IndicatorName": "Down Syndrome (Mother under age 35)",
+    "IndicatorName": "Down syndrome (mother under age 35)",
     "IndicatorLabel": "Down Syndrome (Mother under age 35)",
-    "IndicatorDescription": "Down syndrome is a condition in which a person has an extra chromosome. It causes delays in physical growth, and intellectual disabilities.",
+    "IndicatorDescription": "A condition in which a person has an extra chromosome. It causes delays in physical growth, and intellectual disabilities.",
     "Comparisons": null,
     "Measures": [
       {
@@ -4051,9 +4051,9 @@
   },
   {
     "IndicatorID": 37,
-    "IndicatorName": "Down Syndrome (Mother age 35 and up)",
+    "IndicatorName": "Down syndrome (mother age 35+)",
     "IndicatorLabel": "Down Syndrome (Mother age 35 and up)",
-    "IndicatorDescription": "Down syndrome is a condition in which a person has an extra chromosome. It causes delays in physical growth, and intellectual disabilities.",
+    "IndicatorDescription": "A condition in which a person has an extra chromosome. It causes delays in physical growth, and intellectual disabilities.",
     "Comparisons": null,
     "Measures": [
       {
@@ -4162,7 +4162,7 @@
     "IndicatorID": 38,
     "IndicatorName": "Carbon monoxide incidents",
     "IndicatorLabel": "Carbon monoxide incidents",
-    "IndicatorDescription": "A carbon monoxide incident is a leak where the Fire Department measures at least 1 ppm at the scene.",
+    "IndicatorDescription": "A leak where the Fire Department measures at least 1 ppm of carbon monixide at the scene.",
     "Comparisons": null,
     "Measures": [
       {
@@ -4300,7 +4300,7 @@
     "IndicatorID": 40,
     "IndicatorName": "Homes with cracks or holes",
     "IndicatorLabel": "Homes with cracks or holes",
-    "IndicatorDescription": "Cracks or holes are a housing problem linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
+    "IndicatorDescription": "Households reporting cracks or holes in the home. This maintenance problem is linked to mice, rats, and cockroaches - which can harm residents' health.",
     "Comparisons": [571],
     "Measures": [
       {
@@ -4551,7 +4551,7 @@
     "IndicatorID": 41,
     "IndicatorName": "Old homes with peeling paint",
     "IndicatorLabel": "Old homes with peeling paint",
-    "IndicatorDescription": "Older housing (built before 1960) that has peeling paint can put residents at risk of lead poisoning, due to lead paint. Lead paint was banned from household paints in New York City in 1960 and in the USA in 1978.",
+    "IndicatorDescription": "Housing built before 1960 with peeling paint. This can put residents at risk of lead poisoning. Lead paint was banned from household paints in New York City in 1960 and in the USA in 1978.",
     "Comparisons": null,
     "Measures": [
       {
@@ -4690,7 +4690,7 @@
     "IndicatorID": 42,
     "IndicatorName": "Homes with leaks",
     "IndicatorLabel": "Homes with leaks",
-    "IndicatorDescription": "Leaks are a housing problem that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
+    "IndicatorDescription": "Households reporting leaks from outside the unit. This maintenance problem can introduce mold, which can worsen respiratory conditions like asthma.",
     "Comparisons": [571],
     "Measures": [
       {
@@ -4916,7 +4916,7 @@
     "IndicatorID": 45,
     "IndicatorName": "Homes with 3+ housing problems",
     "IndicatorLabel": "Homes with 3 or more housing problems",
-    "IndicatorDescription": "Homes with housing problems can threaten the health of the people who live there.",
+    "IndicatorDescription": "Households reporting 3 or more housing problems. These can threaten the health of the people who live there.",
     "Comparisons": [571],
     "Measures": [
       {
@@ -5210,7 +5210,7 @@
     "IndicatorID": 46,
     "IndicatorName": "Homes near structures rated good or excellent",
     "IndicatorLabel": "Homes near structures rated good or excellent",
-    "IndicatorDescription": "Building quality predicts the number of housing problems in a residence that place residents at increased risk of acute or chronic health problems.",
+    "IndicatorDescription": "Building quality predicts the number of housing maintenance problems in a residence that place residents at increased risk of acute or chronic health problems.",
     "Comparisons": null,
     "Measures": [
       {
@@ -5483,7 +5483,7 @@
     "IndicatorID": 47,
     "IndicatorName": "Homes using supplemental heat",
     "IndicatorLabel": "Homes using supplemental heat",
-    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening housing problems.",
+    "IndicatorDescription": "Households using supplemental heat, like a space heater. This may mean a building's main heat source doesn't work. It can indicate the presence of other health-threatening maintenance deficiencies, and increase fire risk.",
     "Comparisons": null,
     "Measures": [
       {
@@ -5693,7 +5693,7 @@
     "IndicatorID": 48,
     "IndicatorName": "Homes with mice or rats in the building",
     "IndicatorLabel": "Homes with mice or rats in the building",
-    "IndicatorDescription": "The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
+    "IndicatorDescription": "Households reporting mice or rats in their building in the past 90 days (from when they were surveyed). The presence of rodents is associated with housing problems. These pests can contaminate food and worsen asthma.",
     "Comparisons": [571],
     "Measures": [
       {
@@ -5888,7 +5888,7 @@
     "IndicatorID": 55,
     "IndicatorName": "Ozone action days",
     "IndicatorLabel": "Ozone action days",
-    "IndicatorDescription": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
+    "IndicatorDescription": "Days when ozone levels are at unhealthy levels. Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
     "Comparisons": [565],
     "Measures": [
       {
@@ -5989,7 +5989,7 @@
     "IndicatorID": 57,
     "IndicatorName": "Fine particles (PM 2.5) action days",
     "IndicatorLabel": "Fine particles (PM 2.5) action days",
-    "IndicatorDescription": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+    "IndicatorDescription": "Days when PM2.5 is at an unhealthy level. PM2.5 is emitted by combustion and are a major form of air pollution that harms health.",
     "Comparisons": [564],
     "Measures": [
       {
@@ -8843,7 +8843,7 @@
     "IndicatorID": 92,
     "IndicatorName": "Air quality action days",
     "IndicatorLabel": "Air quality action days",
-    "IndicatorDescription": "Action days for sensitive groups are counted when either ozone or PM2.5 levels are above 100, and for the general population when levels are above 150.",
+    "IndicatorDescription": "Days when air quality is unhealthy. Action days for sensitive groups are counted when either ozone or PM2.5 levels are above 100, and for the general population when levels are above 150.",
     "Comparisons": [566],
     "Measures": [
       {
@@ -10111,7 +10111,7 @@
     "IndicatorID": 103,
     "IndicatorName": "Neighborhood poverty",
     "IndicatorLabel": "Neighborhood poverty",
-    "IndicatorDescription": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to items such as health care and good quality housing that are needed to maintain good health.",
+    "IndicatorDescription": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health.",
     "Comparisons": null,
     "Measures": [
       {
@@ -11959,7 +11959,7 @@
     "IndicatorID": 2023,
     "IndicatorName": "Fine particles (PM 2.5)",
     "IndicatorLabel": "Fine particles (PM 2.5)",
-    "IndicatorDescription": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion — and are a major form of air pollution that harms health. Neighborhood sensors measure PM2.5 at the street-level, where people are most active. These sensors are designed to let us measure differences in air pollution over time and locations within New York City.",
     "Comparisons": null,
     "Measures": [
       {
@@ -12248,7 +12248,7 @@
     "IndicatorID": 2024,
     "IndicatorName": "Black carbon",
     "IndicatorLabel": "Black carbon",
-    "IndicatorDescription": "Black carbon is a major component of fine particles in the air. Fine particles are easily inhaled and contribute to both short-term acute health effects, as well as long-term chronic illness.",
+    "IndicatorDescription": "Concentration of black carbon in the air. Black carbon is a major component of fine particles, which contribute to both short-term health effects and chronic illness",
     "Comparisons": null,
     "Measures": [
       {
@@ -12514,7 +12514,7 @@
     "IndicatorID": 2025,
     "IndicatorName": "Nitrogen dioxide (NO2)",
     "IndicatorLabel": "Nitrogen dioxide (NO2)",
-    "IndicatorDescription": "Nitrogen dioxide is a pollutant formed by combusion that damage lung tissue, cause breathing problems, and contribute to smog and acid rain.",
+    "IndicatorDescription": "Concentration of nitrogen dioxide in the air. Nitrogen dioxide is a pollutant formed by combustion. It causes breathing problems and contributes to smog and acid rain.",
     "Comparisons": null,
     "Measures": [
       {
@@ -12791,7 +12791,7 @@
     "IndicatorID": 2026,
     "IndicatorName": "Sulfur dioxide (SO2)",
     "IndicatorLabel": "Sulfur dioxide (SO2)",
-    "IndicatorDescription": "Sulfur dioxide comes from burning some kinds of fuel oil. As an air pollutant, it can can worsen lung diseases.",
+    "IndicatorDescription": "Concentration of sulfur dioxide in the air. Sulfur dioxide comes from burning some kinds of fuel oil. It can worsen lung diseases.",
     "Comparisons": null,
     "Measures": [
       {
@@ -12911,7 +12911,7 @@
     "IndicatorID": 2027,
     "IndicatorName": "Ozone (O3)",
     "IndicatorLabel": "Ozone (O3)",
-    "IndicatorDescription": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
+    "IndicatorDescription": "Concentration of ozone in the air. Ozone is a common air pollutant that can harm breathing and worsen respiratory conditions.",
     "Comparisons": null,
     "Measures": [
       {
@@ -13040,7 +13040,7 @@
     "IndicatorID": 2028,
     "IndicatorName": "Nitric oxide (NO)",
     "IndicatorLabel": "Nitric oxide (NO)",
-    "IndicatorDescription": "Nitric oxide (NO) is formed by combustion, especially in vehicles, that damages lung tissue, causes breathing problems, and contributes to smog and acid rain.",
+    "IndicatorDescription": "Concentration of nitric oxide in the air. Nitric oxide is formed by combusion, causes breathing problems, and contributes to smog and acid rain.",
     "Comparisons": null,
     "Measures": [
       {
@@ -13277,7 +13277,7 @@
     "IndicatorID": 2030,
     "IndicatorName": "Bed bugs",
     "IndicatorLabel": "Bed bugs",
-    "IndicatorDescription": "Adults reporting a problem with bed bugs that required an exterminator, in the past 12 months.",
+    "IndicatorDescription": "Adults reporting bed bugs that required an exterminator, in the past 12 months (from when they were surveyed).",
     "Comparisons": null,
     "Measures": [
       {
@@ -13428,7 +13428,7 @@
     "IndicatorID": 2031,
     "IndicatorName": "Leukemia (children)",
     "IndicatorLabel": "Leukemia (children)",
-    "IndicatorDescription": "Leukemia is a general term for cancer of blood cells.",
+    "IndicatorDescription": "Cancers of the blood cells.",
     "Comparisons": null,
     "Measures": [
       {
@@ -13537,7 +13537,7 @@
     "IndicatorID": 2033,
     "IndicatorName": "Brain and other nervous system cancer (children)",
     "IndicatorLabel": "Brain and other nervous system cancer (children)",
-    "IndicatorDescription": "Brain and other nervous system cancers are tumors that start in the brain or spinal cord.",
+    "IndicatorDescription": "Cancers that start in the brain or spinal cord.",
     "Comparisons": null,
     "Measures": [
       {
@@ -13975,7 +13975,7 @@
     "IndicatorID": 2041,
     "IndicatorName": "Nitrate",
     "IndicatorLabel": "Nitrate",
-    "IndicatorDescription": "Nitrates are found in water near where nitrogen-based fertilizers are used. Infants who are fed formula made with water containing nitrates over 10 mg/L sometimes became seriously ill.",
+    "IndicatorDescription": "Concentration of nitrate in drinking water. Nitrates are found in water near where nitrogen-based fertilizers are used. Infants who are fed formula made with water containing nitrates over 10 mg/L sometimes became seriously ill.",
     "Comparisons": [664],
     "Measures": [
       {
@@ -14224,7 +14224,7 @@
     "IndicatorID": 2043,
     "IndicatorName": "Disinfection by-products (HAA5)",
     "IndicatorLabel": "Disinfection by-products (HAA5)",
-    "IndicatorDescription": "Disinfection by-products are chemicals that can form when a disinfectant such as chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
+    "IndicatorDescription": "Concentration of total trihalomethane in drinking water. Disinfection by-products are chemicals that form when a disinfectant like chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
     "Comparisons": [669, 674],
     "Measures": [
       {
@@ -14616,7 +14616,7 @@
     "IndicatorID": 2044,
     "IndicatorName": "Arsenic",
     "IndicatorLabel": "Arsenic",
-    "IndicatorDescription": "Arsenic is naturally-occurring in some groundwater systems. It may also enter drinking water systems from some pesticides and wood preservatives. Chronic exposure may increase risk of certain cancers.",
+    "IndicatorDescription": "Concentration of arsenic in drinking water. Arsenic occurrs naturally in some groundwater systems. It may also enter drinking water systems from some pesticides and wood preservatives. Chronic exposure may increase risk of certain cancers.",
     "Comparisons": [663],
     "Measures": [
       {
@@ -15058,7 +15058,7 @@
     "IndicatorID": 2049,
     "IndicatorName": "Alcohol access",
     "IndicatorLabel": "Alcohol access",
-    "IndicatorDescription": "Greater alcohol outlet density has been associated with a variety of health effects.",
+    "IndicatorDescription": "Places with licenses to sell alcohol. Greater alcohol outlet density has been associated with a variety of health effects.",
     "Comparisons": null,
     "Measures": [
       {
@@ -15319,7 +15319,7 @@
     "IndicatorID": 2050,
     "IndicatorName": "Heavy drinking (adults)",
     "IndicatorLabel": "Heavy drinking (adults)",
-    "IndicatorDescription": "Heavy drinking is having more than 2 drinks per day (men) or more than 1 drink per day ( women).",
+    "IndicatorDescription": "Adults who reported having more than 2 drinks per day (men) or more than 1 drink per day ( women).",
     "Comparisons": null,
     "Measures": [
       {
@@ -15458,7 +15458,7 @@
     "IndicatorID": 2051,
     "IndicatorName": "Binge drinking (adults)",
     "IndicatorLabel": "Binge drinking (adults)",
-    "IndicatorDescription": "Binge drinking is having 5 or more drinks on one occasion, and as of 2011, 4 or more drinks for women.",
+    "IndicatorDescription": "Adults who reported having 5 or more drinks on one occasion, and as of 2011, 4 or more drinks for women, in the past 30 days (from when they were surveyed).",
     "Comparisons": null,
     "Measures": [
       {
@@ -15827,7 +15827,7 @@
     "IndicatorID": 2057,
     "IndicatorName": "Alcohol access (youth)",
     "IndicatorLabel": "Alcohol access (youth)",
-    "IndicatorDescription": "Greater alcohol outlet density has been associated with a variety of health effects.",
+    "IndicatorDescription": "Places with licenses to sell alcohol, by youth population. Greater alcohol outlet density is associated with a variety of health effects.",
     "Comparisons": null,
     "Measures": [
       {
@@ -16513,7 +16513,7 @@
     "IndicatorID": 2061,
     "IndicatorName": "Overweight or obesity (adults)",
     "IndicatorLabel": "Overweight or obesity (adults)",
-    "IndicatorDescription": "People who are overweight or obese are at increased risk for heart disease and diabetes.",
+    "IndicatorDescription": "Adults reporting a Body Mass Index over 25. People who are overweight or obese are at increased risk for heart disease and diabetes.  Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
     "Comparisons": [539],
     "Measures": [
       {
@@ -16672,7 +16672,7 @@
     "IndicatorID": 2062,
     "IndicatorName": "Overweight or obesity (youth)",
     "IndicatorLabel": "Overweight or obesity (youth)",
-    "IndicatorDescription": "People who are overweight or obese are at increased risk for heart disease and diabetes.",
+    "IndicatorDescription": "Youths reporting a Body Mass Index over 25. People who are overweight or obese are at increased risk for heart disease and diabetes.  Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
     "Comparisons": [539],
     "Measures": [
       {
@@ -16789,7 +16789,7 @@
     "IndicatorID": 2063,
     "IndicatorName": "Obesity (adults)",
     "IndicatorLabel": "Obesity (adults)",
-    "IndicatorDescription": "People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
+    "IndicatorDescription": "Adults reporting a Body Mass Index over 30. People who are overweight or obese are at increased risk for heart disease and diabetes.  Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
     "Comparisons": [538],
     "Measures": [
       {
@@ -16948,7 +16948,7 @@
     "IndicatorID": 2064,
     "IndicatorName": "Obesity (youth)",
     "IndicatorLabel": "Obesity (youth)",
-    "IndicatorDescription": "People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
+    "IndicatorDescription": "Youths reporting a Body Mass Index over 30. People who are overweight or obese are at increased risk for heart disease and diabetes.  Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
     "Comparisons": [538],
     "Measures": [
       {
@@ -17338,7 +17338,7 @@
     "IndicatorID": 2074,
     "IndicatorName": "Heat stress: deaths",
     "IndicatorLabel": "Heat stress: deaths",
-    "IndicatorDescription": "Hot weather kills more people than all other extreme weather combined. This measure includes only deaths directly attributed to heat on death certificates, which represent a small proportion of all heat-related deaths.",
+    "IndicatorDescription": "Deaths directly attributed to heat, according to death certificates. Hot weather kills more people than all other extreme weather combined. This measure represents a small proportion of all heat-related deaths.",
     "Comparisons": [704, 715],
     "Measures": [
       {
@@ -17393,7 +17393,7 @@
     "IndicatorID": 2075,
     "IndicatorName": "Heat stress: yearly emergency department visits",
     "IndicatorLabel": "Heat stress: emergency department visits",
-    "IndicatorDescription": "ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of extreme heat.",
+    "IndicatorDescription": "ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion. These represent part of the public health burden of extreme heat.",
     "Comparisons": null,
     "Measures": [
       {
@@ -17564,7 +17564,7 @@
     "IndicatorID": 2076,
     "IndicatorName": "Heat stress: yearly hospitalizations",
     "IndicatorLabel": "Heat stress: hospitalizations",
-    "IndicatorDescription": "Heat stress hospitalizations weather are part of the public health burden due to hot weather.",
+    "IndicatorDescription": "Hospitalizations due to heat stress. These are part of the public health burden of hot weather.",
     "Comparisons": null,
     "Measures": [
       {
@@ -18145,7 +18145,7 @@
     "IndicatorID": 2084,
     "IndicatorName": "Heat events",
     "IndicatorLabel": "Heat events",
-    "IndicatorDescription": "Heat events threaten health. More people die due to extreme heat than all other extreme weather events combined. As the climate continues to warm, we can expect more severe and more frequent heat events.",
+    "IndicatorDescription": "Days over 90 degrees. More people die due to extreme heat than all other extreme weather events combined. As the climate continues to warm, we can expect more severe and more frequent heat events.",
     "Comparisons": [704, 715],
     "Measures": [
       {
@@ -18384,7 +18384,7 @@
     "IndicatorID": 2086,
     "IndicatorName": "Bicycle injury hospitalizations",
     "IndicatorLabel": "Bicycle injury hospitalizations",
-    "IndicatorDescription": "Bicycle injury hospitalizations can indicate the overall safety of cycling in the city - for transporation or other purposes.",
+    "IndicatorDescription": "Nonfatal hospitalizations due to bicycle injuries. Bicycle injury hospitalizations can indicate the overall safety of cycling in the city - for transportation, work, or fun.",
     "Comparisons": null,
     "Measures": [
       {
@@ -20266,7 +20266,7 @@
     "IndicatorID": 2092,
     "IndicatorName": "Bicycle injury emergency department visits",
     "IndicatorLabel": "Bicycle injury emergency department visits",
-    "IndicatorDescription": "Bicycle injury ED visits can indicate the overall safety of cycling in the city - for transporation or other purposes.",
+    "IndicatorDescription": "ED visits related to bicycle injuries.  Bicycle injury ED visits can indicate the overall safety of cycling in the city - for transportation, work, or fun.",
     "Comparisons": null,
     "Measures": [
       {
@@ -20393,7 +20393,7 @@
     "IndicatorID": 2093,
     "IndicatorName": "Pedestrian injury hospitalizations",
     "IndicatorLabel": "Pedestrian injury hospitalizations",
-    "IndicatorDescription": "Pedestrian injury hospitalizations can indicate the safety of walking for transporation.",
+    "IndicatorDescription": "Nonfatal transportation-related hospitalizations to pedestrians. Pedestrian injury hospitalizations can indicate the safety of walking for transportation.",
     "Comparisons": null,
     "Measures": [
       {
@@ -20520,7 +20520,7 @@
     "IndicatorID": 2094,
     "IndicatorName": "Pedestrian injury emergency department visits",
     "IndicatorLabel": "Pedestrian injury emergency department visits",
-    "IndicatorDescription": "Pedestrian injury ED visits can indicate the safety of walking for transporation.",
+    "IndicatorDescription": "Transportation-related ED visits for pedestrians. Pedestrian injury ED visits can indicate the safety of walking for transportation.",
     "Comparisons": null,
     "Measures": [
       {
@@ -21984,7 +21984,7 @@
     "IndicatorID": 2108,
     "IndicatorName": "Deaths due to PM2.5",
     "IndicatorLabel": "Deaths due to PM2.5",
-    "IndicatorDescription": "Estimating deaths that can be linked to PM2.5 is a way to understand how air pollution increases mortality.",
+    "IndicatorDescription": "Estimated annual deaths due to PM2.5 air pollution. Estimating these deaths is a way to understand how air pollution increases mortality.",
     "Comparisons": null,
     "Measures": [
       {
@@ -22117,9 +22117,9 @@
   },
   {
     "IndicatorID": 2112,
-    "IndicatorName": "Annual vehicle miles traveled",
+    "IndicatorName": "Traffic density",
     "IndicatorLabel": "Annual vehicle miles traveled",
-    "IndicatorDescription": "Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
+    "IndicatorDescription": "Annual vehicle miles travelled. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
     "Comparisons": null,
     "Measures": [
       {
@@ -22202,9 +22202,9 @@
   },
   {
     "IndicatorID": 2113,
-    "IndicatorName": "Annual vehicle miles traveled (cars)",
+    "IndicatorName": "Traffic density (cars)",
     "IndicatorLabel": "Annual vehicle miles traveled (cars)",
-    "IndicatorDescription": "Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
+    "IndicatorDescription": "Annual vehicle miles travelled by cars. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
     "Comparisons": null,
     "Measures": [
       {
@@ -22283,9 +22283,9 @@
   },
   {
     "IndicatorID": 2114,
-    "IndicatorName": "Annual vehicle miles traveled (trucks)",
+    "IndicatorName": "Traffic density (trucks)",
     "IndicatorLabel": "Annual vehicle miles traveled (trucks)",
-    "IndicatorDescription": "Traffic density is a measure of the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
+    "IndicatorDescription": "Annual vehicle miles travelled by trucks. Traffic density can influence health as a source of air pollution and traffic-related injuries.",
     "Comparisons": null,
     "Measures": [
       {
@@ -22366,7 +22366,7 @@
     "IndicatorID": 2117,
     "IndicatorName": "Asthma emergency department visits due to PM2.5",
     "IndicatorLabel": "Asthma emergency department visits due to PM2.5",
-    "IndicatorDescription": "PM2.5 can cause asthma ED visits, which represent part of the health burden of fine particle air pollution.",
+    "IndicatorDescription": "ED visits for asthma due to PM2.5 air pollution. These represent part of the health burden of air pollution.",
     "Comparisons": null,
     "Measures": [
       {
@@ -22627,7 +22627,7 @@
     "IndicatorID": 2119,
     "IndicatorName": "Respiratory hospitalizations due to PM2.5 (age 20+)",
     "IndicatorLabel": "Respiratory hospitalizations due to PM2.5 (age 20+)",
-    "IndicatorDescription": "Estimating hospitalizations that can be linked to PM2.5 is a way to understand how air pollution impacts public health.",
+    "IndicatorDescription": "Hospitalizations for respiratory issues due to PM2.5 pollution (among people over age 20). These represent part of the health burden of air pollution.",
     "Comparisons": null,
     "Measures": [
       {
@@ -22762,7 +22762,7 @@
     "IndicatorID": 2120,
     "IndicatorName": "Cardiovascular hospitalizations due to PM2.5 (age 40+)",
     "IndicatorLabel": "Cardiovascular hospitalizations due to PM2.5 (age 40+)",
-    "IndicatorDescription": "PM2.5 can cause cardiovascular hospitalizations, which represent part of the health burden of fine particle air pollution.",
+    "IndicatorDescription": "Hospitalizations for cardiovascular issues due to PM2.5 (among people over age 40). These represent part of the health burden of air pollution.",
     "Comparisons": null,
     "Measures": [
       {
@@ -22897,7 +22897,7 @@
     "IndicatorID": 2121,
     "IndicatorName": "Cardiac and respiratory deaths due to Ozone",
     "IndicatorLabel": "Cardiac and respiratory deaths due to Ozone",
-    "IndicatorDescription": "Estimating heart and respiratory deaths that can be linked to ozone is a way to understand how air pollution increases mortality.",
+    "IndicatorDescription": "Deaths due to cardiac or respiratory issues linked to ozone. These show how air pollution increases mortality.",
     "Comparisons": null,
     "Measures": [
       {
@@ -23032,7 +23032,7 @@
     "IndicatorID": 2122,
     "IndicatorName": "Asthma emergency departments visits due to Ozone",
     "IndicatorLabel": "Asthma emergency departments visits due to Ozone",
-    "IndicatorDescription": "Ozone can cause asthma ED visits, which are part of the health burden of air pollution.",
+    "IndicatorDescription": "ED visits for asthma due to ozone. These are part of the health burden of air pollution.",
     "Comparisons": null,
     "Measures": [
       {
@@ -23293,7 +23293,7 @@
     "IndicatorID": 2124,
     "IndicatorName": "Asthma hospitalizations due to Ozone",
     "IndicatorLabel": "Asthma hospitalizations due to Ozone",
-    "IndicatorDescription": "Ozone can cause hospitalizations for asthma, which are part of the health burden of air pollution.",
+    "IndicatorDescription": "Hospitalizations for asthma due to ozone. These are part of the health burden of air pollution.",
     "Comparisons": null,
     "Measures": [
       {
@@ -23554,7 +23554,7 @@
     "IndicatorID": 2132,
     "IndicatorName": "Health insurance (adults)",
     "IndicatorLabel": "Health insurance (adults)",
-    "IndicatorDescription": "Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
+    "IndicatorDescription": "Adults with any kind of health insurance. People with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
     "Comparisons": null,
     "Measures": [
       {
@@ -23701,7 +23701,7 @@
     "IndicatorID": 2133,
     "IndicatorName": "Walkability index",
     "IndicatorLabel": "Walkability index",
-    "IndicatorDescription": "This score summarizes features that promote walking, including density of residences, intersections, subway stops, and retail area. Higher scores indicate greater walkability. Neighborhoods range from -4.0 to 9.4, with zero as an approximate NYC average. This indicator excludes some factors that may impact access and walkability, like maintenance, ADA access, neighborhood safety, and street trees.",
+    "IndicatorDescription": "A score that summarizes features that promote walking. These include density of residences, intersections, subway stops, and retail area. Higher scores indicate greater walkability. Neighborhoods range from -4.0 to 9.4, with zero as an approximate NYC average. This indicator excludes some factors that may impact access and walkability, like maintenance, ADA access, neighborhood safety, and street trees.",
     "Comparisons": null,
     "Measures": [
       {
@@ -23756,7 +23756,7 @@
     "IndicatorID": 2135,
     "IndicatorName": "Fall-related emergency department visits (age 65+)",
     "IndicatorLabel": "Fall-related emergency department visits among older adults",
-    "IndicatorDescription": "Falls are a leading cause of injury among older adults.",
+    "IndicatorDescription": "ED visits due to falls among people over age 65. Falls are a leading cause of injury among older adults.",
     "Comparisons": null,
     "Measures": [
       {
@@ -24046,7 +24046,7 @@
     "IndicatorID": 2141,
     "IndicatorName": "Daytime summer surface temperature",
     "IndicatorLabel": "Daytime summer surface temperature",
-    "IndicatorDescription": "Surface temperatures vary based on vegetative cover (which promotes cooling), as well as by materials that retain heat (like paved roads, sidewalks, and buildings). Hotter neighborhoods tend to have more heat-exacerbated deaths associated with extreme heat events.",
+    "IndicatorDescription": "Spatial average of surface temperature, measured by satellite. Surface temperatures vary because of vegetative cover (which promotes cooling), and paved roads, sidewalks, and buildings (which retain heat). Hotter neighborhoods tend to have more heat-exacerbated deaths associated with extreme heat events.",
     "Comparisons": null,
     "Measures": [
       {
@@ -24126,7 +24126,7 @@
     "IndicatorID": 2143,
     "IndicatorName": "Vegetative cover",
     "IndicatorLabel": "Grass and tree cover",
-    "IndicatorDescription": "Vegetative cover is the land covered by trees, grass, or other plants instead of a hard surface like roads, sidewalks, or buildings. Vegetative cover tends to reduce temperatures in the immediate area and may increase air quality.",
+    "IndicatorDescription": "Land covered by trees, grass, or other plants. Vegetative cover reduces temperatures in the immediate area, and may increase air quality.",
     "Comparisons": null,
     "Measures": [
       {
@@ -24214,7 +24214,7 @@
     "IndicatorID": 2145,
     "IndicatorName": "Independent living difficulty (adults)",
     "IndicatorLabel": "Independent living difficulty (adults)",
-    "IndicatorDescription": "People with disabilities or access or functional needs may need additional support during extreme weather. For example, they may need extra planning for safe travel out of evacuation zones during a hurricane, or back-up electricity to support medical equipment during power outages. Information provided here about adults with independent living difficulties can help emergency management professionals better prepare our residents for emergencies.",
+    "IndicatorDescription": "Adults reporting independent living difficulty due to a physical, mental, or emotional problem. People with disabilities may need additional support during extreme weather. For example, extra planning for safe travel out of evacuation zones during a hurricane, or back-up electricity to support medical equipment during power outages.",
     "Comparisons": null,
     "Measures": [
       {
@@ -24447,7 +24447,7 @@
     "IndicatorID": 2146,
     "IndicatorName": "Older adults living alone (65+)",
     "IndicatorLabel": "Older adults living alone (65+)",
-    "IndicatorDescription": "Older adults are more vulnerable to extreme weather. Those living alone may have more difficulty getting resources they need in an emergency, and are at higher risk of weather-related illnesses like heat stroke and hypothermia.",
+    "IndicatorDescription": "People age 65+ living alone. People living alone may have more difficulty getting resources they need in an emergency, and are at higher risk of weather-related illnesses like heat stroke and hypothermia.",
     "Comparisons": null,
     "Measures": [
       {
@@ -24680,7 +24680,7 @@
     "IndicatorID": 2151,
     "IndicatorName": "Adults with a personal doctor",
     "IndicatorLabel": "Adults with a personal doctor",
-    "IndicatorDescription": "Having a regular doctor makes it easier to maintain good health.",
+    "IndicatorDescription": "Adults who report having a personal doctor. Having a regular doctor makes it easier to maintain good health.",
     "Comparisons": null,
     "Measures": [
       {
@@ -24954,7 +24954,7 @@
     "IndicatorID": 2157,
     "IndicatorName": "Tree canopy cover",
     "IndicatorLabel": "Tree canopy cover",
-    "IndicatorDescription": "Tree canopy coverage is the percent of a neighborhood that is shaded by trees. Tree shade can lower a neighborhood's temperatures, can make it more comfortable and attractive to walk and stay active.",
+    "IndicatorDescription": "The percent of a neighborhood that is shaded by trees. Tree shade can lower a neighborhood's temperatures, can make it more comfortable and attractive to walk and stay active.",
     "Comparisons": null,
     "Measures": [
       {
@@ -25030,7 +25030,7 @@
     "IndicatorID": 2158,
     "IndicatorName": "Subway station density",
     "IndicatorLabel": "Subway station density",
-    "IndicatorDescription": "Neighborhoods with greater subway access encourage active transportation, which may increase physical activity and overall health of residents. They also tend to have more foot traffic, which attracts businesses and can foster community.",
+    "IndicatorDescription": "Subway stations per square kilometer. Neighborhoods with greater subway access encourage active transportation, which may increase physical activity and overall health of residents. They also tend to have more foot traffic, which attracts businesses and can foster community.",
     "Comparisons": null,
     "Measures": [
       {
@@ -25085,7 +25085,7 @@
     "IndicatorID": 2168,
     "IndicatorName": "Carbon monoxide incidents (without a detector)",
     "IndicatorLabel": "Carbon monoxide incidents (without a detector)",
-    "IndicatorDescription": "Carbon monoxide detectors are required in NYC homes by law. Failure to provide or maintain a detector can put people at risk for carbon monoxide poisoning and death.",
+    "IndicatorDescription": "Carbon monoxide incidents when there was no alarm. Carbon monoxide detectors are required in NYC homes by law. Failure to provide or maintain a detector can put people at risk for carbon monoxide poisoning and death.",
     "Comparisons": null,
     "Measures": [
       {
@@ -25675,7 +25675,7 @@
     "IndicatorID": 2174,
     "IndicatorName": "Cold stress: hospitalizations",
     "IndicatorLabel": "Cold stress: hospitalizations",
-    "IndicatorDescription": "Hospitalizations for cold-related illnesses, such as hypothermia and frostbite, represent part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
+    "IndicatorDescription": "Hospitalizations for cold-related illnesses, such as hypothermia and frostbite. These are part of the health burden of cold weather. Cold weather can also make chronic conditions worse.",
     "Comparisons": null,
     "Measures": [
       {
@@ -25846,7 +25846,7 @@
     "IndicatorID": 2175,
     "IndicatorName": "Cold stress: emergency department visits",
     "IndicatorLabel": "Cold stress: emergency department visits",
-    "IndicatorDescription": "ED visits for cold-related illnesses, such as hypothermia and frostbite, represent part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
+    "IndicatorDescription": "ED visits for cold-related illnesses, such as hypothermia and frostbite. These are part of the health burden of cold weather. Cold weather can also make chronic conditions worse.",
     "Comparisons": null,
     "Measures": [
       {
@@ -26017,7 +26017,7 @@
     "IndicatorID": 2176,
     "IndicatorName": "Child poverty (under age 5)",
     "IndicatorLabel": "Children under 5 years old in Poverty",
-    "IndicatorDescription": "Poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
+    "IndicatorDescription": "Children living in households in poverty. Poverty deprives people of access to health and safety resources.",
     "Comparisons": null,
     "Measures": [
       {
@@ -26296,7 +26296,7 @@
     "IndicatorID": 2179,
     "IndicatorName": "Renter-occupied homes with no housing problems",
     "IndicatorLabel": "Renter-occupied homes with no housing problems",
-    "IndicatorDescription": "Healthy homes are free of housing problems.",
+    "IndicatorDescription": "Renter-occupied homes reporting no housing problems. Healthy homes are free of housing problems.",
     "Comparisons": null,
     "Measures": [
       {
@@ -26474,7 +26474,7 @@
     "IndicatorID": 2181,
     "IndicatorName": "Sidewalk area",
     "IndicatorLabel": "Sidewalk area",
-    "IndicatorDescription": "Sidewalks are important for commuting, businesses, and physical activity. Greater sidewalk area can contribute to a safer pedestrian environment, support vibrant business districts and can foster social interaction among residents.",
+    "IndicatorDescription": "Sidewalk area percentage. Sidewalks are important for commuting, businesses, and physical activity. More sidewalk area contributes to a safer pedestrian environment, supports vibrant business districts and can foster social interaction.",
     "Comparisons": null,
     "Measures": [
       {
@@ -26542,7 +26542,7 @@
     "IndicatorID": 2184,
     "IndicatorName": "Elevated blood lead levels (under age 6)",
     "IndicatorLabel": "Elevated blood lead levels (under age 6)",
-    "IndicatorDescription": "Elevated blood lead levels are 5+ mcg/dL. There is no safe level of lead in the blood. Lead poisoning can cause learning and behavior problems, and delay growth and mental development.",
+    "IndicatorDescription": "Blood lead levels above 5 mcg/dL among children under age 6. Lead poisoning can cause learning and behavior problems, and delay growth and mental development. There is no safe level of lead in the blood.",
     "Comparisons": null,
     "Measures": [
       {
@@ -27115,7 +27115,7 @@
     "IndicatorID": 2185,
     "IndicatorName": "Household air conditioning",
     "IndicatorLabel": "Household air conditioning",
-    "IndicatorDescription": "Air conditioning is an important way to avoid heat stress, especially for persons with limited mobility.",
+    "IndicatorDescription": "Households reporting functioning air conditioning (AC). AC is an important way to prevent heat stress, especially for people with limited mobility.",
     "Comparisons": null,
     "Measures": [
       {
@@ -27347,7 +27347,7 @@
     "IndicatorID": 2188,
     "IndicatorName": "Homes with grab bars in bathroom (age 65+)",
     "IndicatorLabel": "Homes with grab bars in bathroom (age 65+)",
-    "IndicatorDescription": "Grab bars in bathrooms can help prevent falls among older adults.",
+    "IndicatorDescription": "Homes with grab bars in the bathroom, among homes with adults age 65+. Grab bars in bathrooms can help prevent falls among older adults.",
     "Comparisons": null,
     "Measures": [
       {
@@ -27494,7 +27494,7 @@
     "IndicatorID": 2189,
     "IndicatorName": "Lead testing (by age 3)",
     "IndicatorLabel": "Lead testing (by age 3)",
-    "IndicatorDescription": "In New York State, all children must be tested for lead before age 3. There is no safe level of lead in the blood.",
+    "IndicatorDescription": "Children tested for lead before age 3. In New York State, all children must be tested for lead before age 3. There is no safe level of lead in the blood.",
     "Comparisons": null,
     "Measures": [
       {
@@ -27660,7 +27660,7 @@
     "IndicatorID": 2191,
     "IndicatorName": "Heat vulnerability index",
     "IndicatorLabel": "Heat vulnerability index",
-    "IndicatorDescription": "The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"../../key-topics/climatehealth/hvi\">See our interactive Heat Vulnerability Index<\/a>",
+    "IndicatorDescription": "The risk of community-level heat impacts like deaths due to extreme heat events. The HVI is made from data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources.",
     "Comparisons": null,
     "Measures": [
       {
@@ -27715,7 +27715,7 @@
     "IndicatorID": 2207,
     "IndicatorName": "Disinfection by-products (TTHM)",
     "IndicatorLabel": "Disinfection by-products (TTHM)",
-    "IndicatorDescription": "Disinfection by-products are chemicals that can form when a disinfectant such as chlorine reacts with naturally occurring organic matter and other substances in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
+    "IndicatorDescription": "Concentration of TTHM in drinking water. Disinfection by-products form when a disinfectant such as chlorine reacts with naturally occurring organic matter in the source water. Current research is investigating whether there are health effects from chronic exposure to the by-products of water disinfection.",
     "Comparisons": [672, 673],
     "Measures": [
       {
@@ -28112,7 +28112,7 @@
     "IndicatorID": 2208,
     "IndicatorName": "Asbestosis hospitalizations",
     "IndicatorLabel": "Hospitalizations for Asbestosis",
-    "IndicatorDescription": "Asbestos is a naturally-occurring mineral which was commonly used as an insulation material until the 1970s. Inhaling high concentrations of asbestos fibers over a long time can produce lung inflammation and scarring resulting in the chronic lung disease called asbestosis, a type of pneumoconiosis. New York City construction, insulation, and shipyard workers who installed, disturbed, or removed asbestos without respiratory protection are at risk. Additionally, smokers who are exposed to asbestos have a greater risk of developing asbestos-related diseases than non-smokers. Typically it takes more than ten years from the time of exposure before symptoms develop. The use of proper protective masks is key to preventing the disease, since there is no treatment.",
+    "IndicatorDescription": "Hospitalizations for asbestosis. Asbestos is a naturally-occurring mineral which was commonly used as an insulation material until the 1970s. Inhaling asbestos fibers can result in the chronic lung disease called asbestosis, a type of pneumoconiosis. New York City construction, insulation, and shipyard workers who installed, disturbed, or removed asbestos without respiratory protection are at risk. Typically it takes more than ten years before symptoms develop. The use of proper protective masks is key to preventing the disease, since there is no treatment.",
     "Comparisons": null,
     "Measures": [
       {
@@ -28229,7 +28229,7 @@
     "IndicatorID": 2209,
     "IndicatorName": "Elevated blood lead levels (age 16+)",
     "IndicatorLabel": "Elevated blood lead levels (age 16+)",
-    "IndicatorDescription": "In New York City, the most common cause of lead poisoning in non-pregnant adults is from working in the construction. Workers are exposed by breathing or ingesting lead dust or fumes during work that disturbs old lead based paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through lead-contaminated products, like some imported health remedies, spices, foods, pottery and cosmetics.",
+    "IndicatorDescription": "Blood lead levels over 10 mg/dL among people age 16+. In New York City, the most common cause of lead poisoning in non-pregnant adults is from working in the construction. Workers are exposed through lead dust or fumes during work that disturbs old lead paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through lead-contaminated products, like some imported health remedies, spices, foods, pottery and cosmetics.",
     "Comparisons": [303],
     "Measures": [
       {
@@ -28454,7 +28454,7 @@
     "IndicatorID": 2210,
     "IndicatorName": "Pneumoconiosis hospitalizations",
     "IndicatorLabel": "Hospitalizations for Pneumoconiosis",
-    "IndicatorDescription": "Pneumoconiosis is a general term given to any lung disease caused by breathing in certain particles or fibers over a prolonged period. Pneumoconiosis usually results from a workplace exposure. The most common causes of pneumoconiosis include asbestos fibers, silica dust, and coal dust. There is no cure, but it can be prevented with appropriate respiratory protection.",
+    "IndicatorDescription": "Hospitalizations for pneumoconiosis, a lung disease caused by breathing in certain particles or fibers over a prolonged period. Pneumoconiosis usually results from a workplace exposure. The most common causes of pneumoconiosis include asbestos fibers, silica dust, and coal dust. There is no cure, but it can be prevented with appropriate respiratory protection.",
     "Comparisons": null,
     "Measures": [
       {
@@ -28571,7 +28571,7 @@
     "IndicatorID": 2211,
     "IndicatorName": "Hospitalizations billed to workers' compensation",
     "IndicatorLabel": "Hospitalizations Billed to Workers' Compensation",
-    "IndicatorDescription": "Workers' compensation is a type of insurance that provides medical care for workers who are injured or become ill as a direct result of their job. Hospitalizations billed to workers' comp represent only a portion of work-related injuries that require hospital care. It is important to realize that workers' compensation policies vary from state-to-state with respect to the types of workers covered and the types of injuries and illnesses eligible for compensation",
+    "IndicatorDescription": "Hospitalizations billed to workers' compensation. Workers' compensation provides medical care for workers injured or become ill as a direct result of their job. Hospitalizations billed to workers' comp represent only a portion of work-related injuries that require hospital care. Workers' compensation policies vary from state-to-state.",
     "Comparisons": null,
     "Measures": [
       {
@@ -28688,7 +28688,7 @@
     "IndicatorID": 2214,
     "IndicatorName": "Work-related deaths (all industries)",
     "IndicatorLabel": "Work-related deaths (all industries)",
-    "IndicatorDescription": "Fatal work-related injuries include deaths resulting from unintentional injuries such as falls, acute poisonings, and motor vehicle crashes that occur during travel for work, and intentional injuries (i.e., homicides and suicides) that occur at work. Fatal injuries that occur during a commute are not included.",
+    "IndicatorDescription": "Fatal, work-related injuries. These include deaths resulting from unintentional injuries such as falls, acute poisonings, and motor vehicle crashes that occur during travel for work, and intentional injuries (i.e., homicides and suicides) that occur at work.",
     "Comparisons": null,
     "Measures": [
       {
@@ -29446,7 +29446,7 @@
     "IndicatorID": 2235,
     "IndicatorName": "Adults reporting personal use of pesticides",
     "IndicatorLabel": "Adults Reporting Personal Pesticide Use",
-    "IndicatorDescription": "Pesticide use in the home. This does not include pesticide applications by professional exterminators.",
+    "IndicatorDescription": "Adults reporting pesticide use in the home. This does not include pesticide applications by professional exterminators.",
     "Comparisons": null,
     "Measures": [
       {
@@ -31021,7 +31021,7 @@
     "IndicatorID": 2317,
     "IndicatorName": "Jail incarceration",
     "IndicatorLabel": "Jail incarceration",
-    "IndicatorDescription": "Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighborhoods.",
+    "IndicatorDescription": "Adults incarcerated in NYC facilities. Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes for the individual, their families, and neighborhoods.",
     "Comparisons": null,
     "Measures": [
       {
@@ -31084,7 +31084,7 @@
     "IndicatorID": 2322,
     "IndicatorName": "Premature mortality",
     "IndicatorLabel": "Premature mortality",
-    "IndicatorDescription": "The rate of people who die before age 65 can indicate the overall health of a population.",
+    "IndicatorDescription": "Deaths before age 65. This can indicate the overall health of a population.",
     "Comparisons": null,
     "Measures": [
       {
@@ -31287,7 +31287,7 @@
     "IndicatorID": 2325,
     "IndicatorName": "Race and ethnicity",
     "IndicatorLabel": "Race and ethnicity",
-    "IndicatorDescription": "Structural racism, which includes neighborhood disinvestment, racist housing policies, fewer job opportunities and lower pay, and less access to high-quality education and health care, means that our society often deprives people of color of the resources they need to stay healthy.",
+    "IndicatorDescription": "Population by Census race/ethnicity category. Past and present structural racism has inequitably distributed resources that people need to stay healthy - like job opportunities, healthy housing, high-quality education, and health care.",
     "Comparisons": null,
     "Measures": [
       {
@@ -32368,7 +32368,7 @@
     "IndicatorID": 2336,
     "IndicatorName": "Rent-burdened households",
     "IndicatorLabel": "Rent-burdened households",
-    "IndicatorDescription": "Rent burden is spending 30% or more of your income on rent and utilities.",
+    "IndicatorDescription": "Renter households spending 30% of their income or more on rent.",
     "Comparisons": null,
     "Measures": [
       {
@@ -33940,7 +33940,7 @@
     "IndicatorID": 2365,
     "IndicatorName": "Evictions (court-ordered)",
     "IndicatorLabel": "Evictions (court-ordered)",
-    "IndicatorDescription": "Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with negative health among adults and children.People who are threatened with eviction, even before they lose their home, are more likely to report poor health, high blood pressure, depression (from \"The Hidden Health Crisis of Eviction\" by Allison Bovell-Ammo and Megan Sandel).",
+    "IndicatorDescription": "Court-ordered evictions. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with negative health among adults and children. People who are threatened with eviction, even before they lose their home, are more likely to report poor health.",
     "Comparisons": null,
     "Measures": [
       {
@@ -36164,7 +36164,7 @@
     "IndicatorID": 2376,
     "IndicatorName": "Cold stress: deaths",
     "IndicatorLabel": "Cold stress: deaths",
-    "IndicatorDescription": "Deaths due to cold weather represent part of the public health burden of cold weather. Cold weather can also worsen chronic conditions, sometimes leading to death. This data only includes deaths directly attributed to cold on death certificates.\r\n",
+    "IndicatorDescription": "Deaths due to cold weather. These are part of the health burden of cold weather. Cold weather can also worsen chronic conditions, sometimes leading to death. This data only includes deaths directly attributed to cold on death certificates.\r\n",
     "Comparisons": null,
     "Measures": [
       {
@@ -36219,7 +36219,7 @@
     "IndicatorID": 2377,
     "IndicatorName": "Households using electric medical equipment",
     "IndicatorLabel": "Households using electric medical equipment",
-    "IndicatorDescription": "People who use electric medical equipment are more vulnerable during power outages or evacuations.",
+    "IndicatorDescription": "Households with someone using electric medical equipment. People who use electric medical equipment are more vulnerable during power outages or evacuations.",
     "Comparisons": null,
     "Measures": [
       {
@@ -36354,7 +36354,7 @@
     "IndicatorID": 2378,
     "IndicatorName": "Asthma emergency department visits (age 4 and under), by NTA",
     "IndicatorLabel": "Children (4 and under), by NTA",
-    "IndicatorDescription": "Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "IndicatorDescription": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Comparisons": null,
     "Measures": [
       {
@@ -36481,7 +36481,7 @@
     "IndicatorID": 2379,
     "IndicatorName": "Asthma emergency department visits (age 5 to 17)",
     "IndicatorLabel": "Children (age 5 to 17)",
-    "IndicatorDescription": "Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "IndicatorDescription": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Comparisons": [555, 676],
     "Measures": [
       {
@@ -36670,7 +36670,7 @@
     "IndicatorID": 2380,
     "IndicatorName": "Asthma emergency department visits (adults)",
     "IndicatorLabel": "Adults",
-    "IndicatorDescription": "Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "IndicatorDescription": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Comparisons": [555, 676],
     "Measures": [
       {
@@ -36939,7 +36939,7 @@
     "IndicatorID": 2381,
     "IndicatorName": "Asthma hospitalizations (age 5 to 17)",
     "IndicatorLabel": "Children (age 5 to 17)",
-    "IndicatorDescription": "Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "IndicatorDescription": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
     "Comparisons": [554, 675],
     "Measures": [
       {
@@ -37140,7 +37140,7 @@
     "IndicatorID": 2382,
     "IndicatorName": "Asthma hospitalizations (adults)",
     "IndicatorLabel": "Adults",
-    "IndicatorDescription": "Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "IndicatorDescription": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
     "Comparisons": [554, 675],
     "Measures": [
       {
@@ -37417,7 +37417,7 @@
     "IndicatorID": 2383,
     "IndicatorName": "Asthma emergency department visits (age 5 to 17), by NTA",
     "IndicatorLabel": "Children (age 5 to 17), by NTA",
-    "IndicatorDescription": "Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "IndicatorDescription": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Comparisons": null,
     "Measures": [
       {
@@ -37598,7 +37598,7 @@
     "IndicatorID": 2384,
     "IndicatorName": "Asthma emergency department visits (adults), by NTA",
     "IndicatorLabel": "Adults (by NTA)",
-    "IndicatorDescription": "Severe asthma attacks can result in a visit to the ED. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
+    "IndicatorDescription": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma.",
     "Comparisons": null,
     "Measures": [
       {
@@ -37842,7 +37842,7 @@
     "IndicatorID": 2385,
     "IndicatorName": "Asthma hospitalizations (age 4 and under), by NTA",
     "IndicatorLabel": "Children (age 4 and under), by NTA",
-    "IndicatorDescription": "Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "IndicatorDescription": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
     "Comparisons": null,
     "Measures": [
       {
@@ -37969,7 +37969,7 @@
     "IndicatorID": 2386,
     "IndicatorName": "Asthma hospitalizations (age 5 to 17), by NTA",
     "IndicatorLabel": "Children (age 5 to 17), by NTA",
-    "IndicatorDescription": "Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "IndicatorDescription": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
     "Comparisons": null,
     "Measures": [
       {
@@ -38096,7 +38096,7 @@
     "IndicatorID": 2387,
     "IndicatorName": "Asthma hospitalizations (adults), by NTA",
     "IndicatorLabel": "Adults (by NTA)",
-    "IndicatorDescription": "Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+    "IndicatorDescription": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
     "Comparisons": null,
     "Measures": [
       {
@@ -38401,7 +38401,7 @@
     "IndicatorID": 2389,
     "IndicatorName": "Unhealthy food access",
     "IndicatorLabel": "Unhealthy food access",
-    "IndicatorDescription": "A neighborhood's ratio of bodegas to supermarkets can indicate whether the environment makes accessing unhealthy food easier for residents, as bodegas are less likely to have healthy food options than supermarkets.",
+    "IndicatorDescription": "The ratio of bodegas to supermarkets. This can indicate whether the environment makes accessing unhealthy food easier for residents, as bodegas are less likely to have healthy food options than supermarkets.",
     "Comparisons": null,
     "Measures": [
       {
@@ -38469,7 +38469,7 @@
     "IndicatorID": 2390,
     "IndicatorName": "Bicycle network coverage",
     "IndicatorLabel": "Bicycle network coverage",
-    "IndicatorDescription": "Bike lanes can improve bicyclist and pedestrian safety, physical activity, and sustainable transportation use. An increase in percentage of streets with bike lanes can indicate a safer cycling environment in a neighborhood which may increase overall cycling.",
+    "IndicatorDescription": "Percent of street milage with bike lanes. Bike lanes can improve bicyclist and pedestrian safety, physical activity, and sustainable transportation use.",
     "Comparisons": null,
     "Measures": [
       {
@@ -38778,7 +38778,7 @@
     "IndicatorID": 2393,
     "IndicatorName": "Children in homes with cockroaches (age 1-13)",
     "IndicatorLabel": "Children in homes with cockroaches (age 1-13)",
-    "IndicatorDescription": "The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
+    "IndicatorDescription": "Children living in homes with reported cockroaches. The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
     "Comparisons": null,
     "Measures": [
       {
@@ -38913,7 +38913,7 @@
     "IndicatorID": 2394,
     "IndicatorName": "Children in homes with mice (age 1-13)",
     "IndicatorLabel": "Children in homes with mice (age 1-13)",
-    "IndicatorDescription": "The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
+    "IndicatorDescription": "Children living in homes with reported mice. The presence of mice is associated with poor housing maintenance. Mice can contaminate food and worsen asthma.",
     "Comparisons": null,
     "Measures": [
       {
@@ -39048,7 +39048,7 @@
     "IndicatorID": 2395,
     "IndicatorName": "Children in homes with cracks or holes (age 1-13)",
     "IndicatorLabel": "Children in homes with cracks or holes (age 1-13)",
-    "IndicatorDescription": "Cracks or holes are a housing problem linked to the presence of mice, rats, and cockroaches. Pests in the home can contaminate food and worsen asthma.",
+    "IndicatorDescription": "Children living in homes with cracks or holes in walls, ceilings, or floors. This housing problem is linked to the presence of pets, which contaminate food and worsen asthma.",
     "Comparisons": null,
     "Measures": [
       {
@@ -39183,7 +39183,7 @@
     "IndicatorID": 2396,
     "IndicatorName": "Children in homes with supplemental heat (age 13 and under)",
     "IndicatorLabel": "Children in homes with supplemental heat (age 13 and under)",
-    "IndicatorDescription": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening housing problems, which can harm children's health.",
+    "IndicatorDescription": "Children living in homes that use supplemental heat. This housing problem can indicate the presence of other health-threatening housing problems that can harm children's health.",
     "Comparisons": null,
     "Measures": [
       {
@@ -39305,7 +39305,7 @@
     "IndicatorID": 2398,
     "IndicatorName": "Carbon monoxide deaths",
     "IndicatorLabel": "Carbon monoxide deaths",
-    "IndicatorDescription": "A death due to carbon monoxide may be fire-related or non-fire-related.",
+    "IndicatorDescription": "Deaths due to carbon monoxide. These may be fire-related or non-fire-related.",
     "Comparisons": [551],
     "Measures": [
       {
@@ -39452,7 +39452,7 @@
     "IndicatorID": 2399,
     "IndicatorName": "Renter-occupied homes with any health-related housing problems",
     "IndicatorLabel": "Renter-occupied homes with any health-related housing problems",
-    "IndicatorDescription": "Homes with housing problems can threaten the health of the people who live there.",
+    "IndicatorDescription": "Renter-occupied homes with any health-related housing problems. Homes with housing problems can threaten the health of the people who live there.",
     "Comparisons": null,
     "Measures": [
       {
@@ -39886,7 +39886,7 @@
     "IndicatorID": 2403,
     "IndicatorName": "Homes with reported falls (age 65+)",
     "IndicatorLabel": "Homes with reported falls among adults 65 and older",
-    "IndicatorDescription": "Falls are a leading cause of injury among older adults.",
+    "IndicatorDescription": "Households that reported people 65 or older who fell in the home. Falls are a leading cause of injury among older adults.",
     "Comparisons": null,
     "Measures": [
       {
@@ -40025,7 +40025,7 @@
     "IndicatorID": 2404,
     "IndicatorName": "Secondhand smoke exposure at home (children)",
     "IndicatorLabel": "Children exposed to tobacco smoke in home (ages 1-13 years)",
-    "IndicatorDescription": "The number of children aged 1-13 years exposed to tobacco smoke at home all of the time, most of the time, or occasionally. Secondhand smoke is harmful to children and can cause or worsen respiratory and asthma issues and ear infections.",
+    "IndicatorDescription": "The number of children aged 1-13 years exposed to tobacco smoke at home. Secondhand smoke is harmful to children and can cause or worsen respiratory and asthma issues and ear infections.",
     "Comparisons": null,
     "Measures": [
       {
@@ -40160,7 +40160,7 @@
     "IndicatorID": 2405,
     "IndicatorName": "Carbon monoxide emergency department visits",
     "IndicatorLabel": "Carbon monoxide emergency department visits",
-    "IndicatorDescription": "Carbon monoxide (CO) exposure can be life-threatening or fatal. ED visits and hospitalizations allows us to understand the burden of CO-related health impacts.",
+    "IndicatorDescription": "Emergency department visits due to carbon monoxide. Carbon monoxide (CO) exposure can be life-threatening or fatal.",
     "Comparisons": [678, 680],
     "Measures": [
       {
@@ -40469,7 +40469,7 @@
     "IndicatorID": 2406,
     "IndicatorName": "Carbon monoxide hospitalizations",
     "IndicatorLabel": "Carbon monoxide hospitalizations",
-    "IndicatorDescription": "Carbon monoxide (CO) exposure can be life-threatening or fatal. ED visits and hospitalizations allows us to understand the burden of CO-related health impacts.",
+    "IndicatorDescription": "Hospitalizations s due to carbon monoxide. Carbon monoxide (CO) exposure can be life-threatening or fatal.",
     "Comparisons": [652, 677],
     "Measures": [
       {
@@ -40778,7 +40778,7 @@
     "IndicatorID": 2408,
     "IndicatorName": "Home fall-related emergency department visits (age 65+)",
     "IndicatorLabel": "Home fall-related emergency department visits among older adults",
-    "IndicatorDescription": "Falls are a leading cause of injury among older adults.",
+    "IndicatorDescription": "Emergency department visits due to home falls (age 65+). Falls are a leading cause of injury among older adults",
     "Comparisons": null,
     "Measures": [
       {
@@ -40900,7 +40900,7 @@
     "IndicatorID": 2409,
     "IndicatorName": "Home fall-related hospitalizations (age 65+)",
     "IndicatorLabel": "Home fall-related hospitalizations among older adults",
-    "IndicatorDescription": "Falls are a leading cause of injury among older adults.",
+    "IndicatorDescription": "Hospitalizations due to home falls (age 65+). Falls are a leading cause of injury among older adults",
     "Comparisons": null,
     "Measures": [
       {
@@ -41022,7 +41022,7 @@
     "IndicatorID": 2410,
     "IndicatorName": "Heat stress: 10-year hospitalizations",
     "IndicatorLabel": "Heat stress: hospitalizations",
-    "IndicatorDescription": "Heat stress hospitalizations weather are part of the public health burden due to hot weather. Data aggregated over 10 years provides enough stablility to display neighborhood impacts.",
+    "IndicatorDescription": "Hospitalizations due to hot weather. These are part of the public health burden due to hot weather. Data aggregated over 10 years provides enough stablility to display neighborhood impacts.",
     "Comparisons": null,
     "Measures": [
       {
@@ -41220,7 +41220,7 @@
     "IndicatorID": 2411,
     "IndicatorName": "Heat vulnerability index (NTA)",
     "IndicatorLabel": "Heat vulnerability index (NTA)",
-    "IndicatorDescription": "The HVI shows the risk of community-level heat impacts, like deaths, due to extreme heat events. It is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources. <a href=\"../../key-topics/climatehealth/hvi\">See our interactive Heat Vulnerability Index<\/a>",
+    "IndicatorDescription": "The risk of community-level heat impacts, like deaths, due to extreme heat events. The HVI is made up of data on surface temperature, green space, air conditioning access, median income, and Black population (the population most excluded from heat resources). Differences in community-level heat impacts stem from structural racism, which limits access to preventive resources.",
     "Comparisons": null,
     "Measures": [
       {
@@ -42346,7 +42346,7 @@
     "IndicatorID": 2416,
     "IndicatorName": "Litter basket coverage",
     "IndicatorLabel": "Litter basket coverage",
-    "IndicatorDescription": "Sanitation supports public health by providing clean, healthy public spaces for people to live, work, and get around. Litter baskets, or trash cans, are associated with a decrease in littering. Enclosed, non-wire baskets are generally better than wire baskets.",
+    "IndicatorDescription": "Public litter baskets (trash  cans). Litter baskets are associated with a decrease in littering. Enclosed, non-wire baskets are generally better than wire baskets. Generally, sanitation supports public health by providing clean, healthy public spaces for people to live, work, and get around.",
     "Comparisons": null,
     "Measures": [
       {
@@ -42813,7 +42813,7 @@
     "IndicatorID": 2417,
     "IndicatorName": "Depression (adults)",
     "IndicatorLabel": "Depression (adults)",
-    "IndicatorDescription": "Depression is a common mental health condition that is characterized by feelings of sadness, difficulty concentrating, tiredness or reduced energy, and loss of interest in activities that used to bring enjoyment.",
+    "IndicatorDescription": "Adults who had probable depression. Depression is a common mental health condition that is characterized by feelings of sadness, difficulty concentrating, tiredness or reduced energy, and loss of interest in activities that used to bring enjoyment.",
     "Comparisons": null,
     "Measures": [
       {
@@ -43023,7 +43023,7 @@
     "IndicatorID": 2418,
     "IndicatorName": "Psychiatric hospitalizations (adults)",
     "IndicatorLabel": "Psychiatric hospitalizations (adults)",
-    "IndicatorDescription": "A psychiatric hospitalization is defined as an overnight stay or longer in a psychiatric inpatient unit (excluding emergency room visits without an inpatient admission) for individuals with behaviors or symptoms that are likely to result in harm to themselves or others.",
+    "IndicatorDescription": "Adults hospitalized for a mental health-related reason. A  psychiatric hospitalization is an overnight stay or longer in a psychiatric inpatient unit (excluding emergency room visits without an inpatient admission) for individuals with behaviors or symptoms that are likely to result in harm to themselves or others.",
     "Comparisons": null,
     "Measures": [
       {
@@ -43233,7 +43233,7 @@
     "IndicatorID": 2419,
     "IndicatorName": "Serious psychological distress (adults)",
     "IndicatorLabel": "Serious psychological distress (adults)",
-    "IndicatorDescription": "Serious psychological distress (SPD) is a term used to describe the feelings of people who have recently been having problems functioning due to negative emotional or mental experiences.",
+    "IndicatorDescription": "Adults with serious psychological distress (SPD). Serious psychological distress (SPD) is having problems functioning due to negative emotional or mental experiences.",
     "Comparisons": null,
     "Measures": [
       {
@@ -43636,7 +43636,7 @@
     "IndicatorID": 2422,
     "IndicatorName": "E-cigarette vapor exposure at home (children)",
     "IndicatorLabel": "Children exposed to e-cigarette smoke in home",
-    "IndicatorDescription": "E-cigarette smoke: The number of children aged 1-13 years exposed to e-cigarette smoke at home all of the time, most of the time, or occasionally. Chemicals in the vapor from e-cigarettes can be harmful to kids.",
+    "IndicatorDescription": "The number of children aged 1-13 years exposed to e-cigarette smoke at home all of the time, most of the time, or occasionally. Chemicals in the vapor from e-cigarettes can be harmful to kids.",
     "Comparisons": null,
     "Measures": [
       {
@@ -44479,7 +44479,7 @@
     "IndicatorID": 2427,
     "IndicatorName": "Bacteria",
     "IndicatorLabel": "Bacteria",
-    "IndicatorDescription": "<p>Concentration of bacteria - fecal coliform and enterococci are human-health-related indicators of water quality. Fecal coliform bacteria are found in human and animal intestines and are associated with wastewater. Enterococci may be a more sensitive indicator of wastewater pollution in a saltwater environment.<\/p>",
+    "IndicatorDescription": "Concentration of bacteria in waterways. Fecal coliform and enterococci are human-health-related indicators of water quality. Fecal coliform bacteria are found in human and animal intestines and are associated with wastewater. Enterococci may be a more sensitive indicator of wastewater pollution in a saltwater environment.",
     "Comparisons": [717, 718, 723, 724, 725, 726, 727, 728, 729, 730],
     "Measures": [
       {
@@ -44732,7 +44732,7 @@
     "IndicatorID": 2428,
     "IndicatorName": "Dissolved oxygen (DO)",
     "IndicatorLabel": "Dissolved oxygen (DO)",
-    "IndicatorDescription": "Dissolved oxygen is essential for most aquatic life. It is an important indicator of overall water quality.",
+    "IndicatorDescription": "Dissolved oxygen in waterways. Ozygen is essential for most aquatic life. It is an important indicator of overall water quality.",
     "Comparisons": [716, 719, 720, 721, 722],
     "Measures": [
       {
@@ -45348,7 +45348,7 @@
     "IndicatorID": 2432,
     "IndicatorName": "Farmers markets",
     "IndicatorLabel": "Farmers markets",
-    "IndicatorDescription": "Farmers markets are a great source of fresh produce and other healthy food options and can help mitigate the negative effects of food deserts.",
+    "IndicatorDescription": "Farmers' markets that are open at any point in the year. Farmers' markets are a source of fresh produce and other healthy food options and can help relieve the effects of food deserts.",
     "Comparisons": null,
     "Measures": [
       {
@@ -46956,7 +46956,7 @@
     "IndicatorID": 2441,
     "IndicatorName": "Anaplasmosis",
     "IndicatorLabel": "Anaplasmosis",
-    "IndicatorDescription": "Anaplasmosis is a tick-borne disease transmitted through the bite of an infected blacklegged tick. Symptoms include fever, chills, headache, muscle aches, and fatigue. The majority of cases report a history of travel and outdoor exposures outside of NYC.",
+    "IndicatorDescription": "Cases of anaplasmosis. Anaplasmosis is a tick-borne disease transmitted through the bite of an infected blacklegged tick. Symptoms include fever, chills, headache, muscle aches, and fatigue. The majority of cases report a history of travel and outdoor exposures outside of NYC.",
     "Comparisons": null,
     "Measures": [
       {
@@ -47127,7 +47127,7 @@
     "IndicatorID": 2442,
     "IndicatorName": "Lyme disease",
     "IndicatorLabel": "Lyme disease",
-    "IndicatorDescription": "Lyme disease is transmitted through the bite of an infected blacklegged tick and is the most common tick-borne disease among New Yorkers. Symptoms can include rashes that look like a bull’s-eye, fever, fatigue and headache. If left untreated, infection can spread to joints, the heart, and the nervous system. Most people acquire this disease while traveling outside NYC. However, local cases are often reported in Staten Island. In 2022, an expected increase in cases was observed due to changes in the case definition.",
+    "IndicatorDescription": "Cases of Lyme disease. Lyme disease is transmitted through the bite of an infected blacklegged tick and is the most common tick-borne disease among New Yorkers. If left untreated, infection can spread to joints, the heart, and the nervous system. Most people acquire this disease while traveling outside NYC. In 2022, an expected increase in cases was observed due to changes in the case definition.",
     "Comparisons": null,
     "Measures": [
       {
@@ -47298,7 +47298,7 @@
     "IndicatorID": 2443,
     "IndicatorName": "Heat stress: 5-year emergency department visits",
     "IndicatorLabel": "Heat stress: emergency department visits",
-    "IndicatorDescription": "ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion, represent part of the public health burden of extreme heat.",
+    "IndicatorDescription": "ED visits due to heat-related illnesses, such as heat stroke and heat exhaustion. These are part of the public health burden of extreme heat.",
     "Comparisons": null,
     "Measures": [
       {
@@ -47496,7 +47496,7 @@
     "IndicatorID": 2444,
     "IndicatorName": "Cold stress: 5-year emergency department visits",
     "IndicatorLabel": "Cold stress: 5-year emergency department visits",
-    "IndicatorDescription": "ED visits for cold-related illnesses, such as hypothermia and frostbite, represent part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
+    "IndicatorDescription": "ED visits for cold-related illnesses, such as hypothermia and frostbite. These are part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
     "Comparisons": null,
     "Measures": [
       {
@@ -47682,7 +47682,7 @@
     "IndicatorID": 2445,
     "IndicatorName": "Cold stress: 5-year hospitalizations",
     "IndicatorLabel": "Cold stress: 5-year hospitalizations",
-    "IndicatorDescription": "Hospitalizations for cold-related illnesses, such as hypothermia and frostbite, represent part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
+    "IndicatorDescription": "Hospitalizations for cold-related illnesses, such as hypothermia and frostbite. These are part of the public health burden of cold weather. Cold weather can also make chronic conditions worse.",
     "Comparisons": null,
     "Measures": [
       {
@@ -47868,7 +47868,7 @@
     "IndicatorID": 2446,
     "IndicatorName": "Homes with mold",
     "IndicatorLabel": "Homes with mold",
-    "IndicatorDescription": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate maintenance problems in a building.",
+    "IndicatorDescription": "Households reporting visible mold in the home. Mold can worsen respiratory conditions like asthma, and indicate maintenance problems in a building.",
     "Comparisons": null,
     "Measures": [
       {
@@ -47940,7 +47940,7 @@
     "IndicatorID": 2447,
     "IndicatorName": "Homes with mice or rats in the unit or building",
     "IndicatorLabel": "Homes with mice or rats in the unit or building",
-    "IndicatorDescription": "The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
+    "IndicatorDescription": "Households reporting mice or rats in their unit or building. The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and worsen asthma.",
     "Comparisons": null,
     "Measures": [
       {
