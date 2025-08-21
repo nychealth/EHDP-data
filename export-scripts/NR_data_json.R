@@ -357,7 +357,7 @@ viz_data_for_hugo %>%
         ~ toJSON(
             .x,
             dataframe = "rows",
-            pretty = FALSE, 
+            pretty = TRUE, 
             na = "null", 
             auto_unbox = TRUE
         ) %>% 
@@ -564,7 +564,7 @@ report_data_for_hugo %>%
         ~ toJSON(
             .x,
             dataframe = "rows",
-            pretty = FALSE, 
+            pretty = TRUE, 
             na = "null", 
             auto_unbox = TRUE
         ) %>% 
