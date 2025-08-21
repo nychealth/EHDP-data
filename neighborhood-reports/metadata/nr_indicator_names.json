@@ -90,11 +90,6 @@
     "indicator_description": "Adults without a smoke-free home policy. A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children."
   },
   {
-    "title": "Housing_and_Health",
-    "indicator_name": "No smoke-free home policy",
-    "indicator_description": "Adults without a smoke-free home policy. A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children."
-  },
-  {
     "title": "Active_Design_Physical_Activity_and_Health",
     "indicator_name": "Monthly bicycle use",
     "indicator_description": "Adults reporting having ridden a bicycle at least once a month in the past year."
@@ -308,6 +303,11 @@
     "title": "Active_Design_Physical_Activity_and_Health",
     "indicator_name": "Perception of neighborhood safety",
     "indicator_description": "Adults reporting their neighborhood is safe from crime. Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Evictions (court-ordered)",
+    "indicator_description": "Court-ordered evictions. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with negative health among adults and children. People who are threatened with eviction, even before they lose their home, are more likely to report poor health."
   },
   {
     "title": "Asthma_and_the_Environment",
