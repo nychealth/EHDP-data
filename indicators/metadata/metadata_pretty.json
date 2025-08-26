@@ -23904,7 +23904,7 @@
     "IndicatorName": "Health insurance (adults)",
     "IndicatorLabel": "Health insurance (adults)",
     "IndicatorDescription": "Adults with any kind of health insurance. People with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
-    "Comparisons": null,
+    "Comparisons": [733],
     "Measures": [
       {
         "MeasureID": 671,
@@ -34975,7 +34975,7 @@
     "IndicatorName": "Unemployment",
     "IndicatorLabel": "Unemployment",
     "IndicatorDescription": "Adults age 16+ who are unemployed.",
-    "Comparisons": null,
+    "Comparisons": [732],
     "Measures": [
       {
         "MeasureID": 1030,
