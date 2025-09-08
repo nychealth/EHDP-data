@@ -10112,7 +10112,7 @@
     "IndicatorName": "Neighborhood poverty",
     "IndicatorLabel": "Neighborhood poverty",
     "IndicatorDescription": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health.",
-    "Comparisons": null,
+    "Comparisons": [732],
     "Measures": [
       {
         "MeasureID": 221,
@@ -15320,7 +15320,7 @@
     "IndicatorName": "Heavy drinking (adults)",
     "IndicatorLabel": "Heavy drinking (adults)",
     "IndicatorDescription": "Adults who reported having more than 2 drinks per day (men) or more than 1 drink per day ( women).",
-    "Comparisons": null,
+    "Comparisons": [731],
     "Measures": [
       {
         "MeasureID": 466,
@@ -15459,7 +15459,7 @@
     "IndicatorName": "Binge drinking (adults)",
     "IndicatorLabel": "Binge drinking (adults)",
     "IndicatorDescription": "Adults who reported having 5 or more drinks on one occasion, and as of 2011, 4 or more drinks for women, in the past 30 days (from when they were surveyed).",
-    "Comparisons": null,
+    "Comparisons": [731],
     "Measures": [
       {
         "MeasureID": 469,
@@ -15594,7 +15594,7 @@
     "IndicatorName": "Binge drinking (youth)",
     "IndicatorLabel": "Binge drinking (youth)",
     "IndicatorDescription": "Public high school students who reported having 5 or more drinks in a row in the past 30 days (from when they were surveyed).",
-    "Comparisons": null,
+    "Comparisons": [731],
     "Measures": [
       {
         "MeasureID": 481,
@@ -16220,7 +16220,7 @@
     "IndicatorName": "Monthly bicycle use",
     "IndicatorLabel": "Monthly bicycle use",
     "IndicatorDescription": "Adults reporting having ridden a bicycle at least once a month in the past year.",
-    "Comparisons": null,
+    "Comparisons": [736],
     "Measures": [
       {
         "MeasureID": 497,
@@ -16359,7 +16359,7 @@
     "IndicatorName": "Recent exercise",
     "IndicatorLabel": "Recent exercise",
     "IndicatorDescription": "Adults reporting exercise in the past 30 days (from when they were surveyed). Regular exercise is a key way to stay healthy.",
-    "Comparisons": null,
+    "Comparisons": [736],
     "Measures": [
       {
         "MeasureID": 499,
@@ -23555,7 +23555,7 @@
     "IndicatorName": "Health insurance (adults)",
     "IndicatorLabel": "Health insurance (adults)",
     "IndicatorDescription": "Adults with any kind of health insurance. People with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
-    "Comparisons": null,
+    "Comparisons": [733],
     "Measures": [
       {
         "MeasureID": 671,
@@ -24681,7 +24681,7 @@
     "IndicatorName": "Adults with a personal doctor",
     "IndicatorLabel": "Adults with a personal doctor",
     "IndicatorDescription": "Adults who report having a personal doctor. Having a regular doctor makes it easier to maintain good health.",
-    "Comparisons": null,
+    "Comparisons": [733],
     "Measures": [
       {
         "MeasureID": 699,
@@ -26018,7 +26018,7 @@
     "IndicatorName": "Child poverty (under age 5)",
     "IndicatorLabel": "Children under 5 years old in Poverty",
     "IndicatorDescription": "Children living in households in poverty. Poverty deprives people of access to health and safety resources.",
-    "Comparisons": null,
+    "Comparisons": [732],
     "Measures": [
       {
         "MeasureID": 754,
@@ -29292,7 +29292,7 @@
     "IndicatorName": "Self-reported health",
     "IndicatorLabel": "Self-reported health",
     "IndicatorDescription": "Adults reporting that their health is excellent, very good, or good.",
-    "Comparisons": null,
+    "Comparisons": [733],
     "Measures": [
       {
         "MeasureID": 894,
@@ -32610,7 +32610,7 @@
     "IndicatorName": "Unemployment",
     "IndicatorLabel": "Unemployment",
     "IndicatorDescription": "Adults age 16+ who are unemployed.",
-    "Comparisons": null,
+    "Comparisons": [732],
     "Measures": [
       {
         "MeasureID": 1030,
@@ -36018,7 +36018,7 @@
     "IndicatorName": "Violence-related hospitalizations (all ages)",
     "IndicatorLabel": "Assault hospitalizations (all ages)",
     "IndicatorDescription": "Non-fatal, violence-related injuries that result in hospitalizations. These are more common than homicides and help paint the larger picture of the burden of violence on communities.",
-    "Comparisons": null,
+    "Comparisons": [735],
     "Measures": [
       {
         "MeasureID": 1187,
@@ -39605,7 +39605,7 @@
     "IndicatorName": "Violence-related emergency department visits (all ages)",
     "IndicatorLabel": "Assault emergency department visits (all ages)",
     "IndicatorDescription": "Non-fatal, violence-related injuries that result in emergency department visits. These are more common than homicides and help paint the larger picture of the burden of violence on communities. ",
-    "Comparisons": null,
+    "Comparisons": [734],
     "Measures": [
       {
         "MeasureID": 1250,
@@ -46075,7 +46075,7 @@
     "IndicatorName": "Violence-related emergency department visits (ages 15-34)",
     "IndicatorLabel": "Assault emergency department visits (age 15 to 34)",
     "IndicatorDescription": "Non-fatal, violence-related injuries that result in emergency department visits. These are more common than homicides and help paint the larger picture of the burden of violence on communities.",
-    "Comparisons": null,
+    "Comparisons": [734],
     "Measures": [
       {
         "MeasureID": 1384,
@@ -46516,7 +46516,7 @@
     "IndicatorName": "Violence-related hospitalizations (ages 15-34)",
     "IndicatorLabel": "Assault hospitalizations (age 15 to 34)",
     "IndicatorDescription": "Non-fatal, violence-related injuries that result in hospitalizations. These are more common than homicides and help paint the larger picture of the burden of violence on communities.",
-    "Comparisons": null,
+    "Comparisons": [735],
     "Measures": [
       {
         "MeasureID": 1390,
