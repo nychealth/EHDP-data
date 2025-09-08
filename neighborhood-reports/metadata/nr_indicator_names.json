@@ -141,11 +141,6 @@
   },
   {
     "title": "Asthma_and_the_Environment",
-    "indicator_name": "Mold in homes",
-    "indicator_description": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
     "indicator_name": "Adults reporting mice or rats inside",
     "indicator_description": "Mice and rats are a source of household allergens connected to developing or worsening asthma."
   },
@@ -183,11 +178,6 @@
     "title": "Climate_and_Health",
     "indicator_name": "Older adults with air conditioners (age 65+)",
     "indicator_description": "Older adults (over 65) are more vulnerable to hot weather and heat stress. Air conditioning reduces the risk of heat stroke and other heat-related illness."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Residents living in a hurricane evacuation zone",
-    "indicator_description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and indicate varying threat levels of coastal flooding from storm surge. Evacuation orders may be given during hurricanes or coastal flooding events. There are six zones, ranked by storm surge risk. Zone 1 is the highest risk for flooding. Residents in these zones may receive evacuation orders during hurricanes or tropical storms."
   },
   {
     "title": "Climate_and_Health",
@@ -286,16 +276,6 @@
   },
   {
     "title": "Housing_and_Health",
-    "indicator_name": "No smoke-free home policy",
-    "indicator_description": "Adults without a smoke-free home policy. A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Mold in homes",
-    "indicator_description": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building."
-  },
-  {
-    "title": "Housing_and_Health",
     "indicator_name": "Household crowding",
     "indicator_description": "Households with more than one person per room."
   },
@@ -308,6 +288,11 @@
     "title": "Housing_and_Health",
     "indicator_name": "Rent-burdened households",
     "indicator_description": "Renter households spending 30% of their income or more on rent."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Evictions (court-ordered)",
+    "indicator_description": "Court-ordered evictions. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with negative health among adults and children. People who are threatened with eviction, even before they lose their home, are more likely to report poor health."
   },
   {
     "title": "Outdoor_Air_and_Health",
