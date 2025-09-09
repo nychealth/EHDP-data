@@ -82,28 +82,6 @@ Rscript "$base_dir/export-scripts/DE_GeoLookup_json.R"
 echo ">>> NR_data_json"
 Rscript "$base_dir/export-scripts/NR_data_json.R"
 
-#-----------------------------------------------------------------------------------------#
-# NR spark bars
-#-----------------------------------------------------------------------------------------#
-
-if [[ "$sparkbar" == "y" ]]; then
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-    # run script to construct the spec
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-    echo ">>> NR_sparkbar_spec"
-    npm install --silent
-    node "$base_dir/export-scripts/NR_sparkbar_spec.js"
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-    # run the SVG export script
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-    echo ">>> NR_sparkbars"
-    Rscript "$base_dir/export-scripts/NR_sparkbars.R"
-
-fi
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
