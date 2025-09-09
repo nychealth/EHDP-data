@@ -18391,26 +18391,39 @@
         "MeasureID": 557,
         "MeasureName": "Bicycle hospitalizations, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in June 2025. Number of NYC hospitalizations related to bicyclist injuries among all ages was identified using the following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V10-V19. Only unintentional intent, live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "how_calculated": "Number of NYC nonfatal hospitalizations related to bicycle injuries among all ages was identified using the following ICD10-CM injury codes: V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS), 2016, updated January 2018.",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41],
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45],
         "VisOptions": [
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -18437,26 +18450,39 @@
         "MeasureID": 675,
         "MeasureName": "Bicycle hospitalizations, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in June 2025. Number of non-fatal bicyclist hospitalizations divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022) were used for years 2018-2019 and corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2020-2023 (updated September 2024) were used for years 2020-2023. The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents.\n\nNYC hospitalizations related to bicyclist injuries among all ages was identified using the following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V10-V19. Only unintentional intent, live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "how_calculated": "Counts are the number of NYC nonfatal hospitalizations related to bicycle injuries among all ages was identified using the following ICD10-CM injury codes: V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64, 65+) and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41],
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45],
         "VisOptions": [
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -20247,26 +20273,39 @@
         "MeasureID": 591,
         "MeasureName": "Bicycle injuries, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in June 2025. Number of NYC emergency department (ED) visits related to bicyclist injuries among all ages was identified using the following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V10-V19. Only unintentional intent, live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "how_calculated": "Number of NYC emergency department (ED) visits related to bicycle injuries among all ages was identified using the following ICD10-CM injury codes: V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS), 2016, updated January 2018.",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45],
         "VisOptions": [
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -20293,26 +20332,39 @@
         "MeasureID": 674,
         "MeasureName": "Bicycle injuries, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in June 2025. Number of non-fatal bicyclist injury ED visits divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022) were used for years 2018-2019 and corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2020-2023 (updated September 2024) were used for years 2020-2023. The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. \n\nNYC emergency department (ED) visits related to bicyclist injuries among all ages was identified using the following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V10-V19. Only unintentional intent, live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "how_calculated": "Counts are the number of NYC emergency department (ED) visits related to bicycle injuries among all ages was identified using the following ICD10-CM injury codes: V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population of NYC residents in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45],
         "VisOptions": [
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -20348,26 +20400,39 @@
         "MeasureID": 594,
         "MeasureName": "Pedestrian hospitalizations, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in June 2025. Number of NYC hospitalizations related to pedestrian injuries among all ages was identified using the following ICD10-CM injury codes: V01-V09, excluding V01.031, V01.038, V01.131, V01.931, V02.031, V02.131, V02.138, V02.931,V03.031, V03.038, V03.131, V03.138, V03.931, V03.938, V04.031, V04.131,V04.931, V06.031,V06.931, V06.131, Y02.0XX, Y03.0XX. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Only live discharges and initial encounters are included. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "how_calculated": "Number of NYC nonfatal hospitalizations related to pedestrian injurie samong all ages was identified using the following ICD10-CM injury codes: V01-V99.Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS), 2016, updated January 2018.",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41],
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45],
         "VisOptions": [
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -20394,26 +20459,39 @@
         "MeasureID": 677,
         "MeasureName": "Pedestrian hospitalizations, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in June 2025. Number of non-fatal pedestrian hospitalizations divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022) were used for years 2018-2019 and corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2020-2023 (updated September 2024) were used for years 2020-2023. The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. \n\nNYC hospitalizations related to pedestrian injuries among all ages was identified using the following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V01-V09, excluding V01.031, V01.038, V01.131, V01.931, V02.031, V02.131, V02.138, V02.931,V03.031, V03.038, V03.131, V03.138, V03.931, V03.938, V04.031, V04.131,V04.931, V06.031,V06.931, V06.131, Y02.0XX, Y03.0XX. Only unintentional intent, live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "how_calculated": "Counts are the number of NYC nonfatal hospitalizations related to pedestrian injurie samong all ages was identified using the following ICD10-CM injury codes: V01-V99.Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41],
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45],
         "VisOptions": [
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -20449,26 +20527,39 @@
         "MeasureID": 592,
         "MeasureName": "Pedestrian injuries, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in June 2025. Number of NYC emergency department (ED) visits related to pedestrian injuries among all ages was identified using the following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V01-V09, excluding V01.031, V01.038, V01.131, V01.931, V02.031, V02.131, V02.138, V02.931,V03.031, V03.038, V03.131, V03.138, V03.931, V03.938, V04.031, V04.131,V04.931, V06.031,V06.931, V06.131, Y02.0XX, Y03.0XX. Only unintentional intent, live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
+        "how_calculated": "Number of NYC emergency department (ED) visits related to pedestrian injuries among all ages was identified using the following ICD10-CM injury codes:V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS), 2016, updated January 2018.",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45],
         "VisOptions": [
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -20495,26 +20586,39 @@
         "MeasureID": 676,
         "MeasureName": "Pedestrian injuries, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in June 2025. Number of non-fatal pedestrian injury ED visits divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022) were used for years 2018-2019 and corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2020-2023 (updated September 2024) were used for years 2020-2023. The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. \n\nNYC emergency department (ED) visits related to pedestrian injuries among all ages was identified using the following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V01-V09, excluding V01.031, V01.038, V01.131, V01.931, V02.031, V02.131, V02.138, V02.931,V03.031, V03.038, V03.131, V03.138, V03.931, V03.938, V04.031, V04.131,V04.931, V06.031,V06.931, V06.131, Y02.0XX, Y03.0XX. Only unintentional intent, live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
+        "how_calculated": "Counts are the number of NYC emergency department (ED) visits related to pedestrian injuries among all ages was identified using the following ICD10-CM injury codes:V01-V99. Only live discharges and initial encounters are included. Citywide totals include both NYC residents and non-residents. Counts are summed within five age groups (0-17, 18-24, 25-44, 45-64,65+0 and divided by the population in each age group, using NYC DOHMH intercensal estimates; quotients are multiplied by the proportion of the 2000 US population in each age group. Age-adjusted rate is the sum of the weighted age-specific rates, expressed as cases per 100,000 residents.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2018, updated September 2019. ",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41],
+        "AvailableTimePeriodIDs": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45],
         "VisOptions": [
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -23659,63 +23763,9 @@
         "MeasureID": 680,
         "MeasureName": "Fall-related ED visits, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in March 2025. Non-fatal fall-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V00.11-V00.89 with 6th character=1; W00-W15, W17, W19; W16 with 6th character=2 (Except 16.4 and 16.9 with 5th character=2); W18.1, W18.2, W18.3 (National Center for Health Statistics). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. Visits were restricted to patients ages 65+ years because of the disproportionate concentration of fall injury and its persistence as a&nbsp;high-ranking of cause of death in this age group. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
+        "how_calculated": "Number of NYC emergency department visits related to falls among adults aged 65 years and older was identified using the following ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) emergency department data, 2016, updated January 2018. ",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [45],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [45]
-              },
-              {
-                "GeoType": "CD",
-                "TimePeriodID": [45]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [45]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": null,
-                "TimePeriodID": []
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 681,
-        "MeasureName": "Fall-related ED visits, Age-Specific Rate",
-        "MeasurementType": "Age-Specific Rate",
-        "how_calculated": "Age-specific rates were calculated per 100,000 population 65 years and older. Numerator consists of NYC emergency department visits related to falls among adults aged 65 years and older, identified using ICD10-CM&nbsp;codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Only live discharges and initial encounters are included. All figures include NYC residents only.&nbsp;",
-        "Sources": null,
-        "DisplayType": "per 100,000 (age 65+)",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
@@ -23767,8 +23817,8 @@
         "MeasureID": 1277,
         "MeasureName": "Fall-related ED visits, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in March 2025. Age-adjusted rates were calculated from number of non-fatal fall-related injury emergency department visits divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022) and 2020-2023 (updated March 2025). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. Non-fatal fall-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V00.11-V00.89 with 6th character=1; W00-W15, W17, W19; W16 with 6th character=2 (Except 16.4 and 16.9 with 5th character=2); W18.1, W18.2, W18.3 (National Center for Health Statistics). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. Visits were restricted to patients ages 65+ years because of the disproportionate concentration of fall injury and its persistence as a&nbsp;high-ranking of cause of death in this age group. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
+        "how_calculated": "Age-adjusted rates were calculated per 100,000 population 65 years and older weighted to the 2016 NYC DOHMH population estimates using the following age groups for weighting: 65-74, 75-84, and 85+ years old. Numerator consists of NYC hospitalizations related to falls among adults aged 65 years and older, identified using the following ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) emergency department data, 2016, updated January 2018. ; NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2016. Updated September 2017.",
         "DisplayType": "per 100,000 (age 65+)",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
@@ -23828,20 +23878,74 @@
     "IndicatorID": 2136,
     "IndicatorName": "Fall-related hospitalizations (age 65+)",
     "IndicatorLabel": "Fall-related hospitalizations among older adults",
-    "IndicatorDescription": "Hospitalizations due to falls among people over age 65. Falls are a leading cause of injury among older adults.",
+    "IndicatorDescription": "Falls are a leading cause of injury among older adults.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 682,
         "MeasureName": "Fall-related hospitalizations, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in March 2025. Non-fatal fall-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V00.11-V00.89 with 6th character=1; W00-W15, W17, W19; W16 with 6th character=2 (Except 16.4 and 16.9 with 5th character=2); W18.1, W18.2, W18.3 (National Center for Health Statistics). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. Visits were restricted to patients ages 65+ years because of the disproportionate concentration of fall injury and its persistence as a&nbsp;high-ranking of cause of death in this age group. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
+        "how_calculated": "Number of NYC hospitalizations related to falls among adults aged 65 years and older was identified using the following ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) emergency department data, 2016, updated January 2018. ",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39],
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 45],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": null,
+                "TimePeriodID": [],
+                "RankReverse": null
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": null,
+                "TimePeriodID": []
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 683,
+        "MeasureName": "Fall-related hospitalizations, Age-Specific Rate",
+        "MeasurementType": "Age-Specific Rate",
+        "how_calculated": "Age-specific rates were calculated per 100,000 population 65 years and older. Numerator consists of NYC hospital admissions related to falls among adults aged 65 years and older, identified using ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) inpatient data, 2016, updated January 2018. NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2016, updated September 2017.",
+        "DisplayType": "per 100,000 (age 65+)",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 45, 237],
         "VisOptions": [
           {
             "Table": [
@@ -23878,29 +23982,42 @@
         ]
       },
       {
-        "MeasureID": 683,
-        "MeasureName": "Fall-related hospitalizations, Age-Specific Rate",
-        "MeasurementType": "Age-Specific Rate",
-        "how_calculated": "Age-specific rates were calculated per 100,000 population 65 years and older. Numerator consists of NYC hospital admissions related to falls among adults aged 65 years and older, identified using ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Only live discharges and initial encounters are included. All figures include NYC residents only.",
-        "Sources": null,
+        "MeasureID": 1278,
+        "MeasureName": "Fall-related hospitalizations, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "Age-adjusted rates were calculated per 100,000 population 65 years and older weighted to the 2016 NYC DOHMH population estimates using the following age groups for weighting: 65-74, 75-84, and 85+ years old. Numerator consists of NYC hospitalizations related to falls among adults aged 65 years and older, identified using the following ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) emergency department data, 2016, updated January 2018. ; NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2016. Updated September 2017.",
         "DisplayType": "per 100,000 (age 65+)",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 237],
+        "AvailableTimePeriodIDs": [45],
         "VisOptions": [
           {
             "Table": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [45]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [45],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [45],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -23917,7 +24034,7 @@
                     "SecondaryAxis": null
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -40668,8 +40785,8 @@
         "MeasureID": 1281,
         "MeasureName": "Home fall ED visits, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in March 2025. Age-adjusted rates were calculated from number of non-fatal fall-related injury emergency department visits divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022) and 2020-2023 (updated March 2025). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. Non-fatal fall-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V00.11-V00.89 with 6th character=1; W00-W15, W17, W19; W16 with 6th character=2 (Except 16.4 and 16.9 with 5th character=2); W18.1, W18.2, W18.3 (National Center for Health Statistics). ED visits for a fall that occurred at home were identified using place of injury ICD10 code Y920 and then limited to the following building classes: \"Condominiums\", \"Elevator Apartments\", \"One-family Dwellings\", \"Two-family Dwellings\", \"Walk-up Apartments\", and \"Residence Multiple Use\". Only live discharges and initial encounters are included. All tables and figures include NYC residents only. Visits were restricted to patients ages 65+ years because of the disproportionate concentration of fall injury and its persistence as a&nbsp;high-ranking of cause of death in this age group. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
+        "how_calculated": "Age-adjusted rates were calculated per 100,000 population 65 years and older weighted to the 2016 NYC DOHMH population estimates using the following age groups for weighting: 65-74, 75-84, and 85+ years old. Numerator consists of NYC ED visits related to falls among adults aged 65 years and older, identified using the following ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. ED visits for a fall that occurred at home were identified using place of injury ICD10 code Y920 and then limited to the following building classes: \"Condominiums,\" \"Elevator Apartments,\" \"One-family Dwellings,\" \"Two-family Dwellings,\" \"Walk-up Apartments,\" \"Residence Multiple Use.\" Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) emergency department data, 2016, updated January 2018. ; NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2016. Updated September 2017.",
         "DisplayType": "per 100,000 (age 65+)",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
@@ -40705,8 +40822,8 @@
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -40727,8 +40844,8 @@
         "MeasureID": 1282,
         "MeasureName": "Home fall ED visits, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in March 2025. Non-fatal fall-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V00.11-V00.89 with 6th character=1; W00-W15, W17, W19; W16 with 6th character=2 (Except 16.4 and 16.9 with 5th character=2); W18.1, W18.2, W18.3 (National Center for Health Statistics). ED visits for a fall that occurred at home were identified using place of injury ICD10 code Y920 and then limited to the following building classes: \"Condominiums\", \"Elevator Apartments\", \"One-family Dwellings\", \"Two-family Dwellings\", \"Walk-up Apartments\", and \"Residence Multiple Use\". Only live discharges and initial encounters are included. All tables and figures include NYC residents only. Visits were restricted to patients ages 65+ years because of the disproportionate concentration of fall injury and its persistence as a&nbsp;high-ranking of cause of death in this age group. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
+        "how_calculated": "Number of NYC ED visitis related to falls among adults aged 65 years and older was identified using the following ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. ED visits for a fall that occurred at home were identified using place of injury ICD10 code Y920 and then limited to the following building classes: \"Condominiums,\" \"Elevator Apartments,\" \"One-family Dwellings,\" \"Two-family Dwellings,\" \"Walk-up Apartments,\" \"Residence Multiple Use.\" Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) emergency department data, 2016, updated January 2018. ",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
@@ -40752,15 +40869,15 @@
             ],
             "Map": [
               {
-                "GeoType": "CD",
-                "TimePeriodID": [45],
-                "RankReverse": 0
+                "GeoType": null,
+                "TimePeriodID": [],
+                "RankReverse": null
               }
             ],
             "Trend": [
               {
-                "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "GeoType": null,
+                "TimePeriodID": []
               }
             ],
             "Links": [
@@ -40790,8 +40907,8 @@
         "MeasureID": 1279,
         "MeasureName": "Home fall hospitalizations, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in March 2025. Age-adjusted rates were calculated from number of non-fatal fall-related injury hospitalizations divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022) and 2020-2023 (updated March 2025). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. Non-fatal fall-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V00.11-V00.89 with 6th character=1; W00-W15, W17, W19; W16 with 6th character=2 (Except 16.4 and 16.9 with 5th character=2); W18.1, W18.2, W18.3 (National Center for Health Statistics). Hospitalizations for a fall that occurred at home were identified using place of injury ICD-10-CM code Y920 and then limited to the following building classes: \"Condominiums,\" \"Elevator Apartments\", \"One-family Dwellings\", \"Two-family Dwellings\", \"Walk-up Apartments\", and \"Residence Multiple Use\". Only live discharges and initial encounters are included. All tables and figures include NYC residents only. Visits were restricted to patients ages 65+ years because of the disproportionate concentration of fall injury and its persistence as a&nbsp;high-ranking of cause of death in this age group. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
+        "how_calculated": "Age-adjusted rates were calculated per 100,000 population 65 years and older weighted to the 2016 NYC DOHMH population estimates using the following age groups for weighting: 65-74, 75-84, and 85+ years old. Numerator consists of NYC hospitalizations related to falls among adults aged 65 years and older, identified using the following ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Hospitalizations for a fall that occurred at home were identified using place of injury ICD10 code Y920 and then limited to the following building classes: \"Condominiums,\" \"Elevator Apartments,\" \"One-family Dwellings,\" \"Two-family Dwellings,\" \"Walk-up Apartments,\" \"Residence Multiple Use.\" Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) emergency department data, 2016, updated January 2018. ; NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2016. Updated September 2017.",
         "DisplayType": "per 100,000 (age 65+)",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
@@ -40849,8 +40966,8 @@
         "MeasureID": 1280,
         "MeasureName": "Home fall hospitalizations, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in March 2025. Non-fatal fall-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: V00.11-V00.89 with 6th character=1; W00-W15, W17, W19; W16 with 6th character=2 (Except 16.4 and 16.9 with 5th character=2); W18.1, W18.2, W18.3 (National Center for Health Statistics). Hospitalizations for a fall that occurred at home were identified using place of injury ICD-10-CM code Y920 and then limited to the following building classes: \"Condominiums,\" \"Elevator Apartments\", \"One-family Dwellings\", \"Two-family Dwellings\", \"Walk-up Apartments\", and \"Residence Multiple Use\". Only live discharges and initial encounters are included. All tables and figures include NYC residents only. Visits were restricted to patients ages 65+ years because of the disproportionate concentration of fall injury and its persistence as a&nbsp;high-ranking of cause of death in this age group. \n\nSPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
+        "how_calculated": "Number of NYC hospitalizations related to falls among adults aged 65 years and older was identified using the following ICD10-CM codes: V00.1(1-5,8)1; V00.2(1,2,8)1; V00.3(1,2,8)1; V00.8(1-3,9)1; W00.0-W15; W16.0(1-3)2; W16.1(1-3)2; W16.3(1-3)2; W16.42x; W16.5(1-3)2; W16.6(1,2,7)2; W16.7(1,2)2; W16.8(1-3)2; W16.92x, W17; W18.1(1,2)x; W18.2xx; W18.3(0,1,9)x; W19. Hospitalizations for a fall that occurred at home were identified using place of injury ICD10 code Y920 and then limited to the following building classes: \"Condominiums,\" \"Elevator Apartments,\" \"One-family Dwellings,\" \"Two-family Dwellings,\" \"Walk-up Apartments,\" \"Residence Multiple Use.\" Only live discharges and initial encounters are included. All figures include NYC residents only.",
+        "Sources": "New York State Statewide Planning and Research Cooperative System (SPARCS) emergency department data, 2016, updated January 2018. ",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
