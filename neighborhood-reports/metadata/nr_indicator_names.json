@@ -1,223 +1,8 @@
 [
   {
-    "title": "Housing_and_Health",
-    "indicator_name": "Household crowding",
-    "indicator_description": "Households with more than one person per room."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Adults with a recent asthma attack",
-    "indicator_description": "Adults reporting an asthma diagnosis, and symptoms, in the last 12 months (from when they were surveyed). Poor air quality and housing issues increase risk of developing and triggering asthma."
-  },
-  {
-    "title": "Active_Design_Physical_Activity_and_Health",
-    "indicator_name": "Adults reporting mice or rats outside",
-    "indicator_description": "Mice and rats are a source of household allergens connected to developing or worsening asthma."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Secondhand smoke at home",
-    "indicator_description": "Adults reporting secondhand smoke at home. Secondhand smoke, especially indoors, is bad for health - particularly for the health of children."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Homes with cracks or holes",
-    "indicator_description": "Households reporting cracks or holes in the home. This maintenance problem is linked to mice, rats, and cockroaches - which can harm residents' health."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Homes with cracks or holes",
-    "indicator_description": "Households reporting cracks or holes in the home. This maintenance problem is linked to mice, rats, and cockroaches - which can harm residents' health."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Old homes with peeling paint",
-    "indicator_description": "Housing built before 1960 with peeling paint. This can put residents at risk of lead poisoning. Lead paint was banned from household paints in New York City in 1960 and in the USA in 1978."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Homes with leaks",
-    "indicator_description": "Households reporting leaks from outside the unit. This maintenance problem can introduce mold, which can worsen respiratory conditions like asthma."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Homes with leaks",
-    "indicator_description": "Households reporting leaks from outside the unit. This maintenance problem can introduce mold, which can worsen respiratory conditions like asthma."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Homes near structures rated good or excellent",
-    "indicator_description": "Building quality predicts the number of housing maintenance problems in a residence that place residents at increased risk of acute or chronic health problems."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Homes using supplemental heat",
-    "indicator_description": "Households using supplemental heat, like a space heater. This may mean a building's main heat source doesn't work. It can indicate the presence of other health-threatening maintenance deficiencies, and increase fire risk."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Homes with mice or rats in the building",
-    "indicator_description": "Households reporting mice or rats in their building in the past 90 days (from when they were surveyed). The presence of rodents is associated with housing problems. These pests can contaminate food and worsen asthma."
-  },
-  {
-    "title": "Active_Design_Physical_Activity_and_Health",
-    "indicator_name": "Neighborhood poverty",
-    "indicator_description": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Neighborhood poverty",
-    "indicator_description": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Neighborhood poverty",
-    "indicator_description": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Homes with cockroaches",
-    "indicator_description": "The presence of cockroaches in the home is often associated with poor housing maintenance. Cockroaches in the home can contaminate food and worsen asthma."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Homes with cockroaches",
-    "indicator_description": "The presence of cockroaches in the home is often associated with poor housing maintenance. Cockroaches in the home can contaminate food and worsen asthma."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "No smoke-free home policy",
-    "indicator_description": "Adults without a smoke-free home policy. A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children."
-  },
-  {
-    "title": "Active_Design_Physical_Activity_and_Health",
-    "indicator_name": "Monthly bicycle use",
-    "indicator_description": "Adults reporting having ridden a bicycle at least once a month in the past year."
-  },
-  {
-    "title": "Active_Design_Physical_Activity_and_Health",
-    "indicator_name": "Recent exercise",
-    "indicator_description": "Adults reporting exercise in the past 30 days (from when they were surveyed). Regular exercise is a key way to stay healthy."
-  },
-  {
     "title": "Active_Design_Physical_Activity_and_Health",
     "indicator_name": "Overweight or obesity (adults)",
     "indicator_description": "Adults reporting a Body Mass Index over 25. People who are overweight or obese are at increased risk for heart disease and diabetes.  Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Heat stress: yearly hospitalizations",
-    "indicator_description": "Hospitalizations due to heat stress. These are part of the public health burden of hot weather."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Mold in homes",
-    "indicator_description": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Mold in homes",
-    "indicator_description": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Adults reporting mice or rats inside",
-    "indicator_description": "Mice and rats are a source of household allergens connected to developing or worsening asthma."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Deaths due to PM2.5",
-    "indicator_description": "Estimated annual deaths due to PM2.5 air pollution. Estimating these deaths is a way to understand how air pollution increases mortality."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Boiler emissions (SO2)",
-    "indicator_description": "Boilers are a common source of SO2, which can worsen lung disease."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Boiler emissions (PM2.5)",
-    "indicator_description": "Boilers are a common source of PM2.5, which can harm health."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Boiler emissions (NOx)",
-    "indicator_description": "Boilers are a common source of NOx emissions, which can harm health."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Traffic density",
-    "indicator_description": "Annual vehicle miles travelled. Traffic density can influence health as a source of air pollution and traffic-related injuries."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Traffic density (cars)",
-    "indicator_description": "Annual vehicle miles travelled by cars. Traffic density can influence health as a source of air pollution and traffic-related injuries."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Traffic density (trucks)",
-    "indicator_description": "Annual vehicle miles travelled by trucks. Traffic density can influence health as a source of air pollution and traffic-related injuries."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Outdoor Air Toxics - Benzene",
-    "indicator_description": "Benzene is an air pollutant resulting from motor vehicle and industrial emissions and tobacco smoke. Benzene is a known carcinogen that can also harm bone marrow and red blood cell function."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Outdoor Air Toxics - Formaldehyde",
-    "indicator_description": "Formaldehyde is an air pollutant resulting from car exhaust and the manufacture of industrial products. Formaldehyde is a known carcinogen that can also cause irritation to eyes and lungs and increase risk of asthma and trigger asthma symptoms."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Asthma emergency department visits due to PM2.5",
-    "indicator_description": "ED visits for asthma due to PM2.5 air pollution. These represent part of the health burden of air pollution."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Asthma emergency department visits due to PM2.5",
-    "indicator_description": "ED visits for asthma due to PM2.5 air pollution. These represent part of the health burden of air pollution."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Respiratory hospitalizations due to PM2.5 (age 20+)",
-    "indicator_description": "Hospitalizations for respiratory issues due to PM2.5 pollution (among people over age 20). These represent part of the health burden of air pollution."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Cardiovascular hospitalizations due to PM2.5 (age 40+)",
-    "indicator_description": "Hospitalizations for cardiovascular issues due to PM2.5 (among people over age 40). These represent part of the health burden of air pollution."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Cardiac and respiratory deaths due to Ozone",
-    "indicator_description": "Deaths due to cardiac or respiratory issues linked to ozone. These show how air pollution increases mortality."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Asthma emergency departments visits due to Ozone",
-    "indicator_description": "ED visits for asthma due to ozone. These are part of the health burden of air pollution."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Asthma emergency departments visits due to Ozone",
-    "indicator_description": "ED visits for asthma due to ozone. These are part of the health burden of air pollution."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Asthma hospitalizations due to Ozone",
-    "indicator_description": "Hospitalizations for asthma due to ozone. These are part of the health burden of air pollution."
-  },
-  {
-    "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Asthma hospitalizations due to Ozone",
-    "indicator_description": "Hospitalizations for asthma due to ozone. These are part of the health burden of air pollution."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Health insurance (adults)",
-    "indicator_description": "Adults with any kind of health insurance. People with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more."
   },
   {
     "title": "Active_Design_Physical_Activity_and_Health",
@@ -230,119 +15,14 @@
     "indicator_description": "Transportation-related ED visits for pedestrians. Pedestrian injury ED visits can indicate the safety of walking for transportation."
   },
   {
-    "title": "Climate_and_Health",
-    "indicator_name": "Residents living in a hurricane evacuation zone",
-    "indicator_description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and indicate varying threat levels of coastal flooding from storm surge. Evacuation orders may be given during hurricanes or coastal flooding events. There are six zones, ranked by storm surge risk. Zone 1 is the highest risk for flooding. Residents in these zones may receive evacuation orders during hurricanes or tropical storms."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Daytime summer surface temperature",
-    "indicator_description": "Spatial average of surface temperature, measured by satellite. Surface temperatures vary because of vegetative cover (which promotes cooling), and paved roads, sidewalks, and buildings (which retain heat). Hotter neighborhoods tend to have more heat-exacerbated deaths associated with extreme heat events."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Vegetative cover",
-    "indicator_description": "Land covered by trees, grass, or other plants. Vegetative cover reduces temperatures in the immediate area, and may increase air quality."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Serious psychological distress",
-    "indicator_description": "Mental health conditions like series psychological distress can be worsened by extreme weather such as heat waves and coastal storms."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Independent living difficulty (adults)",
-    "indicator_description": "Adults reporting independent living difficulty due to a physical, mental, or emotional problem. People with disabilities may need additional support during extreme weather. For example, extra planning for safe travel out of evacuation zones during a hurricane, or back-up electricity to support medical equipment during power outages."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Older adults living alone (65+)",
-    "indicator_description": "People age 65+ living alone. People living alone may have more difficulty getting resources they need in an emergency, and are at higher risk of weather-related illnesses like heat stroke and hypothermia."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Older adults with air conditioners (age 65+)",
-    "indicator_description": "Older adults (over 65) are more vulnerable to hot weather and heat stress. Air conditioning reduces the risk of heat stroke and other heat-related illness."
-  },
-  {
-    "title": "Active_Design_Physical_Activity_and_Health",
-    "indicator_name": "Tree canopy cover",
-    "indicator_description": "The percent of a neighborhood that is shaded by trees. Tree shade can lower a neighborhood's temperatures, can make it more comfortable and attractive to walk and stay active."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Carbon monoxide incidents (without a detector)",
-    "indicator_description": "Carbon monoxide incidents when there was no alarm. Carbon monoxide detectors are required in NYC homes by law. Failure to provide or maintain a detector can put people at risk for carbon monoxide poisoning and death."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Child poverty (under age 5)",
-    "indicator_description": "Children living in households in poverty. Poverty deprives people of access to health and safety resources."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Elevated blood lead levels (under age 6)",
-    "indicator_description": "Blood lead levels above 5 mcg/dL among children under age 6. Lead poisoning can cause learning and behavior problems, and delay growth and mental development. There is no safe level of lead in the blood."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Household air conditioning",
-    "indicator_description": "Households reporting functioning air conditioning (AC). AC is an important way to prevent heat stress, especially for people with limited mobility."
-  },
-  {
     "title": "Active_Design_Physical_Activity_and_Health",
     "indicator_name": "Premature mortality",
     "indicator_description": "Deaths before age 65. This can indicate the overall health of a population."
   },
   {
-    "title": "Housing_and_Health",
-    "indicator_name": "Rent-burdened households",
-    "indicator_description": "Renter households spending 30% of their income or more on rent."
-  },
-  {
     "title": "Active_Design_Physical_Activity_and_Health",
-    "indicator_name": "Perception of neighborhood safety",
-    "indicator_description": "Adults reporting their neighborhood is safe from crime. Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Evictions (court-ordered)",
-    "indicator_description": "Court-ordered evictions. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with negative health among adults and children. People who are threatened with eviction, even before they lose their home, are more likely to report poor health."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Asthma emergency department visits (age 5 to 17)",
-    "indicator_description": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma."
-  },
-  {
-    "title": "Climate_and_Health",
-    "indicator_name": "Asthma emergency department visits (age 5 to 17)",
-    "indicator_description": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Asthma emergency department visits (adults)",
-    "indicator_description": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Asthma hospitalizations (age 5 to 17)",
-    "indicator_description": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Asthma hospitalizations (age 5 to 17)",
-    "indicator_description": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
-  },
-  {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Asthma hospitalizations (adults)",
-    "indicator_description": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
-  },
-  {
-    "title": "Housing_and_Health",
-    "indicator_name": "Asthma hospitalizations (adults)",
-    "indicator_description": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
+    "indicator_name": "Tree canopy cover",
+    "indicator_description": "The percent of a neighborhood that is shaded by trees. Tree shade can lower a neighborhood's temperatures, can make it more comfortable and attractive to walk and stay active."
   },
   {
     "title": "Active_Design_Physical_Activity_and_Health",
@@ -365,9 +45,229 @@
     "indicator_description": "The percentage of population within a quarter-mile of a subway station entrance. When more people have convenient access to the transit system, they're more likely to use it. Subway access encourages active transportation, which improves the health of residents."
   },
   {
+    "title": "Active_Design_Physical_Activity_and_Health",
+    "indicator_name": "Adults reporting mice or rats outside",
+    "indicator_description": "Mice and rats are a source of household allergens connected to developing or worsening asthma."
+  },
+  {
+    "title": "Active_Design_Physical_Activity_and_Health",
+    "indicator_name": "Neighborhood poverty",
+    "indicator_description": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health."
+  },
+  {
+    "title": "Active_Design_Physical_Activity_and_Health",
+    "indicator_name": "Perception of neighborhood safety",
+    "indicator_description": "Adults reporting their neighborhood is safe from crime. Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being."
+  },
+  {
+    "title": "Active_Design_Physical_Activity_and_Health",
+    "indicator_name": "Monthly bicycle use",
+    "indicator_description": "Adults reporting having ridden a bicycle at least once a month in the past year."
+  },
+  {
+    "title": "Active_Design_Physical_Activity_and_Health",
+    "indicator_name": "Recent exercise",
+    "indicator_description": "Adults reporting exercise in the past 30 days (from when they were surveyed). Regular exercise is a key way to stay healthy."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Adults with a recent asthma attack",
+    "indicator_description": "Adults reporting an asthma diagnosis, and symptoms, in the last 12 months (from when they were surveyed). Poor air quality and housing issues increase risk of developing and triggering asthma."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Asthma emergency department visits (adults)",
+    "indicator_description": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Asthma hospitalizations (adults)",
+    "indicator_description": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Asthma emergency department visits (age 5 to 17)",
+    "indicator_description": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Asthma hospitalizations (age 5 to 17)",
+    "indicator_description": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Asthma emergency department visits due to PM2.5",
+    "indicator_description": "ED visits for asthma due to PM2.5 air pollution. These represent part of the health burden of air pollution."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Asthma emergency departments visits due to Ozone",
+    "indicator_description": "ED visits for asthma due to ozone. These are part of the health burden of air pollution."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Asthma hospitalizations due to Ozone",
+    "indicator_description": "Hospitalizations for asthma due to ozone. These are part of the health burden of air pollution."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Homes with cracks or holes",
+    "indicator_description": "Households reporting cracks or holes in the home. This maintenance problem is linked to mice, rats, and cockroaches - which can harm residents' health."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Homes with leaks",
+    "indicator_description": "Households reporting leaks from outside the unit. This maintenance problem can introduce mold, which can worsen respiratory conditions like asthma."
+  },
+  {
     "title": "Asthma_and_the_Environment",
     "indicator_name": "Renter-occupied homes with any health-related housing problems",
     "indicator_description": "Renter-occupied homes with any health-related housing problems. Homes with housing problems can threaten the health of the people who live there."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Secondhand smoke at home",
+    "indicator_description": "Adults reporting secondhand smoke at home. Secondhand smoke, especially indoors, is bad for health - particularly for the health of children."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Homes with cockroaches",
+    "indicator_description": "The presence of cockroaches in the home is often associated with poor housing maintenance. Cockroaches in the home can contaminate food and worsen asthma."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "No smoke-free home policy",
+    "indicator_description": "Adults without a smoke-free home policy. A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Mold in homes",
+    "indicator_description": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Adults reporting mice or rats inside",
+    "indicator_description": "Mice and rats are a source of household allergens connected to developing or worsening asthma."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Fine particles (PM 2.5)",
+    "indicator_description": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion — and are a major form of air pollution that harms health. Neighborhood sensors measure PM2.5 at the street-level, where people are most active. These sensors are designed to let us measure differences in air pollution over time and locations within New York City."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Ozone (O3)",
+    "indicator_description": "Concentration of ozone in the air. Ozone is a common air pollutant that can harm breathing and worsen respiratory conditions."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Neighborhood poverty",
+    "indicator_description": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health."
+  },
+  {
+    "title": "Asthma_and_the_Environment",
+    "indicator_name": "Health insurance (adults)",
+    "indicator_description": "Adults with any kind of health insurance. People with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Homes near structures rated good or excellent",
+    "indicator_description": "Building quality predicts the number of housing maintenance problems in a residence that place residents at increased risk of acute or chronic health problems."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Vegetative cover",
+    "indicator_description": "Land covered by trees, grass, or other plants. Vegetative cover reduces temperatures in the immediate area, and may increase air quality."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Older adults with air conditioners (age 65+)",
+    "indicator_description": "Older adults (over 65) are more vulnerable to hot weather and heat stress. Air conditioning reduces the risk of heat stroke and other heat-related illness."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Residents living in a hurricane evacuation zone",
+    "indicator_description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and indicate varying threat levels of coastal flooding from storm surge. Evacuation orders may be given during hurricanes or coastal flooding events. There are six zones, ranked by storm surge risk. Zone 1 is the highest risk for flooding. Residents in these zones may receive evacuation orders during hurricanes or tropical storms."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Daytime summer surface temperature",
+    "indicator_description": "Spatial average of surface temperature, measured by satellite. Surface temperatures vary because of vegetative cover (which promotes cooling), and paved roads, sidewalks, and buildings (which retain heat). Hotter neighborhoods tend to have more heat-exacerbated deaths associated with extreme heat events."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Asthma emergency department visits (age 5 to 17)",
+    "indicator_description": "Emergency department visits for asthma. Things like smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander can trigger asthma."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Neighborhood poverty",
+    "indicator_description": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Serious psychological distress",
+    "indicator_description": "Mental health conditions like series psychological distress can be worsened by extreme weather such as heat waves and coastal storms."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Independent living difficulty (adults)",
+    "indicator_description": "Adults reporting independent living difficulty due to a physical, mental, or emotional problem. People with disabilities may need additional support during extreme weather. For example, extra planning for safe travel out of evacuation zones during a hurricane, or back-up electricity to support medical equipment during power outages."
+  },
+  {
+    "title": "Climate_and_Health",
+    "indicator_name": "Older adults living alone (65+)",
+    "indicator_description": "People age 65+ living alone. People living alone may have more difficulty getting resources they need in an emergency, and are at higher risk of weather-related illnesses like heat stroke and hypothermia."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Heat stress: yearly hospitalizations",
+    "indicator_description": "Hospitalizations due to heat stress. These are part of the public health burden of hot weather."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Elevated blood lead levels (under age 6)",
+    "indicator_description": "Blood lead levels above 5 mcg/dL among children under age 6. Lead poisoning can cause learning and behavior problems, and delay growth and mental development. There is no safe level of lead in the blood."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Asthma hospitalizations (age 5 to 17)",
+    "indicator_description": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Asthma hospitalizations (adults)",
+    "indicator_description": "Hospitalizations for asthma. These more severe asthma outcomes are often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Homes with cracks or holes",
+    "indicator_description": "Households reporting cracks or holes in the home. This maintenance problem is linked to mice, rats, and cockroaches - which can harm residents' health."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Old homes with peeling paint",
+    "indicator_description": "Housing built before 1960 with peeling paint. This can put residents at risk of lead poisoning. Lead paint was banned from household paints in New York City in 1960 and in the USA in 1978."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Homes with leaks",
+    "indicator_description": "Households reporting leaks from outside the unit. This maintenance problem can introduce mold, which can worsen respiratory conditions like asthma."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Homes using supplemental heat",
+    "indicator_description": "Households using supplemental heat, like a space heater. This may mean a building's main heat source doesn't work. It can indicate the presence of other health-threatening maintenance deficiencies, and increase fire risk."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Carbon monoxide incidents (without a detector)",
+    "indicator_description": "Carbon monoxide incidents when there was no alarm. Carbon monoxide detectors are required in NYC homes by law. Failure to provide or maintain a detector can put people at risk for carbon monoxide poisoning and death."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Household air conditioning",
+    "indicator_description": "Households reporting functioning air conditioning (AC). AC is an important way to prevent heat stress, especially for people with limited mobility."
   },
   {
     "title": "Housing_and_Health",
@@ -375,9 +275,89 @@
     "indicator_description": "Renter-occupied homes with any health-related housing problems. Homes with housing problems can threaten the health of the people who live there."
   },
   {
-    "title": "Asthma_and_the_Environment",
-    "indicator_name": "Fine particles (PM 2.5)",
-    "indicator_description": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion — and are a major form of air pollution that harms health. Neighborhood sensors measure PM2.5 at the street-level, where people are most active. These sensors are designed to let us measure differences in air pollution over time and locations within New York City."
+    "title": "Housing_and_Health",
+    "indicator_name": "Homes with mice or rats in the building",
+    "indicator_description": "Households reporting mice or rats in their building in the past 90 days (from when they were surveyed). The presence of rodents is associated with housing problems. These pests can contaminate food and worsen asthma."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Homes with cockroaches",
+    "indicator_description": "The presence of cockroaches in the home is often associated with poor housing maintenance. Cockroaches in the home can contaminate food and worsen asthma."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Mold in homes",
+    "indicator_description": "Adults reporting mold in the home. Mold can worsen respiratory conditions like asthma, and indicate housing problems in a building."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Household crowding",
+    "indicator_description": "Households with more than one person per room."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Child poverty (under age 5)",
+    "indicator_description": "Children living in households in poverty. Poverty deprives people of access to health and safety resources."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Rent-burdened households",
+    "indicator_description": "Renter households spending 30% of their income or more on rent."
+  },
+  {
+    "title": "Housing_and_Health",
+    "indicator_name": "Evictions (court-ordered)",
+    "indicator_description": "Court-ordered evictions. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with negative health among adults and children. People who are threatened with eviction, even before they lose their home, are more likely to report poor health."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Deaths due to PM2.5",
+    "indicator_description": "Estimated annual deaths due to PM2.5 air pollution. Estimating these deaths is a way to understand how air pollution increases mortality."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Asthma emergency department visits due to PM2.5",
+    "indicator_description": "ED visits for asthma due to PM2.5 air pollution. These represent part of the health burden of air pollution."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Respiratory hospitalizations due to PM2.5 (age 20+)",
+    "indicator_description": "Hospitalizations for respiratory issues due to PM2.5 pollution (among people over age 20). These represent part of the health burden of air pollution."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Cardiovascular hospitalizations due to PM2.5 (age 40+)",
+    "indicator_description": "Hospitalizations for cardiovascular issues due to PM2.5 (among people over age 40). These represent part of the health burden of air pollution."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Cardiac and respiratory deaths due to Ozone",
+    "indicator_description": "Deaths due to cardiac or respiratory issues linked to ozone. These show how air pollution increases mortality."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Asthma emergency departments visits due to Ozone",
+    "indicator_description": "ED visits for asthma due to ozone. These are part of the health burden of air pollution."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Asthma hospitalizations due to Ozone",
+    "indicator_description": "Hospitalizations for asthma due to ozone. These are part of the health burden of air pollution."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Boiler emissions (SO2)",
+    "indicator_description": "Boilers are a common source of SO2, which can worsen lung disease."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Boiler emissions (PM2.5)",
+    "indicator_description": "Boilers are a common source of PM2.5, which can harm health."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Boiler emissions (NOx)",
+    "indicator_description": "Boilers are a common source of NOx emissions, which can harm health."
   },
   {
     "title": "Outdoor_Air_and_Health",
@@ -395,13 +375,33 @@
     "indicator_description": "Concentration of nitrogen dioxide in the air. Nitrogen dioxide is a pollutant formed by combustion. It causes breathing problems and contributes to smog and acid rain."
   },
   {
-    "title": "Asthma_and_the_Environment",
+    "title": "Outdoor_Air_and_Health",
     "indicator_name": "Ozone (O3)",
     "indicator_description": "Concentration of ozone in the air. Ozone is a common air pollutant that can harm breathing and worsen respiratory conditions."
   },
   {
     "title": "Outdoor_Air_and_Health",
-    "indicator_name": "Ozone (O3)",
-    "indicator_description": "Concentration of ozone in the air. Ozone is a common air pollutant that can harm breathing and worsen respiratory conditions."
+    "indicator_name": "Outdoor Air Toxics - Benzene",
+    "indicator_description": "Benzene is an air pollutant resulting from motor vehicle and industrial emissions and tobacco smoke. Benzene is a known carcinogen that can also harm bone marrow and red blood cell function."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Outdoor Air Toxics - Formaldehyde",
+    "indicator_description": "Formaldehyde is an air pollutant resulting from car exhaust and the manufacture of industrial products. Formaldehyde is a known carcinogen that can also cause irritation to eyes and lungs and increase risk of asthma and trigger asthma symptoms."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Traffic density",
+    "indicator_description": "Annual vehicle miles travelled. Traffic density can influence health as a source of air pollution and traffic-related injuries."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Traffic density (cars)",
+    "indicator_description": "Annual vehicle miles travelled by cars. Traffic density can influence health as a source of air pollution and traffic-related injuries."
+  },
+  {
+    "title": "Outdoor_Air_and_Health",
+    "indicator_name": "Traffic density (trucks)",
+    "indicator_description": "Annual vehicle miles travelled by trucks. Traffic density can influence health as a source of air pollution and traffic-related injuries."
   }
 ]

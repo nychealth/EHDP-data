@@ -296,6 +296,22 @@ viz_data_for_hugo_0 <-
         data_value_geo_entity,
         unmodified_data_value_geo_entity,
         nbr_data_note
+    ) %>% 
+    arrange(
+        report,
+        report_topic,
+        geo_type,
+        geo_entity_id,
+        MeasureID,
+        desc(end_date)
+    ) %>% 
+    distinct(
+        report,
+        report_topic,
+        geo_type,
+        geo_entity_id,
+        MeasureID,
+        .keep_all = TRUE
     )
 
 
