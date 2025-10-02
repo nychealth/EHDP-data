@@ -13,9 +13,9 @@ Merging feature development branches into `production` is tricky in this repo: t
 This will involve deleting all data files from a copy of feature branch and the new production merge branch.
 
 1. Create a new "merge" production branch from `production`, e.g. `merge/2023-12-28/production`
-2. On `merge/2023-12-28/production`, run `delete_data_files.[ps1/sh]` to delete everything but READMEs and folders from `indicators/data`, `indicators/metadata`, `neighborhood-reports/data/report`, `neighborhood-reports/data/viz`, `neighborhood-reports/metadata` and `neighborhood-reports/images`.
-3. Commit the changes
-4. Create a new "merge" feature branch from the main feature branch, e.g. `feature-whatever` -> `merge/2023-12-28/feature-whatever`
+2. Create a new "merge" feature branch from the main feature branch, e.g. `feature-whatever` -> `merge/2023-12-28/feature-whatever`
+3. On `merge/2023-12-28/production`, run `delete_data_files.[ps1/sh]` to delete everything but READMEs and folders from `indicators/data`, `indicators/metadata`, `neighborhood-reports/data/report`, `neighborhood-reports/data/viz`, `neighborhood-reports/metadata` and `neighborhood-reports/images`.
+4. Commit the changes
 5. On `merge/2023-12-28/feature-whatever`, run `delete_data_files.[ps1/sh]`
 6. Commit the changes
 7. Merge `merge/2023-12-28/feature-whatever` into `merge/2023-12-28/production`
