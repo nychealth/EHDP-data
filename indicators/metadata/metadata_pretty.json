@@ -1320,10 +1320,6 @@
                     "SecondaryAxis": "y"
                   },
                   {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "y"
-                  },
-                  {
                     "MeasureID": 792,
                     "SecondaryAxis": "y"
                   },
@@ -2106,10 +2102,6 @@
                 "Measures": [
                   {
                     "MeasureID": 777,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 790,
                     "SecondaryAxis": "y"
                   },
                   {
@@ -24228,8 +24220,28 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 221,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 692,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 693,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -24363,8 +24375,28 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 221,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 692,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 693,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -24832,14 +24864,6 @@
                 "Measures": [
                   {
                     "MeasureID": 748,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1257,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -26086,10 +26110,6 @@
                   {
                     "MeasureID": 506,
                     "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -27022,10 +27042,6 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "y"
-                  },
-                  {
                     "MeasureID": 1201,
                     "SecondaryAxis": "y"
                   }
@@ -27916,153 +27932,6 @@
                   }
                 ],
                 "Disparities": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID": 2188,
-    "IndicatorName": "Homes with grab bars in bathroom (age 65+)",
-    "IndicatorLabel": "Homes with grab bars in bathroom (age 65+)",
-    "IndicatorDescription": "Homes with grab bars in the bathroom, among homes with adults age 65+. Grab bars in bathrooms can help prevent falls among older adults.",
-    "Comparisons": null,
-    "Measures": [
-      {
-        "MeasureID": 789,
-        "MeasureName": "Homes with grab bars in bathroom (age 65+), Number",
-        "MeasurementType": "Number",
-        "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older. Counts not available for all years.",
-        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
-        "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [38],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38],
-                "RankReverse": 1
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 790,
-        "MeasureName": "Homes with grab bars in bathroom (age 65+), Percent",
-        "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older, divided by the estimated number of households with adults aged 65 years or older; expressed as a percent. ",
-        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
-        "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "UHF42"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [38],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38],
-                "RankReverse": 1
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": 24,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 29,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 692,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1257,
-                    "SecondaryAxis": "y"
-                  }
-                ],
-                "Disparities": 1
               }
             ]
           }
@@ -34112,10 +33981,6 @@
                   },
                   {
                     "MeasureID": 398,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 790,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -42228,145 +42093,6 @@
     ]
   },
   {
-    "IndicatorID": 2403,
-    "IndicatorName": "Homes with reported falls (age 65+)",
-    "IndicatorLabel": "Homes with reported falls among adults 65 and older",
-    "IndicatorDescription": "Households that reported people 65 or older who fell in the home. Falls are a leading cause of injury among older adults.",
-    "Comparisons": null,
-    "Measures": [
-      {
-        "MeasureID": 1256,
-        "MeasureName": "Homes with reported falls, Number",
-        "MeasurementType": "Number",
-        "how_calculated": "Estimated number of households that reported anyone 65 or older having fallen in the home. Counts not available for all years.",
-        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
-        "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [38],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 1257,
-        "MeasureName": "Homes with reported falls, Percent",
-        "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of households that reported anyone 65 or older having fallen in the home, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
-        "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "UHF42"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [38],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": 692,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "x"
-                  }
-                ],
-                "Disparities": 1
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "IndicatorID": 2404,
     "IndicatorName": "Secondhand smoke exposure at home (children)",
     "IndicatorLabel": "Children exposed to tobacco smoke in home (ages 1-13 years)",
@@ -43197,8 +42923,28 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 221,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 692,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 693,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -43332,8 +43078,28 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 221,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 692,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 693,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
