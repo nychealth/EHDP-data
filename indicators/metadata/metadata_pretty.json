@@ -13,46 +13,55 @@
         "how_calculated": "Number of live, singleton births occurring at less than 37 weeks gestation among residents of an area. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -76,46 +85,55 @@
         "how_calculated": "Number of live, singleton births occurring at less than 37 weeks gestation among residents of an area, divided by the number of live, singleton births with nonmissing gestational age among residents of the area; expressed as percent. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -148,46 +166,55 @@
         "how_calculated": "Number of live, singleton births occurring at less than 32 weeks gestation among residents of an area. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -211,46 +238,55 @@
         "how_calculated": "Number of live, singleton births occurring at less than 32 weeks gestation among residents of an area, divided by the number of live, singleton births with nonmissing gestational age among residents of the area; expressed as percent. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -283,46 +319,55 @@
         "how_calculated": "Number of live, singleton births with a birthweight less than 1,500 grams (3 lbs 5 oz) among residents of an area. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -346,46 +391,55 @@
         "how_calculated": "Number of live, singleton births with a birthweight less than 1,500 grams (3 lbs 5 oz) among residents of an area, divided by the number of live, singleton births with nonmissing birthweight among residents of the area; expressed as percent. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -418,46 +472,55 @@
         "how_calculated": "Number of live, singleton, term births with a birthweight less than 2,500 grams (5 lbs, 8 oz) among residents of an area. Term births are those with a gestational age of 37 weeks or more. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -481,46 +544,55 @@
         "how_calculated": "Number of live, singleton, term births with a birthweight less than 2,500 grams (5 lbs 8 oz) among residents of an area, divided by the total number of live, singleton, term births with nonmissing birthweight among residents of the area; expressed as percent. All births are restricted to those with a gestational age of 37 weeks or more. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -557,46 +629,55 @@
         "how_calculated": "Number of deaths occurring at less than 1 year of age. Infant deaths are restricted to those that can be linked to a birth certificate of a NYC resident mother and are mapped to the mother's usual residence at birth. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -620,46 +701,55 @@
         "how_calculated": "Number of deaths occurring at less than 1 year of age in an area, divided by the number of live births among resident mothers of the area; expressed as cases per 1,000 live births. Infant deaths are restricted to those that can be linked to a birth certificate of a NYC resident mother and are mapped to the mother's usual residence at birth. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "per 1,000 live births",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -692,46 +782,55 @@
         "how_calculated": "Number of deaths occurring at less than 28 days of age in an area. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here.<\/a> Neonatal deaths are restricted to those that can be linked to a birth certificate of a NYC resident mother and are mapped to the mother's usual residence at birth.",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -755,46 +854,55 @@
         "how_calculated": "Number of deaths occurring at less than 28 days of age in an area, divided by the number of live births among resident mothers of the area; expressed as cases per 1,000 live births. Neonatal deaths are restricted to those that can be linked to a birth certificate of a NYC resident mother. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "per 1,000 live births",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -952,46 +1060,55 @@
         "how_calculated": "Number of deaths occurring from 28 days to less than 1 year of age in an area. Deaths are restricted to those that can be linked to a birth certificate of a NYC resident mother and are mapped to the mother's usual residence at birth. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -1015,46 +1132,55 @@
         "how_calculated": "Number of deaths occurring from 28 days to less than 1 year of age in an area, divided by the number of live births among resident mothers of the area; expressed per 1,000 live births. Deaths are restricted to those that can be linked to a birth certificate of a NYC resident mother and are mapped to the mother's usual residence at birth. For more information about this measure, <a href=\"http://www1.nyc.gov/assets/doh/downloads/pdf/tracking/vital-stats-definitions.pdf\" target=\"_blank\"> click here. <\/a>",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "per 1,000 live births",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40],
+        "AvailableTimePeriodIDs": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40]
+                "TimePeriodID": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -31102,46 +31228,55 @@
         "how_calculated": "Average annual rate of premature deaths (death before age 65) per 100,000 population.",
         "Sources": "New York City Bureau of Vital Statistics; New York City Bureau of Vital Statistics; United States Census ",
         "DisplayType": "per 100,000",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [45],
+        "AvailableTimePeriodIDs": [41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45],
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [45],
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
@@ -31165,46 +31300,55 @@
         "how_calculated": "Number of deaths occurring before age 65.",
         "Sources": "New York City Bureau of Vital Statistics",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [45],
+        "AvailableTimePeriodIDs": [41, 44, 45, 46, 47, 48, 49],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45],
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [45],
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [45]
+                "TimePeriodID": [41, 44, 45, 46, 47, 48, 49]
               }
             ],
             "Links": [
