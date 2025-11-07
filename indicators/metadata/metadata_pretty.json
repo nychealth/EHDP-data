@@ -1316,10 +1316,6 @@
                     "SecondaryAxis": "y"
                   },
                   {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "y"
-                  },
-                  {
                     "MeasureID": 792,
                     "SecondaryAxis": "y"
                   },
@@ -2070,10 +2066,6 @@
                 "Measures": [
                   {
                     "MeasureID": 777,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 790,
                     "SecondaryAxis": "y"
                   },
                   {
@@ -24029,8 +24021,24 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 692,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 693,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -24164,8 +24172,24 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 692,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 693,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -24450,14 +24474,6 @@
                 "Measures": [
                   {
                     "MeasureID": 748,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 1257,
                     "SecondaryAxis": "y"
                   }
                 ],
@@ -25660,10 +25676,6 @@
                   {
                     "MeasureID": 506,
                     "SecondaryAxis": "y"
-                  },
-                  {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -26588,10 +26600,6 @@
                     "SecondaryAxis": "x"
                   },
                   {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "y"
-                  },
-                  {
                     "MeasureID": 1201,
                     "SecondaryAxis": "y"
                   }
@@ -27470,153 +27478,6 @@
                   }
                 ],
                 "Disparities": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID": 2188,
-    "IndicatorName": "Homes with grab bars in bathroom (age 65+)",
-    "IndicatorLabel": "Homes with grab bars in bathroom (age 65+)",
-    "IndicatorDescription": "Homes with grab bars in the bathroom, among homes with adults age 65+. Grab bars in bathrooms can help prevent falls among older adults.",
-    "Comparisons": null,
-    "Measures": [
-      {
-        "MeasureID": 789,
-        "MeasureName": "Homes with grab bars in bathroom (age 65+), Number",
-        "MeasurementType": "Number",
-        "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older. Counts not available for all years.",
-        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
-        "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [38],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38],
-                "RankReverse": 1
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 790,
-        "MeasureName": "Homes with grab bars in bathroom (age 65+), Percent",
-        "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of homes with grab bars in the bathroom, among homes with adults aged 65 years or older, divided by the estimated number of households with adults aged 65 years or older; expressed as a percent. ",
-        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
-        "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "UHF42"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [38],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38],
-                "RankReverse": 1
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38],
-                "RankReverse": 1
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": 24,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 29,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 692,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 1257,
-                    "SecondaryAxis": "y"
-                  }
-                ],
-                "Disparities": 1
               }
             ]
           }
@@ -36177,48 +36038,48 @@
         "MeasureName": "Violence-related hospitalizations (all ages), Number",
         "MeasurementType": "Number",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Violence-related hospitalizations include all non-fatal assaults by any means and all injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal violence-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: X92-Y09, T36-T50 with 6th character=3, T36.9, T37.9, T39.9, T41.4, T42.7, T43.9, T45.9, T47.9, and T49.9 with 5th character=3, T51-T65 with 6th character=3, T51.9, T52.9, T53.9, T54.9, T56.9, T57.9, T58.0, T58.1, T58.9, T59.9, T60.9, T61.0, T61.1, T61.9, T62.9, T63.9, T64.0, T64.8, and T65.9 with a 5th character = 3, T71 with 6th character=3, T74,T76, W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, Y22, Y23, Y24.8, Y24.9 Y35.00-Y35.03, Y35.09, Y38 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -36240,48 +36101,48 @@
         "MeasureName": "Violence-related hospitalizations (all ages), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Number of non-fatal violence-related injury hospitalizations&nbsp;divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. Violence-related hospitalizations include all non-fatal assaults by any means and all injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal violence-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: X92-Y09, T36-T50 with 6th character=3, T36.9, T37.9, T39.9, T41.4, T42.7, T43.9, T45.9, T47.9, and T49.9 with 5th character=3, T51-T65 with 6th character=3, T51.9, T52.9, T53.9, T54.9, T56.9, T57.9, T58.0, T58.1, T58.9, T59.9, T60.9, T61.0, T61.1, T61.9, T62.9, T63.9, T64.0, T64.8, and T65.9 with a 5th character = 3, T71 with 6th character=3, T74,T76, W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, Y22, Y23, Y24.8, Y24.9 Y35.00-Y35.03, Y35.09, Y38 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -39764,48 +39625,48 @@
         "MeasureName": "Violence-related ED visits (all ages), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Number of non-fatal violence-related injury ED visits divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. Violence-related emergency department visits include all non-fatal assaults by any means and all injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal violence-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: X92-Y09, T36-T50 with 6th character=3, T36.9, T37.9, T39.9, T41.4, T42.7, T43.9, T45.9, T47.9, and T49.9 with 5th character=3, T51-T65 with 6th character=3, T51.9, T52.9, T53.9, T54.9, T56.9, T57.9, T58.0, T58.1, T58.9, T59.9, T60.9, T61.0, T61.1, T61.9, T62.9, T63.9, T64.0, T64.8, and T65.9 with a 5th character = 3, T71 with 6th character=3, T74,T76, W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, Y22, Y23, Y24.8, Y24.9 Y35.00-Y35.03, Y35.09, Y38 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -39839,48 +39700,48 @@
         "MeasureName": "Violence-related ED visits (all ages), Number",
         "MeasurementType": "Number",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Violence-related emergency department visits include all non-fatal assaults by any means and all injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal violence-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: X92-Y09, T36-T50 with 6th character=3, T36.9, T37.9, T39.9, T41.4, T42.7, T43.9, T45.9, T47.9, and T49.9 with 5th character=3, T51-T65 with 6th character=3, T51.9, T52.9, T53.9, T54.9, T56.9, T57.9, T58.0, T58.1, T58.9, T59.9, T60.9, T61.0, T61.1, T61.9, T62.9, T63.9, T64.0, T64.8, and T65.9 with a 5th character = 3, T71 with 6th character=3, T74,T76, W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, Y22, Y23, Y24.8, Y24.9 Y35.00-Y35.03, Y35.09, Y38 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -40027,145 +39888,6 @@
                   }
                 ],
                 "Disparities": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "IndicatorID": 2403,
-    "IndicatorName": "Homes with reported falls (age 65+)",
-    "IndicatorLabel": "Homes with reported falls among adults 65 and older",
-    "IndicatorDescription": "Households that reported people 65 or older who fell in the home. Falls are a leading cause of injury among older adults.",
-    "Comparisons": null,
-    "Measures": [
-      {
-        "MeasureID": 1256,
-        "MeasureName": "Homes with reported falls, Number",
-        "MeasurementType": "Number",
-        "how_calculated": "Estimated number of households that reported anyone 65 or older having fallen in the home. Counts not available for all years.",
-        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
-        "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [38],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
-                  }
-                ],
-                "Disparities": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "MeasureID": 1257,
-        "MeasureName": "Homes with reported falls, Percent",
-        "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of households that reported anyone 65 or older having fallen in the home, divided by the number of households in the area; expressed as percent.",
-        "Sources": "New York City Housing and Vacancy Survey (NYCHVS)",
-        "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro", "UHF42"],
-        "TrendNoCompare": null,
-        "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [38],
-        "VisOptions": [
-          {
-            "Table": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Map": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38],
-                "RankReverse": 0
-              },
-              {
-                "GeoType": "PUMA2010",
-                "TimePeriodID": [38],
-                "RankReverse": 0
-              }
-            ],
-            "Trend": [
-              {
-                "GeoType": "Borough",
-                "TimePeriodID": [38]
-              },
-              {
-                "GeoType": "Citywide",
-                "TimePeriodID": [38]
-              }
-            ],
-            "Links": [
-              {
-                "Measures": [
-                  {
-                    "MeasureID": 692,
-                    "SecondaryAxis": "x"
-                  },
-                  {
-                    "MeasureID": 790,
-                    "SecondaryAxis": "x"
-                  }
-                ],
-                "Disparities": 1
               }
             ]
           }
@@ -40986,8 +40708,24 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 692,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 693,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -41121,8 +40859,24 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 692,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 693,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -46260,48 +46014,48 @@
         "MeasureName": "Violence-related ED visits (15-34), Number",
         "MeasurementType": "Number",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Violence-related emergency department visits include all non-fatal assaults by any means and all injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal violence-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: X92-Y09, T36-T50 with 6th character=3, T36.9, T37.9, T39.9, T41.4, T42.7, T43.9, T45.9, T47.9, and T49.9 with 5th character=3, T51-T65 with 6th character=3, T51.9, T52.9, T53.9, T54.9, T56.9, T57.9, T58.0, T58.1, T58.9, T59.9, T60.9, T61.0, T61.1, T61.9, T62.9, T63.9, T64.0, T64.8, and T65.9 with a 5th character = 3, T71 with 6th character=3, T74,T76, W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, Y22, Y23, Y24.8, Y24.9 Y35.00-Y35.03, Y35.09, Y38 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only.&nbsp;Visits were restricted to patients ages 15-34 years because of the disproportionate concentration of violence and its persistence as a <a href=\"https://www.nyc.gov/assets/doh/downloads/pdf/ip/ip-death-all-rank.pdf\">high-ranking of cause of death in this age group<\/a>. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46323,48 +46077,48 @@
         "MeasureName": "Violence-related ED visits (15-34), Rate",
         "MeasurementType": "Rate",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Number of non-fatal violence-related injury ED visits divided by the NYC population of 15-34 year olds, using NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022); they are expressed as visits per 100,000 residents. Violence-related emergency department visits include all non-fatal assaults by any means and all injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal violence-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: X92-Y09, T36-T50 with 6th character=3, T36.9, T37.9, T39.9, T41.4, T42.7, T43.9, T45.9, T47.9, and T49.9 with 5th character=3, T51-T65 with 6th character=3, T51.9, T52.9, T53.9, T54.9, T56.9, T57.9, T58.0, T58.1, T58.9, T59.9, T60.9, T61.0, T61.1, T61.9, T62.9, T63.9, T64.0, T64.8, and T65.9 with a 5th character = 3, T71 with 6th character=3, T74,T76, W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, Y22, Y23, Y24.8, Y24.9 Y35.00-Y35.03, Y35.09, Y38 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only.&nbsp;Visits were restricted to patients ages 15-34 years because of the disproportionate concentration of violence and its persistence as a <a href=\"https://www.nyc.gov/assets/doh/downloads/pdf/ip/ip-death-all-rank.pdf\">high-ranking of cause of death in this age group<\/a>. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46407,48 +46161,48 @@
         "MeasureName": "Firearm ED visits (15-34), Number",
         "MeasurementType": "Number",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Firearm-related emergency department visits include all non-fatal injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal firearm-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification&nbsp; using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, X93, X94, X95.8, X95.9, Y22, Y23, Y24.8, Y24.9, Y35.00-Y35.03, Y35.09, Y38.4 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. &nbsp;Visits were restricted to patients ages 15-34 years because of the disproportionate concentration of violence and its persistence as a <a href=\"https://www.nyc.gov/assets/doh/downloads/pdf/ip/ip-death-all-rank.pdf\">high-ranking of cause of death in this age group<\/a>. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46470,48 +46224,48 @@
         "MeasureName": "Firearm ED visits (15-34), Rate",
         "MeasurementType": "Rate",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Number of non-fatal firearm-related injury ED visits divided by the NYC population of 15-34 year olds, using NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022); they are expressed as visits per 100,000 residents. Firearm-related emergency department visits include all non-fatal injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal firearm-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification&nbsp; using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, X93, X94, X95.8, X95.9, Y22, Y23, Y24.8, Y24.9, Y35.00-Y35.03, Y35.09, Y38.4 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. &nbsp;Visits were restricted to patients ages 15-34 years because of the disproportionate concentration of violence and its persistence as a <a href=\"https://www.nyc.gov/assets/doh/downloads/pdf/ip/ip-death-all-rank.pdf\">high-ranking of cause of death in this age group<\/a>. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46554,48 +46308,48 @@
         "MeasureName": "Firearm ED visits (all ages), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Number of non-fatal firearm-related injury ED visits divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. Firearm-related emergency department visits include all non-fatal injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal firearm-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification&nbsp; using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, X93, X94, X95.8, X95.9, Y22, Y23, Y24.8, Y24.9, Y35.00-Y35.03, Y35.09, Y38.4 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46629,48 +46383,48 @@
         "MeasureName": "Firearm ED visits (all ages), Number",
         "MeasurementType": "Number",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Firearm-related emergency department visits include all non-fatal injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal firearm-related injury emergency department visits were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification&nbsp; using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, X93, X94, X95.8, X95.9, Y22, Y23, Y24.8, Y24.9, Y35.00-Y35.03, Y35.09, Y38.4 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46701,48 +46455,48 @@
         "MeasureName": "Violence-related hospitalizations (ages 15-34), Number",
         "MeasurementType": "Number",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Violence-related hospitalizations include all non-fatal assaults by any means and all injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal violence-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: X92-Y09, T36-T50 with 6th character=3, T36.9, T37.9, T39.9, T41.4, T42.7, T43.9, T45.9, T47.9, and T49.9 with 5th character=3, T51-T65 with 6th character=3, T51.9, T52.9, T53.9, T54.9, T56.9, T57.9, T58.0, T58.1, T58.9, T59.9, T60.9, T61.0, T61.1, T61.9, T62.9, T63.9, T64.0, T64.8, and T65.9 with a 5th character = 3, T71 with 6th character=3, T74,T76, W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, Y22, Y23, Y24.8, Y24.9 Y35.00-Y35.03, Y35.09, Y38 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only.&nbsp;Visits were restricted to patients ages 15-34 years because of the disproportionate concentration of violence and its persistence as a <a href=\"https://www.nyc.gov/assets/doh/downloads/pdf/ip/ip-death-all-rank.pdf\">high-ranking of cause of death in this age group<\/a>.&nbsp; SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46764,48 +46518,48 @@
         "MeasureName": "Violence-related hospitalizations (ages 15-34), Rate",
         "MeasurementType": "Rate",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Number of non-fatal violence-related injury hospitalizations divided by the NYC population of 15-34 year olds, using NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022); they are expressed as visits per 100,000 residents. Violence-related hospitalizations include all non-fatal assaults by any means and all injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal violence-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: X92-Y09, T36-T50 with 6th character=3, T36.9, T37.9, T39.9, T41.4, T42.7, T43.9, T45.9, T47.9, and T49.9 with 5th character=3, T51-T65 with 6th character=3, T51.9, T52.9, T53.9, T54.9, T56.9, T57.9, T58.0, T58.1, T58.9, T59.9, T60.9, T61.0, T61.1, T61.9, T62.9, T63.9, T64.0, T64.8, and T65.9 with a 5th character = 3, T71 with 6th character=3, T74,T76, W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, Y22, Y23, Y24.8, Y24.9 Y35.00-Y35.03, Y35.09, Y38 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only.&nbsp;Visits were restricted to patients ages 15-34 years because of the disproportionate concentration of violence and its persistence as a <a href=\"https://www.nyc.gov/assets/doh/downloads/pdf/ip/ip-death-all-rank.pdf\">high-ranking of cause of death in this age group<\/a>.&nbsp; SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46848,48 +46602,48 @@
         "MeasureName": "Firearm hospitalizations (ages 15-34), Number",
         "MeasurementType": "Number",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Firearm-related hospitalizations include all non-fatal injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal firearm-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification&nbsp; using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, X93, X94, X95.8, X95.9, Y22, Y23, Y24.8, Y24.9, Y35.00-Y35.03, Y35.09, Y38.4 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. &nbsp;Visits were restricted to patients ages 15-34 years because of the disproportionate concentration of violence and its persistence as a <a href=\"https://www.nyc.gov/assets/doh/downloads/pdf/ip/ip-death-all-rank.pdf\">high-ranking of cause of death in this age group<\/a>. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46911,48 +46665,48 @@
         "MeasureName": "Firearm hospitalizations (ages 15-34), Rate",
         "MeasurementType": "Rate",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Number of non-fatal violence-related injury hospitalizations divided by the NYC population of 15-34 year olds, using NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022); they are expressed as visits per 100,000 residents. Firearm-related hospitalizations include all non-fatal injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal firearm-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification&nbsp; using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, X93, X94, X95.8, X95.9, Y22, Y23, Y24.8, Y24.9, Y35.00-Y35.03, Y35.09, Y38.4 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. &nbsp;Visits were restricted to patients ages 15-34 years because of the disproportionate concentration of violence and its persistence as a <a href=\"https://www.nyc.gov/assets/doh/downloads/pdf/ip/ip-death-all-rank.pdf\">high-ranking of cause of death in this age group<\/a>. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -46995,48 +46749,48 @@
         "MeasureName": "Firearm hospitalizations (all ages), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Number of non-fatal firearm-related injury hospitalizations&nbsp;divided by the corresponding age-specific NYC DOHMH population estimates, modified from US Census Bureau interpolated intercensal population estimates, 2000-2021 (updated September 2022). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 population in each age group. Age-adjusted rate is the sum of these weighted rates, expressed as cases per 100,000 residents. Firearm-related hospitalizations include all non-fatal injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal firearm-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification&nbsp; using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, X93, X94, X95.8, X95.9, Y22, Y23, Y24.8, Y24.9, Y35.00-Y35.03, Y35.09, Y38.4 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "per 100,000",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
@@ -47070,48 +46824,48 @@
         "MeasureName": "Firearm hospitalizations (all ages), Number",
         "MeasurementType": "Number",
         "how_calculated": "Because of slight variations between datasets, results might differ from those calculated using a different extract. Internal analyses by New York City Department of Health and Mental Hygiene conducted in April 2024. Firearm-related hospitalizations include all non-fatal injuries involving a firearm excluding those categorized as intentional self-harm. Non-fatal firearm-related injury hospitalizations were identified following the National Health Statistics Injury Framework for injury intent and mechanism classification&nbsp; using these first-listed external cause International Classification of Disease 10th Revision Clinical Modification (ICD-10-CM) codes: W32.0, W32.1, W33.0, W33.1, W34.00, W34.09, W34.10, W34.19, X93, X94, X95.8, X95.9, Y22, Y23, Y24.8, Y24.9, Y35.00-Y35.03, Y35.09, Y38.4 (<a href=\"https://www.cdc.gov/nchs/data/injury/nhsr136-508.pdf\">National Center for Health Statistics<\/a>). Only live discharges and initial encounters are included. All tables and figures include NYC residents only. SPARCS Data Disclaimer: These data were produced from raw data purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.",
-        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2021, cut by NYSDOH in November 2023.",
+        "Sources": "New York State Department of Health, Statewide Planning and Research Cooperative System (SPARCS) 2018-2023, cut by NYSDOH in November 2023 (2018-2021) and October 2024 (2022-2023).",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [47, 48, 49, 289],
+        "AvailableTimePeriodIDs": [47, 48, 49, 289, 296, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [47, 48, 49, 289],
+                "TimePeriodID": [47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [47, 48, 49, 289]
+                "TimePeriodID": [47, 48, 49, 289, 296, 298]
               }
             ],
             "Links": [
