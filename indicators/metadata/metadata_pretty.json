@@ -50832,7 +50832,7 @@
     "Measures": [
       {
         "MeasureID": 1449,
-        "MeasureName": "Bus stops with audio announcements, Number",
+        "MeasureName": "Audio bus stops, Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of Real Time Passenger Information (RTPI) bus signs. These signs include a push-button activated audio announcement of the real-time bus arrival information.",
         "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ",
@@ -50913,7 +50913,7 @@
       },
       {
         "MeasureID": 1450,
-        "MeasureName": "Bus stops with audio announcements, Density",
+        "MeasureName": "Audio bus stops, Density",
         "MeasurementType": "Density",
         "how_calculated": "Number of Real Time Passenger Information (RTPI) bus signs; expressed proportionally to the square miles.",
         "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ",
@@ -50994,7 +50994,7 @@
       },
       {
         "MeasureID": 1451,
-        "MeasureName": "Bus stops with audio announcements, Percent",
+        "MeasureName": "Audio bus stops, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Number of Real Time Passenger Information (RTPI) bus signs; expressed as a percent of the total number of bus stops.",
         "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ",
@@ -51084,7 +51084,7 @@
     "Measures": [
       {
         "MeasureID": 1452,
-        "MeasureName": "Public bathroom availability, Number",
+        "MeasureName": "Public bathrooms, Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of operational public restrooms",
         "Sources": "New York City Department of Transportation ; New York City Department of Parks and Recreation; Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; Mayor's Office of Operations; New York Public Library; Brooklyn Public Library; Queens Public Library",
@@ -51165,7 +51165,7 @@
       },
       {
         "MeasureID": 1454,
-        "MeasureName": "Public bathroom availability, Density",
+        "MeasureName": "Public bathrooms, Density",
         "MeasurementType": "Density",
         "how_calculated": "Number of operational public restrooms per square mile",
         "Sources": "New York City Department of Transportation ; New York City Department of Parks and Recreation; Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; Mayor's Office of Operations; New York Public Library; Brooklyn Public Library; Queens Public Library",
@@ -51246,7 +51246,7 @@
       },
       {
         "MeasureID": 1455,
-        "MeasureName": "Public bathroom availability, Percent accessible",
+        "MeasureName": "Public bathrooms, Percent accessible",
         "MeasurementType": "Percent accessible",
         "how_calculated": "Accessible operational public restrooms expressed as a percent of the total number of operational public restrooms",
         "Sources": "New York City Department of Transportation ; New York City Department of Parks and Recreation; Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; Mayor's Office of Operations; New York Public Library; Brooklyn Public Library; Queens Public Library",
@@ -51336,7 +51336,7 @@
     "Measures": [
       {
         "MeasureID": 1457,
-        "MeasureName": "Walking distance to an accessible subway station, Number",
+        "MeasureName": "Walkable accessible subway stations, Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of people within a half mile of an accessible subway station. A subway station is considered accessible if at least 1 platform direction is ADA compliant.",
         "Sources": "Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; OpenStreetMap",
@@ -51417,7 +51417,7 @@
       },
       {
         "MeasureID": 1458,
-        "MeasureName": "Walking distance to an accessible subway station, Percent",
+        "MeasureName": "Walkable accessible subway stations, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Percent of people within a half mile of an accessible subway station. A subway station is considered accessible if at least 1 platform direction is ADA compliant.",
         "Sources": "Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; OpenStreetMap",
@@ -51750,7 +51750,7 @@
     "Measures": [
       {
         "MeasureID": 1461,
-        "MeasureName": "Walking distance to an audio bus stop, Number",
+        "MeasureName": "Walkable audio bus stops, Number",
         "MeasurementType": "Number",
         "how_calculated": "Number of people within a half mile of an audio bus stop. These bus stops include a push-button activated audio announcement of the real-time bus arrival information.",
         "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ; OpenStreetMap",
@@ -51831,7 +51831,7 @@
       },
       {
         "MeasureID": 1462,
-        "MeasureName": "Walking distance to an audio bus stop, Percent",
+        "MeasureName": "Walkable audio bus stops, Percent",
         "MeasurementType": "Percent",
         "how_calculated": "Percent of people within a half mile of an audio bus stop. These bus stops include a push-button activated audio announcement of the real-time bus arrival information.",
         "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ; OpenStreetMap",
