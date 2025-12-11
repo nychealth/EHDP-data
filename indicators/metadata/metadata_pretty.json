@@ -6006,7 +6006,7 @@
     "IndicatorID": 55,
     "IndicatorName": "Ozone action days",
     "IndicatorLabel": "Ozone action days",
-    "IndicatorDescription": "Days when ozone levels are at unhealthy levels. Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
+    "IndicatorDescription": "Days when ozone levels are at unhealthy levels. Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions. Ozone action days are when the AQI is above 100, mainly due to ozone.",
     "Comparisons": [565],
     "Measures": [
       {
@@ -6107,7 +6107,7 @@
     "IndicatorID": 57,
     "IndicatorName": "Fine particles (PM 2.5) action days",
     "IndicatorLabel": "Fine particles (PM 2.5) action days",
-    "IndicatorDescription": "Days when PM2.5 is at an unhealthy level. PM2.5 is emitted by combustion and are a major form of air pollution that harms health.",
+    "IndicatorDescription": "Days when PM2.5 is at an unhealthy level. PM2.5 is emitted by combustion and are a major form of air pollution that harms health. PM2.5 action days are when the AQI is above 100, mainly due to PM2.5",
     "Comparisons": [564],
     "Measures": [
       {
@@ -10229,7 +10229,7 @@
     "IndicatorID": 103,
     "IndicatorName": "Neighborhood poverty",
     "IndicatorLabel": "Neighborhood poverty",
-    "IndicatorDescription": "The percent of households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health.",
+    "IndicatorDescription": "Households with incomes below the federal poverty level. Households without sufficient resources are often deprived of access to health care, good quality housing, and other resources that protect health.",
     "Comparisons": [732],
     "Measures": [
       {
@@ -18506,7 +18506,7 @@
     "IndicatorID": 2086,
     "IndicatorName": "Bicycle injury hospitalizations",
     "IndicatorLabel": "Bicycle injury hospitalizations",
-    "IndicatorDescription": "Nonfatal hospitalizations due to bicycle injuries. Bicycle injury hospitalizations can indicate the overall safety of cycling in the city - for transportation, work, or fun.",
+    "IndicatorDescription": "Nonfatal hospitalizations due to bicycle injuries. Bicycle injury hospitalizations can indicate the overall safety of cycling in the city.",
     "Comparisons": null,
     "Measures": [
       {
@@ -20396,7 +20396,7 @@
     "IndicatorID": 2092,
     "IndicatorName": "Bicycle injury emergency department visits",
     "IndicatorLabel": "Bicycle injury emergency department visits",
-    "IndicatorDescription": "ED visits related to bicycle injuries.  Bicycle injury ED visits can indicate the overall safety of cycling in the city - for transportation, work, or fun.",
+    "IndicatorDescription": "ED visits related to bicycle injuries.  Bicycle injury ED visits can indicate the overall safety of cycling in the city.",
     "Comparisons": null,
     "Measures": [
       {
@@ -23184,7 +23184,7 @@
   },
   {
     "IndicatorID": 2122,
-    "IndicatorName": "Asthma emergency departments visits due to Ozone",
+    "IndicatorName": "Asthma emergency department visits due to Ozone",
     "IndicatorLabel": "Asthma emergency departments visits due to Ozone",
     "IndicatorDescription": "ED visits for asthma due to ozone. These are part of the health burden of air pollution.",
     "Comparisons": null,
@@ -23708,7 +23708,7 @@
     "IndicatorID": 2132,
     "IndicatorName": "Health insurance (adults)",
     "IndicatorLabel": "Health insurance (adults)",
-    "IndicatorDescription": "Adults with any kind of health insurance. People with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
+    "IndicatorDescription": "Adults with any kind of health insurance. People with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, and have longer life expectancy.",
     "Comparisons": [733],
     "Measures": [
       {
@@ -25112,7 +25112,7 @@
     "IndicatorID": 2157,
     "IndicatorName": "Tree canopy cover",
     "IndicatorLabel": "Tree canopy cover",
-    "IndicatorDescription": "The percent of a neighborhood that is shaded by trees. Tree shade can lower a neighborhood's temperatures, can make it more comfortable and attractive to walk and stay active.",
+    "IndicatorDescription": "The percent of a neighborhood that is shaded by trees. Tree shade can lower a neighborhood's temperature, making it more comfortable for physical activity.",
     "Comparisons": null,
     "Measures": [
       {
@@ -42286,7 +42286,7 @@
     "IndicatorID": 2416,
     "IndicatorName": "Litter basket coverage",
     "IndicatorLabel": "Litter basket coverage",
-    "IndicatorDescription": "Public litter baskets (trash  cans). Litter baskets are associated with a decrease in littering. Enclosed, non-wire baskets are generally better than wire baskets. Generally, sanitation supports public health by providing clean, healthy public spaces for people to live, work, and get around.",
+    "IndicatorDescription": "Public litter baskets (trash cans). Litter baskets are associated with a decrease in littering. Enclosed, non-wire baskets are generally better than wire baskets. Sanitation supports public health by providing clean, healthy public spaces for people to live, work, and get around.",
     "Comparisons": null,
     "Measures": [
       {
@@ -42753,14 +42753,14 @@
     "IndicatorID": 2417,
     "IndicatorName": "Depression (adults)",
     "IndicatorLabel": "Depression (adults)",
-    "IndicatorDescription": "Adults who had probable depression. Depression is a common mental health condition that is characterized by feelings of sadness, difficulty concentrating, tiredness or reduced energy, and loss of interest in activities that used to bring enjoyment.",
+    "IndicatorDescription": "Adults who had depression. Depression is a common mental health condition that is characterized by feelings of sadness, difficulty concentrating, tiredness or reduced energy, and loss of interest in activities that used to bring enjoyment.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1323,
         "MeasureName": "Depression (adults), Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks, pooled over 2 years, divided by all adults; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), an eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 data for correlates are based on UHF34 data.",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have depression in the past 2 weeks, pooled over 2 years, divided by all adults; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), an eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 data for correlates are based on UHF34 data.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -42835,7 +42835,7 @@
         "MeasureID": 1324,
         "MeasureName": "Depression (adults), Age-adjusted percent",
         "MeasurementType": "Age-adjusted percent",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based, pooled over 2 years, divided by all adults and age adjusted; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), and eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 for correlates data are based on UHF34 data.",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have depression in the past 2 weeks based, pooled over 2 years, divided by all adults and age adjusted; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), and eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 for correlates data are based on UHF34 data.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -42898,7 +42898,7 @@
         "MeasureID": 1396,
         "MeasureName": "Depression (adults), Number",
         "MeasurementType": "Number",
-        "how_calculated": "Weighted and rounded estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years. UHF42 data for correlates are based on UHF34 data.",
+        "how_calculated": "Weighted and rounded estimated number of adults aged 18 years and older who were determined to have depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years. UHF42 data for correlates are based on UHF34 data.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -47930,6 +47930,2319 @@
               {
                 "GeoType": "Citywide",
                 "TimePeriodID": [289, 298]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2455,
+    "IndicatorName": "Accessible subway stations",
+    "IndicatorLabel": "Accessible subway stations",
+    "IndicatorDescription": "Accessible subway stations may include ramps, elevators, audio and visual information, or other access improvements, which can help New Yorkers with disabilities, those traveling with strollers, and older people use public transit more safely and reliably. Accessible infrastructure ensures that subway stations follow American Disabilities Act (ADA) guidelines.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1446,
+        "MeasureName": "Accessible subway stations, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of accessible subway stops. A subway stop is considered accessible if at least 1 platform direction is ADA compliant",
+        "Sources": "Metropolitan Transportation Authority ",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1447,
+        "MeasureName": "Accessible subway stations, Density",
+        "MeasurementType": "Density",
+        "how_calculated": "Number of accessible subway stops per square mile. A subway stop is considered accessible if at least 1 platform direction is ADA compliant.",
+        "Sources": "Metropolitan Transportation Authority ",
+        "DisplayType": "per square mile",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1448,
+        "MeasureName": "Accessible subway stations, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Number of accessible subway stops, expressed as a percent of the total subway stops.",
+        "Sources": "Metropolitan Transportation Authority ",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2456,
+    "IndicatorName": "Bus stops with audio announcements",
+    "IndicatorLabel": "Bus stops with audio announcements",
+    "IndicatorDescription": "Bus stops equipped with button-activated audio announcements provide real-time bus arrival information for people who are blind or visually impaired.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1449,
+        "MeasureName": "Audio bus stops, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of Real Time Passenger Information (RTPI) bus signs. These signs include a push-button activated audio announcement of the real-time bus arrival information.",
+        "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1450,
+        "MeasureName": "Audio bus stops, Density",
+        "MeasurementType": "Density",
+        "how_calculated": "Number of Real Time Passenger Information (RTPI) bus signs; expressed proportionally to the square miles.",
+        "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ",
+        "DisplayType": "per square mile",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1451,
+        "MeasureName": "Audio bus stops, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Number of Real Time Passenger Information (RTPI) bus signs; expressed as a percent of the total number of bus stops.",
+        "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2457,
+    "IndicatorName": "Public bathroom availability",
+    "IndicatorLabel": "Public bathroom availability",
+    "IndicatorDescription": "Public bathrooms that are in service and open during scheduled hours. Public bathrooms help everyone take part in public life and make the city more livable for all New Yorkers.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1452,
+        "MeasureName": "Public bathrooms, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of operational public restrooms",
+        "Sources": "New York City Department of Transportation ; New York City Department of Parks and Recreation; Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; Mayor's Office of Operations; New York Public Library; Brooklyn Public Library; Queens Public Library",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1454,
+        "MeasureName": "Public bathrooms, Density",
+        "MeasurementType": "Density",
+        "how_calculated": "Number of operational public restrooms per square mile",
+        "Sources": "New York City Department of Transportation ; New York City Department of Parks and Recreation; Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; Mayor's Office of Operations; New York Public Library; Brooklyn Public Library; Queens Public Library",
+        "DisplayType": "per square mile",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1455,
+        "MeasureName": "Public bathrooms, Percent accessible",
+        "MeasurementType": "Percent accessible",
+        "how_calculated": "Accessible operational public restrooms expressed as a percent of the total number of operational public restrooms",
+        "Sources": "New York City Department of Transportation ; New York City Department of Parks and Recreation; Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; Mayor's Office of Operations; New York Public Library; Brooklyn Public Library; Queens Public Library",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2458,
+    "IndicatorName": "Walking distance to an accessible subway station",
+    "IndicatorLabel": "Walking distance to an accessible subway station",
+    "IndicatorDescription": "Population within a half mile of an accessible subway station. When more people have convenient access to the transit system, they're more likely to use it. Accessible subway stations may include ramps, elevators, or other access improvements that help New Yorkers with disabilities, those traveling with strollers, and older adults use public transit more safely and reliably. Accessible infrastructure ensures that subway stations follow American Disabilities Act (ADA) guidelines.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1457,
+        "MeasureName": "Walkable accessible subway stations, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of people within a half mile of an accessible subway station. A subway station is considered accessible if at least 1 platform direction is ADA compliant.",
+        "Sources": "Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; OpenStreetMap",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1458,
+        "MeasureName": "Walkable accessible subway stations, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Percent of people within a half mile of an accessible subway station. A subway station is considered accessible if at least 1 platform direction is ADA compliant.",
+        "Sources": "Metropolitan Transportation Authority ; New York City Department of City Planning (DCP) Permit and Occupancy Data ; OpenStreetMap",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2459,
+    "IndicatorName": "Difficulty walking",
+    "IndicatorLabel": "Difficulty walking",
+    "IndicatorDescription": "People with disabilities or access needs that make it difficult to walk or climb stairs. When transit and buildings have more accessible infrastructure like elevators and ramps it can make NYC easier to navigate for all New Yorkers. People with ambulatory difficulties may also need accommodation to navigate their home.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1459,
+        "MeasureName": "Difficulty walking, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of New Yorkers who have difficulty walking or climbing stairs.\r\n",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1460,
+        "MeasureName": "Difficulty walking, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Percentage of all New Yorkers who have difficulty walking or climbing stairs.",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2460,
+    "IndicatorName": "Walking distance to an audio bus stop",
+    "IndicatorLabel": "Walking distance to an audio bus stop",
+    "IndicatorDescription": "Population within a half mile of an accessible subway station. Bus stops equipped with button-activated audio announcements provide real-time bus arrival information for people who are blind or visually impaired.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1461,
+        "MeasureName": "Walkable audio bus stops, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of people within a half mile of an audio bus stop. These bus stops include a push-button activated audio announcement of the real-time bus arrival information.",
+        "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ; OpenStreetMap",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1462,
+        "MeasureName": "Walkable audio bus stops, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Percent of people within a half mile of an audio bus stop. These bus stops include a push-button activated audio announcement of the real-time bus arrival information.",
+        "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ; OpenStreetMap",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CDTA2020", "Citywide", "NTA2020", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2461,
+    "IndicatorName": "Cognitive difficulty",
+    "IndicatorLabel": "Cognitive difficulty",
+    "IndicatorDescription": "People reporting trouble remembering, concentrating, or making decisions. Individuals with this difficulty may have access needs or benefit from accommodations.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1463,
+        "MeasureName": "Cognitive difficulty, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of New Yorkers with cognitive difficulty.",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1464,
+        "MeasureName": "Cognitive difficulty, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Percentage of all New Yorkers with cognitive difficulty.",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2462,
+    "IndicatorName": "Hearing difficulty",
+    "IndicatorLabel": "Hearing difficulty",
+    "IndicatorDescription": "People reporting serious trouble hearing. Individuals with trouble hearing may have access needs or benefit from accommodations.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1465,
+        "MeasureName": "Hearing difficulty, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of New Yorkers who have difficulty hearing.",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1466,
+        "MeasureName": "Hearing difficulty, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Percentage of all New Yorkers with difficulty hearing.",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2463,
+    "IndicatorName": "Self-care difficulty",
+    "IndicatorLabel": "Self-care difficulty",
+    "IndicatorDescription": "People reporting trouble practicing self-care. These individuals have trouble with essential self-care activities such as bathing, dressing, and getting around their residence. They may benefit from assistance or accommodations.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1467,
+        "MeasureName": "Self-care difficulty, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of New Yorkers with self-care difficulty.",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1468,
+        "MeasureName": "Self-care difficulty, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Percentage of all New Yorkers with self-care difficulty.",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2464,
+    "IndicatorName": "Vision difficulty",
+    "IndicatorLabel": "Vision difficulty",
+    "IndicatorDescription": "People reporting blindness or serious trouble seeing (even when wearing glasses). These individuals may have access needs or benefit from accommodations.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1469,
+        "MeasureName": "Vision difficulty, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of New Yorkers with vision difficulty.",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1470,
+        "MeasureName": "Vision difficulty, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Percentage of all New Yorkers with vision difficulty.",
+        "Sources": "American Community Survey",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287]
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CDTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NTA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2020",
+                "TimePeriodID": [299, 300, 312, 348],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
               }
             ],
             "Links": [
