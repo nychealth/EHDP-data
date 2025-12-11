@@ -6094,7 +6094,7 @@
     "IndicatorID": 55,
     "IndicatorName": "Ozone action days",
     "IndicatorLabel": "Ozone action days",
-    "IndicatorDescription": "Days when ozone levels are at unhealthy levels. Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
+    "IndicatorDescription": "Days when ozone levels are at unhealthy levels. Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions. Ozone action days are when the AQI is above 100, mainly due to ozone.",
     "Comparisons": [565],
     "Measures": [
       {
@@ -6195,7 +6195,7 @@
     "IndicatorID": 57,
     "IndicatorName": "Fine particles (PM 2.5) action days",
     "IndicatorLabel": "Fine particles (PM 2.5) action days",
-    "IndicatorDescription": "Days when PM2.5 is at an unhealthy level. PM2.5 is emitted by combustion and are a major form of air pollution that harms health.",
+    "IndicatorDescription": "Days when PM2.5 is at an unhealthy level. PM2.5 is emitted by combustion and are a major form of air pollution that harms health. PM2.5 action days are when the AQI is above 100, mainly due to PM2.5",
     "Comparisons": [564],
     "Measures": [
       {
@@ -45036,14 +45036,14 @@
     "IndicatorID": 2417,
     "IndicatorName": "Depression (adults)",
     "IndicatorLabel": "Depression (adults)",
-    "IndicatorDescription": "Adults who had probable depression. Depression is a common mental health condition that is characterized by feelings of sadness, difficulty concentrating, tiredness or reduced energy, and loss of interest in activities that used to bring enjoyment.",
+    "IndicatorDescription": "Adults who had depression. Depression is a common mental health condition that is characterized by feelings of sadness, difficulty concentrating, tiredness or reduced energy, and loss of interest in activities that used to bring enjoyment.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1323,
         "MeasureName": "Depression (adults), Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks, pooled over 2 years, divided by all adults; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), an eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 data for correlates are based on UHF34 data.",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have depression in the past 2 weeks, pooled over 2 years, divided by all adults; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), an eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 data for correlates are based on UHF34 data.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -45118,7 +45118,7 @@
         "MeasureID": 1324,
         "MeasureName": "Depression (adults), Age-adjusted percent",
         "MeasurementType": "Age-adjusted percent",
-        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based, pooled over 2 years, divided by all adults and age adjusted; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), and eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 for correlates data are based on UHF34 data.",
+        "how_calculated": "Estimated number of adults aged 18 years and older who were determined to have depression in the past 2 weeks based, pooled over 2 years, divided by all adults and age adjusted; expressed as percent. Depression is defined as having a score between 10 and 24 on the Patient Health Questionnaire (PHQ-8), and eight-item scale designed to assess the frequency of depressive symptoms over the past two weeks. UHF42 for correlates data are based on UHF34 data.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -45181,7 +45181,7 @@
         "MeasureID": 1396,
         "MeasureName": "Depression (adults), Number",
         "MeasurementType": "Number",
-        "how_calculated": "Weighted and rounded estimated number of adults aged 18 years and older who were determined to have probable depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years. UHF42 data for correlates are based on UHF34 data.",
+        "how_calculated": "Weighted and rounded estimated number of adults aged 18 years and older who were determined to have depression in the past 2 weeks based on the Patient Health Questionnaire (PHQ-8) scale, pooled over 2 years. UHF42 data for correlates are based on UHF34 data.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
