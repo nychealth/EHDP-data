@@ -18761,11 +18761,23 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 498,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -20651,11 +20663,23 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 498,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -20786,11 +20810,19 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 739,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -20921,11 +20953,19 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 643,
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 739,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
