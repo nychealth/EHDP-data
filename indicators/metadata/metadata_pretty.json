@@ -38809,46 +38809,55 @@
         "how_calculated": "Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 90 days, divided by the number of children in the area; expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46],
+        "AvailableTimePeriodIDs": [46, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "NYCKIDS2017",
                 "TimePeriodID": [46]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46],
+                "TimePeriodID": [46, 289],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2017",
                 "TimePeriodID": [46],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               }
             ],
             "Links": [
@@ -38872,46 +38881,55 @@
         "how_calculated": "Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 90 days",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46],
+        "AvailableTimePeriodIDs": [46, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "NYCKIDS2017",
                 "TimePeriodID": [46]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46],
+                "TimePeriodID": [46, 289],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2017",
                 "TimePeriodID": [46],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               }
             ],
             "Links": [
@@ -38944,46 +38962,55 @@
         "how_calculated": "Estimated number of children ages 0-13 years living in a home with signs of mice in the past 90 days.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46],
+        "AvailableTimePeriodIDs": [46, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "NYCKIDS2017",
                 "TimePeriodID": [46]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46],
+                "TimePeriodID": [46, 289],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2017",
                 "TimePeriodID": [46],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               }
             ],
             "Links": [
@@ -39007,46 +39034,55 @@
         "how_calculated": "Estimated number of children ages 0-13 years living in a home with signs of mice in the past 90 days, divided by the number of children in the area; expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46],
+        "AvailableTimePeriodIDs": [46, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "NYCKIDS2017",
                 "TimePeriodID": [46]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46],
+                "TimePeriodID": [46, 289],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2017",
                 "TimePeriodID": [46],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46]
+                "TimePeriodID": [46, 289]
               }
             ],
             "Links": [
@@ -45046,37 +45082,50 @@
         "how_calculated": "Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [48],
+        "AvailableTimePeriodIDs": [48, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289]
               }
             ],
             "Links": [
@@ -45100,37 +45149,50 @@
         "how_calculated": "Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months., divided by all children of the same ages, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [48],
+        "AvailableTimePeriodIDs": [48, 289],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 289]
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289]
               }
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Borough",
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2021",
+                "TimePeriodID": [289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
-                "GeoType": null,
-                "TimePeriodID": []
+                "GeoType": "Borough",
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [289]
               }
             ],
             "Links": [
