@@ -6099,8 +6099,8 @@
     "Measures": [
       {
         "MeasureID": 107,
-        "MeasureName": "Ozone action days, General population",
-        "MeasurementType": "General population",
+        "MeasureName": "Ozone action days, Days (general population)",
+        "MeasurementType": "Days (general population)",
         "how_calculated": "When the daily average ozone levels are above 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for the General Population\".",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -6145,8 +6145,8 @@
       },
       {
         "MeasureID": 787,
-        "MeasureName": "Ozone action days, Sensitive groups",
-        "MeasurementType": "Sensitive groups",
+        "MeasureName": "Ozone action days, Days (sensitive groups)",
+        "MeasurementType": "Days (sensitive groups)",
         "how_calculated": "When the daily average ozone levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with lung disease, children, older adults, people who are active outdoors or have certain genetic variants).",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data; United States Environmental Protection Agency (EPA)",
         "DisplayType": "",
@@ -6200,8 +6200,8 @@
     "Measures": [
       {
         "MeasureID": 785,
-        "MeasureName": "PM2.5 (Fine particles) action days, Sensitive groups",
-        "MeasurementType": "Sensitive groups",
+        "MeasureName": "PM2.5 (Fine particles) action days, Days (sensitive groups)",
+        "MeasurementType": "Days (sensitive groups)",
         "how_calculated": "When the daily average PM2.5 levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with heart or lung disease, children, older adults and people of lower socieconomic status). Folks in these groups may need to take action to protect their health on these days. An AQI value of 100 generally corresponds to a pollution level that is equal to the daily federal air quality standard.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -6246,8 +6246,8 @@
       },
       {
         "MeasureID": 786,
-        "MeasureName": "PM2.5 (Fine particles) action days, General population",
-        "MeasurementType": "General population",
+        "MeasureName": "PM2.5 (Fine particles) action days, Days (general population)",
+        "MeasurementType": "Days (general population)",
         "how_calculated": "When the daily average PM2.5 levels are above 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for the General Population\".",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -9054,8 +9054,8 @@
     "Measures": [
       {
         "MeasureID": 200,
-        "MeasureName": "Air quality action days, General population",
-        "MeasurementType": "General population",
+        "MeasureName": "Air quality action days, Days (general population)",
+        "MeasurementType": "Days (general population)",
         "how_calculated": "An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for the general public are counted when either ozone or PM2.5 levels are above 150.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -9100,8 +9100,8 @@
       },
       {
         "MeasureID": 201,
-        "MeasureName": "Air quality action days, Sensitive groups",
-        "MeasurementType": "Sensitive groups",
+        "MeasureName": "Air quality action days, Days (sensitive groups)",
+        "MeasurementType": "Days (sensitive groups)",
         "how_calculated": "An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for sensitive groups are counted when either ozone or PM2.5 levels are above 100.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -40832,7 +40832,7 @@
         "how_calculated": "Estimated number of children ages 1-13 years who were ever diagnosed with asthma, divided by all children of the same ages, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [46, 48, 289, 298],
@@ -40857,7 +40857,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -40878,7 +40882,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -40929,7 +40938,7 @@
         "how_calculated": "Estimated number of children ages 1-13 years who were ever diagnosed with asthma.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [46, 48, 289, 298],
@@ -40954,7 +40963,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -40975,7 +40988,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -41019,7 +41037,7 @@
         "how_calculated": "Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 90 days, divided by the number of children in the area; expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [46, 289, 298],
@@ -41040,7 +41058,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -41056,7 +41078,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -41091,7 +41118,7 @@
         "how_calculated": "Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 90 days",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [46, 289, 298],
@@ -41112,7 +41139,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -41128,7 +41159,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -42181,7 +42217,7 @@
         "how_calculated": "Estimated number of children aged 1-13 years living in a home reporting cigarette, cigar, or other tobacco smoking all of the time, most of the time, or occasionally.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [48, 289, 298],
@@ -42202,7 +42238,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -42218,7 +42258,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -42253,7 +42298,7 @@
         "how_calculated": "Estimated number of children aged 1-13 years living in a home reporting cigarette, cigar, or other tobacco smoking all of the time, most of the time, or occasionally, divided by the number of children in the area as per the 2015-19 American Community Survey, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [48, 289, 298],
@@ -42274,7 +42319,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -42290,7 +42339,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -47411,7 +47465,7 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [46, 48, 289, 298],
@@ -47436,7 +47490,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -47457,7 +47515,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -47492,7 +47555,7 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months, divided by all children of the same ages, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [46, 48, 289, 298],
@@ -47517,7 +47580,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -47538,7 +47605,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -47582,7 +47654,7 @@
         "how_calculated": "Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [48, 289, 298],
@@ -47603,7 +47675,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -47614,7 +47690,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -47649,7 +47730,7 @@
         "how_calculated": "Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months., divided by all children of the same ages, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [48, 289, 298],
@@ -47670,7 +47751,11 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298]
+                "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
@@ -47681,7 +47766,12 @@
               },
               {
                 "GeoType": "NYCKIDS2021",
-                "TimePeriodID": [289, 298],
+                "TimePeriodID": [289],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
@@ -47725,7 +47815,7 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported still having asthma. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [48, 298],
@@ -47745,7 +47835,7 @@
                 "TimePeriodID": [48]
               },
               {
-                "GeoType": "NYCKIDS2021",
+                "GeoType": "NYCKIDS2023",
                 "TimePeriodID": [298]
               }
             ],
@@ -47761,7 +47851,7 @@
                 "RankReverse": 0
               },
               {
-                "GeoType": "NYCKIDS2021",
+                "GeoType": "NYCKIDS2023",
                 "TimePeriodID": [298],
                 "RankReverse": 0
               }
@@ -47797,7 +47887,7 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported still having asthma, divided by all children of the same ages, expressed as a percent. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
         "AvailableTimePeriodIDs": [48, 298],
@@ -47817,7 +47907,7 @@
                 "TimePeriodID": [48]
               },
               {
-                "GeoType": "NYCKIDS2021",
+                "GeoType": "NYCKIDS2023",
                 "TimePeriodID": [298]
               }
             ],
@@ -47833,7 +47923,7 @@
                 "RankReverse": 0
               },
               {
-                "GeoType": "NYCKIDS2021",
+                "GeoType": "NYCKIDS2023",
                 "TimePeriodID": [298],
                 "RankReverse": 0
               }
