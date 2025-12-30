@@ -508,6 +508,25 @@ nyc_kids_2021 <-
     arrange(GeoID)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# NYC Kids
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# only have our own topojson file, no official shapefile
+
+nyc_kids_2023 <- 
+    read_sf(path(base_dir, "geography/NYCKids_2023.topo.json"), crs = st_crs(4326)) %>% 
+    st_transform(st_crs(2263)) %>% 
+    mutate(center = st_centroid(geometry)) %>% 
+    as_tibble() %>% 
+    transmute(
+        GeoType = "NYCKIDS2023",
+        GeoID = GEOCODE,
+        Lat = st_coordinates(st_transform(center, st_crs(4326)))[, 2],
+        Long = st_coordinates(st_transform(center, st_crs(4326)))[, 1]
+    ) %>%  
+    arrange(GeoID)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 # harbor areas
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -563,6 +582,7 @@ all_geos <-
         nyc_kids_2017,
         nyc_kids_2019,
         nyc_kids_2021,
+        nyc_kids_2023,
         ny_harbor,
         rmz
     ) %>% 
