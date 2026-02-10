@@ -6099,8 +6099,8 @@
     "Measures": [
       {
         "MeasureID": 107,
-        "MeasureName": "Ozone action days, General population",
-        "MeasurementType": "General population",
+        "MeasureName": "Ozone action days, Days (general population)",
+        "MeasurementType": "Days (general population)",
         "how_calculated": "When the daily average ozone levels are above 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for the General Population\".",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -6145,8 +6145,8 @@
       },
       {
         "MeasureID": 787,
-        "MeasureName": "Ozone action days, Sensitive groups",
-        "MeasurementType": "Sensitive groups",
+        "MeasureName": "Ozone action days, Days (sensitive groups)",
+        "MeasurementType": "Days (sensitive groups)",
         "how_calculated": "When the daily average ozone levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with lung disease, children, older adults, people who are active outdoors or have certain genetic variants).",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data; United States Environmental Protection Agency (EPA)",
         "DisplayType": "",
@@ -6200,8 +6200,8 @@
     "Measures": [
       {
         "MeasureID": 785,
-        "MeasureName": "PM2.5 (Fine particles) action days, Sensitive groups",
-        "MeasurementType": "Sensitive groups",
+        "MeasureName": "PM2.5 (Fine particles) action days, Days (sensitive groups)",
+        "MeasurementType": "Days (sensitive groups)",
         "how_calculated": "When the daily average PM2.5 levels are between 101 and 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for Sensitive Groups\" (people with heart or lung disease, children, older adults and people of lower socieconomic status). Folks in these groups may need to take action to protect their health on these days. An AQI value of 100 generally corresponds to a pollution level that is equal to the daily federal air quality standard.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -6246,8 +6246,8 @@
       },
       {
         "MeasureID": 786,
-        "MeasureName": "PM2.5 (Fine particles) action days, General population",
-        "MeasurementType": "General population",
+        "MeasureName": "PM2.5 (Fine particles) action days, Days (general population)",
+        "MeasurementType": "Days (general population)",
         "how_calculated": "When the daily average PM2.5 levels are above 150 on EPA's Air Quality Index (AQI), the day is an \"Action Day for the General Population\".",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -9054,8 +9054,8 @@
     "Measures": [
       {
         "MeasureID": 200,
-        "MeasureName": "Air quality action days, General population",
-        "MeasurementType": "General population",
+        "MeasureName": "Air quality action days, Days (general population)",
+        "MeasurementType": "Days (general population)",
         "how_calculated": "An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for the general public are counted when either ozone or PM2.5 levels are above 150.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -9100,8 +9100,8 @@
       },
       {
         "MeasureID": 201,
-        "MeasureName": "Air quality action days, Sensitive groups",
-        "MeasurementType": "Sensitive groups",
+        "MeasureName": "Air quality action days, Days (sensitive groups)",
+        "MeasurementType": "Days (sensitive groups)",
         "how_calculated": "An AQI value of 100 corresponds to the current U.S. standard for a pollutant (0.075 ppm for ozone, 35 ug/m3 for PM2.5), and deviations from the standard are expressed as the pollutant concentration divided by the standard and multiplied by 100. Advisory days for sensitive groups are counted when either ozone or PM2.5 levels are above 100.",
         "Sources": "United States Environmental Protection Agency (EPA) Air Quality System (AQS) Data",
         "DisplayType": "",
@@ -18761,11 +18761,23 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 498,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -20651,11 +20663,23 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 498,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -20786,11 +20810,19 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 739,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -20921,11 +20953,19 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 643,
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 739,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
                     "SecondaryAxis": "x"
                   }
                 ],
-                "Disparities": 0
+                "Disparities": 1
               }
             ]
           }
@@ -40792,20 +40832,20 @@
         "how_calculated": "Estimated number of children ages 1-13 years who were ever diagnosed with asthma, divided by all children of the same ages, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46, 48, 289],
+        "AvailableTimePeriodIDs": [46, 48, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2017",
@@ -40818,12 +40858,16 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289],
+                "TimePeriodID": [46, 48, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -40840,16 +40884,21 @@
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               }
             ],
             "Links": [
@@ -40889,20 +40938,20 @@
         "how_calculated": "Estimated number of children ages 1-13 years who were ever diagnosed with asthma.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46, 48, 289],
+        "AvailableTimePeriodIDs": [46, 48, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2017",
@@ -40915,12 +40964,16 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289],
+                "TimePeriodID": [46, 48, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -40937,16 +40990,21 @@
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               }
             ],
             "Links": [
@@ -40979,20 +41037,20 @@
         "how_calculated": "Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 90 days, divided by the number of children in the area; expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46, 289],
+        "AvailableTimePeriodIDs": [46, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 289]
+                "TimePeriodID": [46, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 289]
+                "TimePeriodID": [46, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2017",
@@ -41001,12 +41059,16 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 289],
+                "TimePeriodID": [46, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -41018,16 +41080,21 @@
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 289]
+                "TimePeriodID": [46, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 289]
+                "TimePeriodID": [46, 289, 298]
               }
             ],
             "Links": [
@@ -41051,20 +41118,20 @@
         "how_calculated": "Estimated number of children ages 0-13 years living in a home reporting cockroaches in the past 90 days",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46, 289],
+        "AvailableTimePeriodIDs": [46, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 289]
+                "TimePeriodID": [46, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 289]
+                "TimePeriodID": [46, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2017",
@@ -41073,12 +41140,16 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 289],
+                "TimePeriodID": [46, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -41090,16 +41161,21 @@
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 289]
+                "TimePeriodID": [46, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 289]
+                "TimePeriodID": [46, 289, 298]
               }
             ],
             "Links": [
@@ -42141,20 +42217,20 @@
         "how_calculated": "Estimated number of children aged 1-13 years living in a home reporting cigarette, cigar, or other tobacco smoking all of the time, most of the time, or occasionally.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [48, 289],
+        "AvailableTimePeriodIDs": [48, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2019",
@@ -42163,12 +42239,16 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289],
+                "TimePeriodID": [48, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -42180,16 +42260,21 @@
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               }
             ],
             "Links": [
@@ -42213,20 +42298,20 @@
         "how_calculated": "Estimated number of children aged 1-13 years living in a home reporting cigarette, cigar, or other tobacco smoking all of the time, most of the time, or occasionally, divided by the number of children in the area as per the 2015-19 American Community Survey, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [48, 289],
+        "AvailableTimePeriodIDs": [48, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2019",
@@ -42235,12 +42320,16 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289],
+                "TimePeriodID": [48, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -42252,16 +42341,21 @@
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               }
             ],
             "Links": [
@@ -47371,20 +47465,20 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46, 48, 289],
+        "AvailableTimePeriodIDs": [46, 48, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2017",
@@ -47397,12 +47491,16 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289],
+                "TimePeriodID": [46, 48, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -47419,16 +47517,21 @@
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               }
             ],
             "Links": [
@@ -47452,20 +47555,20 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported having had an asthma attack in the past 12 months, divided by all children of the same ages, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2017", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [46, 48, 289],
+        "AvailableTimePeriodIDs": [46, 48, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2017",
@@ -47478,12 +47581,16 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289],
+                "TimePeriodID": [46, 48, 289, 298],
                 "RankReverse": 0
               },
               {
@@ -47500,16 +47607,21 @@
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [46, 48, 289]
+                "TimePeriodID": [46, 48, 289, 298]
               }
             ],
             "Links": [
@@ -47542,20 +47654,20 @@
         "how_calculated": "Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [48, 289],
+        "AvailableTimePeriodIDs": [48, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2019",
@@ -47564,28 +47676,37 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [289],
+                "TimePeriodID": [289, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [289]
+                "TimePeriodID": [289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [289]
+                "TimePeriodID": [289, 298]
               }
             ],
             "Links": [
@@ -47609,20 +47730,20 @@
         "how_calculated": "Estimated number of children ages 1-13 years living in private home sor apartments that report visible mold or mildew in their home in the past 12 months., divided by all children of the same ages, expressed as a percent.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "past 12 months",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2021", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [48, 289],
+        "AvailableTimePeriodIDs": [48, 289, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48, 289]
+                "TimePeriodID": [48, 289, 298]
               },
               {
                 "GeoType": "NYCKIDS2019",
@@ -47631,28 +47752,37 @@
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [289],
+                "TimePeriodID": [289, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2021",
                 "TimePeriodID": [289],
                 "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [289]
+                "TimePeriodID": [289, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [289]
+                "TimePeriodID": [289, 298]
               }
             ],
             "Links": [
@@ -47685,46 +47815,55 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported still having asthma. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [48],
+        "AvailableTimePeriodIDs": [48, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 298]
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48],
+                "TimePeriodID": [48, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 298]
               }
             ],
             "Links": [
@@ -47748,46 +47887,55 @@
         "how_calculated": "Estimated number of children ages 1-13 years who reported still having asthma, divided by all children of the same ages, expressed as a percent. Denominator includes all children but only children who reported being previously diagnosed with asthma were asked.",
         "Sources": "NYC KIDS Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019"],
+        "AvailableGeoTypes": ["Borough", "Citywide", "NYCKIDS2019", "NYCKIDS2023"],
         "TrendNoCompare": "2021",
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [48],
+        "AvailableTimePeriodIDs": [48, 298],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 298]
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48]
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48],
+                "TimePeriodID": [48, 298],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NYCKIDS2019",
                 "TimePeriodID": [48],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "NYCKIDS2023",
+                "TimePeriodID": [298],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 298]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [48]
+                "TimePeriodID": [48, 298]
               }
             ],
             "Links": [
@@ -52895,7 +53043,7 @@
         "MeasureID": 1473,
         "MeasureName": "Adults with diabetes, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Representative survey based estimated number of non-institutionalized adults age 18 years and older who report having ever recieved a medical diagnosis of diabetes.",
+        "how_calculated": "Representative survey based estimated number of non-institutionalized adults age 18 years and older who report having ever received a medical diagnosis of diabetes.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
@@ -52958,7 +53106,7 @@
         "MeasureID": 1474,
         "MeasureName": "Adults with diabetes, Rate",
         "MeasurementType": "Rate",
-        "how_calculated": "Representative survey based estimated number of non-institutionalized adults age 18 years and older who report having ever recieved a medical diagnosis of diabetes, expressed as rate per 100 residents.",
+        "how_calculated": "Representative survey based estimated number of non-institutionalized adults age 18 years and older who report having ever received a medical diagnosis of diabetes, expressed as rate per 100 residents.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "per 100 residents",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
@@ -53021,16 +53169,16 @@
   },
   {
     "IndicatorID": 2467,
-    "IndicatorName": "Diabetes-related lower extremity amputations",
-    "IndicatorLabel": "Diabetes-related lower extremity amputations",
-    "IndicatorDescription": "Lower extremity amputations among New York City adults with diabetes.",
+    "IndicatorName": "Lower extremity amputations (diabetes-related)",
+    "IndicatorLabel": "Lower extremity amputations (diabetes-related)",
+    "IndicatorDescription": "Lower extremity amputations (hip, leg, complete foot, partial foot, toe and not otherwise specified amputations) among adults with diabetes.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1477,
-        "MeasureName": "Diabetes-related lower extremity amputations, Number",
+        "MeasureName": "Lower extremity amputations (diabetes-related), Number",
         "MeasurementType": "Number",
-        "how_calculated": "Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework and outcomes are defined using a modified version of the Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicator (PQI) measuring the rate of lower extremity amputation (LEA) among patients with diabetes. Our case definition for diabetes-related LEA included all admissions for any listed diagnosis of diabetes and any listed non-traumatic LEA procedure code during a recorded inpatient hospitalization stay, including all hip, leg, complete foot, partial foot, toe and not otherwise specified amputations. All data presented are limited to NYC residents ages 18 and older.",
+        "how_calculated": "<p>Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework and outcomes are defined using a modified version of the Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicator (PQI) measuring the rate of lower extremity amputation (LEA) among patients with diabetes. Our case definition for diabetes-related LEA included all admissions for any listed diagnosis of diabetes and any listed non-traumatic LEA procedure code during a recorded inpatient hospitalization stay, including all hip, leg, complete foot, partial foot, toe and not otherwise specified amputations. All data presented are limited to NYC residents ages 18 and older.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -53091,9 +53239,9 @@
       },
       {
         "MeasureID": 1478,
-        "MeasureName": "Diabetes-related lower extremity amputations, Age-adjusted rate",
+        "MeasureName": "Lower extremity amputations (diabetes-related), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework and outcomes are defined using a modified version of the Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicator (PQI) measuring the rate of lower extremity amputation (LEA) among patients with diabetes. Our case definition for diabetes-related LEA included all admissions for any listed diagnosis of diabetes and any listed non-traumatic LEA procedure code during a recorded inpatient hospitalization stay, including all hip, leg, complete foot, partial foot, toe and not otherwise specified amputations. All data presented in are limited to NYC residents ages 18 and older. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census.",
+        "how_calculated": "<p>Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework and outcomes are defined using a modified version of the Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicator (PQI) measuring the rate of lower extremity amputation (LEA) among patients with diabetes. Our case definition for diabetes-related LEA included all admissions for any listed diagnosis of diabetes and any listed non-traumatic LEA procedure code during a recorded inpatient hospitalization stay, including all hip, leg, complete foot, partial foot, toe and not otherwise specified amputations. All data presented in are limited to NYC residents ages 18 and older. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
@@ -53156,14 +53304,14 @@
   },
   {
     "IndicatorID": 2468,
-    "IndicatorName": "Diabetes-related hemodialysis patients",
-    "IndicatorLabel": "Diabetes-related hemodialysis patients",
-    "IndicatorDescription": "Total cases of hemodialysis among adults with diabetes.",
+    "IndicatorName": "Dialysis patients (diabetes-related)",
+    "IndicatorLabel": "Dialysis patients (diabetes-related)",
+    "IndicatorDescription": "Total cases of dialysis among adults with diabetes.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1479,
-        "MeasureName": "Diabetes-related hemodialysis patients, Number",
+        "MeasureName": "Dialysis patients (diabetes-related), Number",
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of adults age 18 years and older with end-stage renal disease (ESRD) who recieved hemodialysis.",
         "Sources": "United States Renal Data System (USRDS)",
@@ -53219,16 +53367,16 @@
   },
   {
     "IndicatorID": 2469,
-    "IndicatorName": "Diabetes short-term complications hospitalizations (PQI 01)",
-    "IndicatorLabel": "Diabetes short-term complications hospitalizations (PQI 01)",
-    "IndicatorDescription": "Hospitalizations for a principal diagnosis of diabetes with short-term complications (ketoacidosis, hyperosmolarity or coma).",
+    "IndicatorName": "Short-term complications hospitalizations (diabetes-related)",
+    "IndicatorLabel": "Short-term complications hospitalizations (diabetes-related)",
+    "IndicatorDescription": "Diabetes-related hospitalizations with short-term complications (ketoacidosis, hyperosmolarity or coma).",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1480,
-        "MeasureName": "Diabetes short-term complications hospitalizations (PQI 01), Number",
+        "MeasureName": "Short-term complications hospitalizations (diabetes-related), Number",
         "MeasurementType": "Number",
-        "how_calculated": "Number of hospital discharges among patients aged 18 years and older with a principal ICD-10-CM diagnosis of diabetes with short-term complications (ketoacidosis, hyperosmolarity, or coma), excluding obstetric hospitalizations and transfers from other institutions.",
+        "how_calculated": "<p>Number of hospital discharges among patients aged 18 years and older with a principal ICD-10-CM diagnosis of diabetes with short-term complications (ketoacidosis, hyperosmolarity, or coma), excluding obstetric hospitalizations and transfers from other institutions. This is Prevention Quality Indicator (PQI) 01. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53289,9 +53437,9 @@
       },
       {
         "MeasureID": 1481,
-        "MeasureName": "Diabetes short-term complications hospitalizations (PQI 01), Age-adjusted rate",
+        "MeasureName": "Short-term complications hospitalizations (diabetes-related), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Number of hospital discharges among patients aged 18 years and older with a principal ICD-10-CM diagnosis of diabetes with short-term complications (ketoacidosis, hyperosmolarity, or coma), excluding obstetric hospitalizations and transfers from other institutions. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census.",
+        "how_calculated": "<p>Number of hospital discharges among patients aged 18 years and older with a principal ICD-10-CM diagnosis of diabetes with short-term complications (ketoacidosis, hyperosmolarity, or coma), excluding obstetric hospitalizations and transfers from other institutions. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census. This is Prevention Quality Indicator (PQI) 01. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53354,16 +53502,16 @@
   },
   {
     "IndicatorID": 2470,
-    "IndicatorName": "Diabetes long-term complications hospitalizations (PQI 03)",
-    "IndicatorLabel": "Diabetes long-term complications hospitalizations (PQI 03)",
-    "IndicatorDescription": "Number of hospitalizations for a principal diagnosis of diabetes with long-term complications (renal, eye, neurological, circulatory, other specified or unspecified).",
+    "IndicatorName": "Long-term complications hospitalizations (diabetes-related)",
+    "IndicatorLabel": "Long-term complications hospitalizations (diabetes-related)",
+    "IndicatorDescription": "Diabetes-related hospitalizations with long-term complications (renal, eye, neurological, circulatory, or other).",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1482,
-        "MeasureName": "Diabetes long-term complications hospitalizations (PQI 03), Number",
+        "MeasureName": "Long-term complications hospitalizations (diabetes-related), Number",
         "MeasurementType": "Number",
-        "how_calculated": "Number of hospitalizations for a principal diagnosis of diabetes with long-term complications (renal, eye, neurological, circulatory, other specified, or unspecified), excluding obstetric hospitalizations and transfers from other institutions.",
+        "how_calculated": "<p>Number of hospitalizations for a principal diagnosis of diabetes with long-term complications (renal, eye, neurological, circulatory, other specified, or unspecified), excluding obstetric hospitalizations and transfers from other institutions. This is Prevention Quality Indicator (PQI) 03. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53424,9 +53572,9 @@
       },
       {
         "MeasureID": 1483,
-        "MeasureName": "Diabetes long-term complications hospitalizations (PQI 03), Age-adjusted rate",
+        "MeasureName": "Long-term complications hospitalizations (diabetes-related), Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Number of hospitalizations for a principal diagnosis of diabetes with long-term complications (renal, eye, neurological, circulatory, other specified, or unspecified), excluding obstetric hospitalizations and transfers from other institutions. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census.",
+        "how_calculated": "<p>Number of hospitalizations for a principal diagnosis of diabetes with long-term complications (renal, eye, neurological, circulatory, other specified, or unspecified), excluding obstetric hospitalizations and transfers from other institutions. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census. This is Prevention Quality Indicator (PQI) 03. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53489,16 +53637,16 @@
   },
   {
     "IndicatorID": 2471,
-    "IndicatorName": "Uncontrolled diabetes hospitalizations (PQI 14)",
-    "IndicatorLabel": "Uncontrolled diabetes hospitalizations (PQI 14)",
-    "IndicatorDescription": "Number of hospitalizations for a principal diagnosis of diabetes with uncontrolled diabetes without mention of short-term (ketoacidosis, hyperosmolarity, or coma) or long-term (renal, eye, neurological, circulatory, other specified, or unspecified) complications.",
+    "IndicatorName": "Uncontrolled diabetes-related hospitalizations",
+    "IndicatorLabel": "Uncontrolled diabetes-related hospitalizations",
+    "IndicatorDescription": "Diabetes-related hospitalizations without mention of long-term complications (renal, eye, neurological, circulatory, or other), short-term complications ((ketoacidosis, hyperosmolarity, or coma), or other complications.",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1484,
-        "MeasureName": "Uncontrolled diabetes hospitalizations (PQI 14), Number",
+        "MeasureName": "Uncontrolled diabetes-related hospitalizations, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Number of hospitalizations for a principal diagnosis of diabetes with uncontrolled diabetes without mention of short-term (ketoacidosis, hyperosmolarity, or coma) or long-term (renal, eye, neurological, circulatory, other specified, or unspecified), excluding obstetric hospitalizations and transfers from other institutions.",
+        "how_calculated": "<p>Number of hospitalizations for a principal diagnosis of diabetes with uncontrolled diabetes without mention of short-term (ketoacidosis, hyperosmolarity, or coma) or long-term (renal, eye, neurological, circulatory, other specified, or unspecified), excluding obstetric hospitalizations and transfers from other institutions. This is Prevention Quality Indicator (PQI) 14. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53524,7 +53672,7 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [45, 46, 47, 48, 49, 289],
+                "TimePeriodID": [45, 46, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
@@ -53559,9 +53707,9 @@
       },
       {
         "MeasureID": 1485,
-        "MeasureName": "Uncontrolled diabetes hospitalizations (PQI 14), Age-adjusted rate",
+        "MeasureName": "Uncontrolled diabetes-related hospitalizations, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Number of hospitalizations for a principal diagnosis of diabetes with uncontrolled diabetes without mention of short-term (ketoacidosis, hyperosmolarity, or coma) or long-term (renal, eye, neurological, circulatory, other specified, or unspecified), excluding obstetric hospitalizations and transfers from other institutions. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census.",
+        "how_calculated": "<p>Number of hospitalizations for a principal diagnosis of diabetes with uncontrolled diabetes without mention of short-term (ketoacidosis, hyperosmolarity, or coma) or long-term (renal, eye, neurological, circulatory, other specified, or unspecified), excluding obstetric hospitalizations and transfers from other institutions. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census. This is Prevention Quality Indicator (PQI) 14. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53587,7 +53735,7 @@
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289, 296, 298],
+                "TimePeriodID": [45, 47, 48, 49, 289, 296, 298],
                 "RankReverse": 0
               },
               {
@@ -53599,7 +53747,7 @@
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [47, 48, 49, 289, 296, 298]
+                "TimePeriodID": [45, 46, 47, 48, 49, 289, 296, 298]
               },
               {
                 "GeoType": "Citywide",
@@ -53624,16 +53772,16 @@
   },
   {
     "IndicatorID": 2472,
-    "IndicatorName": "Lower extremity amputation (except toe amputation) among patients with diabetes (PQI 16)",
-    "IndicatorLabel": "Lower extremity amputation (except toe amputation) among patients with diabetes (PQI 16)",
-    "IndicatorDescription": "Number of hospitalizations for diabetes and a procedure of lower-extremity amputation (except toe amputations).",
+    "IndicatorName": "Lower extremity amputation (except toes)—diabetes-related",
+    "IndicatorLabel": "Lower extremity amputation (except toes)—diabetes-related",
+    "IndicatorDescription": "Number of hospitalizations for diabetes and a procedure of lower-extremity amputation (except toes).",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1486,
-        "MeasureName": "Lower extremity amputation (except toe amputation) among patients with diabetes (PQI 16), Number",
+        "MeasureName": "Lower extremity amputation (except toes)—diabetes-related, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Number of hospital discharges for patients ages 18 years and older, with any listed ICD-10-PCS procedure code for lower-extremity amputation (excluding toe amputations) and any listed ICD-10-CM diagnosis code for diabetes, excluding traumatic lower-extremity amputation hospitalizations, obstetric hospitalizations, and transfers from other institutions.",
+        "how_calculated": "<p>Number of hospital discharges for patients ages 18 years and older, with any listed ICD-10-PCS procedure code for lower-extremity amputation (excluding toe amputations) and any listed ICD-10-CM diagnosis code for diabetes, excluding traumatic lower-extremity amputation hospitalizations, obstetric hospitalizations, and transfers from other institutions. This is Prevention Quality Indicator (PQI) 16. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53694,9 +53842,9 @@
       },
       {
         "MeasureID": 1487,
-        "MeasureName": "Lower extremity amputation (except toe amputation) among patients with diabetes (PQI 16), Age-adjusted rate",
+        "MeasureName": "Lower extremity amputation (except toes)—diabetes-related, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Number of hospital discharges for patients ages 18 years and older, with any listed ICD-10-PCS procedure code for lower-extremity amputation (excluding toe amputations) and any listed ICD-10-CM diagnosis code for diabetes, excluding traumatic lower-extremity amputation hospitalizations, obstetric hospitalizations, and transfers from other institutions. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census.",
+        "how_calculated": "<p>Number of hospital discharges for patients ages 18 years and older, with any listed ICD-10-PCS procedure code for lower-extremity amputation (excluding toe amputations) and any listed ICD-10-CM diagnosis code for diabetes, excluding traumatic lower-extremity amputation hospitalizations, obstetric hospitalizations, and transfers from other institutions. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census. This is Prevention Quality Indicator (PQI) 16. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53759,16 +53907,16 @@
   },
   {
     "IndicatorID": 2473,
-    "IndicatorName": "Diabetes prevention quality composite (PQI 93)",
-    "IndicatorLabel": "Diabetes prevention quality composite (PQI 93)",
-    "IndicatorDescription": "Prevention Quality Indicators composite of diabetes hospitalizations for diabetes with short-term complications, diabetes with long-term complications, uncontrolled diabetes without complications, or diabetes with lower-extremity amputation",
+    "IndicatorName": "All diabetes-related hospitalizations",
+    "IndicatorLabel": "All diabetes-related hospitalizations",
+    "IndicatorDescription": "An aggregate of diabetes-related hospitalizations, including those with or without complications, and with lower-extremity amputations (LEA).",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1488,
-        "MeasureName": "Diabetes prevention quality composite (PQI 93), Number",
+        "MeasureName": "All diabetes-related hospitalizations, Number",
         "MeasurementType": "Number",
-        "how_calculated": "Number of hospital discharges, for patients ages 18 years and older, that meet the inclusion criteria for PQI 01 (Diabetes Short-Term, Complications Admission Rate), PQI 03 (Diabetes Long-Term Complications Admission Rate), PQI 14 (Uncontrolled Diabetes Admission Rate), or PQI 16 (Lower-Extremity Amputation among Patients with Diabetes Rate). Discharges that meet multiple PQI criteria are only counted once.",
+        "how_calculated": "<p>Number of hospital discharges, for patients ages 18 years and older, that meet the inclusion criteria for PQI 01 (Diabetes Short-Term, Complications Admission Rate), PQI 03 (Diabetes Long-Term Complications Admission Rate), PQI 14 (Uncontrolled Diabetes Admission Rate), or PQI 16 (Lower-Extremity Amputation among Patients with Diabetes Rate). Discharges that meet multiple PQI criteria are only counted once. The numerator is the sum of individuals who have been hospitalized for one or more of these conditions. This is PQI (Prevention Quality Indicator) 93. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53829,9 +53977,9 @@
       },
       {
         "MeasureID": 1489,
-        "MeasureName": "Diabetes prevention quality composite (PQI 93), Age-adjusted rate",
+        "MeasureName": "All diabetes-related hospitalizations, Age-adjusted rate",
         "MeasurementType": "Age-adjusted rate",
-        "how_calculated": "Number of hospital discharges, for patients ages 18 years and older, that meet the inclusion criteria for PQI 01 (Diabetes Short-Term, Complications Admission Rate), PQI 03 (Diabetes Long-Term Complications Admission Rate), PQI 14 (Uncontrolled Diabetes Admission Rate), or PQI 16 (Lower-Extremity Amputation among Patients with Diabetes Rate). Discharges that meet multiple PQI criteria are only counted once. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census.",
+        "how_calculated": "<p>Number of hospital discharges, for patients ages 18 years and older, that meet the inclusion criteria for PQI 01 (Diabetes Short-Term, Complications Admission Rate), PQI 03 (Diabetes Long-Term Complications Admission Rate), PQI 14 (Uncontrolled Diabetes Admission Rate), or PQI 16 (Lower-Extremity Amputation among Patients with Diabetes Rate). Discharges that meet multiple PQI criteria are only counted once. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census. The numerator is the sum of individuals who have been hospitalized for one or more of these conditions. This is PQI (Prevention Quality Indicator) 93. PQIs are used to capture rates of potentially preventable hospitalizations by measuring access to timely and effective primary care. These indicators are calculated using inpatient discharge data, with admissions meeting specific ICD-based definitions as the numerator and a population estimate as the denominator, standardized by age.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
         "Sources": "Statewide Planning and Research Cooperative System",
         "DisplayType": "per 100,000 adults",
         "AvailableGeoTypes": ["Borough", "Citywide", "NTA2010"],
@@ -53896,7 +54044,7 @@
     "IndicatorID": 2474,
     "IndicatorName": "Recent worsening memory loss or confusion (ages 45+)",
     "IndicatorLabel": "Recent worsening memory loss or confusion (ages 45+)",
-    "IndicatorDescription": "Adults ages 45 years and older who reported worsening memory loss or confusion in the past 12 months.",
+    "IndicatorDescription": "Adults ages 45+ who reported worsening memory loss or confusion in the past 12 months.",
     "Comparisons": null,
     "Measures": [
       {
@@ -54031,14 +54179,14 @@
     "IndicatorID": 2475,
     "IndicatorName": "Worsening memory loss or confusion (ages 45+)",
     "IndicatorLabel": "Worsening memory loss or confusion (ages 45+)",
-    "IndicatorDescription": "Adults ages 45 years and older with worsening memory loss or confusion who discussed memory loss with a healthcare provider.",
+    "IndicatorDescription": "Discussion of worsening memory loss or confusion with a healthcare provider (ages 45+)",
     "Comparisons": null,
     "Measures": [
       {
         "MeasureID": 1492,
         "MeasureName": "Worsening memory loss or confusion (ages 45+), Number",
         "MeasurementType": "Number",
-        "how_calculated": "Estimated number of adults 45 years and older with worsening memory loss or confusion who discussed memory loss with a healtcare provider.",
+        "how_calculated": "Discussion of worsening memory loss or confusion with a healthcare provider (ages 45+)",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
@@ -54101,7 +54249,7 @@
         "MeasureID": 1493,
         "MeasureName": "Worsening memory loss or confusion (ages 45+), Percent",
         "MeasurementType": "Percent",
-        "how_calculated": "Estimated number of adults 45 years and older with worsening memory loss or confusion who discussed memory loss with a healthcare provider, expressed as a percent.",
+        "how_calculated": "Discussion of worsening memory loss or confusion with a healthcare provider (ages 45+), expressed as a percent.",
         "Sources": "New York City Community Health Survey (CHS)",
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
