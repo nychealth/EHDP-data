@@ -24390,16 +24390,16 @@
         "how_calculated": "Estimated number of adults in the civilian noninstitutionalized population (18 years and older) who report independent living difficulty because of a physical, mental, or emotional problem, or having difficulty doing errands alone such as visiting a doctor's office or shopping, divided by the total civilian noninstitutionalized population (18 years and older); expressed as percent.",
         "Sources": "American Community Survey",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42", "CD", "NTA2010", "Subboro", "CDTA2020", "NTA2020"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
               },
               {
                 "GeoType": "CD",
@@ -24411,7 +24411,7 @@
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
               },
               {
                 "GeoType": "NTA2010",
@@ -24427,13 +24427,13 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300],
                 "RankReverse": 0
               },
               {
@@ -24463,18 +24463,18 @@
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [183, 203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300]
               }
             ],
             "Links": [
