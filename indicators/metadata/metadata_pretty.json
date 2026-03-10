@@ -55698,5 +55698,599 @@
         ]
       }
     ]
+  },
+  {
+    "IndicatorID": 2476,
+    "IndicatorName": "Colon and rectum cancer",
+    "IndicatorLabel": "Colon and rectum cancer",
+    "IndicatorDescription": "Cancer of the colon and/or rectum. Diets high in red or processed meat can increase risk of development.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1494,
+        "MeasureName": "Colon and rectum cancer, Average annual number",
+        "MeasurementType": "Average annual number",
+        "how_calculated": "Average annual number of residents diagnosed with cancer of the colon and/or rectum over a 5 year period.",
+        "Sources": "New York State Cancer Registry",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1495,
+        "MeasureName": "Colon and rectum cancer, Average annual number (Males)",
+        "MeasurementType": "Average annual number (Males)",
+        "how_calculated": "Average annual number of male residents diagnosed with cancer of the colon and/or rectum over a 5 year period.",
+        "Sources": "New York State Cancer Registry",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1496,
+        "MeasureName": "Colon and rectum cancer, Average annual number (Females)",
+        "MeasurementType": "Average annual number (Females)",
+        "how_calculated": "Average annual number of female residents diagnosed with cancer of the colon and/or rectum over a 5 year period.",
+        "Sources": "New York State Cancer Registry",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1497,
+        "MeasureName": "Colon and rectum cancer, Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "Average annual number of residents diagnosed with cancer of the colon and/or rectum over the 5 year period, divided by the corresponding age-specific intercensal population estimates (from NYS DOH). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 standard population in each age group. Average Age-adjusted rate is the sum of these weighted rates; expressed as cases per 100,000 residents.",
+        "Sources": "New York State Cancer Registry",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1498,
+        "MeasureName": "Colon and rectum cancer, Age-adjusted rate (Males)",
+        "MeasurementType": "Age-adjusted rate (Males)",
+        "how_calculated": "Average annual number of male residents diagnosed with cancer of the colon and/or rectum over the 5 year period, divided by the corresponding age-specific intercensal population estimates (from NYS DOH). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 standard population in each age group. Average Age-adjusted rate is the sum of these weighted rates; expressed as cases per 100,000 male residents.",
+        "Sources": "New York State Cancer Registry",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1499,
+        "MeasureName": "Colon and rectum cancer, Age-adjusted rate (Females)",
+        "MeasurementType": "Age-adjusted rate (Females)",
+        "how_calculated": "Average annual number of female residents diagnosed with cancer of the colon and/or rectum over the 5 year period, divided by the corresponding age-specific intercensal population estimates (from NYS DOH). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 standard population in each age group. Average Age-adjusted rate is the sum of these weighted rates; expressed as cases per 100,000 female residents.",
+        "Sources": "New York State Cancer Registry",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2477,
+    "IndicatorName": "Prostate cancer",
+    "IndicatorLabel": "Prostate cancer",
+    "IndicatorDescription": "Prostate cancer affects men, with older men demonstrating higher risk. It is the most common non-skin cancer in men.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1500,
+        "MeasureName": "Prostate cancer, Average annual number (Males)",
+        "MeasurementType": "Average annual number (Males)",
+        "how_calculated": "Average annual number of male residents diagnosed with prostate cancer over a 5 year period.",
+        "Sources": "New York State Cancer Registry",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1501,
+        "MeasureName": "Prostate cancer, Age-adjusted rate (Males)",
+        "MeasurementType": "Age-adjusted rate (Males)",
+        "how_calculated": "Average annual number of male residents diagnosed with prostate cancer over the 5 year period, divided by the corresponding age-specific intercensal population estimates (from NYS DOH). The resulting age-specific rates are multiplied by the proportion of the US Census 2000 standard population in each age group. Average Age-adjusted rate is the sum of these weighted rates; expressed as cases per 100,000 male residents.",
+        "Sources": "New York State Cancer Registry",
+        "DisplayType": "per 100,000",
+        "AvailableGeoTypes": ["Borough", "Citywide", "PUMA2010", "Subboro"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "PUMA2010",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "Subboro",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 355]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
