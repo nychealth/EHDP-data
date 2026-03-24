@@ -181,6 +181,11 @@
   },
   {
     "title": "Climate_and_Health",
+    "indicator_name": "Residents living in a hurricane evacuation zone",
+    "indicator_description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and indicate varying threat levels of coastal flooding from storm surge. Evacuation orders may be given during hurricanes or coastal flooding events. There are six zones, ranked by storm surge risk. Zone 1 is the highest risk for flooding. Residents in these zones may receive evacuation orders during hurricanes or tropical storms."
+  },
+  {
+    "title": "Climate_and_Health",
     "indicator_name": "Daytime summer surface temperature",
     "indicator_description": "Spatial average of surface temperature, measured by satellite. Surface temperatures vary because of vegetative cover (which promotes cooling), and paved roads, sidewalks, and buildings (which retain heat). Hotter neighborhoods tend to have more heat-exacerbated deaths associated with extreme heat events."
   },
