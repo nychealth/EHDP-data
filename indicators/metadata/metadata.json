@@ -35114,7 +35114,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/placeholder/alcohol-access"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/placeholder/alcohol-access"
+      }
+    ]
   },
   {
     "IndicatorID": 2050,
@@ -36778,7 +36783,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/placeholder/alcohol-access-youth"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/placeholder/alcohol-access-youth"
+      }
+    ]
   },
   {
     "IndicatorID": 2058,
@@ -75780,7 +75790,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4/data_preview"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4/data_preview"
+      }
+    ]
   },
   {
     "IndicatorID": 2366,
@@ -91920,7 +91935,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/Environment/DSNY-Litter-Basket-Map-/d6m8-cwh9"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/Environment/DSNY-Litter-Basket-Map-/d6m8-cwh9"
+      }
+    ]
   },
   {
     "IndicatorID": 2417,
@@ -93138,7 +93158,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/placeholder/tobacco-retailers"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/placeholder/tobacco-retailers"
+      }
+    ]
   },
   {
     "IndicatorID": 2422,
@@ -93730,7 +93755,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/placeholder/average-citi-bike-availability"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/placeholder/average-citi-bike-availability"
+      }
+    ]
   },
   {
     "IndicatorID": 2426,
@@ -94268,7 +94298,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/placeholder/citi-bike-stations"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/placeholder/citi-bike-stations"
+      }
+    ]
   },
   {
     "IndicatorID": 2427,
@@ -96292,7 +96327,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/Health/NYC-Farmers-Markets/8vwk-6iz2/data_preview"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/Health/NYC-Farmers-Markets/8vwk-6iz2/data_preview"
+      }
+    ]
   },
   {
     "IndicatorID": 2433,
@@ -101712,7 +101752,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/City-Government/Public-Restrooms/i7jb-7jku/data_preview"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/City-Government/Public-Restrooms/i7jb-7jku/data_preview"
+      }
+    ]
   },
   {
     "IndicatorID": 2458,
@@ -101944,7 +101989,12 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/placeholder/walking-distance-accessible-subway"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/placeholder/walking-distance-accessible-subway"
+      }
+    ]
   },
   {
     "IndicatorID": 2459,
@@ -102815,7 +102865,16 @@
         ]
       }
     ],
-    "DataSourceLink": "https://data.cityofnewyork.us/Transportation/Real-Time-Passenger-Information-Sign-Locations/g9jx-npbk/data_preview"
+    "DataSourceLink": [
+      {
+        "label": "View source data",
+        "url": "https://google.com"
+      },
+      {
+        "label": "View source data",
+        "url": "https://data.cityofnewyork.us/Transportation/Real-Time-Passenger-Information-Sign-Locations/g9jx-npbk/data_preview"
+      }
+    ]
   },
   {
     "IndicatorID": 2461,
