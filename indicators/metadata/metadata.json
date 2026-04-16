@@ -26407,6 +26407,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of children who live in a household for whom poverty status is determined, whose annual income falls below twice the federal poverty.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST1Y2024.S1701"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -49781,10 +49787,6 @@
         "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ; OpenStreetMap",
         "DataSourceLink": [
           {
-            "label": "Metropolitan Transportation Authority",
-            "url": "https://google.com"
-          },
-          {
             "label": "New York City Department of Transportation",
             "url": "https://data.cityofnewyork.us/Transportation/Real-Time-Passenger-Information-Sign-Locations/g9jx-npbk/data_preview"
           }
@@ -49871,10 +49873,6 @@
         "how_calculated": "Percent of people within a half mile of an audio bus stop. These bus stops include a push-button activated audio announcement of the real-time bus arrival information.",
         "Sources": "New York City Department of Transportation ; Metropolitan Transportation Authority ; OpenStreetMap",
         "DataSourceLink": [
-          {
-            "label": "Metropolitan Transportation Authority",
-            "url": "https://google.com"
-          },
           {
             "label": "New York City Department of Transportation",
             "url": "https://data.cityofnewyork.us/Transportation/Real-Time-Passenger-Information-Sign-Locations/g9jx-npbk/data_preview"
