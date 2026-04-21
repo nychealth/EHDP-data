@@ -18633,8 +18633,12 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -20523,8 +20527,12 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -20658,8 +20666,12 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 1
@@ -20793,7 +20805,11 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": 643,
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 990,
                     "SecondaryAxis": "x"
                   }
                 ],
@@ -50704,6 +50720,474 @@
                   }
                 ],
                 "Disparities": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2465,
+    "IndicatorName": "Adults with diabetes",
+    "IndicatorLabel": "Adults with diabetes",
+    "IndicatorDescription": "Adults reporting ever having had a diagnosis of diabetes.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1473,
+        "MeasureName": "Adults with diabetes, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Representative survey based estimated number of non-institutionalized adults age 18 years and older who report having ever received a medical diagnosis of diabetes.",
+        "Sources": "New York City Community Health Survey (CHS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "TrendNoCompare": "2021",
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [296],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1474,
+        "MeasureName": "Adults with diabetes, Rate",
+        "MeasurementType": "Rate",
+        "how_calculated": "Representative survey based estimated number of non-institutionalized adults age 18 years and older who report having ever received a medical diagnosis of diabetes, expressed as rate per 100 residents.",
+        "Sources": "New York City Community Health Survey (CHS)",
+        "DisplayType": "per 100 residents",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF34"],
+        "TrendNoCompare": "2021",
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [296],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2466,
+    "IndicatorName": "Adults with very high blood sugar levels  (A1C > 9%)",
+    "IndicatorLabel": "Adults with very high blood sugar levels  (A1C > 9%)",
+    "IndicatorDescription": "Blood sugar levels (A1C) above 9% among adults with diabetes.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1475,
+        "MeasureName": "Adults with very high blood sugar levels  (A1C > 9%), Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Number of adults age 18 years and older likely with diabetes, based on a history of at least two A1C test values of 6.5% or greater. The New York City A1C Registry was created in 2006 and contains results of A1C tests sent to clinical laboratories for NYC residents. All data presented here are limited to NYC adults ages 18 and older at the time of their first reported result in the Registry and who had diabetes, defined as at least two A1C test values of 6.5% or greater at any point in time since inception of the Registry in 2006 through 2022. This definition utilizes the American Diabetes Association-recommended A1C cut-point of 6.5% for diabetes diagnosis since the Registry does not contain diagnosis codes. https://www.nyc.gov/site/doh/health/health-topics/diabetes-the-new-york-city-a-one-c-registry.page",
+        "Sources": "New York City A1C Registry",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [296],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1476,
+        "MeasureName": "Adults with very high blood sugar levels  (A1C > 9%), Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Number of adults age 18 years and older likely with diabetes, based on a history of at least two A1C test values of 6.5% or greater, expressed as a percent. The New York City A1C Registry was created in 2006 and contains results of A1C tests sent to clinical laboratories for NYC residents. All data presented here are limited to NYC adults ages 18 and older at the time of their first reported result in the Registry and who had diabetes, defined as at least two A1C test values of 6.5% or greater at any point in time since inception of the Registry in 2006 through 2022. This definition utilizes the American Diabetes Association-recommended A1C cut-point of 6.5% for diabetes diagnosis since the Registry does not contain diagnosis codes. https://www.nyc.gov/site/doh/health/health-topics/diabetes-the-new-york-city-a-one-c-registry.page",
+        "Sources": "New York City A1C Registry",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [296],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2467,
+    "IndicatorName": "Lower extremity amputations (diabetes-related)",
+    "IndicatorLabel": "Lower extremity amputations (diabetes-related)",
+    "IndicatorDescription": "Lower extremity amputations (hip, leg, complete foot, partial foot, toe and not otherwise specified amputations) among adults with diabetes.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1477,
+        "MeasureName": "Lower extremity amputations (diabetes-related), Number",
+        "MeasurementType": "Number",
+        "how_calculated": "<p>Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework and outcomes are defined using a modified version of the Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicator (PQI) measuring the rate of lower extremity amputation (LEA) among patients with diabetes. Our case definition for diabetes-related LEA included all admissions for any listed diagnosis of diabetes and any listed non-traumatic LEA procedure code during a recorded inpatient hospitalization stay, including all hip, leg, complete foot, partial foot, toe and not otherwise specified amputations. All data presented are limited to NYC residents ages 18 and older.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [296],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "MeasureID": 1478,
+        "MeasureName": "Lower extremity amputations (diabetes-related), Age-adjusted rate",
+        "MeasurementType": "Age-adjusted rate",
+        "how_calculated": "<p>Diagnoses are coded according to the International Statistical Classification of Diseases and Related Health Problems-10th Revision framework and outcomes are defined using a modified version of the Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicator (PQI) measuring the rate of lower extremity amputation (LEA) among patients with diabetes. Our case definition for diabetes-related LEA included all admissions for any listed diagnosis of diabetes and any listed non-traumatic LEA procedure code during a recorded inpatient hospitalization stay, including all hip, leg, complete foot, partial foot, toe and not otherwise specified amputations. All data presented in are limited to NYC residents ages 18 and older. Expressed as rate per 100,000 adults, age-adjusted to the 2000 Census.<\/p><p>The raw data used to produce this publication was purchased from or provided by the New York State Department of Health (NYSDOH). However, the calculations, metrics, conclusions derived, and views expressed herein are those of the author(s) and do not reflect the conclusions or views of NYSDOH. NYSDOH, its employees, officers, and agents make no representation, warranty, or guarantee as to the accuracy, completeness, currency, or suitability of the information provided here.<\/p>",
+        "Sources": "Statewide Planning and Research Cooperative System",
+        "DisplayType": "per 100,000 adults",
+        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [296],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2468,
+    "IndicatorName": "Dialysis patients (diabetes-related)",
+    "IndicatorLabel": "Dialysis patients (diabetes-related)",
+    "IndicatorDescription": "Total cases of dialysis among adults with diabetes.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1479,
+        "MeasureName": "Dialysis patients (diabetes-related), Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Estimated number of adults age 18 years and older with end-stage renal disease (ESRD) who recieved hemodialysis.",
+        "Sources": "United States Renal Data System (USRDS)",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "Citywide"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [296],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [296]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [296]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
               }
             ]
           }
