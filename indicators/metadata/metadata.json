@@ -1212,6 +1212,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of people born outside the US or its territories (which includes Puerto Rico), divided by the total population; expressed as a percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSSPP1Y2021.S0201?q=Foreign-Born&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -1352,6 +1358,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people born outside the US or its territories including Puerto Rico.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSSPP1Y2021.S0201?q=Foreign-Born&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -10238,6 +10250,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of people for whom poverty status is determined, whose annual income falls below 100% of the federal poverty level, divided by the number of people for whom poverty status is determined; expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2021.S1701?q=Poverty&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -10366,6 +10384,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people for whom poverty status is determined, whose annual income falls below 100% of the federal poverty level.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2021.S1701?q=Poverty&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -24616,6 +24640,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of adults in the civilian noninstitutionalized population (18 years and older) who report independent living difficulty because of a physical, mental, or emotional problem, or having difficulty doing errands alone such as visiting a doctor's office or shopping, divided by the total civilian noninstitutionalized population (18 years and older); expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -24724,6 +24754,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of adults in the civilian noninstitutionalized population (18 years and older) who report independent living difficulty because of a physical, mental, or emotional problem, or having difficulty doing errands alone such as visiting a doctor's office or shopping.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -26410,7 +26446,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST1Y2024.S1701"
+            "url": "https://data.census.gov/table/ACSST5Y2021.S1701?q=Poverty&g=160XX00US3651000"
           }
         ],
         "DisplayType": "",
@@ -26521,6 +26557,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of children in a household whose annual income falls below twice the federal poverty level, divided by the number of children in households for whom poverty status is determined; expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2021.S1701?q=Poverty&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -41757,6 +41799,12 @@
         "MeasurementType": "Bicycle (number)",
         "how_calculated": "Estimated number of workers age 16 years and over who usually rode a bicycle to work",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -41865,6 +41913,12 @@
         "MeasurementType": "Car, truck, or van (number)",
         "how_calculated": "Estimated number of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -41973,6 +42027,12 @@
         "MeasurementType": "Public transportation (number)",
         "how_calculated": "Estimated number of workers age 16 years and over who usually took public transportation to work",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -42081,6 +42141,12 @@
         "MeasurementType": "Walked (number)",
         "how_calculated": "Estimated number of workers age 16 years and over who usually walked to work",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -42189,6 +42255,12 @@
         "MeasurementType": "Bicycle (percent)",
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually rode a bicycle to work",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -42297,6 +42369,12 @@
         "MeasurementType": "Car, truck, or van (percent)",
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually took a car, truck, or van to work (either as a driver or passenger)",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -42405,6 +42483,12 @@
         "MeasurementType": "Public transportation (percent)",
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually took public transportation to work",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -42513,6 +42597,12 @@
         "MeasurementType": "Walked (percent)",
         "how_calculated": "Estimated percentage of workers age 16 years and over who usually walked to work",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -49542,6 +49632,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Number of New Yorkers who have difficulty walking or climbing stairs.\r\n",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
@@ -49659,6 +49755,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Percentage of all New Yorkers who have difficulty walking or climbing stairs.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
@@ -49968,6 +50070,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Number of New Yorkers with cognitive difficulty.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
@@ -50085,6 +50193,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Percentage of all New Yorkers with cognitive difficulty.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
@@ -50211,6 +50325,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Number of New Yorkers who have difficulty hearing.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
@@ -50328,6 +50448,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Percentage of all New Yorkers with difficulty hearing.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
@@ -50454,6 +50580,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Number of New Yorkers with self-care difficulty.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
@@ -50571,6 +50703,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Percentage of all New Yorkers with self-care difficulty.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
@@ -50697,6 +50835,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Number of New Yorkers with vision difficulty.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
@@ -50814,6 +50958,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Percentage of all New Yorkers with vision difficulty.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
