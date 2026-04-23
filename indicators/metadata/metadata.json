@@ -1481,6 +1481,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of housing units with more than 1 occupant per room, divided by the number of occupied housing units; expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2021.S2501?q=Household+Size+and+Type&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -1613,6 +1619,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of housing units with more than 1 occupant per room.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2021.S2501?q=Household+Size+and+Type&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -1730,6 +1742,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Number of housing units built before 1950.",
         "Sources": "United States Census; American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2021.B25034?q=B25034&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -1847,6 +1865,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Number of housing units built before 1950, divided by all housing units; expressed as percent.    ",
         "Sources": "United States Census; American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2021.B25034?q=B25034&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -1985,6 +2009,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of housing units occupied by the owner, divided by all occupied housing units; expressed as percent.    ",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2021.DP04?q=home+ownership&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -2101,6 +2131,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of housing units occupied by the owner.    ",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2021.DP04?q=home+ownership&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -24877,6 +24913,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Percent of people aged 65 and older living alone",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2021.B09020?q=B09020:+Relationship+by+Household+Type+(Including+Living+Alone)+for+the+Population+65+Years+and+Over&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -24993,6 +25035,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people aged 65 and older living alone.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2021.B09020?q=B09020:+Relationship+by+Household+Type+(Including+Living+Alone)+for+the+Population+65+Years+and+Over&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -31592,6 +31640,12 @@
         "MeasurementType": "Asian alone (percent)",
         "how_calculated": "Estimated percent of people who are only Asian.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -31700,6 +31754,12 @@
         "MeasurementType": "Black alone (percent)",
         "how_calculated": "Estimated percent of people who are only Black.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -31808,6 +31868,12 @@
         "MeasurementType": "Hispanic alone (percent)",
         "how_calculated": "Estimated Percent Hispanic",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -31916,6 +31982,12 @@
         "MeasurementType": "White alone (percent)",
         "how_calculated": "Estimated Percent White",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32024,6 +32096,12 @@
         "MeasurementType": "Total population",
         "how_calculated": "Estimated total population.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32098,6 +32176,12 @@
         "MeasurementType": "Non-white (percent)",
         "how_calculated": "Estiamted percent of people who are not White.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32215,6 +32299,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people 25 years and over who have completed High School (Includes Equivalency).",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2021.S1501?q=high+school&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32323,6 +32413,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of people 25 years and over who have completed High School (Includes Equivalency), divided by the total number of people 25 years and over; expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2021.S1501?q=high+school&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32673,6 +32769,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of renter households whose gross rent (rent plus electricity and heating fuel costs) equals at least 30 percent of their income.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2021.B25070?q=B25070&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32781,6 +32883,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of renter households whose gross rent (rent plus electricity and heating fuel costs) equals at least 30 percent of their income, divided by the total number of households; expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2021.B25070?q=B25070&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32914,6 +33022,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people in the civilian labor force (16 years and older) who are unemployed. All civilians 16 years old and over are classified as unemployed if they (1) were neither \"at work\" nor \"with a job but not at work\" during the reference week, and (2) were looking for work during the last 4 weeks, and (3) were available to accept a job. Also included as unemployed are civilians who did not work at all during the reference week, were waiting to be called back to a job from which they had been laid off, and were available for work except for temporary illness.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2021.S2301?q=unemployment&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -33022,6 +33136,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of people in the civilian labor force (16 years and older) who are unemployed, divided by the total civilian labor force; expressed as percent.All civilians 16 years old and over are classified as unemployed if they (1) were neither \"at work\" nor \"with a job but not at work\" during the reference week, and (2) were looking for work during the last 4 weeks, and (3) were available to accept a job. Also included as unemployed are civilians who did not work at all during the reference week, were waiting to be called back to a job from which they had been laid off, and were available for work except for temporary illness.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSST5Y2021.S2301?q=unemployment&g=160XX00US3651000"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -41802,7 +41922,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSST5Y2021.S0801?q=Commuting&g=160XX00US3651000"
           }
         ],
         "DisplayType": "",
@@ -41916,7 +42036,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSST5Y2021.S0801?q=Commuting&g=160XX00US3651000"
           }
         ],
         "DisplayType": "",
@@ -42030,7 +42150,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSST5Y2021.S0801?q=Commuting&g=160XX00US3651000"
           }
         ],
         "DisplayType": "",
@@ -42144,7 +42264,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSST5Y2021.S0801?q=Commuting&g=160XX00US3651000"
           }
         ],
         "DisplayType": "",
@@ -42258,7 +42378,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSST5Y2021.S0801?q=Commuting&g=160XX00US3651000"
           }
         ],
         "DisplayType": "",
@@ -42372,7 +42492,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSST5Y2021.S0801?q=Commuting&g=160XX00US3651000"
           }
         ],
         "DisplayType": "",
@@ -42486,7 +42606,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSST5Y2021.S0801?q=Commuting&g=160XX00US3651000"
           }
         ],
         "DisplayType": "",
@@ -42600,7 +42720,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSST5Y2021.S0801?q=Commuting&g=160XX00US3651000"
           }
         ],
         "DisplayType": "",
