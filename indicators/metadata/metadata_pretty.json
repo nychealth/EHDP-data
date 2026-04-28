@@ -1734,97 +1734,97 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [4, 312, 348, 355]
+                "TimePeriodID": [4, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [4, 312, 348, 355],
+                "TimePeriodID": [4, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -1851,97 +1851,97 @@
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [4, 312, 348, 355]
+                "TimePeriodID": [4, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF34",
-                "TimePeriodID": [4, 312, 348, 355],
+                "TimePeriodID": [4, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [4, 203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -10260,88 +10260,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -10394,88 +10394,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -12097,7 +12097,7 @@
     "IndicatorID": 2023,
     "IndicatorName": "Fine particles (PM 2.5)",
     "IndicatorLabel": "Fine particles (PM 2.5)",
-    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion — and are a major form of air pollution that harms health. Neighborhood sensors measure PM2.5 at the street-level, where people are most active. These sensors are designed to let us measure differences in air pollution over time and locations within New York City.",
+    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion â€” and are a major form of air pollution that harms health. Neighborhood sensors measure PM2.5 at the street-level, where people are most active. These sensors are designed to let us measure differences in air pollution over time and locations within New York City.",
     "Comparisons": null,
     "Measures": [
       {
@@ -24650,88 +24650,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -24764,88 +24764,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -24881,88 +24881,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -24997,88 +24997,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -26453,88 +26453,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -26567,88 +26567,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -32677,88 +32677,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -32785,88 +32785,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -32918,88 +32918,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -33026,88 +33026,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -41809,88 +41809,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -41923,88 +41923,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -42037,88 +42037,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -42151,88 +42151,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -42265,88 +42265,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -42379,88 +42379,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -42493,88 +42493,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -42607,88 +42607,88 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355]
+                "TimePeriodID": [299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348, 355],
+                "TimePeriodID": [299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "Subboro",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 312, 348, 355, 363],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 288, 299, 300, 312, 348, 355, 363]
               }
             ],
             "Links": [
@@ -48565,7 +48565,7 @@
     "IndicatorID": 2449,
     "IndicatorName": "Regulatory PM2.5 monitoring",
     "IndicatorLabel": "Regulatory PM2.5 monitoring",
-    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health. Regulatory PM2.5 sensors collect readings on the tops of buildings that measure regional changes in air quality for the federal Clean Air Act. This indicator is one of the federal standards for PM2.5 (9.0 µg/m3).",
+    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health. Regulatory PM2.5 sensors collect readings on the tops of buildings that measure regional changes in air quality for the federal Clean Air Act. This indicator is one of the federal standards for PM2.5 (9.0 Âµg/m3).",
     "Comparisons": null,
     "Measures": [
       {
@@ -49642,97 +49642,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -49765,97 +49765,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -50080,97 +50080,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -50203,97 +50203,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -50335,97 +50335,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -50458,97 +50458,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -50590,97 +50590,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -50713,97 +50713,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -50845,97 +50845,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
@@ -50968,97 +50968,97 @@
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "PUMA2010", "UHF42", "CDTA2020", "NTA2020", "PUMA2020"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+        "AvailableTimePeriodIDs": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363]
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348]
+                "TimePeriodID": [299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CD",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "CDTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "NTA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2010",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "PUMA2020",
-                "TimePeriodID": [299, 300, 312, 348],
+                "TimePeriodID": [299, 300, 312, 348, 363],
                 "RankReverse": 0
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348],
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363],
                 "RankReverse": 0
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348]
+                "TimePeriodID": [203, 235, 236, 242, 247, 255, 257, 287, 299, 300, 312, 348, 363]
               }
             ],
             "Links": [
