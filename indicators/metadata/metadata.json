@@ -1215,7 +1215,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSSPP1Y2021.S0201?q=Foreign-Born&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP02"
           }
         ],
         "DisplayType": "",
@@ -1361,7 +1361,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSSPP1Y2021.S0201?q=Foreign-Born&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP02"
           }
         ],
         "DisplayType": "",
@@ -31655,7 +31655,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
           }
         ],
         "DisplayType": "",
@@ -31769,7 +31769,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
           }
         ],
         "DisplayType": "",
@@ -31883,7 +31883,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
           }
         ],
         "DisplayType": "",
@@ -31997,7 +31997,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
           }
         ],
         "DisplayType": "",
@@ -32111,7 +32111,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
           }
         ],
         "DisplayType": "",
@@ -32191,7 +32191,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSDP5Y2021.DP05?q=DP05&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
           }
         ],
         "DisplayType": "",
@@ -41946,7 +41946,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42060,7 +42060,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42174,7 +42174,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42288,7 +42288,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42402,7 +42402,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42516,7 +42516,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42630,7 +42630,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42744,7 +42744,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -49779,7 +49779,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18105"
           }
         ],
         "DisplayType": "",
@@ -49902,7 +49902,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18105"
           }
         ],
         "DisplayType": "",
