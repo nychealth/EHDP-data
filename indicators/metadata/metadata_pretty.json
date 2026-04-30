@@ -1215,7 +1215,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSSPP1Y2021.S0201?q=Foreign-Born&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP02"
           }
         ],
         "DisplayType": "",
@@ -1361,7 +1361,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSSPP1Y2021.S0201?q=Foreign-Born&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP02"
           }
         ],
         "DisplayType": "",
@@ -1481,6 +1481,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of housing units with more than 1 occupant per room, divided by the number of occupied housing units; expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP04"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -1613,6 +1619,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of housing units with more than 1 occupant per room.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP04"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -1730,6 +1742,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Number of housing units built before 1950.",
         "Sources": "United States Census; American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B25034"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -1847,6 +1865,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Number of housing units built before 1950, divided by all housing units; expressed as percent.    ",
         "Sources": "United States Census; American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B25034"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "Citywide", "Subboro", "UHF34", "UHF42", "CD", "NTA2010", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -1985,6 +2009,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of housing units occupied by the owner, divided by all occupied housing units; expressed as percent.    ",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP04"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -2101,6 +2131,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of housing units occupied by the owner.    ",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP04"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -10253,7 +10289,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2021.S1701?q=Poverty&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B17001"
           }
         ],
         "DisplayType": "",
@@ -10387,7 +10423,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2021.S1701?q=Poverty&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B17001"
           }
         ],
         "DisplayType": "",
@@ -10498,6 +10534,12 @@
         "MeasurementType": "Rank",
         "how_calculated": "test",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B17001"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["CD", "NTA2010", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -12097,7 +12139,7 @@
     "IndicatorID": 2023,
     "IndicatorName": "Fine particles (PM 2.5)",
     "IndicatorLabel": "Fine particles (PM 2.5)",
-    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion â€” and are a major form of air pollution that harms health. Neighborhood sensors measure PM2.5 at the street-level, where people are most active. These sensors are designed to let us measure differences in air pollution over time and locations within New York City.",
+    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion — and are a major form of air pollution that harms health. Neighborhood sensors measure PM2.5 at the street-level, where people are most active. These sensors are designed to let us measure differences in air pollution over time and locations within New York City.",
     "Comparisons": null,
     "Measures": [
       {
@@ -24643,7 +24685,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18107"
           }
         ],
         "DisplayType": "",
@@ -24757,7 +24799,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18107"
           }
         ],
         "DisplayType": "",
@@ -24877,6 +24919,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Percent of people aged 65 and older living alone",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B09020"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -24993,6 +25041,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people aged 65 and older living alone.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B09020"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -26446,7 +26500,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2021.S1701?q=Poverty&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B17001"
           }
         ],
         "DisplayType": "",
@@ -26560,7 +26614,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2021.S1701?q=Poverty&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B17001"
           }
         ],
         "DisplayType": "",
@@ -26679,6 +26733,12 @@
         "MeasurementType": "Rank",
         "how_calculated": "Neighborhoods are ranked citywide in 3 groups (tertiles), so that neighborhoods can be grouped and compared.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B17001"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["CD", "NTA2010", "Subboro", "UHF42"],
         "TrendNoCompare": null,
@@ -31592,6 +31652,12 @@
         "MeasurementType": "Asian alone (percent)",
         "how_calculated": "Estimated percent of people who are only Asian.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -31700,6 +31766,12 @@
         "MeasurementType": "Black alone (percent)",
         "how_calculated": "Estimated percent of people who are only Black.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -31808,6 +31880,12 @@
         "MeasurementType": "Hispanic alone (percent)",
         "how_calculated": "Estimated Percent Hispanic",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -31916,6 +31994,12 @@
         "MeasurementType": "White alone (percent)",
         "how_calculated": "Estimated Percent White",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32024,6 +32108,12 @@
         "MeasurementType": "Total population",
         "how_calculated": "Estimated total population.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32098,6 +32188,12 @@
         "MeasurementType": "Non-white (percent)",
         "how_calculated": "Estiamted percent of people who are not White.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP05"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32215,6 +32311,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people 25 years and over who have completed High School (Includes Equivalency).",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP02"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32323,6 +32425,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of people 25 years and over who have completed High School (Includes Equivalency), divided by the total number of people 25 years and over; expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP02"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32448,6 +32556,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people who do not speak English at home and are not English Proficent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP02"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32556,6 +32670,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of people who do not speak English at home and are not English Proficent, divided by the total population; expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDP5Y2024.DP02"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32673,6 +32793,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of renter households whose gross rent (rent plus electricity and heating fuel costs) equals at least 30 percent of their income.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B25070"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32781,6 +32907,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of renter households whose gross rent (rent plus electricity and heating fuel costs) equals at least 30 percent of their income, divided by the total number of households; expressed as percent.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B25070"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -32914,6 +33046,12 @@
         "MeasurementType": "Number",
         "how_calculated": "Estimated number of people in the civilian labor force (16 years and older) who are unemployed. All civilians 16 years old and over are classified as unemployed if they (1) were neither \"at work\" nor \"with a job but not at work\" during the reference week, and (2) were looking for work during the last 4 weeks, and (3) were available to accept a job. Also included as unemployed are civilians who did not work at all during the reference week, were waiting to be called back to a job from which they had been laid off, and were available for work except for temporary illness.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B23025"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -33022,6 +33160,12 @@
         "MeasurementType": "Percent",
         "how_calculated": "Estimated number of people in the civilian labor force (16 years and older) who are unemployed, divided by the total civilian labor force; expressed as percent.All civilians 16 years old and over are classified as unemployed if they (1) were neither \"at work\" nor \"with a job but not at work\" during the reference week, and (2) were looking for work during the last 4 weeks, and (3) were available to accept a job. Also included as unemployed are civilians who did not work at all during the reference week, were waiting to be called back to a job from which they had been laid off, and were available for work except for temporary illness.",
         "Sources": "American Community Survey",
+        "DataSourceLink": [
+          {
+            "label": "American Community Survey",
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B23025"
+          }
+        ],
         "DisplayType": "",
         "AvailableGeoTypes": ["Borough", "CD", "Citywide", "NTA2010", "Subboro", "UHF42", "CDTA2020", "NTA2020"],
         "TrendNoCompare": null,
@@ -41802,7 +41946,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -41916,7 +42060,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42030,7 +42174,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42144,7 +42288,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42258,7 +42402,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42372,7 +42516,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42486,7 +42630,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -42600,7 +42744,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table?q=Commuting&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B08301"
           }
         ],
         "DisplayType": "",
@@ -48565,7 +48709,7 @@
     "IndicatorID": 2449,
     "IndicatorName": "Regulatory PM2.5 monitoring",
     "IndicatorLabel": "Regulatory PM2.5 monitoring",
-    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health. Regulatory PM2.5 sensors collect readings on the tops of buildings that measure regional changes in air quality for the federal Clean Air Act. This indicator is one of the federal standards for PM2.5 (9.0 Âµg/m3).",
+    "IndicatorDescription": "Concentration of fine particles in the air. Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health. Regulatory PM2.5 sensors collect readings on the tops of buildings that measure regional changes in air quality for the federal Clean Air Act. This indicator is one of the federal standards for PM2.5 (9.0 µg/m3).",
     "Comparisons": null,
     "Measures": [
       {
@@ -49635,7 +49779,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18105"
           }
         ],
         "DisplayType": "",
@@ -49758,7 +49902,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18105"
           }
         ],
         "DisplayType": "",
@@ -50073,7 +50217,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18104"
           }
         ],
         "DisplayType": "",
@@ -50196,7 +50340,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18104"
           }
         ],
         "DisplayType": "",
@@ -50328,7 +50472,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18102"
           }
         ],
         "DisplayType": "",
@@ -50451,7 +50595,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18102"
           }
         ],
         "DisplayType": "",
@@ -50583,7 +50727,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18106"
           }
         ],
         "DisplayType": "",
@@ -50706,7 +50850,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18106"
           }
         ],
         "DisplayType": "",
@@ -50838,7 +50982,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18103"
           }
         ],
         "DisplayType": "",
@@ -50961,7 +51105,7 @@
         "DataSourceLink": [
           {
             "label": "American Community Survey",
-            "url": "https://data.census.gov/table/ACSST5Y2023.S1810?q=S1810:+Disability+Characteristics&g=160XX00US3651000"
+            "url": "https://data.census.gov/table/ACSDT5Y2024.B18103"
           }
         ],
         "DisplayType": "",
