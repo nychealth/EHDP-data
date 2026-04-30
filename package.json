@@ -4,7 +4,8 @@
   "description": "This repository serves data used by [the Environment and Health Data Portal](https://a816-dohbesp.nyc.gov/IndicatorPublic/beta/).",
   "main": "\"\"",
   "scripts": {
-    "test": "\"\""
+    "test": "\"\"",
+    "minify-metadata": "node -e \"const fs=require('fs');fs.writeFileSync('indicators/metadata/metadata.json',JSON.stringify(JSON.parse(fs.readFileSync('indicators/metadata/metadata_pretty.json'))))\""
   },
   "repository": {
     "type": "git",
