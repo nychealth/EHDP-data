@@ -18109,46 +18109,64 @@
         "how_calculated": "Percent of currently operating restaurants with an \"A\" grade in the window, divided by all currently operating restaurants, including those with a \"Grade Pending\" in the window. ",
         "Sources": "New York City Food Safety and Community Sanitation Tracking System",
         "DisplayType": "",
-        "AvailableGeoTypes": ["Borough", "Citywide", "UHF42"],
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
         "TrendNoCompare": null,
         "TrendThreshold": null,
-        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 117],
+        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 117, 298, 334, 349],
         "VisOptions": [
           {
             "Table": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 117]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 117, 298, 334, 349]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 117]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 117, 298, 334, 349]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 117]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 117, 298, 334, 349]
               }
             ],
             "Map": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 117],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 117, 298, 334, 349],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 1
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
                 "RankReverse": 1
               },
               {
                 "GeoType": "UHF42",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 117],
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 117, 298, 334, 349],
                 "RankReverse": 1
               }
             ],
             "Trend": [
               {
                 "GeoType": "Borough",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 117]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 117, 298, 334, 349]
               },
               {
                 "GeoType": "Citywide",
-                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 117]
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 117, 298, 334, 349]
               }
             ],
             "Links": [
@@ -56151,6 +56169,366 @@
                   }
                 ],
                 "Disparities": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2478,
+    "IndicatorName": "Restaurants with letter grades",
+    "IndicatorLabel": "Restaurants with letter grades",
+    "IndicatorDescription": "Restaurants with an A, B, or C grade",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1502,
+        "MeasureName": "Restaurants with letter grades, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Cumulative number of restaurants with an A, B, or C letter grade as of July 1st of the listed year.",
+        "Sources": "New York City Food Safety and Community Sanitation Tracking System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2479,
+    "IndicatorName": "Restaurants with pending grades",
+    "IndicatorLabel": "Restaurants with pending grades",
+    "IndicatorDescription": "Restaurants with a pending grade as of July 1st of the listed year.",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1503,
+        "MeasureName": "Restaurants with pending grades, Number",
+        "MeasurementType": "Number",
+        "how_calculated": "Cumulative number of restaurants with a pending grade as of July 1st of the listed year.",
+        "Sources": "New York City Food Safety and Community Sanitation Tracking System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2480,
+    "IndicatorName": "Restaurants with B grades",
+    "IndicatorLabel": "Restaurants with B grades",
+    "IndicatorDescription": "Restaurants with a B grade",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1505,
+        "MeasureName": "Restaurants with B grades, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Cumulative number  of restaurants with a B letter grade as of July 1st of the listed year, divided by the total number of restaurants with any letter grade (excluding grade pending); expressed as a percent.",
+        "Sources": "New York City Food Safety and Community Sanitation Tracking System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IndicatorID": 2481,
+    "IndicatorName": "Restaurants with C grades",
+    "IndicatorLabel": "Restaurants with C grades",
+    "IndicatorDescription": "Restaurants with a C grade",
+    "Comparisons": null,
+    "Measures": [
+      {
+        "MeasureID": 1507,
+        "MeasureName": "Restaurants with C grades, Percent",
+        "MeasurementType": "Percent",
+        "how_calculated": "Cumulative number  of restaurants with a C letter grade as of July 1st of the listed year, divided by the total number of restaurants with any letter grade (excluding grade pending); expressed as a percent.",
+        "Sources": "New York City Food Safety and Community Sanitation Tracking System",
+        "DisplayType": "",
+        "AvailableGeoTypes": ["Borough", "CD", "Citywide", "UHF34", "UHF42"],
+        "TrendNoCompare": null,
+        "TrendThreshold": null,
+        "AvailableTimePeriodIDs": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+        "VisOptions": [
+          {
+            "Table": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              }
+            ],
+            "Map": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "CD",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF34",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              },
+              {
+                "GeoType": "UHF42",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349],
+                "RankReverse": 0
+              }
+            ],
+            "Trend": [
+              {
+                "GeoType": "Borough",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              },
+              {
+                "GeoType": "Citywide",
+                "TimePeriodID": [38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 298, 334, 349]
+              }
+            ],
+            "Links": [
+              {
+                "Measures": [
+                  {
+                    "MeasureID": null,
+                    "SecondaryAxis": null
+                  }
+                ],
+                "Disparities": 0
               }
             ]
           }
