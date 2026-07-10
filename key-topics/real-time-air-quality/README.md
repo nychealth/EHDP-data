@@ -1,6 +1,6 @@
 # Data feature: Real-time Air Quality in New York City.
 
-This repository contains near-real-time air quality from monitors in NYC. You can view these data in context on the [Environment and Health Data Portal's Air Quality Hub, here](https://a816-dohbesp.nyc.gov/IndicatorPublic/AQHub/realtime.html).
+This repository contains near-real-time air quality from monitors in NYC. You can view these data in context on the [Environment and Health Data Portal's Air Quality Hub, here](https://a816-dohbesp.nyc.gov/IndicatorPublic/key-topics/airquality/realtime/).
 
 ![image](https://user-images.githubusercontent.com/55593359/137518896-bbee3dfe-6f55-4e45-8182-e32bd582f6cf.png)
 
@@ -30,11 +30,10 @@ All data are preliminary and subject to change.
 | Williamsburg	      |40.710614	|-73.95938   |
 | Williamsburg Bridge	|40.718073	|-73.986059  |
 
-Not all monitoring locations will necessarily be utilized at the same time due to operational constraints.
-
+Not all monitoring locations will necessarily be utilized at the same time due to operational constraints. `RT_flat.csv` currently only includes columns for a subset of these: Queensboro Bridge, Williamsburg Bridge, Cross Bronx Expy, Queens College, Manhattan Bridge, and Broadway/35th St.
 
 ### Update frequency
-Data are pushed to this repository every hour and cover the last five days. However, each hourly update might not include new data.
+Data are intended to be pushed to this repository every hour and cover the last five days, though each hourly update might not include new data. **Note:** as of this writing `RT_flat.csv` in this repo has not been observed to update — confirm the live push is active before relying on this description.
 
 ## About the New York City Community Air Survey
 The [NYC Community Air Survey](https://nyccas.cityofnewyork.us/nyccas2021v9/report/2) is the largest ongoing urban air monitoring program of any U.S. City.  NYCCAS, which began collecting data in December 2008, is a collaboration between the Health Department and Queens College of the City University of New York and provides data to:

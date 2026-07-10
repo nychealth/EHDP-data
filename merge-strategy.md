@@ -25,6 +25,6 @@ This will involve deleting all data files from a copy of feature branch and the 
 
 **Notes:** 
 
-- The production database has to be updated before you export the data, including data updates or migration, and new or modified views and stored procedures.
+- The production database has to be updated before you export the data, including data updates or migration (`migrate_stag_to_prod_push_ready.bash`), and new or modified views and stored procedures (`export-scripts/update_sql_views_procedures.bash`/`.ps1`).
 - Creating a merge copy of the feature branch enables us to use the main feature branch as the data branch in code on `EH-dataportal` without breaking anything.
 - It feels dangerous to commit file deletions in a branch that will be merged into `production`, but it's actually safe. Because you're re-exporting the data on `merge/2023-12-28/production`, its [tip](https://git-scm.com/docs/gitglossary#def_branch) has the data files, and that's what will be merged into `production`.

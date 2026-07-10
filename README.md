@@ -1,6 +1,6 @@
 # The Environment and Health Data Portal: Data
 
-This repository serves data used by [the Environment and Health Data Portal](https://a816-dohbesp.nyc.gov/IndicatorPublic/beta/). 
+This repository serves data used by [the Environment and Health Data Portal](https://a816-dohbesp.nyc.gov/IndicatorPublic/). 
 
 Details on data files and definitions are available in Readme files in each folder:
 - data-stories
@@ -9,6 +9,8 @@ Details on data files and definitions are available in Readme files in each fold
 - indicators
 - key-topics
 - neighborhood-reports
+
+Because thousands of data files means thousands of potential merge conflicts, feature branches are merged into `production` following the process in [merge-strategy.md](merge-strategy.md).
 
 ## Contact us
 
