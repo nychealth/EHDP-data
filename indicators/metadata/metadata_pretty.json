@@ -6112,9 +6112,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -6158,9 +6158,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -6213,9 +6213,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -6259,9 +6259,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -6652,8 +6652,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 777,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -6760,8 +6760,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 777,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -7354,8 +7354,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 777,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -7462,8 +7462,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 777,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -8407,8 +8407,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 777,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -8515,8 +8515,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 777,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -9067,9 +9067,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -9113,9 +9113,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -9867,8 +9867,32 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 41,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 80,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 88,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 92,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 245,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -12360,8 +12384,60 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 2,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 4,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 6,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 8,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 31,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 155,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 460,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 643,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 644,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 645,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1196,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1199,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1201,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1204,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -12431,8 +12507,60 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 2,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 4,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 6,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 8,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 31,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 155,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 460,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 643,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 644,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 645,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1196,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1199,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1201,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1204,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -12634,8 +12762,60 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 2,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 4,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 6,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 8,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 31,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 155,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 460,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1196,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1199,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1201,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1204,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -12705,8 +12885,60 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 2,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 4,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 6,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 8,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 31,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 155,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 460,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1196,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1199,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1201,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1204,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -12896,8 +13128,48 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 2,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 4,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 6,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 8,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 31,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 155,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 460,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1196,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1199,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1201,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1204,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -12967,8 +13239,48 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 2,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 4,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 6,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 8,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 31,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 155,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 460,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1196,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1199,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1201,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1204,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 1
@@ -13741,9 +14053,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 288, 350, 351, 352, 353, 354, 355],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -13787,9 +14099,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 288, 350, 351, 352, 353, 354, 355],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -13842,9 +14154,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 288, 350, 351, 352, 353, 354, 355],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -13888,9 +14200,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 288, 350, 351, 352, 353, 354, 355],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -13943,9 +14255,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 288, 350, 351, 352, 353, 354, 355],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -13989,9 +14301,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [203, 235, 236, 242, 288, 350, 351, 352, 353, 354, 355],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14184,9 +14496,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14235,9 +14547,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14281,9 +14593,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14327,9 +14639,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14373,9 +14685,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14428,9 +14740,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14479,9 +14791,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14525,9 +14837,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14571,9 +14883,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14617,9 +14929,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14668,9 +14980,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308, 339, 340, 341, 342, 343, 344, 345, 346],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14714,9 +15026,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14765,9 +15077,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308, 339, 340, 341, 342, 343, 344, 345, 346],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14825,9 +15137,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14876,9 +15188,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14922,9 +15234,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -14968,9 +15280,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -15014,9 +15326,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -17542,9 +17854,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -18349,9 +18661,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -18395,9 +18707,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -18441,9 +18753,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -18487,9 +18799,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -18533,9 +18845,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -18921,8 +19233,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 777,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -18975,8 +19287,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 777,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -27257,8 +27569,40 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 25,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 27,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 29,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 78,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 755,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 792,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -27315,8 +27659,40 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 25,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 27,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 29,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 78,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 755,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 792,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -27494,8 +27870,40 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 24,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 25,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 27,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 29,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 78,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 755,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 792,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -27726,8 +28134,24 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 537,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1324,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1327,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 1330,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -27987,9 +28411,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [120, 121, 122, 123, 124, 125, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 223, 224, 225, 226, 227, 228, 229, 230, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -28038,9 +28462,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [120, 121, 122, 123, 124, 125, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 223, 224, 225, 226, 227, 228, 229, 230, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308, 339, 340, 341, 342, 343, 344, 345, 346],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -28089,9 +28513,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [120, 121, 122, 123, 124, 125, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 223, 224, 225, 226, 227, 228, 229, 230, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 301, 302, 303, 304, 305, 306, 307, 308, 339, 340, 341, 342, 343, 344, 345, 346],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -28135,9 +28559,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -28186,9 +28610,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -28232,9 +28656,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -28283,9 +28707,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -28329,9 +28753,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -30847,8 +31271,32 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 41,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 80,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 88,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 92,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 245,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -30910,8 +31358,32 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 41,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 80,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 88,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 92,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 245,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -30973,8 +31445,32 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 41,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 80,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 88,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 92,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 245,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -31036,8 +31532,32 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 41,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 80,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 88,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 92,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 245,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -31166,8 +31686,32 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 41,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 80,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 88,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 92,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 245,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -31654,8 +32198,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1322,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -31762,8 +32306,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1322,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -31870,8 +32414,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1322,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -31978,8 +32522,8 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 1322,
+                    "SecondaryAxis": "y"
                   }
                 ],
                 "Disparities": 0
@@ -33807,9 +34351,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -33853,9 +34397,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -33899,9 +34443,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -33945,9 +34489,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -33991,9 +34535,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -34037,9 +34581,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -34083,9 +34627,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -34129,9 +34673,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -34175,9 +34719,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -34443,9 +34987,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 1
               }
             ],
             "Trend": [
@@ -34489,9 +35033,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 1
               }
             ],
             "Trend": [
@@ -34535,9 +35079,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 1
               }
             ],
             "Trend": [
@@ -34581,9 +35125,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 1
               }
             ],
             "Trend": [
@@ -34627,9 +35171,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 1
               }
             ],
             "Trend": [
@@ -34673,9 +35217,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 1
               }
             ],
             "Trend": [
@@ -34937,9 +35481,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -34983,9 +35527,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35029,9 +35573,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35075,9 +35619,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35121,9 +35665,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35167,9 +35711,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35213,9 +35757,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35259,9 +35803,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35305,9 +35849,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35360,9 +35904,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35406,9 +35950,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35452,9 +35996,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35498,9 +36042,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35544,9 +36088,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35590,9 +36134,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35636,9 +36180,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35682,9 +36226,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35728,9 +36272,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35783,9 +36327,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35829,9 +36373,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35875,9 +36419,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35921,9 +36465,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -35967,9 +36511,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -36013,9 +36557,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -36068,9 +36612,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -36114,9 +36658,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -36160,9 +36704,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -36206,9 +36750,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -36252,9 +36796,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [49, 289, 296, 298],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -36454,9 +36998,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -37073,8 +37617,52 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 41,
+                    "SecondaryAxis": "y"
+                  },
+                  {
+                    "MeasureID": 47,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 90,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 292,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 307,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1335,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1425,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1428,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1431,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1434,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1435,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -37543,8 +38131,60 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 41,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 47,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 76,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 90,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 94,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 245,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 292,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 307,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1425,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1428,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1431,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1434,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1435,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -39667,9 +40307,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -39713,9 +40353,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -39759,9 +40399,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -42866,8 +43506,16 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 88,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 94,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1192,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -43046,8 +43694,16 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 88,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 94,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1192,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -43291,8 +43947,20 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 672,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -43564,8 +44232,20 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 672,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -43774,8 +44454,20 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 86,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 672,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1059,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -46343,8 +47035,20 @@
               {
                 "Measures": [
                   {
-                    "MeasureID": null,
-                    "SecondaryAxis": null
+                    "MeasureID": 27,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 29,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1029,
+                    "SecondaryAxis": "x"
+                  },
+                  {
+                    "MeasureID": 1317,
+                    "SecondaryAxis": "x"
                   }
                 ],
                 "Disparities": 0
@@ -48463,9 +49167,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+                "RankReverse": 0
               }
             ],
             "Trend": [
@@ -48509,9 +49213,9 @@
             ],
             "Map": [
               {
-                "GeoType": null,
-                "TimePeriodID": [],
-                "RankReverse": null
+                "GeoType": "Citywide",
+                "TimePeriodID": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 289, 296, 298, 334],
+                "RankReverse": 0
               }
             ],
             "Trend": [
